@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/md-enhance/</link>
     <description>Markdown Enhancement for VuePress</description>
     <language>en-US</language>
-    <pubDate>Fri, 29 Jan 2021 06:42:58 GMT</pubDate>
-    <lastBuildDate>Fri, 29 Jan 2021 06:42:58 GMT</lastBuildDate>
+    <pubDate>Fri, 29 Jan 2021 07:28:24 GMT</pubDate>
+    <lastBuildDate>Fri, 29 Jan 2021 07:28:24 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -1039,43 +1039,6 @@ Duplicated footnote reference[^second].
 <div><span>1</span><br></div></div>]]></content:encoded>
     </item>
     <item>
-      <title>New syntax in Markdown</title>
-      <link>https://vuepress-theme-hope.github.io/md-enhance/guide/</link>
-      <guid>https://vuepress-theme-hope.github.io/md-enhance/guide/</guid>
-      <source url="https://vuepress-theme-hope.github.io/md-enhance/rss.xml">New syntax in Markdown</source>
-      <content:encoded><![CDATA[<h1 id="new-syntax-in-markdown"> New syntax in Markdown</h1>
-<p>By installing and enableing this plugin, you can use more syntax in your Markdown files.</p>
-<p>If you don’t need them and want to reduce your site size, you can remove them from your code by not enabling them.</p>
-<h2 id="new-feature"> New Feature</h2>
-<ul>
-<li>
-<p><a href="./sup-sub.html">Superscript and Subscript</a></p>
-</li>
-<li>
-<p><a href="./align.html">Align</a></p>
-</li>
-<li>
-<p><a href="./footnote.html">Footnote</a></p>
-</li>
-<li>
-<p><a href="./mark.html">Mark</a></p>
-</li>
-<li>
-<p><a href="./flowchart.html">Flowchart</a></p>
-</li>
-<li>
-<p><a href="./tex.html"><span><span><i>Not supported content</i></span><span aria-hidden="true"><span><span style="height:0.89883em;vertical-align:-0.2155em;"></span><span><span>T</span><span style="margin-right:-0.1667em;"></span><span><span><span style="height:0.46782999999999997em;"><span style="top:-2.7845em;"><span style="height:3em;"></span><span><span>E</span></span></span></span><span>​</span></span><span><span style="height:0.2155em;"><span></span></span></span></span><span style="margin-right:-0.125em;"></span><span>X</span></span></span></span></span> Syntax</a></p>
-</li>
-<li>
-<p><a href="./demo.html">Code demo</a></p>
-</li>
-<li>
-<p><a href="./presentation.html">Presentation</a></p>
-</li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
       <title>Presentation support</title>
       <link>https://vuepress-theme-hope.github.io/md-enhance/guide/presentation/</link>
       <guid>https://vuepress-theme-hope.github.io/md-enhance/guide/presentation/</guid>
@@ -1197,6 +1160,43 @@ $$
 <i>Not supported content</i><h3 id="blood"> Blood</h3>
 <i>Not supported content</i><h3 id="moon"> Moon</h3>
 <i>Not supported content</i>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>New syntax in Markdown</title>
+      <link>https://vuepress-theme-hope.github.io/md-enhance/guide/</link>
+      <guid>https://vuepress-theme-hope.github.io/md-enhance/guide/</guid>
+      <source url="https://vuepress-theme-hope.github.io/md-enhance/rss.xml">New syntax in Markdown</source>
+      <content:encoded><![CDATA[<h1 id="new-syntax-in-markdown"> New syntax in Markdown</h1>
+<p>By installing and enableing this plugin, you can use more syntax in your Markdown files.</p>
+<p>If you don’t need them and want to reduce your site size, you can remove them from your code by not enabling them.</p>
+<h2 id="new-feature"> New Feature</h2>
+<ul>
+<li>
+<p><a href="./sup-sub.html">Superscript and Subscript</a></p>
+</li>
+<li>
+<p><a href="./align.html">Align</a></p>
+</li>
+<li>
+<p><a href="./footnote.html">Footnote</a></p>
+</li>
+<li>
+<p><a href="./mark.html">Mark</a></p>
+</li>
+<li>
+<p><a href="./flowchart.html">Flowchart</a></p>
+</li>
+<li>
+<p><a href="./tex.html"><span><span><i>Not supported content</i></span><span aria-hidden="true"><span><span style="height:0.89883em;vertical-align:-0.2155em;"></span><span><span>T</span><span style="margin-right:-0.1667em;"></span><span><span><span style="height:0.46782999999999997em;"><span style="top:-2.7845em;"><span style="height:3em;"></span><span><span>E</span></span></span></span><span>​</span></span><span><span style="height:0.2155em;"><span></span></span></span></span><span style="margin-right:-0.125em;"></span><span>X</span></span></span></span></span> Syntax</a></p>
+</li>
+<li>
+<p><a href="./demo.html">Code demo</a></p>
+</li>
+<li>
+<p><a href="./presentation.html">Presentation</a></p>
+</li>
+</ul>
 ]]></content:encoded>
     </item>
     <item>
@@ -1525,6 +1525,32 @@ $$
 ]]></content:encoded>
     </item>
     <item>
+      <title>Home</title>
+      <link>https://vuepress-theme-hope.github.io/md-enhance/</link>
+      <guid>https://vuepress-theme-hope.github.io/md-enhance/</guid>
+      <source url="https://vuepress-theme-hope.github.io/md-enhance/rss.xml">Home</source>
+      <content:encoded><![CDATA[<h3 id="install"> Install</h3>
+<div><pre><code><span>npm</span> i -D vuepress-plugin-md-enhance
+</code></pre>
+<div><span>1</span><br></div></div><p>Or</p>
+<div><pre><code><span>yarn</span> <span>add</span> -D vuepress-plugin-md-enhance
+</code></pre>
+<div><span>1</span><br></div></div><h3 id="usage"> Usage</h3>
+<div><pre><code><span>// .vuepress/config.js</span>
+module<span>.</span>exports <span>=</span> <span>{</span>
+  plugins<span>:</span> <span>[</span>
+    <span>[</span>
+      <span>"md-enhance"</span><span>,</span>
+      <span>{</span>
+        <span>// your options</span>
+      <span>}</span><span>,</span>
+    <span>]</span><span>,</span>
+  <span>]</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div>]]></content:encoded>
+    </item>
+    <item>
       <title>配置</title>
       <link>https://vuepress-theme-hope.github.io/md-enhance/zh/config/</link>
       <guid>https://vuepress-theme-hope.github.io/md-enhance/zh/config/</guid>
@@ -1827,32 +1853,6 @@ $$
 :::
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br></div></div>]]></content:encoded>
-    </item>
-    <item>
-      <title>Home</title>
-      <link>https://vuepress-theme-hope.github.io/md-enhance/</link>
-      <guid>https://vuepress-theme-hope.github.io/md-enhance/</guid>
-      <source url="https://vuepress-theme-hope.github.io/md-enhance/rss.xml">Home</source>
-      <content:encoded><![CDATA[<h3 id="install"> Install</h3>
-<div><pre><code><span>npm</span> i -D vuepress-plugin-md-enhance
-</code></pre>
-<div><span>1</span><br></div></div><p>Or</p>
-<div><pre><code><span>yarn</span> <span>add</span> -D vuepress-plugin-md-enhance
-</code></pre>
-<div><span>1</span><br></div></div><h3 id="usage"> Usage</h3>
-<div><pre><code><span>// .vuepress/config.js</span>
-module<span>.</span>exports <span>=</span> <span>{</span>
-  plugins<span>:</span> <span>[</span>
-    <span>[</span>
-      <span>"md-enhance"</span><span>,</span>
-      <span>{</span>
-        <span>// your options</span>
-      <span>}</span><span>,</span>
-    <span>]</span><span>,</span>
-  <span>]</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div>]]></content:encoded>
     </item>
     <item>
       <title>代码演示</title>
