@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <atom:link href="https://vuepress-theme-hope.github.io/photo-swipe/rss.xml" rel="self" type="application/rss+xml"/>
+    <title>Photo preview</title>
+    <link>https://vuepress-theme-hope.github.io/photo-swipe/</link>
+    <description>Photo swipe Plugin for VuePress</description>
+    <language>en-US</language>
+    <pubDate>Fri, 29 Jan 2021 06:11:59 GMT</pubDate>
+    <lastBuildDate>Fri, 29 Jan 2021 06:11:59 GMT</lastBuildDate>
+    <generator>@mr-hope/vuepress-plugin-feed</generator>
+    <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
+    <item>
+      <title>Config</title>
+      <link>https://vuepress-theme-hope.github.io/photo-swipe/config/</link>
+      <guid>https://vuepress-theme-hope.github.io/photo-swipe/config/</guid>
+      <source url="https://vuepress-theme-hope.github.io/photo-swipe/rss.xml">Config</source>
+      <content:encoded><![CDATA[<h2 id="plugin-options"> Plugin Options</h2>
+<h3 id="container"> container</h3>
+<ul>
+<li>Type: <code>string</code></li>
+<li>Default: <code>'.theme-default-content'</code></li>
+</ul>
+<p>The range for selection. Only the image inside the container element will support click zoom.</p>
+<h3 id="selector"> selector</h3>
+<ul>
+<li>Type: <code>string</code></li>
+<li>Default: <code>'.theme-default-content :not(a) &gt; img'</code></li>
+</ul>
+<p>Image selector</p>
+<h3 id="options"> options</h3>
+<p>Options passed to <a href="http://photoswipe.com/" target="_blank" rel="noopener noreferrer"><strong>photo-swipe</strong></a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Demo</title>
+      <link>https://vuepress-theme-hope.github.io/photo-swipe/demo/</link>
+      <guid>https://vuepress-theme-hope.github.io/photo-swipe/demo/</guid>
+      <source url="https://vuepress-theme-hope.github.io/photo-swipe/rss.xml">Demo</source>
+      <content:encoded><![CDATA[<p><img src="/logo.png" alt="Logo1">
+<img src="/logo.png" alt="Logo2">
+<img src="/logo.png" alt="Logo3"></p>
+]]></content:encoded>
+      <enclosure url="https://vuepress-theme-hope.github.io/photo-swipe/logo.png" type="image/png"/>
+    </item>
+    <item>
+      <title>Home</title>
+      <link>https://vuepress-theme-hope.github.io/photo-swipe/</link>
+      <guid>https://vuepress-theme-hope.github.io/photo-swipe/</guid>
+      <source url="https://vuepress-theme-hope.github.io/photo-swipe/rss.xml">Home</source>
+      <content:encoded><![CDATA[<p>Let your images support preview, zoom, share, swipe view and download.</p>
+<h2 id="how-to-use"> How to use</h2>
+<h3 id="install"> Install</h3>
+<div><pre><code><span>npm</span> i -D vuepress-plugin-photo-swipe
+</code></pre>
+</div><h3 id="usage"> Usage</h3>
+<div><pre><code><span>// .vuepress/config.js</span>
+module<span>.</span>exports <span>=</span> <span>{</span>
+  plugins<span>:</span> <span>[</span><span>"photo-swipe"</span><span>]</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre>
+</div>]]></content:encoded>
+    </item>
+    <item>
+      <title>配置</title>
+      <link>https://vuepress-theme-hope.github.io/photo-swipe/zh/config/</link>
+      <guid>https://vuepress-theme-hope.github.io/photo-swipe/zh/config/</guid>
+      <source url="https://vuepress-theme-hope.github.io/photo-swipe/rss.xml">配置</source>
+      <content:encoded><![CDATA[<h2 id="选项"> 选项</h2>
+<h3 id="container"> container</h3>
+<ul>
+<li>类型: <code>string</code></li>
+<li>默认值: <code>'.theme-default-content'</code></li>
+</ul>
+<p>选择的范围，只有 container 元素内部的图片才会支持点击缩放。</p>
+<h3 id="selector"> selector</h3>
+<ul>
+<li>类型: <code>string</code></li>
+<li>默认值: <code>'.theme-default-content :not(a) &gt; img'</code></li>
+</ul>
+<p>图片选择器</p>
+<h3 id="options"> options</h3>
+<p>传递给 <a href="http://photoswipe.com/" target="_blank" rel="noopener noreferrer"><strong>photo-swipe</strong></a> 的额外选项</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>演示</title>
+      <link>https://vuepress-theme-hope.github.io/photo-swipe/zh/demo/</link>
+      <guid>https://vuepress-theme-hope.github.io/photo-swipe/zh/demo/</guid>
+      <source url="https://vuepress-theme-hope.github.io/photo-swipe/rss.xml">演示</source>
+      <content:encoded><![CDATA[<p><img src="/logo.png" alt="Logo1">
+<img src="/logo.png" alt="Logo2">
+<img src="/logo.png" alt="Logo3"></p>
+]]></content:encoded>
+      <enclosure url="https://vuepress-theme-hope.github.io/photo-swipe/logo.png" type="image/png"/>
+    </item>
+    <item>
+      <title>主页</title>
+      <link>https://vuepress-theme-hope.github.io/photo-swipe/zh/</link>
+      <guid>https://vuepress-theme-hope.github.io/photo-swipe/zh/</guid>
+      <source url="https://vuepress-theme-hope.github.io/photo-swipe/rss.xml">主页</source>
+      <content:encoded><![CDATA[<p>让您的图像支持预览，缩放，共享，滑动查看和下载。</p>
+<h2 id="使用插件"> 使用插件</h2>
+<h3 id="安装"> 安装</h3>
+<div><pre><code><span>npm</span> i -D vuepress-plugin-photo-swipe
+</code></pre>
+</div><h3 id="使用"> 使用</h3>
+<div><pre><code><span>// .vuepress/config.js</span>
+module<span>.</span>exports <span>=</span> <span>{</span>
+  plugins<span>:</span> <span>[</span><span>"photo-swipe"</span><span>]</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre>
+</div>]]></content:encoded>
+    </item>
+  </channel>
+</rss>

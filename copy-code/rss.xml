@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <atom:link href="https://vuepress-theme-hope.github.io/copy-code/rss.xml" rel="self" type="application/rss+xml"/>
+    <title>Quick Code Copy</title>
+    <link>https://vuepress-theme-hope.github.io/copy-code/</link>
+    <description>Quick Code Copy Plugin for vuepress</description>
+    <language>en-US</language>
+    <pubDate>Fri, 29 Jan 2021 06:11:58 GMT</pubDate>
+    <lastBuildDate>Fri, 29 Jan 2021 06:11:58 GMT</lastBuildDate>
+    <generator>@mr-hope/vuepress-plugin-feed</generator>
+    <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
+    <item>
+      <title>API Config</title>
+      <link>https://vuepress-theme-hope.github.io/copy-code/config/</link>
+      <guid>https://vuepress-theme-hope.github.io/copy-code/config/</guid>
+      <source url="https://vuepress-theme-hope.github.io/copy-code/rss.xml">API Config</source>
+      <content:encoded><![CDATA[<h2 id="baselang"> baseLang</h2>
+<ul>
+<li>Type: <code>string</code></li>
+<li>Default: <code>'en-US'</code></li>
+</ul>
+<p>The language of the home directory.</p>
+<h3 id="selector"> selector</h3>
+<ul>
+<li>Type: <code>string | string[]</code></li>
+<li>Default: <code>'.theme-default-content div[class*=&quot;language-&quot;] pre'</code></li>
+</ul>
+<p>Code block selector</p>
+<h3 id="duration"> duration</h3>
+<ul>
+<li>Type: <code>number</code></li>
+<li>Default: <code>300</code></li>
+</ul>
+<p>Prompt message display time</p>
+<h3 id="showinmobile"> showInMobile</h3>
+<ul>
+<li>Type: <code>boolean</code></li>
+<li>Default: <code>false</code></li>
+</ul>
+<p>Whether to display on the mobile side</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Guide</title>
+      <link>https://vuepress-theme-hope.github.io/copy-code/guide/</link>
+      <guid>https://vuepress-theme-hope.github.io/copy-code/guide/</guid>
+      <source url="https://vuepress-theme-hope.github.io/copy-code/rss.xml">Guide</source>
+      <content:encoded><![CDATA[<h2 id="usage"> Usage</h2>
+<p>After enabling, this plugin will automatically add a copy button to the bottom right corner of each code block.</p>
+<div><p>Tips</p>
+<p>By default, the button is only displayed on desktop mode.</p>
+</div>
+<h2 id="effect"> Effect</h2>
+<div><pre><code><span>// .vuepress/config.js</span>
+module<span>.</span>exports <span>=</span> <span>{</span>
+  plugins<span>:</span> <span>[</span>
+    <span>[</span>
+      <span>"@mr-hope/copy-code"</span><span>,</span>
+      <span>{</span>
+        <span>// your options</span>
+      <span>}</span><span>,</span>
+    <span>]</span><span>,</span>
+  <span>]</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre>
+</div>]]></content:encoded>
+    </item>
+    <item>
+      <title>Home</title>
+      <link>https://vuepress-theme-hope.github.io/copy-code/</link>
+      <guid>https://vuepress-theme-hope.github.io/copy-code/</guid>
+      <source url="https://vuepress-theme-hope.github.io/copy-code/rss.xml">Home</source>
+      <content:encoded><![CDATA[<h2 id="how-to-use"> How to use</h2>
+<h3 id="install"> Install</h3>
+<div><pre><code><span>npm</span> i -D @mr-hope/vuepress-plugin-copy-code
+</code></pre>
+</div><p>Or</p>
+<div><pre><code><span>yarn</span> <span>add</span> -D @mr-hope/vuepress-plugin-copy-code
+</code></pre>
+</div><h3 id="usage"> Usage</h3>
+<div><pre><code><span>// .vuepress/config.js</span>
+module<span>.</span>exports <span>=</span> <span>{</span>
+  plugins<span>:</span> <span>[</span>
+    <span>[</span>
+      <span>"@mr-hope/copy-code"</span><span>,</span>
+      <span>{</span>
+        <span>// your options</span>
+      <span>}</span><span>,</span>
+    <span>]</span><span>,</span>
+  <span>]</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre>
+</div>]]></content:encoded>
+    </item>
+    <item>
+      <title>配置</title>
+      <link>https://vuepress-theme-hope.github.io/copy-code/zh/config/</link>
+      <guid>https://vuepress-theme-hope.github.io/copy-code/zh/config/</guid>
+      <source url="https://vuepress-theme-hope.github.io/copy-code/rss.xml">配置</source>
+      <content:encoded><![CDATA[<h2 id="插件配置"> 插件配置</h2>
+<h3 id="baselang"> baseLang</h3>
+<ul>
+<li>类型: <code>string</code></li>
+<li>默认值: <code>'en-US'</code></li>
+</ul>
+<p>主目录所对应的语言。</p>
+<h3 id="selector"> selector</h3>
+<ul>
+<li>类型: <code>string | string[]</code></li>
+<li>默认值: <code>'.theme-default-content div[class*=&quot;language-&quot;] pre'</code></li>
+</ul>
+<p>代码块选择器</p>
+<h3 id="duration"> duration</h3>
+<ul>
+<li>类型: <code>number</code></li>
+<li>默认值: <code>300</code></li>
+</ul>
+<p>提示消息显示时间</p>
+<h3 id="showinmobile"> showInMobile</h3>
+<ul>
+<li>类型: <code>boolean</code></li>
+<li>默认值: <code>false</code></li>
+</ul>
+<p>是否展示在移动端</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>指南</title>
+      <link>https://vuepress-theme-hope.github.io/copy-code/zh/guide/</link>
+      <guid>https://vuepress-theme-hope.github.io/copy-code/zh/guide/</guid>
+      <source url="https://vuepress-theme-hope.github.io/copy-code/rss.xml">指南</source>
+      <content:encoded><![CDATA[<h2 id="使用"> 使用</h2>
+<p>启用后，本插件会自动添加复制按钮到每个代码块的右下角。</p>
+<div><p>Tips</p>
+<p>默认情况下，按钮仅在桌面模式显示。</p>
+</div>
+<h2 id="效果"> 效果</h2>
+<div><pre><code><span>// .vuepress/config.js</span>
+module<span>.</span>exports <span>=</span> <span>{</span>
+  plugins<span>:</span> <span>[</span>
+    <span>[</span>
+      <span>"@mr-hope/copy-code"</span><span>,</span>
+      <span>{</span>
+        <span>// 你的选项</span>
+      <span>}</span><span>,</span>
+    <span>]</span><span>,</span>
+  <span>]</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre>
+</div>]]></content:encoded>
+    </item>
+    <item>
+      <title>主页</title>
+      <link>https://vuepress-theme-hope.github.io/copy-code/zh/</link>
+      <guid>https://vuepress-theme-hope.github.io/copy-code/zh/</guid>
+      <source url="https://vuepress-theme-hope.github.io/copy-code/rss.xml">主页</source>
+      <content:encoded><![CDATA[<h2 id="使用插件"> 使用插件</h2>
+<h3 id="安装"> 安装</h3>
+<div><pre><code><span>npm</span> i -D @mr-hope/vuepress-plugin-copy-code
+</code></pre>
+</div><p>或</p>
+<div><pre><code><span>yarn</span> <span>add</span> -D @mr-hope/vuepress-plugin-copy-code
+</code></pre>
+</div><h3 id="使用"> 使用</h3>
+<div><pre><code><span>// .vuepress/config.js</span>
+module<span>.</span>exports <span>=</span> <span>{</span>
+  plugins<span>:</span> <span>[</span>
+    <span>[</span>
+      <span>"@mr-hope/copy-code"</span><span>,</span>
+      <span>{</span>
+        <span>// 你的选项</span>
+      <span>}</span><span>,</span>
+    <span>]</span><span>,</span>
+  <span>]</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre>
+</div>]]></content:encoded>
+    </item>
+  </channel>
+</rss>
