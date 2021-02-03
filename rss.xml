@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/</link>
     <description>A vuepress theme with tons of features✨</description>
     <language>en-US</language>
-    <pubDate>Wed, 03 Feb 2021 12:08:48 GMT</pubDate>
-    <lastBuildDate>Wed, 03 Feb 2021 12:08:48 GMT</lastBuildDate>
+    <pubDate>Wed, 03 Feb 2021 12:21:36 GMT</pubDate>
+    <lastBuildDate>Wed, 03 Feb 2021 12:21:36 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -6199,7 +6199,13 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
       <guid>https://vuepress-theme-hope.github.io/zh/FAQ/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">常见问题</source>
       <category>FAQ</category>
-      <content:encoded><![CDATA[<h1 id="常见问题"> 常见问题</h1>
+      <content:encoded><![CDATA[<h2 id="官方-qq-群"> 官方 QQ 群</h2>
+<ul>
+<li><a href="https://jq.qq.com/?_wv=1027&amp;k=rATJyxGK" target="_blank" rel="noopener noreferrer">点击加入</a></li>
+</ul>
+<h2 id="构建失败"> 构建失败</h2>
+<p>请确保你使用的是最新版本主题，之后在禁用缓存的情况下重新运行开发服务器: <code>vuepress dev &lt;你的文档地址&gt; --no-cache</code>。</p>
+<p>如果问题依然存在，请在 Github 上 <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/issues/new/choose" target="_blank" rel="noopener noreferrer">提一个 Issue</a></p>
 <h2 id="部分页面设置失效"> 部分页面设置失效</h2>
 <p>你可以先重新查阅文档，看看该设置是否 <strong>不支持页面配置</strong>。</p>
 <p><strong>支持页面配置</strong> 意味着主题允许页面的配置能够覆盖全局的同名(同功能)配置，但并不是所有功能都满足此设置。为了项目的编译速度，有些项目在全局配置禁用后不会在编译阶段加载，它们就无法局部启用。</p>
@@ -12729,6 +12735,10 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 <p>同时，<code>config</code> 函数也会为你补全一些直接交付给 VuePress 的默认配置。</p>
 <p>你可以查看 <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/docs/theme/src/.vuepress/config.js" target="_blank" rel="noopener noreferrer">本文档配置</a> 作为一个配置参考。</p>
 </div>
+<h2 id="官方-qq-群"> 官方 QQ 群</h2>
+<ul>
+<li><a href="https://jq.qq.com/?_wv=1027&amp;k=rATJyxGK" target="_blank" rel="noopener noreferrer">点击加入</a></li>
+</ul>
 ]]></content:encoded>
     </item>
     <item>
