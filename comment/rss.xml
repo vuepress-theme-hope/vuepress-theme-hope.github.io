@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/comment/</link>
     <description>Comment Plugin for VuePress</description>
     <language>en-US</language>
-    <pubDate>Wed, 03 Feb 2021 12:06:15 GMT</pubDate>
-    <lastBuildDate>Wed, 03 Feb 2021 12:06:15 GMT</lastBuildDate>
+    <pubDate>Wed, 03 Feb 2021 12:08:48 GMT</pubDate>
+    <lastBuildDate>Wed, 03 Feb 2021 12:08:48 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -451,7 +451,7 @@ And if you already have vue-i18n in your project, it will not affect Vssue.</p>
 <p><strong>Example</strong>:</p>
 <div><pre><code><span>proxy</span><span>:</span> <span>(</span><span>url</span><span>)</span> <span>=></span> <span><span>`</span><span>https://your.cors.porxy?target=</span><span><span>${</span>url<span>}</span></span><span>`</span></span><span>;</span>
 </code></pre>
-</div></li>
+<div><span>1</span><br></div></div></li>
 <li>
 <p><strong>Reference</strong>:</p>
 <ul>
@@ -482,7 +482,7 @@ And if you already have vue-i18n in your project, it will not affect Vssue.</p>
 <div><pre><code><span>issueContent</span><span>:</span> <span>(</span><span><span>{</span> url <span>}</span></span><span>)</span> <span>=></span>
   <span><span>`</span><span>This issue is auto created by Vssue to store comments of this page: </span><span><span>${</span>url<span>}</span></span><span>`</span></span><span>;</span>
 </code></pre>
-</div><div><p>Tips</p>
+<div><span>1</span><br><span>2</span><br></div></div><div><p>Tips</p>
 <p>The <code>issueContent</code> option is only used to auto create the corresponding issue when it does not exist.</p>
 <p>If the issue already exists, Vssue will not try to update the content.</p>
 </div>
@@ -894,7 +894,7 @@ Vssue can also work with self-hosted GitLab. Set the <code>baseURL</code> option
   appKey<span>:</span> <span>"..."</span><span>,</span> <span>// your appKey</span>
 <span>}</span><span>;</span>
 </code></pre>
-</div><p>You can find all config items on <a href="./../api/valine.html">Config</a>.</p>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>You can find all config items on <a href="./../api/valine.html">Config</a>.</p>
 <div><p>Tips</p>
 <p>For Valine config and usage, please see <a href="https://valine.js.org" target="_blank" rel="noopener noreferrer">Valine Docs</a>。</p>
 </div>
@@ -937,7 +937,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
   <span>}</span><span>,</span>
 <span>}</span><span>;</span>
 </code></pre>
-</div><div><p>Tips</p>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br></div></div><div><p>Tips</p>
 <p>The only difference is that, you should set <code>platform</code> rather than the <code>api</code> package itself.</p>
 <p><code>@vssue/vuepress-plugin-vssue</code> will auto resolve the corresponding API package according to the value of <code>platform</code>:</p>
 <ul>
@@ -956,7 +956,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 
 <span><span><span>&lt;</span>Vssue</span> <span>title</span><span><span>=</span><span>"</span>Vssue Demo<span>"</span></span> <span>/></span></span>
 </code></pre>
-</div><div><p>Tips</p>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><div><p>Tips</p>
 <p>You can go to the repository <a href="https://github.com/meteorlxy/vssue-demo" target="_blank" rel="noopener noreferrer">meteorlxy/vssue-demo</a> to get the demo code.</p>
 </div>
 <h2 id="custom-style-variables"> Custom Style Variables</h2>
@@ -989,7 +989,7 @@ $vssue-breakpoint-mobile
 <span>// the text direction (ltr / rtl) (used for RTL languages, e.g. Hebrew)</span>
 $vssue-direction
 </code></pre>
-</div><p>For example, Vssue use a &quot;Vue green&quot; (<code>#3eaf7c</code>) as the theme color, which is defined as the default value of variable <code>$vssue-theme-color</code>. You can change the theme color by setting <code>$vssue-theme-color</code> before import <code>vssue/src/styles/index.styl</code>.</p>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br></div></div><p>For example, Vssue use a &quot;Vue green&quot; (<code>#3eaf7c</code>) as the theme color, which is defined as the default value of variable <code>$vssue-theme-color</code>. You can change the theme color by setting <code>$vssue-theme-color</code> before import <code>vssue/src/styles/index.styl</code>.</p>
 <p>By default, those Vssue variables are set to VuePress variables:</p>
 <div><pre><code><span>// @vssue/vuepress-plugin-vssue/styles/index.styl</span>
 
@@ -998,12 +998,12 @@ $vssue-direction
 <span><span>$vssue-border-color</span> <span>?=</span> $borderColor</span>
 <span><span>$vssue-breakpoint-mobile</span> <span>?=</span> $MQMobile</span>
 </code></pre>
-</div><p>Set these variables in your <code>palette.styl</code> to override them:</p>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>Set these variables in your <code>palette.styl</code> to override them:</p>
 <div><pre><code><span>// .vuepress/styles/palette.styl</span>
 
 <span><span>$vssue-theme-color</span> <span>=</span> <span>red</span></span>
 </code></pre>
-</div><h2 id="do-not-want-to-use-our-plugin"> Do not want to use our plugin</h2>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><h2 id="do-not-want-to-use-our-plugin"> Do not want to use our plugin</h2>
 <p>Vssue has tried to be SSR-friendly, so you can import Vssue directly in VuePress like other vue plugins / components without <code>@vssue/vuepress-plugin-vssue</code> (especially if you have customized the styles of Vssue).</p>
 <p>But we still suggest you to use <code>@vssue/vuepress-plugin-vssue</code> in VuePress, which has already helped you make <code>&lt;Vssue&gt;</code> component client-only to avoid some potential issues.</p>
 <p>If you do not want to use the plugin we provided, you may need to wrap <code>&lt;Vssue&gt;</code> component into <code>&lt;ClientOnly&gt;</code> component to avoid those potential issues, that is :</p>
@@ -1011,7 +1011,7 @@ $vssue-direction
   <span><span><span>&lt;</span>Vssue</span> <span>/></span></span>
 <span><span><span>&lt;/</span>ClientOnly</span><span>></span></span>
 </code></pre>
-</div><blockquote>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><blockquote>
 <p>See <a href="https://vuepress.vuejs.org/guide/using-vue.html#clientonly" target="_blank" rel="noopener noreferrer">Built-in Components - ClientOnly</a> of VuePress</p>
 </blockquote>
 ]]></content:encoded>
@@ -1024,10 +1024,10 @@ $vssue-direction
       <content:encoded><![CDATA[<h2 id="install"> Install</h2>
 <div><pre><code><span>npm</span> i -D @mr-hope/vuepress-plugin-comment
 </code></pre>
-</div><p>Or</p>
+<div><span>1</span><br></div></div><p>Or</p>
 <div><pre><code><span>yarn</span> <span>add</span> -D @mr-hope/vuepress-plugin-comment
 </code></pre>
-</div><h3 id="usage"> Usage</h3>
+<div><span>1</span><br></div></div><h3 id="usage"> Usage</h3>
 <div><pre><code><span>// .vuepress/config.js</span>
 module<span>.</span>exports <span>=</span> <span>{</span>
   plugins<span>:</span> <span>[</span>
@@ -1040,7 +1040,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
   <span>]</span><span>,</span>
 <span>}</span><span>;</span>
 </code></pre>
-</div>]]></content:encoded>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div>]]></content:encoded>
     </item>
     <item>
       <title>配置</title>
@@ -1492,7 +1492,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <p><strong>示例</strong>:</p>
 <div><pre><code><span>proxy</span><span>:</span> <span>(</span><span>url</span><span>)</span> <span>=></span> <span><span>`</span><span>https://your.cors.porxy?target=</span><span><span>${</span>url<span>}</span></span><span>`</span></span><span>;</span>
 </code></pre>
-</div></li>
+<div><span>1</span><br></div></div></li>
 <li>
 <p><strong>参考</strong>:</p>
 <ul>
@@ -1523,7 +1523,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <div><pre><code><span>issueContent</span><span>:</span> <span>(</span><span><span>{</span> url <span>}</span></span><span>)</span> <span>=></span>
   <span><span>`</span><span>这个 Issue 由 Vssue 自动创建，用来存储该页面的评论: </span><span><span>${</span>url<span>}</span></span><span>`</span></span><span>;</span>
 </code></pre>
-</div><div><p>Tips</p>
+<div><span>1</span><br><span>2</span><br></div></div><div><p>Tips</p>
 <p><code>issueContent</code> 只用来在对应 Issue 不存在时新建 Issue。</p>
 <p>如果对应的 Issue 已经存在，Vssue 不会更新 Issue 的内容。</p>
 </div>
@@ -1934,7 +1934,7 @@ Vssue 同样可以配合自己搭建的 GitLab 使用。只需要将 <code>baseU
   appKey<span>:</span> <span>"..."</span><span>,</span> <span>// your appKey</span>
 <span>}</span><span>;</span>
 </code></pre>
-</div><p>将对应的 <code>APP ID</code> 和 <code>APP Key</code> 填入， Valine 即配置完成。</p>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>将对应的 <code>APP ID</code> 和 <code>APP Key</code> 填入， Valine 即配置完成。</p>
 <p>Valine 评论的其他配置将在 <a href="./../config/valine.html">配置</a> 中列出。</p>
 <div><p>Tips</p>
 <p>更多配置与使用，请见 <a href="https://valine.js.org" target="_blank" rel="noopener noreferrer">Valine 官方文档</a>。</p>
@@ -1978,7 +1978,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
   <span>}</span><span>,</span>
 <span>}</span><span>;</span>
 </code></pre>
-</div><div><p>Tips</p>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br></div></div><div><p>Tips</p>
 <p>唯一的区别在于，你需要设置 <code>platform</code> 而不是对应的 <code>api</code> 包。</p>
 <p><code>@vssue/vuepress-plugin-vssue</code> 会自动根据你设置的 <code>platform</code> 为你解析对应的 API 包:</p>
 <ul>
@@ -1997,7 +1997,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 
 <span><span><span>&lt;</span>Vssue</span> <span>title</span><span><span>=</span><span>"</span>Vssue Demo<span>"</span></span> <span>/></span></span>
 </code></pre>
-</div><h3 id="自定义样式变量"> 自定义样式变量</h3>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><h3 id="自定义样式变量"> 自定义样式变量</h3>
 <p>通过 VuePress 的 <a href="https://vuepress.vuejs.org/zh/config/#palette-styl" target="_blank" rel="noopener noreferrer">palette.styl</a>，你可以很轻松地修改 Vssue 的样式变量。</p>
 <p>Vssue 样式中预定义了一些 <a href="http://stylus-lang.com/docs/variables.html" target="_blank" rel="noopener noreferrer">Stylus 变量</a>，你可以在 <code>vssue/src/styles/_variables.styl</code> 中查看它们:</p>
 <div><pre><code><span>// 主题颜色</span>
@@ -2027,7 +2027,7 @@ $vssue-breakpoint-mobile
 <span>// 文字方向 (ltr / rtl)  (为 RTL 语言使用，如希伯来语等)</span>
 $vssue-direction
 </code></pre>
-</div><p>举例来说，Vssue 默认使用一个“Vue 绿色” (<code>#3eaf7c</code>) 作为主题颜色，并将其设置为 <code>$vssue-theme-color</code> 的默认值。你可以在引入 <code>vssue/src/styles/index.styl</code> 之前设置 <code>$vssue-theme-color</code> 的值来改变主题颜色。</p>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br></div></div><p>举例来说，Vssue 默认使用一个“Vue 绿色” (<code>#3eaf7c</code>) 作为主题颜色，并将其设置为 <code>$vssue-theme-color</code> 的默认值。你可以在引入 <code>vssue/src/styles/index.styl</code> 之前设置 <code>$vssue-theme-color</code> 的值来改变主题颜色。</p>
 <p>默认情况下，下面这些 Vssue 的样式变量与 VuePress 的样式变量相等:</p>
 <div><pre><code><span>// @vssue/vuepress-plugin-vssue/styles/index.styl</span>
 
@@ -2036,14 +2036,14 @@ $vssue-direction
 <span><span>$vssue-border-color</span> <span>?=</span> $borderColor</span>
 <span><span>$vssue-breakpoint-mobile</span> <span>?=</span> $MQMobile</span>
 </code></pre>
-</div><p>如果你想要覆盖它们，在你的 <code>palette.styl</code> 中设置即可:</p>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>如果你想要覆盖它们，在你的 <code>palette.styl</code> 中设置即可:</p>
 <div><pre><code><span>// .vuepress/styles/palette.styl</span>
 
 <span><span>$accentColor</span> <span>=</span> <span>blue</span></span>
 
 <span><span>$vssue-theme-color</span> <span>=</span> <span>red</span></span>
 </code></pre>
-</div><h2 id="不想使用-vssue-插件"> 不想使用 Vssue 插件</h2>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><h2 id="不想使用-vssue-插件"> 不想使用 Vssue 插件</h2>
 <p>Vssue 是适配 SSR 的，所以你可以不使用 <code>@vssue/vuepress-plugin-vssue</code>，而是像其他 Vue 插件 / 组件一样，在 VuePress 中直接引入 Vssue (尤其是在你对 Vssue 的样式进行了自定义的时候) 。</p>
 <p>但是我们仍然建议你在 VuePress 中通过 <code>@vssue/vuepress-plugin-vssue</code> 来使用 Vssue，该插件已经帮助你仅在客户端加载 Vssue 来避免一些潜在的问题。</p>
 <p>如果你不想使用我们提供的插件，你可能需要将 <code>&lt;Vssue&gt;</code> 组件放置在 <code>&lt;ClientOnly&gt;</code> 组件中来避免这些潜在的问题，即:</p>
@@ -2051,7 +2051,7 @@ $vssue-direction
   <span><span><span>&lt;</span>Vssue</span> <span>/></span></span>
 <span><span><span>&lt;/</span>ClientOnly</span><span>></span></span>
 </code></pre>
-</div><blockquote>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><blockquote>
 <p>参考 VuePress <a href="https://vuepress.vuejs.org/zh/guide/using-vue.html#clientonly" target="_blank" rel="noopener noreferrer">内置的组件 - ClientOnly</a></p>
 </blockquote>
 ]]></content:encoded>
@@ -2064,10 +2064,10 @@ $vssue-direction
       <content:encoded><![CDATA[<h2 id="安装"> 安装</h2>
 <div><pre><code><span>npm</span> i -D @mr-hope/vuepress-plugin-comment
 </code></pre>
-</div><p>或</p>
+<div><span>1</span><br></div></div><p>或</p>
 <div><pre><code><span>yarn</span> <span>add</span> -D @mr-hope/vuepress-plugin-comment
 </code></pre>
-</div><h2 id="使用"> 使用</h2>
+<div><span>1</span><br></div></div><h2 id="使用"> 使用</h2>
 <div><pre><code><span>// .vuepress/config.js</span>
 module<span>.</span>exports <span>=</span> <span>{</span>
   plugins<span>:</span> <span>[</span>
@@ -2080,7 +2080,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
   <span>]</span><span>,</span>
 <span>}</span><span>;</span>
 </code></pre>
-</div>]]></content:encoded>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div>]]></content:encoded>
     </item>
   </channel>
 </rss>

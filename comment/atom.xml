@@ -6,7 +6,7 @@
   <author>
     <name>Mr.Hope</name>
   </author>
-  <updated>2021-02-03T12:06:15.132Z</updated>
+  <updated>2021-02-03T12:08:48.878Z</updated>
   <generator>@mr-hope/vuepress-plugin-feed</generator>
   <link rel="self" href="https://vuepress-theme-hope.github.io/comment/atom.xml"/>
   <link rel="alternate" href="https://vuepress-theme-hope.github.io/comment/"/>
@@ -18,7 +18,7 @@
     <title type="html">API Config</title>
     <id>https://vuepress-theme-hope.github.io/comment/config/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/config/"/>
-    <updated>2021-02-03T12:01:10.000Z</updated>
+    <updated>2021-02-03T12:05:08.000Z</updated>
     <content type="html"><![CDATA[<h2 id="baselang"> baseLang</h2>
 <ul>
 <li>Type: <code>string</code></li>
@@ -87,7 +87,7 @@
     <title type="html">Valine Config</title>
     <id>https://vuepress-theme-hope.github.io/comment/config/valine/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/config/valine/"/>
-    <updated>2021-02-03T12:01:10.000Z</updated>
+    <updated>2021-02-03T12:05:08.000Z</updated>
     <content type="html"><![CDATA[<h1 id="valine-config"> Valine Config</h1>
 <h2 id="appid"> appId</h2>
 <ul>
@@ -211,7 +211,7 @@
     <title type="html">Vssue Options</title>
     <id>https://vuepress-theme-hope.github.io/comment/config/vssue/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/config/vssue/"/>
-    <updated>2021-02-03T12:01:10.000Z</updated>
+    <updated>2021-02-03T12:05:08.000Z</updated>
     <content type="html"><![CDATA[<h1 id="vssue-options"> Vssue Options</h1>
 <h2 id="platform"> platform</h2>
 <p><code>@vssue/vuepress-plugin-vssue</code> will auto resolve the corresponding API package according to the value of <code>platform</code>:</p>
@@ -468,7 +468,7 @@ And if you already have vue-i18n in your project, it will not affect Vssue.</p>
 <p><strong>Example</strong>:</p>
 <div><pre><code><span>proxy</span><span>:</span> <span>(</span><span>url</span><span>)</span> <span>=></span> <span><span>`</span><span>https://your.cors.porxy?target=</span><span><span>${</span>url<span>}</span></span><span>`</span></span><span>;</span>
 </code></pre>
-</div></li>
+<div><span>1</span><br></div></div></li>
 <li>
 <p><strong>Reference</strong>:</p>
 <ul>
@@ -499,7 +499,7 @@ And if you already have vue-i18n in your project, it will not affect Vssue.</p>
 <div><pre><code><span>issueContent</span><span>:</span> <span>(</span><span><span>{</span> url <span>}</span></span><span>)</span> <span>=></span>
   <span><span>`</span><span>This issue is auto created by Vssue to store comments of this page: </span><span><span>${</span>url<span>}</span></span><span>`</span></span><span>;</span>
 </code></pre>
-</div><div><p>Tips</p>
+<div><span>1</span><br><span>2</span><br></div></div><div><p>Tips</p>
 <p>The <code>issueContent</code> option is only used to auto create the corresponding issue when it does not exist.</p>
 <p>If the issue already exists, Vssue will not try to update the content.</p>
 </div>
@@ -532,7 +532,7 @@ And if you already have vue-i18n in your project, it will not affect Vssue.</p>
     <title type="html">BitBucket OAuth Consumer</title>
     <id>https://vuepress-theme-hope.github.io/comment/guide/bitbucket/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/guide/bitbucket/"/>
-    <updated>2021-02-03T12:01:10.000Z</updated>
+    <updated>2021-02-03T12:05:08.000Z</updated>
     <content type="html"><![CDATA[<h1 id="bitbucket-oauth-consumer"> BitBucket OAuth Consumer</h1>
 <h2 id="create-a-new-oauth-consumer"> Create a new OAuth Consumer</h2>
 <ul>
@@ -587,7 +587,7 @@ And if you already have vue-i18n in your project, it will not affect Vssue.</p>
     <title type="html">Gitee Third Party Application</title>
     <id>https://vuepress-theme-hope.github.io/comment/guide/gitee/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/guide/gitee/"/>
-    <updated>2021-02-03T12:01:10.000Z</updated>
+    <updated>2021-02-03T12:05:08.000Z</updated>
     <content type="html"><![CDATA[<h1 id="gitee-third-party-application"> Gitee Third Party Application</h1>
 <blockquote>
 <p>Vssue can also work with self-hosted Gitee Enterprise Version. Set the <code>baseURL</code> options to your Gitee URL.</p>
@@ -640,7 +640,7 @@ And if you already have vue-i18n in your project, it will not affect Vssue.</p>
     <title type="html">GitHub OAuth App</title>
     <id>https://vuepress-theme-hope.github.io/comment/guide/github/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/guide/github/"/>
-    <updated>2021-02-03T12:01:10.000Z</updated>
+    <updated>2021-02-03T12:05:08.000Z</updated>
     <content type="html"><![CDATA[<h1 id="github-oauth-app"> GitHub OAuth App</h1>
 <blockquote>
 <p>Vssue can also work with self-hosted GitHub Enterprise Server. Set the <code>baseURL</code> options to your GitHub URL. See <a href="./../options/#baseurl">Options Reference - baseURL</a></p>
@@ -694,7 +694,7 @@ And if you already have vue-i18n in your project, it will not affect Vssue.</p>
     <title type="html">GitLab Application</title>
     <id>https://vuepress-theme-hope.github.io/comment/guide/gitlab/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/guide/gitlab/"/>
-    <updated>2021-02-03T12:01:10.000Z</updated>
+    <updated>2021-02-03T12:05:08.000Z</updated>
     <content type="html"><![CDATA[<h1 id="gitlab-application"> GitLab Application</h1>
 <blockquote>
 <p>See <a href="https://docs.gitlab.com/ce/integration/oauth_provider.html#adding-an-application-through-the-profile" target="_blank" rel="noopener noreferrer">Gitlab official docs</a> for reference.
@@ -746,7 +746,7 @@ Vssue can also work with self-hosted GitLab. Set the <code>baseURL</code> option
     <title type="html">Page information</title>
     <id>https://vuepress-theme-hope.github.io/comment/guide/page-info/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/guide/page-info/"/>
-    <updated>2021-02-03T12:01:10.000Z</updated>
+    <updated>2021-02-03T12:05:08.000Z</updated>
     <content type="html"><![CDATA[<p>The <code>&lt;PageInfo /&gt;</code> component is enabled globally by default. You can disable it by setting <code>pageInfo: false</code> in <code>Front Matter</code> of a specific page.</p>
 <p>To keep it globally disabled, please set <code>pageInfo</code> to <code>false</code> in the plugin options. In this way you can set <code>pageInfo</code> in <code>Front Matter</code> of a specific page to enable it locally.</p>
 <h2 id="parameters"> Parameters</h2>
@@ -828,7 +828,7 @@ Vssue can also work with self-hosted GitLab. Set the <code>baseURL</code> option
     <title type="html">Guide</title>
     <id>https://vuepress-theme-hope.github.io/comment/guide/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/guide/"/>
-    <updated>2021-02-03T12:01:10.000Z</updated>
+    <updated>2021-02-03T12:05:08.000Z</updated>
     <content type="html"><![CDATA[<h1 id="guide"> Guide</h1>
 <p>This plugin exposes two components at <code>@mr-hope/vuepress-plugin-comment/&lt;component name&gt;.vue</code>. Please include it manually in your theme.</p>
 <ul>
@@ -862,7 +862,7 @@ Vssue can also work with self-hosted GitLab. Set the <code>baseURL</code> option
     <title type="html">Supported Platforms</title>
     <id>https://vuepress-theme-hope.github.io/comment/guide/supported-platforms/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/guide/supported-platforms/"/>
-    <updated>2021-02-03T12:01:10.000Z</updated>
+    <updated>2021-02-03T12:05:08.000Z</updated>
     <content type="html"><![CDATA[<h1 id="supported-platforms"> Supported Platforms</h1>
 <h2 id="github"> GitHub</h2>
 <p>Guide: <a href="./github.html">Set up GitHub OAuth App</a></p>
@@ -955,7 +955,7 @@ Vssue can also work with self-hosted GitLab. Set the <code>baseURL</code> option
     <title type="html">Valine</title>
     <id>https://vuepress-theme-hope.github.io/comment/guide/valine/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/guide/valine/"/>
-    <updated>2021-02-03T12:01:10.000Z</updated>
+    <updated>2021-02-03T12:05:08.000Z</updated>
     <content type="html"><![CDATA[<h1 id="valine"> Valine</h1>
 <p>With Valine，this plugin provides you comment and visitors function。</p>
 <h2 id="get-app-id-and-app-key"> Get APP_ID and APP_Key</h2>
@@ -967,7 +967,7 @@ Vssue can also work with self-hosted GitLab. Set the <code>baseURL</code> option
   appKey<span>:</span> <span>"..."</span><span>,</span> <span>// your appKey</span>
 <span>}</span><span>;</span>
 </code></pre>
-</div><p>You can find all config items on <a href="./../api/valine.html">Config</a>.</p>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>You can find all config items on <a href="./../api/valine.html">Config</a>.</p>
 <div><p>Tips</p>
 <p>For Valine config and usage, please see <a href="https://valine.js.org" target="_blank" rel="noopener noreferrer">Valine Docs</a>。</p>
 </div>
@@ -984,7 +984,7 @@ Vssue can also work with self-hosted GitLab. Set the <code>baseURL</code> option
     <title type="html">Using Vssue</title>
     <id>https://vuepress-theme-hope.github.io/comment/guide/vssue/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/guide/vssue/"/>
-    <updated>2021-02-03T12:01:10.000Z</updated>
+    <updated>2021-02-03T12:05:08.000Z</updated>
     <content type="html"><![CDATA[<h1 id="using-vssue"> Using Vssue</h1>
 <h2 id="choose-a-platform-to-use"> Choose a platform to use</h2>
 <p>Vssue can enable comments for your static pages via the <code>Issue System</code> of <code>GitHub</code>, <code>Gitlab</code>, <code>Bitbucket</code> or <code>Gitee</code>, and you can choose one of those platforms.</p>
@@ -1017,7 +1017,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
   <span>}</span><span>,</span>
 <span>}</span><span>;</span>
 </code></pre>
-</div><div><p>Tips</p>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br></div></div><div><p>Tips</p>
 <p>The only difference is that, you should set <code>platform</code> rather than the <code>api</code> package itself.</p>
 <p><code>@vssue/vuepress-plugin-vssue</code> will auto resolve the corresponding API package according to the value of <code>platform</code>:</p>
 <ul>
@@ -1036,7 +1036,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 
 <span><span><span>&lt;</span>Vssue</span> <span>title</span><span><span>=</span><span>"</span>Vssue Demo<span>"</span></span> <span>/></span></span>
 </code></pre>
-</div><div><p>Tips</p>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><div><p>Tips</p>
 <p>You can go to the repository <a href="https://github.com/meteorlxy/vssue-demo" target="_blank" rel="noopener noreferrer">meteorlxy/vssue-demo</a> to get the demo code.</p>
 </div>
 <h2 id="custom-style-variables"> Custom Style Variables</h2>
@@ -1069,7 +1069,7 @@ $vssue-breakpoint-mobile
 <span>// the text direction (ltr / rtl) (used for RTL languages, e.g. Hebrew)</span>
 $vssue-direction
 </code></pre>
-</div><p>For example, Vssue use a &quot;Vue green&quot; (<code>#3eaf7c</code>) as the theme color, which is defined as the default value of variable <code>$vssue-theme-color</code>. You can change the theme color by setting <code>$vssue-theme-color</code> before import <code>vssue/src/styles/index.styl</code>.</p>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br></div></div><p>For example, Vssue use a &quot;Vue green&quot; (<code>#3eaf7c</code>) as the theme color, which is defined as the default value of variable <code>$vssue-theme-color</code>. You can change the theme color by setting <code>$vssue-theme-color</code> before import <code>vssue/src/styles/index.styl</code>.</p>
 <p>By default, those Vssue variables are set to VuePress variables:</p>
 <div><pre><code><span>// @vssue/vuepress-plugin-vssue/styles/index.styl</span>
 
@@ -1078,12 +1078,12 @@ $vssue-direction
 <span><span>$vssue-border-color</span> <span>?=</span> $borderColor</span>
 <span><span>$vssue-breakpoint-mobile</span> <span>?=</span> $MQMobile</span>
 </code></pre>
-</div><p>Set these variables in your <code>palette.styl</code> to override them:</p>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>Set these variables in your <code>palette.styl</code> to override them:</p>
 <div><pre><code><span>// .vuepress/styles/palette.styl</span>
 
 <span><span>$vssue-theme-color</span> <span>=</span> <span>red</span></span>
 </code></pre>
-</div><h2 id="do-not-want-to-use-our-plugin"> Do not want to use our plugin</h2>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><h2 id="do-not-want-to-use-our-plugin"> Do not want to use our plugin</h2>
 <p>Vssue has tried to be SSR-friendly, so you can import Vssue directly in VuePress like other vue plugins / components without <code>@vssue/vuepress-plugin-vssue</code> (especially if you have customized the styles of Vssue).</p>
 <p>But we still suggest you to use <code>@vssue/vuepress-plugin-vssue</code> in VuePress, which has already helped you make <code>&lt;Vssue&gt;</code> component client-only to avoid some potential issues.</p>
 <p>If you do not want to use the plugin we provided, you may need to wrap <code>&lt;Vssue&gt;</code> component into <code>&lt;ClientOnly&gt;</code> component to avoid those potential issues, that is :</p>
@@ -1091,7 +1091,7 @@ $vssue-direction
   <span><span><span>&lt;</span>Vssue</span> <span>/></span></span>
 <span><span><span>&lt;/</span>ClientOnly</span><span>></span></span>
 </code></pre>
-</div><blockquote>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><blockquote>
 <p>See <a href="https://vuepress.vuejs.org/guide/using-vue.html#clientonly" target="_blank" rel="noopener noreferrer">Built-in Components - ClientOnly</a> of VuePress</p>
 </blockquote>
 ]]></content>
@@ -1107,14 +1107,14 @@ $vssue-direction
     <title type="html">Home</title>
     <id>https://vuepress-theme-hope.github.io/comment/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/"/>
-    <updated>2021-02-03T12:01:10.000Z</updated>
+    <updated>2021-02-03T12:05:08.000Z</updated>
     <content type="html"><![CDATA[<h2 id="install"> Install</h2>
 <div><pre><code><span>npm</span> i -D @mr-hope/vuepress-plugin-comment
 </code></pre>
-</div><p>Or</p>
+<div><span>1</span><br></div></div><p>Or</p>
 <div><pre><code><span>yarn</span> <span>add</span> -D @mr-hope/vuepress-plugin-comment
 </code></pre>
-</div><h3 id="usage"> Usage</h3>
+<div><span>1</span><br></div></div><h3 id="usage"> Usage</h3>
 <div><pre><code><span>// .vuepress/config.js</span>
 module<span>.</span>exports <span>=</span> <span>{</span>
   plugins<span>:</span> <span>[</span>
@@ -1127,7 +1127,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
   <span>]</span><span>,</span>
 <span>}</span><span>;</span>
 </code></pre>
-</div>]]></content>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div>]]></content>
     <author>
       <name>Mr.Hope</name>
     </author>
@@ -1140,7 +1140,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">配置</title>
     <id>https://vuepress-theme-hope.github.io/comment/zh/config/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/zh/config/"/>
-    <updated>2021-02-03T12:01:10.000Z</updated>
+    <updated>2021-02-03T12:05:08.000Z</updated>
     <content type="html"><![CDATA[<h2 id="baselang"> baseLang</h2>
 <ul>
 <li>类型: <code>string</code></li>
@@ -1212,7 +1212,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">valine 配置</title>
     <id>https://vuepress-theme-hope.github.io/comment/zh/config/valine/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/zh/config/valine/"/>
-    <updated>2021-02-03T12:01:10.000Z</updated>
+    <updated>2021-02-03T12:05:08.000Z</updated>
     <content type="html"><![CDATA[<h1 id="valine-配置"> valine 配置</h1>
 <h2 id="appid"> appId</h2>
 <ul>
@@ -1342,7 +1342,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">Vssue 配置</title>
     <id>https://vuepress-theme-hope.github.io/comment/zh/config/vssue/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/zh/config/vssue/"/>
-    <updated>2021-02-03T12:01:10.000Z</updated>
+    <updated>2021-02-03T12:05:08.000Z</updated>
     <content type="html"><![CDATA[<h1 id="vssue-配置"> Vssue 配置</h1>
 <h2 id="platform"> platform</h2>
 <p><code>@vssue/vuepress-plugin-vssue</code> 会自动根据你设置的 <code>platform</code> 为你解析对应的 API 包:</p>
@@ -1600,7 +1600,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <p><strong>示例</strong>:</p>
 <div><pre><code><span>proxy</span><span>:</span> <span>(</span><span>url</span><span>)</span> <span>=></span> <span><span>`</span><span>https://your.cors.porxy?target=</span><span><span>${</span>url<span>}</span></span><span>`</span></span><span>;</span>
 </code></pre>
-</div></li>
+<div><span>1</span><br></div></div></li>
 <li>
 <p><strong>参考</strong>:</p>
 <ul>
@@ -1631,7 +1631,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <div><pre><code><span>issueContent</span><span>:</span> <span>(</span><span><span>{</span> url <span>}</span></span><span>)</span> <span>=></span>
   <span><span>`</span><span>这个 Issue 由 Vssue 自动创建，用来存储该页面的评论: </span><span><span>${</span>url<span>}</span></span><span>`</span></span><span>;</span>
 </code></pre>
-</div><div><p>Tips</p>
+<div><span>1</span><br><span>2</span><br></div></div><div><p>Tips</p>
 <p><code>issueContent</code> 只用来在对应 Issue 不存在时新建 Issue。</p>
 <p>如果对应的 Issue 已经存在，Vssue 不会更新 Issue 的内容。</p>
 </div>
@@ -1664,7 +1664,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">BitBucket OAuth Consumer</title>
     <id>https://vuepress-theme-hope.github.io/comment/zh/guide/bitbucket/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/zh/guide/bitbucket/"/>
-    <updated>2021-02-03T12:01:10.000Z</updated>
+    <updated>2021-02-03T12:05:08.000Z</updated>
     <content type="html"><![CDATA[<h1 id="bitbucket-oauth-consumer"> BitBucket OAuth Consumer</h1>
 <h2 id="创建一个新的-oauth-consumer"> 创建一个新的 OAuth Consumer</h2>
 <ul>
@@ -1719,7 +1719,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">Gitee 第三方应用</title>
     <id>https://vuepress-theme-hope.github.io/comment/zh/guide/gitee/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/zh/guide/gitee/"/>
-    <updated>2021-02-03T12:01:10.000Z</updated>
+    <updated>2021-02-03T12:05:08.000Z</updated>
     <content type="html"><![CDATA[<h1 id="gitee-第三方应用"> Gitee 第三方应用</h1>
 <blockquote>
 <p>Vssue 同样可以配合自己搭建的 Gitee 企业版 使用。只需要将 <code>baseURL</code> 设置为你的 Gitee URL 即可。查看 <a href="./../options/#baseurl">配置参考 - baseURL</a></p>
@@ -1772,7 +1772,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">GitHub OAuth App</title>
     <id>https://vuepress-theme-hope.github.io/comment/zh/guide/github/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/zh/guide/github/"/>
-    <updated>2021-02-03T12:01:10.000Z</updated>
+    <updated>2021-02-03T12:05:08.000Z</updated>
     <content type="html"><![CDATA[<h1 id="github-oauth-app"> GitHub OAuth App</h1>
 <blockquote>
 <p>Vssue 同样可以配合自己搭建的 GitHub Enterprise Server 使用。只需要将 <code>baseURL</code> 设置为你的 GitHub URL 即可。查看 <a href="./../options/#baseurl">配置参考 - baseURL</a></p>
@@ -1826,7 +1826,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">GitLab Application</title>
     <id>https://vuepress-theme-hope.github.io/comment/zh/guide/gitlab/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/zh/guide/gitlab/"/>
-    <updated>2021-02-03T12:01:10.000Z</updated>
+    <updated>2021-02-03T12:05:08.000Z</updated>
     <content type="html"><![CDATA[<h1 id="gitlab-application"> GitLab Application</h1>
 <blockquote>
 <p>查看 <a href="https://docs.gitlab.com/ce/integration/oauth_provider.html#adding-an-application-through-the-profile" target="_blank" rel="noopener noreferrer">Gitlab 官方文档</a> 作为参考。
@@ -1878,7 +1878,7 @@ Vssue 同样可以配合自己搭建的 GitLab 使用。只需要将 <code>baseU
     <title type="html">页面信息</title>
     <id>https://vuepress-theme-hope.github.io/comment/zh/guide/page-info/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/zh/guide/page-info/"/>
-    <updated>2021-02-03T12:01:10.000Z</updated>
+    <updated>2021-02-03T12:05:08.000Z</updated>
     <content type="html"><![CDATA[<p><code>&lt;PageInfo /&gt;</code> 组件默认全局启用。你可以在特定页面的 <code>Front Matter</code> 中设置 <code>pageInfo: false</code> 来局部禁用它。</p>
 <p>如果你需要保持全局禁用，请在插件选项中设置 <code>pageInfo</code> 为 <code>false</code>。这样你可以在特定页面的 <code>Front Matter</code> 中设置 <code>pageInfo</code> 来局部启用它。</p>
 <h2 id="参数"> 参数</h2>
@@ -1960,7 +1960,7 @@ Vssue 同样可以配合自己搭建的 GitLab 使用。只需要将 <code>baseU
     <title type="html">指南</title>
     <id>https://vuepress-theme-hope.github.io/comment/zh/guide/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/zh/guide/"/>
-    <updated>2021-02-03T12:01:10.000Z</updated>
+    <updated>2021-02-03T12:05:08.000Z</updated>
     <content type="html"><![CDATA[<p>此插件暴露两个组件，路径为 <code>@mr-hope/vuepress-plugin-comment/&lt;组件名&gt;.vue</code>。请在你的主题中手动引入。</p>
 <ul>
 <li><code>&lt;Comment /&gt;</code>: 评论组件</li>
@@ -1993,7 +1993,7 @@ Vssue 同样可以配合自己搭建的 GitLab 使用。只需要将 <code>baseU
     <title type="html">支持的代码托管平台</title>
     <id>https://vuepress-theme-hope.github.io/comment/zh/guide/supported-platforms/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/zh/guide/supported-platforms/"/>
-    <updated>2021-02-03T12:01:10.000Z</updated>
+    <updated>2021-02-03T12:05:08.000Z</updated>
     <content type="html"><![CDATA[<h1 id="支持的代码托管平台"> 支持的代码托管平台</h1>
 <h2 id="github"> GitHub</h2>
 <p>指南: <a href="./github.html">创建 GitHub OAuth App</a></p>
@@ -2086,7 +2086,7 @@ Vssue 同样可以配合自己搭建的 GitLab 使用。只需要将 <code>baseU
     <title type="html">Valine</title>
     <id>https://vuepress-theme-hope.github.io/comment/zh/guide/valine/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/zh/guide/valine/"/>
-    <updated>2021-02-03T12:01:10.000Z</updated>
+    <updated>2021-02-03T12:05:08.000Z</updated>
     <content type="html"><![CDATA[<h1 id="valine"> Valine</h1>
 <p>借助 Valine，插件实现了无后端开启阅读量展示与评论功能。</p>
 <h2 id="获取-app-id-和-app-key"> 获取 APP ID 和 APP Key</h2>
@@ -2098,7 +2098,7 @@ Vssue 同样可以配合自己搭建的 GitLab 使用。只需要将 <code>baseU
   appKey<span>:</span> <span>"..."</span><span>,</span> <span>// your appKey</span>
 <span>}</span><span>;</span>
 </code></pre>
-</div><p>将对应的 <code>APP ID</code> 和 <code>APP Key</code> 填入， Valine 即配置完成。</p>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>将对应的 <code>APP ID</code> 和 <code>APP Key</code> 填入， Valine 即配置完成。</p>
 <p>Valine 评论的其他配置将在 <a href="./../config/valine.html">配置</a> 中列出。</p>
 <div><p>Tips</p>
 <p>更多配置与使用，请见 <a href="https://valine.js.org" target="_blank" rel="noopener noreferrer">Valine 官方文档</a>。</p>
@@ -2116,7 +2116,7 @@ Vssue 同样可以配合自己搭建的 GitLab 使用。只需要将 <code>baseU
     <title type="html">使用 Vssue</title>
     <id>https://vuepress-theme-hope.github.io/comment/zh/guide/vssue/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/zh/guide/vssue/"/>
-    <updated>2021-02-03T12:01:10.000Z</updated>
+    <updated>2021-02-03T12:05:08.000Z</updated>
     <content type="html"><![CDATA[<h1 id="使用-vssue"> 使用 Vssue</h1>
 <h2 id="选择你要使用的代码托管平台"> 选择你要使用的代码托管平台</h2>
 <p>Vssue 支持通过 GitHub, Gitlab, Bitbucket 或者 Gitee 的 Issue 系统来为你的静态页面提供评论功能，你可以选择其中之一来使用。</p>
@@ -2149,7 +2149,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
   <span>}</span><span>,</span>
 <span>}</span><span>;</span>
 </code></pre>
-</div><div><p>Tips</p>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br></div></div><div><p>Tips</p>
 <p>唯一的区别在于，你需要设置 <code>platform</code> 而不是对应的 <code>api</code> 包。</p>
 <p><code>@vssue/vuepress-plugin-vssue</code> 会自动根据你设置的 <code>platform</code> 为你解析对应的 API 包:</p>
 <ul>
@@ -2168,7 +2168,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 
 <span><span><span>&lt;</span>Vssue</span> <span>title</span><span><span>=</span><span>"</span>Vssue Demo<span>"</span></span> <span>/></span></span>
 </code></pre>
-</div><h3 id="自定义样式变量"> 自定义样式变量</h3>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><h3 id="自定义样式变量"> 自定义样式变量</h3>
 <p>通过 VuePress 的 <a href="https://vuepress.vuejs.org/zh/config/#palette-styl" target="_blank" rel="noopener noreferrer">palette.styl</a>，你可以很轻松地修改 Vssue 的样式变量。</p>
 <p>Vssue 样式中预定义了一些 <a href="http://stylus-lang.com/docs/variables.html" target="_blank" rel="noopener noreferrer">Stylus 变量</a>，你可以在 <code>vssue/src/styles/_variables.styl</code> 中查看它们:</p>
 <div><pre><code><span>// 主题颜色</span>
@@ -2198,7 +2198,7 @@ $vssue-breakpoint-mobile
 <span>// 文字方向 (ltr / rtl)  (为 RTL 语言使用，如希伯来语等)</span>
 $vssue-direction
 </code></pre>
-</div><p>举例来说，Vssue 默认使用一个“Vue 绿色” (<code>#3eaf7c</code>) 作为主题颜色，并将其设置为 <code>$vssue-theme-color</code> 的默认值。你可以在引入 <code>vssue/src/styles/index.styl</code> 之前设置 <code>$vssue-theme-color</code> 的值来改变主题颜色。</p>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br></div></div><p>举例来说，Vssue 默认使用一个“Vue 绿色” (<code>#3eaf7c</code>) 作为主题颜色，并将其设置为 <code>$vssue-theme-color</code> 的默认值。你可以在引入 <code>vssue/src/styles/index.styl</code> 之前设置 <code>$vssue-theme-color</code> 的值来改变主题颜色。</p>
 <p>默认情况下，下面这些 Vssue 的样式变量与 VuePress 的样式变量相等:</p>
 <div><pre><code><span>// @vssue/vuepress-plugin-vssue/styles/index.styl</span>
 
@@ -2207,14 +2207,14 @@ $vssue-direction
 <span><span>$vssue-border-color</span> <span>?=</span> $borderColor</span>
 <span><span>$vssue-breakpoint-mobile</span> <span>?=</span> $MQMobile</span>
 </code></pre>
-</div><p>如果你想要覆盖它们，在你的 <code>palette.styl</code> 中设置即可:</p>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>如果你想要覆盖它们，在你的 <code>palette.styl</code> 中设置即可:</p>
 <div><pre><code><span>// .vuepress/styles/palette.styl</span>
 
 <span><span>$accentColor</span> <span>=</span> <span>blue</span></span>
 
 <span><span>$vssue-theme-color</span> <span>=</span> <span>red</span></span>
 </code></pre>
-</div><h2 id="不想使用-vssue-插件"> 不想使用 Vssue 插件</h2>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><h2 id="不想使用-vssue-插件"> 不想使用 Vssue 插件</h2>
 <p>Vssue 是适配 SSR 的，所以你可以不使用 <code>@vssue/vuepress-plugin-vssue</code>，而是像其他 Vue 插件 / 组件一样，在 VuePress 中直接引入 Vssue (尤其是在你对 Vssue 的样式进行了自定义的时候) 。</p>
 <p>但是我们仍然建议你在 VuePress 中通过 <code>@vssue/vuepress-plugin-vssue</code> 来使用 Vssue，该插件已经帮助你仅在客户端加载 Vssue 来避免一些潜在的问题。</p>
 <p>如果你不想使用我们提供的插件，你可能需要将 <code>&lt;Vssue&gt;</code> 组件放置在 <code>&lt;ClientOnly&gt;</code> 组件中来避免这些潜在的问题，即:</p>
@@ -2222,7 +2222,7 @@ $vssue-direction
   <span><span><span>&lt;</span>Vssue</span> <span>/></span></span>
 <span><span><span>&lt;/</span>ClientOnly</span><span>></span></span>
 </code></pre>
-</div><blockquote>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><blockquote>
 <p>参考 VuePress <a href="https://vuepress.vuejs.org/zh/guide/using-vue.html#clientonly" target="_blank" rel="noopener noreferrer">内置的组件 - ClientOnly</a></p>
 </blockquote>
 ]]></content>
@@ -2238,14 +2238,14 @@ $vssue-direction
     <title type="html">主页</title>
     <id>https://vuepress-theme-hope.github.io/comment/zh/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/zh/"/>
-    <updated>2021-02-03T12:01:10.000Z</updated>
+    <updated>2021-02-03T12:05:08.000Z</updated>
     <content type="html"><![CDATA[<h2 id="安装"> 安装</h2>
 <div><pre><code><span>npm</span> i -D @mr-hope/vuepress-plugin-comment
 </code></pre>
-</div><p>或</p>
+<div><span>1</span><br></div></div><p>或</p>
 <div><pre><code><span>yarn</span> <span>add</span> -D @mr-hope/vuepress-plugin-comment
 </code></pre>
-</div><h2 id="使用"> 使用</h2>
+<div><span>1</span><br></div></div><h2 id="使用"> 使用</h2>
 <div><pre><code><span>// .vuepress/config.js</span>
 module<span>.</span>exports <span>=</span> <span>{</span>
   plugins<span>:</span> <span>[</span>
@@ -2258,7 +2258,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
   <span>]</span><span>,</span>
 <span>}</span><span>;</span>
 </code></pre>
-</div>]]></content>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div>]]></content>
     <author>
       <name>Mr.Hope</name>
     </author>

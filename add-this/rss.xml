@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/add-this/</link>
     <description>Share Plugin provided by AddThis</description>
     <language>en-US</language>
-    <pubDate>Wed, 03 Feb 2021 12:06:15 GMT</pubDate>
-    <lastBuildDate>Wed, 03 Feb 2021 12:06:15 GMT</lastBuildDate>
+    <pubDate>Wed, 03 Feb 2021 12:08:48 GMT</pubDate>
+    <lastBuildDate>Wed, 03 Feb 2021 12:08:48 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -45,16 +45,16 @@
 <h3 id="install"> Install</h3>
 <div><pre><code><span>npm</span> i -D vuepress-plugin-add-this
 </code></pre>
-</div><p>Or</p>
+<div><span>1</span><br></div></div><p>Or</p>
 <div><pre><code><span>yarn</span> <span>add</span> -D vuepress-plugin-add-this
 </code></pre>
-</div><h3 id="usage"> Usage</h3>
+<div><span>1</span><br></div></div><h3 id="usage"> Usage</h3>
 <div><pre><code><span>// .vuepress/config.js</span>
 module<span>.</span>exports <span>=</span> <span>{</span>
   plugins<span>:</span> <span>[</span><span>[</span><span>"add-this"</span><span>,</span> <span>{</span> pubid<span>:</span> <span>"your pubid"</span> <span>}</span><span>]</span><span>]</span><span>,</span>
 <span>}</span><span>;</span>
 </code></pre>
-</div>]]></content:encoded>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div>]]></content:encoded>
     </item>
     <item>
       <title>配置</title>
@@ -93,15 +93,15 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <h3 id="安装"> 安装</h3>
 <div><pre><code><span>npm</span> i -D vuepress-plugin-add-this
 </code></pre>
-</div><p>或</p>
+<div><span>1</span><br></div></div><p>或</p>
 <div><pre><code><span>yarn</span> <span>add</span> -D vuepress-plugin-add-this
 </code></pre>
-</div><h3 id="使用"> 使用</h3>
+<div><span>1</span><br></div></div><h3 id="使用"> 使用</h3>
 <div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
   plugins<span>:</span> <span>[</span><span>[</span><span>"add-this"</span><span>,</span> <span>{</span> pubid<span>:</span> <span>"你的 pubid"</span> <span>}</span><span>]</span><span>]</span><span>,</span>
 <span>}</span><span>;</span>
 </code></pre>
-</div>]]></content:encoded>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div>]]></content:encoded>
     </item>
   </channel>
 </rss>

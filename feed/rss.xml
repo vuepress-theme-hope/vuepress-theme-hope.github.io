@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/feed/</link>
     <description>Feed Plugin for vuepress</description>
     <language>en-US</language>
-    <pubDate>Wed, 03 Feb 2021 12:06:15 GMT</pubDate>
-    <lastBuildDate>Wed, 03 Feb 2021 12:06:15 GMT</lastBuildDate>
+    <pubDate>Wed, 03 Feb 2021 12:08:48 GMT</pubDate>
+    <lastBuildDate>Wed, 03 Feb 2021 12:08:48 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -126,7 +126,7 @@
   avator<span>?</span><span>:</span> <span>string</span><span>;</span>
 <span>}</span>
 </code></pre>
-</div><h2 id="channel-hub"> channel.hub</h2>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br></div></div><h2 id="channel-hub"> channel.hub</h2>
 <ul>
 <li>Type: <code>string</code></li>
 </ul>
@@ -222,7 +222,7 @@
   avator<span>?</span><span>:</span> <span>string</span><span>;</span>
 <span>}</span>
 </code></pre>
-</div></details>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br></div></div></details>
 <h3 id="feed-contributor"> feed.contributor</h3>
 <ul>
 <li>Type: <code>FeedContributor[]| FeedContributor</code></li>
@@ -244,7 +244,7 @@
   avator<span>?</span><span>:</span> <span>string</span><span>;</span>
 <span>}</span>
 </code></pre>
-</div></details>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br></div></div></details>
 <h3 id="feed-guid"> feed.guid</h3>
 <ul>
 <li>Type: <code>string</code></li>
@@ -672,7 +672,7 @@
   avator<span>?</span><span>:</span> <span>string</span><span>;</span>
 <span>}</span>
 </code></pre>
-</div></details>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br></div></div></details>
 </li>
 <li>
 <p><code>feed.contributor</code>: Set multiple contributors and detailed contributor information, the format is <code>FeedContributor[] | FeedContributor</code></p>
@@ -700,7 +700,7 @@
   scheme<span>?</span><span>:</span> <span>string</span><span>;</span>
 <span>}</span>
 </code></pre>
-</div></details>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br></div></div></details>
 </li>
 <li>
 <p><code>feed.guid</code>: The feed item identifier, permanent link of the page or page link by default</p>
@@ -721,10 +721,10 @@
 <h3 id="install"> Install</h3>
 <div><pre><code><span>npm</span> i -D @mr-hope/vuepress-plugin-feed
 </code></pre>
-</div><p>Or</p>
+<div><span>1</span><br></div></div><p>Or</p>
 <div><pre><code><span>yarn</span> <span>add</span> -D @mr-hope/vuepress-plugin-feed
 </code></pre>
-</div><h3 id="usage"> Usage</h3>
+<div><span>1</span><br></div></div><h3 id="usage"> Usage</h3>
 <div><pre><code><span>// .vuepress/config.js</span>
 module<span>.</span>exports <span>=</span> <span>{</span>
   plugins<span>:</span> <span>[</span>
@@ -737,7 +737,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
   <span>]</span><span>,</span>
 <span>}</span><span>;</span>
 </code></pre>
-</div>]]></content:encoded>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div>]]></content:encoded>
     </item>
     <item>
       <title>频道设置</title>
@@ -841,7 +841,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
   avator<span>?</span><span>:</span> <span>string</span><span>;</span>
 <span>}</span>
 </code></pre>
-</div></details>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br></div></div></details>
 <h2 id="channel-hub"> channel.hub</h2>
 <ul>
 <li>类型: <code>string</code></li>
@@ -937,7 +937,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
   avator<span>?</span><span>:</span> <span>string</span><span>;</span>
 <span>}</span>
 </code></pre>
-</div></details>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br></div></div></details>
 <h3 id="feed-contributor"> feed.contributor</h3>
 <ul>
 <li>类型: <code>FeedContributor[] | FeedContributor</code></li>
@@ -959,7 +959,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
   avator<span>?</span><span>:</span> <span>string</span><span>;</span>
 <span>}</span>
 </code></pre>
-</div></details>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br></div></div></details>
 <h3 id="feed-guid"> feed.guid</h3>
 <ul>
 <li>类型: <code>string</code></li>
@@ -1395,7 +1395,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
   avator<span>?</span><span>:</span> <span>string</span><span>;</span>
 <span>}</span>
 </code></pre>
-</div></details>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br></div></div></details>
 </li>
 <li>
 <p><code>feed.contributor</code>: 设置多个贡献者与详细的贡献者信息，格式为 <code>FeedContributor[] | FeedContributor</code></p>
@@ -1424,7 +1424,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
   scheme<span>?</span><span>:</span> <span>string</span><span>;</span>
 <span>}</span>
 </code></pre>
-</div></details>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br></div></div></details>
 </li>
 <li>
 <p><code>feed.guid</code>: 覆盖默认的 Feed 项目标识符，默认为页面永久链接，若不存在回退到页面链接。</p>
@@ -1445,10 +1445,10 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <h3 id="安装"> 安装</h3>
 <div><pre><code><span>npm</span> i -D @mr-hope/vuepress-plugin-feed
 </code></pre>
-</div><p>或</p>
+<div><span>1</span><br></div></div><p>或</p>
 <div><pre><code><span>yarn</span> <span>add</span> -D @mr-hope/vuepress-plugin-feed
 </code></pre>
-</div><h3 id="使用"> 使用</h3>
+<div><span>1</span><br></div></div><h3 id="使用"> 使用</h3>
 <div><pre><code><span>// .vuepress/config.js</span>
 module<span>.</span>exports <span>=</span> <span>{</span>
   plugins<span>:</span> <span>[</span>
@@ -1461,7 +1461,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
   <span>]</span><span>,</span>
 <span>}</span><span>;</span>
 </code></pre>
-</div>]]></content:encoded>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div>]]></content:encoded>
     </item>
   </channel>
 </rss>
