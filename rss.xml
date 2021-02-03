@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/</link>
     <description>A vuepress theme with tons of features✨</description>
     <language>en-US</language>
-    <pubDate>Wed, 03 Feb 2021 12:21:36 GMT</pubDate>
-    <lastBuildDate>Wed, 03 Feb 2021 12:21:36 GMT</lastBuildDate>
+    <pubDate>Wed, 03 Feb 2021 12:24:53 GMT</pubDate>
+    <lastBuildDate>Wed, 03 Feb 2021 12:24:53 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -6201,7 +6201,7 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
       <category>FAQ</category>
       <content:encoded><![CDATA[<h2 id="官方-qq-群"> 官方 QQ 群</h2>
 <ul>
-<li><a href="https://jq.qq.com/?_wv=1027&amp;k=rATJyxGK" target="_blank" rel="noopener noreferrer">点击加入</a></li>
+<li><a href="https://jq.qq.com/?_wv=1027&amp;k=rATJyxGK" target="_blank" rel="noopener noreferrer">点击加入</a> (群号: 1003437555)</li>
 </ul>
 <h2 id="构建失败"> 构建失败</h2>
 <p>请确保你使用的是最新版本主题，之后在禁用缓存的情况下重新运行开发服务器: <code>vuepress dev &lt;你的文档地址&gt; --no-cache</code>。</p>
@@ -12737,7 +12737,7 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 </div>
 <h2 id="官方-qq-群"> 官方 QQ 群</h2>
 <ul>
-<li><a href="https://jq.qq.com/?_wv=1027&amp;k=rATJyxGK" target="_blank" rel="noopener noreferrer">点击加入</a></li>
+<li><a href="https://jq.qq.com/?_wv=1027&amp;k=rATJyxGK" target="_blank" rel="noopener noreferrer">点击加入</a> (群号: 1003437555)</li>
 </ul>
 ]]></content:encoded>
     </item>
