@@ -4,4 +4,4 @@ Disallow:
 User-agent:*
 Disallow:
 
-Sitemap: https://vuepress-theme-hope.github.io/sitemap.xml
+Sitemap: https://vuepress-theme-hope.github.io/last-update/sitemap.xml

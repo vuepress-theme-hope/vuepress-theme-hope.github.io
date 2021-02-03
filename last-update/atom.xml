@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
-  <id>https://vuepress-theme-hope.github.io/</id>
+  <id>https://vuepress-theme-hope.github.io/last-update/</id>
   <title>Last Update Time</title>
   <subtitle>Last update time getter for vuepress</subtitle>
   <author>
     <name>Mr.Hope</name>
   </author>
-  <updated>2021-02-03T11:30:59.971Z</updated>
+  <updated>2021-02-03T11:55:14.912Z</updated>
   <generator>@mr-hope/vuepress-plugin-feed</generator>
-  <link rel="self" href="https://vuepress-theme-hope.github.io/atom.xml"/>
-  <link rel="alternate" href="https://vuepress-theme-hope.github.io/"/>
+  <link rel="self" href="https://vuepress-theme-hope.github.io/last-update/atom.xml"/>
+  <link rel="alternate" href="https://vuepress-theme-hope.github.io/last-update/"/>
   <rights>MIT Licensed | Copyright © 2019-present Mr.Hope</rights>
   <contributor>
     <name>Mr.Hope</name>
   </contributor>
   <entry>
     <title type="html">Home</title>
-    <id>https://vuepress-theme-hope.github.io/</id>
-    <link href="https://vuepress-theme-hope.github.io/"/>
-    <updated>2021-02-03T11:24:42.000Z</updated>
+    <id>https://vuepress-theme-hope.github.io/last-update/</id>
+    <link href="https://vuepress-theme-hope.github.io/last-update/"/>
+    <updated>2021-02-03T11:51:26.000Z</updated>
     <content type="html"><![CDATA[<p>This plugin will use git to inject a readable last update time and a last update time timestamp into the page.</p>
 <div><p>Why use this plugin</p>
 <p>The internationalization support of the official plugin is not good, this plugin provides better multi-language support.</p>
@@ -69,9 +69,9 @@ module<span>.</span>exports <span>=</span> <span>{</span>
   </entry>
   <entry>
     <title type="html">主页</title>
-    <id>https://vuepress-theme-hope.github.io/zh/</id>
-    <link href="https://vuepress-theme-hope.github.io/zh/"/>
-    <updated>2021-02-03T11:24:42.000Z</updated>
+    <id>https://vuepress-theme-hope.github.io/last-update/zh/</id>
+    <link href="https://vuepress-theme-hope.github.io/last-update/zh/"/>
+    <updated>2021-02-03T11:51:26.000Z</updated>
     <content type="html"><![CDATA[<p>这个插件将会利用 Git 的日志向 page 注入可阅读的最后更新时间文字与最后更新时间的时间戳。</p>
 <div><p>为什么使用本插件</p>
 <p>官方插件的国际化支持并不良好，本插件提供了更为优秀的多语言支持。</p>

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <atom:link href="https://vuepress-theme-hope.github.io/rss.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://vuepress-theme-hope.github.io/last-update/rss.xml" rel="self" type="application/rss+xml"/>
     <title>Last Update Time</title>
-    <link>https://vuepress-theme-hope.github.io/</link>
+    <link>https://vuepress-theme-hope.github.io/last-update/</link>
     <description>Last update time getter for vuepress</description>
     <language>en-US</language>
-    <pubDate>Wed, 03 Feb 2021 11:30:59 GMT</pubDate>
-    <lastBuildDate>Wed, 03 Feb 2021 11:30:59 GMT</lastBuildDate>
+    <pubDate>Wed, 03 Feb 2021 11:55:14 GMT</pubDate>
+    <lastBuildDate>Wed, 03 Feb 2021 11:55:14 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
     <item>
       <title>Home</title>
-      <link>https://vuepress-theme-hope.github.io/</link>
-      <guid>https://vuepress-theme-hope.github.io/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">Home</source>
+      <link>https://vuepress-theme-hope.github.io/last-update/</link>
+      <guid>https://vuepress-theme-hope.github.io/last-update/</guid>
+      <source url="https://vuepress-theme-hope.github.io/last-update/rss.xml">Home</source>
       <content:encoded><![CDATA[<p>This plugin will use git to inject a readable last update time and a last update time timestamp into the page.</p>
 <div><p>Why use this plugin</p>
 <p>The internationalization support of the official plugin is not good, this plugin provides better multi-language support.</p>
@@ -59,9 +59,9 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     </item>
     <item>
       <title>主页</title>
-      <link>https://vuepress-theme-hope.github.io/zh/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">主页</source>
+      <link>https://vuepress-theme-hope.github.io/last-update/zh/</link>
+      <guid>https://vuepress-theme-hope.github.io/last-update/zh/</guid>
+      <source url="https://vuepress-theme-hope.github.io/last-update/rss.xml">主页</source>
       <content:encoded><![CDATA[<p>这个插件将会利用 Git 的日志向 page 注入可阅读的最后更新时间文字与最后更新时间的时间戳。</p>
 <div><p>为什么使用本插件</p>
 <p>官方插件的国际化支持并不良好，本插件提供了更为优秀的多语言支持。</p>
