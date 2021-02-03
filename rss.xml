@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/</link>
     <description>A vuepress theme with tons of features✨</description>
     <language>en-US</language>
-    <pubDate>Wed, 03 Feb 2021 11:26:06 GMT</pubDate>
-    <lastBuildDate>Wed, 03 Feb 2021 11:26:06 GMT</lastBuildDate>
+    <pubDate>Wed, 03 Feb 2021 11:31:00 GMT</pubDate>
+    <lastBuildDate>Wed, 03 Feb 2021 11:31:00 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -3711,11 +3711,11 @@ $vssue-direction
 <p>For detailed options and their values, please see <a href="https://vuepress-theme-hope.github.io/feed/config/channel/" target="_blank" rel="noopener noreferrer">Feed Channel Config</a></p>
 <h2 id="project-settings"> Project Settings</h2>
 <p>By default, all articles will be added to the feed stream. You can control the generation of feed items for specific articles by configuring the feed options in frontmatter.</p>
-<p>If you want to remove a specific page from the feed, you can set <code>feed.enable</code> to <code>false</code> in the frontmatter of the page.</p>
+<p>To remove a specific page from the feed, set <code>feed.enable</code> to <code>false</code> in the frontmatter of the page.</p>
 <p>You can also add content directly to the feed plugin via <code>frontmatter.feed</code>. For detailed options and their default values, please see <a href="https://vuepress-theme-hope.github.io/feed/config/item/" target="_blank" rel="noopener noreferrer">Feed Item Config</a></p>
 <h2 id="output-configuration"> Output configuration</h2>
 <p>You can use the <code>output</code> in the configuration options to decide which feed file formats to output and their location.</p>
-<p>For detailed options and their default values, please refer to <a href="https://vuepress-theme-hope.github.io/feed/config/#output" target="_blank" rel="noopener noreferrer">Feed Output config</a></p>
+<p>For detailed options and their default values, see <a href="https://vuepress-theme-hope.github.io/feed/config/#output" target="_blank" rel="noopener noreferrer">Feed Output config</a></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -3799,9 +3799,18 @@ $vssue-direction
       <link>https://vuepress-theme-hope.github.io/guide/feature/markdown/align/</link>
       <guid>https://vuepress-theme-hope.github.io/guide/feature/markdown/align/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">Custom alignment</source>
+      <description>&amp;lt;p&amp;gt;By injecting configuration into vuepress-plugin-container, you can use&amp;lt;/p&amp;gt;
+&amp;lt;div&amp;gt;&amp;lt;pre&amp;gt;&amp;lt;code&amp;gt;::: center
+Paragraph to center
+:::
+&amp;lt;div&amp;gt;
+&amp;lt;p&amp;gt;Right paragraph&amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;
+&amp;lt;div&amp;gt;&amp;lt;span&amp;gt;1&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;2&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;3&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;4&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;5&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;6&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;7&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;p&amp;gt;To customize your paragraph alignment.&amp;lt;/p&amp;gt;&amp;lt;/p&amp;gt;
+</description>
       <category>markdown</category>
-      <content:encoded><![CDATA[<h1 id="custom-alignment"> Custom alignment</h1>
-<p>By injecting configuration into vuepress-plugin-container, you can use</p>
+      <content:encoded><![CDATA[<p>By injecting configuration into vuepress-plugin-container, you can use</p>
 <div><pre><code>::: center
 Paragraph to center
 :::
@@ -3811,6 +3820,7 @@ Right paragraph
 :::
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><p>To customize your paragraph alignment.</p>
+
 <h2 id="config"> Config</h2>
 <div><div><br><br><br><div>&nbsp;</div><br><br><br><br></div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
   themeConfig<span>:</span> <span>{</span>
@@ -3820,7 +3830,7 @@ Right paragraph
   <span>}</span><span>,</span>
 <span>}</span><span>;</span>
 </code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><h2 id="demo"> Demo</h2>
-<p>This topic is still in production, the API may have</p>
+<p>vuepress-theme-hope v2 is still in W.I.P, the API may have</p>
 <div>
 <p>Significant changes.</p>
 </div>
@@ -3828,13 +3838,13 @@ Right paragraph
 <div>
 <p><a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/issues" target="_blank" rel="noopener noreferrer">Mention an issue</a>.</p>
 </div>
-<div><pre><code>This topic is still in production, the API may have
+<div><pre><code>vuepress-theme-hope v2 is still in W.I.P, the API may have
 
 ::: center
 Significant changes.
 :::
 
-If you encounter a bug during use, you can
+If you meet a bug during usage, you can
 
 ::: right
 <span>[<span>Mention an issue</span>](<span>https://github.com/vuepress-theme-hope/vuepress-theme-hope/issues</span>)</span>.
@@ -3918,9 +3928,11 @@ A custom details container
       <link>https://vuepress-theme-hope.github.io/guide/feature/markdown/demo/</link>
       <guid>https://vuepress-theme-hope.github.io/guide/feature/markdown/demo/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">Code Demo</source>
+      <description>&amp;lt;p&amp;gt;Let you insert code demos in your Markdown file.&amp;lt;/p&amp;gt;
+</description>
       <category>markdown</category>
-      <content:encoded><![CDATA[<h1 id="code-demo"> Code Demo</h1>
-<p>Let you insert code demos in your Markdown file.</p>
+      <content:encoded><![CDATA[<p>Let you insert code demos in your Markdown file.</p>
+
 <h2 id="configuration"> Configuration</h2>
 <div><div><br><br><br><div>&nbsp;</div><br><br><br><br></div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
   themeConfig<span>:</span> <span>{</span>
@@ -4335,9 +4347,11 @@ document<span>&lt;</span>span <span>class</span><span>=</span><span>"token punct
       <link>https://vuepress-theme-hope.github.io/guide/feature/markdown/flowchart/</link>
       <guid>https://vuepress-theme-hope.github.io/guide/feature/markdown/flowchart/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">Flowchart</source>
+      <description>&amp;lt;p&amp;gt;Let the Markdown file support flow chart in your VuePress site&amp;lt;/p&amp;gt;
+</description>
       <category>markdown</category>
-      <content:encoded><![CDATA[<h1 id="flowchart"> Flowchart</h1>
-<p>Let the Markdown file support flow chart in your VuePress site</p>
+      <content:encoded><![CDATA[<p>Let the Markdown file support flow chart in your VuePress site</p>
+
 <h2 id="configuration"> Configuration</h2>
 <div><div><br><br><br><div>&nbsp;</div><br><br><br><br></div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
   themeConfig<span>:</span> <span>{</span>
@@ -4389,9 +4403,11 @@ c2(no)->op2->e
       <link>https://vuepress-theme-hope.github.io/guide/feature/markdown/footnote/</link>
       <guid>https://vuepress-theme-hope.github.io/guide/feature/markdown/footnote/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">Footnote</source>
+      <description>&amp;lt;p&amp;gt;Let the Markdown file in your VuePress site support footnotes.&amp;lt;/p&amp;gt;
+</description>
       <category>markdown</category>
-      <content:encoded><![CDATA[<h1 id="footnote"> Footnote</h1>
-<p>Let the Markdown file in your VuePress site support footnotes.</p>
+      <content:encoded><![CDATA[<p>Let the Markdown file in your VuePress site support footnotes.</p>
+
 <h2 id="configuration"> Configuration</h2>
 <div><div><br><br><br><div>&nbsp;</div><br><br><br><br></div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
   themeConfig<span>:</span> <span>{</span>
@@ -4424,8 +4440,11 @@ c2(no)->op2->e
       <link>https://vuepress-theme-hope.github.io/guide/feature/markdown/mark/</link>
       <guid>https://vuepress-theme-hope.github.io/guide/feature/markdown/mark/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">Markup</source>
-      <content:encoded><![CDATA[<h1 id="markup"> Markup</h1>
-<p>Make Markdown files in your VuePress site support markup.</p>
+      <description>&amp;lt;p&amp;gt;Make Markdown files in your VuePress site support markup.&amp;lt;/p&amp;gt;
+</description>
+      <category>markdown</category>
+      <content:encoded><![CDATA[<p>Make Markdown files in your VuePress site support markup.</p>
+
 <h2 id="configuration"> Configuration</h2>
 <div><div><br><br><br><div>&nbsp;</div><br><br><br><br></div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
   themeConfig<span>:</span> <span>{</span>
@@ -4443,13 +4462,16 @@ c2(no)->op2->e
 <div><span>1</span><br></div></div>]]></content:encoded>
     </item>
     <item>
-      <title>Presentation support</title>
+      <title>Presentation</title>
       <link>https://vuepress-theme-hope.github.io/guide/feature/markdown/presentation/</link>
       <guid>https://vuepress-theme-hope.github.io/guide/feature/markdown/presentation/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">Presentation support</source>
-      <content:encoded><![CDATA[<h1 id="presentation-support"> Presentation support</h1>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">Presentation</source>
+      <description>&amp;lt;p&amp;gt;Let the Markdown file in your VuePress site support presentation.&amp;lt;/p&amp;gt;
+</description>
+      <category>markdown</category>
+      <content:encoded><![CDATA[<p>Let the Markdown file in your VuePress site support presentation.</p>
 
-<p>Let the Markdown file in your VuePress site support presentation.</p>
+
 <h2 id="configuration"> Configuration</h2>
 <div><div><br><br><br><br><div>&nbsp;</div><br><br><br><br></div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
   themeConfig<span>:</span> <span>{</span>
@@ -4479,7 +4501,7 @@ c2(no)->op2->e
 
 @slideend
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></div></div><p>Theme available:</p>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></div></div><p>Theme available(replace <code>[theme]</code> with them):</p>
 <ul>
 <li><code>auto</code> (Default)</li>
 <li><code>black</code></li>
@@ -4494,6 +4516,7 @@ c2(no)->op2->e
 <li><code>blood</code></li>
 <li><code>moon</code></li>
 </ul>
+<p>For details, see <a href="https://vuepress-theme-hope.github.io/md-enhance/guide/presentation/themes/" target="_blank" rel="noopener noreferrer">Themes demo</a>.</p>
 <h2 id="demo"> Demo</h2>
 <i>Not supported content</i><div><pre><code>@slidestart
 
@@ -4526,24 +4549,10 @@ $$
 
 @slideend
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br></div></div><h2 id="options"> Options</h2>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br></div></div><p>For detailed demo, please see <a href="https://vuepress-theme-hope.github.io/md-enhance/guide/presentation/demo/" target="_blank" rel="noopener noreferrer">Presentation Demo</a></p>
+<h2 id="options"> Options</h2>
 <p>You can set <code>reveal</code> to pass options to reveal.js per page in frontmatter, you can also set <code>presentation</code> in plugin options to set reveal.js globally.</p>
 <p>For more options, see <a href="https://revealjs.com/config/" target="_blank" rel="noopener noreferrer">reveal.js config</a>. For more usage, see <a href="https://revealjs.com/" target="_blank" rel="noopener noreferrer">reveal.js documatation</a></p>
-<h2 id="themes"> Themes</h2>
-
-<h3 id="auto"> Auto</h3>
-<i>Not supported content</i><h3 id="black"> Black</h3>
-<i>Not supported content</i><h3 id="white"> White</h3>
-<i>Not supported content</i><h3 id="league"> League</h3>
-<i>Not supported content</i><h3 id="beige"> Beige</h3>
-<i>Not supported content</i><h3 id="sky"> Sky</h3>
-<i>Not supported content</i><h3 id="night"> Night</h3>
-<i>Not supported content</i><h3 id="serif"> Serif</h3>
-<i>Not supported content</i><h3 id="simple"> Simple</h3>
-<i>Not supported content</i><h3 id="solarized"> Solarized</h3>
-<i>Not supported content</i><h3 id="blood"> Blood</h3>
-<i>Not supported content</i><h3 id="moon"> Moon</h3>
-<i>Not supported content</i>
 ]]></content:encoded>
     </item>
     <item>
@@ -4661,9 +4670,11 @@ $$
       <link>https://vuepress-theme-hope.github.io/guide/feature/markdown/sup-sub/</link>
       <guid>https://vuepress-theme-hope.github.io/guide/feature/markdown/sup-sub/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">Superscript and Subscript</source>
+      <description>&amp;lt;p&amp;gt;Let the Markdown file in your VuePress site support Subscript and Superscript.&amp;lt;/p&amp;gt;
+</description>
       <category>markdown</category>
-      <content:encoded><![CDATA[<h1 id="superscript-and-subscript"> Superscript and Subscript</h1>
-<p>Let the Markdown file in your VuePress site support Subscript and Superscript.</p>
+      <content:encoded><![CDATA[<p>Let the Markdown file in your VuePress site support Subscript and Superscript.</p>
+
 <h2 id="configuration"> Configuration</h2>
 <div><div><br><br><br><div>&nbsp;</div><div>&nbsp;</div><br><br><br><br></div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
   themeConfig<span>:</span> <span>{</span>
@@ -4690,12 +4701,15 @@ $$
 ]]></content:encoded>
     </item>
     <item>
-      <title>Tex Support</title>
+      <title>Tex</title>
       <link>https://vuepress-theme-hope.github.io/guide/feature/markdown/tex/</link>
       <guid>https://vuepress-theme-hope.github.io/guide/feature/markdown/tex/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">Tex Support</source>
-      <content:encoded><![CDATA[<h1 id="tex-support"> Tex Support</h1>
-<p>Let the Markdown file in your VuePress site support the <span><span><i>Not supported content</i></span><span aria-hidden="true"><span><span style="height:0.89883em;vertical-align:-0.2155em;"></span><span><span>T</span><span style="margin-right:-0.1667em;"></span><span><span><span style="height:0.46782999999999997em;"><span style="top:-2.7845em;"><span style="height:3em;"></span><span><span>E</span></span></span></span><span>​</span></span><span><span style="height:0.2155em;"><span></span></span></span></span><span style="margin-right:-0.125em;"></span><span>X</span></span></span></span></span> syntax.</p>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">Tex</source>
+      <description>&amp;lt;p&amp;gt;Let the Markdown file in your VuePress site support the &amp;lt;span&amp;gt;&amp;lt;span&amp;gt;&amp;lt;i&amp;gt;Not supported content&amp;lt;/i&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;span&amp;gt;&amp;lt;span style=&amp;quot;height:0.89883em;vertical-align:-0.2155em;&amp;quot;&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;&amp;lt;span&amp;gt;T&amp;lt;/span&amp;gt;&amp;lt;span style=&amp;quot;margin-right:-0.1667em;&amp;quot;&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;&amp;lt;span&amp;gt;&amp;lt;span style=&amp;quot;height:0.46782999999999997em;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;top:-2.7845em;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;height:3em;&amp;quot;&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;&amp;lt;span&amp;gt;E&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;​&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;&amp;lt;span style=&amp;quot;height:0.2155em;&amp;quot;&amp;gt;&amp;lt;span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span style=&amp;quot;margin-right:-0.125em;&amp;quot;&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;X&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt; syntax.&amp;lt;/p&amp;gt;
+</description>
+      <category>markdown</category>
+      <content:encoded><![CDATA[<p>Let the Markdown file in your VuePress site support the <span><span><i>Not supported content</i></span><span aria-hidden="true"><span><span style="height:0.89883em;vertical-align:-0.2155em;"></span><span><span>T</span><span style="margin-right:-0.1667em;"></span><span><span><span style="height:0.46782999999999997em;"><span style="top:-2.7845em;"><span style="height:3em;"></span><span><span>E</span></span></span></span><span>​</span></span><span><span style="height:0.2155em;"><span></span></span></span></span><span style="margin-right:-0.125em;"></span><span>X</span></span></span></span></span> syntax.</p>
+
 <h2 id="configuration"> Configuration</h2>
 <div><div><br><br><br><div>&nbsp;</div><br><br><br><br></div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
   themeConfig<span>:</span> <span>{</span>
@@ -5965,8 +5979,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <guid>https://vuepress-theme-hope.github.io/guide/layout/slides/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">Slide</source>
       <category>layout</category>
-      <content:encoded><![CDATA[<h1 id="slide"> Slide</h1>
-<p><code>vuepress-theme-hope</code> allows you to add slides pages.</p>
+      <content:encoded><![CDATA[<p><code>vuepress-theme-hope</code> allows you to add slides pages.</p>
 <p>You need to set <code>layout: Slide</code> in the frontmatter of the corresponding page to enable the slides page.</p>
 <p>Also, you should enable presentation feature in <code>vuepress-plugin-md-enhance</code> by setting <code>themeConfig.mdEnhance.enableAll</code> or <code>themeConfig.mdEnhance.presentation</code>.</p>
 <p><img src="./assets/slides.png" alt="Slide page screenshot"></p>
@@ -10470,9 +10483,18 @@ $vssue-direction
       <link>https://vuepress-theme-hope.github.io/zh/guide/feature/markdown/align/</link>
       <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/markdown/align/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">自定义对齐</source>
+      <description>&amp;lt;p&amp;gt;通过对 &amp;lt;code&amp;gt;vuepress-plugin-container&amp;lt;/code&amp;gt; 进行额外的配置注入，你可以使用&amp;lt;/p&amp;gt;
+&amp;lt;div&amp;gt;&amp;lt;pre&amp;gt;&amp;lt;code&amp;gt;::: center
+要居中的段落
+:::
+&amp;lt;div&amp;gt;
+&amp;lt;p&amp;gt;要居右的段落&amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;
+&amp;lt;div&amp;gt;&amp;lt;span&amp;gt;1&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;2&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;3&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;4&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;5&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;6&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;7&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;p&amp;gt;来对你的段落对齐进行自定义。&amp;lt;/p&amp;gt;&amp;lt;/p&amp;gt;
+</description>
       <category>markdown</category>
-      <content:encoded><![CDATA[<h1 id="自定义对齐"> 自定义对齐</h1>
-<p>通过对 <code>vuepress-plugin-container</code> 进行额外的配置注入，你可以使用</p>
+      <content:encoded><![CDATA[<p>通过对 <code>vuepress-plugin-container</code> 进行额外的配置注入，你可以使用</p>
 <div><pre><code>::: center
 要居中的段落
 :::
@@ -10482,6 +10504,7 @@ $vssue-direction
 :::
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><p>来对你的段落对齐进行自定义。</p>
+
 <h2 id="配置"> 配置</h2>
 <div><div><br><br><br><div>&nbsp;</div><br><br><br><br></div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
   themeConfig<span>:</span> <span>{</span>
@@ -10491,7 +10514,8 @@ $vssue-direction
   <span>}</span><span>,</span>
 <span>}</span><span>;</span>
 </code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><h2 id="演示"> 演示</h2>
-<p>本主题仍在制作中，API 可能会有</p>
+<div><p>W.I.P</p>
+<p>vuepress-theme-hope v2 仍在制作中，API 可能会有</p>
 <div>
 <p>重大的变动。</p>
 </div>
@@ -10499,7 +10523,9 @@ $vssue-direction
 <div>
 <p><a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/issues" target="_blank" rel="noopener noreferrer">提一个 issue</a>。</p>
 </div>
-<div><pre><code>本主题仍在制作中，API 可能会有
+</div>
+<div><pre><code>:::: danger W.I.P
+vuepress-theme-hope v2 仍在制作中，API 可能会有
 
 ::: center
 重大的变动。
@@ -10510,8 +10536,10 @@ $vssue-direction
 ::: right
 <span>[<span>提一个 issue</span>](<span>https://github.com/vuepress-theme-hope/vuepress-theme-hope/issues</span>)</span>。
 :::
+
+::::
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div><h2 id="其他自定义容器"> 其他自定义容器</h2>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br></div></div><h2 id="其他自定义容器"> 其他自定义容器</h2>
 <div><p>Info</p>
 <p>信息容器。</p>
 </div>
@@ -10589,8 +10617,11 @@ $vssue-direction
       <link>https://vuepress-theme-hope.github.io/zh/guide/feature/markdown/demo/</link>
       <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/markdown/demo/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">代码演示</source>
-      <content:encoded><![CDATA[<h1 id="代码演示"> 代码演示</h1>
-<p>让你的 VuePress 站点中的 Markdown 文件支持代码案例。</p>
+      <description>&amp;lt;p&amp;gt;让你的 VuePress 站点中的 Markdown 文件支持代码案例。&amp;lt;/p&amp;gt;
+</description>
+      <category>markdown</category>
+      <content:encoded><![CDATA[<p>让你的 VuePress 站点中的 Markdown 文件支持代码案例。</p>
+
 <h2 id="配置"> 配置</h2>
 <div><div><br><br><br><br><br><br><div>&nbsp;</div><br></div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
   themeConfig<span>:</span> <span>{</span>
@@ -11001,13 +11032,17 @@ document<span>&lt;</span>span <span>class</span><span>=</span><span>"token punct
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br></div></div>]]></content:encoded>
     </item>
     <item>
-      <title>流程图支持</title>
+      <title>流程图</title>
       <link>https://vuepress-theme-hope.github.io/zh/guide/feature/markdown/flowchart/</link>
       <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/markdown/flowchart/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">流程图支持</source>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">流程图</source>
+      <description>&amp;lt;p&amp;gt;让你的 VuePress 站点中的 Markdown 文件支持流程图。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;本插件利用了 &amp;lt;a href=&amp;quot;https://github.com/adrai/flowchart.js&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;flowchart.js&amp;lt;/a&amp;gt; 来支持这一功能。&amp;lt;/p&amp;gt;
+</description>
       <category>markdown</category>
-      <content:encoded><![CDATA[<h1 id="流程图支持"> 流程图支持</h1>
-<p>让你的 VuePress 站点中的 Markdown 文件支持流程图。</p>
+      <content:encoded><![CDATA[<p>让你的 VuePress 站点中的 Markdown 文件支持流程图。</p>
+<p>本插件利用了 <a href="https://github.com/adrai/flowchart.js" target="_blank" rel="noopener noreferrer">flowchart.js</a> 来支持这一功能。</p>
+
 <h2 id="配置"> 配置</h2>
 <div><div><br><br><br><div>&nbsp;</div><br><br><br><br></div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
   themeConfig<span>:</span> <span>{</span>
@@ -11058,9 +11093,11 @@ c2(no)->op2->e
       <link>https://vuepress-theme-hope.github.io/zh/guide/feature/markdown/footnote/</link>
       <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/markdown/footnote/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">脚注</source>
+      <description>&amp;lt;p&amp;gt;让你的 VuePress 站点中的 Markdown 文件支持脚注。&amp;lt;/p&amp;gt;
+</description>
       <category>markdown</category>
-      <content:encoded><![CDATA[<h1 id="脚注"> 脚注</h1>
-<p>让你的 VuePress 站点中的 Markdown 文件支持脚注。</p>
+      <content:encoded><![CDATA[<p>让你的 VuePress 站点中的 Markdown 文件支持脚注。</p>
+
 <h2 id="配置"> 配置</h2>
 <p>默认启用，你也可以在主题配置禁用它:</p>
 <div><div><br><br><br><div>&nbsp;</div><br><br><br><br></div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
@@ -11120,8 +11157,11 @@ c2(no)->op2->e
       <link>https://vuepress-theme-hope.github.io/zh/guide/feature/markdown/mark/</link>
       <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/markdown/mark/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">标记</source>
-      <content:encoded><![CDATA[<h1 id="标记"> 标记</h1>
-<p>让你的 VuePress 站点中的 Markdown 文件支持标记。</p>
+      <description>&amp;lt;p&amp;gt;让你的 VuePress 站点中的 Markdown 文件支持标记。&amp;lt;/p&amp;gt;
+</description>
+      <category>markdown</category>
+      <content:encoded><![CDATA[<p>让你的 VuePress 站点中的 Markdown 文件支持标记。</p>
+
 <h2 id="配置"> 配置</h2>
 <div><div><br><br><br><div>&nbsp;</div><br><br><br><br></div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
   themeConfig<span>:</span> <span>{</span>
@@ -11139,14 +11179,18 @@ c2(no)->op2->e
 <div><span>1</span><br></div></div>]]></content:encoded>
     </item>
     <item>
-      <title>幻灯片支持</title>
+      <title>幻灯片</title>
       <link>https://vuepress-theme-hope.github.io/zh/guide/feature/markdown/presentation/</link>
       <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/markdown/presentation/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">幻灯片支持</source>
-      <content:encoded><![CDATA[<h1 id="幻灯片支持"> 幻灯片支持</h1>
-
-<p>让你的 VuePress 站点中的 Markdown 文件支持幻灯片。</p>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">幻灯片</source>
+      <description>&amp;lt;p&amp;gt;让你的 VuePress 站点中的 Markdown 文件支持幻灯片。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;本插件利用了 &amp;lt;a href=&amp;quot;https://revealjs.com/&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;reveal.js&amp;lt;/a&amp;gt; 来支持这一功能。&amp;lt;/p&amp;gt;
+</description>
+      <category>markdown</category>
+      <content:encoded><![CDATA[<p>让你的 VuePress 站点中的 Markdown 文件支持幻灯片。</p>
 <p>本插件利用了 <a href="https://revealjs.com/" target="_blank" rel="noopener noreferrer">reveal.js</a> 来支持这一功能。</p>
+
+
 <h2 id="配置"> 配置</h2>
 <div><div><br><br><br><div>&nbsp;</div><br><br><br><br></div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
   themeConfig<span>:</span> <span>{</span>
@@ -11174,7 +11218,7 @@ c2(no)->op2->e
 
 @slideend
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></div></div><p>目前可用的主题:</p>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></div></div><p>目前可用的主题(请使用它们直接替换 <code>[theme]</code>):</p>
 <ul>
 <li><code>auto</code> (默认)</li>
 <li><code>black</code></li>
@@ -11189,6 +11233,7 @@ c2(no)->op2->e
 <li><code>blood</code></li>
 <li><code>moon</code></li>
 </ul>
+<p>主题演示，请详见 <a href="https://vuepress-theme-hope.github.io/md-enhance/zh/guide/presentation/themes/" target="_blank" rel="noopener noreferrer">幻灯片主题</a></p>
 <h2 id="演示"> 演示</h2>
 <i>Not supported content</i><div><pre><code>@slidestart
 
@@ -11200,8 +11245,8 @@ c2(no)->op2->e
 
 <span><span>##</span> 幻灯片 2</span>
 
-<span>-</span> 列表 1
-<span>-</span> 列表 2
+<span>-</span> 项目 1
+<span>-</span> 项目 2
 
 <span>---</span>
 
@@ -11221,24 +11266,10 @@ $$
 
 @slideend
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br></div></div><h2 id="选项"> 选项</h2>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br></div></div><p>详细与完整的演示详见 <a href="https://vuepress-theme-hope.github.io/md-enhance/zh/guide/presentation/demo/" target="_blank" rel="noopener noreferrer">幻灯片演示</a></p>
+<h2 id="选项"> 选项</h2>
 <p>您可以在 Frontmatter 设置 <code>reveal</code> 以设置特定页面的 reveal.js 选项，也可以在插件选项中设置 <code>presentation</code> 以全局设置 reveal.js。</p>
 <p>更多选项，请参见<a href="https://revealjs.com/config/" target="_blank" rel="noopener noreferrer">reveal.js config</a>，更多用法，请参阅 <a href="https://revealjs.com/" target="_blank" rel="noopener noreferrer">reveal.js 文档</a>。</p>
-<h2 id="主题"> 主题</h2>
-
-<h3 id="auto"> Auto</h3>
-<i>Not supported content</i><h3 id="black"> Black</h3>
-<i>Not supported content</i><h3 id="white"> White</h3>
-<i>Not supported content</i><h3 id="league"> League</h3>
-<i>Not supported content</i><h3 id="beige"> Beige</h3>
-<i>Not supported content</i><h3 id="sky"> Sky</h3>
-<i>Not supported content</i><h3 id="night"> Night</h3>
-<i>Not supported content</i><h3 id="serif"> Serif</h3>
-<i>Not supported content</i><h3 id="simple"> Simple</h3>
-<i>Not supported content</i><h3 id="solarized"> Solarized</h3>
-<i>Not supported content</i><h3 id="blood"> Blood</h3>
-<i>Not supported content</i><h3 id="moon"> Moon</h3>
-<i>Not supported content</i>
 ]]></content:encoded>
     </item>
     <item>
@@ -11355,9 +11386,11 @@ $$
       <link>https://vuepress-theme-hope.github.io/zh/guide/feature/markdown/sup-sub/</link>
       <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/markdown/sup-sub/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">上下角标</source>
+      <description>&amp;lt;p&amp;gt;让你的 VuePress 站点中的 Markdown 文件支持上下角标。&amp;lt;/p&amp;gt;
+</description>
       <category>markdown</category>
-      <content:encoded><![CDATA[<h1 id="上下角标"> 上下角标</h1>
-<p>让你的 VuePress 站点中的 Markdown 文件支持上下角标。</p>
+      <content:encoded><![CDATA[<p>让你的 VuePress 站点中的 Markdown 文件支持上下角标。</p>
+
 <h2 id="配置"> 配置</h2>
 <div><div><br><br><br><br><div>&nbsp;</div><br><div>&nbsp;</div><br><br><br><br></div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
   themeConfig<span>:</span> <span>{</span>
@@ -11386,13 +11419,15 @@ $$
 ]]></content:encoded>
     </item>
     <item>
-      <title>Tex 语法支持</title>
+      <title>Tex</title>
       <link>https://vuepress-theme-hope.github.io/zh/guide/feature/markdown/tex/</link>
       <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/markdown/tex/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">Tex 语法支持</source>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">Tex</source>
+      <description>&amp;lt;p&amp;gt;让你的 VuePress 站点中的 Markdown 文件支持 &amp;lt;span&amp;gt;&amp;lt;span&amp;gt;&amp;lt;i&amp;gt;Not supported content&amp;lt;/i&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;span&amp;gt;&amp;lt;span style=&amp;quot;height:0.89883em;vertical-align:-0.2155em;&amp;quot;&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;&amp;lt;span&amp;gt;T&amp;lt;/span&amp;gt;&amp;lt;span style=&amp;quot;margin-right:-0.1667em;&amp;quot;&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;&amp;lt;span&amp;gt;&amp;lt;span style=&amp;quot;height:0.46782999999999997em;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;top:-2.7845em;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;height:3em;&amp;quot;&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;&amp;lt;span&amp;gt;E&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;​&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;&amp;lt;span style=&amp;quot;height:0.2155em;&amp;quot;&amp;gt;&amp;lt;span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span style=&amp;quot;margin-right:-0.125em;&amp;quot;&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;X&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt; 语法。&amp;lt;/p&amp;gt;
+</description>
       <category>markdown</category>
-      <content:encoded><![CDATA[<h1 id="tex-语法支持"> Tex 语法支持</h1>
-<p>让你的 VuePress 站点中的 Markdown 文件支持 <span><span><i>Not supported content</i></span><span aria-hidden="true"><span><span style="height:0.89883em;vertical-align:-0.2155em;"></span><span><span>T</span><span style="margin-right:-0.1667em;"></span><span><span><span style="height:0.46782999999999997em;"><span style="top:-2.7845em;"><span style="height:3em;"></span><span><span>E</span></span></span></span><span>​</span></span><span><span style="height:0.2155em;"><span></span></span></span></span><span style="margin-right:-0.125em;"></span><span>X</span></span></span></span></span> 语法。</p>
+      <content:encoded><![CDATA[<p>让你的 VuePress 站点中的 Markdown 文件支持 <span><span><i>Not supported content</i></span><span aria-hidden="true"><span><span style="height:0.89883em;vertical-align:-0.2155em;"></span><span><span>T</span><span style="margin-right:-0.1667em;"></span><span><span><span style="height:0.46782999999999997em;"><span style="top:-2.7845em;"><span style="height:3em;"></span><span><span>E</span></span></span></span><span>​</span></span><span><span style="height:0.2155em;"><span></span></span></span></span><span style="margin-right:-0.125em;"></span><span>X</span></span></span></span></span> 语法。</p>
+
 <h2 id="配置"> 配置</h2>
 <div><div><br><br><br><div>&nbsp;</div><br><br><br><br></div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
   themeConfig<span>:</span> <span>{</span>
@@ -12484,8 +12519,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <guid>https://vuepress-theme-hope.github.io/zh/guide/layout/slides/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">幻灯片</source>
       <category>layout</category>
-      <content:encoded><![CDATA[<h1 id="幻灯片"> 幻灯片</h1>
-<p><code>vuepress-theme-hope</code> 允许你添加幻灯片页面。</p>
+      <content:encoded><![CDATA[<p><code>vuepress-theme-hope</code> 允许你添加幻灯片页面。</p>
 <p>你需要在相应的页面的 frontmatter 中，设置 <code>layout: Slide</code> 来开启幻灯片风格。</p>
 <p>另外，您应该通过设置 <code>themeConfig.mdEnhance.enableAll</code> 或 <code>themeConfig.mdEnhance.presentation</code> 在 <code>vuepress-plugin-md-enhance</code> 中启用幻灯片功能。</p>
 <p><img src="./assets/slides.png" alt="幻灯片页截图"></p>
