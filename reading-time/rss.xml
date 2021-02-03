@@ -4,10 +4,10 @@
     <atom:link href="https://vuepress-theme-hope.github.io/reading-time/rss.xml" rel="self" type="application/rss+xml"/>
     <title>Reading Time Counter</title>
     <link>https://vuepress-theme-hope.github.io/reading-time/</link>
-    <description>Reading Time Counter for vuepress</description>
+    <description>Expect reading time and word count statistics</description>
     <language>en-US</language>
-    <pubDate>Wed, 03 Feb 2021 12:24:53 GMT</pubDate>
-    <lastBuildDate>Wed, 03 Feb 2021 12:24:53 GMT</lastBuildDate>
+    <pubDate>Wed, 03 Feb 2021 12:31:10 GMT</pubDate>
+    <lastBuildDate>Wed, 03 Feb 2021 12:31:10 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -16,8 +16,7 @@
       <link>https://vuepress-theme-hope.github.io/reading-time/</link>
       <guid>https://vuepress-theme-hope.github.io/reading-time/</guid>
       <source url="https://vuepress-theme-hope.github.io/reading-time/rss.xml">Home</source>
-      <content:encoded><![CDATA[<p>Expect eading time and word count statistics</p>
-<p>This plugin will inject reading time and word count statistics into the page object.</p>
+      <content:encoded><![CDATA[<p>This plugin will inject expect reading time and word count statistics into the page object.</p>
 <p>Will automatically inject <code>readingTime</code> into the page object:</p>
 <div><pre><code><span>interface</span> <span>ReadingTime</span> <span>{</span>
   <span>/** Expect reading minute */</span>
@@ -60,8 +59,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <link>https://vuepress-theme-hope.github.io/reading-time/zh/</link>
       <guid>https://vuepress-theme-hope.github.io/reading-time/zh/</guid>
       <source url="https://vuepress-theme-hope.github.io/reading-time/rss.xml">主页</source>
-      <content:encoded><![CDATA[<p>阅读时间与字数统计</p>
-<p>这个插件将会向 page 对象注入阅读时间与字数统计。</p>
+      <content:encoded><![CDATA[<p>这个插件将会向 page 对象注入预计阅读时间与字数统计。</p>
 <p>会自动向 page 对象注入 <code>readingTime</code>:</p>
 <div><pre><code><span>interface</span> <span>ReadingTime</span> <span>{</span>
   <span>/** 分钟数 */</span>

@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
   <id>https://vuepress-theme-hope.github.io/reading-time/</id>
   <title>Reading Time Counter</title>
-  <subtitle>Reading Time Counter for vuepress</subtitle>
+  <subtitle>Expect reading time and word count statistics</subtitle>
   <author>
     <name>Mr.Hope</name>
   </author>
-  <updated>2021-02-03T12:24:53.757Z</updated>
+  <updated>2021-02-03T12:31:10.923Z</updated>
   <generator>@mr-hope/vuepress-plugin-feed</generator>
   <link rel="self" href="https://vuepress-theme-hope.github.io/reading-time/atom.xml"/>
   <link rel="alternate" href="https://vuepress-theme-hope.github.io/reading-time/"/>
@@ -18,9 +18,8 @@
     <title type="html">Home</title>
     <id>https://vuepress-theme-hope.github.io/reading-time/</id>
     <link href="https://vuepress-theme-hope.github.io/reading-time/"/>
-    <updated>2021-02-03T12:23:29.000Z</updated>
-    <content type="html"><![CDATA[<p>Expect eading time and word count statistics</p>
-<p>This plugin will inject reading time and word count statistics into the page object.</p>
+    <updated>2021-02-03T12:28:53.000Z</updated>
+    <content type="html"><![CDATA[<p>This plugin will inject expect reading time and word count statistics into the page object.</p>
 <p>Will automatically inject <code>readingTime</code> into the page object:</p>
 <div><pre><code><span>interface</span> <span>ReadingTime</span> <span>{</span>
   <span>/** Expect reading minute */</span>
@@ -69,9 +68,8 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">主页</title>
     <id>https://vuepress-theme-hope.github.io/reading-time/zh/</id>
     <link href="https://vuepress-theme-hope.github.io/reading-time/zh/"/>
-    <updated>2021-02-03T12:23:29.000Z</updated>
-    <content type="html"><![CDATA[<p>阅读时间与字数统计</p>
-<p>这个插件将会向 page 对象注入阅读时间与字数统计。</p>
+    <updated>2021-02-03T12:28:53.000Z</updated>
+    <content type="html"><![CDATA[<p>这个插件将会向 page 对象注入预计阅读时间与字数统计。</p>
 <p>会自动向 page 对象注入 <code>readingTime</code>:</p>
 <div><pre><code><span>interface</span> <span>ReadingTime</span> <span>{</span>
   <span>/** 分钟数 */</span>
