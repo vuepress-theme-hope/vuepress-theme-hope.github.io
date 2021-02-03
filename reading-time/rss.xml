@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <atom:link href="https://vuepress-theme-hope.github.io/reading-time/rss.xml" rel="self" type="application/rss+xml"/>
+    <title>Reading Time Counter</title>
+    <link>https://vuepress-theme-hope.github.io/reading-time/</link>
+    <description>Reading Time Counter for vuepress</description>
+    <language>en-US</language>
+    <pubDate>Wed, 03 Feb 2021 11:57:14 GMT</pubDate>
+    <lastBuildDate>Wed, 03 Feb 2021 11:57:14 GMT</lastBuildDate>
+    <generator>@mr-hope/vuepress-plugin-feed</generator>
+    <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
+    <item>
+      <title>Home</title>
+      <link>https://vuepress-theme-hope.github.io/reading-time/</link>
+      <guid>https://vuepress-theme-hope.github.io/reading-time/</guid>
+      <source url="https://vuepress-theme-hope.github.io/reading-time/rss.xml">Home</source>
+      <content:encoded><![CDATA[<p>Expect eading time and word count statistics</p>
+<p>This plugin will inject reading time and word count statistics into the page object.</p>
+<p>Will automatically inject <code>readingTime</code> into the page object:</p>
+<div><pre><code><span>interface</span> <span>ReadingTime</span> <span>{</span>
+  <span>/** Expect reading minute */</span>
+  minutes<span>:</span> <span>number</span><span>;</span>
+  <span>/** Words count */</span>
+  words<span>:</span> <span>number</span><span>;</span>
+<span>}</span>
+</code></pre>
+</div><h2 id="how-to-use"> How to use</h2>
+<h3 id="install"> Install</h3>
+<div><pre><code><span>npm</span> i -D @mr-hope/vuepress-plugin-reading-time
+</code></pre>
+</div><p>Or</p>
+<div><pre><code><span>yarn</span> <span>add</span> -D @mr-hope/vuepress-plugin-reading-time
+</code></pre>
+</div><h3 id="usage"> Usage</h3>
+<div><pre><code><span>// .vuepress/config.js</span>
+module<span>.</span>exports <span>=</span> <span>{</span>
+  plugins<span>:</span> <span>[</span>
+    <span>[</span>
+      <span>"@mr-hope/reading-time"</span><span>,</span>
+      <span>{</span>
+        <span>// your options</span>
+      <span>}</span><span>,</span>
+    <span>]</span><span>,</span>
+  <span>]</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre>
+</div><h2 id="plugin-options"> Plugin options</h2>
+<h3 id="wordperminute"> wordPerminute</h3>
+<ul>
+<li>Type: <code>number</code></li>
+<li>Default: <code>300</code></li>
+</ul>
+<p>Reading speed (words per minute)</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>主页</title>
+      <link>https://vuepress-theme-hope.github.io/reading-time/zh/</link>
+      <guid>https://vuepress-theme-hope.github.io/reading-time/zh/</guid>
+      <source url="https://vuepress-theme-hope.github.io/reading-time/rss.xml">主页</source>
+      <content:encoded><![CDATA[<p>阅读时间与字数统计</p>
+<p>这个插件将会向 page 对象注入阅读时间与字数统计。</p>
+<p>会自动向 page 对象注入 <code>readingTime</code>:</p>
+<div><pre><code><span>interface</span> <span>ReadingTime</span> <span>{</span>
+  <span>/** 分钟数 */</span>
+  minutes<span>:</span> <span>number</span><span>;</span>
+  <span>/** 字数 */</span>
+  words<span>:</span> <span>number</span><span>;</span>
+<span>}</span>
+</code></pre>
+</div><h2 id="使用插件"> 使用插件</h2>
+<h3 id="安装"> 安装</h3>
+<div><pre><code><span>npm</span> i -D @mr-hope/vuepress-plugin-reading-time
+</code></pre>
+</div><p>或</p>
+<div><pre><code><span>yarn</span> <span>add</span> -D @mr-hope/vuepress-plugin-reading-time
+</code></pre>
+</div><h3 id="使用"> 使用</h3>
+<div><pre><code><span>// .vuepress/config.js</span>
+module<span>.</span>exports <span>=</span> <span>{</span>
+  plugins<span>:</span> <span>[</span>
+    <span>[</span>
+      <span>"@mr-hope/reading-time"</span><span>,</span>
+      <span>{</span>
+        <span>// 你的选项</span>
+      <span>}</span><span>,</span>
+    <span>]</span><span>,</span>
+  <span>]</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre>
+</div><h2 id="插件选项"> 插件选项</h2>
+<h3 id="wordperminute"> wordPerminute</h3>
+<ul>
+<li>类型: <code>number</code></li>
+<li>默认值: <code>300</code></li>
+</ul>
+<p>每分钟阅读字数</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
