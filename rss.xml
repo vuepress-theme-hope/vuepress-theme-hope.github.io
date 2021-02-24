@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/</link>
     <description>A vuepress theme with tons of features✨</description>
     <language>en-US</language>
-    <pubDate>Wed, 24 Feb 2021 14:23:47 GMT</pubDate>
-    <lastBuildDate>Wed, 24 Feb 2021 14:23:47 GMT</lastBuildDate>
+    <pubDate>Wed, 24 Feb 2021 14:45:49 GMT</pubDate>
+    <lastBuildDate>Wed, 24 Feb 2021 14:45:49 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -2014,6 +2014,12 @@ console<span>&lt;</span>span <span>class</span><span>=</span><span>"token punctu
 <li>Default: <code>false</code></li>
 </ul>
 <p>Sets whether the current article is pinned in the list. When fill in with number, greater ones come before smaller ones.</p>
+<h3 id="star"> star</h3>
+<ul>
+<li>Type: <code>boolean | number</code></li>
+<li>Default: <code>false</code></li>
+</ul>
+<p>Sets whether the current article is pinned in the article list in blog theme. When fill in with number, greater ones come before smaller ones.</p>
 <h3 id="article"> article</h3>
 <ul>
 <li>Type: <code>boolean</code></li>
@@ -8699,6 +8705,12 @@ A backtick-delimited string in a code span: <span>`` `foo` ``</span>
 <li>默认值: <code>false</code></li>
 </ul>
 <p>设置当前文章是否在列表中置顶。当填入数字时，数字越大，排名越靠前。</p>
+<h3 id="star"> star</h3>
+<ul>
+<li>类型: <code>boolean | number</code></li>
+<li>默认值: <code>false</code></li>
+</ul>
+<p>设置当前文章是否收藏在博客主题的文章列表中。当填入数字时，数字越大，排名越靠前。</p>
 <h3 id="article"> article</h3>
 <ul>
 <li>类型: <code>boolean</code></li>
