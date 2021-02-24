@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/</link>
     <description>A vuepress theme with tons of features✨</description>
     <language>en-US</language>
-    <pubDate>Wed, 24 Feb 2021 13:58:20 GMT</pubDate>
-    <lastBuildDate>Wed, 24 Feb 2021 13:58:20 GMT</lastBuildDate>
+    <pubDate>Wed, 24 Feb 2021 14:02:38 GMT</pubDate>
+    <lastBuildDate>Wed, 24 Feb 2021 14:02:38 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -3326,7 +3326,7 @@ write something here ~
       <source url="https://vuepress-theme-hope.github.io/rss.xml">Theme Config</source>
       <category>config</category>
       <content:encoded><![CDATA[<div><p>Tips</p>
-<p>You can view <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/docs/theme/src/.vuepress/config.js" target="_blank" rel="noopener noreferrer">Config of this site</a> as an example, and you can directly view <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/packages/theme/types/hopeConfig.d.ts" target="_blank" rel="noopener noreferrer">Type Declaration file</a> in the source code.</p>
+<p>You can view <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/docs/theme/src/.vuepress/config.js" target="_blank" rel="noopener noreferrer">Config of this site</a> as an example, and you can directly view <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/packages/theme/types/theme/" target="_blank" rel="noopener noreferrer">Type Declaration file</a> in the source code.</p>
 </div>
 <p>The following configuration has been added to the themeConfig field in <code>.vuepress/config.js</code>:</p>
 <h2 id="basic-options"> Basic options</h2>
@@ -3342,7 +3342,7 @@ write something here ~
 <p>This option ensures that the subject text in the main catalog page is displayed in the correct language. You can change it to other languages according to your needs.</p>
 <div><p>Tips</p>
 <p>Only <strong>Simplified Chinese</strong> (zh-CN), <strong>English (United States)</strong> (en-US) and <strong>Vietnamese</strong> (vi-VN) are available for i18n.</p>
-<p>If you need multi-language support for other languages, you can <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/packages/shared-utils/lib/i18n/config.ts" target="_blank" rel="noopener noreferrer">submit a PR to this file</a></p>
+<p>If you need multi-language support for other languages, you can <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/packages/shared/src/i18n/config.ts" target="_blank" rel="noopener noreferrer">submit a PR to this file</a></p>
 </div>
 <h3 id="author"> author</h3>
 <ul>
@@ -10017,7 +10017,7 @@ A backtick-delimited string in a code span: <span>`` `foo` ``</span>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">主题配置</source>
       <category>config</category>
       <content:encoded><![CDATA[<div><p>Tips</p>
-<p>你可以查看 <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/docs/theme/src/.vuepress/config.js" target="_blank" rel="noopener noreferrer">本文档的配置</a> 作为案例，你也可以直接查看源代码中的 <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/packages/theme/types/hopeConfig.d.ts" target="_blank" rel="noopener noreferrer">types 文件</a></p>
+<p>你可以查看 <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/docs/theme/src/.vuepress/config.js" target="_blank" rel="noopener noreferrer">本文档的配置</a> 作为案例，你也可以直接查看源代码中的 <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/packages/theme/types/theme/" target="_blank" rel="noopener noreferrer">types 文件</a></p>
 </div>
 <p><code>.vuepress/config.js</code> 中的 themeConfig 字段(主题字段)新增以下配置:</p>
 <h2 id="基本选项"> 基本选项</h2>
@@ -10033,7 +10033,7 @@ A backtick-delimited string in a code span: <span>`` `foo` ``</span>
 <p>这个选项会保证主目录页面中主题文字使用正确的语言显示。你可以根据自己的需要将其改为其他语言。</p>
 <div><p>Tips</p>
 <p>目前多语言仅适配了 <strong>简体中文</strong> (zh-CN)、<strong>英文(美国)</strong> (en-US) 与 越南语 (vi-VN)。</p>
-<p>如果你需要其它语言的多语言支持，你可以 <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/packages/shared-utils/lib/i18n/config.ts" target="_blank" rel="noopener noreferrer">向此文件提交一个 PR</a></p>
+<p>如果你需要其它语言的多语言支持，你可以 <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/packages/shared/src/i18n/config.ts" target="_blank" rel="noopener noreferrer">向此文件提交一个 PR</a></p>
 </div>
 <h3 id="author"> author</h3>
 <ul>
