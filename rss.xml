@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/</link>
     <description>A vuepress theme with tons of features✨</description>
     <language>en-US</language>
-    <pubDate>Wed, 24 Feb 2021 14:45:49 GMT</pubDate>
-    <lastBuildDate>Wed, 24 Feb 2021 14:45:49 GMT</lastBuildDate>
+    <pubDate>Wed, 24 Feb 2021 15:40:49 GMT</pubDate>
+    <lastBuildDate>Wed, 24 Feb 2021 15:40:49 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -314,129 +314,6 @@ console<span>&lt;</span>span <span>class</span><span>=</span><span>"token punctu
       <enclosure url="https://vuepress-theme-hope.github.io/logo.png" type="image/png"/>
     </item>
     <item>
-      <title>Nature</title>
-      <link>https://vuepress-theme-hope.github.io/basic/markdown/emoji/nature/</link>
-      <guid>https://vuepress-theme-hope.github.io/basic/markdown/emoji/nature/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">Nature</source>
-      <category>basic</category>
-      <content:encoded><![CDATA[<ul>
-<li>☀️ <code>:sunny:</code></li>
-<li>☔️ <code>:umbrella:</code></li>
-<li>☁️ <code>:cloud:</code></li>
-<li>❄️ <code>:snowflake:</code></li>
-<li>⛄️ <code>:snowman:</code></li>
-<li>⚡️ <code>:zap:</code></li>
-<li>🌀 <code>:cyclone:</code></li>
-<li>🌁 <code>:foggy:</code></li>
-<li>🌊 <code>:ocean:</code></li>
-<li>🐱 <code>:cat:</code></li>
-<li>🐶 <code>:dog:</code></li>
-<li>🐭 <code>:mouse:</code></li>
-<li>🐹 <code>:hamster:</code></li>
-<li>🐰 <code>:rabbit:</code></li>
-<li>🐺 <code>:wolf:</code></li>
-<li>🐸 <code>:frog:</code></li>
-<li>🐯 <code>:tiger:</code></li>
-<li>🐨 <code>:koala:</code></li>
-<li>🐻 <code>:bear:</code></li>
-<li>🐷 <code>:pig:</code></li>
-<li>🐽 <code>:pig_nose:</code></li>
-<li>🐮 <code>:cow:</code></li>
-<li>🐗 <code>:boar:</code></li>
-<li>🐵 <code>:monkey_face:</code></li>
-<li>🐒 <code>:monkey:</code></li>
-<li>🐴 <code>:horse:</code></li>
-<li>🐎 <code>:racehorse:</code></li>
-<li>🐫 <code>:camel:</code></li>
-<li>🐑 <code>:sheep:</code></li>
-<li>🐘 <code>:elephant:</code></li>
-<li>🐼 <code>:panda_face:</code></li>
-<li>🐍 <code>:snake:</code></li>
-<li>🐦 <code>:bird:</code></li>
-<li>🐤 <code>:baby_chick:</code></li>
-<li>🐥 <code>:hatched_chick:</code></li>
-<li>🐣 <code>:hatching_chick:</code></li>
-<li>🐔 <code>:chicken:</code></li>
-<li>🐧 <code>:penguin:</code></li>
-<li>🐢 <code>:turtle:</code></li>
-<li>🐛 <code>:bug:</code></li>
-<li>🐝 <code>:honeybee:</code></li>
-<li>🐜 <code>:ant:</code></li>
-<li>🐞 <code>:beetle:</code></li>
-<li>🐌 <code>:snail:</code></li>
-<li>🐙 <code>:octopus:</code></li>
-<li>🐠 <code>:tropical_fish:</code></li>
-<li>🐟 <code>:fish:</code></li>
-<li>🐳 <code>:whale:</code></li>
-<li>🐋 <code>:whale2:</code></li>
-<li>🐬 <code>:dolphin:</code></li>
-<li>🐄 <code>:cow2:</code></li>
-<li>🐏 <code>:ram:</code></li>
-<li>🐀 <code>:rat:</code></li>
-<li>🐃 <code>:water_buffalo:</code></li>
-<li>🐅 <code>:tiger2:</code></li>
-<li>🐇 <code>:rabbit2:</code></li>
-<li>🐉 <code>:dragon:</code></li>
-<li>🐐 <code>:goat:</code></li>
-<li>🐓 <code>:rooster:</code></li>
-<li>🐕 <code>:dog2:</code></li>
-<li>🐖 <code>:pig2:</code></li>
-<li>🐁 <code>:mouse2:</code></li>
-<li>🐂 <code>:ox:</code></li>
-<li>🐲 <code>:dragon_face:</code></li>
-<li>🐡 <code>:blowfish:</code></li>
-<li>🐊 <code>:crocodile:</code></li>
-<li>🐪 <code>:dromedary_camel:</code></li>
-<li>🐆 <code>:leopard:</code></li>
-<li>🐈 <code>:cat2:</code></li>
-<li>🐩 <code>:poodle:</code></li>
-<li>🐾 <code>:paw_prints:</code></li>
-<li>💐 <code>:bouquet:</code></li>
-<li>🌸 <code>:cherry_blossom:</code></li>
-<li>🌷 <code>:tulip:</code></li>
-<li>🍀 <code>:four_leaf_clover:</code></li>
-<li>🌹 <code>:rose:</code></li>
-<li>🌻 <code>:sunflower:</code></li>
-<li>🌺 <code>:hibiscus:</code></li>
-<li>🍁 <code>:maple_leaf:</code></li>
-<li>🍃 <code>:leaves:</code></li>
-<li>🍂 <code>:fallen_leaf:</code></li>
-<li>🌿 <code>:herb:</code></li>
-<li>🍄 <code>:mushroom:</code></li>
-<li>🌵 <code>:cactus:</code></li>
-<li>🌴 <code>:palm_tree:</code></li>
-<li>🌲 <code>:evergreen_tree:</code></li>
-<li>🌳 <code>:deciduous_tree:</code></li>
-<li>🌰 <code>:chestnut:</code></li>
-<li>🌱 <code>:seedling:</code></li>
-<li>🌼 <code>:blossom:</code></li>
-<li>🌾 <code>:ear_of_rice:</code></li>
-<li>🐚 <code>:shell:</code></li>
-<li>🌐 <code>:globe_with_meridians:</code></li>
-<li>🌞 <code>:sun_with_face:</code></li>
-<li>🌝 <code>:full_moon_with_face:</code></li>
-<li>🌚 <code>:new_moon_with_face:</code></li>
-<li>🌑 <code>:new_moon:</code></li>
-<li>🌒 <code>:waxing_crescent_moon:</code></li>
-<li>🌓 <code>:first_quarter_moon:</code></li>
-<li>🌔 <code>:waxing_gibbous_moon:</code></li>
-<li>🌕 <code>:full_moon:</code></li>
-<li>🌖 <code>:waning_gibbous_moon:</code></li>
-<li>🌗 <code>:last_quarter_moon:</code></li>
-<li>🌘 <code>:waning_crescent_moon:</code></li>
-<li>🌜 <code>:last_quarter_moon_with_face:</code></li>
-<li>🌛 <code>:first_quarter_moon_with_face:</code></li>
-<li>🌙 <code>:crescent_moon:</code></li>
-<li>🌍 <code>:earth_africa:</code></li>
-<li>🌎 <code>:earth_americas:</code></li>
-<li>🌏 <code>:earth_asia:</code></li>
-<li>🌋 <code>:volcano:</code></li>
-<li>🌌 <code>:milky_way:</code></li>
-<li>⛅️ <code>:partly_sunny:</code></li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
       <title>Object</title>
       <link>https://vuepress-theme-hope.github.io/basic/markdown/emoji/object/</link>
       <guid>https://vuepress-theme-hope.github.io/basic/markdown/emoji/object/</guid>
@@ -703,6 +580,129 @@ console<span>&lt;</span>span <span>class</span><span>=</span><span>"token punctu
 <li>🍆 <code>:eggplant:</code></li>
 <li>🍅 <code>:tomato:</code></li>
 <li>🌽 <code>:corn:</code></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Nature</title>
+      <link>https://vuepress-theme-hope.github.io/basic/markdown/emoji/nature/</link>
+      <guid>https://vuepress-theme-hope.github.io/basic/markdown/emoji/nature/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">Nature</source>
+      <category>basic</category>
+      <content:encoded><![CDATA[<ul>
+<li>☀️ <code>:sunny:</code></li>
+<li>☔️ <code>:umbrella:</code></li>
+<li>☁️ <code>:cloud:</code></li>
+<li>❄️ <code>:snowflake:</code></li>
+<li>⛄️ <code>:snowman:</code></li>
+<li>⚡️ <code>:zap:</code></li>
+<li>🌀 <code>:cyclone:</code></li>
+<li>🌁 <code>:foggy:</code></li>
+<li>🌊 <code>:ocean:</code></li>
+<li>🐱 <code>:cat:</code></li>
+<li>🐶 <code>:dog:</code></li>
+<li>🐭 <code>:mouse:</code></li>
+<li>🐹 <code>:hamster:</code></li>
+<li>🐰 <code>:rabbit:</code></li>
+<li>🐺 <code>:wolf:</code></li>
+<li>🐸 <code>:frog:</code></li>
+<li>🐯 <code>:tiger:</code></li>
+<li>🐨 <code>:koala:</code></li>
+<li>🐻 <code>:bear:</code></li>
+<li>🐷 <code>:pig:</code></li>
+<li>🐽 <code>:pig_nose:</code></li>
+<li>🐮 <code>:cow:</code></li>
+<li>🐗 <code>:boar:</code></li>
+<li>🐵 <code>:monkey_face:</code></li>
+<li>🐒 <code>:monkey:</code></li>
+<li>🐴 <code>:horse:</code></li>
+<li>🐎 <code>:racehorse:</code></li>
+<li>🐫 <code>:camel:</code></li>
+<li>🐑 <code>:sheep:</code></li>
+<li>🐘 <code>:elephant:</code></li>
+<li>🐼 <code>:panda_face:</code></li>
+<li>🐍 <code>:snake:</code></li>
+<li>🐦 <code>:bird:</code></li>
+<li>🐤 <code>:baby_chick:</code></li>
+<li>🐥 <code>:hatched_chick:</code></li>
+<li>🐣 <code>:hatching_chick:</code></li>
+<li>🐔 <code>:chicken:</code></li>
+<li>🐧 <code>:penguin:</code></li>
+<li>🐢 <code>:turtle:</code></li>
+<li>🐛 <code>:bug:</code></li>
+<li>🐝 <code>:honeybee:</code></li>
+<li>🐜 <code>:ant:</code></li>
+<li>🐞 <code>:beetle:</code></li>
+<li>🐌 <code>:snail:</code></li>
+<li>🐙 <code>:octopus:</code></li>
+<li>🐠 <code>:tropical_fish:</code></li>
+<li>🐟 <code>:fish:</code></li>
+<li>🐳 <code>:whale:</code></li>
+<li>🐋 <code>:whale2:</code></li>
+<li>🐬 <code>:dolphin:</code></li>
+<li>🐄 <code>:cow2:</code></li>
+<li>🐏 <code>:ram:</code></li>
+<li>🐀 <code>:rat:</code></li>
+<li>🐃 <code>:water_buffalo:</code></li>
+<li>🐅 <code>:tiger2:</code></li>
+<li>🐇 <code>:rabbit2:</code></li>
+<li>🐉 <code>:dragon:</code></li>
+<li>🐐 <code>:goat:</code></li>
+<li>🐓 <code>:rooster:</code></li>
+<li>🐕 <code>:dog2:</code></li>
+<li>🐖 <code>:pig2:</code></li>
+<li>🐁 <code>:mouse2:</code></li>
+<li>🐂 <code>:ox:</code></li>
+<li>🐲 <code>:dragon_face:</code></li>
+<li>🐡 <code>:blowfish:</code></li>
+<li>🐊 <code>:crocodile:</code></li>
+<li>🐪 <code>:dromedary_camel:</code></li>
+<li>🐆 <code>:leopard:</code></li>
+<li>🐈 <code>:cat2:</code></li>
+<li>🐩 <code>:poodle:</code></li>
+<li>🐾 <code>:paw_prints:</code></li>
+<li>💐 <code>:bouquet:</code></li>
+<li>🌸 <code>:cherry_blossom:</code></li>
+<li>🌷 <code>:tulip:</code></li>
+<li>🍀 <code>:four_leaf_clover:</code></li>
+<li>🌹 <code>:rose:</code></li>
+<li>🌻 <code>:sunflower:</code></li>
+<li>🌺 <code>:hibiscus:</code></li>
+<li>🍁 <code>:maple_leaf:</code></li>
+<li>🍃 <code>:leaves:</code></li>
+<li>🍂 <code>:fallen_leaf:</code></li>
+<li>🌿 <code>:herb:</code></li>
+<li>🍄 <code>:mushroom:</code></li>
+<li>🌵 <code>:cactus:</code></li>
+<li>🌴 <code>:palm_tree:</code></li>
+<li>🌲 <code>:evergreen_tree:</code></li>
+<li>🌳 <code>:deciduous_tree:</code></li>
+<li>🌰 <code>:chestnut:</code></li>
+<li>🌱 <code>:seedling:</code></li>
+<li>🌼 <code>:blossom:</code></li>
+<li>🌾 <code>:ear_of_rice:</code></li>
+<li>🐚 <code>:shell:</code></li>
+<li>🌐 <code>:globe_with_meridians:</code></li>
+<li>🌞 <code>:sun_with_face:</code></li>
+<li>🌝 <code>:full_moon_with_face:</code></li>
+<li>🌚 <code>:new_moon_with_face:</code></li>
+<li>🌑 <code>:new_moon:</code></li>
+<li>🌒 <code>:waxing_crescent_moon:</code></li>
+<li>🌓 <code>:first_quarter_moon:</code></li>
+<li>🌔 <code>:waxing_gibbous_moon:</code></li>
+<li>🌕 <code>:full_moon:</code></li>
+<li>🌖 <code>:waning_gibbous_moon:</code></li>
+<li>🌗 <code>:last_quarter_moon:</code></li>
+<li>🌘 <code>:waning_crescent_moon:</code></li>
+<li>🌜 <code>:last_quarter_moon_with_face:</code></li>
+<li>🌛 <code>:first_quarter_moon_with_face:</code></li>
+<li>🌙 <code>:crescent_moon:</code></li>
+<li>🌍 <code>:earth_africa:</code></li>
+<li>🌎 <code>:earth_americas:</code></li>
+<li>🌏 <code>:earth_asia:</code></li>
+<li>🌋 <code>:volcano:</code></li>
+<li>🌌 <code>:milky_way:</code></li>
+<li>⛅️ <code>:partly_sunny:</code></li>
 </ul>
 ]]></content:encoded>
     </item>
@@ -1028,6 +1028,108 @@ console<span>&lt;</span>span <span>class</span><span>=</span><span>"token punctu
 ]]></content:encoded>
     </item>
     <item>
+      <title>Markdown Introduction</title>
+      <link>https://vuepress-theme-hope.github.io/basic/markdown/</link>
+      <guid>https://vuepress-theme-hope.github.io/basic/markdown/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">Markdown Introduction</source>
+      <category>basic</category>
+      <content:encoded><![CDATA[<p>Markdown is a markup language that can be written using a plain text editor that allows plain text content to be formatted with simple markup syntax.</p>
+<p>Markdown has a series of derivative versions that extend Markdown’s functionality (such as tables, footnotes, embedded HTML, etc.). These features were not available in the original Markdown. They can convert Markdown into more formats, such as LaTeX, Docbook. . Markdown Extra, MultiMarkdown, Maruku, etc. are more famous in Markdown’s enhanced version. These derivative versions are either based on tools such as Pandoc; or based on sites such as GitHub and Wikipedia, which are syntactically compatible, but have some changes in syntax and rendering effects.</p>
+<h2 id="usage"> Usage</h2>
+<p>Markdown’s grammar is simple and straightforward, easy to learn, and features more powerful than plain text, so people use it to write blogs. WordPress, the world’s most popular blogging platform, and large CMSs such as Joomla and Drupal all support Markdown. The blog platforms that use the Markdown editor are Ghost and Typecho.</p>
+<p>Used to write documentation and save it under the software’s directory under the filename &quot;README.md&quot;. Because we have a god-level editor like RStudio, we can turn Markdown into a presentation PPT, Word product documentation, LaTex papers, and even a minimally usable prototype with little code. In the field of data science, Markdown has been widely used, greatly promoting the historical process of dynamic repeatability research.</p>
+<h2 id="shortcut-key"> ShortCut Key</h2>
+<table>
+<thead>
+<tr>
+<th>Display</th>
+<th>Code</th>
+<th>ShortCut Key</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Bold</strong></td>
+<td><code>**text**</code></td>
+<td>Ctrl/⌘ + B</td>
+</tr>
+<tr>
+<td><em>Emphasize</em></td>
+<td><code>*text*</code></td>
+<td>Ctrl/⌘ + I</td>
+</tr>
+<tr>
+<td><code>Inline Code</code></td>
+<td>`code`</td>
+<td>选中后 <code>`</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="title"> Title</h2>
+<p>The title shows the structure of the article. Insert 1-6 <code>#</code> at the beginning of the line, each adding a <code>#</code> indicates a more in-depth content, corresponding to the depth of the title by 1-6.</p>
+<ul>
+<li>H1: <code># Header 1</code></li>
+<li>H2: <code>## Header 2</code></li>
+<li>H3: <code>### Header 3</code></li>
+<li>H4: <code>#### Header 4</code></li>
+<li>H5: <code>##### Header 5</code></li>
+<li>H6: <code>###### Header 6</code></li>
+</ul>
+<h2 id="text-style"> Text Style</h2>
+<ul>
+<li>Link: <code>[Title](URL)</code></li>
+<li>Bold: <code>**Bold**</code></li>
+<li>Italic:<code>*Italics*</code></li>
+<li>Delete:<code>~~Italics~~</code></li>
+<li>Paragraph: Space one link</li>
+<li>Line break: enter two space at the end of the line</li>
+<li>List: add <code>-</code> to become a list item</li>
+<li>Blockquote: <code>&gt; Blockquote Content</code></li>
+<li>HR: Enter <code>---</code> in a single line</li>
+</ul>
+<h2 id="link"> Link</h2>
+<p><code>[Title](URL)</code></p>
+<p>Example: <code>[Baidu](https://baidu.com)</code></p>
+<h2 id="image"> Image</h2>
+<p><code>![Alt](ImageLink)</code> 。</p>
+<p>E.g: <code>![This is a title](./assets/title.jpg)</code>.</p>
+<h2 id="tables"> Tables</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">center</th>
+<th style="text-align:right">right</th>
+<th style="text-align:left">left</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">For center align use <code>:-:</code></td>
+<td style="text-align:right">For right align use <code>-:</code></td>
+<td style="text-align:left">For left align use <code>:-</code></td>
+</tr>
+<tr>
+<td style="text-align:center">b</td>
+<td style="text-align:right">aaaaaaaaa</td>
+<td style="text-align:left">aaaa</td>
+</tr>
+<tr>
+<td style="text-align:center">c</td>
+<td style="text-align:right">aaaa</td>
+<td style="text-align:left">a</td>
+</tr>
+</tbody>
+</table>
+<h2 id="emoji"> Emoji</h2>
+<p><code>:emoji name:</code></p>
+<p>Example: <code>:smile:</code></p>
+<h2 id="markdown-display"> Markdown Display</h2>
+<ul>
+<li><a href="./demo.html">View Detail</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
       <title>Symbol</title>
       <link>https://vuepress-theme-hope.github.io/basic/markdown/emoji/symbol/</link>
       <guid>https://vuepress-theme-hope.github.io/basic/markdown/emoji/symbol/</guid>
@@ -1224,108 +1326,6 @@ console<span>&lt;</span>span <span>class</span><span>=</span><span>"token punctu
 <li>🔸 <code>:small_orange_diamond:</code></li>
 <li>🔺 <code>:small_red_triangle:</code></li>
 <li>🔻 <code>:small_red_triangle_down:</code></li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Markdown Introduction</title>
-      <link>https://vuepress-theme-hope.github.io/basic/markdown/</link>
-      <guid>https://vuepress-theme-hope.github.io/basic/markdown/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">Markdown Introduction</source>
-      <category>basic</category>
-      <content:encoded><![CDATA[<p>Markdown is a markup language that can be written using a plain text editor that allows plain text content to be formatted with simple markup syntax.</p>
-<p>Markdown has a series of derivative versions that extend Markdown’s functionality (such as tables, footnotes, embedded HTML, etc.). These features were not available in the original Markdown. They can convert Markdown into more formats, such as LaTeX, Docbook. . Markdown Extra, MultiMarkdown, Maruku, etc. are more famous in Markdown’s enhanced version. These derivative versions are either based on tools such as Pandoc; or based on sites such as GitHub and Wikipedia, which are syntactically compatible, but have some changes in syntax and rendering effects.</p>
-<h2 id="usage"> Usage</h2>
-<p>Markdown’s grammar is simple and straightforward, easy to learn, and features more powerful than plain text, so people use it to write blogs. WordPress, the world’s most popular blogging platform, and large CMSs such as Joomla and Drupal all support Markdown. The blog platforms that use the Markdown editor are Ghost and Typecho.</p>
-<p>Used to write documentation and save it under the software’s directory under the filename &quot;README.md&quot;. Because we have a god-level editor like RStudio, we can turn Markdown into a presentation PPT, Word product documentation, LaTex papers, and even a minimally usable prototype with little code. In the field of data science, Markdown has been widely used, greatly promoting the historical process of dynamic repeatability research.</p>
-<h2 id="shortcut-key"> ShortCut Key</h2>
-<table>
-<thead>
-<tr>
-<th>Display</th>
-<th>Code</th>
-<th>ShortCut Key</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Bold</strong></td>
-<td><code>**text**</code></td>
-<td>Ctrl/⌘ + B</td>
-</tr>
-<tr>
-<td><em>Emphasize</em></td>
-<td><code>*text*</code></td>
-<td>Ctrl/⌘ + I</td>
-</tr>
-<tr>
-<td><code>Inline Code</code></td>
-<td>`code`</td>
-<td>选中后 <code>`</code></td>
-</tr>
-</tbody>
-</table>
-<h2 id="title"> Title</h2>
-<p>The title shows the structure of the article. Insert 1-6 <code>#</code> at the beginning of the line, each adding a <code>#</code> indicates a more in-depth content, corresponding to the depth of the title by 1-6.</p>
-<ul>
-<li>H1: <code># Header 1</code></li>
-<li>H2: <code>## Header 2</code></li>
-<li>H3: <code>### Header 3</code></li>
-<li>H4: <code>#### Header 4</code></li>
-<li>H5: <code>##### Header 5</code></li>
-<li>H6: <code>###### Header 6</code></li>
-</ul>
-<h2 id="text-style"> Text Style</h2>
-<ul>
-<li>Link: <code>[Title](URL)</code></li>
-<li>Bold: <code>**Bold**</code></li>
-<li>Italic:<code>*Italics*</code></li>
-<li>Delete:<code>~~Italics~~</code></li>
-<li>Paragraph: Space one link</li>
-<li>Line break: enter two space at the end of the line</li>
-<li>List: add <code>-</code> to become a list item</li>
-<li>Blockquote: <code>&gt; Blockquote Content</code></li>
-<li>HR: Enter <code>---</code> in a single line</li>
-</ul>
-<h2 id="link"> Link</h2>
-<p><code>[Title](URL)</code></p>
-<p>Example: <code>[Baidu](https://baidu.com)</code></p>
-<h2 id="image"> Image</h2>
-<p><code>![Alt](ImageLink)</code> 。</p>
-<p>E.g: <code>![This is a title](./assets/title.jpg)</code>.</p>
-<h2 id="tables"> Tables</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">center</th>
-<th style="text-align:right">right</th>
-<th style="text-align:left">left</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">For center align use <code>:-:</code></td>
-<td style="text-align:right">For right align use <code>-:</code></td>
-<td style="text-align:left">For left align use <code>:-</code></td>
-</tr>
-<tr>
-<td style="text-align:center">b</td>
-<td style="text-align:right">aaaaaaaaa</td>
-<td style="text-align:left">aaaa</td>
-</tr>
-<tr>
-<td style="text-align:center">c</td>
-<td style="text-align:right">aaaa</td>
-<td style="text-align:left">a</td>
-</tr>
-</tbody>
-</table>
-<h2 id="emoji"> Emoji</h2>
-<p><code>:emoji name:</code></p>
-<p>Example: <code>:smile:</code></p>
-<h2 id="markdown-display"> Markdown Display</h2>
-<ul>
-<li><a href="./demo.html">View Detail</a></li>
 </ul>
 ]]></content:encoded>
     </item>
@@ -2751,167 +2751,6 @@ write something here ~
 ]]></content:encoded>
     </item>
     <item>
-      <title>Theme Feature Config</title>
-      <link>https://vuepress-theme-hope.github.io/config/theme/feature/</link>
-      <guid>https://vuepress-theme-hope.github.io/config/theme/feature/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">Theme Feature Config</source>
-      <category>config</category>
-      <content:encoded><![CDATA[<p>These are config items of features provided by theme.</p>
-<h2 id="darkmode"> darkmode <i>Not supported content</i></h2>
-<ul>
-<li>Type: <code>'auto-switch' | 'switch' | 'auto' | 'disable'</code></li>
-<li>Default: <code>'auto-switch'</code></li>
-</ul>
-<p>Dark mode support options:</p>
-<ul>
-<li><code>'auto-switch'</code>: &quot;off | automatic | on&quot; three-stage switch</li>
-<li><code>'switch'</code>: &quot;Close | Open&quot; toggle switch</li>
-<li><code>'auto'</code>: Automatically decide whether to apply dark mode based on user device’s color-scheme or current time</li>
-<li><code>'disable'</code>: disable dark mode</li>
-</ul>
-<blockquote>
-<p>If you don’t need this feature, set <code>darkmode: &quot;disable&quot;</code> to disable it.</p>
-</blockquote>
-<h2 id="themecolor"> themeColor <i>Not supported content</i></h2>
-<p>Theme color configuration.</p>
-<blockquote>
-<p>If you don’t need this feature, set <code>themeColor: false</code> to disable it.</p>
-</blockquote>
-<ul>
-<li>
-<p>Type: <code>Record&lt;string, string&gt;</code></p>
-</li>
-<li>
-<p>Defaults:</p>
-<div><pre><code><span>{</span>
-  blue<span>:</span> <span>'#2196f3'</span><span>,</span>
-  red<span>:</span> <span>'#f26d6d'</span><span>,</span>
-  green<span>:</span> <span>'#3eaf7c'</span><span>,</span>
-  orange<span>:</span> <span>'#fb9b5f'</span>
-<span>}</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div></li>
-</ul>
-<h2 id="blog-configuration"> Blog configuration <i>Not supported content</i></h2>
-<p>Blog configuration.</p>
-<blockquote>
-<p>You can directly set <code>blog: false</code> to disable related functions.</p>
-</blockquote>
-<h3 id="blog-blogger"> blog.blogger</h3>
-<ul>
-<li>Type: <code>string</code></li>
-<li>Required: No</li>
-</ul>
-<p>Blogger name, default is <code>themeConfig.author</code></p>
-<h3 id="blog-avatar"> blog.avatar</h3>
-<ul>
-<li>Type: <code>string</code></li>
-<li>Required: No</li>
-</ul>
-<p>Blogger avatar, default is <code>themeConfig.logo</code></p>
-<h3 id="blog-roundavatar"> blog.roundAvatar</h3>
-<ul>
-<li>Type: <code>boolean</code></li>
-<li>Default: <code>true</code></li>
-</ul>
-<p>Whether cliping the avatar with round shape</p>
-<h3 id="blog-sidebardisplay"> blog.sidebarDisplay</h3>
-<ul>
-<li>Type: <code>'mobile' | 'none' | 'always'</code></li>
-<li>Default: <code>'none'</code></li>
-</ul>
-<p>Whether to show blogger information in the sidebar</p>
-<ul>
-<li><code>mobile</code>: Show in sidebar in mobile view</li>
-<li><code>'always'</code>: Always show in the sidebar</li>
-<li><code>'none'</code>: Never show in the sidebar</li>
-</ul>
-<h3 id="blog-intro"> blog.intro</h3>
-<ul>
-<li>Type: <code>string</code></li>
-<li>Required: No</li>
-</ul>
-<p>Personal introduction address of the blogger.</p>
-<p>After filling in, you will be allowed to click on the avatar or name in &quot;Blogger Information&quot; to enter the personal introduction page.</p>
-<h3 id="blog-timeline"> blog.timeline</h3>
-<ul>
-<li>Type: <code>string</code></li>
-<li>Default: <code>'Yesterday once more'</code></li>
-</ul>
-<p>Text on the top of timeline page.</p>
-<h3 id="blog-perpage"> blog.perPage</h3>
-<ul>
-<li>Type: <code>number</code></li>
-<li>Default: <code>10</code></li>
-</ul>
-<p>Article number per page</p>
-<h2 id="pageinfo"> pageInfo</h2>
-<ul>
-<li>Type: <code>string[] | false</code></li>
-<li>Default: <code>['Author', 'Visitor', 'Time', 'Category', 'Tag', 'ReadTime']</code></li>
-</ul>
-<p>Article information can be filled in an array, and the order of the array is the order in which the items are displayed. Fill in <code>false</code> to disable it.</p>
-<p>Available Options:</p>
-<ul>
-<li><code>'Author'</code>: Author</li>
-<li><code>'Time'</code>: Writing Date</li>
-<li><code>'Category'</code>: Category</li>
-<li><code>'Tag'</code>: Tags</li>
-<li><code>'ReadTime'</code>: Expect reading time</li>
-<li><code>'Word'</code>: Word number for the article</li>
-<li><code>'Visitor'</code>: Visitor Number</li>
-</ul>
-<h2 id="footer-settings"> Footer settings</h2>
-<h3 id="footer-content"> footer.content</h3>
-<ul>
-<li>Type: <code>string</code></li>
-<li>Required: false</li>
-</ul>
-<p>The default content for the footer, can accept HTMLString.</p>
-<h3 id="footer-copyright"> footer.copyright</h3>
-<ul>
-<li>Type: <code>string | boolean</code></li>
-<li>Default: <code>'Copyright © &lt;author&gt;'</code></li>
-</ul>
-<p>The default copyright info, set it to <code>false</code> to disable it by default.</p>
-<h3 id="footer-display"> footer.display</h3>
-<ul>
-<li>Type: <code>boolean</code></li>
-<li>Default: <code>false</code></li>
-</ul>
-<p>Whether to display footer by default</p>
-<h2 id="encryption-settings"> Encryption settings</h2>
-<p>Encryption setting options</p>
-<h3 id="encrypt-status"> encrypt.status</h3>
-<ul>
-<li>Type: <code>&quot;global&quot; | &quot;local&quot;</code></li>
-<li>Default value: <code>&quot;local&quot;</code></li>
-</ul>
-<p>Whether to encrypt globally</p>
-<h3 id="encrypt-global"> encrypt.global</h3>
-<ul>
-<li>Type: <code>string | string []</code></li>
-<li>Required: No</li>
-</ul>
-<p>Highest authority password, you can set multiple by using array</p>
-<h3 id="encrypt-config"> encrypt.config</h3>
-<ul>
-<li>Type: <code>Record &lt;string, string | string []&gt;</code></li>
-<li>Required: No</li>
-</ul>
-<p>The encryption configuration is an object with a key name matching the path and a key-value corresponding to a password that accepts a string or an array of strings.</p>
-<details><summary>Example</summary>
-<div><pre><code><span>{</span>
-  <span>// This will encrypt the entire guide directory and both passwords will be available</span>
-  <span>"/guide/"</span><span>:</span> <span>[</span><span>"1234"</span><span>,</span> <span>"5678"</span><span>]</span><span>,</span>
-  <span>// this will only encrypt config/page.html</span>
-  <span>"/config/page.html"</span><span>:</span> <span>"1234"</span>
-<span>}</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div></details>
-]]></content:encoded>
-    </item>
-    <item>
       <title>Theme Plugin Config</title>
       <link>https://vuepress-theme-hope.github.io/config/theme/plugin/</link>
       <guid>https://vuepress-theme-hope.github.io/config/theme/plugin/</guid>
@@ -3326,76 +3165,164 @@ write something here ~
 ]]></content:encoded>
     </item>
     <item>
-      <title>Theme Config</title>
-      <link>https://vuepress-theme-hope.github.io/config/theme/</link>
-      <guid>https://vuepress-theme-hope.github.io/config/theme/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">Theme Config</source>
+      <title>Theme Feature Config</title>
+      <link>https://vuepress-theme-hope.github.io/config/theme/feature/</link>
+      <guid>https://vuepress-theme-hope.github.io/config/theme/feature/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">Theme Feature Config</source>
       <category>config</category>
-      <content:encoded><![CDATA[<div><p>Tips</p>
-<p>You can view <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/docs/theme/src/.vuepress/config.js" target="_blank" rel="noopener noreferrer">Config of this site</a> as an example, and you can directly view <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/packages/theme/types/theme/" target="_blank" rel="noopener noreferrer">Type Declaration file</a> in the source code.</p>
-</div>
-<p>The following configuration has been added to the themeConfig field in <code>.vuepress/config.js</code>:</p>
-<h2 id="basic-options"> Basic options</h2>
-<div><p>Warning</p>
-<p>These options are important and require you to configure them.</p>
-</div>
-<h3 id="baselang"> baseLang</h3>
+      <content:encoded><![CDATA[<p>These are config items of features provided by theme.</p>
+<h2 id="darkmode"> darkmode <i>Not supported content</i></h2>
 <ul>
-<li>Type: <code>string</code></li>
-<li>Default: <code>'en-US'</code></li>
+<li>Type: <code>'auto-switch' | 'switch' | 'auto' | 'disable'</code></li>
+<li>Default: <code>'auto-switch'</code></li>
 </ul>
-<p>The language of the home directory.</p>
-<p>This option ensures that the subject text in the main catalog page is displayed in the correct language. You can change it to other languages according to your needs.</p>
-<div><p>Tips</p>
-<p>Only <strong>Simplified Chinese</strong> (zh-CN), <strong>English (United States)</strong> (en-US) and <strong>Vietnamese</strong> (vi-VN) are available for i18n.</p>
-<p>If you need multi-language support for other languages, you can <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/packages/shared/src/i18n/config.ts" target="_blank" rel="noopener noreferrer">submit a PR to this file</a></p>
-</div>
-<h3 id="author"> author</h3>
+<p>Dark mode support options:</p>
+<ul>
+<li><code>'auto-switch'</code>: &quot;off | automatic | on&quot; three-stage switch</li>
+<li><code>'switch'</code>: &quot;Close | Open&quot; toggle switch</li>
+<li><code>'auto'</code>: Automatically decide whether to apply dark mode based on user device’s color-scheme or current time</li>
+<li><code>'disable'</code>: disable dark mode</li>
+</ul>
+<blockquote>
+<p>If you don’t need this feature, set <code>darkmode: &quot;disable&quot;</code> to disable it.</p>
+</blockquote>
+<h2 id="themecolor"> themeColor <i>Not supported content</i></h2>
+<p>Theme color configuration.</p>
+<blockquote>
+<p>If you don’t need this feature, set <code>themeColor: false</code> to disable it.</p>
+</blockquote>
+<ul>
+<li>
+<p>Type: <code>Record&lt;string, string&gt;</code></p>
+</li>
+<li>
+<p>Defaults:</p>
+<div><pre><code><span>{</span>
+  blue<span>:</span> <span>'#2196f3'</span><span>,</span>
+  red<span>:</span> <span>'#f26d6d'</span><span>,</span>
+  green<span>:</span> <span>'#3eaf7c'</span><span>,</span>
+  orange<span>:</span> <span>'#fb9b5f'</span>
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div></li>
+</ul>
+<h2 id="blog-configuration"> Blog configuration <i>Not supported content</i></h2>
+<p>Blog configuration.</p>
+<blockquote>
+<p>You can directly set <code>blog: false</code> to disable related functions.</p>
+</blockquote>
+<h3 id="blog-blogger"> blog.blogger</h3>
 <ul>
 <li>Type: <code>string</code></li>
 <li>Required: No</li>
 </ul>
-<p>The default author of the article</p>
-<h3 id="hostname"> hostname</h3>
+<p>Blogger name, default is <code>themeConfig.author</code></p>
+<h3 id="blog-avatar"> blog.avatar</h3>
 <ul>
 <li>Type: <code>string</code></li>
-<li>Required: Yes</li>
+<li>Required: No</li>
 </ul>
-<p>The domain name where the current site is deployed.</p>
-<h3 id="nav"> nav <i>Not supported content</i></h3>
-<p>NavBarItem now has</p>
+<p>Blogger avatar, default is <code>themeConfig.logo</code></p>
+<h3 id="blog-roundavatar"> blog.roundAvatar</h3>
 <ul>
-<li><code>icon</code> field to support icon display.</li>
-<li><code>prefix</code> field to automatically add group prefix</li>
+<li>Type: <code>boolean</code></li>
+<li>Default: <code>true</code></li>
 </ul>
-<p>For certain configuration, please see <a href="./../../guide/layout/navbar.html">Layout → Navbar</a></p>
-<h3 id="sidebar"> sidebar <i>Not supported content</i></h3>
-<p>SideBarItem now has</p>
+<p>Whether cliping the avatar with round shape</p>
+<h3 id="blog-sidebardisplay"> blog.sidebarDisplay</h3>
 <ul>
-<li><code>icon</code> field to support icon display.</li>
-<li><code>prefix</code> field to automatically add group prefix</li>
+<li>Type: <code>'mobile' | 'none' | 'always'</code></li>
+<li>Default: <code>'none'</code></li>
 </ul>
-<p>For certain configuration, please see <a href="./../../guide/layout/sidebar.html">Layout → Sidebar</a></p>
-<h3 id="locales"> locales</h3>
+<p>Whether to show blogger information in the sidebar</p>
 <ul>
-<li>Type: <code>Record &lt;string, HopeLangI18nConfigItem&gt;</code></li>
+<li><code>mobile</code>: Show in sidebar in mobile view</li>
+<li><code>'always'</code>: Always show in the sidebar</li>
+<li><code>'none'</code>: Never show in the sidebar</li>
 </ul>
-<p>The multi-language configuration of the theme mainly needs to configure <code>nav</code> and<code>sidebar</code> of each language.</p>
-<h2 id="more"> More</h2>
+<h3 id="blog-intro"> blog.intro</h3>
 <ul>
-<li>
-<p><a href="./default.html"><strong>Default Config</strong></a></p>
-</li>
-<li>
-<p><a href="./feature.html"><strong>Theme Feature Config</strong></a></p>
-</li>
-<li>
-<p><a href="./plugin.html"><strong>Theme Plugin Config</strong></a></p>
-</li>
-<li>
-<p><a href="./apperance.html"><strong>Theme Appearance Config</strong></a></p>
-</li>
+<li>Type: <code>string</code></li>
+<li>Required: No</li>
 </ul>
+<p>Personal introduction address of the blogger.</p>
+<p>After filling in, you will be allowed to click on the avatar or name in &quot;Blogger Information&quot; to enter the personal introduction page.</p>
+<h3 id="blog-timeline"> blog.timeline</h3>
+<ul>
+<li>Type: <code>string</code></li>
+<li>Default: <code>'Yesterday once more'</code></li>
+</ul>
+<p>Text on the top of timeline page.</p>
+<h3 id="blog-perpage"> blog.perPage</h3>
+<ul>
+<li>Type: <code>number</code></li>
+<li>Default: <code>10</code></li>
+</ul>
+<p>Article number per page</p>
+<h2 id="pageinfo"> pageInfo</h2>
+<ul>
+<li>Type: <code>string[] | false</code></li>
+<li>Default: <code>['Author', 'Visitor', 'Time', 'Category', 'Tag', 'ReadTime']</code></li>
+</ul>
+<p>Article information can be filled in an array, and the order of the array is the order in which the items are displayed. Fill in <code>false</code> to disable it.</p>
+<p>Available Options:</p>
+<ul>
+<li><code>'Author'</code>: Author</li>
+<li><code>'Time'</code>: Writing Date</li>
+<li><code>'Category'</code>: Category</li>
+<li><code>'Tag'</code>: Tags</li>
+<li><code>'ReadTime'</code>: Expect reading time</li>
+<li><code>'Word'</code>: Word number for the article</li>
+<li><code>'Visitor'</code>: Visitor Number</li>
+</ul>
+<h2 id="footer-settings"> Footer settings</h2>
+<h3 id="footer-content"> footer.content</h3>
+<ul>
+<li>Type: <code>string</code></li>
+<li>Required: false</li>
+</ul>
+<p>The default content for the footer, can accept HTMLString.</p>
+<h3 id="footer-copyright"> footer.copyright</h3>
+<ul>
+<li>Type: <code>string | boolean</code></li>
+<li>Default: <code>'Copyright © &lt;author&gt;'</code></li>
+</ul>
+<p>The default copyright info, set it to <code>false</code> to disable it by default.</p>
+<h3 id="footer-display"> footer.display</h3>
+<ul>
+<li>Type: <code>boolean</code></li>
+<li>Default: <code>false</code></li>
+</ul>
+<p>Whether to display footer by default</p>
+<h2 id="encryption-settings"> Encryption settings</h2>
+<p>Encryption setting options</p>
+<h3 id="encrypt-status"> encrypt.status</h3>
+<ul>
+<li>Type: <code>&quot;global&quot; | &quot;local&quot;</code></li>
+<li>Default value: <code>&quot;local&quot;</code></li>
+</ul>
+<p>Whether to encrypt globally</p>
+<h3 id="encrypt-global"> encrypt.global</h3>
+<ul>
+<li>Type: <code>string | string []</code></li>
+<li>Required: No</li>
+</ul>
+<p>Highest authority password, you can set multiple by using array</p>
+<h3 id="encrypt-config"> encrypt.config</h3>
+<ul>
+<li>Type: <code>Record &lt;string, string | string []&gt;</code></li>
+<li>Required: No</li>
+</ul>
+<p>The encryption configuration is an object with a key name matching the path and a key-value corresponding to a password that accepts a string or an array of strings.</p>
+<details><summary>Example</summary>
+<div><pre><code><span>{</span>
+  <span>// This will encrypt the entire guide directory and both passwords will be available</span>
+  <span>"/guide/"</span><span>:</span> <span>[</span><span>"1234"</span><span>,</span> <span>"5678"</span><span>]</span><span>,</span>
+  <span>// this will only encrypt config/page.html</span>
+  <span>"/config/page.html"</span><span>:</span> <span>"1234"</span>
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div></details>
 ]]></content:encoded>
     </item>
     <item>
@@ -3471,6 +3398,79 @@ write something here ~
 <h2 id="more"> More</h2>
 <ul>
 <li>Feel free to add yours</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Theme Config</title>
+      <link>https://vuepress-theme-hope.github.io/config/theme/</link>
+      <guid>https://vuepress-theme-hope.github.io/config/theme/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">Theme Config</source>
+      <category>config</category>
+      <content:encoded><![CDATA[<div><p>Tips</p>
+<p>You can view <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/docs/theme/src/.vuepress/config.js" target="_blank" rel="noopener noreferrer">Config of this site</a> as an example, and you can directly view <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/packages/theme/types/theme/" target="_blank" rel="noopener noreferrer">Type Declaration file</a> in the source code.</p>
+</div>
+<p>The following configuration has been added to the themeConfig field in <code>.vuepress/config.js</code>:</p>
+<h2 id="basic-options"> Basic options</h2>
+<div><p>Warning</p>
+<p>These options are important and require you to configure them.</p>
+</div>
+<h3 id="baselang"> baseLang</h3>
+<ul>
+<li>Type: <code>string</code></li>
+<li>Default: <code>'en-US'</code></li>
+</ul>
+<p>The language of the home directory.</p>
+<p>This option ensures that the subject text in the main catalog page is displayed in the correct language. You can change it to other languages according to your needs.</p>
+<div><p>Tips</p>
+<p>Only <strong>Simplified Chinese</strong> (zh-CN), <strong>English (United States)</strong> (en-US) and <strong>Vietnamese</strong> (vi-VN) are available for i18n.</p>
+<p>If you need multi-language support for other languages, you can <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/packages/shared/src/i18n/config.ts" target="_blank" rel="noopener noreferrer">submit a PR to this file</a></p>
+</div>
+<h3 id="author"> author</h3>
+<ul>
+<li>Type: <code>string</code></li>
+<li>Required: No</li>
+</ul>
+<p>The default author of the article</p>
+<h3 id="hostname"> hostname</h3>
+<ul>
+<li>Type: <code>string</code></li>
+<li>Required: Yes</li>
+</ul>
+<p>The domain name where the current site is deployed.</p>
+<h3 id="nav"> nav <i>Not supported content</i></h3>
+<p>NavBarItem now has</p>
+<ul>
+<li><code>icon</code> field to support icon display.</li>
+<li><code>prefix</code> field to automatically add group prefix</li>
+</ul>
+<p>For certain configuration, please see <a href="./../../guide/layout/navbar.html">Layout → Navbar</a></p>
+<h3 id="sidebar"> sidebar <i>Not supported content</i></h3>
+<p>SideBarItem now has</p>
+<ul>
+<li><code>icon</code> field to support icon display.</li>
+<li><code>prefix</code> field to automatically add group prefix</li>
+</ul>
+<p>For certain configuration, please see <a href="./../../guide/layout/sidebar.html">Layout → Sidebar</a></p>
+<h3 id="locales"> locales</h3>
+<ul>
+<li>Type: <code>Record &lt;string, HopeLangI18nConfigItem&gt;</code></li>
+</ul>
+<p>The multi-language configuration of the theme mainly needs to configure <code>nav</code> and<code>sidebar</code> of each language.</p>
+<h2 id="more"> More</h2>
+<ul>
+<li>
+<p><a href="./default.html"><strong>Default Config</strong></a></p>
+</li>
+<li>
+<p><a href="./feature.html"><strong>Theme Feature Config</strong></a></p>
+</li>
+<li>
+<p><a href="./plugin.html"><strong>Theme Plugin Config</strong></a></p>
+</li>
+<li>
+<p><a href="./apperance.html"><strong>Theme Appearance Config</strong></a></p>
+</li>
 </ul>
 ]]></content:encoded>
     </item>
@@ -9444,169 +9444,6 @@ A backtick-delimited string in a code span: <span>`` `foo` ``</span>
 ]]></content:encoded>
     </item>
     <item>
-      <title>主题功能配置</title>
-      <link>https://vuepress-theme-hope.github.io/zh/config/theme/feature/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/config/theme/feature/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">主题功能配置</source>
-      <category>config</category>
-      <content:encoded><![CDATA[<p>这些是主题功能的配置项。</p>
-<h2 id="主题色与深色模式"> 主题色与深色模式 <i>Not supported content</i></h2>
-<p>主题色和深色模式设置选项配置。</p>
-<h3 id="darkmode"> darkmode</h3>
-<ul>
-<li>类型: <code>'auto-switch' | 'switch' | 'auto' | 'disable'</code></li>
-<li>默认值: <code>'auto-switch'</code></li>
-</ul>
-<p>深色模式支持选项:</p>
-<ul>
-<li><code>'auto-switch'</code>: &quot;关闭 | 自动 | 打开&quot; 的三段式开关</li>
-<li><code>'switch'</code>: &quot;关闭 | 打开&quot; 的切换式开关</li>
-<li><code>'auto'</code>: 自动根据用户设备主题或当前时间决定是否应用深色模式</li>
-<li><code>'disable'</code>: 禁用深色模式</li>
-</ul>
-<blockquote>
-<p>如果你不需要这项功能，请设置 <code>darkmode: &quot;disable&quot;</code> 将其禁用。</p>
-</blockquote>
-<h3 id="themecolor"> themeColor</h3>
-<p>主题色选项配置。</p>
-<blockquote>
-<p>如果你不需要这项功能，请设置 <code>themeColor: false</code> 将其禁用。</p>
-</blockquote>
-<ul>
-<li>
-<p>类型: <code>Record&lt;string, string&gt;</code></p>
-</li>
-<li>
-<p>默认值:</p>
-<div><pre><code><span>{</span>
-  blue<span>:</span> <span>'#2196f3'</span><span>,</span>
-  red<span>:</span> <span>'#f26d6d'</span><span>,</span>
-  green<span>:</span> <span>'#3eaf7c'</span><span>,</span>
-  orange<span>:</span> <span>'#fb9b5f'</span>
-<span>}</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div></li>
-</ul>
-<h2 id="博客配置"> 博客配置 <i>Not supported content</i></h2>
-<p>博客配置。</p>
-<blockquote>
-<p>如果您不需要博客相关功能，为了加快构建速度，请设置 <code>blog: false</code>。</p>
-</blockquote>
-<h3 id="blog-blogger"> blog.blogger</h3>
-<ul>
-<li>类型: <code>string</code></li>
-<li>必填: 否</li>
-</ul>
-<p>博主姓名，默认为 <code>themeConfig.author</code></p>
-<h3 id="blog-avatar"> blog.avatar</h3>
-<ul>
-<li>类型: <code>string</code></li>
-<li>必填: 否</li>
-</ul>
-<p>博主头像，默认为 <code>themeConfig.logo</code></p>
-<h3 id="blog-roundavatar"> blog.roundAvatar</h3>
-<ul>
-<li>类型: <code>boolean</code></li>
-<li>默认值: <code>true</code></li>
-</ul>
-<p>是否剪裁头像为圆形形状</p>
-<h3 id="blog-sidebardisplay"> blog.sidebarDisplay</h3>
-<ul>
-<li>类型: <code>'mobile' | 'none' | 'always'</code></li>
-<li>默认值: <code>'none'</code></li>
-</ul>
-<p>是否在侧边栏展示博主信息</p>
-<ul>
-<li><code>mobile</code>: 在移动视图中显示在侧边栏中</li>
-<li><code>'always'</code>: 总是展示在侧边栏中</li>
-<li><code>'none'</code>: 永远不在侧边栏展示</li>
-</ul>
-<h3 id="blog-intro"> blog.intro</h3>
-<ul>
-<li>类型: <code>string</code></li>
-<li>必填: 否</li>
-</ul>
-<p>博主的个人介绍地址。</p>
-<p>填写后将允许点击“博主信息”中的头像或姓名进入个人介绍页。</p>
-<h3 id="blog-timeline"> blog.timeline</h3>
-<ul>
-<li>类型: <code>string</code></li>
-<li>默认值: <code>'昨日不在'</code></li>
-</ul>
-<p>时间轴的顶部文字。</p>
-<h3 id="blog-perpage"> blog.perPage</h3>
-<ul>
-<li>类型: <code>number</code></li>
-<li>默认: <code>10</code></li>
-</ul>
-<p>每页的文章数量</p>
-<h2 id="pageinfo"> pageInfo</h2>
-<ul>
-<li>类型: <code>string[] | false</code></li>
-<li>默认值: <code>['Author', 'Visitor', 'Time', 'Category', 'Tag', 'ReadTime']</code></li>
-</ul>
-<p>文章信息，可以填入数组，数组的顺序是各条目显示的顺序。填入 <code>false</code> 使其被禁用。</p>
-<p>可以填入的条目如下:</p>
-<ul>
-<li><code>'Author'</code>: 作者</li>
-<li><code>'Time'</code>: 写作日期</li>
-<li><code>'Category'</code>: 分类</li>
-<li><code>'Tag'</code>: 标签</li>
-<li><code>'ReadTime'</code>: 预计阅读时间</li>
-<li><code>'Word'</code>: 字数</li>
-<li><code>'Visitor'</code>: 访问量</li>
-</ul>
-<h2 id="页脚设置"> 页脚设置</h2>
-<h3 id="footer-content"> footer.content</h3>
-<ul>
-<li>类型: <code>string</code></li>
-<li>必填: 否</li>
-</ul>
-<p>页脚的默认内容，可输入 HTMLString。</p>
-<h3 id="footer-copyright"> footer.copyright</h3>
-<ul>
-<li>类型: <code>string | boolean</code></li>
-<li>默认值: <code>'Copyright © &lt;作者&gt;'</code></li>
-</ul>
-<p>默认的版权信息，设置为 <code>false</code> 来默认禁用它。</p>
-<h3 id="footer-display"> footer.display</h3>
-<ul>
-<li>类型: <code>boolean</code></li>
-<li>默认值: <code>false</code></li>
-</ul>
-<p>是否默认显示页脚</p>
-<h2 id="加密设置"> 加密设置</h2>
-<p>加密设置选项。</p>
-<h3 id="encrypt-status"> encrypt.status</h3>
-<ul>
-<li>类型: <code>&quot;global&quot; | &quot;local&quot;</code></li>
-<li>默认值: <code>&quot;local&quot;</code></li>
-</ul>
-<p>是否全局加密</p>
-<h3 id="encrypt-global"> encrypt.global</h3>
-<ul>
-<li>类型: <code>string | string[]</code></li>
-<li>必填: 否</li>
-</ul>
-<p>最高权限密码，可以以数组的形式设置多个</p>
-<h3 id="encrypt-config"> encrypt.config</h3>
-<ul>
-<li>类型: <code>Record&lt;string, string | string[]&gt;</code></li>
-<li>必填: 否</li>
-</ul>
-<p>加密配置，为一个对象，键名为匹配的路径，键值为对应的密码，接受字符串或字符串数组。</p>
-<details><summary>例子</summary>
-<div><pre><code><span>{</span>
-  <span>// 这会加密整个 guide 目录，并且两个密码都是可用的</span>
-  <span>"/guide/"</span><span>:</span> <span>[</span><span>"1234"</span><span>,</span> <span>"5678"</span><span>]</span><span>,</span>
-  <span>// 这只会加密 config/page.html</span>
-  <span>"/config/page.html"</span><span>:</span> <span>"1234"</span>
-<span>}</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div></details>
-]]></content:encoded>
-    </item>
-    <item>
       <title>主题插件配置</title>
       <link>https://vuepress-theme-hope.github.io/zh/config/theme/plugin/</link>
       <guid>https://vuepress-theme-hope.github.io/zh/config/theme/plugin/</guid>
@@ -10020,6 +9857,169 @@ A backtick-delimited string in a code span: <span>`` `foo` ``</span>
 <h2 id="namedchunks"> namedChunks</h2>
 <p><code>vuepress-named-chunks</code> 的选项，设置为 <code>false</code> 以禁用此插件。</p>
 <p>默认情况下，所有页面块均以页面标题命名，所有布局块均以其组件名称命名。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>主题功能配置</title>
+      <link>https://vuepress-theme-hope.github.io/zh/config/theme/feature/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/config/theme/feature/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">主题功能配置</source>
+      <category>config</category>
+      <content:encoded><![CDATA[<p>这些是主题功能的配置项。</p>
+<h2 id="主题色与深色模式"> 主题色与深色模式 <i>Not supported content</i></h2>
+<p>主题色和深色模式设置选项配置。</p>
+<h3 id="darkmode"> darkmode</h3>
+<ul>
+<li>类型: <code>'auto-switch' | 'switch' | 'auto' | 'disable'</code></li>
+<li>默认值: <code>'auto-switch'</code></li>
+</ul>
+<p>深色模式支持选项:</p>
+<ul>
+<li><code>'auto-switch'</code>: &quot;关闭 | 自动 | 打开&quot; 的三段式开关</li>
+<li><code>'switch'</code>: &quot;关闭 | 打开&quot; 的切换式开关</li>
+<li><code>'auto'</code>: 自动根据用户设备主题或当前时间决定是否应用深色模式</li>
+<li><code>'disable'</code>: 禁用深色模式</li>
+</ul>
+<blockquote>
+<p>如果你不需要这项功能，请设置 <code>darkmode: &quot;disable&quot;</code> 将其禁用。</p>
+</blockquote>
+<h3 id="themecolor"> themeColor</h3>
+<p>主题色选项配置。</p>
+<blockquote>
+<p>如果你不需要这项功能，请设置 <code>themeColor: false</code> 将其禁用。</p>
+</blockquote>
+<ul>
+<li>
+<p>类型: <code>Record&lt;string, string&gt;</code></p>
+</li>
+<li>
+<p>默认值:</p>
+<div><pre><code><span>{</span>
+  blue<span>:</span> <span>'#2196f3'</span><span>,</span>
+  red<span>:</span> <span>'#f26d6d'</span><span>,</span>
+  green<span>:</span> <span>'#3eaf7c'</span><span>,</span>
+  orange<span>:</span> <span>'#fb9b5f'</span>
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div></li>
+</ul>
+<h2 id="博客配置"> 博客配置 <i>Not supported content</i></h2>
+<p>博客配置。</p>
+<blockquote>
+<p>如果您不需要博客相关功能，为了加快构建速度，请设置 <code>blog: false</code>。</p>
+</blockquote>
+<h3 id="blog-blogger"> blog.blogger</h3>
+<ul>
+<li>类型: <code>string</code></li>
+<li>必填: 否</li>
+</ul>
+<p>博主姓名，默认为 <code>themeConfig.author</code></p>
+<h3 id="blog-avatar"> blog.avatar</h3>
+<ul>
+<li>类型: <code>string</code></li>
+<li>必填: 否</li>
+</ul>
+<p>博主头像，默认为 <code>themeConfig.logo</code></p>
+<h3 id="blog-roundavatar"> blog.roundAvatar</h3>
+<ul>
+<li>类型: <code>boolean</code></li>
+<li>默认值: <code>true</code></li>
+</ul>
+<p>是否剪裁头像为圆形形状</p>
+<h3 id="blog-sidebardisplay"> blog.sidebarDisplay</h3>
+<ul>
+<li>类型: <code>'mobile' | 'none' | 'always'</code></li>
+<li>默认值: <code>'none'</code></li>
+</ul>
+<p>是否在侧边栏展示博主信息</p>
+<ul>
+<li><code>mobile</code>: 在移动视图中显示在侧边栏中</li>
+<li><code>'always'</code>: 总是展示在侧边栏中</li>
+<li><code>'none'</code>: 永远不在侧边栏展示</li>
+</ul>
+<h3 id="blog-intro"> blog.intro</h3>
+<ul>
+<li>类型: <code>string</code></li>
+<li>必填: 否</li>
+</ul>
+<p>博主的个人介绍地址。</p>
+<p>填写后将允许点击“博主信息”中的头像或姓名进入个人介绍页。</p>
+<h3 id="blog-timeline"> blog.timeline</h3>
+<ul>
+<li>类型: <code>string</code></li>
+<li>默认值: <code>'昨日不在'</code></li>
+</ul>
+<p>时间轴的顶部文字。</p>
+<h3 id="blog-perpage"> blog.perPage</h3>
+<ul>
+<li>类型: <code>number</code></li>
+<li>默认: <code>10</code></li>
+</ul>
+<p>每页的文章数量</p>
+<h2 id="pageinfo"> pageInfo</h2>
+<ul>
+<li>类型: <code>string[] | false</code></li>
+<li>默认值: <code>['Author', 'Visitor', 'Time', 'Category', 'Tag', 'ReadTime']</code></li>
+</ul>
+<p>文章信息，可以填入数组，数组的顺序是各条目显示的顺序。填入 <code>false</code> 使其被禁用。</p>
+<p>可以填入的条目如下:</p>
+<ul>
+<li><code>'Author'</code>: 作者</li>
+<li><code>'Time'</code>: 写作日期</li>
+<li><code>'Category'</code>: 分类</li>
+<li><code>'Tag'</code>: 标签</li>
+<li><code>'ReadTime'</code>: 预计阅读时间</li>
+<li><code>'Word'</code>: 字数</li>
+<li><code>'Visitor'</code>: 访问量</li>
+</ul>
+<h2 id="页脚设置"> 页脚设置</h2>
+<h3 id="footer-content"> footer.content</h3>
+<ul>
+<li>类型: <code>string</code></li>
+<li>必填: 否</li>
+</ul>
+<p>页脚的默认内容，可输入 HTMLString。</p>
+<h3 id="footer-copyright"> footer.copyright</h3>
+<ul>
+<li>类型: <code>string | boolean</code></li>
+<li>默认值: <code>'Copyright © &lt;作者&gt;'</code></li>
+</ul>
+<p>默认的版权信息，设置为 <code>false</code> 来默认禁用它。</p>
+<h3 id="footer-display"> footer.display</h3>
+<ul>
+<li>类型: <code>boolean</code></li>
+<li>默认值: <code>false</code></li>
+</ul>
+<p>是否默认显示页脚</p>
+<h2 id="加密设置"> 加密设置</h2>
+<p>加密设置选项。</p>
+<h3 id="encrypt-status"> encrypt.status</h3>
+<ul>
+<li>类型: <code>&quot;global&quot; | &quot;local&quot;</code></li>
+<li>默认值: <code>&quot;local&quot;</code></li>
+</ul>
+<p>是否全局加密</p>
+<h3 id="encrypt-global"> encrypt.global</h3>
+<ul>
+<li>类型: <code>string | string[]</code></li>
+<li>必填: 否</li>
+</ul>
+<p>最高权限密码，可以以数组的形式设置多个</p>
+<h3 id="encrypt-config"> encrypt.config</h3>
+<ul>
+<li>类型: <code>Record&lt;string, string | string[]&gt;</code></li>
+<li>必填: 否</li>
+</ul>
+<p>加密配置，为一个对象，键名为匹配的路径，键值为对应的密码，接受字符串或字符串数组。</p>
+<details><summary>例子</summary>
+<div><pre><code><span>{</span>
+  <span>// 这会加密整个 guide 目录，并且两个密码都是可用的</span>
+  <span>"/guide/"</span><span>:</span> <span>[</span><span>"1234"</span><span>,</span> <span>"5678"</span><span>]</span><span>,</span>
+  <span>// 这只会加密 config/page.html</span>
+  <span>"/config/page.html"</span><span>:</span> <span>"1234"</span>
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div></details>
 ]]></content:encoded>
     </item>
     <item>
@@ -11636,6 +11636,82 @@ $$
 ]]></content:encoded>
     </item>
     <item>
+      <title>新增特性</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">新增特性</source>
+      <category>feature</category>
+      <content:encoded><![CDATA[<h1 id="新增特性"> 新增特性</h1>
+<ul>
+<li>
+<p><a href="./theme.html#深色模式"><strong>深色模式</strong></a></p>
+</li>
+<li>
+<p><a href="./theme.html#主题色"><strong>主题色</strong></a></p>
+</li>
+<li>
+<p><a href="./page-info.html"><strong>页面信息</strong></a></p>
+</li>
+<li>
+<p><a href="./comment.html"><strong>评论功能</strong></a></p>
+</li>
+<li>
+<p><a href="./page.html"><strong>页面增强</strong></a></p>
+</li>
+<li>
+<p><a href="./encrypt.html"><strong>加密功能</strong></a></p>
+</li>
+<li>
+<p><a href="./markdown/"><strong>Markdown 增强</strong></a></p>
+</li>
+<li>
+<p><a href="./pwa.html"><strong>PWA 支持</strong></a></p>
+</li>
+<li>
+<p><a href="./component.html"><strong>新增组件</strong></a></p>
+</li>
+<li>
+<p><a href="./feed.html"><strong>Feed 支持</strong></a></p>
+</li>
+<li>
+<p><a href="./seo-sitemap.html"><strong>Seo 和 Sitemap 支持</strong></a></p>
+</li>
+<li>
+<p><a href="./icon.html"><strong>图标支持</strong></a></p>
+</li>
+<li>
+<p><a href="./typescript.html"><strong>TypeScript 支持</strong></a></p>
+</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>安装/使用</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/install/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/install/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">安装/使用</source>
+      <category>instruction</category>
+      <content:encoded><![CDATA[<h2 id="在新项目中使用"> 在新项目中使用</h2>
+<p>如果你想构建自己的博客，或者在一个新的项目中使用本主题生成你的文档，你可以直接使用 <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope-template" target="_blank" rel="noopener noreferrer">vuepress-theme-hope 模板</a> 来开始你的 VuePress 之旅。点击 <code>Use this template</code> 按钮即可。</p>
+<h2 id="在旧项目中使用"> 在旧项目中使用</h2>
+<h3 id="安装"> 安装</h3>
+<div><pre><code><span>npm</span> i -D vuepress-theme-hope
+</code></pre>
+<div><span>1</span><br></div></div><h3 id="使用"> 使用</h3>
+<div><pre><code><span>// .vuepress/config.js</span>
+<span>const</span> <span>{</span> config <span>}</span> <span>=</span> <span>require</span><span>(</span><span>"vuepress-theme-hope"</span><span>)</span><span>;</span>
+
+module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><span>{</span>
+  <span>// your config here</span>
+<span>}</span><span>)</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><div><p>为什么要引入 config 函数</p>
+<p>为了尽可能减轻用户配置，vuepress-theme-hope 提供了一些额外的配置选项，需要经过处理才能提交 vuepress、同时 vuepress-theme-hope 也会允许你省略一些配置并自动帮你生成它们。</p>
+<p>比如自动根据你的主题配置中的多语言选项，为你生成项目配置中的多语言选项，并自动帮你完成本地化工作。</p>
+</div>
+]]></content:encoded>
+    </item>
+    <item>
       <title>TS 支持</title>
       <link>https://vuepress-theme-hope.github.io/zh/guide/feature/typescript/</link>
       <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/typescript/</guid>
@@ -11671,32 +11747,6 @@ $$
 <p>你还应该在你的项目中创建一个 ts 文件并添加至 <code>tsconfig.json</code> 的 <code>include</code> 中，你可以直接创建一个空的 enhanceApp.ts 并将其引入。</p>
 <div><p>Note</p>
 <p><code>ts-loader</code> 要求 <code>tsconfig.json</code> 至少命中一个有效的 ts 文件，所以最简单的办法就是创建或者转换 (如果你已经有了 <code>enhanceAppFiles.js</code>) 一个 <code>enhanceAppFiles.ts</code> 并将它添加至 <code>include</code> 选项中</p>
-</div>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>安装/使用</title>
-      <link>https://vuepress-theme-hope.github.io/zh/guide/install/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/guide/install/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">安装/使用</source>
-      <category>instruction</category>
-      <content:encoded><![CDATA[<h2 id="在新项目中使用"> 在新项目中使用</h2>
-<p>如果你想构建自己的博客，或者在一个新的项目中使用本主题生成你的文档，你可以直接使用 <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope-template" target="_blank" rel="noopener noreferrer">vuepress-theme-hope 模板</a> 来开始你的 VuePress 之旅。点击 <code>Use this template</code> 按钮即可。</p>
-<h2 id="在旧项目中使用"> 在旧项目中使用</h2>
-<h3 id="安装"> 安装</h3>
-<div><pre><code><span>npm</span> i -D vuepress-theme-hope
-</code></pre>
-<div><span>1</span><br></div></div><h3 id="使用"> 使用</h3>
-<div><pre><code><span>// .vuepress/config.js</span>
-<span>const</span> <span>{</span> config <span>}</span> <span>=</span> <span>require</span><span>(</span><span>"vuepress-theme-hope"</span><span>)</span><span>;</span>
-
-module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><span>{</span>
-  <span>// your config here</span>
-<span>}</span><span>)</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><div><p>为什么要引入 config 函数</p>
-<p>为了尽可能减轻用户配置，vuepress-theme-hope 提供了一些额外的配置选项，需要经过处理才能提交 vuepress、同时 vuepress-theme-hope 也会允许你省略一些配置并自动帮你生成它们。</p>
-<p>比如自动根据你的主题配置中的多语言选项，为你生成项目配置中的多语言选项，并自动帮你完成本地化工作。</p>
 </div>
 ]]></content:encoded>
     </item>
@@ -12865,56 +12915,6 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <li><code>sitemap.changefreq</code>: 更新频率，可选值为: <code>&quot;always&quot;</code> <code>&quot;hourly&quot;</code> <code>&quot;daily&quot;</code> <code>&quot;weekly&quot;</code> <code>&quot;monthly&quot;</code> <code>&quot;yearly&quot;</code> <code>&quot;never&quot;</code></li>
 <li><code>sitemap.exclude</code>: 是否不包含此页面</li>
 <li><code>sitemap.priority</code>: 页面优先级，范围 0~1，默认为 <code>0.5</code></li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>新增特性</title>
-      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">新增特性</source>
-      <category>feature</category>
-      <content:encoded><![CDATA[<h1 id="新增特性"> 新增特性</h1>
-<ul>
-<li>
-<p><a href="./theme.html#深色模式"><strong>深色模式</strong></a></p>
-</li>
-<li>
-<p><a href="./theme.html#主题色"><strong>主题色</strong></a></p>
-</li>
-<li>
-<p><a href="./page-info.html"><strong>页面信息</strong></a></p>
-</li>
-<li>
-<p><a href="./comment.html"><strong>评论功能</strong></a></p>
-</li>
-<li>
-<p><a href="./page.html"><strong>页面增强</strong></a></p>
-</li>
-<li>
-<p><a href="./encrypt.html"><strong>加密功能</strong></a></p>
-</li>
-<li>
-<p><a href="./markdown/"><strong>Markdown 增强</strong></a></p>
-</li>
-<li>
-<p><a href="./pwa.html"><strong>PWA 支持</strong></a></p>
-</li>
-<li>
-<p><a href="./component.html"><strong>新增组件</strong></a></p>
-</li>
-<li>
-<p><a href="./feed.html"><strong>Feed 支持</strong></a></p>
-</li>
-<li>
-<p><a href="./seo-sitemap.html"><strong>Seo 和 Sitemap 支持</strong></a></p>
-</li>
-<li>
-<p><a href="./icon.html"><strong>图标支持</strong></a></p>
-</li>
-<li>
-<p><a href="./typescript.html"><strong>TypeScript 支持</strong></a></p>
-</li>
 </ul>
 ]]></content:encoded>
     </item>

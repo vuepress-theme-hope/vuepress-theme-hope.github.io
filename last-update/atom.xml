@@ -6,7 +6,7 @@
   <author>
     <name>Mr.Hope</name>
   </author>
-  <updated>2021-02-24T14:45:48.945Z</updated>
+  <updated>2021-02-24T15:40:49.568Z</updated>
   <generator>@mr-hope/vuepress-plugin-feed</generator>
   <link rel="self" href="https://vuepress-theme-hope.github.io/last-update/atom.xml"/>
   <link rel="alternate" href="https://vuepress-theme-hope.github.io/last-update/"/>
@@ -18,7 +18,7 @@
     <title type="html">Home</title>
     <id>https://vuepress-theme-hope.github.io/last-update/</id>
     <link href="https://vuepress-theme-hope.github.io/last-update/"/>
-    <updated>2021-02-24T14:44:04.000Z</updated>
+    <updated>2021-02-24T15:29:29.000Z</updated>
     <content type="html"><![CDATA[<p>This plugin will use git to inject a readable last update time and a last update time timestamp into the page.</p>
 <div><p>Why use this plugin</p>
 <p>The internationalization support of the official plugin is not good, this plugin provides better multi-language support.</p>
@@ -71,7 +71,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">主页</title>
     <id>https://vuepress-theme-hope.github.io/last-update/zh/</id>
     <link href="https://vuepress-theme-hope.github.io/last-update/zh/"/>
-    <updated>2021-02-24T14:44:04.000Z</updated>
+    <updated>2021-02-24T15:29:29.000Z</updated>
     <content type="html"><![CDATA[<p>这个插件将会利用 Git 的日志向 page 注入可阅读的最后更新时间文字与最后更新时间的时间戳。</p>
 <div><p>为什么使用本插件</p>
 <p>官方插件的国际化支持并不良好，本插件提供了更为优秀的多语言支持。</p>
