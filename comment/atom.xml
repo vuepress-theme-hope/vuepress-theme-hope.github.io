@@ -6,7 +6,7 @@
   <author>
     <name>Mr.Hope</name>
   </author>
-  <updated>2021-02-20T13:43:04.415Z</updated>
+  <updated>2021-02-24T13:53:34.685Z</updated>
   <generator>@mr-hope/vuepress-plugin-feed</generator>
   <link rel="self" href="https://vuepress-theme-hope.github.io/comment/atom.xml"/>
   <link rel="alternate" href="https://vuepress-theme-hope.github.io/comment/"/>
@@ -18,7 +18,7 @@
     <title type="html">API Config</title>
     <id>https://vuepress-theme-hope.github.io/comment/config/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/config/"/>
-    <updated>2021-02-20T13:39:58.000Z</updated>
+    <updated>2021-02-23T03:50:23.000Z</updated>
     <content type="html"><![CDATA[<h2 id="baselang"> baseLang</h2>
 <ul>
 <li>Type: <code>string</code></li>
@@ -87,7 +87,7 @@
     <title type="html">Valine Config</title>
     <id>https://vuepress-theme-hope.github.io/comment/config/valine/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/config/valine/"/>
-    <updated>2021-02-20T13:39:58.000Z</updated>
+    <updated>2021-02-23T03:50:23.000Z</updated>
     <content type="html"><![CDATA[<h1 id="valine-config"> Valine Config</h1>
 <h2 id="appid"> appId</h2>
 <ul>
@@ -211,7 +211,7 @@
     <title type="html">Vssue Options</title>
     <id>https://vuepress-theme-hope.github.io/comment/config/vssue/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/config/vssue/"/>
-    <updated>2021-02-20T13:39:58.000Z</updated>
+    <updated>2021-02-23T03:50:23.000Z</updated>
     <content type="html"><![CDATA[<h1 id="vssue-options"> Vssue Options</h1>
 <h2 id="platform"> platform</h2>
 <p><code>@vssue/vuepress-plugin-vssue</code> will auto resolve the corresponding API package according to the value of <code>platform</code>:</p>
@@ -532,7 +532,7 @@ And if you already have vue-i18n in your project, it will not affect Vssue.</p>
     <title type="html">BitBucket OAuth Consumer</title>
     <id>https://vuepress-theme-hope.github.io/comment/guide/bitbucket/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/guide/bitbucket/"/>
-    <updated>2021-02-20T13:39:58.000Z</updated>
+    <updated>2021-02-23T03:50:23.000Z</updated>
     <content type="html"><![CDATA[<h1 id="bitbucket-oauth-consumer"> BitBucket OAuth Consumer</h1>
 <h2 id="create-a-new-oauth-consumer"> Create a new OAuth Consumer</h2>
 <ul>
@@ -587,7 +587,7 @@ And if you already have vue-i18n in your project, it will not affect Vssue.</p>
     <title type="html">Gitee Third Party Application</title>
     <id>https://vuepress-theme-hope.github.io/comment/guide/gitee/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/guide/gitee/"/>
-    <updated>2021-02-20T13:39:58.000Z</updated>
+    <updated>2021-02-23T03:50:23.000Z</updated>
     <content type="html"><![CDATA[<h1 id="gitee-third-party-application"> Gitee Third Party Application</h1>
 <blockquote>
 <p>Vssue can also work with self-hosted Gitee Enterprise Version. Set the <code>baseURL</code> options to your Gitee URL.</p>
@@ -640,7 +640,7 @@ And if you already have vue-i18n in your project, it will not affect Vssue.</p>
     <title type="html">GitHub OAuth App</title>
     <id>https://vuepress-theme-hope.github.io/comment/guide/github/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/guide/github/"/>
-    <updated>2021-02-20T13:39:58.000Z</updated>
+    <updated>2021-02-23T03:50:23.000Z</updated>
     <content type="html"><![CDATA[<h1 id="github-oauth-app"> GitHub OAuth App</h1>
 <blockquote>
 <p>Vssue can also work with self-hosted GitHub Enterprise Server. Set the <code>baseURL</code> options to your GitHub URL. See <a href="./../options/#baseurl">Options Reference - baseURL</a></p>
@@ -694,7 +694,7 @@ And if you already have vue-i18n in your project, it will not affect Vssue.</p>
     <title type="html">GitLab Application</title>
     <id>https://vuepress-theme-hope.github.io/comment/guide/gitlab/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/guide/gitlab/"/>
-    <updated>2021-02-20T13:39:58.000Z</updated>
+    <updated>2021-02-23T03:50:23.000Z</updated>
     <content type="html"><![CDATA[<h1 id="gitlab-application"> GitLab Application</h1>
 <blockquote>
 <p>See <a href="https://docs.gitlab.com/ce/integration/oauth_provider.html#adding-an-application-through-the-profile" target="_blank" rel="noopener noreferrer">Gitlab official docs</a> for reference.
@@ -746,7 +746,7 @@ Vssue can also work with self-hosted GitLab. Set the <code>baseURL</code> option
     <title type="html">Page information</title>
     <id>https://vuepress-theme-hope.github.io/comment/guide/page-info/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/guide/page-info/"/>
-    <updated>2021-02-20T13:39:58.000Z</updated>
+    <updated>2021-02-23T03:50:23.000Z</updated>
     <content type="html"><![CDATA[<p>The <code>&lt;PageInfo /&gt;</code> component is enabled globally by default. You can disable it by setting <code>pageInfo: false</code> in <code>Front Matter</code> of a specific page.</p>
 <p>To keep it globally disabled, please set <code>pageInfo</code> to <code>false</code> in the plugin options. In this way you can set <code>pageInfo</code> in <code>Front Matter</code> of a specific page to enable it locally.</p>
 <h2 id="parameters"> Parameters</h2>
@@ -828,7 +828,7 @@ Vssue can also work with self-hosted GitLab. Set the <code>baseURL</code> option
     <title type="html">Guide</title>
     <id>https://vuepress-theme-hope.github.io/comment/guide/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/guide/"/>
-    <updated>2021-02-20T13:39:58.000Z</updated>
+    <updated>2021-02-23T03:50:23.000Z</updated>
     <content type="html"><![CDATA[<h1 id="guide"> Guide</h1>
 <p>This plugin exposes two components at <code>@mr-hope/vuepress-plugin-comment/&lt;component name&gt;.vue</code>. Please include it manually in your theme.</p>
 <ul>
@@ -862,7 +862,7 @@ Vssue can also work with self-hosted GitLab. Set the <code>baseURL</code> option
     <title type="html">Supported Platforms</title>
     <id>https://vuepress-theme-hope.github.io/comment/guide/supported-platforms/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/guide/supported-platforms/"/>
-    <updated>2021-02-20T13:39:58.000Z</updated>
+    <updated>2021-02-23T03:50:23.000Z</updated>
     <content type="html"><![CDATA[<h1 id="supported-platforms"> Supported Platforms</h1>
 <h2 id="github"> GitHub</h2>
 <p>Guide: <a href="./github.html">Set up GitHub OAuth App</a></p>
@@ -955,7 +955,7 @@ Vssue can also work with self-hosted GitLab. Set the <code>baseURL</code> option
     <title type="html">Valine</title>
     <id>https://vuepress-theme-hope.github.io/comment/guide/valine/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/guide/valine/"/>
-    <updated>2021-02-20T13:39:58.000Z</updated>
+    <updated>2021-02-23T03:50:23.000Z</updated>
     <content type="html"><![CDATA[<h1 id="valine"> Valine</h1>
 <p>With Valine，this plugin provides you comment and visitors function。</p>
 <h2 id="get-app-id-and-app-key"> Get APP_ID and APP_Key</h2>
@@ -984,7 +984,7 @@ Vssue can also work with self-hosted GitLab. Set the <code>baseURL</code> option
     <title type="html">Using Vssue</title>
     <id>https://vuepress-theme-hope.github.io/comment/guide/vssue/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/guide/vssue/"/>
-    <updated>2021-02-20T13:39:58.000Z</updated>
+    <updated>2021-02-23T03:50:23.000Z</updated>
     <content type="html"><![CDATA[<h1 id="using-vssue"> Using Vssue</h1>
 <h2 id="choose-a-platform-to-use"> Choose a platform to use</h2>
 <p>Vssue can enable comments for your static pages via the <code>Issue System</code> of <code>GitHub</code>, <code>Gitlab</code>, <code>Bitbucket</code> or <code>Gitee</code>, and you can choose one of those platforms.</p>
@@ -1107,7 +1107,7 @@ $vssue-direction
     <title type="html">Home</title>
     <id>https://vuepress-theme-hope.github.io/comment/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/"/>
-    <updated>2021-02-20T13:39:58.000Z</updated>
+    <updated>2021-02-23T03:50:23.000Z</updated>
     <content type="html"><![CDATA[<h2 id="install"> Install</h2>
 <div><pre><code><span>npm</span> i -D @mr-hope/vuepress-plugin-comment
 </code></pre>
@@ -1140,7 +1140,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">配置</title>
     <id>https://vuepress-theme-hope.github.io/comment/zh/config/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/zh/config/"/>
-    <updated>2021-02-20T13:39:58.000Z</updated>
+    <updated>2021-02-23T03:50:23.000Z</updated>
     <content type="html"><![CDATA[<h2 id="baselang"> baseLang</h2>
 <ul>
 <li>类型: <code>string</code></li>
@@ -1212,7 +1212,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">valine 配置</title>
     <id>https://vuepress-theme-hope.github.io/comment/zh/config/valine/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/zh/config/valine/"/>
-    <updated>2021-02-20T13:39:58.000Z</updated>
+    <updated>2021-02-23T03:50:23.000Z</updated>
     <content type="html"><![CDATA[<h1 id="valine-配置"> valine 配置</h1>
 <h2 id="appid"> appId</h2>
 <ul>
@@ -1342,7 +1342,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">Vssue 配置</title>
     <id>https://vuepress-theme-hope.github.io/comment/zh/config/vssue/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/zh/config/vssue/"/>
-    <updated>2021-02-20T13:39:58.000Z</updated>
+    <updated>2021-02-23T03:50:23.000Z</updated>
     <content type="html"><![CDATA[<h1 id="vssue-配置"> Vssue 配置</h1>
 <h2 id="platform"> platform</h2>
 <p><code>@vssue/vuepress-plugin-vssue</code> 会自动根据你设置的 <code>platform</code> 为你解析对应的 API 包:</p>
@@ -1664,7 +1664,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">BitBucket OAuth Consumer</title>
     <id>https://vuepress-theme-hope.github.io/comment/zh/guide/bitbucket/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/zh/guide/bitbucket/"/>
-    <updated>2021-02-20T13:39:58.000Z</updated>
+    <updated>2021-02-23T03:50:23.000Z</updated>
     <content type="html"><![CDATA[<h1 id="bitbucket-oauth-consumer"> BitBucket OAuth Consumer</h1>
 <h2 id="创建一个新的-oauth-consumer"> 创建一个新的 OAuth Consumer</h2>
 <ul>
@@ -1719,7 +1719,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">Gitee 第三方应用</title>
     <id>https://vuepress-theme-hope.github.io/comment/zh/guide/gitee/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/zh/guide/gitee/"/>
-    <updated>2021-02-20T13:39:58.000Z</updated>
+    <updated>2021-02-23T03:50:23.000Z</updated>
     <content type="html"><![CDATA[<h1 id="gitee-第三方应用"> Gitee 第三方应用</h1>
 <blockquote>
 <p>Vssue 同样可以配合自己搭建的 Gitee 企业版 使用。只需要将 <code>baseURL</code> 设置为你的 Gitee URL 即可。查看 <a href="./../options/#baseurl">配置参考 - baseURL</a></p>
@@ -1772,7 +1772,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">GitHub OAuth App</title>
     <id>https://vuepress-theme-hope.github.io/comment/zh/guide/github/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/zh/guide/github/"/>
-    <updated>2021-02-20T13:39:58.000Z</updated>
+    <updated>2021-02-23T03:50:23.000Z</updated>
     <content type="html"><![CDATA[<h1 id="github-oauth-app"> GitHub OAuth App</h1>
 <blockquote>
 <p>Vssue 同样可以配合自己搭建的 GitHub Enterprise Server 使用。只需要将 <code>baseURL</code> 设置为你的 GitHub URL 即可。查看 <a href="./../options/#baseurl">配置参考 - baseURL</a></p>
@@ -1826,7 +1826,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">GitLab Application</title>
     <id>https://vuepress-theme-hope.github.io/comment/zh/guide/gitlab/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/zh/guide/gitlab/"/>
-    <updated>2021-02-20T13:39:58.000Z</updated>
+    <updated>2021-02-23T03:50:23.000Z</updated>
     <content type="html"><![CDATA[<h1 id="gitlab-application"> GitLab Application</h1>
 <blockquote>
 <p>查看 <a href="https://docs.gitlab.com/ce/integration/oauth_provider.html#adding-an-application-through-the-profile" target="_blank" rel="noopener noreferrer">Gitlab 官方文档</a> 作为参考。
@@ -1878,7 +1878,7 @@ Vssue 同样可以配合自己搭建的 GitLab 使用。只需要将 <code>baseU
     <title type="html">页面信息</title>
     <id>https://vuepress-theme-hope.github.io/comment/zh/guide/page-info/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/zh/guide/page-info/"/>
-    <updated>2021-02-20T13:39:58.000Z</updated>
+    <updated>2021-02-23T03:50:23.000Z</updated>
     <content type="html"><![CDATA[<p><code>&lt;PageInfo /&gt;</code> 组件默认全局启用。你可以在特定页面的 <code>Front Matter</code> 中设置 <code>pageInfo: false</code> 来局部禁用它。</p>
 <p>如果你需要保持全局禁用，请在插件选项中设置 <code>pageInfo</code> 为 <code>false</code>。这样你可以在特定页面的 <code>Front Matter</code> 中设置 <code>pageInfo</code> 来局部启用它。</p>
 <h2 id="参数"> 参数</h2>
@@ -1960,7 +1960,7 @@ Vssue 同样可以配合自己搭建的 GitLab 使用。只需要将 <code>baseU
     <title type="html">指南</title>
     <id>https://vuepress-theme-hope.github.io/comment/zh/guide/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/zh/guide/"/>
-    <updated>2021-02-20T13:39:58.000Z</updated>
+    <updated>2021-02-23T03:50:23.000Z</updated>
     <content type="html"><![CDATA[<p>此插件暴露两个组件，路径为 <code>@mr-hope/vuepress-plugin-comment/&lt;组件名&gt;.vue</code>。请在你的主题中手动引入。</p>
 <ul>
 <li><code>&lt;Comment /&gt;</code>: 评论组件</li>
@@ -1993,7 +1993,7 @@ Vssue 同样可以配合自己搭建的 GitLab 使用。只需要将 <code>baseU
     <title type="html">支持的代码托管平台</title>
     <id>https://vuepress-theme-hope.github.io/comment/zh/guide/supported-platforms/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/zh/guide/supported-platforms/"/>
-    <updated>2021-02-20T13:39:58.000Z</updated>
+    <updated>2021-02-23T03:50:23.000Z</updated>
     <content type="html"><![CDATA[<h1 id="支持的代码托管平台"> 支持的代码托管平台</h1>
 <h2 id="github"> GitHub</h2>
 <p>指南: <a href="./github.html">创建 GitHub OAuth App</a></p>
@@ -2086,7 +2086,7 @@ Vssue 同样可以配合自己搭建的 GitLab 使用。只需要将 <code>baseU
     <title type="html">Valine</title>
     <id>https://vuepress-theme-hope.github.io/comment/zh/guide/valine/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/zh/guide/valine/"/>
-    <updated>2021-02-20T13:39:58.000Z</updated>
+    <updated>2021-02-23T03:50:23.000Z</updated>
     <content type="html"><![CDATA[<h1 id="valine"> Valine</h1>
 <p>借助 Valine，插件实现了无后端开启阅读量展示与评论功能。</p>
 <h2 id="获取-app-id-和-app-key"> 获取 APP ID 和 APP Key</h2>
@@ -2116,7 +2116,7 @@ Vssue 同样可以配合自己搭建的 GitLab 使用。只需要将 <code>baseU
     <title type="html">使用 Vssue</title>
     <id>https://vuepress-theme-hope.github.io/comment/zh/guide/vssue/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/zh/guide/vssue/"/>
-    <updated>2021-02-20T13:39:58.000Z</updated>
+    <updated>2021-02-23T03:50:23.000Z</updated>
     <content type="html"><![CDATA[<h1 id="使用-vssue"> 使用 Vssue</h1>
 <h2 id="选择你要使用的代码托管平台"> 选择你要使用的代码托管平台</h2>
 <p>Vssue 支持通过 GitHub, Gitlab, Bitbucket 或者 Gitee 的 Issue 系统来为你的静态页面提供评论功能，你可以选择其中之一来使用。</p>
@@ -2238,7 +2238,7 @@ $vssue-direction
     <title type="html">主页</title>
     <id>https://vuepress-theme-hope.github.io/comment/zh/</id>
     <link href="https://vuepress-theme-hope.github.io/comment/zh/"/>
-    <updated>2021-02-20T13:39:58.000Z</updated>
+    <updated>2021-02-23T03:50:23.000Z</updated>
     <content type="html"><![CDATA[<h2 id="安装"> 安装</h2>
 <div><pre><code><span>npm</span> i -D @mr-hope/vuepress-plugin-comment
 </code></pre>
