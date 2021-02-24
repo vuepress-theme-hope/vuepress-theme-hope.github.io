@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/photo-swipe/</link>
     <description>Photo swipe Plugin for VuePress</description>
     <language>en-US</language>
-    <pubDate>Wed, 24 Feb 2021 15:40:49 GMT</pubDate>
-    <lastBuildDate>Wed, 24 Feb 2021 15:40:49 GMT</lastBuildDate>
+    <pubDate>Wed, 24 Feb 2021 15:44:14 GMT</pubDate>
+    <lastBuildDate>Wed, 24 Feb 2021 15:44:14 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -52,9 +52,17 @@
       <content:encoded><![CDATA[<p>Let your images support preview, zoom, share, swipe view and download.</p>
 <h2 id="how-to-use"> How to use</h2>
 <h3 id="install"> Install</h3>
+<CodeGroup>
+<CodeGroupItem title="yarn">
+<div><pre><code><span>yarn</span> <span>add</span> -D vuepress-plugin-photo-swipe
+</code></pre>
+<div><span>1</span><br></div></div></CodeGroupItem>
+<CodeGroupItem title="npm">
 <div><pre><code><span>npm</span> i -D vuepress-plugin-photo-swipe
 </code></pre>
-<div><span>1</span><br></div></div><h3 id="usage"> Usage</h3>
+<div><span>1</span><br></div></div></CodeGroupItem>
+</CodeGroup>
+<h3 id="usage"> Usage</h3>
 <div><pre><code><span>// .vuepress/config.js</span>
 module<span>.</span>exports <span>=</span> <span>{</span>
   plugins<span>:</span> <span>[</span><span>"photo-swipe"</span><span>]</span><span>,</span>
@@ -103,9 +111,17 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <content:encoded><![CDATA[<p>让您的图像支持预览，缩放，共享，滑动查看和下载。</p>
 <h2 id="使用插件"> 使用插件</h2>
 <h3 id="安装"> 安装</h3>
+<CodeGroup>
+<CodeGroupItem title="yarn">
+<div><pre><code><span>yarn</span> <span>add</span> -D vuepress-plugin-photo-swipe
+</code></pre>
+<div><span>1</span><br></div></div></CodeGroupItem>
+<CodeGroupItem title="npm">
 <div><pre><code><span>npm</span> i -D vuepress-plugin-photo-swipe
 </code></pre>
-<div><span>1</span><br></div></div><h3 id="使用"> 使用</h3>
+<div><span>1</span><br></div></div></CodeGroupItem>
+</CodeGroup>
+<h3 id="使用"> 使用</h3>
 <div><pre><code><span>// .vuepress/config.js</span>
 module<span>.</span>exports <span>=</span> <span>{</span>
   plugins<span>:</span> <span>[</span><span>"photo-swipe"</span><span>]</span><span>,</span>

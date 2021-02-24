@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/md-enhance/</link>
     <description>Markdown Enhancement for VuePress</description>
     <language>en-US</language>
-    <pubDate>Wed, 24 Feb 2021 15:40:49 GMT</pubDate>
-    <lastBuildDate>Wed, 24 Feb 2021 15:40:49 GMT</lastBuildDate>
+    <pubDate>Wed, 24 Feb 2021 15:44:14 GMT</pubDate>
+    <lastBuildDate>Wed, 24 Feb 2021 15:44:14 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -1609,12 +1609,17 @@ $$
       <guid>https://vuepress-theme-hope.github.io/md-enhance/</guid>
       <source url="https://vuepress-theme-hope.github.io/md-enhance/rss.xml">Home</source>
       <content:encoded><![CDATA[<h3 id="install"> Install</h3>
-<div><pre><code><span>npm</span> i -D vuepress-plugin-md-enhance
-</code></pre>
-<div><span>1</span><br></div></div><p>Or</p>
+<CodeGroup>
+<CodeGroupItem title="yarn">
 <div><pre><code><span>yarn</span> <span>add</span> -D vuepress-plugin-md-enhance
 </code></pre>
-<div><span>1</span><br></div></div><h3 id="usage"> Usage</h3>
+<div><span>1</span><br></div></div></CodeGroupItem>
+<CodeGroupItem title="npm">
+<div><pre><code><span>npm</span> i -D vuepress-plugin-md-enhance
+</code></pre>
+<div><span>1</span><br></div></div></CodeGroupItem>
+</CodeGroup>
+<h3 id="usage"> Usage</h3>
 <div><pre><code><span>// .vuepress/config.js</span>
 module<span>.</span>exports <span>=</span> <span>{</span>
   plugins<span>:</span> <span>[</span>
@@ -3226,12 +3231,17 @@ $$
       <source url="https://vuepress-theme-hope.github.io/md-enhance/rss.xml">主页</source>
       <content:encoded><![CDATA[<h2 id="使用插件"> 使用插件</h2>
 <h3 id="安装"> 安装</h3>
-<div><pre><code><span>npm</span> i -D vuepress-plugin-md-enhance
-</code></pre>
-<div><span>1</span><br></div></div><p>或</p>
+<CodeGroup>
+<CodeGroupItem title="yarn">
 <div><pre><code><span>yarn</span> <span>add</span> -D vuepress-plugin-md-enhance
 </code></pre>
-<div><span>1</span><br></div></div><h3 id="使用"> 使用</h3>
+<div><span>1</span><br></div></div></CodeGroupItem>
+<CodeGroupItem title="npm">
+<div><pre><code><span>npm</span> i -D vuepress-plugin-md-enhance
+</code></pre>
+<div><span>1</span><br></div></div></CodeGroupItem>
+</CodeGroup>
+<h3 id="使用"> 使用</h3>
 <div><pre><code><span>// .vuepress/config.js</span>
 module<span>.</span>exports <span>=</span> <span>{</span>
   plugins<span>:</span> <span>[</span>
