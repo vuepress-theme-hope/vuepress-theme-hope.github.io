@@ -6,7 +6,7 @@
   <author>
     <name>Mr.Hope</name>
   </author>
-  <updated>2021-02-24T17:08:32.640Z</updated>
+  <updated>2021-02-24T17:12:13.762Z</updated>
   <generator>@mr-hope/vuepress-plugin-feed</generator>
   <link rel="self" href="https://vuepress-theme-hope.github.io/md-enhance/atom.xml"/>
   <link rel="alternate" href="https://vuepress-theme-hope.github.io/md-enhance/"/>
@@ -19,7 +19,7 @@
     <title type="html">Config</title>
     <id>https://vuepress-theme-hope.github.io/md-enhance/config/</id>
     <link href="https://vuepress-theme-hope.github.io/md-enhance/config/"/>
-    <updated>2021-02-24T17:07:12.000Z</updated>
+    <updated>2021-02-24T17:10:59.000Z</updated>
     <content type="html"><![CDATA[<p>You can pass these options to the plugin:</p>
 <h2 id="baselang"> baseLang</h2>
 <ul>
@@ -187,7 +187,7 @@
     <title type="html">Custom alignment</title>
     <id>https://vuepress-theme-hope.github.io/md-enhance/guide/align/</id>
     <link href="https://vuepress-theme-hope.github.io/md-enhance/guide/align/"/>
-    <updated>2021-02-24T17:07:12.000Z</updated>
+    <updated>2021-02-24T17:10:59.000Z</updated>
     <summary type="html"><![CDATA[<p>By injecting configuration into vuepress-plugin-container, you can use</p>
 <div><pre><code>::: center
 Paragraph to center
@@ -330,7 +330,7 @@ A custom details container
     <title type="html">Code Demo</title>
     <id>https://vuepress-theme-hope.github.io/md-enhance/guide/demo/</id>
     <link href="https://vuepress-theme-hope.github.io/md-enhance/guide/demo/"/>
-    <updated>2021-02-24T17:07:12.000Z</updated>
+    <updated>2021-02-24T17:10:59.000Z</updated>
     <summary type="html"><![CDATA[<p>Let you insert code demos in your Markdown file.</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>Let you insert code demos in your Markdown file.</p>
@@ -759,7 +759,7 @@ document<span>.</span><span>querySelector</span><span>(</span><span>"h1"</span><
     <title type="html">Flowchart</title>
     <id>https://vuepress-theme-hope.github.io/md-enhance/guide/flowchart/</id>
     <link href="https://vuepress-theme-hope.github.io/md-enhance/guide/flowchart/"/>
-    <updated>2021-02-24T17:07:12.000Z</updated>
+    <updated>2021-02-24T17:10:59.000Z</updated>
     <summary type="html"><![CDATA[<p>Let the Markdown file support flow chart in your VuePress site</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>Let the Markdown file support flow chart in your VuePress site</p>
@@ -981,7 +981,7 @@ e=>end: End:>http://www.yahoo.com
     <title type="html">Footnote</title>
     <id>https://vuepress-theme-hope.github.io/md-enhance/guide/footnote/</id>
     <link href="https://vuepress-theme-hope.github.io/md-enhance/guide/footnote/"/>
-    <updated>2021-02-24T17:07:12.000Z</updated>
+    <updated>2021-02-24T17:10:59.000Z</updated>
     <summary type="html"><![CDATA[<p>Let the Markdown file in your VuePress site support footnotes.</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>Let the Markdown file in your VuePress site support footnotes.</p>
@@ -1055,7 +1055,7 @@ Duplicated footnote reference[^second].
     <title type="html">Markup</title>
     <id>https://vuepress-theme-hope.github.io/md-enhance/guide/mark/</id>
     <link href="https://vuepress-theme-hope.github.io/md-enhance/guide/mark/"/>
-    <updated>2021-02-24T17:07:12.000Z</updated>
+    <updated>2021-02-24T17:10:59.000Z</updated>
     <summary type="html"><![CDATA[<p>Make Markdown files in your VuePress site support markup.</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>Make Markdown files in your VuePress site support markup.</p>
@@ -1091,7 +1091,7 @@ Duplicated footnote reference[^second].
     <title type="html">Demo</title>
     <id>https://vuepress-theme-hope.github.io/md-enhance/guide/presentation/demo/</id>
     <link href="https://vuepress-theme-hope.github.io/md-enhance/guide/presentation/demo/"/>
-    <updated>2021-02-24T17:07:12.000Z</updated>
+    <updated>2021-02-24T17:10:59.000Z</updated>
     <content type="html"><![CDATA[
 <i>Not supported content</i>]]></content>
     <author>
@@ -1106,7 +1106,7 @@ Duplicated footnote reference[^second].
     <title type="html">Presentation</title>
     <id>https://vuepress-theme-hope.github.io/md-enhance/guide/presentation/</id>
     <link href="https://vuepress-theme-hope.github.io/md-enhance/guide/presentation/"/>
-    <updated>2021-02-24T17:07:12.000Z</updated>
+    <updated>2021-02-24T17:10:59.000Z</updated>
     <content type="html"><![CDATA[<p>Let the Markdown file in your VuePress site support presentation.</p>
 <h2 id="configuration"> Configuration</h2>
 <div><div><br><br><br><br><br><br><div>&nbsp;</div><br><br><br><br><br></div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
@@ -1191,7 +1191,7 @@ Duplicated footnote reference[^second].
     <title type="html">Themes</title>
     <id>https://vuepress-theme-hope.github.io/md-enhance/guide/presentation/themes/</id>
     <link href="https://vuepress-theme-hope.github.io/md-enhance/guide/presentation/themes/"/>
-    <updated>2021-02-24T17:07:12.000Z</updated>
+    <updated>2021-02-24T17:10:59.000Z</updated>
     <content type="html"><![CDATA[
 <p>Theme available:</p>
 <ul>
@@ -1235,7 +1235,7 @@ Duplicated footnote reference[^second].
     <title type="html">Get Started</title>
     <id>https://vuepress-theme-hope.github.io/md-enhance/guide/</id>
     <link href="https://vuepress-theme-hope.github.io/md-enhance/guide/"/>
-    <updated>2021-02-24T17:07:12.000Z</updated>
+    <updated>2021-02-24T17:10:59.000Z</updated>
     <content type="html"><![CDATA[<p>By installing and enableing this plugin, you can use more syntax in your Markdown files.</p>
 <div><p>Tips</p>
 <p>Don’t worry about the size of your site. If you don’t enable related features, the final code won’t include code for these features.</p>
@@ -1350,7 +1350,7 @@ Duplicated footnote reference[^second].
     <title type="html">Superscript and Subscript</title>
     <id>https://vuepress-theme-hope.github.io/md-enhance/guide/sup-sub/</id>
     <link href="https://vuepress-theme-hope.github.io/md-enhance/guide/sup-sub/"/>
-    <updated>2021-02-24T17:07:12.000Z</updated>
+    <updated>2021-02-24T17:10:59.000Z</updated>
     <summary type="html"><![CDATA[<p>Let the Markdown file in your VuePress site support Subscript and Superscript.</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>Let the Markdown file in your VuePress site support Subscript and Superscript.</p>
@@ -1395,7 +1395,7 @@ Duplicated footnote reference[^second].
     <title type="html">Tex</title>
     <id>https://vuepress-theme-hope.github.io/md-enhance/guide/tex/</id>
     <link href="https://vuepress-theme-hope.github.io/md-enhance/guide/tex/"/>
-    <updated>2021-02-24T17:07:12.000Z</updated>
+    <updated>2021-02-24T17:10:59.000Z</updated>
     <summary type="html"><![CDATA[<p>Let the Markdown file in your VuePress site support the <span><span><i>Not supported content</i></span><span aria-hidden="true"><span><span style="height:0.89883em;vertical-align:-0.2155em;"></span><span><span>T</span><span style="margin-right:-0.1667em;"></span><span><span><span style="height:0.46782999999999997em;"><span style="top:-2.7845em;"><span style="height:3em;"></span><span><span>E</span></span></span></span><span>​</span></span><span><span style="height:0.2155em;"><span></span></span></span></span><span style="margin-right:-0.125em;"></span><span>X</span></span></span></span></span> syntax.</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>Let the Markdown file in your VuePress site support the <span><span><i>Not supported content</i></span><span aria-hidden="true"><span><span style="height:0.89883em;vertical-align:-0.2155em;"></span><span><span>T</span><span style="margin-right:-0.1667em;"></span><span><span><span style="height:0.46782999999999997em;"><span style="top:-2.7845em;"><span style="height:3em;"></span><span><span>E</span></span></span></span><span>​</span></span><span><span style="height:0.2155em;"><span></span></span></span></span><span style="margin-right:-0.125em;"></span><span>X</span></span></span></span></span> syntax.</p>
@@ -1693,7 +1693,7 @@ $$
     <title type="html">Home</title>
     <id>https://vuepress-theme-hope.github.io/md-enhance/</id>
     <link href="https://vuepress-theme-hope.github.io/md-enhance/"/>
-    <updated>2021-02-24T17:07:12.000Z</updated>
+    <updated>2021-02-24T17:10:59.000Z</updated>
     <content type="html"><![CDATA[<h3 id="install"> Install</h3>
 <CodeGroup>
 <CodeGroupItem title="yarn">
@@ -1731,7 +1731,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">配置</title>
     <id>https://vuepress-theme-hope.github.io/md-enhance/zh/config/</id>
     <link href="https://vuepress-theme-hope.github.io/md-enhance/zh/config/"/>
-    <updated>2021-02-24T17:07:12.000Z</updated>
+    <updated>2021-02-24T17:10:59.000Z</updated>
     <content type="html"><![CDATA[<p>你可以传递以下选项来启用或禁用一些功能</p>
 <h2 id="baselang"> baseLang</h2>
 <ul>
@@ -1900,7 +1900,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">自定义对齐</title>
     <id>https://vuepress-theme-hope.github.io/md-enhance/zh/guide/align/</id>
     <link href="https://vuepress-theme-hope.github.io/md-enhance/zh/guide/align/"/>
-    <updated>2021-02-24T17:07:12.000Z</updated>
+    <updated>2021-02-24T17:10:59.000Z</updated>
     <summary type="html"><![CDATA[<p>通过对 <code>vuepress-plugin-container</code> 进行额外的配置注入，你可以使用</p>
 <div><pre><code>::: center
 要居中的段落
@@ -2044,7 +2044,7 @@ vuepress-theme-hope v2 仍在制作中，API 可能会有
     <title type="html">代码演示</title>
     <id>https://vuepress-theme-hope.github.io/md-enhance/zh/guide/demo/</id>
     <link href="https://vuepress-theme-hope.github.io/md-enhance/zh/guide/demo/"/>
-    <updated>2021-02-24T17:07:12.000Z</updated>
+    <updated>2021-02-24T17:10:59.000Z</updated>
     <summary type="html"><![CDATA[<p>让你的 VuePress 站点中的 Markdown 文件支持代码案例。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>让你的 VuePress 站点中的 Markdown 文件支持代码案例。</p>
@@ -2473,7 +2473,7 @@ document<span>.</span><span>querySelector</span><span>(</span><span>"h1"</span><
     <title type="html">流程图</title>
     <id>https://vuepress-theme-hope.github.io/md-enhance/zh/guide/flowchart/</id>
     <link href="https://vuepress-theme-hope.github.io/md-enhance/zh/guide/flowchart/"/>
-    <updated>2021-02-24T17:07:12.000Z</updated>
+    <updated>2021-02-24T17:10:59.000Z</updated>
     <summary type="html"><![CDATA[<p>让你的 VuePress 站点中的 Markdown 文件支持流程图。</p>
 <p>本插件利用了 <a href="https://github.com/adrai/flowchart.js" target="_blank" rel="noopener noreferrer">flowchart.js</a> 来支持这一功能。</p>
 ]]></summary>
@@ -2689,7 +2689,7 @@ e=>end: End:>http://www.yahoo.com
     <title type="html">脚注</title>
     <id>https://vuepress-theme-hope.github.io/md-enhance/zh/guide/footnote/</id>
     <link href="https://vuepress-theme-hope.github.io/md-enhance/zh/guide/footnote/"/>
-    <updated>2021-02-24T17:07:12.000Z</updated>
+    <updated>2021-02-24T17:10:59.000Z</updated>
     <summary type="html"><![CDATA[<p>让你的 VuePress 站点中的 Markdown 文件支持脚注。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>让你的 VuePress 站点中的 Markdown 文件支持脚注。</p>
@@ -2762,7 +2762,7 @@ e=>end: End:>http://www.yahoo.com
     <title type="html">标记</title>
     <id>https://vuepress-theme-hope.github.io/md-enhance/zh/guide/mark/</id>
     <link href="https://vuepress-theme-hope.github.io/md-enhance/zh/guide/mark/"/>
-    <updated>2021-02-24T17:07:12.000Z</updated>
+    <updated>2021-02-24T17:10:59.000Z</updated>
     <summary type="html"><![CDATA[<p>让你的 VuePress 站点中的 Markdown 文件支持标记。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>让你的 VuePress 站点中的 Markdown 文件支持标记。</p>
@@ -2798,7 +2798,7 @@ e=>end: End:>http://www.yahoo.com
     <title type="html">幻灯片演示</title>
     <id>https://vuepress-theme-hope.github.io/md-enhance/zh/guide/presentation/demo/</id>
     <link href="https://vuepress-theme-hope.github.io/md-enhance/zh/guide/presentation/demo/"/>
-    <updated>2021-02-24T17:07:12.000Z</updated>
+    <updated>2021-02-24T17:10:59.000Z</updated>
     <content type="html"><![CDATA[
 <i>Not supported content</i>]]></content>
     <author>
@@ -2813,7 +2813,7 @@ e=>end: End:>http://www.yahoo.com
     <title type="html">幻灯片支持</title>
     <id>https://vuepress-theme-hope.github.io/md-enhance/zh/guide/presentation/</id>
     <link href="https://vuepress-theme-hope.github.io/md-enhance/zh/guide/presentation/"/>
-    <updated>2021-02-24T17:07:12.000Z</updated>
+    <updated>2021-02-24T17:10:59.000Z</updated>
     <summary type="html"><![CDATA[<p>让你的 VuePress 站点中的 Markdown 文件支持幻灯片。</p>
 <p>本插件利用了 <a href="https://revealjs.com/" target="_blank" rel="noopener noreferrer">reveal.js</a> 来支持这一功能。</p>
 ]]></summary>
@@ -2903,7 +2903,7 @@ e=>end: End:>http://www.yahoo.com
     <title type="html">幻灯片主题</title>
     <id>https://vuepress-theme-hope.github.io/md-enhance/zh/guide/presentation/themes/</id>
     <link href="https://vuepress-theme-hope.github.io/md-enhance/zh/guide/presentation/themes/"/>
-    <updated>2021-02-24T17:07:12.000Z</updated>
+    <updated>2021-02-24T17:10:59.000Z</updated>
     <content type="html"><![CDATA[
 <p>可用的主题:</p>
 <ul>
@@ -2947,7 +2947,7 @@ e=>end: End:>http://www.yahoo.com
     <title type="html">快速上手</title>
     <id>https://vuepress-theme-hope.github.io/md-enhance/zh/guide/</id>
     <link href="https://vuepress-theme-hope.github.io/md-enhance/zh/guide/"/>
-    <updated>2021-02-24T17:07:12.000Z</updated>
+    <updated>2021-02-24T17:10:59.000Z</updated>
     <content type="html"><![CDATA[<p>通过安装并启用此插件，你可以在 Markdown 中使用更多的语法。</p>
 <div><p>Tips</p>
 <p>请不用担心你的网站大小，如果你不启用相关功能，最终代码不会包含这些功能相关的代码。</p>
@@ -3061,7 +3061,7 @@ e=>end: End:>http://www.yahoo.com
     <title type="html">上下角标</title>
     <id>https://vuepress-theme-hope.github.io/md-enhance/zh/guide/sup-sub/</id>
     <link href="https://vuepress-theme-hope.github.io/md-enhance/zh/guide/sup-sub/"/>
-    <updated>2021-02-24T17:07:12.000Z</updated>
+    <updated>2021-02-24T17:10:59.000Z</updated>
     <summary type="html"><![CDATA[<p>让你的 VuePress 站点中的 Markdown 文件支持上下角标。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>让你的 VuePress 站点中的 Markdown 文件支持上下角标。</p>
@@ -3106,7 +3106,7 @@ e=>end: End:>http://www.yahoo.com
     <title type="html">Tex 语法</title>
     <id>https://vuepress-theme-hope.github.io/md-enhance/zh/guide/tex/</id>
     <link href="https://vuepress-theme-hope.github.io/md-enhance/zh/guide/tex/"/>
-    <updated>2021-02-24T17:07:12.000Z</updated>
+    <updated>2021-02-24T17:10:59.000Z</updated>
     <summary type="html"><![CDATA[<p>让你的 VuePress 站点中的 Markdown 文件支持 <span><span><i>Not supported content</i></span><span aria-hidden="true"><span><span style="height:0.89883em;vertical-align:-0.2155em;"></span><span><span>T</span><span style="margin-right:-0.1667em;"></span><span><span><span style="height:0.46782999999999997em;"><span style="top:-2.7845em;"><span style="height:3em;"></span><span><span>E</span></span></span></span><span>​</span></span><span><span style="height:0.2155em;"><span></span></span></span></span><span style="margin-right:-0.125em;"></span><span>X</span></span></span></span></span> 语法。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>让你的 VuePress 站点中的 Markdown 文件支持 <span><span><i>Not supported content</i></span><span aria-hidden="true"><span><span style="height:0.89883em;vertical-align:-0.2155em;"></span><span><span>T</span><span style="margin-right:-0.1667em;"></span><span><span><span style="height:0.46782999999999997em;"><span style="top:-2.7845em;"><span style="height:3em;"></span><span><span>E</span></span></span></span><span>​</span></span><span><span style="height:0.2155em;"><span></span></span></span></span><span style="margin-right:-0.125em;"></span><span>X</span></span></span></span></span> 语法。</p>
@@ -3404,7 +3404,7 @@ $$
     <title type="html">主页</title>
     <id>https://vuepress-theme-hope.github.io/md-enhance/zh/</id>
     <link href="https://vuepress-theme-hope.github.io/md-enhance/zh/"/>
-    <updated>2021-02-24T17:07:12.000Z</updated>
+    <updated>2021-02-24T17:10:59.000Z</updated>
     <content type="html"><![CDATA[<h2 id="使用插件"> 使用插件</h2>
 <h3 id="安装"> 安装</h3>
 <CodeGroup>
