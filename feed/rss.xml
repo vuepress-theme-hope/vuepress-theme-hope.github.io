@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/feed/</link>
     <description>Feed Plugin for vuepress</description>
     <language>en-US</language>
-    <pubDate>Wed, 24 Feb 2021 16:03:31 GMT</pubDate>
-    <lastBuildDate>Wed, 24 Feb 2021 16:03:31 GMT</lastBuildDate>
+    <pubDate>Wed, 24 Feb 2021 16:06:28 GMT</pubDate>
+    <lastBuildDate>Wed, 24 Feb 2021 16:06:28 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -135,89 +135,6 @@
 <p>For details, see <a href="https://w3c.github.io/websub/#subscription-migration" target="_blank" rel="noopener noreferrer">Websub</a>.</p>
 </div>
 </details>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Plugin Config</title>
-      <link>https://vuepress-theme-hope.github.io/feed/config/</link>
-      <guid>https://vuepress-theme-hope.github.io/feed/config/</guid>
-      <source url="https://vuepress-theme-hope.github.io/feed/rss.xml">Plugin Config</source>
-      <content:encoded><![CDATA[<h2 id="hostname"> hostname</h2>
-<ul>
-<li>Type: <code>string</code></li>
-<li>Required: Yes</li>
-</ul>
-<p>The domain name of the deployment website.</p>
-<h2 id="baselang"> baseLang</h2>
-<ul>
-<li>Type: <code>string</code></li>
-<li>Default: <code>'en-US'</code></li>
-</ul>
-<p>The language of the home directory.</p>
-<h2 id="channel"> channel</h2>
-<p><code>channel</code> option is used to config <em>Feed Channels</em>.</p>
-<p>For available options, please see <a href="./channel.html">Config → Channel</a></p>
-<h2 id="filter"> filter</h2>
-<ul>
-<li>Type: <code>(pageA: Page)=&gt; boolean</code></li>
-<li>Default: All feed items</li>
-</ul>
-<p>A custom filter funciton, used to filter feed items.</p>
-<h2 id="sort"> sort</h2>
-<ul>
-<li>Type: <code>(pageA: Page, pageB: page)=&gt; number</code></li>
-</ul>
-<p>A custom sort function, used to sort feed items.</p>
-<p>The final feed items will be the same squence.</p>
-<div><p>Note</p>
-<p>We strongly recommend you to set this option, otherwise the order of items in the feed stream is completely determined by the order of pages output by vuepress.</p>
-<p>You can sort the pages in the site according to your needs.</p>
-</div>
-<h2 id="count"> count</h2>
-<ul>
-<li>Type: <code>number</code></li>
-<li>Default: All feed items count</li>
-</ul>
-<p>设置 feed 的最大项目数量。设置后会在所有页面排序好后，截取前 count 个项目。</p>
-<p>如果你的站点文章很多，你可能需要考虑设置这个选项以减少 feed 文件大小。</p>
-<h2 id="output"> output</h2>
-<p>Feed output configuration</p>
-<h3 id="output-atom-enable"> output.atom.enable</h3>
-<ul>
-<li>Type: <code>boolean</code></li>
-<li>Default: <code>true</code></li>
-</ul>
-<p>Whether enable Atom output</p>
-<h3 id="output-atom-path"> output.atom.path</h3>
-<ul>
-<li>Type: <code>string</code></li>
-<li>Default: <code>atom.xml</code></li>
-</ul>
-<p>Atom Feed output location</p>
-<h3 id="output-json-enable"> output.json.enable</h3>
-<ul>
-<li>Type: <code>boolean</code></li>
-<li>Default: <code>true</code></li>
-</ul>
-<p>Whether enable JSON output</p>
-<h3 id="output-json-path"> output.json.path</h3>
-<ul>
-<li>Type: <code>string</code></li>
-<li>Default: <code>feed.json</code></li>
-</ul>
-<p>JSON Feed output location</p>
-<h3 id="output-rss-enable"> output.rss.enable</h3>
-<ul>
-<li>Type: <code>boolean</code></li>
-<li>Default: <code>true</code></li>
-</ul>
-<p>Whether enable RSS output</p>
-<h3 id="output-rss-path"> output.rss.path</h3>
-<ul>
-<li>Type: <code>string</code></li>
-<li>Default: <code>rss.xml</code></li>
-</ul>
-<p>RSS Feed output location</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -511,6 +428,89 @@
 </ul>
 </li>
 </ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Plugin Config</title>
+      <link>https://vuepress-theme-hope.github.io/feed/config/</link>
+      <guid>https://vuepress-theme-hope.github.io/feed/config/</guid>
+      <source url="https://vuepress-theme-hope.github.io/feed/rss.xml">Plugin Config</source>
+      <content:encoded><![CDATA[<h2 id="hostname"> hostname</h2>
+<ul>
+<li>Type: <code>string</code></li>
+<li>Required: Yes</li>
+</ul>
+<p>The domain name of the deployment website.</p>
+<h2 id="baselang"> baseLang</h2>
+<ul>
+<li>Type: <code>string</code></li>
+<li>Default: <code>'en-US'</code></li>
+</ul>
+<p>The language of the home directory.</p>
+<h2 id="channel"> channel</h2>
+<p><code>channel</code> option is used to config <em>Feed Channels</em>.</p>
+<p>For available options, please see <a href="./channel.html">Config → Channel</a></p>
+<h2 id="filter"> filter</h2>
+<ul>
+<li>Type: <code>(pageA: Page)=&gt; boolean</code></li>
+<li>Default: All feed items</li>
+</ul>
+<p>A custom filter funciton, used to filter feed items.</p>
+<h2 id="sort"> sort</h2>
+<ul>
+<li>Type: <code>(pageA: Page, pageB: page)=&gt; number</code></li>
+</ul>
+<p>A custom sort function, used to sort feed items.</p>
+<p>The final feed items will be the same squence.</p>
+<div><p>Note</p>
+<p>We strongly recommend you to set this option, otherwise the order of items in the feed stream is completely determined by the order of pages output by vuepress.</p>
+<p>You can sort the pages in the site according to your needs.</p>
+</div>
+<h2 id="count"> count</h2>
+<ul>
+<li>Type: <code>number</code></li>
+<li>Default: All feed items count</li>
+</ul>
+<p>设置 feed 的最大项目数量。设置后会在所有页面排序好后，截取前 count 个项目。</p>
+<p>如果你的站点文章很多，你可能需要考虑设置这个选项以减少 feed 文件大小。</p>
+<h2 id="output"> output</h2>
+<p>Feed output configuration</p>
+<h3 id="output-atom-enable"> output.atom.enable</h3>
+<ul>
+<li>Type: <code>boolean</code></li>
+<li>Default: <code>true</code></li>
+</ul>
+<p>Whether enable Atom output</p>
+<h3 id="output-atom-path"> output.atom.path</h3>
+<ul>
+<li>Type: <code>string</code></li>
+<li>Default: <code>atom.xml</code></li>
+</ul>
+<p>Atom Feed output location</p>
+<h3 id="output-json-enable"> output.json.enable</h3>
+<ul>
+<li>Type: <code>boolean</code></li>
+<li>Default: <code>true</code></li>
+</ul>
+<p>Whether enable JSON output</p>
+<h3 id="output-json-path"> output.json.path</h3>
+<ul>
+<li>Type: <code>string</code></li>
+<li>Default: <code>feed.json</code></li>
+</ul>
+<p>JSON Feed output location</p>
+<h3 id="output-rss-enable"> output.rss.enable</h3>
+<ul>
+<li>Type: <code>boolean</code></li>
+<li>Default: <code>true</code></li>
+</ul>
+<p>Whether enable RSS output</p>
+<h3 id="output-rss-path"> output.rss.path</h3>
+<ul>
+<li>Type: <code>string</code></li>
+<li>Default: <code>rss.xml</code></li>
+</ul>
+<p>RSS Feed output location</p>
 ]]></content:encoded>
     </item>
     <item>
