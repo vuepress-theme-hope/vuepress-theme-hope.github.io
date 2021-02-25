@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/</link>
     <description>A vuepress theme with tons of features✨</description>
     <language>en-US</language>
-    <pubDate>Thu, 25 Feb 2021 12:27:34 GMT</pubDate>
-    <lastBuildDate>Thu, 25 Feb 2021 12:27:34 GMT</lastBuildDate>
+    <pubDate>Thu, 25 Feb 2021 13:45:25 GMT</pubDate>
+    <lastBuildDate>Thu, 25 Feb 2021 13:45:25 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -20,7 +20,6 @@
     <category>Get started</category>
     <category>layout</category>
     <category>markdown</category>
-    <category>instruction</category>
     <category>快速上手</category>
     <item>
       <title>Common problems</title>
@@ -4589,7 +4588,7 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 <p>Page: <a href="./../feature/icon.html"><strong>page icon</strong></a>, <a href="./../feature/page-info.html"><strong>article information</strong></a>,<strong>Title list</strong>, picture preview function.</p>
 </li>
 <li>
-<p>Site structure: simplifie the configuration of <a href="./../layout/navbar.html">Navigation Bar</a> and <a href="./../layout/sidebar.html">Sidebar</a>, add support for icons and path prefixes. At the same time, the theme added [<strong>PATH Navigation</strong>](../layout/page.md#Path Navigation) and footer support.</p>
+<p>Site structure: simplifie the configuration of <a href="./../layout/navbar.html">Navigation Bar</a> and <a href="./../layout/sidebar.html">Sidebar</a>, add support for icons and path prefixes. At the same time, the theme added <a href="./../layout/page.html#breadcrumb"><strong>breadcrumb</strong></a> and footer support.</p>
 </li>
 </ul>
 <h3 id="blog"> Blog</h3>
@@ -6449,10 +6448,10 @@ $$
 ]]></content:encoded>
     </item>
     <item>
-      <title>Introduction</title>
+      <title>Guide</title>
       <link>https://vuepress-theme-hope.github.io/guide/</link>
       <guid>https://vuepress-theme-hope.github.io/guide/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">Introduction</source>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">Guide</source>
       <content:encoded><![CDATA[<div><p>Tips</p>
 <p>If you met a bug while using, you can open an issue <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/issues" target="_blank" rel="noopener noreferrer">here</a></p>
 </div>
@@ -8888,7 +8887,7 @@ A backtick-delimited string in a code span: <span>`` `foo` ``</span>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">内置 Markdown 拓展</source>
       <category>basic</category>
       <content:encoded><![CDATA[<p>以下是 VuePress 在 Markdown 基础语法上对 Markdown 功能进行的扩展。</p>
-<h2 id="header-anchors"> Header Anchors</h2>
+<h2 id="标题-anchor"> 标题 Anchor</h2>
 <p>所有的标题将会自动地应用 anchor 链接。</p>
 <h2 id="链接"> 链接</h2>
 <h3 id="内部链接"> 内部链接</h3>
@@ -13415,13 +13414,12 @@ $$
 ]]></content:encoded>
     </item>
     <item>
-      <title>介绍</title>
+      <title>指南</title>
       <link>https://vuepress-theme-hope.github.io/zh/guide/</link>
       <guid>https://vuepress-theme-hope.github.io/zh/guide/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">介绍</source>
-      <category>instruction</category>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">指南</source>
       <content:encoded><![CDATA[<div><p>Tips</p>
-<p>如果你在使用过程中遇到了 bug，可以 <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/issues" target="_blank" rel="noopener noreferrer">提一个 issue</a>。</p>
+<p>如果你在使用过程中遇到了 bug，可以 <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/issues" target="_blank" rel="noopener noreferrer">提一个 issue</a> 或者 <a href="https://jq.qq.com/?_wv=1027&amp;k=rATJyxGK" target="_blank" rel="noopener noreferrer">加入 QQ 群</a> (群号: 1003437555) 进行反馈。</p>
 </div>
 <h2 id="✨-主题特点"> ✨ 主题特点</h2>
 <p>主题很大程度上保持了 VuePress 默认主题的风格，并在此基础上添加了大量功能与优化:</p>
