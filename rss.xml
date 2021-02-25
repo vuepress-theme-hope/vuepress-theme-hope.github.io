@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/</link>
     <description>A vuepress theme with tons of features✨</description>
     <language>en-US</language>
-    <pubDate>Thu, 25 Feb 2021 13:45:25 GMT</pubDate>
-    <lastBuildDate>Thu, 25 Feb 2021 13:45:25 GMT</lastBuildDate>
+    <pubDate>Thu, 25 Feb 2021 16:38:38 GMT</pubDate>
+    <lastBuildDate>Thu, 25 Feb 2021 16:38:38 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -6370,6 +6370,33 @@ $$
 </div>
 <h3 id="enable-specific-syntax"> Enable specific syntax</h3>
 <p>Specific syntax configuration items can be found in the corresponding instruction page or <a href="./../../config/theme/plugin.html#mdEnhance">Theme Plugin Config</a>.</p>
+<h2 id="new-syntax"> New syntax</h2>
+<ul>
+<li>
+<p><a href="./align.html">Custom Alignment</a></p>
+</li>
+<li>
+<p><a href="./sup-sub.html">Superscript and subscript</a></p>
+</li>
+<li>
+<p><a href="./footnote.html">Footnote</a></p>
+</li>
+<li>
+<p><a href="./mark.html">Mark</a></p>
+</li>
+<li>
+<p><a href="./flowchart.html">Flowchart</a></p>
+</li>
+<li>
+<p><a href="./tex.html">Tex</a></p>
+</li>
+<li>
+<p><a href="./demo.html">Code demo</a></p>
+</li>
+<li>
+<p><a href="./presentation.html">Presentation</a></p>
+</li>
+</ul>
 ]]></content:encoded>
     </item>
     <item>
@@ -13334,6 +13361,33 @@ $$
 </div>
 <h3 id="启用特定的语法"> 启用特定的语法</h3>
 <p>特定语法的配置项可以在对应的说明页或者 <a href="./../../config/theme/plugin.html#mdEnhance">主题插件配置</a> 中找到。</p>
+<h2 id="新语法"> 新语法</h2>
+<ul>
+<li>
+<p><a href="./align.html">自定义对齐</a></p>
+</li>
+<li>
+<p><a href="./sup-sub.html">上下角标</a></p>
+</li>
+<li>
+<p><a href="./footnote.html">脚注</a></p>
+</li>
+<li>
+<p><a href="./mark.html">标记</a></p>
+</li>
+<li>
+<p><a href="./flowchart.html">流程图</a></p>
+</li>
+<li>
+<p><a href="./tex.html">Tex 语法</a></p>
+</li>
+<li>
+<p><a href="./demo.html">代码演示</a></p>
+</li>
+<li>
+<p><a href="./presentation.html">幻灯片</a></p>
+</li>
+</ul>
 ]]></content:encoded>
     </item>
     <item>
