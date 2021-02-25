@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/feed/</link>
     <description>Feed Plugin for vuepress</description>
     <language>en-US</language>
-    <pubDate>Thu, 25 Feb 2021 12:11:06 GMT</pubDate>
-    <lastBuildDate>Thu, 25 Feb 2021 12:11:06 GMT</lastBuildDate>
+    <pubDate>Thu, 25 Feb 2021 12:27:34 GMT</pubDate>
+    <lastBuildDate>Thu, 25 Feb 2021 12:27:34 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -114,12 +114,12 @@
 <div><pre><code><span>interface</span> <span>FeedAuthor</span> <span>{</span>
   <span>/** Author name */</span>
   name<span>:</span> <span>string</span><span>;</span>
-  <span>/** Author's email */</span>
+  <span>/** Author’s email */</span>
   email<span>?</span><span>:</span> <span>string</span><span>;</span>
-  <span>/** Author's website */</span>
+  <span>/** Author’s website */</span>
   url<span>?</span><span>:</span> <span>string</span><span>;</span>
   <span>/**
-   * Author's avatar address
+   * Author’s avatar address
    *
    * Square, preferably not less than 128×128 with transparent background
    */</span>
@@ -143,7 +143,7 @@
       <guid>https://vuepress-theme-hope.github.io/feed/config/item/</guid>
       <source url="https://vuepress-theme-hope.github.io/feed/rss.xml">Item Config</source>
       <content:encoded><![CDATA[<p>You can control the generation of each feed item individually by configuring the frontmatter of each page.</p>
-<p>By default, all articles will be added to the feed stream. If you want to remove a specific page from the feed, you can set <code>feed.enable</code> to <code>false</code> in frontmatter.</p>
+<p>By default, all articles will be added to the feed stream. To remove a specific page from the feed, you can set <code>feed.enable</code> to <code>false</code> in frontmatter.</p>
 <h2 id="frontmatter-options"> FrontMatter options</h2>
 <p>The frontmatter options that affect the generation of feed items are as follows:</p>
 <h3 id="title"> title</h3>
@@ -210,12 +210,12 @@
 <div><pre><code><span>interface</span> <span>FeedAuthor</span> <span>{</span>
   <span>/** Author name */</span>
   name<span>:</span> <span>string</span><span>;</span>
-  <span>/** Author's email */</span>
+  <span>/** Author’s email */</span>
   email<span>?</span><span>:</span> <span>string</span><span>;</span>
-  <span>/** Author's website */</span>
+  <span>/** Author’s website */</span>
   url<span>?</span><span>:</span> <span>string</span><span>;</span>
   <span>/**
-   * Author's avatar address
+   * Author’s avatar address
    *
    * Square, preferably not less than 128×128, transparent background
    */</span>
@@ -232,12 +232,12 @@
 <div><pre><code><span>interface</span> <span>FeedContributor</span> <span>{</span>
   <span>/** Name of ontributor */</span>
   name<span>:</span> <span>string</span><span>;</span>
-  <span>/** Contributor's email */</span>
+  <span>/** Contributor’s email */</span>
   email<span>?</span><span>:</span> <span>string</span><span>;</span>
   <span>/** Sharer website */</span>
   url<span>?</span><span>:</span> <span>string</span><span>;</span>
   <span>/**
-   * Sharer's avatar address
+   * Sharer’s avatar address
    *
    * Square, preferably not less than 128×128, transparent background
    */</span>
@@ -642,7 +642,7 @@
 </ul>
 <h3 id="customize"> Customize</h3>
 <p>You can control the generation of feed items for specific articles by configuring the feed options in frontmatter.</p>
-<p>If you want to remove a specific page from the feed, you can set <code>feed.enable</code> to <code>false</code> in the frontmatter of the page.</p>
+<p>To remove a specific page from the feed, you can set <code>feed.enable</code> to <code>false</code> in the frontmatter of the page.</p>
 <p>You can also add content directly to the feed plugin via <code>frontmatter.feed</code>. The supported options are as follows:</p>
 <ul>
 <li>
@@ -665,7 +665,7 @@
   <span>/** Author website */</span>
   url<span>?</span><span>:</span> <span>string</span><span>;</span>
   <span>/**
-   * Author's avatar address
+   * Author’s avatar address
    *
    * Square, preferably not less than 128×128, transparent background
    */</span>

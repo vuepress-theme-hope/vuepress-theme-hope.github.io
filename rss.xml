@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/</link>
     <description>A vuepress theme with tons of features✨</description>
     <language>en-US</language>
-    <pubDate>Thu, 25 Feb 2021 12:11:07 GMT</pubDate>
-    <lastBuildDate>Thu, 25 Feb 2021 12:11:07 GMT</lastBuildDate>
+    <pubDate>Thu, 25 Feb 2021 12:27:34 GMT</pubDate>
+    <lastBuildDate>Thu, 25 Feb 2021 12:27:34 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -3280,7 +3280,7 @@ write something here ~
       <content:encoded><![CDATA[<p>These are plugin config provided by theme.</p>
 <div><p>Tips</p>
 <p>All the config key name is the camelCase version of plugin name.</p>
-<p>Example: <code>@mr-hope/vuepress-copy-code</code> 's config keyname will be <code>copyCode</code>.</p>
+<p>Example: <code>@mr-hope/vuepress-copy-code</code> ’s config keyname will be <code>copyCode</code>.</p>
 </div>
 <h2 id="mdenhance"> mdEnhance</h2>
 <p>Markdown Enhance config, for details see <a href="https://vuepress-theme-hope.github.io/md-enhance/config/" target="_blank" rel="noopener noreferrer">vuepress-plugin-md-enhance documentation</a></p>
@@ -4556,7 +4556,7 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 <p>Powerful and independent functions: The theme provides comprehensive details on functions and decompose them into independent plugins so users can use them in other themes.</p>
 </li>
 <li>
-<p>Zero or simple configuration: All functions of this theme are designed to work under zero or very simple configuration, in order to reduce your migration or learning costs while directly enjoy their convenience.</p>
+<p>Zero or simple configuration: All functions of this theme are designed to work under zero or very simple configuration to reduce your migration or learning costs while directly enjoy their convenience.</p>
 </li>
 </ul>
 <h2 id="✨-why-it-is-powerful"> ✨ Why it is powerful</h2>
@@ -4567,16 +4567,16 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 <p>If you are a literature lover and want to place some essays, the theme provides <a href="./../markdown/align.html">Custom Alignment</a> and <a href="./../markdown/footnote.html">footnote</a>.</p>
 </li>
 <li>
-<p>If you want to store some knowledge notes, the theme provides <a href="./../markdown/mark.html">Mark</a> and <a href="./../markdown/tex.html">Tex</a> support.</p>
+<p>To store some knowledge notes, the theme provides <a href="./../markdown/mark.html">Mark</a> and <a href="./../markdown/tex.html">Tex</a> support.</p>
 </li>
 <li>
 <p>If you are a programmer and need to show a lot of codes and demos, this theme provides light and dark themes for code blocks, code group component <code>&lt;CodeGroup /&gt;</code> and the &quot;one-click copy&quot; button (by <a href="https://vuepress-theme-hope.github.io/copy-code/" target="_blank" rel="noopener noreferrer">copy code plugin</a>). At the same time, we also provide the <a href="./../markdown/demo.html">Code Demo</a> function, which is convenient for you to show your own Vue, React components or other demos.</p>
 </li>
 <li>
-<p>If you need to provide product documentation and presentation, the theme provides <a href="./../markdown/presentation.html">slide</a> and <a href="./../markdown/flowchart.html">flowchart</a> functions.</p>
+<p>If you are providing product documentation and presentation, the theme provides <a href="./../markdown/presentation.html">slide</a> and <a href="./../markdown/flowchart.html">flowchart</a> functions.</p>
 </li>
 </ul>
-<p>In short, anyone can enjoy the convenience of Markdown's enhanced syntax.</p>
+<p>In short, anyone can enjoy the convenience of Markdown’s enhanced syntax.</p>
 <h3 id="search-engine-enhancement"> Search engine enhancement</h3>
 <p>The theme provides <a href="https://vuepress-theme-hope.github.io/seo/zh/" target="_blank" rel="noopener noreferrer">SEO plugin</a>, which automatically injects meta tags into web pages to enhance search engine indexing.</p>
 <p>The theme also provides <a href="https://vuepress-theme-hope.github.io/sitemap/zh/" target="_blank" rel="noopener noreferrer">Sitemap plugin</a> to generate Sitemap automatically.</p>
@@ -4603,14 +4603,15 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
       <guid>https://vuepress-theme-hope.github.io/guide/get-started/markdown/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">Markdown</source>
       <category>Get Started</category>
-      <content:encoded><![CDATA[<p>Every document page in VuePress is rendered by Markdown. So you need to build your document or blog page by creating and writing Markdown in the corresponding path.</p>
+      <content:encoded><![CDATA[<p>Every document page in VuePress is rendered by Markdown.</p>
+<p>You need to build your document or blog page by creating and writing Markdown in the corresponding path.</p>
 <h2 id="markdown-introduction"> Markdown introduction</h2>
 <p>If you are a new learner and don’t know how to write Markdown, please read <a href="./../../basic/markdown/">Markdown Intro</a> and <a href="./../../basic/markdown/demo.html">Markdown Demo</a>.</p>
 <div><p>Front Matter</p>
-<p>Front Matter is a very important concept in Vuepress. If you don’t know it, you need to read <a href="./../../basic/vuepress/markdown.html#front-matter">Front Matter Introduction</a></p>
+<p>Front Matter is a very important concept in VuePress. If you don’t know it, you need to read <a href="./../../basic/vuepress/markdown.html#front-matter">Front Matter Introduction</a></p>
 </div>
 <h2 id="vuepress-enhance"> VuePress enhance</h2>
-<p>In order to enrich document writing, VuePress has extended Markdown syntax.</p>
+<p>To enrich document writing, VuePress has extended Markdown syntax.</p>
 <p>For these extensions, please read <a href="./../../basic/vuepress/markdown.html">Markdown extensions in VuePress</a>.</p>
 <h2 id="theme-enhance"> Theme enhance</h2>
 <h3 id="superscript-and-subscript"> Superscript and Subscript</h3>
@@ -6664,7 +6665,7 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 </ul>
 <h2 id="构建失败"> 构建失败</h2>
 <p>请确保你使用的是最新版本主题，之后在禁用缓存的情况下重新运行开发服务器: <code>vuepress dev &lt;你的文档地址&gt; --no-cache</code>。</p>
-<p>如果问题依然存在，请在 Github 上 <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/issues/new/choose" target="_blank" rel="noopener noreferrer">提一个 Issue</a></p>
+<p>如果问题依然存在，请在 GitHub 上 <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/issues/new/choose" target="_blank" rel="noopener noreferrer">提一个 Issue</a></p>
 <h2 id="部分页面设置失效"> 部分页面设置失效</h2>
 <p>你可以先重新查阅文档，看看该设置是否 <strong>不支持页面配置</strong>。</p>
 <p><strong>支持页面配置</strong> 意味着主题允许页面的配置能够覆盖全局的同名(同功能)配置，但并不是所有功能都满足此设置。为了项目的编译速度，有些项目在全局配置禁用后不会在编译阶段加载，它们就无法局部启用。</p>
@@ -7975,7 +7976,7 @@ This is another regular paragraph.
 <span>></span> <span>1.</span> This is the first list item.
 <span>></span> <span>2.</span> This is the second list item.
 <span>></span>
-<span>></span> Here's some example code:
+<span>></span> Here’s some example code:
 <span>></span>
 <span>></span>     return shell_exec("echo $input | $markdown_script");
 </code></pre>
@@ -13635,7 +13636,7 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 <h2 id="markdown-介绍"> Markdown 介绍</h2>
 <p>如果你是一个新手，还不会编写 Markdown，请先阅读 <a href="./../../basic/markdown/">Markdown 介绍</a> 和 <a href="./../../basic/markdown/demo.html">Markdown 演示</a>。</p>
 <div><p>Front Matter</p>
-<p>Front Matter 是 Vuepress 中很重要的一个概念，如果你不了解它，你需要阅读 <a href="./../../basic/vuepress/markdown.html#front-matter">Front Matter 介绍</a></p>
+<p>Front Matter 是 VuePress 中很重要的一个概念，如果你不了解它，你需要阅读 <a href="./../../basic/vuepress/markdown.html#front-matter">Front Matter 介绍</a></p>
 </div>
 <h2 id="vuepress-扩展"> VuePress 扩展</h2>
 <p>为了丰富文档写作，VuePress 对 Markdown 语法进行了扩展。</p>
