@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/</link>
     <description>A vuepress theme with tons of features✨</description>
     <language>en-US</language>
-    <pubDate>Fri, 26 Feb 2021 15:58:32 GMT</pubDate>
-    <lastBuildDate>Fri, 26 Feb 2021 15:58:32 GMT</lastBuildDate>
+    <pubDate>Fri, 26 Feb 2021 16:08:48 GMT</pubDate>
+    <lastBuildDate>Fri, 26 Feb 2021 16:08:48 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -22,7 +22,6 @@
     <category>interface</category>
     <category>layout</category>
     <category>markdown</category>
-    <category>快速上手</category>
     <item>
       <title>Common problems</title>
       <link>https://vuepress-theme-hope.github.io/FAQ/</link>
@@ -3964,28 +3963,6 @@ write something here ~
 ]]></content:encoded>
     </item>
     <item>
-      <title>Code Copy</title>
-      <link>https://vuepress-theme-hope.github.io/guide/feature/code-copy/</link>
-      <guid>https://vuepress-theme-hope.github.io/guide/feature/code-copy/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">Code Copy</source>
-      <category>feature</category>
-      <content:encoded><![CDATA[<p>If you are a programmer, you may want your users to be able to copy the code you show in the text with one click.</p>
-<p>For this, <code>vuepress-theme-hope</code> includes <a href="https://vuepress-theme-hope.github.io/copy-code/" target="_blank" rel="noopener noreferrer">@mr-hope/copy-code</a>, which provides a copy button on code blocks.</p>
-<h2 id="usage"> Usage</h2>
-<p>After enabling, this plugin will automatically add a copy button to the bottom right corner of each code block.</p>
-<p>By default, the button is only displayed on desktop mode. If you want to display this button on mobile devices, set <code>showInMobile</code> to <code>true</code>.</p>
-<p>After user press the copy button, a success hint will display on the screen. The default hint duration is 2000ms, if you want to change the duration, please set <code>duration</code> in options (ms). If you want to disable the hint, set duration to <code>0</code>.</p>
-<h2 id="effect"> Effect</h2>
-<div><pre><code><span>// .vuepress/config.js</span>
-module<span>.</span>exports <span>=</span> <span>{</span>
-  themeConfig<span>:</span> <span>{</span>
-    copyCode<span>:</span> <span>{</span><span>}</span><span>,</span>
-  <span>}</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div>]]></content:encoded>
-    </item>
-    <item>
       <title>Comment Function</title>
       <link>https://vuepress-theme-hope.github.io/guide/feature/comment/</link>
       <guid>https://vuepress-theme-hope.github.io/guide/feature/comment/</guid>
@@ -4069,6 +4046,28 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <p>You can go to the repository <a href="https://github.com/meteorlxy/vssue-demo" target="_blank" rel="noopener noreferrer">meteorlxy/vssue-demo</a> to get the demo code.</p>
 </div>
 ]]></content:encoded>
+    </item>
+    <item>
+      <title>Code Copy</title>
+      <link>https://vuepress-theme-hope.github.io/guide/feature/copy-code/</link>
+      <guid>https://vuepress-theme-hope.github.io/guide/feature/copy-code/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">Code Copy</source>
+      <category>feature</category>
+      <content:encoded><![CDATA[<p>If you are a programmer, you may want your users to be able to copy the code you show in the text with one click.</p>
+<p>For this, <code>vuepress-theme-hope</code> includes <a href="https://vuepress-theme-hope.github.io/copy-code/" target="_blank" rel="noopener noreferrer">@mr-hope/copy-code</a>, which provides a copy button on code blocks.</p>
+<h2 id="usage"> Usage</h2>
+<p>After enabling, this plugin will automatically add a copy button to the bottom right corner of each code block.</p>
+<p>By default, the button is only displayed on desktop mode. If you want to display this button on mobile devices, set <code>showInMobile</code> to <code>true</code>.</p>
+<p>After user press the copy button, a success hint will display on the screen. The default hint duration is 2000ms, if you want to change the duration, please set <code>duration</code> in options (ms). If you want to disable the hint, set duration to <code>0</code>.</p>
+<h2 id="effect"> Effect</h2>
+<div><pre><code><span>// .vuepress/config.js</span>
+module<span>.</span>exports <span>=</span> <span>{</span>
+  themeConfig<span>:</span> <span>{</span>
+    copyCode<span>:</span> <span>{</span><span>}</span><span>,</span>
+  <span>}</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div>]]></content:encoded>
     </item>
     <item>
       <title>Copyright</title>
@@ -4263,16 +4262,37 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 ]]></content:encoded>
     </item>
     <item>
-      <title>Page Enhance</title>
-      <link>https://vuepress-theme-hope.github.io/guide/feature/page/</link>
-      <guid>https://vuepress-theme-hope.github.io/guide/feature/page/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">Page Enhance</source>
-      <category>feature</category>
-      <content:encoded><![CDATA[<h1 id="page-enhance"> Page Enhance</h1>
-<h2 id="picture-preview"> Picture Preview</h2>
-<p>We supports clicking to preview and zooming the picture, while supporting the sliding browsing of the page picture and the sharing and downloading of the picture too. You can set <code>themeConfig.photoSwipe</code> to <code>false</code> to disable it.</p>
-<p>For more options, please see [photo-swipe plugin configuration][photo-swipe]</p>
+      <title>Picture Preview</title>
+      <link>https://vuepress-theme-hope.github.io/guide/feature/photo-swipe/</link>
+      <guid>https://vuepress-theme-hope.github.io/guide/feature/photo-swipe/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">Picture Preview</source>
+      <description>&amp;lt;p&amp;gt;By includeing &amp;lt;a href=&amp;quot;https://vuepress-theme-hope.github.io/photo-swipe/&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;vuepress-plugin-photo-swipe&amp;lt;/a&amp;gt;, vuepress-theme-hope will make the pictures in the body of the page enter the preview mode when clicked.&amp;lt;/p&amp;gt;
+</description>
+      <content:encoded><![CDATA[<p>By includeing <a href="https://vuepress-theme-hope.github.io/photo-swipe/" target="_blank" rel="noopener noreferrer">vuepress-plugin-photo-swipe</a>, vuepress-theme-hope will make the pictures in the body of the page enter the preview mode when clicked.</p>
+
+<p>If you don’t need this feature, you can set <code>themeConfig.photoSwipe</code> to <code>false</code> to disable it.</p>
+<h2 id="browse-mode"> Browse Mode</h2>
+<p>In preview mode, you can:</p>
+<ul>
+<li>Swipe left and right to preview other pictures on the page in order</li>
+<li>View the description of the picture</li>
+<li>Zoom in and zoom out the picture</li>
+<li>View pictures in full screen</li>
+<li>Download pictures</li>
+<li>Share pictures</li>
+</ul>
+<div><p>Tips</p>
+<ul>
+<li>Besides clicking &quot;×&quot; in the upper right corner to exit the preview mode, scrolling up and down more than a certain distance will also exit preview mode</li>
+<li>On cellphones, or using the PC trackpad, you can use pan and zoom gestures to pan and zoom in the preview mode</li>
+</ul>
+</div>
+<h2 id="demo"> Demo</h2>
+<p><img src="/logo.png" alt="Logo1">
+<img src="/logo.png" alt="Logo2">
+<img src="/logo.png" alt="Logo3"></p>
 ]]></content:encoded>
+      <enclosure url="https://vuepress-theme-hope.github.io/logo.png" type="image/png"/>
     </item>
     <item>
       <title>PWA</title>
@@ -4314,13 +4334,13 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <p><a href="./copyright.html">Copyright info</a></p>
 </li>
 <li>
-<p><a href="./page.html">Page Enhance</a></p>
-</li>
-<li>
 <p><a href="./encrypt.html">Encryption function</a></p>
 </li>
 <li>
-<p><a href="./code-copy.html">One Click copy</a></p>
+<p><a href="./copy-code.html">One Click copy</a></p>
+</li>
+<li>
+<p><a href="./photo-swipe.html">Picture preview</a></p>
 </li>
 <li>
 <p><a href="./pwa.html">PWA Support</a></p>
@@ -11354,28 +11374,6 @@ export default { // Highlighted
 ]]></content:encoded>
     </item>
     <item>
-      <title>代码复制</title>
-      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/code-copy/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/code-copy/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">代码复制</source>
-      <category>feature</category>
-      <content:encoded><![CDATA[<p>如果你是一个程序员，你可能希望你的用户能够一键复制你在正文中展示的代码。</p>
-<p>针对这一情况，<code>vuepress-theme-hope</code> 内置了 <a href="https://vuepress-theme-hope.github.io/copy-code/zh/" target="_blank" rel="noopener noreferrer">@mr-hope/copy-code</a>，提供了一个复制按钮。</p>
-<h2 id="使用"> 使用</h2>
-<p>启用后，本插件会自动添加复制按钮到每个代码块的右下角。</p>
-<p>默认情况下，按钮仅在桌面模式显示，如果你需要在移动端展示这个按钮，请将 <code>themeConfig.copyCode.showInMobile</code> 设置为 <code>true</code>。</p>
-<p>在用户点击复制按钮后，屏幕上会显示一个复制成功的提示。默认的提示时长为 2000ms，如果你需要更改这个时长，请设置 <code>themeConfig.copyCode.duration</code>(单位 ms)，如果你不需要这个提示，请将 <code>themeConfig.copyCode.duration</code> 设置为 <code>0</code>。</p>
-<h2 id="效果"> 效果</h2>
-<div><pre><code><span>// .vuepress/config.js</span>
-module<span>.</span>exports <span>=</span> <span>{</span>
-  themeConfig<span>:</span> <span>{</span>
-    copyCode<span>:</span> <span>{</span><span>}</span><span>,</span>
-  <span>}</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div>]]></content:encoded>
-    </item>
-    <item>
       <title>评论</title>
       <link>https://vuepress-theme-hope.github.io/zh/guide/feature/comment/</link>
       <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/comment/</guid>
@@ -11469,6 +11467,37 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <li>Platform <code>gitea</code> - API 包 <code>@vssue/api-gitea-v1</code></li>
 </ul>
 </div>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Feed 支持</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/feed/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/feed/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">Feed 支持</source>
+      <category>feature</category>
+      <content:encoded><![CDATA[<p><code>vuepress-theme-hope</code> 通过 <code>@mr-hope/vuepress-plugin-feed</code> 插件来为你提供 feed 支持。如果你不需要这个功能，则可以将 <code>themeConfig.feed</code> 设置为 <code>false</code> 来禁用该插件。</p>
+<p>主题会自动为你生成以下三种格式的 feed 文件:</p>
+<ul>
+<li>Atom 1.0 (默认输出为 atom.xml)</li>
+<li>JSON 1.1 (默认输出为 feed.json)</li>
+<li>RSS 2.0 (默认输出为 rss.xml)</li>
+</ul>
+<p>考虑到现在 Feed 已经很小众，我们旨在提供最小配置来尽可能自动生成详细的 Feed 文件。</p>
+<h2 id="频道设置"> 频道设置</h2>
+<p>你可以通过设置 <code>themeConfig.feed.channel</code> 选项来自自定义 Feed 频道的各项信息。</p>
+<p>我们推荐您进行如下设置:</p>
+<ul>
+<li>将建立 Feed 的日期转换为 ISOString 写入到 <code>channel.pubDate</code> 中</li>
+<li>通过 <code>channel.ttl</code> 中设置内容的更新周期(单位: 分钟)</li>
+</ul>
+<p>详细的选项及其默认值详见 <a href="https://vuepress-theme-hope.github.io/feed/zh/config/channel/" target="_blank" rel="noopener noreferrer">Feed 插件频道设置</a></p>
+<h2 id="项目设置"> 项目设置</h2>
+<p>默认情况下，所有文章均会被添加至 feed 流。你可以通过配置 frontmatter 中的 feed 选项，对特定文章的 feed 项目生成进行控制。</p>
+<p>如果你想在 feed 中移除指定页面，你可以在该页面的 frontmatter 中将 <code>feed.enable</code> 设置为 <code>false</code>。</p>
+<p>当然你也可以通过 <code>frontmatter.feed</code> 直接向 feed 插件传入内容。详细的选项及其默认值详见 <a href="https://vuepress-theme-hope.github.io/feed/zh/config/item/" target="_blank" rel="noopener noreferrer">Feed 插件项目设置</a></p>
+<h2 id="输出配置"> 输出配置</h2>
+<p>你可通过配置选项中的 <code>output</code> 来决定输出哪些格式的 Feed 文件以及它们的位置。</p>
+<p>详细的选项及其默认值详见 <a href="https://vuepress-theme-hope.github.io/feed/zh/config/#output" target="_blank" rel="noopener noreferrer">Feed 插件输出设置</a></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -11579,16 +11608,37 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 ]]></content:encoded>
     </item>
     <item>
-      <title>页面增强</title>
-      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/page/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/page/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">页面增强</source>
-      <category>feature</category>
-      <content:encoded><![CDATA[<h1 id="页面增强"> 页面增强</h1>
-<h2 id="图片预览"> 图片预览</h2>
-<p>我们支持单击以预览和缩放图片，同时还支持页面图片的滑动浏览以及图片的分享和下载。你可以设置 <code>themeConfig.photoSwipe</code> 为 <code>false</code> 来禁用它。</p>
-<p>有关更多选项，请参阅 [photo-swipe 插件配置][photo-swipe]</p>
+      <title>图片预览</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/photo-swipe/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/photo-swipe/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">图片预览</source>
+      <description>&amp;lt;p&amp;gt;通过内置此插件会使页面正文内的图片在点击时进入浏览模式浏览。&amp;lt;/p&amp;gt;
+</description>
+      <content:encoded><![CDATA[<p>通过内置此插件会使页面正文内的图片在点击时进入浏览模式浏览。</p>
+
+<p>如果你不需要此功能，请设置 <code>themeConfig.photoSwipe</code> 为 <code>false</code>。</p>
+<h2 id="浏览模式"> 浏览模式</h2>
+<p>在浏览模式中，你可以:</p>
+<ul>
+<li>左右滑动按顺序浏览页面内其他的图片</li>
+<li>查看图片的描述</li>
+<li>对图片进行缩放</li>
+<li>全屏浏览图片</li>
+<li>下载图片</li>
+<li>分享图片</li>
+</ul>
+<div><p>Tips</p>
+<ul>
+<li>除了点击右上角的 &quot;×&quot; 退出浏览模式外，在上下滚动超过一定距离后，会自动退出图片浏览模式</li>
+<li>在移动端，或使用 PC 触控板，你可以使用平移、缩放手势在浏览模式中平移、缩放图片</li>
+</ul>
+</div>
+<h2 id="演示"> 演示</h2>
+<p><img src="/logo.png" alt="Logo1">
+<img src="/logo.png" alt="Logo2">
+<img src="/logo.png" alt="Logo3"></p>
 ]]></content:encoded>
+      <enclosure url="https://vuepress-theme-hope.github.io/logo.png" type="image/png"/>
     </item>
     <item>
       <title>PWA</title>
@@ -11630,13 +11680,13 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <p><a href="./copyright.html">版权信息</a></p>
 </li>
 <li>
-<p><a href="./page.html">页面增强</a></p>
-</li>
-<li>
 <p><a href="./encrypt.html">加密功能</a></p>
 </li>
 <li>
-<p><a href="./code-copy.html">一键复制</a></p>
+<p><a href="./copy-code.html">一键复制</a></p>
+</li>
+<li>
+<p><a href="./photo-swipe.html">图片预览</a></p>
 </li>
 <li>
 <p><a href="./pwa.html">PWA 支持</a></p>
@@ -11752,7 +11802,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <link>https://vuepress-theme-hope.github.io/zh/guide/get-started/install/</link>
       <guid>https://vuepress-theme-hope.github.io/zh/guide/get-started/install/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">安装/使用</source>
-      <category>快速上手</category>
+      <category>Get Started</category>
       <content:encoded><![CDATA[<h2 id="在新项目中使用"> 在新项目中使用</h2>
 <p>如果你想构建自己的博客，或者在一个新的项目中使用本主题生成你的文档，你可以直接使用 <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope-template" target="_blank" rel="noopener noreferrer">vuepress-theme-hope 模板</a> 来开始你的 VuePress 之旅。点击 <code>Use this template</code> 按钮即可。</p>
 <h2 id="在旧项目中使用"> 在旧项目中使用</h2>
@@ -11786,7 +11836,7 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
       <link>https://vuepress-theme-hope.github.io/zh/guide/get-started/intro/</link>
       <guid>https://vuepress-theme-hope.github.io/zh/guide/get-started/intro/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">主题介绍</source>
-      <category>快速上手</category>
+      <category>Get Started</category>
       <content:encoded><![CDATA[<h2 id="🎈-主题的初衷与设计目标"> 🎈 主题的初衷与设计目标</h2>
 <h3 id="初衷"> 初衷</h3>
 <p>制作本主题的初衷是发现 VuePress 只是一个单纯的静态文档生成器。举个例子，它并不会注入 meta 标签做 SEO 优化，也不会生成 Sitemap 帮助搜索引擎索引文档内容。</p>
@@ -11850,7 +11900,7 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
       <source url="https://vuepress-theme-hope.github.io/rss.xml">Markdown</source>
       <description>&amp;lt;p&amp;gt;VuePress 的每个文档页面都是由 Markdown 渲染而成。所以你需要通过在相应路径创建编写 Markdown 建立你的文档或博客页面。&amp;lt;/p&amp;gt;
 </description>
-      <category>快速上手</category>
+      <category>Get Started</category>
       <content:encoded><![CDATA[<p>VuePress 的每个文档页面都是由 Markdown 渲染而成。所以你需要通过在相应路径创建编写 Markdown 建立你的文档或博客页面。</p>
 
 <h2 id="markdown-介绍"> Markdown 介绍</h2>
@@ -14260,37 +14310,6 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 ]]></content:encoded>
     </item>
     <item>
-      <title>Feed 支持</title>
-      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/feed/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/feed/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">Feed 支持</source>
-      <category>feature</category>
-      <content:encoded><![CDATA[<p><code>vuepress-theme-hope</code> 通过 <code>@mr-hope/vuepress-plugin-feed</code> 插件来为你提供 feed 支持。如果你不需要这个功能，则可以将 <code>themeConfig.feed</code> 设置为 <code>false</code> 来禁用该插件。</p>
-<p>主题会自动为你生成以下三种格式的 feed 文件:</p>
-<ul>
-<li>Atom 1.0 (默认输出为 atom.xml)</li>
-<li>JSON 1.1 (默认输出为 feed.json)</li>
-<li>RSS 2.0 (默认输出为 rss.xml)</li>
-</ul>
-<p>考虑到现在 Feed 已经很小众，我们旨在提供最小配置来尽可能自动生成详细的 Feed 文件。</p>
-<h2 id="频道设置"> 频道设置</h2>
-<p>你可以通过设置 <code>themeConfig.feed.channel</code> 选项来自自定义 Feed 频道的各项信息。</p>
-<p>我们推荐您进行如下设置:</p>
-<ul>
-<li>将建立 Feed 的日期转换为 ISOString 写入到 <code>channel.pubDate</code> 中</li>
-<li>通过 <code>channel.ttl</code> 中设置内容的更新周期(单位: 分钟)</li>
-</ul>
-<p>详细的选项及其默认值详见 <a href="https://vuepress-theme-hope.github.io/feed/zh/config/channel/" target="_blank" rel="noopener noreferrer">Feed 插件频道设置</a></p>
-<h2 id="项目设置"> 项目设置</h2>
-<p>默认情况下，所有文章均会被添加至 feed 流。你可以通过配置 frontmatter 中的 feed 选项，对特定文章的 feed 项目生成进行控制。</p>
-<p>如果你想在 feed 中移除指定页面，你可以在该页面的 frontmatter 中将 <code>feed.enable</code> 设置为 <code>false</code>。</p>
-<p>当然你也可以通过 <code>frontmatter.feed</code> 直接向 feed 插件传入内容。详细的选项及其默认值详见 <a href="https://vuepress-theme-hope.github.io/feed/zh/config/item/" target="_blank" rel="noopener noreferrer">Feed 插件项目设置</a></p>
-<h2 id="输出配置"> 输出配置</h2>
-<p>你可通过配置选项中的 <code>output</code> 来决定输出哪些格式的 Feed 文件以及它们的位置。</p>
-<p>详细的选项及其默认值详见 <a href="https://vuepress-theme-hope.github.io/feed/zh/config/#output" target="_blank" rel="noopener noreferrer">Feed 插件输出设置</a></p>
-]]></content:encoded>
-    </item>
-    <item>
       <title>加密功能</title>
       <link>https://vuepress-theme-hope.github.io/zh/guide/feature/encrypt/</link>
       <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/encrypt/</guid>
@@ -14354,6 +14373,28 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 <p>这是一个 vuepress 社区插件，而不是内置插件。因此，如果你遇到问题，请前往 <a href="https://github.com/vuepress/vuepress-plugin-copyright" target="_blank" rel="noopener noreferrer">它的仓库</a> 寻求帮助。</p>
 </div>
 ]]></content:encoded>
+    </item>
+    <item>
+      <title>代码复制</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/copy-code/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/copy-code/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">代码复制</source>
+      <category>feature</category>
+      <content:encoded><![CDATA[<p>如果你是一个程序员，你可能希望你的用户能够一键复制你在正文中展示的代码。</p>
+<p>针对这一情况，<code>vuepress-theme-hope</code> 内置了 <a href="https://vuepress-theme-hope.github.io/copy-code/zh/" target="_blank" rel="noopener noreferrer">@mr-hope/copy-code</a>，提供了一个复制按钮。</p>
+<h2 id="使用"> 使用</h2>
+<p>启用后，本插件会自动添加复制按钮到每个代码块的右下角。</p>
+<p>默认情况下，按钮仅在桌面模式显示，如果你需要在移动端展示这个按钮，请将 <code>themeConfig.copyCode.showInMobile</code> 设置为 <code>true</code>。</p>
+<p>在用户点击复制按钮后，屏幕上会显示一个复制成功的提示。默认的提示时长为 2000ms，如果你需要更改这个时长，请设置 <code>themeConfig.copyCode.duration</code>(单位 ms)，如果你不需要这个提示，请将 <code>themeConfig.copyCode.duration</code> 设置为 <code>0</code>。</p>
+<h2 id="效果"> 效果</h2>
+<div><pre><code><span>// .vuepress/config.js</span>
+module<span>.</span>exports <span>=</span> <span>{</span>
+  themeConfig<span>:</span> <span>{</span>
+    copyCode<span>:</span> <span>{</span><span>}</span><span>,</span>
+  <span>}</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div>]]></content:encoded>
     </item>
   </channel>
 </rss>
