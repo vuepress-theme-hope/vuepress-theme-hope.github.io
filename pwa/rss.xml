@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/pwa/</link>
     <description>A powerful PWA plugin for vuepress</description>
     <language>en-US</language>
-    <pubDate>Fri, 26 Feb 2021 16:17:24 GMT</pubDate>
-    <lastBuildDate>Fri, 26 Feb 2021 16:17:24 GMT</lastBuildDate>
+    <pubDate>Fri, 26 Feb 2021 16:36:12 GMT</pubDate>
+    <lastBuildDate>Fri, 26 Feb 2021 16:36:12 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -197,6 +197,39 @@
 ]]></content:encoded>
     </item>
     <item>
+      <title>Home</title>
+      <link>https://vuepress-theme-hope.github.io/pwa/</link>
+      <guid>https://vuepress-theme-hope.github.io/pwa/</guid>
+      <source url="https://vuepress-theme-hope.github.io/pwa/rss.xml">Home</source>
+      <content:encoded><![CDATA[<p>This plugin will turn on Progressive Web App Support.</p>
+<h2 id="how-to-use"> How to use</h2>
+<h3 id="install"> Install</h3>
+<CodeGroup>
+<CodeGroupItem title="yarn">
+<div><pre><code><span>yarn</span> <span>add</span> -D vuepress-plugin-pwa
+</code></pre>
+<div><span>1</span><br></div></div></CodeGroupItem>
+<CodeGroupItem title="npm">
+<div><pre><code><span>npm</span> i -D vuepress-plugin-pwa
+</code></pre>
+<div><span>1</span><br></div></div></CodeGroupItem>
+</CodeGroup>
+<h3 id="usage"> Usage</h3>
+<div><pre><code><span>// .vuepress/config.js</span>
+module<span>.</span>exports <span>=</span> <span>{</span>
+  plugins<span>:</span> <span>[</span>
+    <span>[</span>
+      <span>"@mr-hope/pwa"</span><span>,</span>
+      <span>{</span>
+        <span>// your options</span>
+      <span>}</span><span>,</span>
+    <span>]</span><span>,</span>
+  <span>]</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div>]]></content:encoded>
+    </item>
+    <item>
       <title>配置</title>
       <link>https://vuepress-theme-hope.github.io/pwa/zh/config/</link>
       <guid>https://vuepress-theme-hope.github.io/pwa/zh/config/</guid>
@@ -356,39 +389,6 @@
 <p>所有大于 <code>maxSize</code> 的文件将被忽略。</p>
 </div>
 ]]></content:encoded>
-    </item>
-    <item>
-      <title>Home</title>
-      <link>https://vuepress-theme-hope.github.io/pwa/</link>
-      <guid>https://vuepress-theme-hope.github.io/pwa/</guid>
-      <source url="https://vuepress-theme-hope.github.io/pwa/rss.xml">Home</source>
-      <content:encoded><![CDATA[<p>This plugin will turn on Progressive Web App Support.</p>
-<h2 id="how-to-use"> How to use</h2>
-<h3 id="install"> Install</h3>
-<CodeGroup>
-<CodeGroupItem title="yarn">
-<div><pre><code><span>yarn</span> <span>add</span> -D vuepress-plugin-pwa
-</code></pre>
-<div><span>1</span><br></div></div></CodeGroupItem>
-<CodeGroupItem title="npm">
-<div><pre><code><span>npm</span> i -D vuepress-plugin-pwa
-</code></pre>
-<div><span>1</span><br></div></div></CodeGroupItem>
-</CodeGroup>
-<h3 id="usage"> Usage</h3>
-<div><pre><code><span>// .vuepress/config.js</span>
-module<span>.</span>exports <span>=</span> <span>{</span>
-  plugins<span>:</span> <span>[</span>
-    <span>[</span>
-      <span>"@mr-hope/pwa"</span><span>,</span>
-      <span>{</span>
-        <span>// your options</span>
-      <span>}</span><span>,</span>
-    <span>]</span><span>,</span>
-  <span>]</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div>]]></content:encoded>
     </item>
     <item>
       <title>指南</title>

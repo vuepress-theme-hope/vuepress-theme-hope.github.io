@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/</link>
     <description>A vuepress theme with tons of features✨</description>
     <language>en-US</language>
-    <pubDate>Fri, 26 Feb 2021 16:17:25 GMT</pubDate>
-    <lastBuildDate>Fri, 26 Feb 2021 16:17:25 GMT</lastBuildDate>
+    <pubDate>Fri, 26 Feb 2021 16:36:12 GMT</pubDate>
+    <lastBuildDate>Fri, 26 Feb 2021 16:36:12 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -3967,9 +3967,12 @@ write something here ~
       <link>https://vuepress-theme-hope.github.io/guide/feature/comment/</link>
       <guid>https://vuepress-theme-hope.github.io/guide/feature/comment/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">Comment Function</source>
+      <description>&amp;lt;p&amp;gt;&amp;lt;code&amp;gt;vuepress-theme-hope&amp;lt;/code&amp;gt; implements the comment feature with built-in &amp;lt;code&amp;gt;@mr-hope/vuepress-plugin-comment&amp;lt;/code&amp;gt;.&amp;lt;/p&amp;gt;
+</description>
       <category>feature</category>
-      <content:encoded><![CDATA[<h1 id="comment-function"> Comment Function</h1>
-<p><code>vuepress-theme-hope</code> implements the comment feature with built-in <code>@mr-hope/vuepress-plugin-comment</code>.</p>
+      <content:encoded><![CDATA[<p><code>vuepress-theme-hope</code> implements the comment feature with built-in <code>@mr-hope/vuepress-plugin-comment</code>.</p>
+
+<h2 id="enable"> Enable <i>Not supported content</i></h2>
 <div><pre><code><span>// .vuepress/config.js</span>
 module<span>.</span>exports <span>=</span> <span>{</span>
   themeConfig<span>:</span> <span>{</span>
@@ -3981,10 +3984,18 @@ module<span>.</span>exports <span>=</span> <span>{</span>
   <span>}</span><span>,</span>
 <span>}</span><span>;</span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br></div></div><p>Comment function <i>Not supported content</i> enabled globally by default, the configuration key is <code>comment</code>.</p>
-<p>You can choose between Valine and Vssue.</p>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br></div></div><p>Comment feature is enabled globally by default, the configuration key is <code>comment</code>.</p>
 <div><p>Tips</p>
-<p>You can visit <a href="https://vuepress-theme-hope.github.io/comment/" target="_blank" rel="noopener noreferrer">@mr-hope/vuepress-plugin-comment plugin documentation</a> for more details</p>
+<p>For the complete config item of the plugin ,please see <a href="https://vuepress-theme-hope.github.io/comment/" target="_blank" rel="noopener noreferrer">@mr-hope/vuepress-plugin-comment plugin documentation</a>.</p>
+</div>
+<h2 id="comment-provider"> Comment Provider</h2>
+<p>You can choose between Valine and Vssue.</p>
+<div><p>Comparison between Valine and Vssue</p>
+<ul>
+<li>Valine uses leancloud to support pageview statistics, and you can comment without logging in to any account</li>
+<li>Vssue uses the issue panel of the code platform repo and requires the user to login or register the corresponding platform account.</li>
+</ul>
+<p>If your site is for the general public rather than programmers, Valine is recommended.</p>
 </div>
 <h2 id="valine"> Valine</h2>
 <h3 id="get-app-id-and-app-key"> Get APP_ID and APP_Key</h3>
@@ -4168,9 +4179,10 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <guid>https://vuepress-theme-hope.github.io/guide/feature/page-info/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">Page information</source>
       <category>feature</category>
-      <content:encoded><![CDATA[<h1 id="page-information"> Page information</h1>
-<p>The <code>&lt;PageInfo /&gt;</code> component support local config<sup></sup>, and is enabled globally by default. You can disable it by setting <code>pageInfo: false</code> in frontmatter of a specific page.</p>
-<p>To keep it globally disabled, please set <code>pageInfo</code> to <code>false</code> in the plugin options. In this way you can set <code>pageInfo</code> in frontmatter of a specific page to enable it locally.</p>
+      <content:encoded><![CDATA[<p>By including <code>@mr-hope/vuepress-plugin-comment</code>, <code>vuepress-theme-hope</code> can display article information for you.</p>
+<h2 id="enable"> Enable</h2>
+<p>Page infomation display is enabled globally by default, while supports local config<sup></sup>. You can disable it by setting <code>pageInfo: false</code> in frontmatter of a specific page.</p>
+<p>To keep it globally disabled, please set <code>pageInfo</code> to <code>false</code> in the plugin options. Then you can set <code>pageInfo</code> in frontmatter of a specific page to enable it locally.</p>
 <h2 id="parameters"> Parameters <i>Not supported content</i></h2>
 <p><code>pageInfo</code> accepts an array of strings by default, filling in a group of items. The order of filling is the order in which the items are displayed.</p>
 <p>The optional values ​​and corresponding contents of the entry are as follows:</p>
@@ -4266,9 +4278,9 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <link>https://vuepress-theme-hope.github.io/guide/feature/photo-swipe/</link>
       <guid>https://vuepress-theme-hope.github.io/guide/feature/photo-swipe/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">Picture Preview</source>
-      <description>&amp;lt;p&amp;gt;By includeing &amp;lt;a href=&amp;quot;https://vuepress-theme-hope.github.io/photo-swipe/&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;vuepress-plugin-photo-swipe&amp;lt;/a&amp;gt;, vuepress-theme-hope will make the pictures in the body of the page enter the preview mode when clicked.&amp;lt;/p&amp;gt;
+      <description>&amp;lt;p&amp;gt;By including &amp;lt;a href=&amp;quot;https://vuepress-theme-hope.github.io/photo-swipe/&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;vuepress-plugin-photo-swipe&amp;lt;/a&amp;gt;, vuepress-theme-hope will make the pictures in the body of the page enter the preview mode when clicked.&amp;lt;/p&amp;gt;
 </description>
-      <content:encoded><![CDATA[<p>By includeing <a href="https://vuepress-theme-hope.github.io/photo-swipe/" target="_blank" rel="noopener noreferrer">vuepress-plugin-photo-swipe</a>, vuepress-theme-hope will make the pictures in the body of the page enter the preview mode when clicked.</p>
+      <content:encoded><![CDATA[<p>By including <a href="https://vuepress-theme-hope.github.io/photo-swipe/" target="_blank" rel="noopener noreferrer">vuepress-plugin-photo-swipe</a>, vuepress-theme-hope will make the pictures in the body of the page enter the preview mode when clicked.</p>
 
 <p>If you don’t need this feature, you can set <code>themeConfig.photoSwipe</code> to <code>false</code> to disable it.</p>
 <h2 id="browse-mode"> Browse Mode</h2>
@@ -4420,16 +4432,24 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <category>feature</category>
       <content:encoded><![CDATA[<h1 id="ts-support"> TS support</h1>
 <p>Most of the files of vuepress-theme-hope are written using TypeScript, so vuepress-theme-hope can also bring native TypeScript support to your VuePress project, you only need to set <code>themeConfig.typescript</code> to <code>true</code> so that support for <code>typescript</code> can be turned on.</p>
-<p>This means you can use <code>enhanceAppFiles.ts</code> and use Tyepscript in both your vue components and Markdown files.</p>
+<p>This means you can use <code>enhanceAppFiles.ts</code> and use Typescript in both your vue components and Markdown files.</p>
 <p>To pass some custom options to ts-loader, you can also set <code>themeConfig.typescript</code> with an Object to pass it to ts-loader.</p>
 <div><p>Tips</p>
 <p>After enabling this theme, you no longer need to require and enable <code>@vuepress/plugin-typescript</code>.</p>
 </div>
 <h2 id="precautions"> Precautions</h2>
 <p>If your project does not use typescript, you may also need to install typescript:</p>
+<CodeGroup>
+<CodeGroupItem title="yarn">
+<div><pre><code><span>yarn</span> <span>add</span> -D typescript
+</code></pre>
+<div><span>1</span><br></div></div></CodeGroupItem>
+<CodeGroupItem title="npm">
 <div><pre><code><span>npm</span> i -D typescript
 </code></pre>
-<div><span>1</span><br></div></div><p>At the same time, you need to ensure that your workspace contains a valid <code>tsconfig.json</code>. One of the simplest <code>tsconfig.json</code> is as follows:</p>
+<div><span>1</span><br></div></div></CodeGroupItem>
+</CodeGroup>
+<p>At the same time, you need to ensure that your workspace contains a valid <code>tsconfig.json</code>. One of the simplest <code>tsconfig.json</code> is as follows:</p>
 <div><pre><code><span>{</span>
   <span>"compilerOptions"</span><span>:</span> <span>{</span>
     <span>"target"</span><span>:</span> <span>"ES6"</span><span>,</span> <span>// Any target not lower than 'es6'</span>
@@ -11378,37 +11398,36 @@ export default { // Highlighted
       <link>https://vuepress-theme-hope.github.io/zh/guide/feature/comment/</link>
       <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/comment/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">评论</source>
-      <description>&amp;lt;p&amp;gt;&amp;lt;code&amp;gt;vuepress-theme-hope&amp;lt;/code&amp;gt; 通过内置 &amp;lt;code&amp;gt;@mr-hope/vuepress-plugin-comment&amp;lt;/code&amp;gt;，实现了评论功能。&amp;lt;/p&amp;gt;
-&amp;lt;div&amp;gt;&amp;lt;div&amp;gt;&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;div&amp;gt;&amp;nbsp;&amp;lt;/div&amp;gt;&amp;lt;div&amp;gt;&amp;nbsp;&amp;lt;/div&amp;gt;&amp;lt;div&amp;gt;&amp;nbsp;&amp;lt;/div&amp;gt;&amp;lt;div&amp;gt;&amp;nbsp;&amp;lt;/div&amp;gt;&amp;lt;div&amp;gt;&amp;nbsp;&amp;lt;/div&amp;gt;&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;pre&amp;gt;&amp;lt;code&amp;gt;&amp;lt;span&amp;gt;// .vuepress/config.js&amp;lt;/span&amp;gt;
-module&amp;lt;span&amp;gt;.&amp;lt;/span&amp;gt;exports &amp;lt;span&amp;gt;=&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;{&amp;lt;/span&amp;gt;
-  themeConfig&amp;lt;span&amp;gt;:&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;{&amp;lt;/span&amp;gt;
-    comment&amp;lt;span&amp;gt;:&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;{&amp;lt;/span&amp;gt;
-      type&amp;lt;span&amp;gt;:&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;&amp;quot;valine&amp;quot;&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;// 使用 Valine&amp;lt;/span&amp;gt;
-      appId&amp;lt;span&amp;gt;:&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;&amp;quot;...&amp;quot;&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;// your appId&amp;lt;/span&amp;gt;
-      appKey&amp;lt;span&amp;gt;:&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;&amp;quot;...&amp;quot;&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;// your appKey&amp;lt;/span&amp;gt;
-    &amp;lt;span&amp;gt;}&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;/span&amp;gt;
-  &amp;lt;span&amp;gt;}&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;/span&amp;gt;
-&amp;lt;span&amp;gt;}&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;;&amp;lt;/span&amp;gt;
-&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;div&amp;gt;&amp;lt;span&amp;gt;1&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;2&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;3&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;4&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;5&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;6&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;7&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;8&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;9&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;10&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;p&amp;gt;评论功能 &amp;lt;i&amp;gt;Not supported content&amp;lt;/i&amp;gt; 默认全局启用，配置项为 &amp;lt;code&amp;gt;comment&amp;lt;/code&amp;gt;。&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;有两个评论插件可以选择: Valine 和 Vssue。&amp;lt;/p&amp;gt;
+      <description>&amp;lt;p&amp;gt;通过内置 &amp;lt;code&amp;gt;@mr-hope/vuepress-plugin-comment&amp;lt;/code&amp;gt;，&amp;lt;code&amp;gt;vuepress-theme-hope&amp;lt;/code&amp;gt; 实现了评论功能。&amp;lt;/p&amp;gt;
 </description>
       <category>feature</category>
-      <content:encoded><![CDATA[<p><code>vuepress-theme-hope</code> 通过内置 <code>@mr-hope/vuepress-plugin-comment</code>，实现了评论功能。</p>
-<div><div><br><br><br><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><br><br><br></div><pre><code><span>// .vuepress/config.js</span>
+      <content:encoded><![CDATA[<p>通过内置 <code>@mr-hope/vuepress-plugin-comment</code>，<code>vuepress-theme-hope</code> 实现了评论功能。</p>
+
+<h2 id="启用"> 启用 <i>Not supported content</i></h2>
+<div><div><br><br><br><br><div>&nbsp;</div><br><br><div>&nbsp;</div><div>&nbsp;</div><br><br><br><br></div><pre><code><span>// .vuepress/config.js</span>
 module<span>.</span>exports <span>=</span> <span>{</span>
   themeConfig<span>:</span> <span>{</span>
     comment<span>:</span> <span>{</span>
-      type<span>:</span> <span>"valine"</span><span>,</span> <span>// 使用 Valine</span>
+      type<span>:</span> <span>"valine"</span><span>,</span> <span>// "valine" 或 "vssue"</span>
+
+      <span>// valine 模式下</span>
       appId<span>:</span> <span>"..."</span><span>,</span> <span>// your appId</span>
       appKey<span>:</span> <span>"..."</span><span>,</span> <span>// your appKey</span>
     <span>}</span><span>,</span>
   <span>}</span><span>,</span>
 <span>}</span><span>;</span>
-</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br></div></div><p>评论功能 <i>Not supported content</i> 默认全局启用，配置项为 <code>comment</code>。</p>
+</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br></div></div><p>评论功能默认全局启用，配置项为 <code>comment</code>。</p>
+<div><p>Info</p>
+<p>受篇幅限制，完整的评论插件配置，详见 <a href="https://vuepress-theme-hope.github.io/comment" target="_blank" rel="noopener noreferrer">@mr-hope/vuepress-plugin-comment 插件文档</a>。</p>
+</div>
+<h2 id="评论服务"> 评论服务</h2>
 <p>有两个评论插件可以选择: Valine 和 Vssue。</p>
-
-<div><p>Tips</p>
-<p>如果你希望看到更详细的评论设置，可以访问 <a href="https://vuepress-theme-hope.github.io/comment" target="_blank" rel="noopener noreferrer">@mr-hope/vuepress-plugin-comment 插件文档</a></p>
+<div><p>Valine 与 Vssue 的比较</p>
+<ul>
+<li>Valine 使用 leancloud，支持页面访问量统计，无需登录账号即可评论</li>
+<li>Vssue 使用代码平台仓库的 issue 面板，需要用户登录或注册相应平台账号。</li>
+</ul>
+<p>如果你的站点面向大众而非程序员，推荐使用 Valine。</p>
 </div>
 <h2 id="valine"> Valine</h2>
 <p>借助 Valine，主题实现了无后端开启阅读量展示与评论功能。</p>
@@ -11497,8 +11516,9 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/page-info/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">页面信息</source>
       <category>feature</category>
-      <content:encoded><![CDATA[<h1 id="页面信息"> 页面信息</h1>
-<p>页面信息支持页面配置<sup></sup>，默认全局启用展示。你可以在特定页面的 frontmatter 中设置 <code>pageInfo: false</code> 来局部禁用它。</p>
+      <content:encoded><![CDATA[<p>通过内置 <code>@mr-hope/vuepress-plugin-comment</code>，<code>vuepress-theme-hope</code> 实现了文章信息。</p>
+<h2 id="启用"> 启用</h2>
+<p>页面信息默认全局启用，同时支持页面配置<sup></sup>。你可以在特定页面的 frontmatter 中设置 <code>pageInfo: false</code> 来局部禁用它。</p>
 <p>如果你需要保持全局禁用，请设置 <code>themeConfig.pageInfo</code> 为 <code>false</code>。这样你可以在特定页面的 frontmatter 中设置 <code>pageInfo</code> 来局部启用它。</p>
 <h2 id="参数"> 参数 <i>Not supported content</i></h2>
 <p><code>pageInfo</code> 默认接受一个字符串数组，可以填入各条目名称，填入的顺序即是各条目显示的顺序。</p>
@@ -11603,9 +11623,9 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <link>https://vuepress-theme-hope.github.io/zh/guide/feature/photo-swipe/</link>
       <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/photo-swipe/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">图片预览</source>
-      <description>&amp;lt;p&amp;gt;通过内置此插件会使页面正文内的图片在点击时进入浏览模式浏览。&amp;lt;/p&amp;gt;
+      <description>&amp;lt;p&amp;gt;通过内置 &amp;lt;a href=&amp;quot;https://vuepress-theme-hope.github.io/photo-swipe/&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;vuepress-plugin-photo-swipe&amp;lt;/a&amp;gt;, vuepress-theme-hope 会使页面正文内的图片在点击时进入浏览模式浏览。&amp;lt;/p&amp;gt;
 </description>
-      <content:encoded><![CDATA[<p>通过内置此插件会使页面正文内的图片在点击时进入浏览模式浏览。</p>
+      <content:encoded><![CDATA[<p>通过内置 <a href="https://vuepress-theme-hope.github.io/photo-swipe/" target="_blank" rel="noopener noreferrer">vuepress-plugin-photo-swipe</a>, vuepress-theme-hope 会使页面正文内的图片在点击时进入浏览模式浏览。</p>
 
 <p>如果你不需要此功能，请设置 <code>themeConfig.photoSwipe</code> 为 <code>false</code>。</p>
 <h2 id="浏览模式"> 浏览模式</h2>
@@ -11757,16 +11777,24 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <category>feature</category>
       <content:encoded><![CDATA[<h1 id="ts-支持"> TS 支持</h1>
 <p><code>vuepress-theme-hope</code> 的大部分文件都是使用 TypeScript 编写，所以 vuepress-theme-hope 也可以为你的 VuePress 项目带来了原生的 TypeScript 支持，你只需设置 <code>themeConfig.typescript</code> 为 <code>true</code> 即可开启 <code>typescript</code> 支持。</p>
-<p>开启 TypeScript 支持意味着你可以使用 <code>enhanceAppFiles.ts</code>，同时在你的 vue 组件 和 Markdown 文件中使用 Tyepscript。</p>
+<p>开启 TypeScript 支持意味着你可以使用 <code>enhanceAppFiles.ts</code>，同时在你的 vue 组件 和 Markdown 文件中使用 Typescript。</p>
 <p>如果你需要向 ts-loader 传递一些自定义选项，你也可以将 <code>themeConfig.typescript</code> 设置为一个 Object 来传递给 ts-loader。</p>
 <div><p>Tips</p>
 <p>启用本主题后，你无需再依赖并启用 <code>@vuepress/plugin-typescript</code>。</p>
 </div>
 <h2 id="开启准备"> 开启准备</h2>
 <p>如果你的项目没有依赖 typescript，你需要额外安装它:</p>
+<CodeGroup>
+<CodeGroupItem title="yarn">
+<div><pre><code><span>yarn</span> <span>add</span> -D typescript
+</code></pre>
+<div><span>1</span><br></div></div></CodeGroupItem>
+<CodeGroupItem title="npm">
 <div><pre><code><span>npm</span> i -D typescript
 </code></pre>
-<div><span>1</span><br></div></div><p>同时，你需要保证你的工作区包含有效的 <code>tsconfig.json</code>。 一个最简单的 <code>tsconfig.json</code> 如下:</p>
+<div><span>1</span><br></div></div></CodeGroupItem>
+</CodeGroup>
+<p>同时，你需要保证你的工作区包含有效的 <code>tsconfig.json</code>。 一个最简单的 <code>tsconfig.json</code> 如下:</p>
 <div><pre><code><span>{</span>
   <span>"compilerOptions"</span><span>:</span> <span>{</span>
     <span>"target"</span><span>:</span> <span>"ES6"</span><span>,</span> <span>// 任何不小于 es6 的 target 均可</span>

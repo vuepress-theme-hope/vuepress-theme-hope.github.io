@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/comment/</link>
     <description>Comment Plugin for VuePress</description>
     <language>en-US</language>
-    <pubDate>Fri, 26 Feb 2021 16:17:24 GMT</pubDate>
-    <lastBuildDate>Fri, 26 Feb 2021 16:17:24 GMT</lastBuildDate>
+    <pubDate>Fri, 26 Feb 2021 16:36:11 GMT</pubDate>
+    <lastBuildDate>Fri, 26 Feb 2021 16:36:11 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -786,6 +786,13 @@ Vssue can also work with self-hosted GitLab. Set the <code>baseURL</code> option
 <p><code>&lt;Comment /&gt;</code> components are enabled globally by default. You can disable it by setting <code>comment: false</code> in frontmatter on a specific page.</p>
 <p>To keep it globally disabled, please set <code>comment</code> to <code>false</code> in the plugin options. This way you can set <code>comment: true</code> in the frontmatter of a particular page to enable it locally.</p>
 <p>You can choose from 2 comment service provider: Valine and Vssue.</p>
+<div><p>Comparison between Valine and Vssue</p>
+<ul>
+<li>Valine uses leancloud to support pageview statistics, and you can comment without logging in to any account</li>
+<li>Vssue uses the issue panel of the code platform repo and requires the user to login or register the corresponding platform account.</li>
+</ul>
+<p>If your site is for the general public rather than programmers, Valine is recommended.</p>
+</div>
 <h3 id="valine"> Valine</h3>
 <p>See <a href="./valine.html">Valine Config Guide</a></p>
 <h3 id="vssue"> Vssue</h3>
@@ -1831,6 +1838,13 @@ Vssue 同样可以配合自己搭建的 GitLab 使用。只需要将 <code>baseU
 <p><code>&lt;Comment /&gt;</code> 组件默认全局启用。你可以在特定页面的 frontmatter 中设置 <code>comment: false</code> 来局部禁用它。</p>
 <p>如果你需要保持全局禁用，请在插件选项中设置 <code>comment</code> 为 <code>false</code>。这样你可以在特定页面的 frontmatter 中设置 <code>comment: true</code> 来局部启用它。</p>
 <p>有两个评论插件可以选择: Valine 和 Vssue。</p>
+<div><p>Valine 与 Vssue 的比较</p>
+<ul>
+<li>Valine 使用 leancloud，支持页面访问量统计，无需登录账号即可评论</li>
+<li>Vssue 使用代码平台仓库的 issue 面板，需要用户登录或注册相应平台账号。</li>
+</ul>
+<p>如果你的站点面向大众而非程序员，推荐使用 Valine。</p>
+</div>
 <h3 id="valine"> Valine</h3>
 <p><a href="./valine.html">详见 Valine 指南</a></p>
 <h3 id="vssue"> Vssue</h3>
