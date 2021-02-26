@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/</link>
     <description>A vuepress theme with tons of features✨</description>
     <language>en-US</language>
-    <pubDate>Fri, 26 Feb 2021 09:39:36 GMT</pubDate>
-    <lastBuildDate>Fri, 26 Feb 2021 09:39:36 GMT</lastBuildDate>
+    <pubDate>Fri, 26 Feb 2021 12:41:36 GMT</pubDate>
+    <lastBuildDate>Fri, 26 Feb 2021 12:41:36 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -4632,6 +4632,28 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 ]]></content:encoded>
     </item>
     <item>
+      <title>Darkmode</title>
+      <link>https://vuepress-theme-hope.github.io/guide/interface/darkmode/</link>
+      <guid>https://vuepress-theme-hope.github.io/guide/interface/darkmode/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">Darkmode</source>
+      <description>&amp;lt;p&amp;gt;In dark mode, the page uses a dark background to protect your eyes.&amp;lt;/p&amp;gt;
+</description>
+      <category>interface</category>
+      <content:encoded><![CDATA[<p>In dark mode, the page uses a dark background to protect your eyes.</p>
+
+<p><img src="./assets/darkmode.png" alt="Darkmode"></p>
+<h2 id="options"> options</h2>
+<p>You can config darkmode through <code>themeConfig.darkmode</code>。</p>
+<p>Available options:</p>
+<ul>
+<li><code>'auto-switch'</code>: &quot;off | automatic | on&quot; switch (default)</li>
+<li><code>'switch'</code>: &quot;Close | Open&quot; toggle switch</li>
+<li><code>'auto'</code>: Automatically decide whether to apply dark mode based on user device’s color-scheme or current time</li>
+<li><code>'disable'</code>: disable dark mode</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
       <title>Icon support</title>
       <link>https://vuepress-theme-hope.github.io/guide/interface/icon/</link>
       <guid>https://vuepress-theme-hope.github.io/guide/interface/icon/</guid>
@@ -4677,7 +4699,7 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 </li>
 <li>
 <p>Import the link in <code>index.styl</code> of <code>.vuepress/styles</code>. E.g:</p>
-<div><pre><code><span><span>@import</span> <span>"//at.alicdn.com/t/font_1446717_8m8qc19rl5q.css"</span><span>;</span></span>
+<div><pre><code><span><span>@import</span> <span>"//at.alicdn.com/t/font_1446717_fuss5gy1ncg.css"</span><span>;</span></span>
 </code></pre>
 <div><span>1</span><br></div></div></li>
 </ol>
@@ -4708,6 +4730,29 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 ]]></content:encoded>
     </item>
     <item>
+      <title>Other features</title>
+      <link>https://vuepress-theme-hope.github.io/guide/interface/others/</link>
+      <guid>https://vuepress-theme-hope.github.io/guide/interface/others/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">Other features</source>
+      <category>interface</category>
+      <content:encoded><![CDATA[<h2 id="fullscreen-button"> Fullscreen Button</h2>
+<p>Enabled by default, it's in the theme card in navbar.</p>
+<p>If you don't need it, you can disable it by setting <code>fullscreen</code> to <code>false</code> in the themeConfig.</p>
+<div><p>Tips</p>
+<p>If the current browser does not support full screen, the full screen button is automatically hidden.</p>
+</div>
+<div><div><br><br><br><div>&nbsp;</div><br><br><br></div><pre><code><span>// .vuepress/config.js</span>
+module<span>.</span>exports <span>=</span> <span>{</span>
+  themeConfig<span>:</span> <span>{</span>
+    fullscreen<span>:</span> <span>false</span><span>,</span> <span>// Enable by default</span>
+  <span>}</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><h2 id="back-to-top-button-backtotop"> Back to top button <code>&lt;BackToTop /&gt;</code> <i>Not supported content</i></h2>
+<p><code>vuepress-theme-hope</code> adds a back-to-top control which will display after scrolling down 300px by default.</p>
+<p>You can set <code>backToTop</code> to <code>false</code> in <code>themeConfig</code> to disable it, or set it to a number to change the default trigger timing of 300px.</p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>Interface</title>
       <link>https://vuepress-theme-hope.github.io/guide/interface/</link>
       <guid>https://vuepress-theme-hope.github.io/guide/interface/</guid>
@@ -4715,38 +4760,33 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
       <content:encoded><![CDATA[<h2 id="catalog"> Catalog</h2>
 <ul>
 <li>
-<p><a href="./theme.html#dark-mode"><strong>Dark Mode</strong></a></p>
+<p><a href="./dark-mode.html"><strong>Dark Mode</strong></a></p>
 </li>
 <li>
-<p><a href="./theme.html#theme-color"><strong>Theme Color</strong></a></p>
+<p><a href="./theme-color.html"><strong>Theme Color</strong></a></p>
 </li>
 <li>
 <p><a href="./icon.html"><strong>Icon support</strong></a></p>
+</li>
+<li>
+<p><a href="./others.html"><strong>Other features</strong></a></p>
 </li>
 </ul>
 ]]></content:encoded>
     </item>
     <item>
-      <title>Theme</title>
-      <link>https://vuepress-theme-hope.github.io/guide/interface/theme/</link>
-      <guid>https://vuepress-theme-hope.github.io/guide/interface/theme/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">Theme</source>
+      <title>Theme Color</title>
+      <link>https://vuepress-theme-hope.github.io/guide/interface/theme-color/</link>
+      <guid>https://vuepress-theme-hope.github.io/guide/interface/theme-color/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">Theme Color</source>
+      <description>&amp;lt;p&amp;gt;This is an out-of-the-box feature that offers five theme color &amp;quot;red, blue, green, orange and purple&amp;quot; besides your theme color. You can also use your own theme color list.&amp;lt;/p&amp;gt;
+</description>
       <category>interface</category>
-      <content:encoded><![CDATA[<h2 id="darkmode"> Darkmode</h2>
-<p>In dark mode, the page uses a dark background to protect your eyes.</p>
-<p><img src="./assets/darkmode.png" alt="Darkmode"></p>
-<p>Dark mode support options:</p>
-<ul>
-<li><code>'auto-switch'</code>: &quot;off | automatic | on&quot; switch (default)</li>
-<li><code>'switch'</code>: &quot;Close | Open&quot; toggle switch</li>
-<li><code>'auto'</code>: Automatically decide whether to apply dark mode based on user device’s color-scheme or current time</li>
-<li><code>'disable'</code>: disable dark mode</li>
-</ul>
-<h2 id="theme-color"> Theme color</h2>
-<p>This is an out-of-the-box feature that offers five theme color &quot;red, blue, green, orange and purple&quot; besides your theme color.</p>
-<h3 id="disable"> Disable</h3>
+      <content:encoded><![CDATA[<p>This is an out-of-the-box feature that offers five theme color &quot;red, blue, green, orange and purple&quot; besides your theme color. You can also use your own theme color list.</p>
+
+<h2 id="disable"> Disable</h2>
 <p>You can disable it by setting the theme field’s <code>themeConfig.themeColor</code> to false.</p>
-<h3 id="custom-color"> Custom color</h3>
+<h2 id="custom-color"> Custom color</h2>
 <p>You need to configure <code>themeConfig.themeColor</code> in the format <code>colorname1: colorvalue, colorname2: colorvalue, ... }</code>:</p>
 <details><summary>Example</summary>
 <div><div><br><br><br><br><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><br><br></div><pre><code><span>// .vuepress/config.js</span>
@@ -4771,18 +4811,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <span>}</span></span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div></details>
-<h2 id="fullscreen-button"> Fullscreen Button</h2>
-<p>Enabled by default, you can disable it by setting <code>fullscreen</code> to <code>false</code> in the theme configuration.</p>
-<div><p>Tips</p>
-<p>If the current browser does not support full screen, the full screen button is automatically hidden.</p>
-</div>
-<div><div><br><br><br><div>&nbsp;</div><br><br><br></div><pre><code><span>// .vuepress/config.js</span>
-module<span>.</span>exports <span>=</span> <span>{</span>
-  themeConfig<span>:</span> <span>{</span>
-    fullscreen<span>:</span> <span>false</span><span>,</span> <span>// Enable by default</span>
-  <span>}</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div>]]></content:encoded>
+]]></content:encoded>
     </item>
     <item>
       <title>Home Page</title>
@@ -5251,9 +5280,6 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><p>This will render <code>.vuepress/components/SpecialLayout.vue</code> for the given page.</p>
-<h2 id="back-to-top-button-backtotop"> Back to top button <code>&lt;BackToTop /&gt;</code> <i>Not supported content</i></h2>
-<p><code>vuepress-theme-hope</code> adds a back-to-top control which will display after scrolling down 300px by default.</p>
-<p>You can set <code>backToTop</code> to <code>false</code> in <code>themeConfig</code> to disable it, or set it to a number to change the default trigger timing of 300px.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -11463,141 +11489,63 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <div><span>1</span><br><span>2</span><br><span>3</span><br></div></div>]]></content:encoded>
     </item>
     <item>
-      <title>Feed 支持</title>
-      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/feed/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/feed/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">Feed 支持</source>
+      <title>PWA</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/pwa/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/pwa/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">PWA</source>
       <category>feature</category>
-      <content:encoded><![CDATA[<p><code>vuepress-theme-hope</code> 通过 <code>@mr-hope/vuepress-plugin-feed</code> 插件来为你提供 feed 支持。如果你不需要这个功能，则可以将 <code>themeConfig.feed</code> 设置为 <code>false</code> 来禁用该插件。</p>
-<p>主题会自动为你生成以下三种格式的 feed 文件:</p>
-<ul>
-<li>Atom 1.0 (默认输出为 atom.xml)</li>
-<li>JSON 1.1 (默认输出为 feed.json)</li>
-<li>RSS 2.0 (默认输出为 rss.xml)</li>
-</ul>
-<p>考虑到现在 Feed 已经很小众，我们旨在提供最小配置来尽可能自动生成详细的 Feed 文件。</p>
-<h2 id="频道设置"> 频道设置</h2>
-<p>你可以通过设置 <code>themeConfig.feed.channel</code> 选项来自自定义 Feed 频道的各项信息。</p>
-<p>我们推荐您进行如下设置:</p>
-<ul>
-<li>将建立 Feed 的日期转换为 ISOString 写入到 <code>channel.pubDate</code> 中</li>
-<li>通过 <code>channel.ttl</code> 中设置内容的更新周期(单位: 分钟)</li>
-</ul>
-<p>详细的选项及其默认值详见 <a href="https://vuepress-theme-hope.github.io/feed/zh/config/channel/" target="_blank" rel="noopener noreferrer">Feed 插件频道设置</a></p>
-<h2 id="项目设置"> 项目设置</h2>
-<p>默认情况下，所有文章均会被添加至 feed 流。你可以通过配置 frontmatter 中的 feed 选项，对特定文章的 feed 项目生成进行控制。</p>
-<p>如果你想在 feed 中移除指定页面，你可以在该页面的 frontmatter 中将 <code>feed.enable</code> 设置为 <code>false</code>。</p>
-<p>当然你也可以通过 <code>frontmatter.feed</code> 直接向 feed 插件传入内容。详细的选项及其默认值详见 <a href="https://vuepress-theme-hope.github.io/feed/zh/config/item/" target="_blank" rel="noopener noreferrer">Feed 插件项目设置</a></p>
-<h2 id="输出配置"> 输出配置</h2>
-<p>你可通过配置选项中的 <code>output</code> 来决定输出哪些格式的 Feed 文件以及它们的位置。</p>
-<p>详细的选项及其默认值详见 <a href="https://vuepress-theme-hope.github.io/feed/zh/config/#output" target="_blank" rel="noopener noreferrer">Feed 插件输出设置</a></p>
+      <content:encoded><![CDATA[<h1 id="pwa"> PWA</h1>
+<p>默认情况下，该主题将使用 <code>@mr-hope/vuepress-plugin-pwa</code> 启用渐进式 Web 应用程序支持。如果您不需要此功能或想使用其他 pwa 插件，则可以将 <code>themeConfig.pwa</code> 设置为 <code>false</code> 来禁用该插件。</p>
+<h2 id="内容缓存和更新"> 内容缓存和更新</h2>
+<p>Service worker 成功获取内容更新后，将在右下角显示一个弹出窗口，提示用户新内容可用并允许用户触发更新。</p>
+<p>弹出窗口的默认语言将自动设置为 <code>themeConfig.baseLang</code> 。</p>
+<h2 id="manifest"> Manifest</h2>
+<p>插件将自动在输出目录生成 <code>mainfest.json</code>。如果您在 <code>.vuepress/public</code> 中有一个 manifest.webmanifest 或 manifest.json，该插件将读取并合并到最终 manifest 中。</p>
+<p>为了使您的站点能够被注册为 Web App，您应该在 <code>themeConfig.pwa.manifest.icons</code> 中设置图标。</p>
+<p>您也可以在 <code>themeConfig.pwa.manifest</code> 中设置其他选项。</p>
+<h2 id="缓存大小"> 缓存大小</h2>
+<p>为了更好地控制 Service Worker 可以预缓存的内容，可以设置 <code>themeConfig.pwa.cachePic</code> 和 <code>themeConfig.pwa.cacheHTML</code> 来决定 Service Worker 是否缓存除主页和 404 错误页外的 HTML 文件与站点图片。</p>
+<p>为了防止在预缓存列表中包含大文件，任何大于 2MB 的资源与大于 1MB 的图片都将被删除。您可以通过设置 <code>themeConfig.pwa.maxSize</code> 和 <code>themeConfig.pwa.maxPicSize</code> 来更改大小限制。</p>
+<h2 id="更多"> 更多</h2>
+<p>有关更多详细信息，请参见 <a href="https://vuepress-theme-hope.github.io/pwa/zh/" target="_blank" rel="noopener noreferrer">pwa 插件文档</a></p>
 ]]></content:encoded>
     </item>
     <item>
-      <title>页面信息</title>
-      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/page-info/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/page-info/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">页面信息</source>
+      <title>新增特性</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">新增特性</source>
       <category>feature</category>
-      <content:encoded><![CDATA[<h1 id="页面信息"> 页面信息</h1>
-<p>页面信息支持页面配置<sup></sup>。默认全局启用展示。你可以在特定页面的 <code>Front Matter</code> 中设置 <code>pageInfo: false</code> 来局部禁用它。</p>
-<p>如果你需要保持全局禁用，请设置 <code>themeConfig.pageInfo</code> 为 <code>false</code>。这样你可以在特定页面的 <code>Front Matter</code> 中设置 <code>pageInfo</code> 来局部启用它。</p>
-<h2 id="参数"> 参数 <i>Not supported content</i></h2>
-<p><code>pageInfo</code> 默认接受一个字符串数组，可以填入各条目名称，填入的顺序即是各条目显示的顺序。</p>
-<p>条目可选的值和对应内容如下:</p>
-<table>
-<thead>
-<tr>
-<th>条目</th>
-<th>对应内容</th>
-<th>页面 frontmatter 值</th>
-<th>主题设置的配置项</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>'author'</code></td>
-<td>作者</td>
-<td>author</td>
-<td>author</td>
-</tr>
-<tr>
-<td><code>'time'</code></td>
-<td>写作日期</td>
-<td>time</td>
-<td>N/A</td>
-</tr>
-<tr>
-<td><code>'category'</code></td>
-<td>分类</td>
-<td>category</td>
-<td>N/A</td>
-</tr>
-<tr>
-<td><code>'tag'</code></td>
-<td>标签</td>
-<td>tags</td>
-<td>N/A</td>
-</tr>
-<tr>
-<td><code>'readtime'</code></td>
-<td>预计阅读时间</td>
-<td>N/A(自动生成)</td>
-<td>N/A</td>
-</tr>
-<tr>
-<td><code>'word'</code></td>
-<td>字数</td>
-<td>N/A(自动生成)</td>
-<td>N/A</td>
-</tr>
-<tr>
-<td><code>'visitor'</code></td>
-<td>访问量</td>
-<td>visitor(仅 Valine 可用)</td>
-<td>comment.visitor</td>
-</tr>
-</tbody>
-</table>
-<p>默认会显示 “作者，访问量，写作日期，分类，标签，预计阅读时间”。</p>
-<h3 id="作者"> 作者 <i>Not supported content</i></h3>
-<p>例子:</p>
-<div><pre><code><span><span>---</span>
-<span><span>author</span><span>:</span> Mr.Hope</span>
-<span>---</span></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><p>作者姓名也可以在 <code>themeConfig.author</code> 中全局配置，这样每篇文章都会显示默认作者。这时，你仍可以在页面中配置 frontmatter 中的 <code>author</code> 为一个新值来覆盖默认作者，或者设置 <code>author</code> 为 <code>false</code> 取消作者显示。</p>
-<h3 id="写作日期"> 写作日期</h3>
-<p>建议 time 以标准格式输入日期，即 <code>xxxx-xx-xx</code> 的形式，如 “2020 年 4 月 1 日” 应当输入为 <code>2020-04-01</code></p>
-<p>例子:</p>
-<div><pre><code><span><span>---</span>
-<span><span>time</span><span>:</span> <span>2020-01-01</span></span>
-<span>---</span></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><h3 id="分类与标签"> 分类与标签</h3>
-<p>详见 <a href="./blog.html">博客章节</a></p>
-<h3 id="阅读时间"> 阅读时间</h3>
-<p>默认的统计方式是一分钟 300 字，你可以设置 <code>themeConfig.wordPerminute</code> 来覆盖它，该选项不支持在页面单独配置。</p>
-<h3 id="浏览量"> 浏览量 <i>Not supported content</i></h3>
-<p>当配置 <a href="./../feature/comment.html">评论功能</a> 为 Valine 时，该功能默认启用。</p>
-<p>例子:</p>
-<div><pre><code><span><span>---</span>
-<span><span>visitor</span><span>:</span> <span>false</span></span>
-<span>---</span></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><hr>
-<section>
-<ol>
-<li id="fn1"><p><strong>支持页面配置</strong> <i>Not supported content</i></p>
-<p><strong>支持页面配置</strong> 指主题允许页面的配置覆盖全局的配置。这意味着你可以在全局启用的情况下，在特定页面将其禁用，或在全局禁用的情况下在特定页面启用。</p>
-<details><summary>例子</summary>
-<p>以路径导航为例:</p>
-<p>该功能默认全局启用，即 <code>themeConfig.breadcrumb</code> 默认为 <code>true</code>，同时你可以在特定页面的 Front Matter 中设置 <code>breadcrumb: false</code> 来局部禁用它。</p>
-<p>当然你也可以将 <code>themeConfig.breadcrumb</code> 选项设置为 <code>false</code> 来全局禁用它，之在特定页面的 Front Matter 中设置 <code>breadcrumb: true</code> 来局部启用它。</p>
-</details>
- </li>
-</ol>
-</section>
+      <content:encoded><![CDATA[<h2 id="目录"> 目录</h2>
+<ul>
+<li>
+<p><a href="./page-info.html"><strong>页面信息</strong></a></p>
+</li>
+<li>
+<p><a href="./comment.html"><strong>评论功能</strong></a></p>
+</li>
+<li>
+<p><a href="./copyright.html"><strong>版权信息</strong></a></p>
+</li>
+<li>
+<p><a href="./page.html"><strong>页面增强</strong></a></p>
+</li>
+<li>
+<p><a href="./encrypt.html"><strong>加密功能</strong></a></p>
+</li>
+<li>
+<p><a href="./pwa.html"><strong>PWA 支持</strong></a></p>
+</li>
+<li>
+<p><a href="./feed.html"><strong>Feed 支持</strong></a></p>
+</li>
+<li>
+<p><a href="./seo-sitemap.html"><strong>Seo 和 Sitemap 支持</strong></a></p>
+</li>
+<li>
+<p><a href="./typescript.html"><strong>TypeScript 支持</strong></a></p>
+</li>
+</ul>
 ]]></content:encoded>
     </item>
     <item>
@@ -11910,6 +11858,28 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 ]]></content:encoded>
     </item>
     <item>
+      <title>深色模式</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/interface/darkmode/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/interface/darkmode/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">深色模式</source>
+      <description>&amp;lt;p&amp;gt;在深色模式下，页面会使用深色背景与浅色文字，以保护你的眼睛。&amp;lt;/p&amp;gt;
+</description>
+      <category>interface</category>
+      <content:encoded><![CDATA[<p>在深色模式下，页面会使用深色背景与浅色文字，以保护你的眼睛。</p>
+
+<p><img src="./assets/darkmode.png" alt="深色模式"></p>
+<h2 id="选项"> 选项</h2>
+<p>你可以通过 <code>themeConfig.darkmode</code> 来配置深色模式</p>
+<p>可选的值:</p>
+<ul>
+<li><code>'auto-switch'</code>: &quot;关闭 | 自动 | 打开&quot; 的三段式开关 (默认)</li>
+<li><code>'switch'</code>: &quot;关闭 | 打开&quot; 的切换式开关</li>
+<li><code>'auto'</code>: 自动根据用户设备主题或当前时间决定是否应用深色模式</li>
+<li><code>'disable'</code>: 禁用深色模式</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
       <title>图标支持</title>
       <link>https://vuepress-theme-hope.github.io/zh/guide/interface/icon/</link>
       <guid>https://vuepress-theme-hope.github.io/zh/guide/interface/icon/</guid>
@@ -11955,7 +11925,7 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 </li>
 <li>
 <p>在 <code>.vuepress/styles</code> 的 <code>index.styl</code> 中导入链接。例如:</p>
-<div><pre><code><span><span>@import</span> <span>"//at.alicdn.com/t/font_1446717_8m8qc19rl5q.css"</span><span>;</span></span>
+<div><pre><code><span><span>@import</span> <span>"//at.alicdn.com/t/font_1446717_fuss5gy1ncg.css"</span><span>;</span></span>
 </code></pre>
 <div><span>1</span><br></div></div></li>
 </ol>
@@ -11986,6 +11956,29 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 ]]></content:encoded>
     </item>
     <item>
+      <title>其他界面功能</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/interface/others/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/interface/others/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">其他界面功能</source>
+      <category>interface</category>
+      <content:encoded><![CDATA[<h2 id="全屏按钮"> 全屏按钮</h2>
+<p>默认启用，显示在导航栏的主题选项卡中。</p>
+<p>如果你不需要这个功能，你可以在主题配置中将 <code>fullscreen</code> 设置为 <code>false</code>。</p>
+<div><p>Tips</p>
+<p>如果当前浏览器不支持全屏，则全屏按钮会自动隐藏。</p>
+</div>
+<div><div><br><br><br><div>&nbsp;</div><br><br><br></div><pre><code><span>// .vuepress/config.js</span>
+module<span>.</span>exports <span>=</span> <span>{</span>
+  themeConfig<span>:</span> <span>{</span>
+    fullscreen<span>:</span> <span>false</span><span>,</span> <span>// 默认启用，设置 false 将其关闭</span>
+  <span>}</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><h2 id="返回顶部按钮-backtotop"> 返回顶部按钮 <code>&lt;BackToTop /&gt;</code> <i>Not supported content</i></h2>
+<p><code>vuepress-theme-hope</code> 添加了一个返回顶部控件，默认情况下将在下滑 300px 后显示。</p>
+<p>你可以在 <code>themeConfig</code> 将 <code>backToTop</code> 设置为 <code>false</code> 来禁用它，或者是设置为一个数字以更改默认的 300px 触发时机。</p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>界面</title>
       <link>https://vuepress-theme-hope.github.io/zh/guide/interface/</link>
       <guid>https://vuepress-theme-hope.github.io/zh/guide/interface/</guid>
@@ -11993,38 +11986,30 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
       <content:encoded><![CDATA[<h2 id="目录"> 目录</h2>
 <ul>
 <li>
-<p><a href="./theme.html#dark-mode"><strong>深色模式</strong></a></p>
+<p><a href="./dark-mode.html"><strong>深色模式</strong></a></p>
 </li>
 <li>
-<p><a href="./theme.html#theme-color"><strong>主题色</strong></a></p>
+<p><a href="./theme-color.html"><strong>主题色</strong></a></p>
 </li>
 <li>
 <p><a href="./icon.html"><strong>图标支持</strong></a></p>
+</li>
+<li>
+<p><a href="./others.html"><strong>其他功能</strong></a></p>
 </li>
 </ul>
 ]]></content:encoded>
     </item>
     <item>
-      <title>主题</title>
-      <link>https://vuepress-theme-hope.github.io/zh/guide/interface/theme/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/guide/interface/theme/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">主题</source>
+      <title>主题色</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/interface/theme-color/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/interface/theme-color/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">主题色</source>
       <category>interface</category>
-      <content:encoded><![CDATA[<h2 id="深色模式"> 深色模式</h2>
-<p>在深色模式下，页面会使用深色背景以保护你的眼睛。</p>
-<p><img src="./assets/darkmode.png" alt="深色模式"></p>
-<p>深色模式支持选项:</p>
-<ul>
-<li><code>'auto-switch'</code>: &quot;关闭 | 自动 | 打开&quot; 的三段式开关 (默认)</li>
-<li><code>'switch'</code>: &quot;关闭 | 打开&quot; 的切换式开关</li>
-<li><code>'auto'</code>: 自动根据用户设备主题或当前时间决定是否应用深色模式</li>
-<li><code>'disable'</code>: 禁用深色模式</li>
-</ul>
-<h2 id="主题色"> 主题色</h2>
-<p>这是一个开箱即用的功能，除了你的主题色之外，还提供 “红、蓝、绿、橙、紫” 五种颜色主题。</p>
-<h3 id="禁用功能"> 禁用功能</h3>
+      <content:encoded><![CDATA[<p>这是一个开箱即用的功能，除了你的主题色之外，还提供 “红、蓝、绿、橙、紫” 五种颜色主题。你也可以定制自己的主题色选择列表。</p>
+<h2 id="禁用功能"> 禁用功能</h2>
 <p>你可以将 <code>themeConfig</code> 的 <code>themeColor</code> 设置为 <code>false</code> 来禁用它。</p>
-<h3 id="自定义颜色"> 自定义颜色</h3>
+<h2 id="自定义颜色"> 自定义颜色</h2>
 <p>你需要按照 <code>{ 颜色名1: 颜色值, 颜色名2: 颜色值, ... }</code> 的格式来配置 <code>themeConfig.themeColor</code>:</p>
 <details><summary>例子</summary>
 <div><div><br><br><br><br><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><br><br></div><pre><code><span>// .vuepress/config.js</span>
@@ -12050,18 +12035,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <span>}</span></span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div></details>
-<h2 id="全屏按钮"> 全屏按钮</h2>
-<p>默认启用，可在主题配置中将 <code>fullscreen</code> 设置为 <code>false</code> 将其取消。</p>
-<div><p>Tips</p>
-<p>如果当前浏览器不支持全屏，则全屏按钮会自动隐藏。</p>
-</div>
-<div><div><br><br><br><div>&nbsp;</div><br><br><br></div><pre><code><span>// .vuepress/config.js</span>
-module<span>.</span>exports <span>=</span> <span>{</span>
-  themeConfig<span>:</span> <span>{</span>
-    fullscreen<span>:</span> <span>false</span><span>,</span> <span>// 默认启用，设置 false 将其关闭</span>
-  <span>}</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div>]]></content:encoded>
+]]></content:encoded>
     </item>
     <item>
       <title>首页</title>
@@ -12510,9 +12484,6 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><p>这将会为当前的页面渲染 <code>.vuepress/components/SpecialLayout.vue</code> 布局。</p>
-<h2 id="返回顶部按钮-backtotop"> 返回顶部按钮 <code>&lt;BackToTop /&gt;</code> <i>Not supported content</i></h2>
-<p><code>vuepress-theme-hope</code> 添加了一个返回顶部控件，默认情况下将在下滑 300px 后显示。</p>
-<p>你可以在 <code>themeConfig</code> 将 <code>backToTop</code> 设置为 <code>false</code> 来禁用它，或者是设置为一个数字以更改默认的 300px 触发时机。</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -14175,66 +14146,6 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 ]]></content:encoded>
     </item>
     <item>
-      <title>新增特性</title>
-      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">新增特性</source>
-      <category>feature</category>
-      <content:encoded><![CDATA[<h2 id="目录"> 目录</h2>
-<ul>
-<li>
-<p><a href="./page-info.html"><strong>页面信息</strong></a></p>
-</li>
-<li>
-<p><a href="./comment.html"><strong>评论功能</strong></a></p>
-</li>
-<li>
-<p><a href="./copyright.html"><strong>版权信息</strong></a></p>
-</li>
-<li>
-<p><a href="./page.html"><strong>页面增强</strong></a></p>
-</li>
-<li>
-<p><a href="./encrypt.html"><strong>加密功能</strong></a></p>
-</li>
-<li>
-<p><a href="./pwa.html"><strong>PWA 支持</strong></a></p>
-</li>
-<li>
-<p><a href="./feed.html"><strong>Feed 支持</strong></a></p>
-</li>
-<li>
-<p><a href="./seo-sitemap.html"><strong>Seo 和 Sitemap 支持</strong></a></p>
-</li>
-<li>
-<p><a href="./typescript.html"><strong>TypeScript 支持</strong></a></p>
-</li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>PWA</title>
-      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/pwa/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/pwa/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">PWA</source>
-      <category>feature</category>
-      <content:encoded><![CDATA[<h1 id="pwa"> PWA</h1>
-<p>默认情况下，该主题将使用 <code>@mr-hope/vuepress-plugin-pwa</code> 启用渐进式 Web 应用程序支持。如果您不需要此功能或想使用其他 pwa 插件，则可以将 <code>themeConfig.pwa</code> 设置为 <code>false</code> 来禁用该插件。</p>
-<h2 id="内容缓存和更新"> 内容缓存和更新</h2>
-<p>Service worker 成功获取内容更新后，将在右下角显示一个弹出窗口，提示用户新内容可用并允许用户触发更新。</p>
-<p>弹出窗口的默认语言将自动设置为 <code>themeConfig.baseLang</code> 。</p>
-<h2 id="manifest"> Manifest</h2>
-<p>插件将自动在输出目录生成 <code>mainfest.json</code>。如果您在 <code>.vuepress/public</code> 中有一个 manifest.webmanifest 或 manifest.json，该插件将读取并合并到最终 manifest 中。</p>
-<p>为了使您的站点能够被注册为 Web App，您应该在 <code>themeConfig.pwa.manifest.icons</code> 中设置图标。</p>
-<p>您也可以在 <code>themeConfig.pwa.manifest</code> 中设置其他选项。</p>
-<h2 id="缓存大小"> 缓存大小</h2>
-<p>为了更好地控制 Service Worker 可以预缓存的内容，可以设置 <code>themeConfig.pwa.cachePic</code> 和 <code>themeConfig.pwa.cacheHTML</code> 来决定 Service Worker 是否缓存除主页和 404 错误页外的 HTML 文件与站点图片。</p>
-<p>为了防止在预缓存列表中包含大文件，任何大于 2MB 的资源与大于 1MB 的图片都将被删除。您可以通过设置 <code>themeConfig.pwa.maxSize</code> 和 <code>themeConfig.pwa.maxPicSize</code> 来更改大小限制。</p>
-<h2 id="更多"> 更多</h2>
-<p>有关更多详细信息，请参见 <a href="https://vuepress-theme-hope.github.io/pwa/zh/" target="_blank" rel="noopener noreferrer">pwa 插件文档</a></p>
-]]></content:encoded>
-    </item>
-    <item>
       <title>页面增强</title>
       <link>https://vuepress-theme-hope.github.io/zh/guide/feature/page/</link>
       <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/page/</guid>
@@ -14252,6 +14163,144 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 <p>有关更多选项，请参阅 <a href="https://vuepress-theme-hope.github.io/copy-code/zh/config/" target="_blank" rel="noopener noreferrer">copy-code 插件文档</a></p>
 <h2 id="页脚支持"> 页脚支持 <i>Not supported content</i></h2>
 <p>请参见 <a href="./../layout/page.html#页脚支持">布局 → 页面 → 页脚部分</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>页面信息</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/page-info/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/page-info/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">页面信息</source>
+      <category>feature</category>
+      <content:encoded><![CDATA[<h1 id="页面信息"> 页面信息</h1>
+<p>页面信息支持页面配置<sup></sup>。默认全局启用展示。你可以在特定页面的 <code>Front Matter</code> 中设置 <code>pageInfo: false</code> 来局部禁用它。</p>
+<p>如果你需要保持全局禁用，请设置 <code>themeConfig.pageInfo</code> 为 <code>false</code>。这样你可以在特定页面的 <code>Front Matter</code> 中设置 <code>pageInfo</code> 来局部启用它。</p>
+<h2 id="参数"> 参数 <i>Not supported content</i></h2>
+<p><code>pageInfo</code> 默认接受一个字符串数组，可以填入各条目名称，填入的顺序即是各条目显示的顺序。</p>
+<p>条目可选的值和对应内容如下:</p>
+<table>
+<thead>
+<tr>
+<th>条目</th>
+<th>对应内容</th>
+<th>页面 frontmatter 值</th>
+<th>主题设置的配置项</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>'author'</code></td>
+<td>作者</td>
+<td>author</td>
+<td>author</td>
+</tr>
+<tr>
+<td><code>'time'</code></td>
+<td>写作日期</td>
+<td>time</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td><code>'category'</code></td>
+<td>分类</td>
+<td>category</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td><code>'tag'</code></td>
+<td>标签</td>
+<td>tags</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td><code>'readtime'</code></td>
+<td>预计阅读时间</td>
+<td>N/A(自动生成)</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td><code>'word'</code></td>
+<td>字数</td>
+<td>N/A(自动生成)</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td><code>'visitor'</code></td>
+<td>访问量</td>
+<td>visitor(仅 Valine 可用)</td>
+<td>comment.visitor</td>
+</tr>
+</tbody>
+</table>
+<p>默认会显示 “作者，访问量，写作日期，分类，标签，预计阅读时间”。</p>
+<h3 id="作者"> 作者 <i>Not supported content</i></h3>
+<p>例子:</p>
+<div><pre><code><span><span>---</span>
+<span><span>author</span><span>:</span> Mr.Hope</span>
+<span>---</span></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><p>作者姓名也可以在 <code>themeConfig.author</code> 中全局配置，这样每篇文章都会显示默认作者。这时，你仍可以在页面中配置 frontmatter 中的 <code>author</code> 为一个新值来覆盖默认作者，或者设置 <code>author</code> 为 <code>false</code> 取消作者显示。</p>
+<h3 id="写作日期"> 写作日期</h3>
+<p>建议 time 以标准格式输入日期，即 <code>xxxx-xx-xx</code> 的形式，如 “2020 年 4 月 1 日” 应当输入为 <code>2020-04-01</code></p>
+<p>例子:</p>
+<div><pre><code><span><span>---</span>
+<span><span>time</span><span>:</span> <span>2020-01-01</span></span>
+<span>---</span></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><h3 id="分类与标签"> 分类与标签</h3>
+<p>详见 <a href="./blog.html">博客章节</a></p>
+<h3 id="阅读时间"> 阅读时间</h3>
+<p>默认的统计方式是一分钟 300 字，你可以设置 <code>themeConfig.wordPerminute</code> 来覆盖它，该选项不支持在页面单独配置。</p>
+<h3 id="浏览量"> 浏览量 <i>Not supported content</i></h3>
+<p>当配置 <a href="./../feature/comment.html">评论功能</a> 为 Valine 时，该功能默认启用。</p>
+<p>例子:</p>
+<div><pre><code><span><span>---</span>
+<span><span>visitor</span><span>:</span> <span>false</span></span>
+<span>---</span></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><hr>
+<section>
+<ol>
+<li id="fn1"><p><strong>支持页面配置</strong> <i>Not supported content</i></p>
+<p><strong>支持页面配置</strong> 指主题允许页面的配置覆盖全局的配置。这意味着你可以在全局启用的情况下，在特定页面将其禁用，或在全局禁用的情况下在特定页面启用。</p>
+<details><summary>例子</summary>
+<p>以路径导航为例:</p>
+<p>该功能默认全局启用，即 <code>themeConfig.breadcrumb</code> 默认为 <code>true</code>，同时你可以在特定页面的 Front Matter 中设置 <code>breadcrumb: false</code> 来局部禁用它。</p>
+<p>当然你也可以将 <code>themeConfig.breadcrumb</code> 选项设置为 <code>false</code> 来全局禁用它，之在特定页面的 Front Matter 中设置 <code>breadcrumb: true</code> 来局部启用它。</p>
+</details>
+ </li>
+</ol>
+</section>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Feed 支持</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/feed/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/feed/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">Feed 支持</source>
+      <category>feature</category>
+      <content:encoded><![CDATA[<p><code>vuepress-theme-hope</code> 通过 <code>@mr-hope/vuepress-plugin-feed</code> 插件来为你提供 feed 支持。如果你不需要这个功能，则可以将 <code>themeConfig.feed</code> 设置为 <code>false</code> 来禁用该插件。</p>
+<p>主题会自动为你生成以下三种格式的 feed 文件:</p>
+<ul>
+<li>Atom 1.0 (默认输出为 atom.xml)</li>
+<li>JSON 1.1 (默认输出为 feed.json)</li>
+<li>RSS 2.0 (默认输出为 rss.xml)</li>
+</ul>
+<p>考虑到现在 Feed 已经很小众，我们旨在提供最小配置来尽可能自动生成详细的 Feed 文件。</p>
+<h2 id="频道设置"> 频道设置</h2>
+<p>你可以通过设置 <code>themeConfig.feed.channel</code> 选项来自自定义 Feed 频道的各项信息。</p>
+<p>我们推荐您进行如下设置:</p>
+<ul>
+<li>将建立 Feed 的日期转换为 ISOString 写入到 <code>channel.pubDate</code> 中</li>
+<li>通过 <code>channel.ttl</code> 中设置内容的更新周期(单位: 分钟)</li>
+</ul>
+<p>详细的选项及其默认值详见 <a href="https://vuepress-theme-hope.github.io/feed/zh/config/channel/" target="_blank" rel="noopener noreferrer">Feed 插件频道设置</a></p>
+<h2 id="项目设置"> 项目设置</h2>
+<p>默认情况下，所有文章均会被添加至 feed 流。你可以通过配置 frontmatter 中的 feed 选项，对特定文章的 feed 项目生成进行控制。</p>
+<p>如果你想在 feed 中移除指定页面，你可以在该页面的 frontmatter 中将 <code>feed.enable</code> 设置为 <code>false</code>。</p>
+<p>当然你也可以通过 <code>frontmatter.feed</code> 直接向 feed 插件传入内容。详细的选项及其默认值详见 <a href="https://vuepress-theme-hope.github.io/feed/zh/config/item/" target="_blank" rel="noopener noreferrer">Feed 插件项目设置</a></p>
+<h2 id="输出配置"> 输出配置</h2>
+<p>你可通过配置选项中的 <code>output</code> 来决定输出哪些格式的 Feed 文件以及它们的位置。</p>
+<p>详细的选项及其默认值详见 <a href="https://vuepress-theme-hope.github.io/feed/zh/config/#output" target="_blank" rel="noopener noreferrer">Feed 插件输出设置</a></p>
 ]]></content:encoded>
     </item>
   </channel>
