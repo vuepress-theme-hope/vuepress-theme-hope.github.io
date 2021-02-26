@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/</link>
     <description>A vuepress theme with tons of features✨</description>
     <language>en-US</language>
-    <pubDate>Fri, 26 Feb 2021 08:11:21 GMT</pubDate>
-    <lastBuildDate>Fri, 26 Feb 2021 08:11:21 GMT</lastBuildDate>
+    <pubDate>Fri, 26 Feb 2021 09:31:03 GMT</pubDate>
+    <lastBuildDate>Fri, 26 Feb 2021 09:31:03 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -3861,10 +3861,6 @@ write something here ~
 <p>Do not add and place the corresponding folders (&quot;tag&quot;, &quot;article&quot;, &quot;timeline&quot;) in the root directory, otherwise the files may be overwritten during compilation and cause errors.</p>
 <p>If you do need an &quot;articles&quot; folder, consider using &quot;articles&quot;.</p>
 </div>
-<h2 id="copyright-information"> Copyright Information</h2>
-<p>Sometimes, you may not want some of your articles to be copied by others, or you want others to automatically generate a piece of copyright information to the clipboard when copying.</p>
-<p>You can configure this content on the page. Setting <code>copyright.noCopy</code> to <code>true</code> in frontmatter will disable copying of this page, and setting <code>copyright.noSelect</code> to <code>true</code> will disable the selection of this page.</p>
-<p>You can also use <code>copyright.minLength</code> to set the minimum number of characters to trigger copying or append copyright information. The default is <code>100</code>.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -4050,51 +4046,41 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <div><p>Tips</p>
 <p>You can go to the repository <a href="https://github.com/meteorlxy/vssue-demo" target="_blank" rel="noopener noreferrer">meteorlxy/vssue-demo</a> to get the demo code.</p>
 </div>
-<h3 id="custom-style-variables"> Custom Style Variables</h3>
-<p>With the power of <a href="https://vuepress.vuejs.org/config/#palette-styl" target="_blank" rel="noopener noreferrer">palette.styl</a> of VuePress, you can set the Variables of Vssue Style.</p>
-<p>There are some predefined <a href="http://stylus-lang.com/docs/variables.html" target="_blank" rel="noopener noreferrer">Stylus variables</a> of Vssue, and you can check them in <code>vssue/src/styles/_variables.styl</code>:</p>
-<div><pre><code><span>// the main color</span>
-$vssue-theme-color
-
-<span>// the text color (used for common text)</span>
-$vssue-text-color
-
-<span>// the text light color (used for muted text, disabled text, etc)</span>
-$vssue-text-light-color
-
-<span>// the border color</span>
-$vssue-border-color
-
-<span>// the progress color</span>
-$vssue-progress-color
-
-<span>// the font size</span>
-$vssue-font-size
-
-<span>// the font family</span>
-$vssue-font-family
-
-<span>// the mobile breakpoint</span>
-$vssue-breakpoint-mobile
-
-<span>// the text direction (ltr / rtl) (used for RTL languages, e.g. Hebrew)</span>
-$vssue-direction
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br></div></div><p>For example, Vssue use a &quot;Vue green&quot; (<code>#3eaf7c</code>) as the theme color, which is defined as the default value of variable <code>$vssue-theme-color</code>. You can change the theme color by setting <code>$vssue-theme-color</code> before import <code>vssue/src/styles/index.styl</code>.</p>
-<p>By default, those Vssue variables are set to VuePress variables:</p>
-<div><pre><code><span>// @vssue/vuepress-plugin-vssue/styles/index.styl</span>
-
-<span><span>$vssue-theme-color</span> <span>?=</span> $accentColor</span>
-<span><span>$vssue-text-color</span> <span>?=</span> $textColor</span>
-<span><span>$vssue-border-color</span> <span>?=</span> $borderColor</span>
-<span><span>$vssue-breakpoint-mobile</span> <span>?=</span> $MQMobile</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>To override them, set them in your <code>palette.styl</code>:</p>
-<div><pre><code><span>// .vuepress/styles/palette.styl</span>
-
-<span><span>$vssue-theme-color</span> <span>=</span> <span>red</span></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div>]]></content:encoded>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Copyright</title>
+      <link>https://vuepress-theme-hope.github.io/guide/feature/copyright/</link>
+      <guid>https://vuepress-theme-hope.github.io/guide/feature/copyright/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">Copyright</source>
+      <category>feature</category>
+      <content:encoded><![CDATA[<p>Sometimes, you may not want some of your articles to be copied by others, or you want others to automatically generate a piece of copyright information to the clipboard when copying.</p>
+<p><code>vuepress-theme-hope</code> introduced <a href="https://www.npmjs.com/package/vuepress-plugin-copyright" target="_blank" rel="noopener noreferrer">vuepress-plugin-copyright</a> to provide related features.</p>
+<h2 id="enable-plugin"> Enable plugin</h2>
+<p>Since part of users use this theme for building documents, and document sites usually do not require additional copyright information, this plugin is not enabled by default.</p>
+<p>To enable this plugin, you need to set <code>copyright</code> in <code>themeConfig</code> to <code>true</code>, or set <code>copyright.status</code> to enable it. The optional values of <code>copyright.status</code> are <code>global</code> and <code>local</code>. The default value is <code>global</code>, representing globally enabled (also the state of <code>themeConfig.copyright: true</code>).</p>
+<h2 id="usage"> Usage</h2>
+<p>By default, when users copy a message of more than 100 words from your site, a copyright infomation will append the end of the message.</p>
+<p>The author name of the copyright statement will be automatically generated from the author information or site name configured in the theme.</p>
+<h3 id="trigger-length"> Trigger length <i>Not supported content</i></h3>
+<p>You can use <code>copyright.minLength</code> to set the minimum number of characters that triggers to disable copying or append copyright information, the default is <code>100</code>.</p>
+<p>This property can be set in both themeConfig and frontmatter. The former will be automatically applied globally, while the latter only applies to specific pages with higher priority than the former.</p>
+<h3 id="disable-copying"> Disable Copying</h3>
+<p>Set <code>copyright.noCopy</code> to <code>true</code> in frontmatter.</p>
+<div><p>Tips</p>
+<p>This behavior is controlled by <code>minLength</code>, which means when the content does not reach the value of <code>minLength</code>, the user can still perform the copy operation.</p>
+</div>
+<h3 id="disable-selection"> Disable Selection</h3>
+<p>Set <code>copyright.noSelect</code> to <code>true</code> in frontmatter.</p>
+<h2 id="demo"> Demo</h2>
+<p>Please copy this text and paste it to any location to see the effect. Please copy this text and paste it to any location to see the effect. Please copy this text and paste it to any location to see the effect. Please copy this text and paste it to any location to see the effect. Please copy this text and paste it to any location to see the effect. Please copy this text and paste it to any location to see the effect. Please copy this text and paste it to any location to see the effect. Please copy this text and paste it to any location to see the effect. Please copy this text and paste it to any location to see the effect. Please copy this text and paste it to any location to see the effect.</p>
+<h2 id="documentation"> Documentation</h2>
+<p>For more information about this plugin, please refer to <a href="https://vuepress.github.io/zh/plugins/copyright/#%E9%85%8D%E7%BD%AE%E9%A1%B9" target="_blank" rel="noopener noreferrer">vuepress-plugin-copyright docs</a></p>
+<div><p>Note</p>
+<p>This is a vuepress community plugin, not a built-in plugin.</p>
+<p>If you encounter problems, please go to <a href="https://github.com/vuepress/vuepress-plugin-copyright" target="_blank" rel="noopener noreferrer">its repo</a> for help.</p>
+</div>
+]]></content:encoded>
     </item>
     <item>
       <title>Encryption function</title>
@@ -4309,6 +4295,9 @@ $vssue-direction
 </li>
 <li>
 <p><a href="./comment.html"><strong>Comment function</strong></a></p>
+</li>
+<li>
+<p><a href="./copyright.html"><strong>Copyright info</strong></a></p>
 </li>
 <li>
 <p><a href="./page.html"><strong>Page Enhance</strong></a></p>
@@ -4688,7 +4677,7 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 </li>
 <li>
 <p>Import the link in <code>index.styl</code> of <code>.vuepress/styles</code>. E.g:</p>
-<div><pre><code><span><span>@import</span> <span>"//at.alicdn.com/t/font_1446717_tu6veyewux.css"</span><span>;</span></span>
+<div><pre><code><span><span>@import</span> <span>"//at.alicdn.com/t/font_1446717_8m8qc19rl5q.css"</span><span>;</span></span>
 </code></pre>
 <div><span>1</span><br></div></div></li>
 </ol>
@@ -11210,10 +11199,6 @@ export default { // Highlighted
 <p>请勿在根目录中添加并放置对应的文件夹(&quot;tag&quot;, &quot;article&quot;, &quot;timeline&quot;)，否则可能造成编译时文件被覆盖而造成错误。</p>
 <p>如果你的确需要一个“文章”文件夹的话，请考虑使用 &quot;articles&quot;。</p>
 </div>
-<h2 id="版权信息"> 版权信息</h2>
-<p>有些时候，你可能不想让你的某些文章被他人复制，或者你想让他人在复制时，自动生成一段版权信息到剪切板中。</p>
-<p>你可以在页面中配置这一内容，在 frontmatter 中讲 <code>copyright.noCopy</code> 设置为 <code>true</code> 会禁用该页面的复制，设置 <code>copyright.noSelect</code> 为 <code>true</code> 会禁止该页面的选中。</p>
-<p>你还可以通过 <code>copyright.minLength</code> 设置触发禁用复制或者追加版权信息的最小字符数，默认为 <code>100</code>。</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -11317,13 +11302,26 @@ export default { // Highlighted
 ]]></content:encoded>
     </item>
     <item>
-      <title>评论功能</title>
+      <title>评论</title>
       <link>https://vuepress-theme-hope.github.io/zh/guide/feature/comment/</link>
       <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/comment/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">评论功能</source>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">评论</source>
+      <description>&amp;lt;p&amp;gt;&amp;lt;code&amp;gt;vuepress-theme-hope&amp;lt;/code&amp;gt; 通过内置 &amp;lt;code&amp;gt;@mr-hope/vuepress-plugin-comment&amp;lt;/code&amp;gt;，实现了评论功能。&amp;lt;/p&amp;gt;
+&amp;lt;div&amp;gt;&amp;lt;div&amp;gt;&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;div&amp;gt;&amp;nbsp;&amp;lt;/div&amp;gt;&amp;lt;div&amp;gt;&amp;nbsp;&amp;lt;/div&amp;gt;&amp;lt;div&amp;gt;&amp;nbsp;&amp;lt;/div&amp;gt;&amp;lt;div&amp;gt;&amp;nbsp;&amp;lt;/div&amp;gt;&amp;lt;div&amp;gt;&amp;nbsp;&amp;lt;/div&amp;gt;&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;pre&amp;gt;&amp;lt;code&amp;gt;&amp;lt;span&amp;gt;// .vuepress/config.js&amp;lt;/span&amp;gt;
+module&amp;lt;span&amp;gt;.&amp;lt;/span&amp;gt;exports &amp;lt;span&amp;gt;=&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;{&amp;lt;/span&amp;gt;
+  themeConfig&amp;lt;span&amp;gt;:&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;{&amp;lt;/span&amp;gt;
+    comment&amp;lt;span&amp;gt;:&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;{&amp;lt;/span&amp;gt;
+      type&amp;lt;span&amp;gt;:&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;&amp;quot;valine&amp;quot;&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;// 使用 Valine&amp;lt;/span&amp;gt;
+      appId&amp;lt;span&amp;gt;:&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;&amp;quot;...&amp;quot;&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;// your appId&amp;lt;/span&amp;gt;
+      appKey&amp;lt;span&amp;gt;:&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;&amp;quot;...&amp;quot;&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;// your appKey&amp;lt;/span&amp;gt;
+    &amp;lt;span&amp;gt;}&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;/span&amp;gt;
+  &amp;lt;span&amp;gt;}&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;/span&amp;gt;
+&amp;lt;span&amp;gt;}&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;;&amp;lt;/span&amp;gt;
+&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;div&amp;gt;&amp;lt;span&amp;gt;1&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;2&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;3&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;4&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;5&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;6&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;7&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;8&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;9&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;10&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;p&amp;gt;评论功能 &amp;lt;i&amp;gt;Not supported content&amp;lt;/i&amp;gt; 默认全局启用，配置项为 &amp;lt;code&amp;gt;comment&amp;lt;/code&amp;gt;。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;有两个评论插件可以选择: Valine 和 Vssue。&amp;lt;/p&amp;gt;
+</description>
       <category>feature</category>
-      <content:encoded><![CDATA[<h1 id="评论功能"> 评论功能</h1>
-<p><code>vuepress-theme-hope</code> 通过内置 <code>@mr-hope/vuepress-plugin-comment</code>，实现了评论功能。</p>
+      <content:encoded><![CDATA[<p><code>vuepress-theme-hope</code> 通过内置 <code>@mr-hope/vuepress-plugin-comment</code>，实现了评论功能。</p>
 <div><div><br><br><br><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><br><br><br></div><pre><code><span>// .vuepress/config.js</span>
 module<span>.</span>exports <span>=</span> <span>{</span>
   themeConfig<span>:</span> <span>{</span>
@@ -11336,6 +11334,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <span>}</span><span>;</span>
 </code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br></div></div><p>评论功能 <i>Not supported content</i> 默认全局启用，配置项为 <code>comment</code>。</p>
 <p>有两个评论插件可以选择: Valine 和 Vssue。</p>
+
 <div><p>Tips</p>
 <p>如果你希望看到更详细的评论设置，可以访问 <a href="https://vuepress-theme-hope.github.io/comment" target="_blank" rel="noopener noreferrer">@mr-hope/vuepress-plugin-comment 插件文档</a></p>
 </div>
@@ -11396,53 +11395,44 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <li>Platform <code>gitea</code> - API 包 <code>@vssue/api-gitea-v1</code></li>
 </ul>
 </div>
-<h3 id="自定义样式变量"> 自定义样式变量</h3>
-<p>通过 VuePress 的 <a href="https://vuepress.vuejs.org/zh/config/#palette-styl" target="_blank" rel="noopener noreferrer">palette.styl</a>，你可以很轻松地修改 Vssue 的样式变量。</p>
-<p>Vssue 样式中预定义了一些 <a href="http://stylus-lang.com/docs/variables.html" target="_blank" rel="noopener noreferrer">Stylus 变量</a>，你可以在 <code>vssue/src/styles/_variables.styl</code> 中查看它们:</p>
-<div><pre><code><span>// 主题颜色</span>
-$vssue-theme-color
+]]></content:encoded>
+    </item>
+    <item>
+      <title>版权信息</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/copyright/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/copyright/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">版权信息</source>
+      <description>&amp;lt;p&amp;gt;有些时候，你可能不想让你的某些文章被他人复制，或者你想让他人在复制时，自动生成一段版权信息到剪切板中。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;为针对这一情况，&amp;lt;code&amp;gt;vuepress-theme-hope&amp;lt;/code&amp;gt; 引入了 &amp;lt;a href=&amp;quot;https://www.npmjs.com/package/vuepress-plugin-copyright&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;vuepress-plugin-copyright&amp;lt;/a&amp;gt;。&amp;lt;/p&amp;gt;
+</description>
+      <category>feature</category>
+      <content:encoded><![CDATA[<p>有些时候，你可能不想让你的某些文章被他人复制，或者你想让他人在复制时，自动生成一段版权信息到剪切板中。</p>
+<p>为针对这一情况，<code>vuepress-theme-hope</code> 引入了 <a href="https://www.npmjs.com/package/vuepress-plugin-copyright" target="_blank" rel="noopener noreferrer">vuepress-plugin-copyright</a>。</p>
 
-<span>// 文字颜色  (用于普通文字)</span>
-$vssue-text-color
-
-<span>// 浅色文字颜色  (用于备注等文字)</span>
-$vssue-text-light-color
-
-<span>// 边框颜色</span>
-$vssue-border-color
-
-<span>// 进度条颜色</span>
-$vssue-progress-color
-
-<span>// 文字大小</span>
-$vssue-font-size
-
-<span>// 字体</span>
-$vssue-font-family
-
-<span>// 切换为移动端模式的屏幕宽度</span>
-$vssue-breakpoint-mobile
-
-<span>// 文字方向 (ltr / rtl)  (为 RTL 语言使用，如希伯来语等)</span>
-$vssue-direction
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br></div></div><p>举例来说，Vssue 默认使用一个“Vue 绿色” (<code>#3eaf7c</code>) 作为主题颜色，并将其设置为 <code>$vssue-theme-color</code> 的默认值。你可以在引入 <code>vssue/src/styles/index.styl</code> 之前设置 <code>$vssue-theme-color</code> 的值来改变主题颜色。</p>
-<p>默认情况下，下面这些 Vssue 的样式变量与 VuePress 的样式变量相等:</p>
-<div><pre><code><span>// @vssue/vuepress-plugin-vssue/styles/index.styl</span>
-
-<span><span>$vssue-theme-color</span> <span>?=</span> $accentColor</span>
-<span><span>$vssue-text-color</span> <span>?=</span> $textColor</span>
-<span><span>$vssue-border-color</span> <span>?=</span> $borderColor</span>
-<span><span>$vssue-breakpoint-mobile</span> <span>?=</span> $MQMobile</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>如果你想要覆盖它们，在你的 <code>palette.styl</code> 中设置即可:</p>
-<div><pre><code><span>// .vuepress/styles/palette.styl</span>
-
-<span><span>$accentColor</span> <span>=</span> <span>blue</span></span>
-
-<span><span>$vssue-theme-color</span> <span>=</span> <span>red</span></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div>]]></content:encoded>
+<h2 id="启用插件"> 启用插件</h2>
+<p>由于相当一部分用户将本主题用于构建文档，而文档站点通常不需要附加版权信息，所以本插件并不是默认启用的。</p>
+<p>启用本插件，你需要将主题配置中的 <code>copyright</code> 设置为 true，或者设置 <code>copyright.status</code> 才能启用它。<code>copyright.status</code> 可选的值为 <code>global</code> 和 <code>local</code>，。默认的值是 <code>global</code> 即全局启用 (也是 <code>themeConfig.copyright: true</code> 的状态)。</p>
+<h2 id="使用"> 使用</h2>
+<p>默认设置下，当用户从你的站点复制超过 100 字的消息时，在这段消息的尾部添加版权声明消息。</p>
+<p>版权声明的作者名称会从你在主题中配置的作者信息或站点名称自动生成。</p>
+<h3 id="触发字符数"> 触发字符数 <i>Not supported content</i></h3>
+<p>你可以通过 <code>copyright.minLength</code> 设置触发禁用复制或者追加版权信息的最小字符数，默认为 <code>100</code>。</p>
+<p>在 themeConfig 和 frontmatter 均可以设置这一属性，前者会自动应用于全局，而后者仅作用于特定页面优先级高于前者。</p>
+<h3 id="禁止复制"> 禁止复制</h3>
+<p>在 frontmatter 中将 <code>copyright.noCopy</code> 设置为 <code>true</code>。</p>
+<div><p>Tips</p>
+<p>该行为收到 <code>minLength</code> 的控制，即字符串没有达到 <code>minLength</code> 的值的时候用户仍然可以进行复制操作。</p>
+</div>
+<h3 id="禁止选中"> 禁止选中</h3>
+<p>在 frontmatter 中设置 <code>copyright.noSelect</code> 为 <code>true</code>。</p>
+<h2 id="演示"> 演示</h2>
+<p>请复制这段文字粘贴到任意地点查看效果。请复制这段文字粘贴到任意地点查看效果。请复制这段文字粘贴到任意地点查看效果。请复制这段文字粘贴到任意地点查看效果。请复制这段文字粘贴到任意地点查看效果。请复制这段文字粘贴到任意地点查看效果。请复制这段文字粘贴到任意地点查看效果。请复制这段文字粘贴到任意地点查看效果。请复制这段文字粘贴到任意地点查看效果。请复制这段文字粘贴到任意地点查看效果。</p>
+<h2 id="文档"> 文档</h2>
+<p>关于插件详细信息，请参见 <a href="https://vuepress.github.io/zh/plugins/copyright/#%E9%85%8D%E7%BD%AE%E9%A1%B9" target="_blank" rel="noopener noreferrer">vuepress-plugin-copyright 文档</a></p>
+<div><p>Note</p>
+<p>这是一个 vuepress 社区插件，而不是内置插件。因此，如果你遇到问题，请前往 <a href="https://github.com/vuepress/vuepress-plugin-copyright" target="_blank" rel="noopener noreferrer">它的仓库</a> 寻求帮助。</p>
+</div>
+]]></content:encoded>
     </item>
     <item>
       <title>加密功能</title>
@@ -11611,45 +11601,97 @@ $vssue-direction
 ]]></content:encoded>
     </item>
     <item>
-      <title>页面增强</title>
-      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/page/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/page/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">页面增强</source>
+      <title>SEO 和 Sitemap</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/seo-sitemap/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/seo-sitemap/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">SEO 和 Sitemap</source>
       <category>feature</category>
-      <content:encoded><![CDATA[<h1 id="页面增强"> 页面增强</h1>
-<h2 id="路径导航"> 路径导航 <i>Not supported content</i></h2>
-<p>参见 <a href="./../layout/page.html#路径导航">布局 → 页面 → 路径导航 部分</a></p>
-<h2 id="图片预览"> 图片预览</h2>
-<p>我们支持单击以预览和缩放图片，同时还支持页面图片的滑动浏览以及图片的分享和下载。你可以设置 <code>themeConfig.photoSwipe</code> 为 <code>false</code> 来禁用它。</p>
-<p>有关更多选项，请参阅 <a href="https://vuepress-theme-hope.github.io/photo-swipe/zh/config/" target="_blank" rel="noopener noreferrer">photo-swipe 插件配置</a></p>
-<h2 id="代码复制"> 代码复制</h2>
-<p>我们将在每个代码块的右下角添加一个复制按钮，使您可以单击并复制代码。</p>
-<p>默认情况下，该按钮仅在桌面模式下显示。</p>
-<p>有关更多选项，请参阅 <a href="https://vuepress-theme-hope.github.io/copy-code/zh/config/" target="_blank" rel="noopener noreferrer">copy-code 插件文档</a></p>
-<h2 id="页脚支持"> 页脚支持 <i>Not supported content</i></h2>
-<p>请参见 <a href="./../layout/page.html#页脚支持">布局 → 页面 → 页脚部分</a></p>
+      <content:encoded><![CDATA[<h1 id="seo-和-sitemap"> SEO 和 Sitemap</h1>
+<p><code>vuepress-theme-hope</code> 引入了 <code>@mr-hope/vuepress-plugin-seo</code> 与 <code>@mr-hope/vuepress-plugin-sitemap</code> 为你提供 SEO 增强功能和 Sitemap 生成。</p>
+<p>为了使两个插件能够更好的工作，您可能需要查看一下 <a href="./../../config/page.html#页面信息配置">页面信息配置</a> 并合理的配置它们。</p>
+<h2 id="seo"> SEO</h2>
+<p>插件会向网页的 <code>&lt;head&gt;</code> 注入一些 <code>&lt;meta&gt;</code> 标签，使你的网页对搜索引擎和社交媒体更加友好。默认情况下，插件会读取站点配置、主题配置与页面的 frontmatter 来尽可能自动为你生成 <code>&lt;meta&gt;</code> 标签。诸如站点名称，页面标题，页面类型，写作日期，最后更新日期，文章标签均会自动生成。</p>
+<p>插件会读取的配置 (你应当进行的配置) 有:</p>
+<ul>
+<li>
+<p><code>siteConfig.title</code></p>
+</li>
+<li>
+<p><code>siteConfig.description</code></p>
+</li>
+<li>
+<p><code>themeConfig.author</code></p>
+</li>
+<li>
+<p><code>frontmatter.title</code></p>
+</li>
+<li>
+<p><code>frontmatter.description</code></p>
+</li>
+<li>
+<p><code>frontmatter.image</code></p>
+</li>
+<li>
+<p><code>frontmatter.author</code></p>
+</li>
+<li>
+<p><code>frontmatter.time</code></p>
+</li>
+<li>
+<p><code>frontmatter.tags</code></p>
+</li>
+<li>
+<p>Git 的上一次提交时间</p>
+</li>
+</ul>
+<p>你还可以查看 <a href="./../../config/plugin/seo.html">插件的具体配置</a></p>
+<h2 id="sitemap"> Sitemap</h2>
+<p>插件会自动读取整个文档的配置，尽可能自动的为你生成 sitemap。</p>
+<p>除了 <a href="./../../config/plugin/sitemap.html">插件的配置</a> 外，你还可以在页面的 Frontmatter 中的 sitemap 设置如下内容:</p>
+<ul>
+<li><code>sitemap.changefreq</code>: 更新频率，可选值为: <code>&quot;always&quot;</code> <code>&quot;hourly&quot;</code> <code>&quot;daily&quot;</code> <code>&quot;weekly&quot;</code> <code>&quot;monthly&quot;</code> <code>&quot;yearly&quot;</code> <code>&quot;never&quot;</code></li>
+<li><code>sitemap.exclude</code>: 是否不包含此页面</li>
+<li><code>sitemap.priority</code>: 页面优先级，范围 0~1，默认为 <code>0.5</code></li>
+</ul>
 ]]></content:encoded>
     </item>
     <item>
-      <title>PWA</title>
-      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/pwa/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/pwa/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">PWA</source>
+      <title>TS 支持</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/typescript/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/typescript/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">TS 支持</source>
       <category>feature</category>
-      <content:encoded><![CDATA[<h1 id="pwa"> PWA</h1>
-<p>默认情况下，该主题将使用 <code>@mr-hope/vuepress-plugin-pwa</code> 启用渐进式 Web 应用程序支持。如果您不需要此功能或想使用其他 pwa 插件，则可以将 <code>themeConfig.pwa</code> 设置为 <code>false</code> 来禁用该插件。</p>
-<h2 id="内容缓存和更新"> 内容缓存和更新</h2>
-<p>Service worker 成功获取内容更新后，将在右下角显示一个弹出窗口，提示用户新内容可用并允许用户触发更新。</p>
-<p>弹出窗口的默认语言将自动设置为 <code>themeConfig.baseLang</code> 。</p>
-<h2 id="manifest"> Manifest</h2>
-<p>插件将自动在输出目录生成 <code>mainfest.json</code>。如果您在 <code>.vuepress/public</code> 中有一个 manifest.webmanifest 或 manifest.json，该插件将读取并合并到最终 manifest 中。</p>
-<p>为了使您的站点能够被注册为 Web App，您应该在 <code>themeConfig.pwa.manifest.icons</code> 中设置图标。</p>
-<p>您也可以在 <code>themeConfig.pwa.manifest</code> 中设置其他选项。</p>
-<h2 id="缓存大小"> 缓存大小</h2>
-<p>为了更好地控制 Service Worker 可以预缓存的内容，可以设置 <code>themeConfig.pwa.cachePic</code> 和 <code>themeConfig.pwa.cacheHTML</code> 来决定 Service Worker 是否缓存除主页和 404 错误页外的 HTML 文件与站点图片。</p>
-<p>为了防止在预缓存列表中包含大文件，任何大于 2MB 的资源与大于 1MB 的图片都将被删除。您可以通过设置 <code>themeConfig.pwa.maxSize</code> 和 <code>themeConfig.pwa.maxPicSize</code> 来更改大小限制。</p>
-<h2 id="更多"> 更多</h2>
-<p>有关更多详细信息，请参见 <a href="https://vuepress-theme-hope.github.io/pwa/zh/" target="_blank" rel="noopener noreferrer">pwa 插件文档</a></p>
+      <content:encoded><![CDATA[<h1 id="ts-支持"> TS 支持</h1>
+<p><code>vuepress-theme-hope</code> 的大部分文件都是使用 TypeScript 编写，所以 vuepress-theme-hope 也可以为你的 VuePress 项目带来了原生的 TypeScript 支持，你只需设置 <code>themeConfig.typescript</code> 为 <code>true</code> 即可开启 <code>typescript</code> 支持。</p>
+<p>开启 TypeScript 支持意味着你可以使用 <code>enhanceAppFiles.ts</code>，同时在你的 vue 组件 和 Markdown 文件中使用 Tyepscript。</p>
+<p>如果你需要向 ts-loader 传递一些自定义选项，你也可以将 <code>themeConfig.typescript</code> 设置为一个 Object 来传递给 ts-loader。</p>
+<div><p>Tips</p>
+<p>启用本主题后，你无需再依赖并启用 <code>@vuepress/plugin-typescript</code>。</p>
+</div>
+<h2 id="开启准备"> 开启准备</h2>
+<p>如果你的项目没有依赖 typescript，你需要额外安装它:</p>
+<div><pre><code><span>npm</span> i -D typescript
+</code></pre>
+<div><span>1</span><br></div></div><p>同时，你需要保证你的工作区包含有效的 <code>tsconfig.json</code>。 一个最简单的 <code>tsconfig.json</code> 如下:</p>
+<div><pre><code><span>{</span>
+  <span>"compilerOptions"</span><span>:</span> <span>{</span>
+    <span>"target"</span><span>:</span> <span>"ES6"</span><span>,</span> <span>// 任何不小于 es6 的 target 均可</span>
+    <span>"allowSyntheticDefaultImports"</span><span>:</span> <span>true</span><span>,</span> <span>// 规避 vuepress-types 的类型定义问题</span>
+    <span>"experimentalDecorators"</span><span>:</span> <span>true</span><span>,</span> <span>// Vue 的 TypeScript 写法需要开启此选项</span>
+    <span>"module"</span><span>:</span> <span>"commonjs"</span><span>,</span> <span>// 为了避免 vuepress-types 解析失败</span>
+    <span>"types"</span><span>:</span> <span>[</span><span>"@mr-hope/vuepress-theme-types"</span><span>]</span>
+  <span>}</span><span>,</span>
+  <span>"include"</span><span>:</span> <span>[</span>
+    <span>// 项目中需要至少包含一个 ts 文件 (空的文件也可)，并正确配置在 include 中</span>
+    <span>"src/.vuepress/enhanceApp.ts"</span> <span>// 请将 src 替换成你的文档目录</span>
+  <span>]</span>
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></div></div><p>如果你已经有了 <code>tsconfig.json</code>, 那么只需要在 <code>compilerOptions.types</code> 中添加 vuepress-theme-hope 的类型定义文件包 <code>&quot;@mr-hope/vuepress-theme-types&quot;</code> 即可。</p>
+<p>你还应该在你的项目中创建一个 ts 文件并添加至 <code>tsconfig.json</code> 的 <code>include</code> 中，你可以直接创建一个空的 enhanceApp.ts 并将其引入。</p>
+<div><p>Note</p>
+<p><code>ts-loader</code> 要求 <code>tsconfig.json</code> 至少命中一个有效的 ts 文件，所以最简单的办法就是创建或者转换 (如果你已经有了 <code>enhanceAppFiles.js</code>) 一个 <code>enhanceAppFiles.ts</code> 并将它添加至 <code>include</code> 选项中</p>
+</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -11913,7 +11955,7 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 </li>
 <li>
 <p>在 <code>.vuepress/styles</code> 的 <code>index.styl</code> 中导入链接。例如:</p>
-<div><pre><code><span><span>@import</span> <span>"//at.alicdn.com/t/font_1446717_tu6veyewux.css"</span><span>;</span></span>
+<div><pre><code><span><span>@import</span> <span>"//at.alicdn.com/t/font_1446717_8m8qc19rl5q.css"</span><span>;</span></span>
 </code></pre>
 <div><span>1</span><br></div></div></li>
 </ol>
@@ -14133,100 +14175,6 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 ]]></content:encoded>
     </item>
     <item>
-      <title>TS 支持</title>
-      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/typescript/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/typescript/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">TS 支持</source>
-      <category>feature</category>
-      <content:encoded><![CDATA[<h1 id="ts-支持"> TS 支持</h1>
-<p><code>vuepress-theme-hope</code> 的大部分文件都是使用 TypeScript 编写，所以 vuepress-theme-hope 也可以为你的 VuePress 项目带来了原生的 TypeScript 支持，你只需设置 <code>themeConfig.typescript</code> 为 <code>true</code> 即可开启 <code>typescript</code> 支持。</p>
-<p>开启 TypeScript 支持意味着你可以使用 <code>enhanceAppFiles.ts</code>，同时在你的 vue 组件 和 Markdown 文件中使用 Tyepscript。</p>
-<p>如果你需要向 ts-loader 传递一些自定义选项，你也可以将 <code>themeConfig.typescript</code> 设置为一个 Object 来传递给 ts-loader。</p>
-<div><p>Tips</p>
-<p>启用本主题后，你无需再依赖并启用 <code>@vuepress/plugin-typescript</code>。</p>
-</div>
-<h2 id="开启准备"> 开启准备</h2>
-<p>如果你的项目没有依赖 typescript，你需要额外安装它:</p>
-<div><pre><code><span>npm</span> i -D typescript
-</code></pre>
-<div><span>1</span><br></div></div><p>同时，你需要保证你的工作区包含有效的 <code>tsconfig.json</code>。 一个最简单的 <code>tsconfig.json</code> 如下:</p>
-<div><pre><code><span>{</span>
-  <span>"compilerOptions"</span><span>:</span> <span>{</span>
-    <span>"target"</span><span>:</span> <span>"ES6"</span><span>,</span> <span>// 任何不小于 es6 的 target 均可</span>
-    <span>"allowSyntheticDefaultImports"</span><span>:</span> <span>true</span><span>,</span> <span>// 规避 vuepress-types 的类型定义问题</span>
-    <span>"experimentalDecorators"</span><span>:</span> <span>true</span><span>,</span> <span>// Vue 的 TypeScript 写法需要开启此选项</span>
-    <span>"module"</span><span>:</span> <span>"commonjs"</span><span>,</span> <span>// 为了避免 vuepress-types 解析失败</span>
-    <span>"types"</span><span>:</span> <span>[</span><span>"@mr-hope/vuepress-theme-types"</span><span>]</span>
-  <span>}</span><span>,</span>
-  <span>"include"</span><span>:</span> <span>[</span>
-    <span>// 项目中需要至少包含一个 ts 文件 (空的文件也可)，并正确配置在 include 中</span>
-    <span>"src/.vuepress/enhanceApp.ts"</span> <span>// 请将 src 替换成你的文档目录</span>
-  <span>]</span>
-<span>}</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></div></div><p>如果你已经有了 <code>tsconfig.json</code>, 那么只需要在 <code>compilerOptions.types</code> 中添加 vuepress-theme-hope 的类型定义文件包 <code>&quot;@mr-hope/vuepress-theme-types&quot;</code> 即可。</p>
-<p>你还应该在你的项目中创建一个 ts 文件并添加至 <code>tsconfig.json</code> 的 <code>include</code> 中，你可以直接创建一个空的 enhanceApp.ts 并将其引入。</p>
-<div><p>Note</p>
-<p><code>ts-loader</code> 要求 <code>tsconfig.json</code> 至少命中一个有效的 ts 文件，所以最简单的办法就是创建或者转换 (如果你已经有了 <code>enhanceAppFiles.js</code>) 一个 <code>enhanceAppFiles.ts</code> 并将它添加至 <code>include</code> 选项中</p>
-</div>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>SEO 和 Sitemap</title>
-      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/seo-sitemap/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/seo-sitemap/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">SEO 和 Sitemap</source>
-      <category>feature</category>
-      <content:encoded><![CDATA[<h1 id="seo-和-sitemap"> SEO 和 Sitemap</h1>
-<p><code>vuepress-theme-hope</code> 引入了 <code>@mr-hope/vuepress-plugin-seo</code> 与 <code>@mr-hope/vuepress-plugin-sitemap</code> 为你提供 SEO 增强功能和 Sitemap 生成。</p>
-<p>为了使两个插件能够更好的工作，您可能需要查看一下 <a href="./../../config/page.html#页面信息配置">页面信息配置</a> 并合理的配置它们。</p>
-<h2 id="seo"> SEO</h2>
-<p>插件会向网页的 <code>&lt;head&gt;</code> 注入一些 <code>&lt;meta&gt;</code> 标签，使你的网页对搜索引擎和社交媒体更加友好。默认情况下，插件会读取站点配置、主题配置与页面的 frontmatter 来尽可能自动为你生成 <code>&lt;meta&gt;</code> 标签。诸如站点名称，页面标题，页面类型，写作日期，最后更新日期，文章标签均会自动生成。</p>
-<p>插件会读取的配置 (你应当进行的配置) 有:</p>
-<ul>
-<li>
-<p><code>siteConfig.title</code></p>
-</li>
-<li>
-<p><code>siteConfig.description</code></p>
-</li>
-<li>
-<p><code>themeConfig.author</code></p>
-</li>
-<li>
-<p><code>frontmatter.title</code></p>
-</li>
-<li>
-<p><code>frontmatter.description</code></p>
-</li>
-<li>
-<p><code>frontmatter.image</code></p>
-</li>
-<li>
-<p><code>frontmatter.author</code></p>
-</li>
-<li>
-<p><code>frontmatter.time</code></p>
-</li>
-<li>
-<p><code>frontmatter.tags</code></p>
-</li>
-<li>
-<p>Git 的上一次提交时间</p>
-</li>
-</ul>
-<p>你还可以查看 <a href="./../../config/plugin/seo.html">插件的具体配置</a></p>
-<h2 id="sitemap"> Sitemap</h2>
-<p>插件会自动读取整个文档的配置，尽可能自动的为你生成 sitemap。</p>
-<p>除了 <a href="./../../config/plugin/sitemap.html">插件的配置</a> 外，你还可以在页面的 Frontmatter 中的 sitemap 设置如下内容:</p>
-<ul>
-<li><code>sitemap.changefreq</code>: 更新频率，可选值为: <code>&quot;always&quot;</code> <code>&quot;hourly&quot;</code> <code>&quot;daily&quot;</code> <code>&quot;weekly&quot;</code> <code>&quot;monthly&quot;</code> <code>&quot;yearly&quot;</code> <code>&quot;never&quot;</code></li>
-<li><code>sitemap.exclude</code>: 是否不包含此页面</li>
-<li><code>sitemap.priority</code>: 页面优先级，范围 0~1，默认为 <code>0.5</code></li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
       <title>新增特性</title>
       <link>https://vuepress-theme-hope.github.io/zh/guide/feature/</link>
       <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/</guid>
@@ -14239,6 +14187,9 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 </li>
 <li>
 <p><a href="./comment.html"><strong>评论功能</strong></a></p>
+</li>
+<li>
+<p><a href="./copyright.html"><strong>版权信息</strong></a></p>
 </li>
 <li>
 <p><a href="./page.html"><strong>页面增强</strong></a></p>
@@ -14259,6 +14210,48 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 <p><a href="./typescript.html"><strong>TypeScript 支持</strong></a></p>
 </li>
 </ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>PWA</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/pwa/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/pwa/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">PWA</source>
+      <category>feature</category>
+      <content:encoded><![CDATA[<h1 id="pwa"> PWA</h1>
+<p>默认情况下，该主题将使用 <code>@mr-hope/vuepress-plugin-pwa</code> 启用渐进式 Web 应用程序支持。如果您不需要此功能或想使用其他 pwa 插件，则可以将 <code>themeConfig.pwa</code> 设置为 <code>false</code> 来禁用该插件。</p>
+<h2 id="内容缓存和更新"> 内容缓存和更新</h2>
+<p>Service worker 成功获取内容更新后，将在右下角显示一个弹出窗口，提示用户新内容可用并允许用户触发更新。</p>
+<p>弹出窗口的默认语言将自动设置为 <code>themeConfig.baseLang</code> 。</p>
+<h2 id="manifest"> Manifest</h2>
+<p>插件将自动在输出目录生成 <code>mainfest.json</code>。如果您在 <code>.vuepress/public</code> 中有一个 manifest.webmanifest 或 manifest.json，该插件将读取并合并到最终 manifest 中。</p>
+<p>为了使您的站点能够被注册为 Web App，您应该在 <code>themeConfig.pwa.manifest.icons</code> 中设置图标。</p>
+<p>您也可以在 <code>themeConfig.pwa.manifest</code> 中设置其他选项。</p>
+<h2 id="缓存大小"> 缓存大小</h2>
+<p>为了更好地控制 Service Worker 可以预缓存的内容，可以设置 <code>themeConfig.pwa.cachePic</code> 和 <code>themeConfig.pwa.cacheHTML</code> 来决定 Service Worker 是否缓存除主页和 404 错误页外的 HTML 文件与站点图片。</p>
+<p>为了防止在预缓存列表中包含大文件，任何大于 2MB 的资源与大于 1MB 的图片都将被删除。您可以通过设置 <code>themeConfig.pwa.maxSize</code> 和 <code>themeConfig.pwa.maxPicSize</code> 来更改大小限制。</p>
+<h2 id="更多"> 更多</h2>
+<p>有关更多详细信息，请参见 <a href="https://vuepress-theme-hope.github.io/pwa/zh/" target="_blank" rel="noopener noreferrer">pwa 插件文档</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>页面增强</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/page/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/page/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">页面增强</source>
+      <category>feature</category>
+      <content:encoded><![CDATA[<h1 id="页面增强"> 页面增强</h1>
+<h2 id="路径导航"> 路径导航 <i>Not supported content</i></h2>
+<p>参见 <a href="./../layout/page.html#路径导航">布局 → 页面 → 路径导航 部分</a></p>
+<h2 id="图片预览"> 图片预览</h2>
+<p>我们支持单击以预览和缩放图片，同时还支持页面图片的滑动浏览以及图片的分享和下载。你可以设置 <code>themeConfig.photoSwipe</code> 为 <code>false</code> 来禁用它。</p>
+<p>有关更多选项，请参阅 <a href="https://vuepress-theme-hope.github.io/photo-swipe/zh/config/" target="_blank" rel="noopener noreferrer">photo-swipe 插件配置</a></p>
+<h2 id="代码复制"> 代码复制</h2>
+<p>我们将在每个代码块的右下角添加一个复制按钮，使您可以单击并复制代码。</p>
+<p>默认情况下，该按钮仅在桌面模式下显示。</p>
+<p>有关更多选项，请参阅 <a href="https://vuepress-theme-hope.github.io/copy-code/zh/config/" target="_blank" rel="noopener noreferrer">copy-code 插件文档</a></p>
+<h2 id="页脚支持"> 页脚支持 <i>Not supported content</i></h2>
+<p>请参见 <a href="./../layout/page.html#页脚支持">布局 → 页面 → 页脚部分</a></p>
 ]]></content:encoded>
     </item>
   </channel>
