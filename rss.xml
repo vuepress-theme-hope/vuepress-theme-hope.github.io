@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/</link>
     <description>A vuepress theme with tons of features✨</description>
     <language>en-US</language>
-    <pubDate>Fri, 26 Feb 2021 09:31:03 GMT</pubDate>
-    <lastBuildDate>Fri, 26 Feb 2021 09:31:03 GMT</lastBuildDate>
+    <pubDate>Fri, 26 Feb 2021 09:39:36 GMT</pubDate>
+    <lastBuildDate>Fri, 26 Feb 2021 09:39:36 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -4060,7 +4060,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <p>Since part of users use this theme for building documents, and document sites usually do not require additional copyright information, this plugin is not enabled by default.</p>
 <p>To enable this plugin, you need to set <code>copyright</code> in <code>themeConfig</code> to <code>true</code>, or set <code>copyright.status</code> to enable it. The optional values of <code>copyright.status</code> are <code>global</code> and <code>local</code>. The default value is <code>global</code>, representing globally enabled (also the state of <code>themeConfig.copyright: true</code>).</p>
 <h2 id="usage"> Usage</h2>
-<p>By default, when users copy a message of more than 100 words from your site, a copyright infomation will append the end of the message.</p>
+<p>By default, when users copy a message of more than 100 words from your site, a copyright information will append the end of the message.</p>
 <p>The author name of the copyright statement will be automatically generated from the author information or site name configured in the theme.</p>
 <h3 id="trigger-length"> Trigger length <i>Not supported content</i></h3>
 <p>You can use <code>copyright.minLength</code> to set the minimum number of characters that triggers to disable copying or append copyright information, the default is <code>100</code>.</p>
@@ -4077,8 +4077,8 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <h2 id="documentation"> Documentation</h2>
 <p>For more information about this plugin, please refer to <a href="https://vuepress.github.io/zh/plugins/copyright/#%E9%85%8D%E7%BD%AE%E9%A1%B9" target="_blank" rel="noopener noreferrer">vuepress-plugin-copyright docs</a></p>
 <div><p>Note</p>
-<p>This is a vuepress community plugin, not a built-in plugin.</p>
-<p>If you encounter problems, please go to <a href="https://github.com/vuepress/vuepress-plugin-copyright" target="_blank" rel="noopener noreferrer">its repo</a> for help.</p>
+<p>This is a VuePress Community plugin, not a built-in plugin.</p>
+<p>If you met problems, please go to <a href="https://github.com/vuepress/vuepress-plugin-copyright" target="_blank" rel="noopener noreferrer">its repo</a> for help.</p>
 </div>
 ]]></content:encoded>
     </item>
