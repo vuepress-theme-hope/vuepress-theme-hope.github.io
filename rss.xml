@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/</link>
     <description>A vuepress theme with tons of features✨</description>
     <language>en-US</language>
-    <pubDate>Fri, 26 Feb 2021 08:02:48 GMT</pubDate>
-    <lastBuildDate>Fri, 26 Feb 2021 08:02:48 GMT</lastBuildDate>
+    <pubDate>Fri, 26 Feb 2021 08:11:21 GMT</pubDate>
+    <lastBuildDate>Fri, 26 Feb 2021 08:11:21 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -5750,7 +5750,7 @@ A custom details container
 <p>CodeGroup available in markdown</p>
 <h3 id="codegroup-usage"> CodeGroup Usage</h3>
 <p>Please use <code>&lt;CodeGroup /&gt;</code> to wrap <code>&lt;CodeGroupItem /&gt;</code>。</p>
-<p>For each <code>&lt;CodeGroupItem /&gt;</code>, you need to set <code>title</code> attribute as tab's title，and only put a code block in the tab。You can also set <code>active</code> attribute on one of <code>&lt;CodeGroupItem /&gt;</code> to make it active by default.</p>
+<p>For each <code>&lt;CodeGroupItem /&gt;</code>, you need to set <code>title</code> attribute as tab’s title，and only put a code block in the tab。You can also set <code>active</code> attribute on one of <code>&lt;CodeGroupItem /&gt;</code> to make it active by default.</p>
 <div><p>Tips</p>
 <p>You need to put a blank line between each <code>&lt;CodeGroupItem /&gt;</code>, otherwise VuePress may not be able to parse them correctly.</p>
 </div>
