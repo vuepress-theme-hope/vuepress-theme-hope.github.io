@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/</link>
     <description>A vuepress theme with tons of features✨</description>
     <language>en-US</language>
-    <pubDate>Fri, 26 Feb 2021 13:06:08 GMT</pubDate>
-    <lastBuildDate>Fri, 26 Feb 2021 13:06:08 GMT</lastBuildDate>
+    <pubDate>Fri, 26 Feb 2021 13:24:11 GMT</pubDate>
+    <lastBuildDate>Fri, 26 Feb 2021 13:24:11 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -14146,6 +14146,26 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 ]]></content:encoded>
     </item>
     <item>
+      <title>页面增强</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/page/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/page/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">页面增强</source>
+      <category>feature</category>
+      <content:encoded><![CDATA[<h1 id="页面增强"> 页面增强</h1>
+<h2 id="路径导航"> 路径导航 <i>Not supported content</i></h2>
+<p>参见 <a href="./../layout/page.html#路径导航">布局 → 页面 → 路径导航 部分</a></p>
+<h2 id="图片预览"> 图片预览</h2>
+<p>我们支持单击以预览和缩放图片，同时还支持页面图片的滑动浏览以及图片的分享和下载。你可以设置 <code>themeConfig.photoSwipe</code> 为 <code>false</code> 来禁用它。</p>
+<p>有关更多选项，请参阅 <a href="https://vuepress-theme-hope.github.io/photo-swipe/zh/config/" target="_blank" rel="noopener noreferrer">photo-swipe 插件配置</a></p>
+<h2 id="代码复制"> 代码复制</h2>
+<p>我们将在每个代码块的右下角添加一个复制按钮，使您可以单击并复制代码。</p>
+<p>默认情况下，该按钮仅在桌面模式下显示。</p>
+<p>有关更多选项，请参阅 <a href="https://vuepress-theme-hope.github.io/copy-code/zh/config/" target="_blank" rel="noopener noreferrer">copy-code 插件文档</a></p>
+<h2 id="页脚支持"> 页脚支持 <i>Not supported content</i></h2>
+<p>请参见 <a href="./../layout/page.html#页脚支持">布局 → 页面 → 页脚部分</a></p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>页面信息</title>
       <link>https://vuepress-theme-hope.github.io/zh/guide/feature/page-info/</link>
       <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/page-info/</guid>
@@ -14281,26 +14301,6 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 <h2 id="输出配置"> 输出配置</h2>
 <p>你可通过配置选项中的 <code>output</code> 来决定输出哪些格式的 Feed 文件以及它们的位置。</p>
 <p>详细的选项及其默认值详见 <a href="https://vuepress-theme-hope.github.io/feed/zh/config/#output" target="_blank" rel="noopener noreferrer">Feed 插件输出设置</a></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>页面增强</title>
-      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/page/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/page/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">页面增强</source>
-      <category>feature</category>
-      <content:encoded><![CDATA[<h1 id="页面增强"> 页面增强</h1>
-<h2 id="路径导航"> 路径导航 <i>Not supported content</i></h2>
-<p>参见 <a href="./../layout/page.html#路径导航">布局 → 页面 → 路径导航 部分</a></p>
-<h2 id="图片预览"> 图片预览</h2>
-<p>我们支持单击以预览和缩放图片，同时还支持页面图片的滑动浏览以及图片的分享和下载。你可以设置 <code>themeConfig.photoSwipe</code> 为 <code>false</code> 来禁用它。</p>
-<p>有关更多选项，请参阅 <a href="https://vuepress-theme-hope.github.io/photo-swipe/zh/config/" target="_blank" rel="noopener noreferrer">photo-swipe 插件配置</a></p>
-<h2 id="代码复制"> 代码复制</h2>
-<p>我们将在每个代码块的右下角添加一个复制按钮，使您可以单击并复制代码。</p>
-<p>默认情况下，该按钮仅在桌面模式下显示。</p>
-<p>有关更多选项，请参阅 <a href="https://vuepress-theme-hope.github.io/copy-code/zh/config/" target="_blank" rel="noopener noreferrer">copy-code 插件文档</a></p>
-<h2 id="页脚支持"> 页脚支持 <i>Not supported content</i></h2>
-<p>请参见 <a href="./../layout/page.html#页脚支持">布局 → 页面 → 页脚部分</a></p>
 ]]></content:encoded>
     </item>
   </channel>
