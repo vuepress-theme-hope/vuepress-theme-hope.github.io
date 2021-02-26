@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/</link>
     <description>A vuepress theme with tons of features✨</description>
     <language>en-US</language>
-    <pubDate>Fri, 26 Feb 2021 05:05:05 GMT</pubDate>
-    <lastBuildDate>Fri, 26 Feb 2021 05:05:05 GMT</lastBuildDate>
+    <pubDate>Fri, 26 Feb 2021 06:10:59 GMT</pubDate>
+    <lastBuildDate>Fri, 26 Feb 2021 06:10:59 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -4001,7 +4001,7 @@ $vssue-direction
       <source url="https://vuepress-theme-hope.github.io/rss.xml">New Component</source>
       <category>feature</category>
       <content:encoded><![CDATA[<h1 id="new-component"> New Component</h1>
-<h2 id="badge-mybadge"> Badge <code>&lt;MyBadge /&gt;</code></h2>
+<h2 id="badge-badge"> Badge <code>&lt;Badge /&gt;</code></h2>
 <ul>
 <li>
 <p><strong>Props</strong>:</p>
@@ -4015,7 +4015,7 @@ $vssue-direction
 <li>
 <p><strong>Usage</strong>:</p>
 <p>You can use this component in the title to add some status to the title or link:</p>
-<div><pre><code><span><span>###</span> MyBadge &lt;MyBadge text="Building" type="warn"/> &lt;MyBadge text="MrHope" color="grey" /></span>
+<div><pre><code><span><span>###</span> Badge &lt;Badge text="Building" type="warn"/> &lt;Badge text="MrHope" color="grey" /></span>
 </code></pre>
 <div><span>1</span><br></div></div></li>
 </ul>
@@ -6583,7 +6583,7 @@ $$
 <ul>
 <li><a href="./layout/navbar.html"><strong>navbar</strong></a></li>
 <li><a href="./layout/sidebar.html"><strong>Sidebar</strong></a></li>
-<li><a href="./feature/component.html#badge-mybadge">Badge <code>&lt;MyBadge /&gt;</code></a>: Added color support on the official basis</li>
+<li><a href="./feature/component.html#badge-mybadge">Badge <code>&lt;Badge /&gt;</code></a>: Added color support on the official basis</li>
 </ul>
 </li>
 </ul>
@@ -11162,24 +11162,6 @@ $vssue-direction
       <source url="https://vuepress-theme-hope.github.io/rss.xml">新增组件</source>
       <category>feature</category>
       <content:encoded><![CDATA[<h1 id="新增组件"> 新增组件</h1>
-<h2 id="徽章-mybadge"> 徽章 <code>&lt;MyBadge /&gt;</code></h2>
-<ul>
-<li>
-<p><strong>属性</strong>:</p>
-<ul>
-<li><code>text</code> - string</li>
-<li><code>type</code> - string, 可选值: <code>&quot;tip&quot;|&quot;warn&quot;|&quot;error&quot;</code>，默认值是: <code>&quot;tip&quot;</code></li>
-<li><code>color</code> - string, 可选</li>
-<li><code>vertical</code> - string, 可选值: <code>&quot;top&quot;|&quot;middle&quot;</code>，默认值是: <code>&quot;top&quot;</code></li>
-</ul>
-</li>
-<li>
-<p><strong>使用</strong>:</p>
-<p>你可以在标题中，使用这个组件来为标题或链接添加一些状态:</p>
-<div><pre><code><span><span>###</span> MyBadge &lt;MyBadge text="Building" type="warn"/> &lt;MyBadge text="MrHope" color="grey" /></span>
-</code></pre>
-<div><span>1</span><br></div></div></li>
-</ul>
 <h2 id="返回顶部按钮-backtotop"> 返回顶部按钮 <code>&lt;BackToTop /&gt;</code> <i>Not supported content</i></h2>
 <p><code>vuepress-theme-hope</code> 添加了一个返回顶部控件，默认情况下将在下滑 300px 后显示。</p>
 <p>该内容的配置项为 <code>backToTop</code>。</p>
@@ -13578,7 +13560,7 @@ $$
 <ul>
 <li><a href="./layout/navbar.html"><strong>导航栏</strong></a></li>
 <li><a href="./layout/sidebar.html"><strong>侧边栏</strong></a></li>
-<li><a href="./feature/component.html#徽章-mybadge">徽章 <code>&lt;MyBadge /&gt;</code></a>: 在官方基础上增加了颜色支持</li>
+<li><a href="./feature/component.html#徽章-mybadge">徽章 <code>&lt;Badge /&gt;</code></a>: 在官方基础上增加了颜色支持</li>
 </ul>
 </li>
 </ul>
