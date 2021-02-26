@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/</link>
     <description>A vuepress theme with tons of features✨</description>
     <language>en-US</language>
-    <pubDate>Fri, 26 Feb 2021 16:08:48 GMT</pubDate>
-    <lastBuildDate>Fri, 26 Feb 2021 16:08:48 GMT</lastBuildDate>
+    <pubDate>Fri, 26 Feb 2021 16:17:25 GMT</pubDate>
+    <lastBuildDate>Fri, 26 Feb 2021 16:17:25 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -4169,8 +4169,8 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">Page information</source>
       <category>feature</category>
       <content:encoded><![CDATA[<h1 id="page-information"> Page information</h1>
-<p>The <code>&lt;PageInfo /&gt;</code> component support local config<sup></sup>, and is enabled globally by default. You can disable it by setting <code>pageInfo: false</code> in <code>Front Matter</code> of a specific page.</p>
-<p>To keep it globally disabled, please set <code>pageInfo</code> to <code>false</code> in the plugin options. In this way you can set <code>pageInfo</code> in <code>Front Matter</code> of a specific page to enable it locally.</p>
+<p>The <code>&lt;PageInfo /&gt;</code> component support local config<sup></sup>, and is enabled globally by default. You can disable it by setting <code>pageInfo: false</code> in frontmatter of a specific page.</p>
+<p>To keep it globally disabled, please set <code>pageInfo</code> to <code>false</code> in the plugin options. In this way you can set <code>pageInfo</code> in frontmatter of a specific page to enable it locally.</p>
 <h2 id="parameters"> Parameters <i>Not supported content</i></h2>
 <p><code>pageInfo</code> accepts an array of strings by default, filling in a group of items. The order of filling is the order in which the items are displayed.</p>
 <p>The optional values ​​and corresponding contents of the entry are as follows:</p>
@@ -4236,11 +4236,11 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <span>---</span></span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><h3 id="category-and-tags"> Category and Tags</h3>
-<p>See <a href="./blog.html">blog section</a> for details</p>
+<p>See <a href="./../blog/blog.html">blog section</a> for details</p>
 <h3 id="reading-time"> Reading time</h3>
 <p>The default statistic method is 300 words per minute. You can override it by setting <code>wordPerminute</code> in the plugin configuration. This option does not support individual configuration on the page.</p>
 <h3 id="view-count"> View Count <i>Not supported content</i></h3>
-<p>When <a href="./../feature/comment.html">Comment Function</a> is configured as Valine, this function is enabled by default.</p>
+<p>When <a href="./comment.html">Comment Function</a> is configured as Valine, this function is enabled by default.</p>
 <p>Example:</p>
 <div><pre><code><span><span>---</span>
 <span><span>visitor</span><span>:</span> <span>false</span></span>
@@ -4331,16 +4331,16 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <p><a href="./comment.html">Comment function</a></p>
 </li>
 <li>
-<p><a href="./copyright.html">Copyright info</a></p>
-</li>
-<li>
-<p><a href="./encrypt.html">Encryption function</a></p>
-</li>
-<li>
 <p><a href="./copy-code.html">One Click copy</a></p>
 </li>
 <li>
 <p><a href="./photo-swipe.html">Picture preview</a></p>
+</li>
+<li>
+<p><a href="./copyright.html">Copyright info</a></p>
+</li>
+<li>
+<p><a href="./encrypt.html">Encryption function</a></p>
 </li>
 <li>
 <p><a href="./pwa.html">PWA Support</a></p>
@@ -5230,7 +5230,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <category>layout</category>
       <content:encoded><![CDATA[<h1 id="page"> Page</h1>
 <h2 id="icon-support"> Icon support</h2>
-<p>You can configure the icon field in the <code>Front Matter</code> of the page, and fill in the FontClass of the corresponding icon to bind the icon to the page.</p>
+<p>You can configure the icon field in the frontmatter of the page, and fill in the FontClass of the corresponding icon to bind the icon to the page.</p>
 <p>This icon is used in <strong>Path Navigation</strong> and <strong>Sidebar</strong>.</p>
 <details><summary>Example</summary>
 <div><pre><code><span><span>---</span>
@@ -5272,7 +5272,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <p>See the <a href="./../feature/comment.html">Comment section</a> for details.</p>
 <h2 id="footer-support"> Footer Support <i>Not supported content</i></h2>
 <p>To display the footer on every page, you need to set <code>themeConfig.footer.display</code> to <code>true</code>. At the same time, you can also use <code>themeConfig.footer.copyright</code> and <code>themeConfig.content</code> to set the default copyright information and footer content.</p>
-<p>You can also configure the <code>footer</code>, <code>copyrightText</code> and <code>medialink</code> fields in the <code>Front Matter</code> page.</p>
+<p>You can also configure the <code>footer</code>, <code>copyrightText</code> and <code>medialink</code> fields in the frontmatter page.</p>
 <ul>
 <li>
 <p>The <code>footer</code> field can be filled with a string or Boolean value.</p>
@@ -11470,35 +11470,26 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 ]]></content:encoded>
     </item>
     <item>
-      <title>Feed 支持</title>
-      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/feed/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/feed/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">Feed 支持</source>
+      <title>代码复制</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/copy-code/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/copy-code/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">代码复制</source>
       <category>feature</category>
-      <content:encoded><![CDATA[<p><code>vuepress-theme-hope</code> 通过 <code>@mr-hope/vuepress-plugin-feed</code> 插件来为你提供 feed 支持。如果你不需要这个功能，则可以将 <code>themeConfig.feed</code> 设置为 <code>false</code> 来禁用该插件。</p>
-<p>主题会自动为你生成以下三种格式的 feed 文件:</p>
-<ul>
-<li>Atom 1.0 (默认输出为 atom.xml)</li>
-<li>JSON 1.1 (默认输出为 feed.json)</li>
-<li>RSS 2.0 (默认输出为 rss.xml)</li>
-</ul>
-<p>考虑到现在 Feed 已经很小众，我们旨在提供最小配置来尽可能自动生成详细的 Feed 文件。</p>
-<h2 id="频道设置"> 频道设置</h2>
-<p>你可以通过设置 <code>themeConfig.feed.channel</code> 选项来自自定义 Feed 频道的各项信息。</p>
-<p>我们推荐您进行如下设置:</p>
-<ul>
-<li>将建立 Feed 的日期转换为 ISOString 写入到 <code>channel.pubDate</code> 中</li>
-<li>通过 <code>channel.ttl</code> 中设置内容的更新周期(单位: 分钟)</li>
-</ul>
-<p>详细的选项及其默认值详见 <a href="https://vuepress-theme-hope.github.io/feed/zh/config/channel/" target="_blank" rel="noopener noreferrer">Feed 插件频道设置</a></p>
-<h2 id="项目设置"> 项目设置</h2>
-<p>默认情况下，所有文章均会被添加至 feed 流。你可以通过配置 frontmatter 中的 feed 选项，对特定文章的 feed 项目生成进行控制。</p>
-<p>如果你想在 feed 中移除指定页面，你可以在该页面的 frontmatter 中将 <code>feed.enable</code> 设置为 <code>false</code>。</p>
-<p>当然你也可以通过 <code>frontmatter.feed</code> 直接向 feed 插件传入内容。详细的选项及其默认值详见 <a href="https://vuepress-theme-hope.github.io/feed/zh/config/item/" target="_blank" rel="noopener noreferrer">Feed 插件项目设置</a></p>
-<h2 id="输出配置"> 输出配置</h2>
-<p>你可通过配置选项中的 <code>output</code> 来决定输出哪些格式的 Feed 文件以及它们的位置。</p>
-<p>详细的选项及其默认值详见 <a href="https://vuepress-theme-hope.github.io/feed/zh/config/#output" target="_blank" rel="noopener noreferrer">Feed 插件输出设置</a></p>
-]]></content:encoded>
+      <content:encoded><![CDATA[<p>如果你是一个程序员，你可能希望你的用户能够一键复制你在正文中展示的代码。</p>
+<p>针对这一情况，<code>vuepress-theme-hope</code> 内置了 <a href="https://vuepress-theme-hope.github.io/copy-code/zh/" target="_blank" rel="noopener noreferrer">@mr-hope/copy-code</a>，提供了一个复制按钮。</p>
+<h2 id="使用"> 使用</h2>
+<p>启用后，本插件会自动添加复制按钮到每个代码块的右下角。</p>
+<p>默认情况下，按钮仅在桌面模式显示，如果你需要在移动端展示这个按钮，请将 <code>themeConfig.copyCode.showInMobile</code> 设置为 <code>true</code>。</p>
+<p>在用户点击复制按钮后，屏幕上会显示一个复制成功的提示。默认的提示时长为 2000ms，如果你需要更改这个时长，请设置 <code>themeConfig.copyCode.duration</code>(单位 ms)，如果你不需要这个提示，请将 <code>themeConfig.copyCode.duration</code> 设置为 <code>0</code>。</p>
+<h2 id="效果"> 效果</h2>
+<div><pre><code><span>// .vuepress/config.js</span>
+module<span>.</span>exports <span>=</span> <span>{</span>
+  themeConfig<span>:</span> <span>{</span>
+    copyCode<span>:</span> <span>{</span><span>}</span><span>,</span>
+  <span>}</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div>]]></content:encoded>
     </item>
     <item>
       <title>页面信息</title>
@@ -11507,8 +11498,8 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">页面信息</source>
       <category>feature</category>
       <content:encoded><![CDATA[<h1 id="页面信息"> 页面信息</h1>
-<p>页面信息支持页面配置<sup></sup>。默认全局启用展示。你可以在特定页面的 <code>Front Matter</code> 中设置 <code>pageInfo: false</code> 来局部禁用它。</p>
-<p>如果你需要保持全局禁用，请设置 <code>themeConfig.pageInfo</code> 为 <code>false</code>。这样你可以在特定页面的 <code>Front Matter</code> 中设置 <code>pageInfo</code> 来局部启用它。</p>
+<p>页面信息支持页面配置<sup></sup>，默认全局启用展示。你可以在特定页面的 frontmatter 中设置 <code>pageInfo: false</code> 来局部禁用它。</p>
+<p>如果你需要保持全局禁用，请设置 <code>themeConfig.pageInfo</code> 为 <code>false</code>。这样你可以在特定页面的 frontmatter 中设置 <code>pageInfo</code> 来局部启用它。</p>
 <h2 id="参数"> 参数 <i>Not supported content</i></h2>
 <p><code>pageInfo</code> 默认接受一个字符串数组，可以填入各条目名称，填入的顺序即是各条目显示的顺序。</p>
 <p>条目可选的值和对应内容如下:</p>
@@ -11582,11 +11573,11 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <span>---</span></span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><h3 id="分类与标签"> 分类与标签</h3>
-<p>详见 <a href="./blog.html">博客章节</a></p>
+<p>详见 <a href="./../blog/blog.html">博客章节</a></p>
 <h3 id="阅读时间"> 阅读时间</h3>
 <p>默认的统计方式是一分钟 300 字，你可以设置 <code>themeConfig.wordPerminute</code> 来覆盖它，该选项不支持在页面单独配置。</p>
 <h3 id="浏览量"> 浏览量 <i>Not supported content</i></h3>
-<p>当配置 <a href="./../feature/comment.html">评论功能</a> 为 Valine 时，该功能默认启用。</p>
+<p>当配置 <a href="./comment.html">评论功能</a> 为 Valine 时，该功能默认启用。</p>
 <p>例子:</p>
 <div><pre><code><span><span>---</span>
 <span><span>visitor</span><span>:</span> <span>false</span></span>
@@ -11677,16 +11668,16 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <p><a href="./comment.html">评论功能</a></p>
 </li>
 <li>
-<p><a href="./copyright.html">版权信息</a></p>
-</li>
-<li>
-<p><a href="./encrypt.html">加密功能</a></p>
-</li>
-<li>
 <p><a href="./copy-code.html">一键复制</a></p>
 </li>
 <li>
 <p><a href="./photo-swipe.html">图片预览</a></p>
+</li>
+<li>
+<p><a href="./copyright.html">版权信息</a></p>
+</li>
+<li>
+<p><a href="./encrypt.html">加密功能</a></p>
 </li>
 <li>
 <p><a href="./pwa.html">PWA 支持</a></p>
@@ -12552,7 +12543,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">页面</source>
       <category>layout</category>
       <content:encoded><![CDATA[<h2 id="图标支持"> 图标支持</h2>
-<p>可以在页面的 <code>Front Matter</code> 中配置 <code>icon</code> 字段，填入对应图标的 FontClass 即可绑定图标到页面。</p>
+<p>可以在页面的 frontmatter 中配置 <code>icon</code> 字段，填入对应图标的 FontClass 即可绑定图标到页面。</p>
 <p>该图标会在 <strong>路径导航</strong> 和 <strong>侧边栏</strong> 中使用。</p>
 <details><summary>例子</summary>
 <div><pre><code><span><span>---</span>
@@ -12594,7 +12585,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <p>具体详情请见 <a href="./../feature/comment.html">评论</a> 章节。</p>
 <h2 id="页脚支持"> 页脚支持 <i>Not supported content</i></h2>
 <p>如果希望每个页面都显示页脚，需要将 <code>themeConfig.footer.display</code> 设置为 <code>true</code>。同时，你可以使用 <code>themeConfig.footer.copyright</code> 和 <code>themeConfig.content</code> 设置默认的版权信息与页脚内容。</p>
-<p>你也可以在页面的 <code>Front Matter</code> 中配置 <code>footer</code>，<code>copyrightText</code> 与 <code>medialink</code> 字段。</p>
+<p>你也可以在页面的 frontmatter 中配置 <code>footer</code>，<code>copyrightText</code> 与 <code>medialink</code> 字段。</p>
 <ul>
 <li>
 <p><code>footer</code> 字段可以填入字符串或布尔值。</p>
@@ -12693,11 +12684,11 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <span>}</span><span>;</span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>你可以省略 <code>.md</code> 拓展名，同时以 <code>/</code> 结尾的路径将会被视为 <code>*/README.md</code>。</p>
-<p>侧边栏链接的文字将会被自动获取到 (无论你是声明为页面的第一个 header，还是明确地在 <code>Front Matter</code> 中指定页面的标题)。如果你想要显示地指定链接的文字，使用一个格式为 <code>[link, text]</code> 的数组。</p>
+<p>侧边栏链接的文字将会被自动获取到 (无论你是声明为页面的第一个 header，还是明确地在 frontmatter 中指定页面的标题)。如果你想要显示地指定链接的文字，使用一个格式为 <code>[link, text]</code> 的数组。</p>
 <p>侧边栏默认启用图标支持，将在侧边栏的链接前显示页面的图标。可以在 <code>themeConfig</code> 中将 <code>sidebarIcon</code> 设置为 <code>false</code> 来禁用它。</p>
 <h2 id="嵌套的标题链接"> 嵌套的标题链接</h2>
 <p>默认情况下，侧边栏会自动地显示由当前页面的标题(headers)组成的链接，并按照页面本身的结构进行嵌套，你可以通过 <code>themeConfig.sidebarDepth</code> 来修改它的行为。默认的深度(也是最大的深度)是 <code>2</code>，它将提取到 <code>h2</code> 和 <code>h3</code> 的标题，设置成 <code>0</code> 将会禁用标题(headers)链接。</p>
-<p>也可以使用 <code>Front Matter</code> 来为某个页面重写此值:</p>
+<p>也可以使用 frontmatter 来为某个页面重写此值:</p>
 <div><pre><code><span><span>---</span>
 <span><span>sidebarDepth</span><span>:</span> <span>2</span></span>
 <span>---</span></span>
@@ -14310,6 +14301,37 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 ]]></content:encoded>
     </item>
     <item>
+      <title>Feed 支持</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/feed/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/feed/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">Feed 支持</source>
+      <category>feature</category>
+      <content:encoded><![CDATA[<p><code>vuepress-theme-hope</code> 通过 <code>@mr-hope/vuepress-plugin-feed</code> 插件来为你提供 feed 支持。如果你不需要这个功能，则可以将 <code>themeConfig.feed</code> 设置为 <code>false</code> 来禁用该插件。</p>
+<p>主题会自动为你生成以下三种格式的 feed 文件:</p>
+<ul>
+<li>Atom 1.0 (默认输出为 atom.xml)</li>
+<li>JSON 1.1 (默认输出为 feed.json)</li>
+<li>RSS 2.0 (默认输出为 rss.xml)</li>
+</ul>
+<p>考虑到现在 Feed 已经很小众，我们旨在提供最小配置来尽可能自动生成详细的 Feed 文件。</p>
+<h2 id="频道设置"> 频道设置</h2>
+<p>你可以通过设置 <code>themeConfig.feed.channel</code> 选项来自自定义 Feed 频道的各项信息。</p>
+<p>我们推荐您进行如下设置:</p>
+<ul>
+<li>将建立 Feed 的日期转换为 ISOString 写入到 <code>channel.pubDate</code> 中</li>
+<li>通过 <code>channel.ttl</code> 中设置内容的更新周期(单位: 分钟)</li>
+</ul>
+<p>详细的选项及其默认值详见 <a href="https://vuepress-theme-hope.github.io/feed/zh/config/channel/" target="_blank" rel="noopener noreferrer">Feed 插件频道设置</a></p>
+<h2 id="项目设置"> 项目设置</h2>
+<p>默认情况下，所有文章均会被添加至 feed 流。你可以通过配置 frontmatter 中的 feed 选项，对特定文章的 feed 项目生成进行控制。</p>
+<p>如果你想在 feed 中移除指定页面，你可以在该页面的 frontmatter 中将 <code>feed.enable</code> 设置为 <code>false</code>。</p>
+<p>当然你也可以通过 <code>frontmatter.feed</code> 直接向 feed 插件传入内容。详细的选项及其默认值详见 <a href="https://vuepress-theme-hope.github.io/feed/zh/config/item/" target="_blank" rel="noopener noreferrer">Feed 插件项目设置</a></p>
+<h2 id="输出配置"> 输出配置</h2>
+<p>你可通过配置选项中的 <code>output</code> 来决定输出哪些格式的 Feed 文件以及它们的位置。</p>
+<p>详细的选项及其默认值详见 <a href="https://vuepress-theme-hope.github.io/feed/zh/config/#output" target="_blank" rel="noopener noreferrer">Feed 插件输出设置</a></p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>加密功能</title>
       <link>https://vuepress-theme-hope.github.io/zh/guide/feature/encrypt/</link>
       <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/encrypt/</guid>
@@ -14373,28 +14395,6 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 <p>这是一个 vuepress 社区插件，而不是内置插件。因此，如果你遇到问题，请前往 <a href="https://github.com/vuepress/vuepress-plugin-copyright" target="_blank" rel="noopener noreferrer">它的仓库</a> 寻求帮助。</p>
 </div>
 ]]></content:encoded>
-    </item>
-    <item>
-      <title>代码复制</title>
-      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/copy-code/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/copy-code/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">代码复制</source>
-      <category>feature</category>
-      <content:encoded><![CDATA[<p>如果你是一个程序员，你可能希望你的用户能够一键复制你在正文中展示的代码。</p>
-<p>针对这一情况，<code>vuepress-theme-hope</code> 内置了 <a href="https://vuepress-theme-hope.github.io/copy-code/zh/" target="_blank" rel="noopener noreferrer">@mr-hope/copy-code</a>，提供了一个复制按钮。</p>
-<h2 id="使用"> 使用</h2>
-<p>启用后，本插件会自动添加复制按钮到每个代码块的右下角。</p>
-<p>默认情况下，按钮仅在桌面模式显示，如果你需要在移动端展示这个按钮，请将 <code>themeConfig.copyCode.showInMobile</code> 设置为 <code>true</code>。</p>
-<p>在用户点击复制按钮后，屏幕上会显示一个复制成功的提示。默认的提示时长为 2000ms，如果你需要更改这个时长，请设置 <code>themeConfig.copyCode.duration</code>(单位 ms)，如果你不需要这个提示，请将 <code>themeConfig.copyCode.duration</code> 设置为 <code>0</code>。</p>
-<h2 id="效果"> 效果</h2>
-<div><pre><code><span>// .vuepress/config.js</span>
-module<span>.</span>exports <span>=</span> <span>{</span>
-  themeConfig<span>:</span> <span>{</span>
-    copyCode<span>:</span> <span>{</span><span>}</span><span>,</span>
-  <span>}</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div>]]></content:encoded>
     </item>
   </channel>
 </rss>

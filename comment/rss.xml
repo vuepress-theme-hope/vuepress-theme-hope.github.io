@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/comment/</link>
     <description>Comment Plugin for VuePress</description>
     <language>en-US</language>
-    <pubDate>Fri, 26 Feb 2021 16:08:48 GMT</pubDate>
-    <lastBuildDate>Fri, 26 Feb 2021 16:08:48 GMT</lastBuildDate>
+    <pubDate>Fri, 26 Feb 2021 16:17:24 GMT</pubDate>
+    <lastBuildDate>Fri, 26 Feb 2021 16:17:24 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -695,8 +695,8 @@ Vssue can also work with self-hosted GitLab. Set the <code>baseURL</code> option
       <link>https://vuepress-theme-hope.github.io/comment/guide/page-info/</link>
       <guid>https://vuepress-theme-hope.github.io/comment/guide/page-info/</guid>
       <source url="https://vuepress-theme-hope.github.io/comment/rss.xml">Page information</source>
-      <content:encoded><![CDATA[<p>The <code>&lt;PageInfo /&gt;</code> component is enabled globally by default. You can disable it by setting <code>pageInfo: false</code> in <code>Front Matter</code> of a specific page.</p>
-<p>To keep it globally disabled, please set <code>pageInfo</code> to <code>false</code> in the plugin options. In this way you can set <code>pageInfo</code> in <code>Front Matter</code> of a specific page to enable it locally.</p>
+      <content:encoded><![CDATA[<p>The <code>&lt;PageInfo /&gt;</code> component is enabled globally by default. You can disable it by setting <code>pageInfo: false</code> in frontmatter of a specific page.</p>
+<p>To keep it globally disabled, please set <code>pageInfo</code> to <code>false</code> in the plugin options. In this way you can set <code>pageInfo</code> in frontmatter of a specific page to enable it locally.</p>
 <h2 id="parameters"> Parameters</h2>
 <p><code>pageInfo</code> accepts an array of strings by default, filling in a group of items. The order of filling is the order in which the items are displayed.</p>
 <p>The optional values ​​and corresponding contents of the entry are as follows:</p>
@@ -783,7 +783,7 @@ Vssue can also work with self-hosted GitLab. Set the <code>baseURL</code> option
 </ul>
 <h2 id="comment"> <code>&lt;Comment /&gt;</code></h2>
 <p>It is recommended to insert the comment component (<code>&lt;Comment /&gt;</code>) after the <code>&lt;PageNav /&gt;</code> component.</p>
-<p><code>&lt;Comment /&gt;</code> components are enabled globally by default. You can disable it by setting <code>comment: false</code> in <code>Front Matter</code> on a specific page.</p>
+<p><code>&lt;Comment /&gt;</code> components are enabled globally by default. You can disable it by setting <code>comment: false</code> in frontmatter on a specific page.</p>
 <p>To keep it globally disabled, please set <code>comment</code> to <code>false</code> in the plugin options. This way you can set <code>comment: true</code> in the frontmatter of a particular page to enable it locally.</p>
 <p>You can choose from 2 comment service provider: Valine and Vssue.</p>
 <h3 id="valine"> Valine</h3>
@@ -1741,8 +1741,8 @@ Vssue 同样可以配合自己搭建的 GitLab 使用。只需要将 <code>baseU
       <link>https://vuepress-theme-hope.github.io/comment/zh/guide/page-info/</link>
       <guid>https://vuepress-theme-hope.github.io/comment/zh/guide/page-info/</guid>
       <source url="https://vuepress-theme-hope.github.io/comment/rss.xml">页面信息</source>
-      <content:encoded><![CDATA[<p><code>&lt;PageInfo /&gt;</code> 组件默认全局启用。你可以在特定页面的 <code>Front Matter</code> 中设置 <code>pageInfo: false</code> 来局部禁用它。</p>
-<p>如果你需要保持全局禁用，请在插件选项中设置 <code>pageInfo</code> 为 <code>false</code>。这样你可以在特定页面的 <code>Front Matter</code> 中设置 <code>pageInfo</code> 来局部启用它。</p>
+      <content:encoded><![CDATA[<p><code>&lt;PageInfo /&gt;</code> 组件默认全局启用。你可以在特定页面的 frontmatter 中设置 <code>pageInfo: false</code> 来局部禁用它。</p>
+<p>如果你需要保持全局禁用，请在插件选项中设置 <code>pageInfo</code> 为 <code>false</code>。这样你可以在特定页面的 frontmatter 中设置 <code>pageInfo</code> 来局部启用它。</p>
 <h2 id="参数"> 参数</h2>
 <p><code>pageInfo</code> 默认接受一个字符串数组，可以填入各条目名称，填入的顺序即是各条目显示的顺序。</p>
 <p>条目可选的值和对应内容如下:</p>
@@ -1797,7 +1797,7 @@ Vssue 同样可以配合自己搭建的 GitLab 使用。只需要将 <code>baseU
 <ul>
 <li><strong>author</strong></li>
 </ul>
-<p>你可以在插件选项中配置 <code>author</code> 来设置默认作者，同样，你仍可以在页面中配置 <code>Front Matter</code> 中的 <code>author</code> 为一个新值来覆盖默认作者，或者设置为 <code>false</code> 以取消该页面的作者显示。</p>
+<p>你可以在插件选项中配置 <code>author</code> 来设置默认作者，同样，你仍可以在页面中配置 frontmatter 中的 <code>author</code> 为一个新值来覆盖默认作者，或者设置为 <code>false</code> 以取消该页面的作者显示。</p>
 <ul>
 <li><strong>time</strong></li>
 </ul>
@@ -1828,8 +1828,8 @@ Vssue 同样可以配合自己搭建的 GitLab 使用。只需要将 <code>baseU
 </ul>
 <h2 id="comment"> <code>&lt;Comment /&gt;</code></h2>
 <p>推荐将评论组件 (<code>&lt;Comment /&gt;</code>) 插入在 <code>&lt;PageNav /&gt;</code> 组件后。</p>
-<p><code>&lt;Comment /&gt;</code> 组件默认全局启用。你可以在特定页面的 <code>Front Matter</code> 中设置 <code>comment: false</code> 来局部禁用它。</p>
-<p>如果你需要保持全局禁用，请在插件选项中设置 <code>comment</code> 为 <code>false</code>。这样你可以在特定页面的 <code>Front Matter</code> 中设置 <code>comment: true</code> 来局部启用它。</p>
+<p><code>&lt;Comment /&gt;</code> 组件默认全局启用。你可以在特定页面的 frontmatter 中设置 <code>comment: false</code> 来局部禁用它。</p>
+<p>如果你需要保持全局禁用，请在插件选项中设置 <code>comment</code> 为 <code>false</code>。这样你可以在特定页面的 frontmatter 中设置 <code>comment: true</code> 来局部启用它。</p>
 <p>有两个评论插件可以选择: Valine 和 Vssue。</p>
 <h3 id="valine"> Valine</h3>
 <p><a href="./valine.html">详见 Valine 指南</a></p>
