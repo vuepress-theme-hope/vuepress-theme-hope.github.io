@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/</link>
     <description>A vuepress theme with tons of features✨</description>
     <language>en-US</language>
-    <pubDate>Fri, 26 Feb 2021 16:50:06 GMT</pubDate>
-    <lastBuildDate>Fri, 26 Feb 2021 16:50:06 GMT</lastBuildDate>
+    <pubDate>Fri, 26 Feb 2021 16:51:25 GMT</pubDate>
+    <lastBuildDate>Fri, 26 Feb 2021 16:51:25 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -4181,7 +4181,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <category>feature</category>
       <content:encoded><![CDATA[<p>By including <code>@mr-hope/vuepress-plugin-comment</code>, <code>vuepress-theme-hope</code> can display article information for you.</p>
 <h2 id="enable"> Enable</h2>
-<p>Page infomation display is enabled globally by default, while supports local config<sup></sup>. You can disable it by setting <code>pageInfo: false</code> in frontmatter of a specific page.</p>
+<p>Page information display is enabled globally by default, while supports local config<sup></sup>. You can disable it by setting <code>pageInfo: false</code> in frontmatter of a specific page.</p>
 <p>To keep it globally disabled, please set <code>pageInfo</code> to <code>false</code> in the plugin options. Then you can set <code>pageInfo</code> in frontmatter of a specific page to enable it locally.</p>
 <h2 id="parameters"> Parameters <i>Not supported content</i></h2>
 <p><code>pageInfo</code> accepts an array of strings by default, filling in a group of items. The order of filling is the order in which the items are displayed.</p>
