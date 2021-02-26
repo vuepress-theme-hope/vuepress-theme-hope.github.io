@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/</link>
     <description>A vuepress theme with tons of features✨</description>
     <language>en-US</language>
-    <pubDate>Fri, 26 Feb 2021 16:36:12 GMT</pubDate>
-    <lastBuildDate>Fri, 26 Feb 2021 16:36:12 GMT</lastBuildDate>
+    <pubDate>Fri, 26 Feb 2021 16:37:24 GMT</pubDate>
+    <lastBuildDate>Fri, 26 Feb 2021 16:37:24 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -11674,10 +11674,10 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 ]]></content:encoded>
     </item>
     <item>
-      <title>新增特性</title>
+      <title>功能</title>
       <link>https://vuepress-theme-hope.github.io/zh/guide/feature/</link>
       <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">新增特性</source>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">功能</source>
       <category>feature</category>
       <content:encoded><![CDATA[<h2 id="目录"> 目录</h2>
 <ul>
