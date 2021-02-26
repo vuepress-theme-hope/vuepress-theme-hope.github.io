@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/</link>
     <description>A vuepress theme with tons of features✨</description>
     <language>en-US</language>
-    <pubDate>Fri, 26 Feb 2021 13:51:18 GMT</pubDate>
-    <lastBuildDate>Fri, 26 Feb 2021 13:51:18 GMT</lastBuildDate>
+    <pubDate>Fri, 26 Feb 2021 13:58:47 GMT</pubDate>
+    <lastBuildDate>Fri, 26 Feb 2021 13:58:47 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -4516,14 +4516,14 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 <p>Homepage: Support for multiple action buttons, and the UI has been optimized.</p>
 </li>
 <li>
-<p>Page: <a href="./../feature/icon.html"><strong>page icon</strong></a>, <a href="./../feature/page-info.html"><strong>article information</strong></a>,<strong>Title list</strong>, picture preview function.</p>
+<p>Page: <a href="./../interface/icon.html"><strong>page icon</strong></a>, <a href="./../feature/page-info.html"><strong>article information</strong></a>,<strong>Title list</strong>, picture preview function.</p>
 </li>
 <li>
 <p>Site structure: simplifie the configuration of <a href="./../layout/navbar.html">Navigation Bar</a> and <a href="./../layout/sidebar.html">Sidebar</a>, add support for icons and path prefixes. At the same time, the theme added <a href="./../layout/page.html#breadcrumb"><strong>breadcrumb</strong></a> and footer support.</p>
 </li>
 </ul>
 <h3 id="blog"> Blog</h3>
-<p>The theme provides a brand new <a href="./../layout/blog.html"><strong>blog homepage</strong></a>, and also provides <a href="./../feature/blog.html"><strong>categories, tags, timeline, featured articles</strong></a> and other functions.</p>
+<p>The theme provides <a href="./../blog/blog.html"><strong>categories, tags, timeline, featured articles</strong></a> and other functions. Also, the theme gives you a brand new <a href="./../blog/home.html"><strong>blog homepage</strong></a>, and also .</p>
 <p>At the same time, the theme also provides common blog feature such as <a href="./../feature/comment.html"><strong>Comment</strong></a> and <a href="./../feature/feed.html"><strong>Feed</strong></a>.</p>
 ]]></content:encoded>
     </item>
@@ -4542,7 +4542,7 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 <h2 id="markdown-introduction"> Markdown introduction</h2>
 <p>If you are a new learner and don’t know how to write Markdown, please read <a href="./../../basic/markdown/">Markdown Intro</a> and <a href="./../../basic/markdown/demo.html">Markdown Demo</a>.</p>
 <div><p>Front Matter</p>
-<p>Front Matter is a very important concept in VuePress. If you don’t know it, you need to read <a href="./../../basic/vuepress/markdown.html#front-matter">Front Matter Introduction</a></p>
+<p>Front Matter is a very important concept in VuePress. If you don’t know it, you need to read <a href="./../../basic/vuepress/markdown.html#front-matter">Front Matter Introduction</a>.</p>
 </div>
 <h2 id="vuepress-enhance"> VuePress enhance</h2>
 <p>To enrich document writing, VuePress has extended Markdown syntax.</p>
@@ -4802,7 +4802,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <content:encoded><![CDATA[<p>This is an out-of-the-box feature that offers five theme color &quot;red, blue, green, orange and purple&quot; besides your theme color. You can also use your own theme color list.</p>
 
 <h2 id="disable"> Disable</h2>
-<p>You can disable it by setting the theme field’s <code>themeConfig.themeColor</code> to false.</p>
+<p>You can disable it by setting the theme field’s <code>themeConfig.themeColor</code> to <code>false</code>.</p>
 <h2 id="custom-color"> Custom color</h2>
 <p>You need to configure <code>themeConfig.themeColor</code> in the format <code>colorname1: colorvalue, colorname2: colorvalue, ... }</code>:</p>
 <details><summary>Example</summary>
@@ -4818,7 +4818,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
   <span>}</span><span>,</span>
 <span>}</span><span>;</span>
 </code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div></details>
-<p>To let the Stylus compiler to work, you also need to assign the color variable to <code>$colorPicker</code> and write it to <code>.vuepress/styles/palette.styl</code>:</p>
+<p>To let the Stylus compiler to work, you also need to assign the color variable to <code>$colorPicker</code> and write it to <code>palette.styl</code> under <code>.vuepress/styles</code>:</p>
 <details><summary>Example</summary>
 <div><pre><code><span>// .vuepress/styles/palette.styl</span>
 <span><span>$colorPicker</span> <span>=</span> <span>{</span>
@@ -4835,11 +4835,15 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <link>https://vuepress-theme-hope.github.io/guide/layout/home/</link>
       <guid>https://vuepress-theme-hope.github.io/guide/layout/home/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">Home Page</source>
+      <description>&amp;lt;p&amp;gt;&amp;lt;code&amp;gt;vuepress-theme-hope&amp;lt;/code&amp;gt; improves the default home page.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;To use it, set &amp;lt;code&amp;gt;home: true&amp;lt;/code&amp;gt; in page frontmatter. Any extra content after the &amp;lt;code&amp;gt;YAML front matter&amp;lt;/code&amp;gt; will be parsed as normal Markdown and rendered after the features section.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;img src=&amp;quot;./assets/home.png&amp;quot; alt=&amp;quot;Screenshot&amp;quot;&amp;gt;&amp;lt;/p&amp;gt;
+</description>
       <category>layout</category>
-      <content:encoded><![CDATA[<h1 id="home-page"> Home Page</h1>
-<p><code>vuepress-theme-hope</code> improves the default home page.</p>
+      <content:encoded><![CDATA[<p><code>vuepress-theme-hope</code> improves the default home page.</p>
 <p>To use it, set <code>home: true</code> in page frontmatter. Any extra content after the <code>YAML front matter</code> will be parsed as normal Markdown and rendered after the features section.</p>
 <p><img src="./assets/home.png" alt="Screenshot"></p>
+
 <h2 id="item-style"> Item style</h2>
 <p>The frontmatter parameters that can be configured are as follows:</p>
 <h3 id="home"> home</h3>
@@ -4898,7 +4902,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <div><pre><code><span>---</span>
 <span>home</span><span>:</span> <span>true</span>
 <span>icon</span><span>:</span> home
-<span>title</span><span>:</span> vuepress<span>-</span>theme<span>-</span>hope
+<span>title</span><span>:</span> Home
 <span>heroImage</span><span>:</span> /logo.svg
 <span>heroText</span><span>:</span> vuepress<span>-</span>theme<span>-</span>hope
 <span>tagline</span><span>:</span> A vuepress theme with tons of features✨
@@ -4911,6 +4915,10 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <span>link</span><span>:</span> /config/
 
 <span>features</span><span>:</span>
+  <span>-</span> <span>title</span><span>:</span> Markdown Enhance 🧰
+    <span>details</span><span>:</span> Add align<span>,</span> sup/sub script<span>,</span> footnote<span>,</span> tex<span>,</span> flowchart<span>,</span> mark and presentation support in markdown
+    <span>link</span><span>:</span> /guide/markdown/
+
   <span>-</span> <span>title</span><span>:</span> Pageviews and comments 💬
     <span>details</span><span>:</span> Start pageview statistics and comment support with Valine and Vssue
     <span>link</span><span>:</span> /guide/feature/comment/
@@ -4919,29 +4927,29 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <span>details</span><span>:</span> Add author<span>,</span> writing date<span>,</span> reading time<span>,</span> word count and other information to your article
     <span>link</span><span>:</span> /guide/feature/page<span>-</span>info/
 
-  <span>-</span> <span>title</span><span>:</span> Markdown Enhance 🧰
-    <span>details</span><span>:</span> Add align<span>,</span> sup/sub script<span>,</span> footnote<span>,</span> tex<span>,</span> flowchart<span>,</span> mark and presentation support in markdown
-    <span>link</span><span>:</span> /guide/markdown/
-
   <span>-</span> <span>title</span><span>:</span> Blog support 📝
     <span>details</span><span>:</span> Add date<span>,</span> tags and category to your articles<span>,</span> then article<span>,</span> tag<span>,</span> category and timeline list will be auto generated
-    <span>link</span><span>:</span> /guide/feature/blog/
+    <span>link</span><span>:</span> /guide/blog/blog/
 
   <span>-</span> <span>title</span><span>:</span> Article Encryption 🔐
     <span>details</span><span>:</span> Encrypt you article based on path and folders<span>,</span> so that only the one you want could see them
-    <span>link</span><span>:</span> /guide/feature/blog/
+    <span>link</span><span>:</span> /guide/feature/encrypt/
 
   <span>-</span> <span>title</span><span>:</span> Custom theme color 🎨
     <span>details</span><span>:</span> Supports custom theme colors and allows users to switch between preset theme colors
-    <span>link</span><span>:</span> /guide/feature/themecolor/
+    <span>link</span><span>:</span> /guide/interface/theme<span>-</span>color/
 
   <span>-</span> <span>title</span><span>:</span> Dark Mode 🌙
     <span>details</span><span>:</span> Switch between light and dark modes freely
-    <span>link</span><span>:</span> /guide/feature/darkmode/
+    <span>link</span><span>:</span> /guide/interface/darkmode/
 
   <span>-</span> <span>title</span><span>:</span> SEO enhancement and Sitemap 🗺
     <span>details</span><span>:</span> The theme can automatically generate a Sitemap for your website<span>,</span> and optimize the resulting web page for search engines.
     <span>link</span><span>:</span> /guide/feature/seo<span>-</span>sitemap/
+
+  <span>-</span> <span>title</span><span>:</span> Feed support 📡
+    <span>details</span><span>:</span> You can generate feed<span>,</span> and let users to subcribe it
+    <span>link</span><span>:</span> /guide/feature/feed/
 
   <span>-</span> <span>title</span><span>:</span> PWA support 📲
     <span>details</span><span>:</span> The built<span>-</span>in PWA plugin will make your website more like an APP.
@@ -4960,17 +4968,18 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <span>---</span>
 
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br><span>40</span><br><span>41</span><br><span>42</span><br><span>43</span><br><span>44</span><br><span>45</span><br><span>46</span><br><span>47</span><br><span>48</span><br><span>49</span><br><span>50</span><br><span>51</span><br><span>52</span><br><span>53</span><br><span>54</span><br><span>55</span><br><span>56</span><br><span>57</span><br><span>58</span><br><span>59</span><br><span>60</span><br><span>61</span><br><span>62</span><br><span>63</span><br><span>64</span><br></div></div>]]></content:encoded>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br><span>40</span><br><span>41</span><br><span>42</span><br><span>43</span><br><span>44</span><br><span>45</span><br><span>46</span><br><span>47</span><br><span>48</span><br><span>49</span><br><span>50</span><br><span>51</span><br><span>52</span><br><span>53</span><br><span>54</span><br><span>55</span><br><span>56</span><br><span>57</span><br><span>58</span><br><span>59</span><br><span>60</span><br><span>61</span><br><span>62</span><br><span>63</span><br><span>64</span><br><span>65</span><br><span>66</span><br><span>67</span><br><span>68</span><br></div></div>]]></content:encoded>
     </item>
     <item>
       <title>NavBar</title>
       <link>https://vuepress-theme-hope.github.io/guide/layout/navbar/</link>
       <guid>https://vuepress-theme-hope.github.io/guide/layout/navbar/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">NavBar</source>
+      <description>&amp;lt;p&amp;gt;The Navbar may contain your site title, , , &amp;lt;a href=&amp;quot;https://v1.vuepress.vuejs.org/guide/i18n.md&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;Languages&amp;lt;/a&amp;gt; and , they all depend on your configuration.&amp;lt;/p&amp;gt;
+</description>
       <category>layout</category>
-      <content:encoded><![CDATA[<h1 id="navbar"> NavBar</h1>
-<h2 id="introduction"> Introduction</h2>
-<p>The Navbar may contain your site title, , , <a href="https://v1.vuepress.vuejs.org/guide/i18n.md" target="_blank" rel="noopener noreferrer">Languages</a> and , they all depend on your configuration.</p>
+      <content:encoded><![CDATA[<p>The Navbar may contain your site title, , , <a href="https://v1.vuepress.vuejs.org/guide/i18n.md" target="_blank" rel="noopener noreferrer">Languages</a> and , they all depend on your configuration.</p>
+
 <h3 id="navbar-links"> Navbar Links</h3>
 <p>You can add links to the navbar via <code>themeConfig.nav</code>.</p>
 <p>The basic configuration items are <code>text</code> navigation bar text, <code>link</code> navigation bar link, and <code>icon</code> navigation bar icon:</p>
@@ -11767,7 +11776,7 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 <span>}</span><span>)</span><span>;</span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><div><p>为什么要引入 config 函数</p>
-<p>为了尽可能减轻用户配置，vuepress-theme-hope 提供了一些额外的配置选项，需要经过处理才能提交 vuepress、同时 vuepress-theme-hope 也会允许你省略一些配置并自动帮你生成它们。</p>
+<p>为了尽可能减轻用户配置，vuepress-theme-hope 提供了一些额外的配置选项，需要经过处理才能提交 VuePress、同时 vuepress-theme-hope 也会允许你省略一些配置并自动帮你生成它们。</p>
 <p>比如自动根据你的主题配置中的多语言选项，为你生成项目配置中的多语言选项，并自动帮你完成本地化工作。</p>
 </div>
 ]]></content:encoded>
@@ -11781,8 +11790,8 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
       <content:encoded><![CDATA[<h2 id="🎈-主题的初衷与设计目标"> 🎈 主题的初衷与设计目标</h2>
 <h3 id="初衷"> 初衷</h3>
 <p>制作本主题的初衷是发现 VuePress 只是一个单纯的静态文档生成器。举个例子，它并不会注入 meta 标签做 SEO 优化，也不会生成 Sitemap 帮助搜索引擎索引文档内容。</p>
-<p>同时由于尤雨溪转向 Vite 驱动的 VitePress，VuePress 的社区生态也越来越差，一些开发者占用了最直观的插件名称，如 <code>copy-code</code> <code>feed</code> <code>seo</code> <code>sitemap</code> 等，却提供很弱的功能，并不再提供任何更新。</p>
-<p>同时，虽然 VuePress 在一定程度上扩展了 Markdown 语法，它仍然缺失一些常用的功能，比如文本对齐、标记、流程图、公式、演示等。同时默认主题提供的一些功能，也比较弱或者缺失，如图片预览，暗黑模式等。</p>
+<p>由于尤雨溪转向 Vite 驱动的 VitePress，VuePress 的社区生态也越来越差，一些开发者占用了最直观的插件名称，如 <code>copy-code</code> <code>feed</code> <code>seo</code> <code>sitemap</code> 等，却提供很弱的功能，并不再提供任何更新。</p>
+<p>虽然 VuePress 在一定程度上扩展了 Markdown 语法，它仍然缺失一些常用的功能，比如文本对齐、标记、流程图、公式、演示等。同时默认主题提供的一些功能，也比较弱或者缺失，如图片预览，暗黑模式等。</p>
 <p>在这种情况下，<code>vuepress-theme-hope</code> 就设计诞生。由于开发者 Mr.Hope 本人就读物理专业，对设计方面并不擅长，所以本主题在 UI 上很大程度保持默认主题的简约风格，不做过多的改动，而在致力于<strong>各种细节与功能上为 VuePress 提供全方位的增强</strong>。</p>
 <h3 id="设计目标"> 设计目标</h3>
 <ul>
@@ -11801,7 +11810,7 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 <p>主题为 Markdown 提供了大量的扩展语法支持，让你在正文插入更多的内容。</p>
 <ul>
 <li>
-<p>如果你是一名文学爱好者想放置一些随笔，主题提供了 <a href="./../markdown/align.html">自定义对齐</a> 与<a href="./../markdown/footnote.html">脚注</a>。</p>
+<p>如果你是一名文学爱好者想放置一些随笔，主题提供了 <a href="./../markdown/align.html">自定义对齐</a> 与 <a href="./../markdown/footnote.html">脚注</a>。</p>
 </li>
 <li>
 <p>如果你希望存放一些知识笔记，主题提供了 <a href="./../markdown/mark.html">标记</a> 与 <a href="./../markdown/tex.html">公式</a> 支持。</p>
@@ -11823,14 +11832,14 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 <p>主页: 多个动作按钮支持，UI 优化。</p>
 </li>
 <li>
-<p>页面: <a href="./../feature/icon.html"><strong>页面图标</strong></a>、<a href="./../feature/page-info.html"><strong>文章信息</strong></a>、<strong>标题目录</strong>、图片预览功能。</p>
+<p>页面: <a href="./../interface/icon.html"><strong>页面图标</strong></a>、<a href="./../feature/page-info.html"><strong>文章信息</strong></a>、<strong>标题目录</strong>、图片预览功能。</p>
 </li>
 <li>
 <p>站点结构: 简化了 <a href="./../layout/navbar.html">导航栏</a> 与 <a href="./../layout/sidebar.html">侧边栏</a> 配置，添加了图标与路径前缀支持。同时主题添加了<a href="./../layout/page.html#路径导航"><strong>路径导航</strong></a> 与页脚支持。</p>
 </li>
 </ul>
 <h3 id="博客"> 博客</h3>
-<p>主题提供了全新的 <a href="./../layout/blog.html"><strong>博客主页</strong></a>，同时提供 <a href="./../feature/blog.html"><strong>分类、标签、时间线、精选文章</strong></a> 等功能。</p>
+<p>主题提供了 <a href="./../blog/blog.html"><strong>分类、标签、时间线、精选文章</strong></a> 等功能，并提供了全新的 <a href="./../blog/home.html"><strong>博客主页</strong></a>。</p>
 <p>同时主题还提供了 <a href="./../feature/comment.html"><strong>评论</strong></a>、<a href="./../feature/feed.html"><strong>Feed</strong></a> 等博客常用内容。</p>
 ]]></content:encoded>
     </item>
@@ -11847,7 +11856,7 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 <h2 id="markdown-介绍"> Markdown 介绍</h2>
 <p>如果你是一个新手，还不会编写 Markdown，请先阅读 <a href="./../../basic/markdown/">Markdown 介绍</a> 和 <a href="./../../basic/markdown/demo.html">Markdown 演示</a>。</p>
 <div><p>Front Matter</p>
-<p>Front Matter 是 VuePress 中很重要的一个概念，如果你不了解它，你需要阅读 <a href="./../../basic/vuepress/markdown.html#front-matter">Front Matter 介绍</a></p>
+<p>Front Matter 是 VuePress 中很重要的一个概念，如果你不了解它，你需要阅读 <a href="./../../basic/vuepress/markdown.html#front-matter">Front Matter 介绍</a>。</p>
 </div>
 <h2 id="vuepress-扩展"> VuePress 扩展</h2>
 <p>为了丰富文档写作，VuePress 对 Markdown 语法进行了扩展。</p>
@@ -12120,7 +12129,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
   <span>}</span><span>,</span>
 <span>}</span><span>;</span>
 </code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div></details>
-<p>同时为了使 Stylus 编译器正常工作，你还需要将颜色变量赋值给 <code>$colorPicker</code> 写入 <code>.vuepress/styles/palette.styl</code> 中:</p>
+<p>同时为了使 Stylus 编译器正常工作，你还需要将颜色变量赋值给 <code>$colorPicker</code> 写入 <code>.vuepress/styles</code> 下的 <code>palette.styl</code> 中:</p>
 <details><summary>例子</summary>
 <div><pre><code><span>// .vuepress/styles/palette.styl</span>
 <span><span>$colorPicker</span> <span>=</span> <span>{</span>
@@ -12138,11 +12147,15 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <link>https://vuepress-theme-hope.github.io/zh/guide/layout/home/</link>
       <guid>https://vuepress-theme-hope.github.io/zh/guide/layout/home/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">首页</source>
+      <description>&amp;lt;p&amp;gt;&amp;lt;code&amp;gt;vuepress-theme-hope&amp;lt;/code&amp;gt; 对首页布局进行了一些改进。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;如果想要使用它，请在 frontmatter 中设置 &amp;lt;code&amp;gt;home: true&amp;lt;/code&amp;gt;。任何 &amp;lt;code&amp;gt;YAML front matter&amp;lt;/code&amp;gt; 之后额外的内容将会以普通的 Markdown 被渲染，并插入到 &amp;lt;code&amp;gt;features&amp;lt;/code&amp;gt; 的后面。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;img src=&amp;quot;./assets/home.png&amp;quot; alt=&amp;quot;首页截图&amp;quot;&amp;gt;&amp;lt;/p&amp;gt;
+</description>
       <category>layout</category>
-      <content:encoded><![CDATA[<h1 id="首页"> 首页</h1>
-<p><code>vuepress-theme-hope</code> 对首页布局进行了一些改进。</p>
+      <content:encoded><![CDATA[<p><code>vuepress-theme-hope</code> 对首页布局进行了一些改进。</p>
 <p>如果想要使用它，请在 frontmatter 中设置 <code>home: true</code>。任何 <code>YAML front matter</code> 之后额外的内容将会以普通的 Markdown 被渲染，并插入到 <code>features</code> 的后面。</p>
 <p><img src="./assets/home.png" alt="首页截图"></p>
+
 <h2 id="配置选项"> 配置选项</h2>
 <p>可以配置的 frontmatter 参数如下:</p>
 <h3 id="home"> home</h3>
@@ -12200,7 +12213,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <h2 id="配置案例"> 配置案例</h2>
 <div><pre><code><span>---</span>
 <span>home</span><span>:</span> <span>true</span>
-<span>title</span><span>:</span> vuepress<span>-</span>theme<span>-</span>hope
+<span>title</span><span>:</span> 主页
 <span>icon</span><span>:</span> home
 <span>heroImage</span><span>:</span> /logo.svg
 <span>heroText</span><span>:</span> vuepress<span>-</span>theme<span>-</span>hope
@@ -12214,6 +12227,10 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <span>link</span><span>:</span> /zh/config/
 
 <span>features</span><span>:</span>
+  <span>-</span> <span>title</span><span>:</span> Markdown 增强 🧰
+    <span>details</span><span>:</span> 新增文字对齐、上下角标、脚注、标记、数学公式、流程图与幻灯片支持
+    <span>link</span><span>:</span> /zh/guide/markdown/
+
   <span>-</span> <span>title</span><span>:</span> 浏览量与评论 💬
     <span>details</span><span>:</span> 配合 Valine 与 Vssue 来开启阅读量统计与评论支持
     <span>link</span><span>:</span> /zh/guide/feature/comment/
@@ -12222,13 +12239,9 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <span>details</span><span>:</span> 为你的文章添加作者、写作日期、预计阅读时间、字数统计等信息
     <span>link</span><span>:</span> /zh/guide/feature/page<span>-</span>info/
 
-  <span>-</span> <span>title</span><span>:</span> Markdown 增强 🧰
-    <span>details</span><span>:</span> 新增文字对齐、上下角标、脚注、标记、数学公式、流程图与幻灯片支持
-    <span>link</span><span>:</span> /zh/guide/markdown/
-
   <span>-</span> <span>title</span><span>:</span> 博客支持 📝
     <span>details</span><span>:</span> 为你的文章添加日期、标签和分类，即可自动生成文章、分类、标签与时间轴列表
-    <span>link</span><span>:</span> /zh/guide/feature/blog/
+    <span>link</span><span>:</span> /zh/guide/blog/blog/
 
   <span>-</span> <span>title</span><span>:</span> 文章加密 🔐
     <span>details</span><span>:</span> 你可以为你的特定页面或特定目录进行加密，以便陌生人不能随意访问它们
@@ -12236,15 +12249,19 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 
   <span>-</span> <span>title</span><span>:</span> 主题色切换 🎨
     <span>details</span><span>:</span> 支持自定义主题色并允许用户在预设的主题颜色之间切换
-    <span>link</span><span>:</span> /zh/guide/feature/themecolor/<span>#自定义主题色</span>
+    <span>link</span><span>:</span> /zh/guide/interface/theme<span>-</span>color/
 
   <span>-</span> <span>title</span><span>:</span> 深色模式 🌙
     <span>details</span><span>:</span> 可以自由切换浅色模式与深色模式
-    <span>link</span><span>:</span> /zh/guide/feature/themecolor/<span>#深色模式</span>
+    <span>link</span><span>:</span> /zh/guide/interface/darkmode/
 
   <span>-</span> <span>title</span><span>:</span> SEO 增强和 Sitemap 🗺
     <span>details</span><span>:</span> 主题可以自动为你的网站生成 Sitemap，并将最终生成的网页针对搜索引擎进行优化。
     <span>link</span><span>:</span> /zh/guide/feature/seo<span>-</span>sitemap/
+
+  <span>-</span> <span>title</span><span>:</span> Feed 支持 📡
+    <span>details</span><span>:</span> 你可以生成你的 Feed，并通知你的用户订阅它。
+    <span>link</span><span>:</span> /zh/guide/feature/feed/
 
   <span>-</span> <span>title</span><span>:</span> PWA 支持 📲
     <span>details</span><span>:</span> 内置的 PWA 插件会让你的网站更像一个 APP。
@@ -12263,16 +12280,18 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <span>---</span>
 
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br><span>40</span><br><span>41</span><br><span>42</span><br><span>43</span><br><span>44</span><br><span>45</span><br><span>46</span><br><span>47</span><br><span>48</span><br><span>49</span><br><span>50</span><br><span>51</span><br><span>52</span><br><span>53</span><br><span>54</span><br><span>55</span><br><span>56</span><br><span>57</span><br><span>58</span><br><span>59</span><br><span>60</span><br><span>61</span><br><span>62</span><br><span>63</span><br><span>64</span><br></div></div>]]></content:encoded>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br><span>40</span><br><span>41</span><br><span>42</span><br><span>43</span><br><span>44</span><br><span>45</span><br><span>46</span><br><span>47</span><br><span>48</span><br><span>49</span><br><span>50</span><br><span>51</span><br><span>52</span><br><span>53</span><br><span>54</span><br><span>55</span><br><span>56</span><br><span>57</span><br><span>58</span><br><span>59</span><br><span>60</span><br><span>61</span><br><span>62</span><br><span>63</span><br><span>64</span><br><span>65</span><br><span>66</span><br><span>67</span><br><span>68</span><br></div></div>]]></content:encoded>
     </item>
     <item>
       <title>导航栏</title>
       <link>https://vuepress-theme-hope.github.io/zh/guide/layout/navbar/</link>
       <guid>https://vuepress-theme-hope.github.io/zh/guide/layout/navbar/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">导航栏</source>
+      <description>&amp;lt;p&amp;gt;导航栏可能包含你的站点名称、、 、&amp;lt;a href=&amp;quot;https://v1.vuepress.vuejs.org/zh/guide/i18n.md&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;多语言切换&amp;lt;/a&amp;gt;、，它们均取决于你的配置。&amp;lt;/p&amp;gt;
+</description>
       <category>layout</category>
-      <content:encoded><![CDATA[<h1 id="导航栏"> 导航栏</h1>
-<p>导航栏可能包含你的站点名称、、 、<a href="https://v1.vuepress.vuejs.org/zh/guide/i18n.md" target="_blank" rel="noopener noreferrer">多语言切换</a>、，它们均取决于你的配置。</p>
+      <content:encoded><![CDATA[<p>导航栏可能包含你的站点名称、、 、<a href="https://v1.vuepress.vuejs.org/zh/guide/i18n.md" target="_blank" rel="noopener noreferrer">多语言切换</a>、，它们均取决于你的配置。</p>
+
 <h2 id="导航栏链接"> 导航栏链接</h2>
 <p>你可以通过 <code>themeConfig.nav</code> 增加一些导航栏链接。</p>
 <p>基础的配置项有 <code>text</code> 导航栏文字，<code>link</code> 导航栏链接， <code>icon</code> 导航栏图标:</p>
@@ -12482,8 +12501,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <guid>https://vuepress-theme-hope.github.io/zh/guide/layout/page/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">页面</source>
       <category>layout</category>
-      <content:encoded><![CDATA[<h1 id="页面"> 页面</h1>
-<h2 id="图标支持"> 图标支持</h2>
+      <content:encoded><![CDATA[<h2 id="图标支持"> 图标支持</h2>
 <p>可以在页面的 <code>Front Matter</code> 中配置 <code>icon</code> 字段，填入对应图标的 FontClass 即可绑定图标到页面。</p>
 <p>该图标会在 <strong>路径导航</strong> 和 <strong>侧边栏</strong> 中使用。</p>
 <details><summary>例子</summary>
@@ -12615,8 +12633,8 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <guid>https://vuepress-theme-hope.github.io/zh/guide/layout/sidebar/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">侧边栏</source>
       <category>layout</category>
-      <content:encoded><![CDATA[<h1 id="侧边栏"> 侧边栏</h1>
-<p>想要使 侧边栏(Sidebar)生效，需要配置 <code>themeConfig.sidebar</code>，基本的配置，需要一个包含了多个链接的数组:</p>
+      <content:encoded><![CDATA[<p>你需要配置 <code>themeConfig.sidebar</code>，才能在站点中显示侧边栏(Sidebar)。</p>
+<p>对于 Sidebar 基本的配置，可以传入一个包含多个链接的数组:</p>
 <div><pre><code><span>// .vuepress/config.js</span>
 module<span>.</span>exports <span>=</span> <span>{</span>
   themeConfig<span>:</span> <span>{</span>
@@ -14242,6 +14260,37 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 ]]></content:encoded>
     </item>
     <item>
+      <title>Feed 支持</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/feed/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/feed/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">Feed 支持</source>
+      <category>feature</category>
+      <content:encoded><![CDATA[<p><code>vuepress-theme-hope</code> 通过 <code>@mr-hope/vuepress-plugin-feed</code> 插件来为你提供 feed 支持。如果你不需要这个功能，则可以将 <code>themeConfig.feed</code> 设置为 <code>false</code> 来禁用该插件。</p>
+<p>主题会自动为你生成以下三种格式的 feed 文件:</p>
+<ul>
+<li>Atom 1.0 (默认输出为 atom.xml)</li>
+<li>JSON 1.1 (默认输出为 feed.json)</li>
+<li>RSS 2.0 (默认输出为 rss.xml)</li>
+</ul>
+<p>考虑到现在 Feed 已经很小众，我们旨在提供最小配置来尽可能自动生成详细的 Feed 文件。</p>
+<h2 id="频道设置"> 频道设置</h2>
+<p>你可以通过设置 <code>themeConfig.feed.channel</code> 选项来自自定义 Feed 频道的各项信息。</p>
+<p>我们推荐您进行如下设置:</p>
+<ul>
+<li>将建立 Feed 的日期转换为 ISOString 写入到 <code>channel.pubDate</code> 中</li>
+<li>通过 <code>channel.ttl</code> 中设置内容的更新周期(单位: 分钟)</li>
+</ul>
+<p>详细的选项及其默认值详见 <a href="https://vuepress-theme-hope.github.io/feed/zh/config/channel/" target="_blank" rel="noopener noreferrer">Feed 插件频道设置</a></p>
+<h2 id="项目设置"> 项目设置</h2>
+<p>默认情况下，所有文章均会被添加至 feed 流。你可以通过配置 frontmatter 中的 feed 选项，对特定文章的 feed 项目生成进行控制。</p>
+<p>如果你想在 feed 中移除指定页面，你可以在该页面的 frontmatter 中将 <code>feed.enable</code> 设置为 <code>false</code>。</p>
+<p>当然你也可以通过 <code>frontmatter.feed</code> 直接向 feed 插件传入内容。详细的选项及其默认值详见 <a href="https://vuepress-theme-hope.github.io/feed/zh/config/item/" target="_blank" rel="noopener noreferrer">Feed 插件项目设置</a></p>
+<h2 id="输出配置"> 输出配置</h2>
+<p>你可通过配置选项中的 <code>output</code> 来决定输出哪些格式的 Feed 文件以及它们的位置。</p>
+<p>详细的选项及其默认值详见 <a href="https://vuepress-theme-hope.github.io/feed/zh/config/#output" target="_blank" rel="noopener noreferrer">Feed 插件输出设置</a></p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>加密功能</title>
       <link>https://vuepress-theme-hope.github.io/zh/guide/feature/encrypt/</link>
       <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/encrypt/</guid>
@@ -14304,37 +14353,6 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 <div><p>Note</p>
 <p>这是一个 vuepress 社区插件，而不是内置插件。因此，如果你遇到问题，请前往 <a href="https://github.com/vuepress/vuepress-plugin-copyright" target="_blank" rel="noopener noreferrer">它的仓库</a> 寻求帮助。</p>
 </div>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Feed 支持</title>
-      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/feed/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/feed/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">Feed 支持</source>
-      <category>feature</category>
-      <content:encoded><![CDATA[<p><code>vuepress-theme-hope</code> 通过 <code>@mr-hope/vuepress-plugin-feed</code> 插件来为你提供 feed 支持。如果你不需要这个功能，则可以将 <code>themeConfig.feed</code> 设置为 <code>false</code> 来禁用该插件。</p>
-<p>主题会自动为你生成以下三种格式的 feed 文件:</p>
-<ul>
-<li>Atom 1.0 (默认输出为 atom.xml)</li>
-<li>JSON 1.1 (默认输出为 feed.json)</li>
-<li>RSS 2.0 (默认输出为 rss.xml)</li>
-</ul>
-<p>考虑到现在 Feed 已经很小众，我们旨在提供最小配置来尽可能自动生成详细的 Feed 文件。</p>
-<h2 id="频道设置"> 频道设置</h2>
-<p>你可以通过设置 <code>themeConfig.feed.channel</code> 选项来自自定义 Feed 频道的各项信息。</p>
-<p>我们推荐您进行如下设置:</p>
-<ul>
-<li>将建立 Feed 的日期转换为 ISOString 写入到 <code>channel.pubDate</code> 中</li>
-<li>通过 <code>channel.ttl</code> 中设置内容的更新周期(单位: 分钟)</li>
-</ul>
-<p>详细的选项及其默认值详见 <a href="https://vuepress-theme-hope.github.io/feed/zh/config/channel/" target="_blank" rel="noopener noreferrer">Feed 插件频道设置</a></p>
-<h2 id="项目设置"> 项目设置</h2>
-<p>默认情况下，所有文章均会被添加至 feed 流。你可以通过配置 frontmatter 中的 feed 选项，对特定文章的 feed 项目生成进行控制。</p>
-<p>如果你想在 feed 中移除指定页面，你可以在该页面的 frontmatter 中将 <code>feed.enable</code> 设置为 <code>false</code>。</p>
-<p>当然你也可以通过 <code>frontmatter.feed</code> 直接向 feed 插件传入内容。详细的选项及其默认值详见 <a href="https://vuepress-theme-hope.github.io/feed/zh/config/item/" target="_blank" rel="noopener noreferrer">Feed 插件项目设置</a></p>
-<h2 id="输出配置"> 输出配置</h2>
-<p>你可通过配置选项中的 <code>output</code> 来决定输出哪些格式的 Feed 文件以及它们的位置。</p>
-<p>详细的选项及其默认值详见 <a href="https://vuepress-theme-hope.github.io/feed/zh/config/#output" target="_blank" rel="noopener noreferrer">Feed 插件输出设置</a></p>
 ]]></content:encoded>
     </item>
   </channel>
