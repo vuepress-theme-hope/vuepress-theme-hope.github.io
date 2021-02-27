@@ -6,7 +6,7 @@
   <author>
     <name>Mr.Hope</name>
   </author>
-  <updated>2021-02-27T02:28:26.358Z</updated>
+  <updated>2021-02-27T02:41:03.451Z</updated>
   <generator>@mr-hope/vuepress-plugin-feed</generator>
   <link rel="self" href="https://vuepress-theme-hope.github.io/add-this/atom.xml"/>
   <link rel="alternate" href="https://vuepress-theme-hope.github.io/add-this/"/>
@@ -18,7 +18,7 @@
     <title type="html">API Config</title>
     <id>https://vuepress-theme-hope.github.io/add-this/config/</id>
     <link href="https://vuepress-theme-hope.github.io/add-this/config/"/>
-    <updated>2021-02-27T02:22:33.000Z</updated>
+    <updated>2021-02-27T02:39:36.000Z</updated>
     <content type="html"><![CDATA[<h2 id="pubid"> pubid</h2>
 <ul>
 <li>Type: <code>string</code></li>
@@ -38,7 +38,7 @@
     <title type="html">Guide</title>
     <id>https://vuepress-theme-hope.github.io/add-this/guide/</id>
     <link href="https://vuepress-theme-hope.github.io/add-this/guide/"/>
-    <updated>2021-02-27T02:22:33.000Z</updated>
+    <updated>2021-02-27T02:39:36.000Z</updated>
     <content type="html"><![CDATA[<h2 id="register"> Register</h2>
 <p>Please go to <a href="https://www.addthis.com/register?next=/dashboard" target="_blank" rel="noopener noreferrer">Add this registration page</a> to register or <a href="https://www.addthis.com/login?next=/dashboard" target="_blank" rel="noopener noreferrer">Add this login page</a> Login account.</p>
 <h2 id="usage"> Usage</h2>
@@ -57,7 +57,7 @@
     <title type="html">Home</title>
     <id>https://vuepress-theme-hope.github.io/add-this/</id>
     <link href="https://vuepress-theme-hope.github.io/add-this/"/>
-    <updated>2021-02-27T02:22:33.000Z</updated>
+    <updated>2021-02-27T02:39:36.000Z</updated>
     <content type="html"><![CDATA[<h2 id="how-to-use"> How to use</h2>
 <h3 id="install"> Install</h3>
 <CodeGroup>
@@ -89,7 +89,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">配置</title>
     <id>https://vuepress-theme-hope.github.io/add-this/zh/config/</id>
     <link href="https://vuepress-theme-hope.github.io/add-this/zh/config/"/>
-    <updated>2021-02-27T02:22:33.000Z</updated>
+    <updated>2021-02-27T02:39:36.000Z</updated>
     <content type="html"><![CDATA[<h2 id="pubid"> pubid</h2>
 <ul>
 <li>类型: <code>string</code></li>
@@ -106,32 +106,10 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <rights>Copyright by Mr.Hope</rights>
   </entry>
   <entry>
-    <title type="html">指南</title>
-    <id>https://vuepress-theme-hope.github.io/add-this/zh/guide/</id>
-    <link href="https://vuepress-theme-hope.github.io/add-this/zh/guide/"/>
-    <updated>2021-02-27T02:22:33.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="注册"> 注册</h2>
-<p>请前往 <a href="https://www.addthis.com/register?next=/dashboard" target="_blank" rel="noopener noreferrer">Add this 注册页面</a> 注册或 <a href="https://www.addthis.com/login?next=/dashboard" target="_blank" rel="noopener noreferrer">Add this 登录页面</a> 登录账号。</p>
-<div><p>Tips</p>
-<p>该页面有 reCAPTCHA 认证，可能需要科学上网</p>
-</div>
-<h2 id="使用"> 使用</h2>
-<p>进入 <a href="https://www.addthis.com/dashboard#gallery/" target="_blank" rel="noopener noreferrer">工具页面</a> 添加你所需要的工具，并进行合理的配置。</p>
-<p>在配置完成后，请进入 <a href="https://www.addthis.com/dashboard#get-the-code/" target="_blank" rel="noopener noreferrer">获取代码页面</a>，即可代码中获得你的 pubid。</p>
-]]></content>
-    <author>
-      <name>Mr.Hope</name>
-    </author>
-    <contributor>
-      <name>Mr.Hope</name>
-    </contributor>
-    <rights>Copyright by Mr.Hope</rights>
-  </entry>
-  <entry>
     <title type="html">主页</title>
     <id>https://vuepress-theme-hope.github.io/add-this/zh/</id>
     <link href="https://vuepress-theme-hope.github.io/add-this/zh/"/>
-    <updated>2021-02-27T02:22:33.000Z</updated>
+    <updated>2021-02-27T02:39:36.000Z</updated>
     <content type="html"><![CDATA[<h2 id="使用插件"> 使用插件</h2>
 <h3 id="安装"> 安装</h3>
 <CodeGroup>
@@ -150,6 +128,28 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <span>}</span><span>;</span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br></div></div>]]></content>
+    <author>
+      <name>Mr.Hope</name>
+    </author>
+    <contributor>
+      <name>Mr.Hope</name>
+    </contributor>
+    <rights>Copyright by Mr.Hope</rights>
+  </entry>
+  <entry>
+    <title type="html">指南</title>
+    <id>https://vuepress-theme-hope.github.io/add-this/zh/guide/</id>
+    <link href="https://vuepress-theme-hope.github.io/add-this/zh/guide/"/>
+    <updated>2021-02-27T02:39:36.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="注册"> 注册</h2>
+<p>请前往 <a href="https://www.addthis.com/register?next=/dashboard" target="_blank" rel="noopener noreferrer">Add this 注册页面</a> 注册或 <a href="https://www.addthis.com/login?next=/dashboard" target="_blank" rel="noopener noreferrer">Add this 登录页面</a> 登录账号。</p>
+<div><p>Tips</p>
+<p>该页面有 reCAPTCHA 认证，可能需要科学上网</p>
+</div>
+<h2 id="使用"> 使用</h2>
+<p>进入 <a href="https://www.addthis.com/dashboard#gallery/" target="_blank" rel="noopener noreferrer">工具页面</a> 添加你所需要的工具，并进行合理的配置。</p>
+<p>在配置完成后，请进入 <a href="https://www.addthis.com/dashboard#get-the-code/" target="_blank" rel="noopener noreferrer">获取代码页面</a>，即可代码中获得你的 pubid。</p>
+]]></content>
     <author>
       <name>Mr.Hope</name>
     </author>
