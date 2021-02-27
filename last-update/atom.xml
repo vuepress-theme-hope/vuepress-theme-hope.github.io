@@ -6,7 +6,7 @@
   <author>
     <name>Mr.Hope</name>
   </author>
-  <updated>2021-02-27T02:41:03.714Z</updated>
+  <updated>2021-02-27T06:10:39.719Z</updated>
   <generator>@mr-hope/vuepress-plugin-feed</generator>
   <link rel="self" href="https://vuepress-theme-hope.github.io/last-update/atom.xml"/>
   <link rel="alternate" href="https://vuepress-theme-hope.github.io/last-update/"/>
@@ -18,7 +18,7 @@
     <title type="html">Home</title>
     <id>https://vuepress-theme-hope.github.io/last-update/</id>
     <link href="https://vuepress-theme-hope.github.io/last-update/"/>
-    <updated>2021-02-27T02:39:36.000Z</updated>
+    <updated>2021-02-27T06:08:41.000Z</updated>
     <content type="html"><![CDATA[<p>This plugin will use git to inject a readable last update time and a last update time timestamp into the page.</p>
 <div><p>Why use this plugin</p>
 <p>The internationalization support of the official plugin is not good, this plugin provides better multi-language support.</p>
@@ -52,10 +52,10 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <li>Type: <code>string</code></li>
 <li>Required: No</li>
 </ul>
-<p>Current timezone, useful when you are deploying through CI.</p>
-<blockquote>
-<p>For timezone list, please see <a href="https://www.zeitverschiebung.net/en/all-time-zones.html" target="_blank" rel="noopener noreferrer">Timezone list</a></p>
-</blockquote>
+<p>Sometimes your site may be automatically deployed through CI, and the time of these CI servers may be based on UTC, which will cause the generated time to be different from your time zone. In this case, you can set the <code>timezone</code> option to specify you The time zone you are in.</p>
+<div><p>Timezone list</p>
+<p>For detailed timezone list, please refer to <a href="https://www.zeitverschiebung.net/cn/all-time-zones.html" target="_blank" rel="noopener noreferrer">Time Zone List</a></p>
+</div>
 <h3 id="transformer"> transformer</h3>
 <ul>
 <li>Type: <code>(timestamp: number, lang: string) =&gt; string</code></li>
@@ -76,7 +76,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">主页</title>
     <id>https://vuepress-theme-hope.github.io/last-update/zh/</id>
     <link href="https://vuepress-theme-hope.github.io/last-update/zh/"/>
-    <updated>2021-02-27T02:39:36.000Z</updated>
+    <updated>2021-02-27T06:08:41.000Z</updated>
     <content type="html"><![CDATA[<p>这个插件将会利用 Git 的日志向 page 注入可阅读的最后更新时间文字与最后更新时间的时间戳。</p>
 <div><p>为什么使用本插件</p>
 <p>官方插件的国际化支持并不良好，本插件提供了更为优秀的多语言支持。</p>
@@ -110,10 +110,10 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <li>类型: <code>string</code></li>
 <li>必填: 否</li>
 </ul>
-<p>当前时区，使用 CI 部署时很有用</p>
-<blockquote>
+<p>有些时候你的站点可能通过 CI 自动部署，而这些 CI 服务器的时间可能基于 UTC，这会导致生成的时间不同于你所在的时区，在这种情况下，你可以设置 <code>timezone</code> 选项 来指定你所在的时区。</p>
+<div><p>时区列表</p>
 <p>详细的时区列表，详见 <a href="https://www.zeitverschiebung.net/cn/all-time-zones.html" target="_blank" rel="noopener noreferrer">时区列表</a></p>
-</blockquote>
+</div>
 <h3 id="transformer"> transformer</h3>
 <ul>
 <li>类型: <code>(timestamp: number, lang: string) =&gt; string</code></li>

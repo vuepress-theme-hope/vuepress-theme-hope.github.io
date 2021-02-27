@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/add-this/</link>
     <description>Share Plugin provided by AddThis</description>
     <language>en-US</language>
-    <pubDate>Sat, 27 Feb 2021 02:41:03 GMT</pubDate>
-    <lastBuildDate>Sat, 27 Feb 2021 02:41:03 GMT</lastBuildDate>
+    <pubDate>Sat, 27 Feb 2021 06:10:39 GMT</pubDate>
+    <lastBuildDate>Sat, 27 Feb 2021 06:10:39 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -75,6 +75,21 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 ]]></content:encoded>
     </item>
     <item>
+      <title>指南</title>
+      <link>https://vuepress-theme-hope.github.io/add-this/zh/guide/</link>
+      <guid>https://vuepress-theme-hope.github.io/add-this/zh/guide/</guid>
+      <source url="https://vuepress-theme-hope.github.io/add-this/rss.xml">指南</source>
+      <content:encoded><![CDATA[<h2 id="注册"> 注册</h2>
+<p>请前往 <a href="https://www.addthis.com/register?next=/dashboard" target="_blank" rel="noopener noreferrer">Add this 注册页面</a> 注册或 <a href="https://www.addthis.com/login?next=/dashboard" target="_blank" rel="noopener noreferrer">Add this 登录页面</a> 登录账号。</p>
+<div><p>Tips</p>
+<p>该页面有 reCAPTCHA 认证，可能需要科学上网</p>
+</div>
+<h2 id="使用"> 使用</h2>
+<p>进入 <a href="https://www.addthis.com/dashboard#gallery/" target="_blank" rel="noopener noreferrer">工具页面</a> 添加你所需要的工具，并进行合理的配置。</p>
+<p>在配置完成后，请进入 <a href="https://www.addthis.com/dashboard#get-the-code/" target="_blank" rel="noopener noreferrer">获取代码页面</a>，即可代码中获得你的 pubid。</p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>主页</title>
       <link>https://vuepress-theme-hope.github.io/add-this/zh/</link>
       <guid>https://vuepress-theme-hope.github.io/add-this/zh/</guid>
@@ -97,21 +112,6 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <span>}</span><span>;</span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br></div></div>]]></content:encoded>
-    </item>
-    <item>
-      <title>指南</title>
-      <link>https://vuepress-theme-hope.github.io/add-this/zh/guide/</link>
-      <guid>https://vuepress-theme-hope.github.io/add-this/zh/guide/</guid>
-      <source url="https://vuepress-theme-hope.github.io/add-this/rss.xml">指南</source>
-      <content:encoded><![CDATA[<h2 id="注册"> 注册</h2>
-<p>请前往 <a href="https://www.addthis.com/register?next=/dashboard" target="_blank" rel="noopener noreferrer">Add this 注册页面</a> 注册或 <a href="https://www.addthis.com/login?next=/dashboard" target="_blank" rel="noopener noreferrer">Add this 登录页面</a> 登录账号。</p>
-<div><p>Tips</p>
-<p>该页面有 reCAPTCHA 认证，可能需要科学上网</p>
-</div>
-<h2 id="使用"> 使用</h2>
-<p>进入 <a href="https://www.addthis.com/dashboard#gallery/" target="_blank" rel="noopener noreferrer">工具页面</a> 添加你所需要的工具，并进行合理的配置。</p>
-<p>在配置完成后，请进入 <a href="https://www.addthis.com/dashboard#get-the-code/" target="_blank" rel="noopener noreferrer">获取代码页面</a>，即可代码中获得你的 pubid。</p>
-]]></content:encoded>
     </item>
   </channel>
 </rss>
