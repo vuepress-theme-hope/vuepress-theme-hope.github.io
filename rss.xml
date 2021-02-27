@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/</link>
     <description>A vuepress theme with tons of features✨</description>
     <language>en-US</language>
-    <pubDate>Fri, 26 Feb 2021 17:11:26 GMT</pubDate>
-    <lastBuildDate>Fri, 26 Feb 2021 17:11:26 GMT</lastBuildDate>
+    <pubDate>Sat, 27 Feb 2021 02:28:26 GMT</pubDate>
+    <lastBuildDate>Sat, 27 Feb 2021 02:28:26 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -2718,6 +2718,44 @@ write something here ~
 ]]></content:encoded>
     </item>
     <item>
+      <title>Config</title>
+      <link>https://vuepress-theme-hope.github.io/config/</link>
+      <guid>https://vuepress-theme-hope.github.io/config/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">Config</source>
+      <category>config</category>
+      <content:encoded><![CDATA[<h2 id="theme-config"> Theme Config</h2>
+<ul>
+<li>
+<p><a href="./theme/">ThemeConfig</a></p>
+</li>
+<li>
+<p><a href="./theme/default.html">Default Theme Config</a></p>
+</li>
+<li>
+<p><a href="./theme/feature.html">Theme Feature Config</a></p>
+</li>
+<li>
+<p><a href="./theme/plugin.html">Theme Plugin Config</a></p>
+</li>
+<li>
+<p><a href="./theme/apperance.html">Theme Appearance Config</a></p>
+</li>
+</ul>
+<h2 id="page-config"> Page Config</h2>
+<ul>
+<li><a href="./page.html">Frontmatter Config</a></li>
+</ul>
+<h2 id="style-config"> Style Config</h2>
+<ul>
+<li><a href="./stylus.html">Style Config</a></li>
+</ul>
+<h2 id="plugin-config"> Plugin Config</h2>
+<ul>
+<li><a href="./plugin/">Plugin Config</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
       <title>Plugin Description</title>
       <link>https://vuepress-theme-hope.github.io/config/plugin/</link>
       <guid>https://vuepress-theme-hope.github.io/config/plugin/</guid>
@@ -2798,44 +2836,6 @@ write something here ~
 <li>
 <p>vuepress-plugin-smooth-scroll: Smooth scrolling.</p>
 </li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Config</title>
-      <link>https://vuepress-theme-hope.github.io/config/</link>
-      <guid>https://vuepress-theme-hope.github.io/config/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">Config</source>
-      <category>config</category>
-      <content:encoded><![CDATA[<h2 id="theme-config"> Theme Config</h2>
-<ul>
-<li>
-<p><a href="./theme/">ThemeConfig</a></p>
-</li>
-<li>
-<p><a href="./theme/default.html">Default Theme Config</a></p>
-</li>
-<li>
-<p><a href="./theme/feature.html">Theme Feature Config</a></p>
-</li>
-<li>
-<p><a href="./theme/plugin.html">Theme Plugin Config</a></p>
-</li>
-<li>
-<p><a href="./theme/apperance.html">Theme Appearance Config</a></p>
-</li>
-</ul>
-<h2 id="page-config"> Page Config</h2>
-<ul>
-<li><a href="./page.html">Frontmatter Config</a></li>
-</ul>
-<h2 id="style-config"> Style Config</h2>
-<ul>
-<li><a href="./stylus.html">Style Config</a></li>
-</ul>
-<h2 id="plugin-config"> Plugin Config</h2>
-<ul>
-<li><a href="./plugin/">Plugin Config</a></li>
 </ul>
 ]]></content:encoded>
     </item>
@@ -3767,6 +3767,7 @@ write something here ~
       <content:encoded><![CDATA[<h2 id="mr-hope-s-blog"> Mr.Hope’s Blog</h2>
 <ul>
 <li><a href="https://mrhope.site" target="_blank" rel="noopener noreferrer">Link</a></li>
+<li><a href="https://github.com/Mister-Hope/Mister-Hope.github.io" target="_blank" rel="noopener noreferrer">Source</a></li>
 </ul>
 <h2 id="vuepress-theme-hope"> vuepress-theme-hope</h2>
 <ul>
@@ -3778,55 +3779,10 @@ write something here ~
 <li><a href="https://hope-studio.innenu.com" target="_blank" rel="noopener noreferrer">Link</a></li>
 <li><a href="https://github.com/Hope-Studio/Hope-Studio.github.io" target="_blank" rel="noopener noreferrer">Source</a></li>
 </ul>
-<h2 id="mr-hope-vuepress-plugin-comment"> @mr-hope/vuepress-plugin-comment</h2>
+<h2 id="docker-practice"> Docker Practice</h2>
 <ul>
-<li><a href="https://vuepress-theme-hope.github.io/comment" target="_blank" rel="noopener noreferrer">Link</a></li>
-<li><a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/tree/v1/docs/comment" target="_blank" rel="noopener noreferrer">Source</a></li>
-</ul>
-<h2 id="mr-hope-vuepress-plugin-copy-code"> @mr-hope/vuepress-plugin-copy-code</h2>
-<ul>
-<li><a href="https://vuepress-theme-hope.github.io/copy-code" target="_blank" rel="noopener noreferrer">Link</a></li>
-<li><a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/tree/v1/docs/copy-code" target="_blank" rel="noopener noreferrer">Source</a></li>
-</ul>
-<h2 id="mr-hope-vuepress-plugin-feed"> @mr-hope/vuepress-plugin-feed</h2>
-<ul>
-<li><a href="https://vuepress-theme-hope.github.io/feed" target="_blank" rel="noopener noreferrer">Link</a></li>
-<li><a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/tree/v1/docs/feed" target="_blank" rel="noopener noreferrer">Source</a></li>
-</ul>
-<h2 id="mr-hope-vuepress-plugin-last-update"> @mr-hope/vuepress-plugin-last-update</h2>
-<ul>
-<li><a href="https://vuepress-theme-hope.github.io/last-update" target="_blank" rel="noopener noreferrer">Link</a></li>
-<li><a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/tree/v1/docs/last-update" target="_blank" rel="noopener noreferrer">Source</a></li>
-</ul>
-<h2 id="mr-hope-vuepress-plugin-reading-time"> @mr-hope/vuepress-plugin-reading-time</h2>
-<ul>
-<li><a href="https://vuepress-theme-hope.github.io/reading-time" target="_blank" rel="noopener noreferrer">Link</a></li>
-<li><a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/tree/v1/docs/reading-time" target="_blank" rel="noopener noreferrer">Source</a></li>
-</ul>
-<h2 id="mr-hope-vuepress-plugin-seo"> @mr-hope/vuepress-plugin-seo</h2>
-<ul>
-<li><a href="https://vuepress-theme-hope.github.io/seo" target="_blank" rel="noopener noreferrer">Link</a></li>
-<li><a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/tree/v1/docs/seo" target="_blank" rel="noopener noreferrer">Source</a></li>
-</ul>
-<h2 id="mr-hope-vuepress-plugin-sitemap"> @mr-hope/vuepress-plugin-sitemap</h2>
-<ul>
-<li><a href="https://vuepress-theme-hope.github.io/sitemap" target="_blank" rel="noopener noreferrer">Link</a></li>
-<li><a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/tree/v1/docs/sitemap" target="_blank" rel="noopener noreferrer">Source</a></li>
-</ul>
-<h2 id="vuepress-plugin-add-this"> vuepress-plugin-add-this</h2>
-<ul>
-<li><a href="https://vuepress-theme-hope.github.io/add-this" target="_blank" rel="noopener noreferrer">Link</a></li>
-<li><a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/tree/v1/docs/add-this" target="_blank" rel="noopener noreferrer">Source</a></li>
-</ul>
-<h2 id="vuepress-plugin-md-enhance"> vuepress-plugin-md-enhance</h2>
-<ul>
-<li><a href="https://vuepress-theme-hope.github.io/md-enhance" target="_blank" rel="noopener noreferrer">Link</a></li>
-<li><a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/tree/v1/docs/md-enhance" target="_blank" rel="noopener noreferrer">Source</a></li>
-</ul>
-<h2 id="vuepress-plugin-photo-swipe"> vuepress-plugin-photo-swipe</h2>
-<ul>
-<li><a href="https://vuepress-theme-hope.github.io/photo-swipe" target="_blank" rel="noopener noreferrer">Link</a></li>
-<li><a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/tree/v1/docs/photo-swipe" target="_blank" rel="noopener noreferrer">Source</a></li>
+<li><a href="https://docker_practice.gitee.io/us-en" target="_blank" rel="noopener noreferrer">项目地址</a></li>
+<li><a href="https://github.com/yeasy/docker_practice" target="_blank" rel="noopener noreferrer">项目文件</a></li>
 </ul>
 <h2 id="more"> More</h2>
 <ul>
@@ -11196,6 +11152,7 @@ export default { // Highlighted
       <content:encoded><![CDATA[<h2 id="mr-hope-的个人博客"> Mr.Hope 的个人博客</h2>
 <ul>
 <li><a href="https://mrhope.site" target="_blank" rel="noopener noreferrer">项目地址</a></li>
+<li><a href="https://github.com/Mister-Hope/Mister-Hope.github.io" target="_blank" rel="noopener noreferrer">项目文件</a></li>
 </ul>
 <h2 id="希望工作室官网"> 希望工作室官网</h2>
 <ul>
@@ -11207,55 +11164,10 @@ export default { // Highlighted
 <li><a href="https://vuepress-theme-hope.github.io" target="_blank" rel="noopener noreferrer">项目地址</a></li>
 <li><a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/tree/v1/docs/theme" target="_blank" rel="noopener noreferrer">项目文件</a></li>
 </ul>
-<h2 id="mr-hope-vuepress-plugin-comment-文档"> @mr-hope/vuepress-plugin-comment 文档</h2>
+<h2 id="docker-从入门到实践"> Docker 从入门到实践</h2>
 <ul>
-<li><a href="https://vuepress-theme-hope.github.io/comment/zh/" target="_blank" rel="noopener noreferrer">项目地址</a></li>
-<li><a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/tree/v1/docs/comment" target="_blank" rel="noopener noreferrer">项目文件</a></li>
-</ul>
-<h2 id="mr-hope-vuepress-plugin-copy-code-文档"> @mr-hope/vuepress-plugin-copy-code 文档</h2>
-<ul>
-<li><a href="https://vuepress-theme-hope.github.io/copy-code/zh/" target="_blank" rel="noopener noreferrer">项目地址</a></li>
-<li><a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/tree/v1/docs/copy-code" target="_blank" rel="noopener noreferrer">项目文件</a></li>
-</ul>
-<h2 id="mr-hope-vuepress-plugin-feed-文档"> @mr-hope/vuepress-plugin-feed 文档</h2>
-<ul>
-<li><a href="https://vuepress-theme-hope.github.io/feed/zh/" target="_blank" rel="noopener noreferrer">项目地址</a></li>
-<li><a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/tree/v1/docs/copy-code" target="_blank" rel="noopener noreferrer">项目文件</a></li>
-</ul>
-<h2 id="mr-hope-vuepress-plugin-last-update-文档"> @mr-hope/vuepress-plugin-last-update 文档</h2>
-<ul>
-<li><a href="https://vuepress-theme-hope.github.io/last-update/zh/" target="_blank" rel="noopener noreferrer">项目地址</a></li>
-<li><a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/tree/v1/docs/last-update" target="_blank" rel="noopener noreferrer">项目文件</a></li>
-</ul>
-<h2 id="mr-hope-vuepress-plugin-reading-time-文档"> @mr-hope/vuepress-plugin-reading-time 文档</h2>
-<ul>
-<li><a href="https://vuepress-theme-hope.github.io/reading-time/zh/" target="_blank" rel="noopener noreferrer">项目地址</a></li>
-<li><a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/tree/v1/docs/reading-time" target="_blank" rel="noopener noreferrer">项目文件</a></li>
-</ul>
-<h2 id="mr-hope-vuepress-plugin-seo-文档"> @mr-hope/vuepress-plugin-seo 文档</h2>
-<ul>
-<li><a href="https://vuepress-theme-hope.github.io/seo/zh/" target="_blank" rel="noopener noreferrer">项目地址</a></li>
-<li><a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/tree/v1/docs/seo" target="_blank" rel="noopener noreferrer">项目文件</a></li>
-</ul>
-<h2 id="mr-hope-vuepress-plugin-sitemap-文档"> @mr-hope/vuepress-plugin-sitemap 文档</h2>
-<ul>
-<li><a href="https://vuepress-theme-hope.github.io/sitemap/zh/" target="_blank" rel="noopener noreferrer">项目地址</a></li>
-<li><a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/tree/v1/docs/sitemap" target="_blank" rel="noopener noreferrer">项目文件</a></li>
-</ul>
-<h2 id="vuepress-plugin-add-this-文档"> vuepress-plugin-add-this 文档</h2>
-<ul>
-<li><a href="https://vuepress-theme-hope.github.io/add-this/zh/" target="_blank" rel="noopener noreferrer">项目地址</a></li>
-<li><a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/tree/v1/docs/add-this" target="_blank" rel="noopener noreferrer">项目文件</a></li>
-</ul>
-<h2 id="vuepress-plugin-md-enhance-文档"> vuepress-plugin-md-enhance 文档</h2>
-<ul>
-<li><a href="https://vuepress-theme-hope.github.io/md-enhance/zh/" target="_blank" rel="noopener noreferrer">项目地址</a></li>
-<li><a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/tree/v1/docs/md-enhance" target="_blank" rel="noopener noreferrer">项目文件</a></li>
-</ul>
-<h2 id="vuepress-plugin-photo-swipe-文档"> vuepress-plugin-photo-swipe 文档</h2>
-<ul>
-<li><a href="https://vuepress-theme-hope.github.io/photo-swipe/zh/" target="_blank" rel="noopener noreferrer">项目地址</a></li>
-<li><a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/tree/v1/docs/photo-swipe" target="_blank" rel="noopener noreferrer">项目文件</a></li>
+<li><a href="https://vuepress.mirror.docker-practice.com/" target="_blank" rel="noopener noreferrer">项目地址</a></li>
+<li><a href="https://github.com/yeasy/docker_practice" target="_blank" rel="noopener noreferrer">项目文件</a></li>
 </ul>
 <h2 id="更多"> 更多</h2>
 <ul>
@@ -11511,6 +11423,43 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div>]]></content:encoded>
     </item>
     <item>
+      <title>版权信息</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/copyright/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/copyright/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">版权信息</source>
+      <description>&amp;lt;p&amp;gt;有些时候，你可能不想让你的某些文章被他人复制，或者你想让他人在复制时，自动生成一段版权信息到剪切板中。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;针对这一情况，&amp;lt;code&amp;gt;vuepress-theme-hope&amp;lt;/code&amp;gt; 引入了 &amp;lt;a href=&amp;quot;https://www.npmjs.com/package/vuepress-plugin-copyright&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;vuepress-plugin-copyright&amp;lt;/a&amp;gt;。&amp;lt;/p&amp;gt;
+</description>
+      <category>feature</category>
+      <content:encoded><![CDATA[<p>有些时候，你可能不想让你的某些文章被他人复制，或者你想让他人在复制时，自动生成一段版权信息到剪切板中。</p>
+<p>针对这一情况，<code>vuepress-theme-hope</code> 引入了 <a href="https://www.npmjs.com/package/vuepress-plugin-copyright" target="_blank" rel="noopener noreferrer">vuepress-plugin-copyright</a>。</p>
+
+<h2 id="启用插件"> 启用插件</h2>
+<p>由于相当一部分用户将本主题用于构建文档，而文档站点通常不需要附加版权信息，所以本插件并不是默认启用的。</p>
+<p>启用本插件，你需要将主题配置中的 <code>copyright</code> 设置为 true，或者设置 <code>copyright.status</code> 才能启用它。<code>copyright.status</code> 可选的值为 <code>global</code> 和 <code>local</code>，。默认的值是 <code>global</code> 即全局启用 (也是 <code>themeConfig.copyright: true</code> 的状态)。</p>
+<h2 id="使用"> 使用</h2>
+<p>默认设置下，当用户从你的站点复制超过 100 字的消息时，在这段消息的尾部添加版权声明消息。</p>
+<p>版权声明的作者名称会从你在主题中配置的作者信息或站点名称自动生成。</p>
+<h3 id="触发字符数"> 触发字符数 <i>Not supported content</i></h3>
+<p>你可以通过 <code>copyright.minLength</code> 设置触发禁用复制或者追加版权信息的最小字符数，默认为 <code>100</code>。</p>
+<p>在 themeConfig 和 frontmatter 均可以设置这一属性，前者会自动应用于全局，而后者仅作用于特定页面优先级高于前者。</p>
+<h3 id="禁止复制"> 禁止复制</h3>
+<p>在 frontmatter 中将 <code>copyright.noCopy</code> 设置为 <code>true</code>。</p>
+<div><p>Tips</p>
+<p>该行为收到 <code>minLength</code> 的控制，即字符串没有达到 <code>minLength</code> 的值的时候用户仍然可以进行复制操作。</p>
+</div>
+<h3 id="禁止选中"> 禁止选中</h3>
+<p>在 frontmatter 中设置 <code>copyright.noSelect</code> 为 <code>true</code>。</p>
+<h2 id="演示"> 演示</h2>
+<p>请复制这段文字粘贴到任意地点查看效果。请复制这段文字粘贴到任意地点查看效果。请复制这段文字粘贴到任意地点查看效果。请复制这段文字粘贴到任意地点查看效果。请复制这段文字粘贴到任意地点查看效果。请复制这段文字粘贴到任意地点查看效果。请复制这段文字粘贴到任意地点查看效果。请复制这段文字粘贴到任意地点查看效果。请复制这段文字粘贴到任意地点查看效果。请复制这段文字粘贴到任意地点查看效果。</p>
+<h2 id="文档"> 文档</h2>
+<p>关于插件详细信息，请参见 <a href="https://vuepress.github.io/zh/plugins/copyright/#%E9%85%8D%E7%BD%AE%E9%A1%B9" target="_blank" rel="noopener noreferrer">vuepress-plugin-copyright 文档</a></p>
+<div><p>Note</p>
+<p>这是一个 vuepress 社区插件，而不是内置插件。因此，如果你遇到问题，请前往 <a href="https://github.com/vuepress/vuepress-plugin-copyright" target="_blank" rel="noopener noreferrer">它的仓库</a> 寻求帮助。</p>
+</div>
+]]></content:encoded>
+    </item>
+    <item>
       <title>页面信息</title>
       <link>https://vuepress-theme-hope.github.io/zh/guide/feature/page-info/</link>
       <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/page-info/</guid>
@@ -11619,6 +11568,28 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 ]]></content:encoded>
     </item>
     <item>
+      <title>PWA</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/pwa/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/pwa/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">PWA</source>
+      <category>feature</category>
+      <content:encoded><![CDATA[<h1 id="pwa"> PWA</h1>
+<p>默认情况下，该主题将使用 <code>@mr-hope/vuepress-plugin-pwa</code> 启用渐进式 Web 应用程序支持。如果您不需要此功能或想使用其他 pwa 插件，则可以将 <code>themeConfig.pwa</code> 设置为 <code>false</code> 来禁用该插件。</p>
+<h2 id="内容缓存和更新"> 内容缓存和更新</h2>
+<p>Service worker 成功获取内容更新后，将在右下角显示一个弹出窗口，提示用户新内容可用并允许用户触发更新。</p>
+<p>弹出窗口的默认语言将自动设置为 <code>themeConfig.baseLang</code> 。</p>
+<h2 id="manifest"> Manifest</h2>
+<p>插件将自动在输出目录生成 <code>mainfest.json</code>。如果您在 <code>.vuepress/public</code> 中有一个 manifest.webmanifest 或 manifest.json，该插件将读取并合并到最终 manifest 中。</p>
+<p>为了使您的站点能够被注册为 Web App，您应该在 <code>themeConfig.pwa.manifest.icons</code> 中设置图标。</p>
+<p>您也可以在 <code>themeConfig.pwa.manifest</code> 中设置其他选项。</p>
+<h2 id="缓存大小"> 缓存大小</h2>
+<p>为了更好地控制 Service Worker 可以预缓存的内容，可以设置 <code>themeConfig.pwa.cachePic</code> 和 <code>themeConfig.pwa.cacheHTML</code> 来决定 Service Worker 是否缓存除主页和 404 错误页外的 HTML 文件与站点图片。</p>
+<p>为了防止在预缓存列表中包含大文件，任何大于 2MB 的资源与大于 1MB 的图片都将被删除。您可以通过设置 <code>themeConfig.pwa.maxSize</code> 和 <code>themeConfig.pwa.maxPicSize</code> 来更改大小限制。</p>
+<h2 id="更多"> 更多</h2>
+<p>有关更多详细信息，请参见 <a href="https://vuepress-theme-hope.github.io/pwa/zh/" target="_blank" rel="noopener noreferrer">pwa 插件文档</a></p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>图片预览</title>
       <link>https://vuepress-theme-hope.github.io/zh/guide/feature/photo-swipe/</link>
       <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/photo-swipe/</guid>
@@ -11650,28 +11621,6 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <img src="/logo.png" alt="Logo3"></p>
 ]]></content:encoded>
       <enclosure url="https://vuepress-theme-hope.github.io/logo.png" type="image/png"/>
-    </item>
-    <item>
-      <title>PWA</title>
-      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/pwa/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/pwa/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">PWA</source>
-      <category>feature</category>
-      <content:encoded><![CDATA[<h1 id="pwa"> PWA</h1>
-<p>默认情况下，该主题将使用 <code>@mr-hope/vuepress-plugin-pwa</code> 启用渐进式 Web 应用程序支持。如果您不需要此功能或想使用其他 pwa 插件，则可以将 <code>themeConfig.pwa</code> 设置为 <code>false</code> 来禁用该插件。</p>
-<h2 id="内容缓存和更新"> 内容缓存和更新</h2>
-<p>Service worker 成功获取内容更新后，将在右下角显示一个弹出窗口，提示用户新内容可用并允许用户触发更新。</p>
-<p>弹出窗口的默认语言将自动设置为 <code>themeConfig.baseLang</code> 。</p>
-<h2 id="manifest"> Manifest</h2>
-<p>插件将自动在输出目录生成 <code>mainfest.json</code>。如果您在 <code>.vuepress/public</code> 中有一个 manifest.webmanifest 或 manifest.json，该插件将读取并合并到最终 manifest 中。</p>
-<p>为了使您的站点能够被注册为 Web App，您应该在 <code>themeConfig.pwa.manifest.icons</code> 中设置图标。</p>
-<p>您也可以在 <code>themeConfig.pwa.manifest</code> 中设置其他选项。</p>
-<h2 id="缓存大小"> 缓存大小</h2>
-<p>为了更好地控制 Service Worker 可以预缓存的内容，可以设置 <code>themeConfig.pwa.cachePic</code> 和 <code>themeConfig.pwa.cacheHTML</code> 来决定 Service Worker 是否缓存除主页和 404 错误页外的 HTML 文件与站点图片。</p>
-<p>为了防止在预缓存列表中包含大文件，任何大于 2MB 的资源与大于 1MB 的图片都将被删除。您可以通过设置 <code>themeConfig.pwa.maxSize</code> 和 <code>themeConfig.pwa.maxPicSize</code> 来更改大小限制。</p>
-<h2 id="更多"> 更多</h2>
-<p>有关更多详细信息，请参见 <a href="https://vuepress-theme-hope.github.io/pwa/zh/" target="_blank" rel="noopener noreferrer">pwa 插件文档</a></p>
-]]></content:encoded>
     </item>
     <item>
       <title>功能</title>
@@ -11711,61 +11660,6 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <li>
 <p><a href="./typescript.html">TypeScript 支持</a></p>
 </li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>SEO 和 Sitemap</title>
-      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/seo-sitemap/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/seo-sitemap/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">SEO 和 Sitemap</source>
-      <category>feature</category>
-      <content:encoded><![CDATA[<h1 id="seo-和-sitemap"> SEO 和 Sitemap</h1>
-<p><code>vuepress-theme-hope</code> 引入了 <code>@mr-hope/vuepress-plugin-seo</code> 与 <code>@mr-hope/vuepress-plugin-sitemap</code> 为你提供 SEO 增强功能和 Sitemap 生成。</p>
-<p>为了使两个插件能够更好的工作，您可能需要查看一下 <a href="./../../config/page.html#页面信息配置">页面信息配置</a> 并合理的配置它们。</p>
-<h2 id="seo"> SEO</h2>
-<p>插件会向网页的 <code>&lt;head&gt;</code> 注入一些 <code>&lt;meta&gt;</code> 标签，使你的网页对搜索引擎和社交媒体更加友好。默认情况下，插件会读取站点配置、主题配置与页面的 frontmatter 来尽可能自动为你生成 <code>&lt;meta&gt;</code> 标签。诸如站点名称，页面标题，页面类型，写作日期，最后更新日期，文章标签均会自动生成。</p>
-<p>插件会读取的配置 (你应当进行的配置) 有:</p>
-<ul>
-<li>
-<p><code>siteConfig.title</code></p>
-</li>
-<li>
-<p><code>siteConfig.description</code></p>
-</li>
-<li>
-<p><code>themeConfig.author</code></p>
-</li>
-<li>
-<p><code>frontmatter.title</code></p>
-</li>
-<li>
-<p><code>frontmatter.description</code></p>
-</li>
-<li>
-<p><code>frontmatter.image</code></p>
-</li>
-<li>
-<p><code>frontmatter.author</code></p>
-</li>
-<li>
-<p><code>frontmatter.time</code></p>
-</li>
-<li>
-<p><code>frontmatter.tags</code></p>
-</li>
-<li>
-<p>Git 的上一次提交时间</p>
-</li>
-</ul>
-<p>你还可以查看 <a href="./../../config/plugin/seo.html">插件的具体配置</a></p>
-<h2 id="sitemap"> Sitemap</h2>
-<p>插件会自动读取整个文档的配置，尽可能自动的为你生成 sitemap。</p>
-<p>除了 <a href="./../../config/plugin/sitemap.html">插件的配置</a> 外，你还可以在页面的 Frontmatter 中的 sitemap 设置如下内容:</p>
-<ul>
-<li><code>sitemap.changefreq</code>: 更新频率，可选值为: <code>&quot;always&quot;</code> <code>&quot;hourly&quot;</code> <code>&quot;daily&quot;</code> <code>&quot;weekly&quot;</code> <code>&quot;monthly&quot;</code> <code>&quot;yearly&quot;</code> <code>&quot;never&quot;</code></li>
-<li><code>sitemap.exclude</code>: 是否不包含此页面</li>
-<li><code>sitemap.priority</code>: 页面优先级，范围 0~1，默认为 <code>0.5</code></li>
 </ul>
 ]]></content:encoded>
     </item>
@@ -11910,6 +11804,61 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 <h3 id="博客"> 博客</h3>
 <p>主题提供了 <a href="./../blog/blog.html"><strong>分类、标签、时间线、精选文章</strong></a> 等功能，并提供了全新的 <a href="./../blog/home.html"><strong>博客主页</strong></a>。</p>
 <p>同时主题还提供了 <a href="./../feature/comment.html"><strong>评论</strong></a>、<a href="./../feature/feed.html"><strong>Feed</strong></a> 等博客常用内容。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>SEO 和 Sitemap</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/seo-sitemap/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/seo-sitemap/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">SEO 和 Sitemap</source>
+      <category>feature</category>
+      <content:encoded><![CDATA[<h1 id="seo-和-sitemap"> SEO 和 Sitemap</h1>
+<p><code>vuepress-theme-hope</code> 引入了 <code>@mr-hope/vuepress-plugin-seo</code> 与 <code>@mr-hope/vuepress-plugin-sitemap</code> 为你提供 SEO 增强功能和 Sitemap 生成。</p>
+<p>为了使两个插件能够更好的工作，您可能需要查看一下 <a href="./../../config/page.html#页面信息配置">页面信息配置</a> 并合理的配置它们。</p>
+<h2 id="seo"> SEO</h2>
+<p>插件会向网页的 <code>&lt;head&gt;</code> 注入一些 <code>&lt;meta&gt;</code> 标签，使你的网页对搜索引擎和社交媒体更加友好。默认情况下，插件会读取站点配置、主题配置与页面的 frontmatter 来尽可能自动为你生成 <code>&lt;meta&gt;</code> 标签。诸如站点名称，页面标题，页面类型，写作日期，最后更新日期，文章标签均会自动生成。</p>
+<p>插件会读取的配置 (你应当进行的配置) 有:</p>
+<ul>
+<li>
+<p><code>siteConfig.title</code></p>
+</li>
+<li>
+<p><code>siteConfig.description</code></p>
+</li>
+<li>
+<p><code>themeConfig.author</code></p>
+</li>
+<li>
+<p><code>frontmatter.title</code></p>
+</li>
+<li>
+<p><code>frontmatter.description</code></p>
+</li>
+<li>
+<p><code>frontmatter.image</code></p>
+</li>
+<li>
+<p><code>frontmatter.author</code></p>
+</li>
+<li>
+<p><code>frontmatter.time</code></p>
+</li>
+<li>
+<p><code>frontmatter.tags</code></p>
+</li>
+<li>
+<p>Git 的上一次提交时间</p>
+</li>
+</ul>
+<p>你还可以查看 <a href="./../../config/plugin/seo.html">插件的具体配置</a></p>
+<h2 id="sitemap"> Sitemap</h2>
+<p>插件会自动读取整个文档的配置，尽可能自动的为你生成 sitemap。</p>
+<p>除了 <a href="./../../config/plugin/sitemap.html">插件的配置</a> 外，你还可以在页面的 Frontmatter 中的 sitemap 设置如下内容:</p>
+<ul>
+<li><code>sitemap.changefreq</code>: 更新频率，可选值为: <code>&quot;always&quot;</code> <code>&quot;hourly&quot;</code> <code>&quot;daily&quot;</code> <code>&quot;weekly&quot;</code> <code>&quot;monthly&quot;</code> <code>&quot;yearly&quot;</code> <code>&quot;never&quot;</code></li>
+<li><code>sitemap.exclude</code>: 是否不包含此页面</li>
+<li><code>sitemap.priority</code>: 页面优先级，范围 0~1，默认为 <code>0.5</code></li>
+</ul>
 ]]></content:encoded>
     </item>
     <item>
@@ -12130,6 +12079,28 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 ]]></content:encoded>
     </item>
     <item>
+      <title>界面</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/interface/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/interface/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">界面</source>
+      <content:encoded><![CDATA[<h2 id="目录"> 目录</h2>
+<ul>
+<li>
+<p><a href="./dark-mode.html">深色模式</a></p>
+</li>
+<li>
+<p><a href="./theme-color.html">主题色</a></p>
+</li>
+<li>
+<p><a href="./icon.html">图标支持</a></p>
+</li>
+<li>
+<p><a href="./others.html">其他功能</a></p>
+</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
       <title>其他界面功能</title>
       <link>https://vuepress-theme-hope.github.io/zh/guide/interface/others/</link>
       <guid>https://vuepress-theme-hope.github.io/zh/guide/interface/others/</guid>
@@ -12150,28 +12121,6 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 </code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><h2 id="返回顶部按钮"> 返回顶部按钮 <i>Not supported content</i></h2>
 <p><code>vuepress-theme-hope</code> 添加了一个返回顶部控件，默认情况下将在下滑 300px 后显示。</p>
 <p>你可以在 <code>themeConfig</code> 将 <code>backToTop</code> 设置为 <code>false</code> 来禁用它，或者是设置为一个数字以更改默认的 300px 触发时机。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>界面</title>
-      <link>https://vuepress-theme-hope.github.io/zh/guide/interface/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/guide/interface/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">界面</source>
-      <content:encoded><![CDATA[<h2 id="目录"> 目录</h2>
-<ul>
-<li>
-<p><a href="./dark-mode.html">深色模式</a></p>
-</li>
-<li>
-<p><a href="./theme-color.html">主题色</a></p>
-</li>
-<li>
-<p><a href="./icon.html">图标支持</a></p>
-</li>
-<li>
-<p><a href="./others.html">其他功能</a></p>
-</li>
-</ul>
 ]]></content:encoded>
     </item>
     <item>
@@ -14386,43 +14335,6 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 <span>---</span></span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br></div></div>]]></content:encoded>
-    </item>
-    <item>
-      <title>版权信息</title>
-      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/copyright/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/copyright/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">版权信息</source>
-      <description>&amp;lt;p&amp;gt;有些时候，你可能不想让你的某些文章被他人复制，或者你想让他人在复制时，自动生成一段版权信息到剪切板中。&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;针对这一情况，&amp;lt;code&amp;gt;vuepress-theme-hope&amp;lt;/code&amp;gt; 引入了 &amp;lt;a href=&amp;quot;https://www.npmjs.com/package/vuepress-plugin-copyright&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;vuepress-plugin-copyright&amp;lt;/a&amp;gt;。&amp;lt;/p&amp;gt;
-</description>
-      <category>feature</category>
-      <content:encoded><![CDATA[<p>有些时候，你可能不想让你的某些文章被他人复制，或者你想让他人在复制时，自动生成一段版权信息到剪切板中。</p>
-<p>针对这一情况，<code>vuepress-theme-hope</code> 引入了 <a href="https://www.npmjs.com/package/vuepress-plugin-copyright" target="_blank" rel="noopener noreferrer">vuepress-plugin-copyright</a>。</p>
-
-<h2 id="启用插件"> 启用插件</h2>
-<p>由于相当一部分用户将本主题用于构建文档，而文档站点通常不需要附加版权信息，所以本插件并不是默认启用的。</p>
-<p>启用本插件，你需要将主题配置中的 <code>copyright</code> 设置为 true，或者设置 <code>copyright.status</code> 才能启用它。<code>copyright.status</code> 可选的值为 <code>global</code> 和 <code>local</code>，。默认的值是 <code>global</code> 即全局启用 (也是 <code>themeConfig.copyright: true</code> 的状态)。</p>
-<h2 id="使用"> 使用</h2>
-<p>默认设置下，当用户从你的站点复制超过 100 字的消息时，在这段消息的尾部添加版权声明消息。</p>
-<p>版权声明的作者名称会从你在主题中配置的作者信息或站点名称自动生成。</p>
-<h3 id="触发字符数"> 触发字符数 <i>Not supported content</i></h3>
-<p>你可以通过 <code>copyright.minLength</code> 设置触发禁用复制或者追加版权信息的最小字符数，默认为 <code>100</code>。</p>
-<p>在 themeConfig 和 frontmatter 均可以设置这一属性，前者会自动应用于全局，而后者仅作用于特定页面优先级高于前者。</p>
-<h3 id="禁止复制"> 禁止复制</h3>
-<p>在 frontmatter 中将 <code>copyright.noCopy</code> 设置为 <code>true</code>。</p>
-<div><p>Tips</p>
-<p>该行为收到 <code>minLength</code> 的控制，即字符串没有达到 <code>minLength</code> 的值的时候用户仍然可以进行复制操作。</p>
-</div>
-<h3 id="禁止选中"> 禁止选中</h3>
-<p>在 frontmatter 中设置 <code>copyright.noSelect</code> 为 <code>true</code>。</p>
-<h2 id="演示"> 演示</h2>
-<p>请复制这段文字粘贴到任意地点查看效果。请复制这段文字粘贴到任意地点查看效果。请复制这段文字粘贴到任意地点查看效果。请复制这段文字粘贴到任意地点查看效果。请复制这段文字粘贴到任意地点查看效果。请复制这段文字粘贴到任意地点查看效果。请复制这段文字粘贴到任意地点查看效果。请复制这段文字粘贴到任意地点查看效果。请复制这段文字粘贴到任意地点查看效果。请复制这段文字粘贴到任意地点查看效果。</p>
-<h2 id="文档"> 文档</h2>
-<p>关于插件详细信息，请参见 <a href="https://vuepress.github.io/zh/plugins/copyright/#%E9%85%8D%E7%BD%AE%E9%A1%B9" target="_blank" rel="noopener noreferrer">vuepress-plugin-copyright 文档</a></p>
-<div><p>Note</p>
-<p>这是一个 vuepress 社区插件，而不是内置插件。因此，如果你遇到问题，请前往 <a href="https://github.com/vuepress/vuepress-plugin-copyright" target="_blank" rel="noopener noreferrer">它的仓库</a> 寻求帮助。</p>
-</div>
-]]></content:encoded>
     </item>
   </channel>
 </rss>
