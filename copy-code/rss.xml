@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/copy-code/</link>
     <description>Quick Code Copy Plugin for vuepress</description>
     <language>en-US</language>
-    <pubDate>Sun, 28 Feb 2021 13:57:48 GMT</pubDate>
-    <lastBuildDate>Sun, 28 Feb 2021 13:57:48 GMT</lastBuildDate>
+    <pubDate>Sun, 28 Feb 2021 14:38:29 GMT</pubDate>
+    <lastBuildDate>Sun, 28 Feb 2021 14:38:29 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -67,38 +67,6 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div>]]></content:encoded>
     </item>
     <item>
-      <title>配置</title>
-      <link>https://vuepress-theme-hope.github.io/copy-code/zh/config/</link>
-      <guid>https://vuepress-theme-hope.github.io/copy-code/zh/config/</guid>
-      <source url="https://vuepress-theme-hope.github.io/copy-code/rss.xml">配置</source>
-      <content:encoded><![CDATA[<h2 id="插件配置"> 插件配置</h2>
-<h3 id="baselang"> baseLang</h3>
-<ul>
-<li>类型: <code>string</code></li>
-<li>默认值: <code>'en-US'</code></li>
-</ul>
-<p>主目录所对应的语言。</p>
-<h3 id="selector"> selector</h3>
-<ul>
-<li>类型: <code>string | string[]</code></li>
-<li>默认值: <code>'.theme-default-content div[class*=&quot;language-&quot;] pre'</code></li>
-</ul>
-<p>代码块选择器</p>
-<h3 id="duration"> duration</h3>
-<ul>
-<li>类型: <code>number</code></li>
-<li>默认值: <code>2000</code></li>
-</ul>
-<p>提示消息显示时间，设置为 <code>0</code> 会禁用提示。</p>
-<h3 id="showinmobile"> showInMobile</h3>
-<ul>
-<li>类型: <code>boolean</code></li>
-<li>默认值: <code>false</code></li>
-</ul>
-<p>是否展示在移动端</p>
-]]></content:encoded>
-    </item>
-    <item>
       <title>Home</title>
       <link>https://vuepress-theme-hope.github.io/copy-code/</link>
       <guid>https://vuepress-theme-hope.github.io/copy-code/</guid>
@@ -129,6 +97,38 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <span>}</span><span>;</span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div>]]></content:encoded>
+    </item>
+    <item>
+      <title>配置</title>
+      <link>https://vuepress-theme-hope.github.io/copy-code/zh/config/</link>
+      <guid>https://vuepress-theme-hope.github.io/copy-code/zh/config/</guid>
+      <source url="https://vuepress-theme-hope.github.io/copy-code/rss.xml">配置</source>
+      <content:encoded><![CDATA[<h2 id="插件配置"> 插件配置</h2>
+<h3 id="baselang"> baseLang</h3>
+<ul>
+<li>类型: <code>string</code></li>
+<li>默认值: <code>'en-US'</code></li>
+</ul>
+<p>主目录所对应的语言。</p>
+<h3 id="selector"> selector</h3>
+<ul>
+<li>类型: <code>string | string[]</code></li>
+<li>默认值: <code>'.theme-default-content div[class*=&quot;language-&quot;] pre'</code></li>
+</ul>
+<p>代码块选择器</p>
+<h3 id="duration"> duration</h3>
+<ul>
+<li>类型: <code>number</code></li>
+<li>默认值: <code>2000</code></li>
+</ul>
+<p>提示消息显示时间，设置为 <code>0</code> 会禁用提示。</p>
+<h3 id="showinmobile"> showInMobile</h3>
+<ul>
+<li>类型: <code>boolean</code></li>
+<li>默认值: <code>false</code></li>
+</ul>
+<p>是否展示在移动端</p>
+]]></content:encoded>
     </item>
     <item>
       <title>指南</title>
