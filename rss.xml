@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/</link>
     <description>A vuepress theme with tons of features✨</description>
     <language>en-US</language>
-    <pubDate>Sun, 28 Feb 2021 05:13:41 GMT</pubDate>
-    <lastBuildDate>Sun, 28 Feb 2021 05:13:41 GMT</lastBuildDate>
+    <pubDate>Sun, 28 Feb 2021 05:14:22 GMT</pubDate>
+    <lastBuildDate>Sun, 28 Feb 2021 05:14:22 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -13935,6 +13935,144 @@ document<span>&lt;</span>span <span>class</span><span>=</span><span>"token punct
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br></div></div>]]></content:encoded>
     </item>
     <item>
+      <title>代码复制</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/copy-code/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/copy-code/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">代码复制</source>
+      <description>&amp;lt;p&amp;gt;如果你是一个程序员，你可能希望你的用户能够一键复制你在正文中展示的代码。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;针对这一情况，&amp;lt;code&amp;gt;vuepress-theme-hope&amp;lt;/code&amp;gt; 内置了 &amp;lt;a href=&amp;quot;https://vuepress-theme-hope.github.io/copy-code/zh/&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;@mr-hope/copy-code&amp;lt;/a&amp;gt;，提供了一个复制按钮。&amp;lt;/p&amp;gt;
+</description>
+      <category>feature</category>
+      <content:encoded><![CDATA[<p>如果你是一个程序员，你可能希望你的用户能够一键复制你在正文中展示的代码。</p>
+<p>针对这一情况，<code>vuepress-theme-hope</code> 内置了 <a href="https://vuepress-theme-hope.github.io/copy-code/zh/" target="_blank" rel="noopener noreferrer">@mr-hope/copy-code</a>，提供了一个复制按钮。</p>
+
+<h2 id="使用"> 使用</h2>
+<p>启用后，本插件会自动添加复制按钮到每个代码块的右下角。</p>
+<p>默认情况下，按钮仅在桌面模式显示，如果你需要在移动端展示这个按钮，请将 <code>themeConfig.copyCode.showInMobile</code> 设置为 <code>true</code>。</p>
+<p>在用户点击复制按钮后，屏幕上会显示一个复制成功的提示。默认的提示时长为 2000ms，如果你需要更改这个时长，请设置 <code>themeConfig.copyCode.duration</code>(单位 ms)，如果你不需要这个提示，请将 <code>themeConfig.copyCode.duration</code> 设置为 <code>0</code>。</p>
+<h2 id="效果"> 效果</h2>
+<div><pre><code><span>// .vuepress/config.js</span>
+module<span>.</span>exports <span>=</span> <span>{</span>
+  themeConfig<span>:</span> <span>{</span>
+    copyCode<span>:</span> <span>{</span><span>}</span><span>,</span>
+  <span>}</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div>]]></content:encoded>
+    </item>
+    <item>
+      <title>评论</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/comment/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/comment/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">评论</source>
+      <description>&amp;lt;p&amp;gt;通过内置 &amp;lt;code&amp;gt;@mr-hope/vuepress-plugin-comment&amp;lt;/code&amp;gt;，&amp;lt;code&amp;gt;vuepress-theme-hope&amp;lt;/code&amp;gt; 实现了评论功能。&amp;lt;/p&amp;gt;
+</description>
+      <category>feature</category>
+      <content:encoded><![CDATA[<p>通过内置 <code>@mr-hope/vuepress-plugin-comment</code>，<code>vuepress-theme-hope</code> 实现了评论功能。</p>
+
+<h2 id="启用"> 启用 <i>Not supported content</i></h2>
+<div><div><br><br><br><br><div>&nbsp;</div><br><br><div>&nbsp;</div><div>&nbsp;</div><br><br><br><br></div><pre><code><span>// .vuepress/config.js</span>
+module<span>.</span>exports <span>=</span> <span>{</span>
+  themeConfig<span>:</span> <span>{</span>
+    comment<span>:</span> <span>{</span>
+      type<span>:</span> <span>"valine"</span><span>,</span> <span>// "valine" 或 "vssue"</span>
+
+      <span>// valine 模式下</span>
+      appId<span>:</span> <span>"..."</span><span>,</span> <span>// your appId</span>
+      appKey<span>:</span> <span>"..."</span><span>,</span> <span>// your appKey</span>
+    <span>}</span><span>,</span>
+  <span>}</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br></div></div><p>评论功能默认全局启用，配置项为 <code>comment</code>。</p>
+<div><p>Info</p>
+<p>受篇幅限制，完整的评论插件配置，详见 <a href="https://vuepress-theme-hope.github.io/comment" target="_blank" rel="noopener noreferrer">@mr-hope/vuepress-plugin-comment 插件文档</a>。</p>
+</div>
+<h2 id="评论服务"> 评论服务</h2>
+<p>有两个评论插件可以选择: Valine 和 Vssue。</p>
+<div><p>Valine 与 Vssue 的比较</p>
+<ul>
+<li>Valine 使用 leancloud，支持页面访问量统计，无需登录账号即可评论</li>
+<li>Vssue 使用代码平台仓库的 issue 面板，需要用户登录或注册相应平台账号。</li>
+</ul>
+<p>如果你的站点面向大众而非程序员，推荐使用 Valine。</p>
+</div>
+<h2 id="valine"> Valine</h2>
+<p>借助 Valine，主题实现了无后端开启阅读量展示与评论功能。</p>
+<h3 id="获取-app-id-和-app-key"> 获取 APP ID 和 APP Key</h3>
+<p>请先 <a href="https://leancloud.cn/dashboard/login.html#/signin" target="_blank" rel="noopener noreferrer">登录</a> 或 <a href="https://leancloud.cn/dashboard/login.html#/signup" target="_blank" rel="noopener noreferrer">注册</a> LeanCloud, 进入控制台后点击左下角创建应用。</p>
+<p>应用创建好以后，进入刚刚创建的应用，选择左下角的 <code>设置 &gt; 应用Key</code>，然后就能看到你的 <code>APP ID</code> 和 <code>APP Key</code> 了。</p>
+<div><pre><code><span>{</span>
+  type<span>:</span> <span>'valine'</span><span>,</span>
+  appId<span>:</span> <span>'...'</span><span>,</span> <span>// your appId</span>
+  appKey<span>:</span> <span>'...'</span> <span>// your appKey</span>
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>将对应的 <code>APP ID</code> 和 <code>APP Key</code> 填入， Valine 即配置完成。</p>
+<p>Valine 评论的其他配置将在 <a href="http://vuepress-theme-hope.github.io/comment/zh/config/valine/" target="_blank" rel="noopener noreferrer">配置</a> 中列出。</p>
+<div><p>Tips</p>
+<p>更多配置与使用，请见 <a href="https://valine.js.org" target="_blank" rel="noopener noreferrer">Valine 官方文档</a>。</p>
+</div>
+<h2 id="vssue"> Vssue</h2>
+<h3 id="选择你要使用的代码托管平台"> 选择你要使用的代码托管平台</h3>
+<p>Vssue 支持通过 GitHub, Gitlab, Bitbucket 或者 Gitee 的 Issue 系统来为你的静态页面提供评论功能，你可以选择其中之一来使用。</p>
+<p>前往 <a href="http://vuepress-theme-hope.github.io/comment/zh/guide/supported-platforms/" target="_blank" rel="noopener noreferrer">支持的代码托管平台 - 创建 OAuth App</a> 查看详细指引。</p>
+<p>完成这一步之后，你将会配置好一个 OAuth App，并得到对应的 <code>client id</code> 和 <code>client secret</code>，它们将会用于 Vssue 的使用。</p>
+<ul>
+<li><code>owner</code>: 对应 repository 的拥有者帐号或者团队</li>
+<li><code>repo</code>: 用来存储评论的 repository</li>
+<li><code>clientId</code>: OAuth App 的 <code>client id</code></li>
+<li><code>clientSecret</code>: OAuth App 的 <code>client secret</code> (只有在使用某些平台时需要)</li>
+</ul>
+<h3 id="使用插件"> 使用插件</h3>
+<div><div><br><br><br><br><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><br><br><br></div><pre><code><span>// .vuepress/config.js</span>
+
+module<span>.</span>exports <span>=</span> <span>{</span>
+  plugins<span>:</span> <span>{</span>
+    <span>"@mr-hope/comment"</span><span>:</span> <span>{</span>
+      type<span>:</span> <span>"vssue"</span><span>,</span>
+      <span>// 设置 `platform` 而不是 `api`</span>
+      platform<span>:</span> <span>"github"</span><span>,</span>
+
+      <span>// 其他的 Vssue 配置</span>
+      owner<span>:</span> <span>"OWNER_OF_REPO"</span><span>,</span>
+      repo<span>:</span> <span>"NAME_OF_REPO"</span><span>,</span>
+      clientId<span>:</span> <span>"YOUR_CLIENT_ID"</span><span>,</span>
+      clientSecret<span>:</span> <span>"YOUR_CLIENT_SECRET"</span><span>,</span>
+    <span>}</span><span>,</span>
+  <span>}</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br></div></div><div><p>Tips</p>
+<p>唯一的区别在于，你需要设置 <code>platform</code> 而不是对应的 <code>api</code> 包。</p>
+<p><code>@vssue/vuepress-plugin-vssue</code> 会自动根据你设置的 <code>platform</code> 为你解析对应的 API 包:</p>
+<ul>
+<li>Platform <code>github</code> - API 包 <code>@vssue/api-github-v3</code></li>
+<li>Platform <code>github-v4</code> - API 包 <code>@vssue/api-github-v4</code></li>
+<li>Platform <code>gitlab</code> - API 包 <code>@vssue/api-gitlab-v4</code></li>
+<li>Platform <code>bitbucket</code> - API 包 <code>@vssue/api-bitbucket-v2</code></li>
+<li>Platform <code>gitee</code> - API 包 <code>@vssue/api-gitee-v5</code></li>
+<li>Platform <code>gitea</code> - API 包 <code>@vssue/api-gitea-v1</code></li>
+</ul>
+</div>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>博客</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/blog/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/blog/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">博客</source>
+      <category>blog</category>
+      <content:encoded><![CDATA[<h2 id="目录"> 目录</h2>
+<ul>
+<li>
+<p><a href="./blog.html">博客支持</a></p>
+</li>
+<li>
+<p><a href="./home.html">博客主页</a></p>
+</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
       <title>外部引入</title>
       <link>https://vuepress-theme-hope.github.io/zh/guide/markdown/external/</link>
       <guid>https://vuepress-theme-hope.github.io/zh/guide/markdown/external/</guid>
@@ -14420,144 +14558,6 @@ $$
 </details>
 <h3 id="更多"> 更多</h3>
 <p>关于具体的 Tex 语法，请看 <a href="https://vuepress-theme-hope.github.io/md-enhance/zh/guide/tex/#%E8%BF%90%E7%AE%97%E7%AC%A6" target="_blank" rel="noopener noreferrer">Katex 教程</a></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>代码复制</title>
-      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/copy-code/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/copy-code/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">代码复制</source>
-      <description>&amp;lt;p&amp;gt;如果你是一个程序员，你可能希望你的用户能够一键复制你在正文中展示的代码。&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;针对这一情况，&amp;lt;code&amp;gt;vuepress-theme-hope&amp;lt;/code&amp;gt; 内置了 &amp;lt;a href=&amp;quot;https://vuepress-theme-hope.github.io/copy-code/zh/&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;@mr-hope/copy-code&amp;lt;/a&amp;gt;，提供了一个复制按钮。&amp;lt;/p&amp;gt;
-</description>
-      <category>feature</category>
-      <content:encoded><![CDATA[<p>如果你是一个程序员，你可能希望你的用户能够一键复制你在正文中展示的代码。</p>
-<p>针对这一情况，<code>vuepress-theme-hope</code> 内置了 <a href="https://vuepress-theme-hope.github.io/copy-code/zh/" target="_blank" rel="noopener noreferrer">@mr-hope/copy-code</a>，提供了一个复制按钮。</p>
-
-<h2 id="使用"> 使用</h2>
-<p>启用后，本插件会自动添加复制按钮到每个代码块的右下角。</p>
-<p>默认情况下，按钮仅在桌面模式显示，如果你需要在移动端展示这个按钮，请将 <code>themeConfig.copyCode.showInMobile</code> 设置为 <code>true</code>。</p>
-<p>在用户点击复制按钮后，屏幕上会显示一个复制成功的提示。默认的提示时长为 2000ms，如果你需要更改这个时长，请设置 <code>themeConfig.copyCode.duration</code>(单位 ms)，如果你不需要这个提示，请将 <code>themeConfig.copyCode.duration</code> 设置为 <code>0</code>。</p>
-<h2 id="效果"> 效果</h2>
-<div><pre><code><span>// .vuepress/config.js</span>
-module<span>.</span>exports <span>=</span> <span>{</span>
-  themeConfig<span>:</span> <span>{</span>
-    copyCode<span>:</span> <span>{</span><span>}</span><span>,</span>
-  <span>}</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div>]]></content:encoded>
-    </item>
-    <item>
-      <title>评论</title>
-      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/comment/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/comment/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">评论</source>
-      <description>&amp;lt;p&amp;gt;通过内置 &amp;lt;code&amp;gt;@mr-hope/vuepress-plugin-comment&amp;lt;/code&amp;gt;，&amp;lt;code&amp;gt;vuepress-theme-hope&amp;lt;/code&amp;gt; 实现了评论功能。&amp;lt;/p&amp;gt;
-</description>
-      <category>feature</category>
-      <content:encoded><![CDATA[<p>通过内置 <code>@mr-hope/vuepress-plugin-comment</code>，<code>vuepress-theme-hope</code> 实现了评论功能。</p>
-
-<h2 id="启用"> 启用 <i>Not supported content</i></h2>
-<div><div><br><br><br><br><div>&nbsp;</div><br><br><div>&nbsp;</div><div>&nbsp;</div><br><br><br><br></div><pre><code><span>// .vuepress/config.js</span>
-module<span>.</span>exports <span>=</span> <span>{</span>
-  themeConfig<span>:</span> <span>{</span>
-    comment<span>:</span> <span>{</span>
-      type<span>:</span> <span>"valine"</span><span>,</span> <span>// "valine" 或 "vssue"</span>
-
-      <span>// valine 模式下</span>
-      appId<span>:</span> <span>"..."</span><span>,</span> <span>// your appId</span>
-      appKey<span>:</span> <span>"..."</span><span>,</span> <span>// your appKey</span>
-    <span>}</span><span>,</span>
-  <span>}</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br></div></div><p>评论功能默认全局启用，配置项为 <code>comment</code>。</p>
-<div><p>Info</p>
-<p>受篇幅限制，完整的评论插件配置，详见 <a href="https://vuepress-theme-hope.github.io/comment" target="_blank" rel="noopener noreferrer">@mr-hope/vuepress-plugin-comment 插件文档</a>。</p>
-</div>
-<h2 id="评论服务"> 评论服务</h2>
-<p>有两个评论插件可以选择: Valine 和 Vssue。</p>
-<div><p>Valine 与 Vssue 的比较</p>
-<ul>
-<li>Valine 使用 leancloud，支持页面访问量统计，无需登录账号即可评论</li>
-<li>Vssue 使用代码平台仓库的 issue 面板，需要用户登录或注册相应平台账号。</li>
-</ul>
-<p>如果你的站点面向大众而非程序员，推荐使用 Valine。</p>
-</div>
-<h2 id="valine"> Valine</h2>
-<p>借助 Valine，主题实现了无后端开启阅读量展示与评论功能。</p>
-<h3 id="获取-app-id-和-app-key"> 获取 APP ID 和 APP Key</h3>
-<p>请先 <a href="https://leancloud.cn/dashboard/login.html#/signin" target="_blank" rel="noopener noreferrer">登录</a> 或 <a href="https://leancloud.cn/dashboard/login.html#/signup" target="_blank" rel="noopener noreferrer">注册</a> LeanCloud, 进入控制台后点击左下角创建应用。</p>
-<p>应用创建好以后，进入刚刚创建的应用，选择左下角的 <code>设置 &gt; 应用Key</code>，然后就能看到你的 <code>APP ID</code> 和 <code>APP Key</code> 了。</p>
-<div><pre><code><span>{</span>
-  type<span>:</span> <span>'valine'</span><span>,</span>
-  appId<span>:</span> <span>'...'</span><span>,</span> <span>// your appId</span>
-  appKey<span>:</span> <span>'...'</span> <span>// your appKey</span>
-<span>}</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>将对应的 <code>APP ID</code> 和 <code>APP Key</code> 填入， Valine 即配置完成。</p>
-<p>Valine 评论的其他配置将在 <a href="http://vuepress-theme-hope.github.io/comment/zh/config/valine/" target="_blank" rel="noopener noreferrer">配置</a> 中列出。</p>
-<div><p>Tips</p>
-<p>更多配置与使用，请见 <a href="https://valine.js.org" target="_blank" rel="noopener noreferrer">Valine 官方文档</a>。</p>
-</div>
-<h2 id="vssue"> Vssue</h2>
-<h3 id="选择你要使用的代码托管平台"> 选择你要使用的代码托管平台</h3>
-<p>Vssue 支持通过 GitHub, Gitlab, Bitbucket 或者 Gitee 的 Issue 系统来为你的静态页面提供评论功能，你可以选择其中之一来使用。</p>
-<p>前往 <a href="http://vuepress-theme-hope.github.io/comment/zh/guide/supported-platforms/" target="_blank" rel="noopener noreferrer">支持的代码托管平台 - 创建 OAuth App</a> 查看详细指引。</p>
-<p>完成这一步之后，你将会配置好一个 OAuth App，并得到对应的 <code>client id</code> 和 <code>client secret</code>，它们将会用于 Vssue 的使用。</p>
-<ul>
-<li><code>owner</code>: 对应 repository 的拥有者帐号或者团队</li>
-<li><code>repo</code>: 用来存储评论的 repository</li>
-<li><code>clientId</code>: OAuth App 的 <code>client id</code></li>
-<li><code>clientSecret</code>: OAuth App 的 <code>client secret</code> (只有在使用某些平台时需要)</li>
-</ul>
-<h3 id="使用插件"> 使用插件</h3>
-<div><div><br><br><br><br><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><br><br><br></div><pre><code><span>// .vuepress/config.js</span>
-
-module<span>.</span>exports <span>=</span> <span>{</span>
-  plugins<span>:</span> <span>{</span>
-    <span>"@mr-hope/comment"</span><span>:</span> <span>{</span>
-      type<span>:</span> <span>"vssue"</span><span>,</span>
-      <span>// 设置 `platform` 而不是 `api`</span>
-      platform<span>:</span> <span>"github"</span><span>,</span>
-
-      <span>// 其他的 Vssue 配置</span>
-      owner<span>:</span> <span>"OWNER_OF_REPO"</span><span>,</span>
-      repo<span>:</span> <span>"NAME_OF_REPO"</span><span>,</span>
-      clientId<span>:</span> <span>"YOUR_CLIENT_ID"</span><span>,</span>
-      clientSecret<span>:</span> <span>"YOUR_CLIENT_SECRET"</span><span>,</span>
-    <span>}</span><span>,</span>
-  <span>}</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br></div></div><div><p>Tips</p>
-<p>唯一的区别在于，你需要设置 <code>platform</code> 而不是对应的 <code>api</code> 包。</p>
-<p><code>@vssue/vuepress-plugin-vssue</code> 会自动根据你设置的 <code>platform</code> 为你解析对应的 API 包:</p>
-<ul>
-<li>Platform <code>github</code> - API 包 <code>@vssue/api-github-v3</code></li>
-<li>Platform <code>github-v4</code> - API 包 <code>@vssue/api-github-v4</code></li>
-<li>Platform <code>gitlab</code> - API 包 <code>@vssue/api-gitlab-v4</code></li>
-<li>Platform <code>bitbucket</code> - API 包 <code>@vssue/api-bitbucket-v2</code></li>
-<li>Platform <code>gitee</code> - API 包 <code>@vssue/api-gitee-v5</code></li>
-<li>Platform <code>gitea</code> - API 包 <code>@vssue/api-gitea-v1</code></li>
-</ul>
-</div>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>博客</title>
-      <link>https://vuepress-theme-hope.github.io/zh/guide/blog/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/guide/blog/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">博客</source>
-      <category>blog</category>
-      <content:encoded><![CDATA[<h2 id="目录"> 目录</h2>
-<ul>
-<li>
-<p><a href="./blog.html">博客支持</a></p>
-</li>
-<li>
-<p><a href="./home.html">博客主页</a></p>
-</li>
-</ul>
 ]]></content:encoded>
     </item>
     <item>
