@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/</link>
     <description>A vuepress theme with tons of features✨</description>
     <language>en-US</language>
-    <pubDate>Sun, 28 Feb 2021 08:08:28 GMT</pubDate>
-    <lastBuildDate>Sun, 28 Feb 2021 08:08:28 GMT</lastBuildDate>
+    <pubDate>Sun, 28 Feb 2021 09:00:31 GMT</pubDate>
+    <lastBuildDate>Sun, 28 Feb 2021 09:00:31 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -11489,32 +11489,6 @@ export default { // Highlighted
 ]]></content:encoded>
     </item>
     <item>
-      <title>代码复制</title>
-      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/copy-code/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/copy-code/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">代码复制</source>
-      <description>&amp;lt;p&amp;gt;如果你是一个程序员，你可能希望你的用户能够一键复制你在正文中展示的代码。&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;针对这一情况，&amp;lt;code&amp;gt;vuepress-theme-hope&amp;lt;/code&amp;gt; 内置了 &amp;lt;a href=&amp;quot;https://vuepress-theme-hope.github.io/copy-code/zh/&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;@mr-hope/copy-code&amp;lt;/a&amp;gt;，提供了一个复制按钮。&amp;lt;/p&amp;gt;
-</description>
-      <category>feature</category>
-      <content:encoded><![CDATA[<p>如果你是一个程序员，你可能希望你的用户能够一键复制你在正文中展示的代码。</p>
-<p>针对这一情况，<code>vuepress-theme-hope</code> 内置了 <a href="https://vuepress-theme-hope.github.io/copy-code/zh/" target="_blank" rel="noopener noreferrer">@mr-hope/copy-code</a>，提供了一个复制按钮。</p>
-
-<h2 id="使用"> 使用</h2>
-<p>启用后，本插件会自动添加复制按钮到每个代码块的右下角。</p>
-<p>默认情况下，按钮仅在桌面模式显示，如果你需要在移动端展示这个按钮，请将 <code>themeConfig.copyCode.showInMobile</code> 设置为 <code>true</code>。</p>
-<p>在用户点击复制按钮后，屏幕上会显示一个复制成功的提示。默认的提示时长为 2000ms，如果你需要更改这个时长，请设置 <code>themeConfig.copyCode.duration</code>(单位 ms)，如果你不需要这个提示，请将 <code>themeConfig.copyCode.duration</code> 设置为 <code>0</code>。</p>
-<h2 id="效果"> 效果</h2>
-<div><pre><code><span>// .vuepress/config.js</span>
-module<span>.</span>exports <span>=</span> <span>{</span>
-  themeConfig<span>:</span> <span>{</span>
-    copyCode<span>:</span> <span>{</span><span>}</span><span>,</span>
-  <span>}</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div>]]></content:encoded>
-    </item>
-    <item>
       <title>版权信息</title>
       <link>https://vuepress-theme-hope.github.io/zh/guide/feature/copyright/</link>
       <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/copyright/</guid>
@@ -11586,28 +11560,6 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <div><span>1</span><br><span>2</span><br><span>3</span><br></div></div>]]></content:encoded>
     </item>
     <item>
-      <title>最后更新时间</title>
-      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/last-update/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/last-update/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">最后更新时间</source>
-      <description>&amp;lt;p&amp;gt;vuepress-theme-hope 通过内置 &amp;lt;code&amp;gt;@mr-hope/vuepress-plugin-last-update&amp;lt;/code&amp;gt; 插件，实现了页面最后更新时间的自动生成。&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;默认情况下，页面的更新时间会通过页面文件文件最后一次 &amp;lt;code&amp;gt;git&amp;lt;/code&amp;gt; 提交的 UNIX 时间戳 (ms) 来自动生成，并将以合适的日期格式显示在每一页的底部。&amp;lt;/p&amp;gt;
-</description>
-      <category>feature</category>
-      <content:encoded><![CDATA[<p>vuepress-theme-hope 通过内置 <code>@mr-hope/vuepress-plugin-last-update</code> 插件，实现了页面最后更新时间的自动生成。</p>
-<p>默认情况下，页面的更新时间会通过页面文件文件最后一次 <code>git</code> 提交的 UNIX 时间戳 (ms) 来自动生成，并将以合适的日期格式显示在每一页的底部。</p>
-
-<div><p>Note</p>
-<p>由于最后更新时间是基于 <code>git</code> 的, 所以你只能在一个基于 <code>git</code> 的项目中启用它。此外，由于使用的时间戳来自 git commit，因此它将仅在给定页的第一次提交之后显示，并且仅在该页面后续提交更改时更新。</p>
-</div>
-<p>有些时候你的站点可能通过 CI 自动部署，而这些 CI 服务器的时间可能基于 UTC，这会导致生成的时间不同于你所在的时区，在这种情况下，你可以设置 <code>themeConfig.lastUpdate.timezone</code> 来指定你所在的时区。</p>
-<div><p>时区列表</p>
-<p>详细的时区列表，详见 <a href="https://www.zeitverschiebung.net/cn/all-time-zones.html" target="_blank" rel="noopener noreferrer">时区列表</a></p>
-</div>
-<p>主题会使用 <code>dayjs</code> 自动根据当前语言，本地化最后更新时间的表述文字。如果你对默认的显示文字不满意，你可以设置自己的时间转换函数到 <code>themeConfig.lastUpdate.transformer</code>。函数的格式为 <code>(timestamp: number, lang: string) =&gt; string</code></p>
-]]></content:encoded>
-    </item>
-    <item>
       <title>Feed 支持</title>
       <link>https://vuepress-theme-hope.github.io/zh/guide/feature/feed/</link>
       <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/feed/</guid>
@@ -11646,6 +11598,28 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <h2 id="输出配置"> 输出配置</h2>
 <p>你可通过配置选项中的 <code>output</code> 来决定输出哪些格式的 Feed 文件以及它们的位置。</p>
 <p>详细的选项及其默认值详见 <a href="https://vuepress-theme-hope.github.io/feed/zh/config/#output" target="_blank" rel="noopener noreferrer">Feed 插件输出设置</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>最后更新时间</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/last-update/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/last-update/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">最后更新时间</source>
+      <description>&amp;lt;p&amp;gt;vuepress-theme-hope 通过内置 &amp;lt;code&amp;gt;@mr-hope/vuepress-plugin-last-update&amp;lt;/code&amp;gt; 插件，实现了页面最后更新时间的自动生成。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;默认情况下，页面的更新时间会通过页面文件文件最后一次 &amp;lt;code&amp;gt;git&amp;lt;/code&amp;gt; 提交的 UNIX 时间戳 (ms) 来自动生成，并将以合适的日期格式显示在每一页的底部。&amp;lt;/p&amp;gt;
+</description>
+      <category>feature</category>
+      <content:encoded><![CDATA[<p>vuepress-theme-hope 通过内置 <code>@mr-hope/vuepress-plugin-last-update</code> 插件，实现了页面最后更新时间的自动生成。</p>
+<p>默认情况下，页面的更新时间会通过页面文件文件最后一次 <code>git</code> 提交的 UNIX 时间戳 (ms) 来自动生成，并将以合适的日期格式显示在每一页的底部。</p>
+
+<div><p>Note</p>
+<p>由于最后更新时间是基于 <code>git</code> 的, 所以你只能在一个基于 <code>git</code> 的项目中启用它。此外，由于使用的时间戳来自 git commit，因此它将仅在给定页的第一次提交之后显示，并且仅在该页面后续提交更改时更新。</p>
+</div>
+<p>有些时候你的站点可能通过 CI 自动部署，而这些 CI 服务器的时间可能基于 UTC，这会导致生成的时间不同于你所在的时区，在这种情况下，你可以设置 <code>themeConfig.lastUpdate.timezone</code> 来指定你所在的时区。</p>
+<div><p>时区列表</p>
+<p>详细的时区列表，详见 <a href="https://www.zeitverschiebung.net/cn/all-time-zones.html" target="_blank" rel="noopener noreferrer">时区列表</a></p>
+</div>
+<p>主题会使用 <code>dayjs</code> 自动根据当前语言，本地化最后更新时间的表述文字。如果你对默认的显示文字不满意，你可以设置自己的时间转换函数到 <code>themeConfig.lastUpdate.transformer</code>。函数的格式为 <code>(timestamp: number, lang: string) =&gt; string</code></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -12161,6 +12135,26 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 </li>
 </ol>
 </section>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>快速上手</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/get-started/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/get-started/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">快速上手</source>
+      <category>Get Started</category>
+      <content:encoded><![CDATA[<h2 id="目录"> 目录</h2>
+<ul>
+<li>
+<p><a href="./intro.html">主题简介</a></p>
+</li>
+<li>
+<p><a href="./install.html">安装与使用</a></p>
+</li>
+<li>
+<p><a href="./markdown.html">Markdown 介绍</a></p>
+</li>
+</ul>
 ]]></content:encoded>
     </item>
     <item>
@@ -12966,26 +12960,6 @@ next: false</span>
 <li>
 <p>切换动画</p>
 <p>在页面切换时，将会显示一个渐入的切换动画。提升 文档 / 博客 质感。</p>
-</li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>快速上手</title>
-      <link>https://vuepress-theme-hope.github.io/zh/guide/get-started/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/guide/get-started/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">快速上手</source>
-      <category>Get Started</category>
-      <content:encoded><![CDATA[<h2 id="目录"> 目录</h2>
-<ul>
-<li>
-<p><a href="./intro.html">主题简介</a></p>
-</li>
-<li>
-<p><a href="./install.html">安装与使用</a></p>
-</li>
-<li>
-<p><a href="./markdown.html">Markdown 介绍</a></p>
 </li>
 </ul>
 ]]></content:encoded>
@@ -14650,6 +14624,32 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 <li><a href="https://jq.qq.com/?_wv=1027&amp;k=rATJyxGK" target="_blank" rel="noopener noreferrer">点击加入</a> (群号: 1003437555)</li>
 </ul>
 ]]></content:encoded>
+    </item>
+    <item>
+      <title>代码复制</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/copy-code/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/copy-code/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">代码复制</source>
+      <description>&amp;lt;p&amp;gt;如果你是一个程序员，你可能希望你的用户能够一键复制你在正文中展示的代码。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;针对这一情况，&amp;lt;code&amp;gt;vuepress-theme-hope&amp;lt;/code&amp;gt; 内置了 &amp;lt;a href=&amp;quot;https://vuepress-theme-hope.github.io/copy-code/zh/&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;@mr-hope/copy-code&amp;lt;/a&amp;gt;，提供了一个复制按钮。&amp;lt;/p&amp;gt;
+</description>
+      <category>feature</category>
+      <content:encoded><![CDATA[<p>如果你是一个程序员，你可能希望你的用户能够一键复制你在正文中展示的代码。</p>
+<p>针对这一情况，<code>vuepress-theme-hope</code> 内置了 <a href="https://vuepress-theme-hope.github.io/copy-code/zh/" target="_blank" rel="noopener noreferrer">@mr-hope/copy-code</a>，提供了一个复制按钮。</p>
+
+<h2 id="使用"> 使用</h2>
+<p>启用后，本插件会自动添加复制按钮到每个代码块的右下角。</p>
+<p>默认情况下，按钮仅在桌面模式显示，如果你需要在移动端展示这个按钮，请将 <code>themeConfig.copyCode.showInMobile</code> 设置为 <code>true</code>。</p>
+<p>在用户点击复制按钮后，屏幕上会显示一个复制成功的提示。默认的提示时长为 2000ms，如果你需要更改这个时长，请设置 <code>themeConfig.copyCode.duration</code>(单位 ms)，如果你不需要这个提示，请将 <code>themeConfig.copyCode.duration</code> 设置为 <code>0</code>。</p>
+<h2 id="效果"> 效果</h2>
+<div><pre><code><span>// .vuepress/config.js</span>
+module<span>.</span>exports <span>=</span> <span>{</span>
+  themeConfig<span>:</span> <span>{</span>
+    copyCode<span>:</span> <span>{</span><span>}</span><span>,</span>
+  <span>}</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div>]]></content:encoded>
     </item>
     <item>
       <title>评论</title>
