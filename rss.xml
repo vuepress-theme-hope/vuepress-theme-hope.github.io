@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/</link>
     <description>A vuepress theme with tons of features✨</description>
     <language>en-US</language>
-    <pubDate>Sun, 28 Feb 2021 16:20:49 GMT</pubDate>
-    <lastBuildDate>Sun, 28 Feb 2021 16:20:49 GMT</lastBuildDate>
+    <pubDate>Sun, 28 Feb 2021 16:49:58 GMT</pubDate>
+    <lastBuildDate>Sun, 28 Feb 2021 16:49:58 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -2563,7 +2563,7 @@ Set it to <code>false</code> to disable the footer, and set it to <code>true</co
 <li><code>'Facebook'</code>: Facebook</li>
 <li><code>'Flipboard'</code>: Flipboard</li>
 <li><code>'Gitee'</code>: Gitee</li>
-<li><code>'Github'</code>: ~~ Gayhub ~~ GitHub</li>
+<li><code>'Github'</code>: GitHub</li>
 <li><code>'Gitlab'</code>: Gitlab</li>
 <li><code>'Gmail'</code>: Google mailbox (you can also fill in your own other mailbox)</li>
 <li><code>'Instagram'</code>: Instagram</li>
@@ -4371,7 +4371,10 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <p><a href="./feed.html">Feed Support</a></p>
 </li>
 <li>
-<p><a href="./seo-sitemap.html">Seo and Sitemap</a></p>
+<p><a href="./seo.html">SEO Enhance</a></p>
+</li>
+<li>
+<p><a href="./sitemap.html">Sitemap Generation</a></p>
 </li>
 <li>
 <p><a href="./typescript.html">TypeScript support</a></p>
@@ -4420,58 +4423,173 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 ]]></content:encoded>
     </item>
     <item>
-      <title>SEO and Sitemap</title>
-      <link>https://vuepress-theme-hope.github.io/guide/feature/seo-sitemap/</link>
-      <guid>https://vuepress-theme-hope.github.io/guide/feature/seo-sitemap/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">SEO and Sitemap</source>
+      <title>SEO</title>
+      <link>https://vuepress-theme-hope.github.io/guide/feature/seo/</link>
+      <guid>https://vuepress-theme-hope.github.io/guide/feature/seo/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">SEO</source>
       <category>feature</category>
-      <content:encoded><![CDATA[<h1 id="seo-and-sitemap"> SEO and Sitemap</h1>
-<p><code>vuepress-theme-hope</code> introduces <code>@mr-hope/vuepress-plugin-seo</code> and <code>@mr-hope/vuepress-plugin-sitemap</code> to provide you with SEO enhancements and Sitemap generation.</p>
-<p>To make the two plugins work better, you may need to look at <a href="./../../config/page.html#page-information-configuration">Page Information Configuration</a> and configure them reasonably.</p>
-<h2 id="seo"> SEO</h2>
-<p>The plugin will inject some <code>&lt;meta&gt;</code> tags into the web page’s <code>&lt;head&gt;</code>, making your web page more friendly to search engines and social media. By default, the plugin will read the site configuration, theme configuration and frontmatter of the page to automatically generate the <code>&lt;meta&gt;</code> tag for you whenever possible. Such as site name, page title, page type, writing date, last update date, article tags are automatically generated.</p>
-<p>The configuration that the plugin will read (the options you should config) is:</p>
+      <content:encoded><![CDATA[<p><code>vuepress-theme-hope</code> provide SEO enhancement by includeing <a href="https://vuepress-theme-hope.github.io/seo/" target="_blank" rel="noopener noreferrer"><code>@mr-hope/vuepress-plugin-seo</code></a>.</p>
+<p>To make the plugin work better, you may need to look at <a href="./../../config/page.html#page-information-configuration">Page Information Configuration</a> and configure them reasonably.</p>
+<p>If you don't need this plugin, please set <code>themeConfig.seo</code> to <code>false</code>.</p>
+<div><p>SEO Intro</p>
+<p><strong>S</strong>earch <strong>e</strong>ngine <strong>optimization</strong> (SEO) is the process of improving the quality and quantity of website traffic to a website or a web page from search engines. SEO targets unpaid traffic (known as &quot;natural&quot; or &quot;organic&quot; results) rather than direct traffic or paid traffic. Unpaid traffic may originate from different kinds of searches, including image search, video search, academic search, news search, and industry-specific vertical search engines.</p>
+<p>As an Internet marketing strategy, SEO considers how search engines work, the computer-programmed algorithms that dictate search engine behavior, what people search for, the actual search terms or keywords typed into search engines, and which search engines are preferred by their targeted audience. SEO is performed because a website will receive more visitors from a search engine when websites rank higher on the search engine results page (SERP). These visitors can then potentially be converted into customers.</p>
+</div>
+<h2 id="out-of-box"> Out of box</h2>
+<p>The plugin is used out of the box. Without any configuration, it will extract the corresponding information from the page content to generate the <code>&lt;meta&gt;</code> tag as much as possible.</p>
+<p>By default, the plugin will read the site configuration, theme configuration and page frontmatter to automatically generate <code>&lt;meta&gt;</code> tags as much as possible. Such as site name, page title, page type, writing date, last update date, and article tags are all automatically generated.</p>
+<p>The following are the <code>&lt;meta&gt;</code> tags and their values that will be injected into <code>&lt;head&gt;</code> by default:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">property</th>
+<th style="text-align:center">content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><code>og:url</code></td>
+<td style="text-align:center"><code>themeConfig.hostname</code> + <code>path</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>og:site_name</code></td>
+<td style="text-align:center"><code>$site.title</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>og:title</code></td>
+<td style="text-align:center"><code>$page.title</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>og:description</code></td>
+<td style="text-align:center"><code>$page.frontmatter.description</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>og:type</code></td>
+<td style="text-align:center"><code>'article'</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>og:image</code></td>
+<td style="text-align:center"><code>themeConfig.hostname</code> + <code>$page.frontmatter.image</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>og:updated_time</code></td>
+<td style="text-align:center"><code>$page.lastUpdatedTime</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>og:locale</code></td>
+<td style="text-align:center"><code>$page._computed.$lang</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>og:locale:alternate</code></td>
+<td style="text-align:center">Other languages including in <code>$themeConfig.locales</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>twitter:card</code></td>
+<td style="text-align:center"><code>'summary_large_image'</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>twitter:image:alt</code></td>
+<td style="text-align:center"><code>$site.title</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>article:author</code></td>
+<td style="text-align:center"><code>$page.frontmatter.author | | themeConfig.author</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>article:tag</code></td>
+<td style="text-align:center"><code>$page.frontmatter.tags | | $page.frontmatter.tag</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>article:published_time</code></td>
+<td style="text-align:center"><code>$page.frontmatter.time | | $page.frontmatter.date</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>article:modified_time</code></td>
+<td style="text-align:center"><code>$page.lastUpdatedTime</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="free-customization"> Free customization</h2>
+<p>You can configure the <code>meta</code> option in the frontmatter of the page to customize the content of the <code>&lt;meta&gt;</code> tag of a specific page for SEO.</p>
+<p>E.g.:</p>
+<div><pre><code><span><span>---</span>
+<span>meta:
+  - name: keywords
+    content: SEO plugin</span>
+<span>---</span></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>Will automatically inject <code>&lt;meta name=&quot;keywords&quot; content=&quot;SEO plugin&quot; /&gt;</code>.</p>
+<h2 id="customize-generation-process"> Customize generation process</h2>
+<p>You can pass a function to <code>themeConfig.seo.seo</code> to inject a new <code>&lt;meta&gt;</code> tag or override the default generated content in the  section. You need to return an object in the format of <code>&lt;property&gt;: &lt;content&gt;</code>.</p>
+<p>For example, if you return <code>{'og:url':'google.com','og:image':'google.com/logo.jpg' }</code>, the plugin will inject the following content into <code>&lt;head&gt;</code>:</p>
+<div><pre><code><span><span><span>&lt;</span>meta</span> <span>property</span><span><span>=</span><span>"</span>og:url<span>"</span></span> <span>content</span><span><span>=</span><span>"</span>google.com<span>"</span></span> <span>/></span></span>
+<span><span><span>&lt;</span>meta</span> <span>property</span><span><span>=</span><span>"</span>og:image<span>"</span></span> <span>content</span><span><span>=</span><span>"</span>google.com/logo.jpg<span>"</span></span> <span>/></span></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br></div></div><p>When the <code>&lt;meta&gt;</code> you need to inject does not use <code>property</code> and <code>content</code>, or you want to remove the existing meta, you can pass in a custom generation function to <code>themeConfig.seo.customMeta</code> to completely customize the <code>&lt;meta&gt;</code> tag .</p>
+<p>The structure of <code>customMeta</code> is <code>(meta: Meta[], info: PageSeoInfo) =&gt; void</code></p>
+<p>Interface of <code>PageSeoInfo</code>:</p>
+<div><pre><code><span>interface</span> <span>PageSeoInfo</span> <span>{</span>
+  <span>/** Current Page Object */</span>
+  page<span>:</span> Page<span>;</span>
+  <span>/** Vuepress Config  */</span>
+  site<span>:</span> SiteConfig<span>;</span>
+  <span>/** Current ThemeConfig */</span>
+  themeConfig<span>:</span> ThemeConfig <span>|</span> Record<span>&lt;</span><span>string</span><span>,</span> <span>never</span><span>></span><span>;</span>
+  <span>/** langs which are supported */</span>
+  locale<span>:</span> <span>string</span><span>[</span><span>]</span><span>;</span>
+  <span>/** Current page path */</span>
+  path<span>:</span> <span>string</span><span>;</span>
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br></div></div><p>The type of <code>Meta</code> is <code>Record&lt;&quot;content&quot; | &quot;name&quot; | &quot;charset&quot; | &quot;http-equiv&quot;, string&gt;</code>, the key of the object will be rendered as the attribute of the <code>&lt;meta&gt;</code> tag, and the value will be rendered as The value of the corresponding attribute.</p>
+<p>E.g.:</p>
+<div><pre><code><span>(</span><span>meta<span>:</span> Meta<span>,</span> info<span>:</span> PageSeoInfo</span><span>)</span> <span>=></span> <span>{</span>
+  <span>const</span> index <span>=</span> meta<span>.</span><span>findIndex</span><span>(</span><span>(</span><span>item</span><span>)</span> <span>=></span> item<span>.</span>property <span>===</span> <span>"og:type"</span><span>)</span><span>;</span>
+
+  <span>if</span> <span>(</span>index <span>!==</span> <span>-</span><span>1</span><span>)</span> meta<span>.</span><span>splice</span><span>(</span>index<span>,</span> <span>1</span><span>)</span><span>;</span>
+
+  meta<span>.</span><span>push</span><span>(</span><span>{</span> a<span>:</span> <span>"1"</span><span>,</span> b<span>:</span> <span>"2"</span> <span>}</span><span>)</span><span>;</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><p>Will inject <code>&lt;meta a=&quot;1&quot; b=&quot;2&quot; /&gt;</code> into the <code>&lt;head&gt;</code> of the current page, and remove any existing <code>&lt;meta property=&quot;og:type&quot; /&gt;</code>.</p>
+<h2 id="rdfa-1-1"> RDFa 1.1</h2>
+<p>The theme adds rich media structure support to most of the website structure by following <a href="https://www.w3.org/TR/rdfa-primer/" target="_blank" rel="noopener noreferrer">RDFa 1.1</a>.</p>
+<div><p>Tips</p>
+<p>You can use <a href="https://search.google.com/test/rich-results" target="_blank" rel="noopener noreferrer">Google Rich Media Structure Test Tool</a> to test this site.</p>
+</div>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Sitemap</title>
+      <link>https://vuepress-theme-hope.github.io/guide/feature/sitemap/</link>
+      <guid>https://vuepress-theme-hope.github.io/guide/feature/sitemap/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">Sitemap</source>
+      <category>feature</category>
+      <content:encoded><![CDATA[<p><code>vuepress-theme-hope</code> provide SEO enhancement by includeing <a href="https://vuepress-theme-hope.github.io/sitemap/" target="_blank" rel="noopener noreferrer"><code>@mr-hope/vuepress-plugin-sitemap</code></a>.</p>
+<p>The plugin will automatically generate the last update time of the page based on the Git timestamp of the page, and will also declare the alternative version link of the page in other languages ​​according to the locales config.</p>
+<p>If you don't need this plugin, please set <code>themeConfig.sitemap</code> to <code>false</code>.</p>
+<h2 id="control-sitemap-link"> Control Sitemap Link</h2>
+<p>By default, all website links except 404 page will be added to the Sitemap.</p>
+<p>If you want to add other pages to the Sitemap outside of the VuePress project page, please turn them into an array and pass to <code>themeConfig.sitemap.urls</code>.</p>
+<p>If you don't want certain pages to appear in the sitemap, you can turn them into an array and pass them to <code>themeConfig.sitemap.exclude</code>, or set <code>feed.exclude</code> to <code>true</code> in the frontmatter of the corresponding page.</p>
+<p>You can also control the output link through the <code>themeConfig.sitemap.outFile</code>. The default output directory is <code>sitemap.xml</code>.</p>
+<h2 id="change-frequency"> Change frequency</h2>
+<p>The default update cycle of the page is <code>daily</code> (every day). If you want to modify the entire page cycle, please set <code>themeConfig.sitemap.changefreq</code>. You can also set <code>feed.changefreq</code> in the frontmatter of the page. Note that page has a higher priority.</p>
+<p>The legal frequencies are:</p>
 <ul>
-<li>
-<p><code>siteConfig.title</code></p>
-</li>
-<li>
-<p><code>siteConfig.description</code></p>
-</li>
-<li>
-<p><code>themeConfig.author</code></p>
-</li>
-<li>
-<p><code>frontmatter.title</code></p>
-</li>
-<li>
-<p><code>frontmatter.description</code></p>
-</li>
-<li>
-<p><code>frontmatter.image</code></p>
-</li>
-<li>
-<p><code>frontmatter.author</code></p>
-</li>
-<li>
-<p><code>frontmatter.time</code></p>
-</li>
-<li>
-<p><code>frontmatter.tags</code></p>
-</li>
-<li>
-<p>Git’s last commit time</p>
-</li>
+<li><code>&quot;always&quot;</code></li>
+<li><code>&quot;hourly&quot;</code></li>
+<li><code>&quot;daily&quot;</code></li>
+<li><code>&quot;weekly&quot;</code></li>
+<li><code>&quot;monthly&quot;</code></li>
+<li><code>&quot;yearly&quot;</code></li>
+<li><code>&quot;never&quot;</code></li>
 </ul>
-<p>You can also view <a href="./../../config/plugin/seo.html">Plugin configuration</a> to find more options.</p>
-<h2 id="sitemap"> Sitemap</h2>
-<p>The plugin will automatically read the configuration of the entire document and automatically generate a sitemap for you as much as possible.</p>
-<p>You can also set the following in Frontmatter of the page besides <a href="./../../config/plugin/sitemap.html">plugin configuration</a>:</p>
-<ul>
-<li><code>sitemap.changefreq</code>: update frequency, optional values: <code>&quot;always&quot;</code> <code>&quot;hourly&quot;</code> <code>&quot;daily&quot;</code> <code>&quot;weekly&quot;</code> <code>&quot;monthly&quot;</code> <code>&quot;yearly&quot;</code> <code>&quot;never&quot;</code></li>
-<li><code>sitemap.exclude</code>: whether to exclude this page</li>
-<li><code>sitemap.priority</code>: page priority, range 0 ~ 1, default is <code>0.5</code></li>
-</ul>
+<div><p>Sitemap Intro</p>
+<p>Sitemaps may be addressed to users or to software. Many sites have user-visible sitemaps which present a systematic view, typically hierarchical, of the site. These are intended to help visitors find specific pages, and can also be used by crawlers. Alphabetically organized site maps, sometimes called site indexes, are a different approach.</p>
+<p>For use by search engines and other crawlers, there is a structured format, the XML Sitemap, which lists the pages in a site, their relative importance, and how often they are updated. This is pointed to from the robots.txt file and is typically called sitemap.xml .</p>
+<p>Google introduced the Sitemaps protocol so web developers can publish lists of links from across their sites.</p>
+</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -4602,8 +4720,8 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 </ul>
 <p>In short, anyone can enjoy the convenience of Markdown’s enhanced syntax.</p>
 <h3 id="search-engine-enhancement"> Search engine enhancement</h3>
-<p>The theme provides <a href="https://vuepress-theme-hope.github.io/seo/zh/" target="_blank" rel="noopener noreferrer">SEO plugin</a>, which automatically injects meta tags into web pages to enhance search engine indexing.</p>
-<p>The theme also provides <a href="https://vuepress-theme-hope.github.io/sitemap/zh/" target="_blank" rel="noopener noreferrer">Sitemap plugin</a> to generate Sitemap automatically.</p>
+<p>The theme provides <a href="./../feature/seo.html">SEO Enhance</a>, which automatically injects meta tags into web pages to enhance search engine indexing.</p>
+<p>The theme also provides <a href="./../feature/sitemap.html">Sitemap Generation</a> to generate Sitemap automatically.</p>
 <h3 id="page-ui"> Page UI</h3>
 <ul>
 <li>
@@ -4819,7 +4937,7 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 </li>
 <li>
 <p>Import the link in <code>index.styl</code> of <code>.vuepress/styles</code>. E.g:</p>
-<div><pre><code><span><span>@import</span> <span>"//at.alicdn.com/t/font_1446717_wn9sf5nb7un.css"</span><span>;</span></span>
+<div><pre><code><span><span>@import</span> <span>"//at.alicdn.com/t/font_1446717_wy5ujz8b14.css"</span><span>;</span></span>
 </code></pre>
 <div><span>1</span><br></div></div></li>
 </ol>
@@ -4855,7 +4973,10 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
       <guid>https://vuepress-theme-hope.github.io/guide/interface/others/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">Other features</source>
       <category>interface</category>
-      <content:encoded><![CDATA[<h2 id="fullscreen-button"> Fullscreen Button</h2>
+      <content:encoded><![CDATA[<h2 id="style-customization"> Style customization</h2>
+<p>The theme allows you to set variables in the <code>palette.styl</code> of <code>.vuepress/style</code> to customize most of the colors, responsive breakpoints, page layout size and other parameters.</p>
+<p>For detailed info, please refer to <a href="./../../config/stylus.html">Stylus Configuration</a></p>
+<h2 id="fullscreen-button"> Fullscreen Button</h2>
 <p>Enabled by default, it’s in the theme card in navbar.</p>
 <p>If you don’t need it, you can disable it by setting <code>fullscreen</code> to <code>false</code> in the themeConfig.</p>
 <div><p>Tips</p>
@@ -7039,10 +7160,10 @@ $$
 <p><a href="./feature/feed.html">Feed generation</a></p>
 </li>
 <li>
-<p><a href="./feature/seo-sitemap.html#SEO">SEO enhancement</a></p>
+<p><a href="./feature/seo.html">SEO enhancement</a></p>
 </li>
 <li>
-<p><a href="./feature/seo-sitemap.html#Sitemap">Sitemap generation</a></p>
+<p><a href="./feature/sitemap.html">Sitemap generation</a></p>
 </li>
 <li>
 <p><a href="./feature/typescript.html">TypeScript support</a></p>
@@ -10190,7 +10311,7 @@ export default { // Highlighted
 <li><code>'Facebook'</code>: 脸书</li>
 <li><code>'Flipboard'</code>: 红板报</li>
 <li><code>'Gitee'</code>: Gitee</li>
-<li><code>'Github'</code>: <s>Gayhub</s> GitHub</li>
+<li><code>'Github'</code>: GitHub</li>
 <li><code>'Gitlab'</code>: Gitlab</li>
 <li><code>'Gmail'</code>: 谷歌邮箱(当然你也可以填入你自己的其他邮箱)</li>
 <li><code>'Instagram'</code>: Instagram</li>
@@ -11449,87 +11570,30 @@ export default { // Highlighted
 ]]></content:encoded>
     </item>
     <item>
-      <title>博客首页</title>
-      <link>https://vuepress-theme-hope.github.io/zh/guide/blog/home/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/guide/blog/home/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">博客首页</source>
-      <category>blog</category>
-      <content:encoded><![CDATA[<h1 id="博客首页"> 博客首页</h1>
-<p><code>vuepress-theme-hope</code> 允许你启用博客风格的首页。</p>
-<p>你需要在相应的页面的 frontmatter 中，设置 <code>blog: true</code> 来开启博客风格。</p>
-<p><img src="./assets/blog.png" alt="首页截图"></p>
-<h2 id="可配置的项目"> 可配置的项目</h2>
-<p>你可以自由配置左上方的博主头像与博主姓名，他们的配置项为 <code>themeConfig.blog.avatar</code> 和 <code>themeConfig.blog.name</code>。如果你没有填写它们，它们会自动回退到站点 Logo (<code>themeConfig.logo</code>) 和 站点名称 (<code>themeConfig.name</code>)。</p>
-<p>如果你使用 <code>themeConfig.intro</code> 配置了个人介绍页地址，点击左上角的博主头像和博主名称，会自动跳转到博主的个人介绍页。</p>
-<p>你还可以在 <code>themeConfig.blog.links</code> 这个对象中以 <code>社交媒体名: 社交媒体链接</code> 的格式配置你的社交媒体链接。</p>
-<div><p>可用的社交媒体:</p>
-<ul>
-<li><code>'Baidu'</code>: 百度</li>
-<li><code>'Bitbucket'</code>: Bitbucket</li>
-<li><code>'Dingding'</code>: 钉钉</li>
-<li><code>'Discord'</code>: Discord</li>
-<li><code>'Dribbble'</code>: Dribble</li>
-<li><code>'Evernote'</code>: 印象笔记</li>
-<li><code>'Facebook'</code>: 脸书</li>
-<li><code>'Flipboard'</code>: 红板报</li>
-<li><code>'Gitee'</code>: Gitee</li>
-<li><code>'Github'</code>: <s>Gayhub</s> GitHub</li>
-<li><code>'Gitlab'</code>: Gitlab</li>
-<li><code>'Gmail'</code>: 谷歌邮箱(当然你也可以填入你自己的其他邮箱)</li>
-<li><code>'Instagram'</code>: Instagram</li>
-<li><code>'Line'</code>: Line</li>
-<li><code>'Linkedin'</code>: 领英</li>
-<li><code>'Pinterest'</code>: 拼趣</li>
-<li><code>'Pocket'</code>: Pocket</li>
-<li><code>'QQ'</code>: QQ</li>
-<li><code>'Qzone'</code>: QQ 空间</li>
-<li><code>'Reddit'</code>: Reddit</li>
-<li><code>'Rss'</code>: RSS 地址</li>
-<li><code>'Steam'</code>: Steam</li>
-<li><code>'Twitter'</code>: Twitter</li>
-<li><code>'Wechat'</code>: 微信</li>
-<li><code>'Weibo'</code>: 微博</li>
-<li><code>'Whatsapp'</code>: Whatsapp</li>
-<li><code>'Youtube'</code>: YouTube</li>
-<li><code>'Zhihu'</code>: 知乎</li>
-</ul>
-</div>
-<p>如果你对时间轴上面的提示文字不满意，你可以使用 <code>themeConfig.blog.timeline</code> 自定义一个。</p>
-<h2 id="frontmatter-可用参数"> Frontmatter 可用参数</h2>
-<h3 id="hero"> hero</h3>
-<ul>
-<li>类型: <code>boolean</code></li>
-<li>默认: <code>true</code></li>
-</ul>
-<p>是否显示主页的图标与描述。主页的图标、描述设置请见默认主页。</p>
-<h3 id="bgimage"> bgImage</h3>
-<ul>
-<li>类型: <code>string</code></li>
-</ul>
-<p>背景图片的地址，需填写绝对路径。如果不填写，会自动应用一张默认的风景图片。</p>
-<h3 id="bgimagestyle"> bgImageStyle</h3>
-<ul>
-<li>类型: <code>Record&lt;string, string&gt;</code></li>
-</ul>
-<p>背景图片的 CSS 样式。</p>
-<h3 id="heroimagestyle"> heroImageStyle</h3>
-<ul>
-<li>类型: <code>Record&lt;string, string&gt;</code></li>
-</ul>
-<p>首页图标的 CSS 样式</p>
-<h3 id="项目"> 项目</h3>
-<ul>
-<li>类型: <code>ProjectOption[]</code></li>
-</ul>
-<p><code>ProjectOption</code> 包括以下键值:</p>
-<ul>
-<li><code>type</code>: 类型，可选值为 <code>'link' | 'project' | 'book' | 'article'</code></li>
-<li><code>name</code>: 项目名称，必填</li>
-<li><code>link</code>: 项目链接，必填，填入外部链接或绝对路径。</li>
-<li><code>desc</code>: 项目描述，选填</li>
-<li><code>cover</code>: 项目封面，选填，填入外部链接或绝对路径。</li>
-</ul>
-]]></content:encoded>
+      <title>代码复制</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/copy-code/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/copy-code/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">代码复制</source>
+      <description>&amp;lt;p&amp;gt;如果你是一个程序员，你可能希望你的用户能够一键复制你在正文中展示的代码。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;针对这一情况，&amp;lt;code&amp;gt;vuepress-theme-hope&amp;lt;/code&amp;gt; 内置了 &amp;lt;a href=&amp;quot;https://vuepress-theme-hope.github.io/copy-code/zh/&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;@mr-hope/copy-code&amp;lt;/a&amp;gt;，提供了一个复制按钮。&amp;lt;/p&amp;gt;
+</description>
+      <category>feature</category>
+      <content:encoded><![CDATA[<p>如果你是一个程序员，你可能希望你的用户能够一键复制你在正文中展示的代码。</p>
+<p>针对这一情况，<code>vuepress-theme-hope</code> 内置了 <a href="https://vuepress-theme-hope.github.io/copy-code/zh/" target="_blank" rel="noopener noreferrer">@mr-hope/copy-code</a>，提供了一个复制按钮。</p>
+
+<h2 id="使用"> 使用</h2>
+<p>启用后，本插件会自动添加复制按钮到每个代码块的右下角。</p>
+<p>默认情况下，按钮仅在桌面模式显示，如果你需要在移动端展示这个按钮，请将 <code>themeConfig.copyCode.showInMobile</code> 设置为 <code>true</code>。</p>
+<p>在用户点击复制按钮后，屏幕上会显示一个复制成功的提示。默认的提示时长为 2000ms，如果你需要更改这个时长，请设置 <code>themeConfig.copyCode.duration</code>(单位 ms)，如果你不需要这个提示，请将 <code>themeConfig.copyCode.duration</code> 设置为 <code>0</code>。</p>
+<h2 id="效果"> 效果</h2>
+<div><pre><code><span>// .vuepress/config.js</span>
+module<span>.</span>exports <span>=</span> <span>{</span>
+  themeConfig<span>:</span> <span>{</span>
+    copyCode<span>:</span> <span>{</span><span>}</span><span>,</span>
+  <span>}</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div>]]></content:encoded>
     </item>
     <item>
       <title>版权信息</title>
@@ -11873,7 +11937,10 @@ export default { // Highlighted
 <p><a href="./feed.html">Feed 支持</a></p>
 </li>
 <li>
-<p><a href="./seo-sitemap.html">Seo 和 Sitemap 支持</a></p>
+<p><a href="./seo.html">SEO 增强</a></p>
+</li>
+<li>
+<p><a href="./sitemap.html">Sitemap 生成</a></p>
 </li>
 <li>
 <p><a href="./typescript.html">TypeScript 支持</a></p>
@@ -11922,58 +11989,179 @@ export default { // Highlighted
 ]]></content:encoded>
     </item>
     <item>
-      <title>SEO 和 Sitemap</title>
-      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/seo-sitemap/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/seo-sitemap/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">SEO 和 Sitemap</source>
+      <title>SEO</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/seo/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/seo/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">SEO</source>
       <category>feature</category>
-      <content:encoded><![CDATA[<h1 id="seo-和-sitemap"> SEO 和 Sitemap</h1>
-<p><code>vuepress-theme-hope</code> 引入了 <code>@mr-hope/vuepress-plugin-seo</code> 与 <code>@mr-hope/vuepress-plugin-sitemap</code> 为你提供 SEO 增强功能和 Sitemap 生成。</p>
-<p>为了使两个插件能够更好的工作，您可能需要查看一下 <a href="./../../config/page.html#页面信息配置">页面信息配置</a> 并合理的配置它们。</p>
-<h2 id="seo"> SEO</h2>
-<p>插件会向网页的 <code>&lt;head&gt;</code> 注入一些 <code>&lt;meta&gt;</code> 标签，使你的网页对搜索引擎和社交媒体更加友好。默认情况下，插件会读取站点配置、主题配置与页面的 frontmatter 来尽可能自动为你生成 <code>&lt;meta&gt;</code> 标签。诸如站点名称，页面标题，页面类型，写作日期，最后更新日期，文章标签均会自动生成。</p>
-<p>插件会读取的配置 (你应当进行的配置) 有:</p>
+      <content:encoded><![CDATA[<p><code>vuepress-theme-hope</code> 通过内置 <a href="https://vuepress-theme-hope.github.io/seo/zh/" target="_blank" rel="noopener noreferrer"><code>@mr-hope/vuepress-plugin-seo</code></a> 为提供 SEO 增强功能。</p>
+<p>为了使插件能够更好的工作，可能需要查看一下 <a href="./../../config/page.html#页面信息配置">页面信息配置</a> 并合理的配置它们。</p>
+<p>如果不需要这个插件，请设置 <code>themeConfig.seo</code> 为 <code>false</code>。</p>
+<div><p>SEO 介绍</p>
+<p>搜索引擎优化 (<strong>S</strong>earch <strong>E</strong>ngine <strong>O</strong>ptimization)，是一种透过了解搜索引擎的运作规则来调整网站，以及提高目的网站在有关搜索引擎内排名的方式。由于不少研究发现，搜索引擎的用户往往只会留意搜索结果最前面的几个条目，所以不少网站都希望透过各种形式来影响搜索引擎的排序，让自己的网站可以有优秀的搜索排名。 所谓“针对搜索引擎作最优化的处理”，是指为了要让网站更容易被搜索引擎接受。搜索引擎会将网站彼此间的内容做一些相关性的资料比对，然后再由浏览器将这些内容以最快速且接近最完整的方式，呈现给搜索者。搜索引擎优化就是通过搜索引擎的规则进行优化，为用户打造更好的用户体验，最终的目的就是做好用户体验。</p>
+</div>
+<h2 id="开箱即用"> 开箱即用</h2>
+<p>插件会向网页的 <code>&lt;head&gt;</code> 注入一些 <code>&lt;meta&gt;</code> 标签，使的网页对搜索引擎和社交媒体更加友好。</p>
+<p>默认情况下，插件会读取站点配置、主题配置与页面的 frontmatter 来尽可能自动为生成 <code>&lt;meta&gt;</code> 标签。诸如站点名称，页面标题，页面类型，写作日期，最后更新日期，文章标签均会自动生成。</p>
+<p>以下是会被默认注入到 <code>&lt;head&gt;</code> 中的 <code>&lt;meta&gt;</code> 标签及其值:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">属性名称</th>
+<th style="text-align:center">值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><code>og:url</code></td>
+<td style="text-align:center"><code>themeConfig.hostname</code> + <code>path</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>og:site_name</code></td>
+<td style="text-align:center"><code>$site.title</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>og:title</code></td>
+<td style="text-align:center"><code>$page.title</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>og:description</code></td>
+<td style="text-align:center"><code>$page.frontmatter.description</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>og:type</code></td>
+<td style="text-align:center"><code>'article'</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>og:image</code></td>
+<td style="text-align:center"><code>themeConfig.hostname</code> + <code>$page.frontmatter.image</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>og:updated_time</code></td>
+<td style="text-align:center"><code>$page.lastUpdatedTime</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>og:locale</code></td>
+<td style="text-align:center"><code>$page._computed.$lang</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>og:locale:alternate</code></td>
+<td style="text-align:center"><code>$themeConfig.locales</code> 包含的其他语言</td>
+</tr>
+<tr>
+<td style="text-align:center"><code>twitter:card</code></td>
+<td style="text-align:center"><code>'summary_large_image'</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>twitter:image:alt</code></td>
+<td style="text-align:center"><code>$site.title</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>article:author</code></td>
+<td style="text-align:center"><code>$page.frontmatter.author | | themeConfig.author</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>article:tag</code></td>
+<td style="text-align:center"><code>$page.frontmatter.tags | | $page.frontmatter.tag</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>article:published_time</code></td>
+<td style="text-align:center"><code>$page.frontmatter.time | | $page.frontmatter.date</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>article:modified_time</code></td>
+<td style="text-align:center"><code>$page.lastUpdatedTime</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="自由定制"> 自由定制</h2>
+<p>你可以在页面的 frontmatter 中配置 <code>meta</code> 选项，自主定制特定页面用于 SEO 的 <code>&lt;meta&gt;</code> 标签内容。</p>
+<p>如:</p>
+<div><pre><code><span><span>---</span>
+<span>meta:
+  - name: keywords
+    content: SEO plugin</span>
+<span>---</span></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>会自动注入 <code>&lt;meta name=&quot;keywords&quot; content=&quot;SEO plugin&quot; /&gt;</code>。</p>
+<h2 id="自定义生成过程"> 自定义生成过程</h2>
+<p>你可以向 <code>themeConfig.seo.seo</code> 传入一个函数来注入新的 <code>&lt;meta&gt;</code> 标签或覆盖默认生成内容。你需要按照 <code>&lt;property&gt;: &lt;content&gt;</code> 的格式来返回一个对象。</p>
+<p>比如你返回了 <code>{ 'og:url': 'google.com', 'og:image': 'google.com/logo.jpg' }</code>，则插件会注入以下内容到 <code>&lt;head&gt;</code> 中:</p>
+<div><pre><code><span><span><span>&lt;</span>meta</span> <span>property</span><span><span>=</span><span>"</span>og:url<span>"</span></span> <span>content</span><span><span>=</span><span>"</span>google.com<span>"</span></span> <span>/></span></span>
+<span><span><span>&lt;</span>meta</span> <span>property</span><span><span>=</span><span>"</span>og:image<span>"</span></span> <span>content</span><span><span>=</span><span>"</span>google.com/logo.jpg<span>"</span></span> <span>/></span></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br></div></div><p>当你需要注入的 <code>&lt;meta&gt;</code> 没有使用 <code>property</code> 和 <code>content</code>，或者你想要移除已有的 meta，你可以向 <code>themeConfig.seo.customMeta</code> 传入一个自定义生成函数，完全定制 <code>&lt;meta&gt;</code> 标签。</p>
+<p><code>customMeta</code> 的结构为 <code>(meta: Meta[], info: PageSeoInfo) =&gt; void</code></p>
+<p><code>PageSeoInfo</code> 的结构如下:</p>
+<div><pre><code><span>interface</span> <span>PageSeoInfo</span> <span>{</span>
+  <span>/** 当前页面对象 */</span>
+  page<span>:</span> Page<span>;</span>
+  <span>/** Vuepress 配置  */</span>
+  site<span>:</span> SiteConfig<span>;</span>
+  <span>/** 主题配置 */</span>
+  themeConfig<span>:</span> ThemeConfig <span>|</span> Record<span>&lt;</span><span>string</span><span>,</span> <span>never</span><span>></span><span>;</span>
+  <span>/** 站点支持的语言 */</span>
+  locale<span>:</span> <span>string</span><span>[</span><span>]</span><span>;</span>
+  <span>/** 当前页面路径 */</span>
+  path<span>:</span> <span>string</span><span>;</span>
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br></div></div><p><code>Meta</code> 的类型为 <code>Record&lt;&quot;content&quot; | &quot;name&quot; | &quot;charset&quot; | &quot;http-equiv&quot;, string&gt;</code>，对象的键会渲染为 <code>&lt;meta&gt;</code> 标签的属性，值会渲染为对应属性的值。</p>
+<p>比如:</p>
+<div><pre><code><span>(</span><span>meta<span>:</span> Meta<span>,</span> info<span>:</span> PageSeoInfo</span><span>)</span> <span>=></span> <span>{</span>
+  <span>const</span> index <span>=</span> meta<span>.</span><span>findIndex</span><span>(</span><span>(</span><span>item</span><span>)</span> <span>=></span> item<span>.</span>property <span>===</span> <span>"og:type"</span><span>)</span><span>;</span>
+
+  <span>if</span> <span>(</span>index <span>!==</span> <span>-</span><span>1</span><span>)</span> meta<span>.</span><span>splice</span><span>(</span>index<span>,</span> <span>1</span><span>)</span><span>;</span>
+
+  meta<span>.</span><span>push</span><span>(</span><span>{</span> a<span>:</span> <span>"1"</span><span>,</span> b<span>:</span> <span>"2"</span> <span>}</span><span>)</span><span>;</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><p>会向当前页面的 <code>&lt;head&gt;</code> 注入 <code>&lt;meta a=&quot;1&quot; b=&quot;2&quot; /&gt;</code>，并移除任何已存在的 <code>&lt;meta property=&quot;og:type&quot; /&gt;</code>。</p>
+<h2 id="rdfa-1-1"> RDFa 1.1</h2>
+<p>主题通过遵循 <a href="https://www.w3.org/TR/rdfa-primer/" target="_blank" rel="noopener noreferrer">RDFa 1.1</a>，为网站的大部分结构添加了富媒体结构支持。</p>
+<div><p>Tips</p>
+<p>你可以使用 <a href="https://search.google.com/test/rich-results" target="_blank" rel="noopener noreferrer">Google 富媒体结构测试工具</a> 测试本站点。</p>
+</div>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Sitemap</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/sitemap/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/sitemap/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">Sitemap</source>
+      <category>feature</category>
+      <content:encoded><![CDATA[<p><code>vuepress-theme-hope</code> 通过内置 <a href="https://vuepress-theme-hope.github.io/sitemap/zh/" target="_blank" rel="noopener noreferrer"><code>@mr-hope/vuepress-plugin-sitemap</code></a> 为你提供 Sitemap 生成。</p>
+<p>插件会为你的网站自动生成 Sitemap，它会自动根据页面的 Git 的时间戳生成页面的最后更新时间，同时会根据站点的多语言配置声明页面的其他语言替代版本地址。</p>
+<p>如果你不需要这个插件，请设置 <code>themeConfig.sitemap</code> 为 <code>false</code>。</p>
+<h2 id="控制-sitemap-链接"> 控制 Sitemap 链接</h2>
+<p>默认情况下，所有除 404 页面以外的网站链接均会被添加进 Sitemap。</p>
+<p>如果你希望在 VuePress 项目页面之外，添加其他页面链接到 Sitemap，请将它们变成数组传入 <code>themeConfig.sitemap.urls</code></p>
+<p>如果你不希望某些页面出现在 sitemap 中，你可以将它们变成一个数组传入到 <code>themeConfig.sitemap.exclude</code>，或者在对应页面的 frontmatter 中，设置 <code>feed.exclude</code> 为 <code>true</code>。</p>
+<p>你还可以通过 <code>themeConfig.sitemap.outFile</code> 选项控制输出的地址，默认为输出目录下的 <code>sitemap.xml</code>。</p>
+<h2 id="更新周期"> 更新周期</h2>
+<p>页面默认的更新周期是 <code>daily</code> (每天)，如果你希望修改全部的页面周期，请设置 <code>themeConfig.sitemap.changefreq</code> 。你也可以在页面的 frontmatter 中设置 <code>feed.changefreq</code>，页面具有更高的优先级。</p>
+<p>合法的频率有:</p>
 <ul>
-<li>
-<p><code>siteConfig.title</code></p>
-</li>
-<li>
-<p><code>siteConfig.description</code></p>
-</li>
-<li>
-<p><code>themeConfig.author</code></p>
-</li>
-<li>
-<p><code>frontmatter.title</code></p>
-</li>
-<li>
-<p><code>frontmatter.description</code></p>
-</li>
-<li>
-<p><code>frontmatter.image</code></p>
-</li>
-<li>
-<p><code>frontmatter.author</code></p>
-</li>
-<li>
-<p><code>frontmatter.time</code></p>
-</li>
-<li>
-<p><code>frontmatter.tags</code></p>
-</li>
-<li>
-<p>Git 的上一次提交时间</p>
-</li>
+<li><code>&quot;always&quot;</code></li>
+<li><code>&quot;hourly&quot;</code></li>
+<li><code>&quot;daily&quot;</code></li>
+<li><code>&quot;weekly&quot;</code></li>
+<li><code>&quot;monthly&quot;</code></li>
+<li><code>&quot;yearly&quot;</code></li>
+<li><code>&quot;never&quot;</code></li>
 </ul>
-<p>你还可以查看 <a href="./../../config/plugin/seo.html">插件的具体配置</a></p>
-<h2 id="sitemap"> Sitemap</h2>
-<p>插件会自动读取整个文档的配置，尽可能自动的为你生成 sitemap。</p>
-<p>除了 <a href="./../../config/plugin/sitemap.html">插件的配置</a> 外，你还可以在页面的 Frontmatter 中的 sitemap 设置如下内容:</p>
+<div><p>Sitemap 介绍</p>
+<p>网站地图 (Sitemap) 提供 SEO 增强:</p>
 <ul>
-<li><code>sitemap.changefreq</code>: 更新频率，可选值为: <code>&quot;always&quot;</code> <code>&quot;hourly&quot;</code> <code>&quot;daily&quot;</code> <code>&quot;weekly&quot;</code> <code>&quot;monthly&quot;</code> <code>&quot;yearly&quot;</code> <code>&quot;never&quot;</code></li>
-<li><code>sitemap.exclude</code>: 是否不包含此页面</li>
-<li><code>sitemap.priority</code>: 页面优先级，范围 0~1，默认为 <code>0.5</code></li>
+<li>为搜索引擎爬虫提供可以浏览整个网站的链接；</li>
+<li>为搜索引擎爬虫提供一些链接，指向动态页面或者采用其他方法比较难以到达的页面；</li>
+<li>如果访问者试图访问网站所在域内并不存在的 URL，那么这个访问者就会被转到“无法找到文件”的错误页面，而网站地图可以作为该页面的“准”内容。</li>
 </ul>
+<p>网站地图通过使所有页面可被找到来增强搜索引擎优化的效果。</p>
+<p>大部分搜索引擎只跟踪页面内有限数量的链接，因此当网站非常大的时候，网站地图对于使搜索引擎和访问者可以访问网站中的所有内容就变得必不可少了。</p>
+<p>sitemaps 是站点管理员向搜索引擎爬虫公布站点可被抓取页面的协议，sitemap 文件内容必须遵循 XML 格式的定义。每个 URL 可以包含更新的周期和时间、URL 在整个站点中的优先级。这样可以让搜索引擎更佳有效的抓取网站内容。</p>
+<p>Google 引入了 Google 网站地图使得网页开发者可以发布整个站点的链接列表。网站地图文件可以被用来指引网络蜘蛛如何找到这类页面。</p>
+</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -12104,8 +12292,8 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 </ul>
 <p>总之，任何人都可以享受 Markdown 增强语法带来的便利。</p>
 <h3 id="搜索引擎增强"> 搜索引擎增强</h3>
-<p>主题提供 <a href="https://vuepress-theme-hope.github.io/seo/zh/" target="_blank" rel="noopener noreferrer">SEO 插件</a>，自动向网页注入 meta 标签增强搜索引擎索引。</p>
-<p>主题也提供 <a href="https://vuepress-theme-hope.github.io/sitemap/zh/" target="_blank" rel="noopener noreferrer">Sitemap 插件</a> 提供自动的 Sitemap 生成。</p>
+<p>主题提供 <a href="./../feature/seo.html">SEO 增强</a>，自动向网页注入 meta 标签增强搜索引擎索引。</p>
+<p>主题也提供 <a href="./../feature/sitemap.html">Sitemap 生成</a> 提供自动的 Sitemap 生成。</p>
 <h3 id="页面-ui"> 页面 UI</h3>
 <ul>
 <li>
@@ -12319,7 +12507,7 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 </li>
 <li>
 <p>在 <code>.vuepress/styles</code> 的 <code>index.styl</code> 中导入链接。例如:</p>
-<div><pre><code><span><span>@import</span> <span>"//at.alicdn.com/t/font_1446717_wn9sf5nb7un.css"</span><span>;</span></span>
+<div><pre><code><span><span>@import</span> <span>"//at.alicdn.com/t/font_1446717_wy5ujz8b14.css"</span><span>;</span></span>
 </code></pre>
 <div><span>1</span><br></div></div></li>
 </ol>
@@ -12355,7 +12543,10 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
       <guid>https://vuepress-theme-hope.github.io/zh/guide/interface/others/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">其他界面功能</source>
       <category>interface</category>
-      <content:encoded><![CDATA[<h2 id="全屏按钮"> 全屏按钮</h2>
+      <content:encoded><![CDATA[<h2 id="样式定制"> 样式定制</h2>
+<p>主题允许你在 <code>.vuepress/style</code> 的 <code>palette.styl</code> 设置变量，来定制绝大部分颜色、响应式断点，页面布局尺寸等参数。</p>
+<p>详细的参数详见 <a href="./../../config/stylus.html">Stylus 配置</a></p>
+<h2 id="全屏按钮"> 全屏按钮</h2>
 <p>默认启用，显示在导航栏的主题选项卡中。</p>
 <p>如果你不需要这个功能，你可以在主题配置中将 <code>fullscreen</code> 设置为 <code>false</code>。</p>
 <div><p>Tips</p>
@@ -14602,10 +14793,10 @@ $$
 <p><a href="./feature/feed.html">Feed 生成</a></p>
 </li>
 <li>
-<p><a href="./feature/seo-sitemap.html#SEO">SEO 增强</a></p>
+<p><a href="./feature/seo.html">SEO 增强</a></p>
 </li>
 <li>
-<p><a href="./feature/seo-sitemap.html#Sitemap">Sitemap 生成</a></p>
+<p><a href="./feature/sitemap.html">Sitemap 生成</a></p>
 </li>
 <li>
 <p><a href="./feature/typescript.html">TypeScript 支持</a></p>
@@ -14712,32 +14903,6 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 <li><a href="https://jq.qq.com/?_wv=1027&amp;k=rATJyxGK" target="_blank" rel="noopener noreferrer">点击加入</a> (群号: 1003437555)</li>
 </ul>
 ]]></content:encoded>
-    </item>
-    <item>
-      <title>代码复制</title>
-      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/copy-code/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/copy-code/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">代码复制</source>
-      <description>&amp;lt;p&amp;gt;如果你是一个程序员，你可能希望你的用户能够一键复制你在正文中展示的代码。&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;针对这一情况，&amp;lt;code&amp;gt;vuepress-theme-hope&amp;lt;/code&amp;gt; 内置了 &amp;lt;a href=&amp;quot;https://vuepress-theme-hope.github.io/copy-code/zh/&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;@mr-hope/copy-code&amp;lt;/a&amp;gt;，提供了一个复制按钮。&amp;lt;/p&amp;gt;
-</description>
-      <category>feature</category>
-      <content:encoded><![CDATA[<p>如果你是一个程序员，你可能希望你的用户能够一键复制你在正文中展示的代码。</p>
-<p>针对这一情况，<code>vuepress-theme-hope</code> 内置了 <a href="https://vuepress-theme-hope.github.io/copy-code/zh/" target="_blank" rel="noopener noreferrer">@mr-hope/copy-code</a>，提供了一个复制按钮。</p>
-
-<h2 id="使用"> 使用</h2>
-<p>启用后，本插件会自动添加复制按钮到每个代码块的右下角。</p>
-<p>默认情况下，按钮仅在桌面模式显示，如果你需要在移动端展示这个按钮，请将 <code>themeConfig.copyCode.showInMobile</code> 设置为 <code>true</code>。</p>
-<p>在用户点击复制按钮后，屏幕上会显示一个复制成功的提示。默认的提示时长为 2000ms，如果你需要更改这个时长，请设置 <code>themeConfig.copyCode.duration</code>(单位 ms)，如果你不需要这个提示，请将 <code>themeConfig.copyCode.duration</code> 设置为 <code>0</code>。</p>
-<h2 id="效果"> 效果</h2>
-<div><pre><code><span>// .vuepress/config.js</span>
-module<span>.</span>exports <span>=</span> <span>{</span>
-  themeConfig<span>:</span> <span>{</span>
-    copyCode<span>:</span> <span>{</span><span>}</span><span>,</span>
-  <span>}</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div>]]></content:encoded>
     </item>
     <item>
       <title>评论</title>
@@ -14848,6 +15013,89 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <li>
 <p><a href="./home.html">博客主页</a></p>
 </li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>博客首页</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/blog/home/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/blog/home/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">博客首页</source>
+      <category>blog</category>
+      <content:encoded><![CDATA[<h1 id="博客首页"> 博客首页</h1>
+<p><code>vuepress-theme-hope</code> 允许你启用博客风格的首页。</p>
+<p>你需要在相应的页面的 frontmatter 中，设置 <code>blog: true</code> 来开启博客风格。</p>
+<p><img src="./assets/blog.png" alt="首页截图"></p>
+<h2 id="可配置的项目"> 可配置的项目</h2>
+<p>你可以自由配置左上方的博主头像与博主姓名，他们的配置项为 <code>themeConfig.blog.avatar</code> 和 <code>themeConfig.blog.name</code>。如果你没有填写它们，它们会自动回退到站点 Logo (<code>themeConfig.logo</code>) 和 站点名称 (<code>themeConfig.name</code>)。</p>
+<p>如果你使用 <code>themeConfig.intro</code> 配置了个人介绍页地址，点击左上角的博主头像和博主名称，会自动跳转到博主的个人介绍页。</p>
+<p>你还可以在 <code>themeConfig.blog.links</code> 这个对象中以 <code>社交媒体名: 社交媒体链接</code> 的格式配置你的社交媒体链接。</p>
+<div><p>可用的社交媒体:</p>
+<ul>
+<li><code>'Baidu'</code>: 百度</li>
+<li><code>'Bitbucket'</code>: Bitbucket</li>
+<li><code>'Dingding'</code>: 钉钉</li>
+<li><code>'Discord'</code>: Discord</li>
+<li><code>'Dribbble'</code>: Dribble</li>
+<li><code>'Evernote'</code>: 印象笔记</li>
+<li><code>'Facebook'</code>: 脸书</li>
+<li><code>'Flipboard'</code>: 红板报</li>
+<li><code>'Gitee'</code>: Gitee</li>
+<li><code>'Github'</code>: GitHub</li>
+<li><code>'Gitlab'</code>: Gitlab</li>
+<li><code>'Gmail'</code>: 谷歌邮箱(当然你也可以填入你自己的其他邮箱)</li>
+<li><code>'Instagram'</code>: Instagram</li>
+<li><code>'Line'</code>: Line</li>
+<li><code>'Linkedin'</code>: 领英</li>
+<li><code>'Pinterest'</code>: 拼趣</li>
+<li><code>'Pocket'</code>: Pocket</li>
+<li><code>'QQ'</code>: QQ</li>
+<li><code>'Qzone'</code>: QQ 空间</li>
+<li><code>'Reddit'</code>: Reddit</li>
+<li><code>'Rss'</code>: RSS 地址</li>
+<li><code>'Steam'</code>: Steam</li>
+<li><code>'Twitter'</code>: Twitter</li>
+<li><code>'Wechat'</code>: 微信</li>
+<li><code>'Weibo'</code>: 微博</li>
+<li><code>'Whatsapp'</code>: Whatsapp</li>
+<li><code>'Youtube'</code>: YouTube</li>
+<li><code>'Zhihu'</code>: 知乎</li>
+</ul>
+</div>
+<p>如果你对时间轴上面的提示文字不满意，你可以使用 <code>themeConfig.blog.timeline</code> 自定义一个。</p>
+<h2 id="frontmatter-可用参数"> Frontmatter 可用参数</h2>
+<h3 id="hero"> hero</h3>
+<ul>
+<li>类型: <code>boolean</code></li>
+<li>默认: <code>true</code></li>
+</ul>
+<p>是否显示主页的图标与描述。主页的图标、描述设置请见默认主页。</p>
+<h3 id="bgimage"> bgImage</h3>
+<ul>
+<li>类型: <code>string</code></li>
+</ul>
+<p>背景图片的地址，需填写绝对路径。如果不填写，会自动应用一张默认的风景图片。</p>
+<h3 id="bgimagestyle"> bgImageStyle</h3>
+<ul>
+<li>类型: <code>Record&lt;string, string&gt;</code></li>
+</ul>
+<p>背景图片的 CSS 样式。</p>
+<h3 id="heroimagestyle"> heroImageStyle</h3>
+<ul>
+<li>类型: <code>Record&lt;string, string&gt;</code></li>
+</ul>
+<p>首页图标的 CSS 样式</p>
+<h3 id="项目"> 项目</h3>
+<ul>
+<li>类型: <code>ProjectOption[]</code></li>
+</ul>
+<p><code>ProjectOption</code> 包括以下键值:</p>
+<ul>
+<li><code>type</code>: 类型，可选值为 <code>'link' | 'project' | 'book' | 'article'</code></li>
+<li><code>name</code>: 项目名称，必填</li>
+<li><code>link</code>: 项目链接，必填，填入外部链接或绝对路径。</li>
+<li><code>desc</code>: 项目描述，选填</li>
+<li><code>cover</code>: 项目封面，选填，填入外部链接或绝对路径。</li>
 </ul>
 ]]></content:encoded>
     </item>

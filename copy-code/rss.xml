@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/copy-code/</link>
     <description>Quick Code Copy Plugin for vuepress</description>
     <language>en-US</language>
-    <pubDate>Sun, 28 Feb 2021 16:20:49 GMT</pubDate>
-    <lastBuildDate>Sun, 28 Feb 2021 16:20:49 GMT</lastBuildDate>
+    <pubDate>Sun, 28 Feb 2021 16:49:58 GMT</pubDate>
+    <lastBuildDate>Sun, 28 Feb 2021 16:49:58 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -131,6 +131,30 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 ]]></content:encoded>
     </item>
     <item>
+      <title>指南</title>
+      <link>https://vuepress-theme-hope.github.io/copy-code/zh/guide/</link>
+      <guid>https://vuepress-theme-hope.github.io/copy-code/zh/guide/</guid>
+      <source url="https://vuepress-theme-hope.github.io/copy-code/rss.xml">指南</source>
+      <content:encoded><![CDATA[<h2 id="使用"> 使用</h2>
+<p>启用后，本插件会自动添加复制按钮到每个代码块的右下角。</p>
+<p>默认情况下，按钮仅在桌面模式显示，如果你需要在移动端展示这个按钮，请将 <code>showInMobile</code> 设置为 <code>true</code>。</p>
+<p>在用户点击复制按钮后，屏幕上会显示一个复制成功的提示。默认的提示时长为 2000ms，如果你需要更改这个时长，请设置 <code>duration</code>(单位 ms)，如果你不需要这个提示，请将 <code>duration</code> 设置为 <code>0</code>。</p>
+<h2 id="效果"> 效果</h2>
+<div><pre><code><span>// .vuepress/config.js</span>
+module<span>.</span>exports <span>=</span> <span>{</span>
+  plugins<span>:</span> <span>[</span>
+    <span>[</span>
+      <span>"@mr-hope/copy-code"</span><span>,</span>
+      <span>{</span>
+        <span>// 你的选项</span>
+      <span>}</span><span>,</span>
+    <span>]</span><span>,</span>
+  <span>]</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div>]]></content:encoded>
+    </item>
+    <item>
       <title>主页</title>
       <link>https://vuepress-theme-hope.github.io/copy-code/zh/</link>
       <guid>https://vuepress-theme-hope.github.io/copy-code/zh/</guid>
@@ -148,30 +172,6 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <div><span>1</span><br></div></div></CodeGroupItem>
 </CodeGroup>
 <h3 id="使用"> 使用</h3>
-<div><pre><code><span>// .vuepress/config.js</span>
-module<span>.</span>exports <span>=</span> <span>{</span>
-  plugins<span>:</span> <span>[</span>
-    <span>[</span>
-      <span>"@mr-hope/copy-code"</span><span>,</span>
-      <span>{</span>
-        <span>// 你的选项</span>
-      <span>}</span><span>,</span>
-    <span>]</span><span>,</span>
-  <span>]</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div>]]></content:encoded>
-    </item>
-    <item>
-      <title>指南</title>
-      <link>https://vuepress-theme-hope.github.io/copy-code/zh/guide/</link>
-      <guid>https://vuepress-theme-hope.github.io/copy-code/zh/guide/</guid>
-      <source url="https://vuepress-theme-hope.github.io/copy-code/rss.xml">指南</source>
-      <content:encoded><![CDATA[<h2 id="使用"> 使用</h2>
-<p>启用后，本插件会自动添加复制按钮到每个代码块的右下角。</p>
-<p>默认情况下，按钮仅在桌面模式显示，如果你需要在移动端展示这个按钮，请将 <code>showInMobile</code> 设置为 <code>true</code>。</p>
-<p>在用户点击复制按钮后，屏幕上会显示一个复制成功的提示。默认的提示时长为 2000ms，如果你需要更改这个时长，请设置 <code>duration</code>(单位 ms)，如果你不需要这个提示，请将 <code>duration</code> 设置为 <code>0</code>。</p>
-<h2 id="效果"> 效果</h2>
 <div><pre><code><span>// .vuepress/config.js</span>
 module<span>.</span>exports <span>=</span> <span>{</span>
   plugins<span>:</span> <span>[</span>

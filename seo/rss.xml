@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/seo/</link>
     <description>Using &lt;meta&gt; tags to Enhance Your site SEO</description>
     <language>en-US</language>
-    <pubDate>Sun, 28 Feb 2021 16:20:50 GMT</pubDate>
-    <lastBuildDate>Sun, 28 Feb 2021 16:20:50 GMT</lastBuildDate>
+    <pubDate>Sun, 28 Feb 2021 16:49:58 GMT</pubDate>
+    <lastBuildDate>Sun, 28 Feb 2021 16:49:58 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -77,80 +77,27 @@
       <guid>https://vuepress-theme-hope.github.io/seo/guide/</guid>
       <source url="https://vuepress-theme-hope.github.io/seo/rss.xml">Guide</source>
       <content:encoded><![CDATA[<p>This plugin will inject the <code>&lt;meta&gt;</code> tag to enhance the search engine optimization of the website.</p>
-<h2 id="out-of-the-box"> Out of the box</h2>
+<h2 id="out-of-box"> Out of box</h2>
 <p>The plugin is used out of the box. Without any configuration, it will extract the corresponding information from the page content to generate the <code>&lt;meta&gt;</code> tag as much as possible.</p>
 <p>By default, the plugin will read the site configuration, theme configuration and page frontmatter to automatically generate <code>&lt;meta&gt;</code> tags as much as possible. Such as site name, page title, page type, writing date, last update date, and article tags are all automatically generated.</p>
 <p>The following are the <code>&lt;meta&gt;</code> tags and their values that will be injected into <code>&lt;head&gt;</code> by default:</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">property</th>
-<th style="text-align:center">content</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center"><code>og:url</code></td>
-<td style="text-align:center"><code>themeConfig.hostname</code> + <code>path</code></td>
-</tr>
-<tr>
-<td style="text-align:center"><code>og:site_name</code></td>
-<td style="text-align:center"><code>$site.title</code></td>
-</tr>
-<tr>
-<td style="text-align:center"><code>og:title</code></td>
-<td style="text-align:center"><code>$page.title</code></td>
-</tr>
-<tr>
-<td style="text-align:center"><code>og:description</code></td>
-<td style="text-align:center"><code>$page.frontmatter.description</code></td>
-</tr>
-<tr>
-<td style="text-align:center"><code>og:type</code></td>
-<td style="text-align:center"><code>'article'</code></td>
-</tr>
-<tr>
-<td style="text-align:center"><code>og:image</code></td>
-<td style="text-align:center"><code>themeConfig.hostname</code> + <code>$page.frontmatter.image</code></td>
-</tr>
-<tr>
-<td style="text-align:center"><code>og:updated_time</code></td>
-<td style="text-align:center"><code>$page.lastUpdatedTime</code></td>
-</tr>
-<tr>
-<td style="text-align:center"><code>og:locale</code></td>
-<td style="text-align:center"><code>$page._computed.$lang</code></td>
-</tr>
-<tr>
-<td style="text-align:center"><code>og:locale:alternate</code></td>
-<td style="text-align:center">Other languages including in <code>$themeConfig.locales</code></td>
-</tr>
-<tr>
-<td style="text-align:center"><code>twitter:card</code></td>
-<td style="text-align:center"><code>'summary_large_image'</code></td>
-</tr>
-<tr>
-<td style="text-align:center"><code>twitter:image:alt</code></td>
-<td style="text-align:center"><code>$site.title</code></td>
-</tr>
-<tr>
-<td style="text-align:center"><code>article:author</code></td>
-<td style="text-align:center"><code>$page.frontmatter.author | | themeConfig.author</code></td>
-</tr>
-<tr>
-<td style="text-align:center"><code>article:tag</code></td>
-<td style="text-align:center"><code>$page.frontmatter.tags | | $page.frontmatter.tag</code></td>
-</tr>
-<tr>
-<td style="text-align:center"><code>article:published_time</code></td>
-<td style="text-align:center"><code>$page.frontmatter.time | | $page.frontmatter.date</code></td>
-</tr>
-<tr>
-<td style="text-align:center"><code>article:modified_time</code></td>
-<td style="text-align:center"><code>$page.lastUpdatedTime</code></td>
-</tr>
-</tbody>
-</table>
+<p>| property | content |
+| :----------------------: | :-------------------------------------------------------------------: | | |
+| <code>og:url</code> | <code>themeConfig.hostname</code> + <code>path</code> |
+| <code>og:site_name</code> | <code>$site.title</code> |
+| <code>og:title</code> | <code>$page.title</code> |
+| <code>og:description</code> | <code>$page.frontmatter.description</code> |
+| <code>og:type</code> | <code>'article'</code> |
+| <code>og:image</code> | <code>themeConfig.hostname</code> + <code>$page.frontmatter.image</code> |
+| <code>og:updated_time</code> | <code>$page.lastUpdatedTime</code> |
+| <code>og:locale</code> | <code>$page._computed.$lang</code> |
+| <code>og:locale:alternate</code> | Other languages including in <code>$themeConfig.locales</code> |
+| <code>twitter:card</code> | <code>'summary_large_image'</code> |
+| <code>twitter:image:alt</code> | <code>$site.title</code> |
+| <code>article:author</code> | <code>$page.frontmatter.author | | themeConfig.author</code> |
+| <code>article:tag</code> | <code>$page.frontmatter.tags | | $page.frontmatter.tag</code> |
+| <code>article:published_time</code> | <code>$page.frontmatter.time | | $page.frontmatter.date</code> |
+| <code>article:modified_time</code> | <code>$page.lastUpdatedTime</code> |</p>
 <h2 id="free-customization"> Free customization</h2>
 <p>You can configure the <code>meta</code> option in the frontmatter of the page to customize the content of the <code>&lt;meta&gt;</code> tag of a specific page for SEO.</p>
 <p>E.g.:</p>
