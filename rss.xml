@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/</link>
     <description>A vuepress theme with tons of features✨</description>
     <language>en-US</language>
-    <pubDate>Sun, 28 Feb 2021 05:14:22 GMT</pubDate>
-    <lastBuildDate>Sun, 28 Feb 2021 05:14:22 GMT</lastBuildDate>
+    <pubDate>Sun, 28 Feb 2021 07:39:17 GMT</pubDate>
+    <lastBuildDate>Sun, 28 Feb 2021 07:39:17 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -306,11 +306,11 @@ console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><div><pre><code>Syntax highlighting:
 
 <span><span>```</span><span>js</span>
-<span><span>&lt;</span>span <span>class</span><span>=</span><span>"token keyword"</span><span>></span><span>var</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token function-variable function"</span><span>></span>foo<span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token operator"</span><span>>=</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token keyword"</span><span>></span><span>function</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>(</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token parameter"</span><span>></span>bar<span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>)</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>{</span><span>&lt;</span><span>/</span>span<span>></span>
-  <span>&lt;</span>span <span>class</span><span>=</span><span>"token keyword"</span><span>></span><span>return</span><span>&lt;</span><span>/</span>span<span>></span> bar<span>&lt;</span>span <span>class</span><span>=</span><span>"token operator"</span><span>></span><span>++</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>;</span><span>&lt;</span><span>/</span>span<span>></span>
-<span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>}</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>;</span><span>&lt;</span><span>/</span>span<span>></span>
+<span><span>var</span> <span>foo</span> <span>=</span> <span>function</span> <span>(</span><span>bar</span><span>)</span> <span>{</span>
+  <span>return</span> bar<span>++</span><span>;</span>
+<span>}</span><span>;</span>
 
-console<span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>.</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token function"</span><span>></span>log<span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>(</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token function"</span><span>></span>foo<span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>(</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token number"</span><span>></span><span>5</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>)</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>)</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>;</span><span>&lt;</span><span>/</span>span<span>></span></span>
+console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span><span>5</span><span>)</span><span>)</span><span>;</span></span>
 <span>```</span></span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br></div></div>]]></content:encoded>
@@ -1813,34 +1813,30 @@ console<span>&lt;</span>span <span>class</span><span>=</span><span>"token punctu
 <p><a href="https://jekyllrb.com/docs/frontmatter/" target="_blank" rel="noopener noreferrer">YAML frontmatter</a> is supported out of the box:</p>
 <p>The frontmatter must be at the top of the Markdown file, and must take the form of valid YAML set between triple-dashed lines. Example:</p>
 <div><pre><code><span><span>---</span>
-<span><span>title</span><span>:</span> Blogging with VuePress
-<span>lang</span><span>:</span> en<span>-</span>US</span>
+<span>title: Blogging with VuePress
+lang: en-US</span>
 <span>---</span></span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><p>Between the triple-dashed lines, you can set variables. These variables can be used via the <code>$frontmatter</code> variable. This data will be available to the rest of the page, along with all custom and theming components.</p>
 <h3 id="alternative-frontmatter-formats"> Alternative frontmatter Formats</h3>
 <p>VuePress also supports JSON and <a href="https://github.com/toml-lang/toml" target="_blank" rel="noopener noreferrer">TOML</a> frontmatter syntax.</p>
 <p>JSON frontmatter needs to start and end in curly braces:</p>
-<div><pre><code>---
-{
-  &quot;title&quot;: &quot;Blogging Like a Hacker&quot;,
-  &quot;lang&quot;: &quot;en-US&quot;
-}
----
+<div><pre><code><span><span>---</span>
+<span>{ "title": "Blogging Like a Hacker", "lang": "en-US" }</span>
+<span>---</span></span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>TOML frontmatter needs to be explicitly marked as TOML:</p>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><p>TOML frontmatter needs to be explicitly marked as TOML:</p>
 <div><pre><code>---toml
-title = &quot;Blogging Like a Hacker&quot;
-lang = &quot;en-US&quot;
----
+title = "Blogging Like a Hacker"
+<span>lang = "en-US"
+<span>---</span></span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><div><pre><code><span>---</span>
-<span>title</span><span>:</span> Blogging Like a Hacker
-<span>lang</span><span>:</span> en<span>-</span>US
-<span>---</span>
-
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><div><pre><code><span><span>---</span>
+<span>title: Blogging Like a Hacker
+lang: en-US</span>
+<span>---</span></span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><h2 id="table-of-contents"> Table of Contents</h2>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><h2 id="table-of-contents"> Table of Contents</h2>
 <p>Input:</p>
 <div><pre><code>
 [[toc]]
@@ -1902,7 +1898,7 @@ Danger zone, do not proceed
 ::: details Click me to view the code
 
 <span><span>```</span><span>js</span>
-<span>console<span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>.</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token function"</span><span>></span>log<span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>(</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token string"</span><span>></span><span>"Hello, VuePress!"</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>)</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>;</span><span>&lt;</span><span>/</span>span<span>></span></span>
+<span>console<span>.</span><span>log</span><span>(</span><span>"Hello, VuePress!"</span><span>)</span><span>;</span></span>
 <span>```</span></span>
 
 :::
@@ -4107,7 +4103,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>You can also configure the password in the frontmatter of the page</p>
 <div><pre><code><span><span>---</span>
-<span><span>password</span><span>:</span> abc1234</span>
+<span>password: abc1234</span>
 <span>---</span></span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br></div></div>]]></content:encoded>
@@ -4241,7 +4237,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <h3 id="author"> author <i>Not supported content</i></h3>
 <p>Example:</p>
 <div><pre><code><span><span>---</span>
-<span><span>author</span><span>:</span> Mr.Hope</span>
+<span>author: Mr.Hope</span>
 <span>---</span></span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><p>You can configure <code>author</code> in the plugin options to set the default author. And you can also configure <code>author</code> in frontmatter with a new value in the page to override the default author, or set it to <code>false</code> to cancel the author display.</p>
@@ -4249,7 +4245,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <p>We recommended to fill it with a standard date format. A standard format is in the form of <code>xxxx-xx-xx</code>, such as &quot;April 1, 2020&quot; should be written as <code>2020-04-01</code>.</p>
 <p>Example:</p>
 <div><pre><code><span><span>---</span>
-<span><span>time</span><span>:</span> <span>2020-01-01</span></span>
+<span>time: 2020-01-01</span>
 <span>---</span></span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><h3 id="category-and-tags"> Category and Tags</h3>
@@ -4260,7 +4256,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <p>When <a href="./comment.html">Comment Function</a> is configured as Valine, this function is enabled by default.</p>
 <p>Example:</p>
 <div><pre><code><span><span>---</span>
-<span><span>visitor</span><span>:</span> <span>false</span></span>
+<span>visitor: false</span>
 <span>---</span></span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><hr>
@@ -4900,14 +4896,14 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <link>https://vuepress-theme-hope.github.io/guide/layout/breadcrumb/</link>
       <guid>https://vuepress-theme-hope.github.io/guide/layout/breadcrumb/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">Path Navigation</source>
-      <description>&amp;lt;p&amp;gt;The theme adds a new Breadcrumb support, you can config it using &amp;lt;code&amp;gt;breadcrumb&amp;lt;/code&amp;gt; in Frontmatter and themeConfig &amp;lt;i&amp;gt;Not supported content&amp;lt;/i&amp;gt;[^applypartically], the default value is &amp;lt;code&amp;gt;true&amp;lt;/code&amp;gt;.&amp;lt;/p&amp;gt;
+      <description>&amp;lt;p&amp;gt;The theme adds a new Breadcrumb support, you can config it using &amp;lt;code&amp;gt;breadcrumb&amp;lt;/code&amp;gt; in Frontmatter and themeConfig &amp;lt;i&amp;gt;Not supported content&amp;lt;/i&amp;gt; [^applypartically], the default value is &amp;lt;code&amp;gt;true&amp;lt;/code&amp;gt;.&amp;lt;/p&amp;gt;
 &amp;lt;p&amp;gt;Without any config, a Breadcrumb that matches the theme color is displayed at the top of the page content to help the reader understand the document structure.&amp;lt;/p&amp;gt;
 </description>
       <category>layout</category>
-      <content:encoded><![CDATA[<p>The theme adds a new Breadcrumb support, you can config it using <code>breadcrumb</code> in Frontmatter and themeConfig <i>Not supported content</i><sup></sup>, the default value is <code>true</code>.</p>
+      <content:encoded><![CDATA[<p>The theme adds a new Breadcrumb support, you can config it using <code>breadcrumb</code> in Frontmatter and themeConfig <i>Not supported content</i> <sup></sup>, the default value is <code>true</code>.</p>
 <p>Without any config, a Breadcrumb that matches the theme color is displayed at the top of the page content to help the reader understand the document structure.</p>
 
-<p>You can also control the icon display of the path navigation using <code>breadcrumbIcon</code> field <i>Not supported content</i><sup></sup>, the default value is <code>true</code>.</p>
+<p>You can also control the icon display of the path navigation using <code>breadcrumbIcon</code> field <i>Not supported content</i>, the default value is <code>true</code>.</p>
 <div><p>Notice</p>
 <p>To ensure Breadcrumb working well, the <code>readme.md</code> file should be included in each folder.</p>
 <p>Otherwise, the path navigation will automatically ignore that level because the component can not generate titles and links from the corresponding level folder.</p>
@@ -4922,7 +4918,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <p>This feature is enabled globally by default, that is, <code>themeConfig.breadcrumb</code> is <code>true</code> by default, and you can set <code>breadcrumb: false</code> in the Front Matter of a specific page to disable it locally.</p>
 <p>Of course, you can also set the <code>themeConfig.breadcrumb</code> option to <code>false</code> to disable it globally, and set <code>breadcrumb: true</code> in the Front Matter of a specific page to enable it locally.</p>
 </details>
-  </li>
+ </li>
 </ol>
 </section>
 ]]></content:encoded>
@@ -4964,45 +4960,44 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <li>
 <p>Enable the default footer text:</p>
 <div><pre><code><span><span>---</span>
-<span><span>footer</span><span>:</span> <span>true</span></span>
+<span>footer: true</span>
 <span>---</span></span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br></div></div></li>
 <li>
 <p>Customize footer text without displaying copyright information and media links:</p>
 <div><pre><code><span><span>---</span>
-<span><span>footer</span><span>:</span> This website is served by GitHub Pages
-<span>copyrightText</span><span>:</span> <span>false</span>
-<span>medialink</span><span>:</span> <span>false</span></span>
+<span>footer: This website is served by GitHub Pages
+copyrightText: false
+medialink: false</span>
 <span>---</span></span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div></li>
 <li>
 <p>Custom footer content and copyright information and media links:</p>
 <div><pre><code><span><span>---</span>
-<span><span>footer</span><span>:</span> &lt;a href="https<span>:</span>//github.com/Mister<span>-</span>Hope"<span>></span> Mr.Hope &lt;/a<span>></span>
-<span>copyrightText</span><span>:</span> MIT LICENSE
-<span>medialink</span><span>:</span>
-  <span>Zhihu</span><span>:</span> https<span>:</span>//zhihu.com</span>
+<span>footer: &lt;a href="https://github.com/Mister-Hope"> Mr.Hope &lt;/a>
+copyrightText: MIT LICENSE
+medialink:
+  Zhihu: https://zhihu.com</span>
 <span>---</span></span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div></li>
 <li>
 <p>When you set <code>footer.display</code> to true in the theme, you can also disable it locally:</p>
 <div><pre><code><span><span>---</span>
-<span><span>footer</span><span>:</span> <span>false</span></span>
+<span>footer: false</span>
 <span>---</span></span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br></div></div></li>
 <li>
 <p>To remove the default footer content while keeping social media and copyright information displayed, please use an empty string.</p>
 <div><pre><code><span><span>---</span>
-<span><span>footer</span><span>:</span> <span>""</span></span>
+<span>footer: ""</span>
 <span>---</span></span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br></div></div></li>
 </ul>
-<p>:::</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -5039,7 +5034,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <p>Home hero (logo) image address, need to fill in the absolute path (pictures need to be placed in the <code>.vuepress/public</code> folder)</p>
 <h3 id="darkheroimage"> darkHeroImage</h3>
 <ul>
-<li>类型: <code>string</code></li>
+<li>Type: <code>string</code></li>
 </ul>
 <p>Darkmode Home hero (logo) image address, need to fill in the absolute path (pictures need to be placed in the <code>.vuepress/public</code> folder), will be the same as <code>heroImage</code> by default.</p>
 <h3 id="herotext"> heroText</h3>
@@ -5074,86 +5069,85 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 </ul>
 <p>Feature description</p>
 <h2 id="demo"> Demo</h2>
-<div><pre><code><span>---</span>
-<span>home</span><span>:</span> <span>true</span>
-<span>icon</span><span>:</span> home
-<span>title</span><span>:</span> Home
-<span>heroImage</span><span>:</span> /logo.svg
-<span>heroText</span><span>:</span> vuepress<span>-</span>theme<span>-</span>hope
-<span>tagline</span><span>:</span> A vuepress theme with tons of features✨
-<span>action</span><span>:</span>
-  <span>-</span> <span>text</span><span>:</span> Get Started 💡
-    <span>link</span><span>:</span> /guide/
-    <span>type</span><span>:</span> primary
+<div><pre><code><span><span>---</span>
+<span>home: true
+icon: home
+title: Home
+heroImage: /logo.svg
+heroText: vuepress-theme-hope
+tagline: A vuepress theme with tons of features✨
+action:
+  - text: Get Started 💡
+    link: /guide/
+    type: primary
 
-  <span>-</span> <span>text</span><span>:</span> Config 🛠
-    <span>link</span><span>:</span> /config/
+  - text: Config 🛠
+    link: /config/
 
-<span>features</span><span>:</span>
-  <span>-</span> <span>title</span><span>:</span> Markdown Enhance 🧰
-    <span>details</span><span>:</span> Add align<span>,</span> sup/sub script<span>,</span> footnote<span>,</span> tex<span>,</span> flowchart<span>,</span> mark and presentation support in markdown
-    <span>link</span><span>:</span> /guide/markdown/
+features:
+  - title: Markdown Enhance 🧰
+    details: Add align, sup/sub script, footnote, tex, flowchart, mark and presentation support in markdown
+    link: /guide/markdown/
 
-  <span>-</span> <span>title</span><span>:</span> Pageviews and comments 💬
-    <span>details</span><span>:</span> Start pageview statistics and comment support with Valine and Vssue
-    <span>link</span><span>:</span> /guide/feature/comment/
+  - title: Pageviews and comments 💬
+    details: Start pageview statistics and comment support with Valine and Vssue
+    link: /guide/feature/comment/
 
-  <span>-</span> <span>title</span><span>:</span> Article information display ℹ
-    <span>details</span><span>:</span> Add author<span>,</span> writing date<span>,</span> reading time<span>,</span> word count and other information to your article
-    <span>link</span><span>:</span> /guide/feature/page<span>-</span>info/
+  - title: Article information display ℹ
+    details: Add author, writing date, reading time, word count and other information to your article
+    link: /guide/feature/page-info/
 
-  <span>-</span> <span>title</span><span>:</span> Blog support 📝
-    <span>details</span><span>:</span> Add date<span>,</span> tags and category to your articles<span>,</span> then article<span>,</span> tag<span>,</span> category and timeline list will be auto generated
-    <span>link</span><span>:</span> /guide/blog/blog/
+  - title: Blog support 📝
+    details: Add date, tags and category to your articles, then article, tag, category and timeline list will be auto generated
+    link: /guide/blog/blog/
 
-  <span>-</span> <span>title</span><span>:</span> Article Encryption 🔐
-    <span>details</span><span>:</span> Encrypt you article based on path and folders<span>,</span> so that only the one you want could see them
-    <span>link</span><span>:</span> /guide/feature/encrypt/
+  - title: Article Encryption 🔐
+    details: Encrypt you article based on path and folders, so that only the one you want could see them
+    link: /guide/feature/encrypt/
 
-  <span>-</span> <span>title</span><span>:</span> Custom theme color 🎨
-    <span>details</span><span>:</span> Supports custom theme colors and allows users to switch between preset theme colors
-    <span>link</span><span>:</span> /guide/interface/theme<span>-</span>color/
+  - title: Custom theme color 🎨
+    details: Supports custom theme colors and allows users to switch between preset theme colors
+    link: /guide/interface/theme-color/
 
-  <span>-</span> <span>title</span><span>:</span> Dark Mode 🌙
-    <span>details</span><span>:</span> Switch between light and dark modes freely
-    <span>link</span><span>:</span> /guide/interface/darkmode/
+  - title: Dark Mode 🌙
+    details: Switch between light and dark modes freely
+    link: /guide/interface/darkmode/
 
-  <span>-</span> <span>title</span><span>:</span> SEO enhancement and Sitemap 🗺
-    <span>details</span><span>:</span> The theme can automatically generate a Sitemap for your website<span>,</span> and optimize the resulting web page for search engines.
-    <span>link</span><span>:</span> /guide/feature/seo<span>-</span>sitemap/
+  - title: SEO enhancement and Sitemap 🗺
+    details: The theme can automatically generate a Sitemap for your website, and optimize the resulting web page for search engines.
+    link: /guide/feature/seo-sitemap/
 
-  <span>-</span> <span>title</span><span>:</span> Feed support 📡
-    <span>details</span><span>:</span> You can generate feed<span>,</span> and let users to subcribe it
-    <span>link</span><span>:</span> /guide/feature/feed/
+  - title: Feed support 📡
+    details: You can generate feed, and let users to subcribe it
+    link: /guide/feature/feed/
 
-  <span>-</span> <span>title</span><span>:</span> PWA support 📲
-    <span>details</span><span>:</span> The built<span>-</span>in PWA plugin will make your website more like an APP.
-    <span>link</span><span>:</span> /guide/feature/pwa/
+  - title: PWA support 📲
+    details: The built-in PWA plugin will make your website more like an APP.
+    link: /guide/feature/pwa/
 
-  <span>-</span> <span>title</span><span>:</span> TS support 🔧
-    <span>details</span><span>:</span> Turn on TypeScript support for your VuePress
-    <span>link</span><span>:</span> /guide/feature/typescript/
+  - title: TS support 🔧
+    details: Turn on TypeScript support for your VuePress
+    link: /guide/feature/typescript/
 
-  <span>-</span> <span>title</span><span>:</span> More new features ✨
-    <span>details</span><span>:</span> Including icon support<span>,</span> path navigation<span>,</span> footer support<span>,</span> fullscreen button<span>,</span> blog homepage<span>,</span> etc.
-    <span>link</span><span>:</span> /guide/feature/
+  - title: More new features ✨
+    details: Including icon support, path navigation, footer support, fullscreen button, blog homepage, etc.
+    link: /guide/feature/
 
-<span>footer</span><span>:</span> MIT Licensed <span>|</span> Copyright © 2019<span>-</span>present Mr.Hope
-<span>copyrightText</span><span>:</span> <span>false</span>
-<span>---</span>
-
+footer: MIT Licensed | Copyright © 2019-present Mr.Hope
+copyrightText: false</span>
+<span>---</span></span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br><span>40</span><br><span>41</span><br><span>42</span><br><span>43</span><br><span>44</span><br><span>45</span><br><span>46</span><br><span>47</span><br><span>48</span><br><span>49</span><br><span>50</span><br><span>51</span><br><span>52</span><br><span>53</span><br><span>54</span><br><span>55</span><br><span>56</span><br><span>57</span><br><span>58</span><br><span>59</span><br><span>60</span><br><span>61</span><br><span>62</span><br><span>63</span><br><span>64</span><br><span>65</span><br><span>66</span><br><span>67</span><br><span>68</span><br></div></div>]]></content:encoded>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br><span>40</span><br><span>41</span><br><span>42</span><br><span>43</span><br><span>44</span><br><span>45</span><br><span>46</span><br><span>47</span><br><span>48</span><br><span>49</span><br><span>50</span><br><span>51</span><br><span>52</span><br><span>53</span><br><span>54</span><br><span>55</span><br><span>56</span><br><span>57</span><br><span>58</span><br><span>59</span><br><span>60</span><br><span>61</span><br><span>62</span><br><span>63</span><br><span>64</span><br><span>65</span><br><span>66</span><br><span>67</span><br></div></div>]]></content:encoded>
     </item>
     <item>
       <title>NavBar</title>
       <link>https://vuepress-theme-hope.github.io/guide/layout/navbar/</link>
       <guid>https://vuepress-theme-hope.github.io/guide/layout/navbar/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">NavBar</source>
-      <description>&amp;lt;p&amp;gt;The Navbar may contain your site title, , , &amp;lt;a href=&amp;quot;https://v1.vuepress.vuejs.org/guide/i18n.md&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;Languages&amp;lt;/a&amp;gt; and , they all depend on your configuration.&amp;lt;/p&amp;gt;
+      <description>&amp;lt;p&amp;gt;The Navbar may contain your site title, , , &amp;lt;a href=&amp;quot;https://v1.vuepress.vuejs.org/guide/i18n.html&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;Languages&amp;lt;/a&amp;gt; and , they all depend on your configuration.&amp;lt;/p&amp;gt;
 </description>
       <category>layout</category>
-      <content:encoded><![CDATA[<p>The Navbar may contain your site title, , , <a href="https://v1.vuepress.vuejs.org/guide/i18n.md" target="_blank" rel="noopener noreferrer">Languages</a> and , they all depend on your configuration.</p>
+      <content:encoded><![CDATA[<p>The Navbar may contain your site title, , , <a href="https://v1.vuepress.vuejs.org/guide/i18n.html" target="_blank" rel="noopener noreferrer">Languages</a> and , they all depend on your configuration.</p>
 
 <h3 id="navbar-links"> Navbar Links</h3>
 <p>You can add links to the navbar via <code>themeConfig.nav</code>.</p>
@@ -5238,12 +5232,11 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <span>}</span><span>;</span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>You can disable the navbar for a specific page via <code>YAML front matter</code>:</p>
-<div><pre><code><span>---</span>
-<span>navbar</span><span>:</span> <span>false</span>
-<span>---</span>
-
+<div><pre><code><span><span>---</span>
+<span>navbar: false</span>
+<span>---</span></span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><h3 id="navigation-bar-icon"> Navigation bar icon</h3>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><h3 id="navigation-bar-icon"> Navigation bar icon</h3>
 <p>You can use <code>themeConfig.logo</code> to configure the icons of the navigation bar, please fill in the absolute path.</p>
 <p>After configuring the icon, the icon will be displayed on the navigation bar instead of the previous site name on the mobile view.</p>
 <div><pre><code><span>// .vuepress/config.js</span>
@@ -5267,12 +5260,11 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <span>}</span><span>;</span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>You can also disable the built-in search box for individual pages with <code>YAML front matter</code>:</p>
-<div><pre><code><span>---</span>
-<span>search</span><span>:</span> <span>false</span>
-<span>---</span>
-
+<div><pre><code><span><span>---</span>
+<span>search: false</span>
+<span>---</span></span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><div><p>Tips</p>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><div><p>Tips</p>
 <p>Built-in Search only builds index from the title, <code>h2</code> and <code>h3</code> headers, if you need full text search, you can use .</p>
 </div>
 <h3 id="algolia-docsearch"> Algolia DocSearch</h3>
@@ -5331,12 +5323,11 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <span>}</span><span>;</span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br></div></div><p>You can overwrite the following properties on specific pages via <code>YAML front matter</code>:</p>
-<div><pre><code><span>---</span>
-<span>editLink</span><span>:</span> <span>false</span> <span># Will overwrite 'editLinks' from themeConfig</span>
-<span>---</span>
-
+<div><pre><code><span><span>---</span>
+<span>editLink: false # Will overwrite 'editLinks' from themeConfig</span>
+<span>---</span></span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><h2 id="theme-color-button"> Theme color button</h2>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><h2 id="theme-color-button"> Theme color button</h2>
 <p>For details, see the <a href="./../interface/theme-color.html">Themecolor</a> section.</p>
 <h2 id="darkmode-button"> Darkmode button</h2>
 <p>For details, see the <a href="./../interface/darkmode.html">Darkmode</a> section.</p>
@@ -5446,7 +5437,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <p>You can configure the <code>icon</code> field in the frontmatter of the page, and fill in the FontClass of the corresponding icon to bind the icon to the page.</p>
 <details><summary>Example</summary>
 <div><pre><code><span><span>---</span>
-<span><span>icon</span><span>:</span> home</span>
+<span>icon: home</span>
 <span>---</span></span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br></div></div></details>
@@ -5465,22 +5456,20 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <p>Please see <a href="./../feature/last-update.html">LastUpdate time</a>.</p>
 <h2 id="prev-next-links"> Prev / Next Links</h2>
 <p>Prev and next links are automatically inferred based on the sidebar order of the active page. You can also explicitly overwrite or disable them globally with theme config or on specific pages using <code>Front matter</code>:</p>
-<div><pre><code><span>---</span>
-<span>prev</span><span>:</span> ./some<span>-</span>other<span>-</span>page
-<span>next</span><span>:</span> <span>false</span>
-<span>---</span>
-
+<div><pre><code><span><span>---</span>
+<span>prev: ./some-other-page
+next: false</span>
+<span>---</span></span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><h2 id="comment"> Comment</h2>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><h2 id="comment"> Comment</h2>
 <p>Please see <a href="./../feature/comment.html">Comment section</a> for details.</p>
 <h2 id="custom-layout-for-specific-pages"> Custom Layout for Specific Pages</h2>
 <p>By default the content of each <code>*.md</code> file is rendered in a <code>&lt;div class=&quot;page&quot;&gt;</code> container, along with the sidebar, auto-generated edit links and prev/next links. To use a fully custom component in place of the page, you can again specify the component to use using <code>YAML front matter</code>:</p>
-<div><pre><code><span>---</span>
-<span>layout</span><span>:</span> SpecialLayout
-<span>---</span>
-
+<div><pre><code><span><span>---</span>
+<span>layout: SpecialLayout</span>
+<span>---</span></span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><p>This will render <code>.vuepress/components/SpecialLayout.vue</code> for the given page.</p>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><p>This will render <code>.vuepress/components/SpecialLayout.vue</code> for the given page.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -5548,7 +5537,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <p>The sidebar automatically displays links for headers in the current active page, nested under the link for the page itself. You can customize this behavior using <code>themeConfig.sidebarDepth</code>. The default depth(the max value) is <code>2</code>, which extracts both <code>h2</code> and <code>h3</code> headers. Setting it to <code>0</code> disables the header links.</p>
 <p>A page can also override this value via frontmatter:</p>
 <div><pre><code><span><span>---</span>
-<span><span>sidebarDepth</span><span>:</span> <span>2</span></span>
+<span>sidebarDepth: 2</span>
 <span>---</span></span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><h2 id="displaying-header-links-of-all-pages"> Displaying Header Links of All Pages</h2>
@@ -5639,12 +5628,11 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 </div>
 <h3 id="auto-sidebar-for-single-pages"> Auto Sidebar for Single Pages</h3>
 <p>To automatically generate a sidebar that contains only the header links for the current page, you can use frontmatter on that page:</p>
-<div><pre><code><span>---</span>
-<span>sidebar</span><span>:</span> auto
-<span>---</span>
-
+<div><pre><code><span><span>---</span>
+<span>sidebar: auto</span>
+<span>---</span></span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><p>You can also enable it in all pages by using config:</p>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><p>You can also enable it in all pages by using config:</p>
 <div><pre><code><span>// .vuepress/config.js</span>
 module<span>.</span>exports <span>=</span> <span>{</span>
   themeConfig<span>:</span> <span>{</span>
@@ -5652,7 +5640,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
   <span>}</span><span>,</span>
 <span>}</span><span>;</span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>In <a href="https://v1.vuepress.vuejs.org/guide/i18n.md" target="_blank" rel="noopener noreferrer">multi-language</a> mode, you can also apply it to a specific locale:</p>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>In <a href="https://v1.vuepress.vuejs.org/guide/i18n.html" target="_blank" rel="noopener noreferrer">multi-language</a> mode, you can also apply it to a specific locale:</p>
 <div><pre><code><span>// .vuepress/config.js</span>
 module<span>.</span>exports <span>=</span> <span>{</span>
   themeConfig<span>:</span> <span>{</span>
@@ -5664,12 +5652,11 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br></div></div><h3 id="disabling-the-sidebar"> Disabling the Sidebar</h3>
 <p>You can disable the sidebar on a specific page with <code>YAML front matter</code>:</p>
-<div><pre><code><span>---</span>
-<span>sidebar</span><span>:</span> <span>false</span>
-<span>---</span>
-
+<div><pre><code><span><span>---</span>
+<span>sidebar: false</span>
+<span>---</span></span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><h2 id="blogger-information"> Blogger Information</h2>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><h2 id="blogger-information"> Blogger Information</h2>
 <p>If you have configured blog related options, you can configure <code>themeConfig.blog.sidebarDisplay</code> to decide whether to display the blogger’s name, avatar, and the number of articles and tags in the sidebar.</p>
 <p>You can set <code>'mobile'</code> to display only in mobile view, or set <code>always</code> to keep it displayed in the sidebar.</p>
 <h2 id="demo"> Demo</h2>
@@ -6042,16 +6029,16 @@ npm i -D vuepress-theme-hope
 <div><pre><code>::: demo [type] Optional title text
 
 <span><span>```</span><span>html</span>
-<span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token comment<span>"</span></span><span>></span></span><span>&lt;!-- ↑ use available ones --></span><span><span><span>&lt;/</span>span</span><span>></span></span>
-<span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token comment<span>"</span></span><span>></span></span><span>&lt;!-- your code here --></span><span><span><span>&lt;/</span>span</span><span>></span></span>
-<span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token comment<span>"</span></span><span>></span></span><span>&lt;!-- you can have mutiple code block --></span><span><span><span>&lt;/</span>span</span><span>></span></span></span>
+<span><span>&lt;!-- ↑ use available ones --></span>
+<span>&lt;!-- your code here --></span>
+<span>&lt;!-- you can have mutiple code block --></span></span>
 <span>```</span></span>
 
 <span><span>```</span><span>json</span>
-<span>&lt;span class=<span>"token comment"</span>><span>// json block is for config&lt;/span></span>
-&lt;span class=<span>"token punctuation"</span>><span>{</span>&lt;/span>
-  &lt;span class=<span>"token comment"</span>><span>// your config here (optional)&lt;/span></span>
-&lt;span class=<span>"token punctuation"</span>><span>}</span>&lt;/span></span>
+<span><span>// json block is for config</span>
+<span>{</span>
+  <span>// your config here (optional)</span>
+<span>}</span></span>
 <span>```</span></span>
 
 :::
@@ -6070,27 +6057,27 @@ npm i -D vuepress-theme-hope
 <div><pre><code>::: demo Optional title text
 
 <span><span>```</span><span>html</span>
-<span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token comment<span>"</span></span><span>></span></span><span>&lt;!-- html code --></span><span><span><span>&lt;/</span>span</span><span>></span></span></span>
+<span><span>&lt;!-- html code --></span></span>
 <span>```</span></span>
 
 <span><span>```</span><span>js</span>
-<span><span>&lt;</span>span <span>class</span><span>=</span><span>"token comment"</span><span>></span><span>// js code&lt;/span></span></span>
+<span><span>// js code</span></span>
 <span>```</span></span>
 
 <span><span>```</span><span>css</span>
-<span>&lt;span class=<span>"token comment"</span>><span>/* css code */</span>&lt;/span></span>
+<span><span>/* css code */</span></span>
 <span>```</span></span>
 
 <span><span>```</span><span>json</span>
-<span>&lt;span class=<span>"token comment"</span>><span>// config (optional)&lt;/span></span>
-&lt;span class=<span>"token punctuation"</span>><span>{</span>&lt;/span>
-  &lt;span class=<span>"token property"</span>><span>"jsLib"</span>&lt;/span>&lt;span class=<span>"token operator"</span>><span>:</span>&lt;/span> &lt;span class=<span>"token punctuation"</span>><span>[</span>&lt;/span>
+<span><span>// config (optional)</span>
+<span>{</span>
+  <span>"jsLib"</span><span>:</span> <span>[</span>
     ...
-  &lt;span class=<span>"token punctuation"</span>><span>]</span>&lt;/span>&lt;span class=<span>"token punctuation"</span>><span>,</span>&lt;/span>
-  &lt;span class=<span>"token property"</span>><span>"cssLib"</span>&lt;/span>&lt;span class=<span>"token operator"</span>><span>:</span>&lt;/span>&lt;span class=<span>"token punctuation"</span>><span>[</span>&lt;/span>
+  <span>]</span><span>,</span>
+  <span>"cssLib"</span><span>:</span><span>[</span>
     ...
-  &lt;span class=<span>"token punctuation"</span>><span>]</span>&lt;/span>
-&lt;span class=<span>"token punctuation"</span>><span>}</span>&lt;/span></span>
+  <span>]</span>
+<span>}</span></span>
 <span>```</span></span>
 
 ::::
@@ -6115,7 +6102,7 @@ export default {
 <span>```</span></span>
 
 <span><span>```</span><span>json</span>
-<span>&lt;span class=<span>"token comment"</span>><span>// config (optional)&lt;/span></span></span>
+<span><span>// config (optional)</span></span>
 <span>```</span></span>
 
 :::
@@ -6125,17 +6112,17 @@ export default {
 <div><pre><code>::: demo [react] Optional title text
 
 <span><span>```</span><span>js</span>
-<span><span>&lt;</span>span <span>class</span><span>=</span><span>"token keyword"</span><span>></span><span>export</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token keyword"</span><span>></span><span>default</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token keyword"</span><span>></span><span>class</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token class-name"</span><span>></span>App<span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token keyword"</span><span>></span><span>extends</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token class-name"</span><span>></span>React<span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>.</span><span>&lt;</span><span>/</span>span<span>></span>Component<span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>{</span><span>&lt;</span><span>/</span>span<span>></span>
-  <span>&lt;</span>span <span>class</span><span>=</span><span>"token comment"</span><span>></span><span>// your react component&lt;/span></span>
-<span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>}</span><span>&lt;</span><span>/</span>span<span>></span></span>
+<span><span>export</span> <span>default</span> <span>class</span> <span>App</span> <span>extends</span> <span>React<span>.</span>Component</span> <span>{</span>
+  <span>// your react component</span>
+<span>}</span></span>
 <span>```</span></span>
 
 <span><span>```</span><span>css</span>
-<span>&lt;span class=<span>"token comment"</span>><span>/* your css content */</span>&lt;/span></span>
+<span><span>/* your css content */</span></span>
 <span>```</span></span>
 
 <span><span>```</span><span>json</span>
-<span>&lt;span class=<span>"token comment"</span>><span>// config (optional)&lt;/span></span></span>
+<span><span>// config (optional)</span></span>
 <span>```</span></span>
 
 :::
@@ -6237,20 +6224,20 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <div><pre><code>::: demo A normal demo
 
 <span><span>```</span><span>html</span>
-<span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token tag<span>"</span></span><span>></span></span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token tag<span>"</span></span><span>></span></span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token punctuation<span>"</span></span><span>></span></span>&lt;<span><span><span>&lt;/</span>span</span><span>></span></span>h1<span><span><span>&lt;/</span>span</span><span>></span></span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token punctuation<span>"</span></span><span>></span></span>><span><span><span>&lt;/</span>span</span><span>></span></span><span><span><span>&lt;/</span>span</span><span>></span></span>Mr.Hope<span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token tag<span>"</span></span><span>></span></span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token tag<span>"</span></span><span>></span></span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token punctuation<span>"</span></span><span>></span></span>&lt;/<span><span><span>&lt;/</span>span</span><span>></span></span>h1<span><span><span>&lt;/</span>span</span><span>></span></span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token punctuation<span>"</span></span><span>></span></span>><span><span><span>&lt;/</span>span</span><span>></span></span><span><span><span>&lt;/</span>span</span><span>></span></span>
-<span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token tag<span>"</span></span><span>></span></span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token tag<span>"</span></span><span>></span></span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token punctuation<span>"</span></span><span>></span></span>&lt;<span><span><span>&lt;/</span>span</span><span>></span></span>p<span><span><span>&lt;/</span>span</span><span>></span></span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token punctuation<span>"</span></span><span>></span></span>><span><span><span>&lt;/</span>span</span><span>></span></span><span><span><span>&lt;/</span>span</span><span>></span></span>Is <span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token tag<span>"</span></span><span>></span></span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token tag<span>"</span></span><span>></span></span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token punctuation<span>"</span></span><span>></span></span>&lt;<span><span><span>&lt;/</span>span</span><span>></span></span>span<span><span><span>&lt;/</span>span</span><span>></span></span> <span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token attr-name<span>"</span></span><span>></span></span>id<span><span><span>&lt;/</span>span</span><span>></span></span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token attr-value<span>"</span></span><span>></span></span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token punctuation attr-equals<span>"</span></span><span>></span></span>=<span><span><span>&lt;/</span>span</span><span>></span></span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token punctuation<span>"</span></span><span>></span></span>"<span><span><span>&lt;/</span>span</span><span>></span></span>very<span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token punctuation<span>"</span></span><span>></span></span>"<span><span><span>&lt;/</span>span</span><span>></span></span><span><span><span>&lt;/</span>span</span><span>></span></span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token punctuation<span>"</span></span><span>></span></span>><span><span><span>&lt;/</span>span</span><span>></span></span><span><span><span>&lt;/</span>span</span><span>></span></span>very<span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token tag<span>"</span></span><span>></span></span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token tag<span>"</span></span><span>></span></span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token punctuation<span>"</span></span><span>></span></span>&lt;/<span><span><span>&lt;/</span>span</span><span>></span></span>span<span><span><span>&lt;/</span>span</span><span>></span></span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token punctuation<span>"</span></span><span>></span></span>><span><span><span>&lt;/</span>span</span><span>></span></span><span><span><span>&lt;/</span>span</span><span>></span></span> handsome<span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token tag<span>"</span></span><span>></span></span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token tag<span>"</span></span><span>></span></span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token punctuation<span>"</span></span><span>></span></span>&lt;/<span><span><span>&lt;/</span>span</span><span>></span></span>p<span><span><span>&lt;/</span>span</span><span>></span></span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token punctuation<span>"</span></span><span>></span></span>><span><span><span>&lt;/</span>span</span><span>></span></span><span><span><span>&lt;/</span>span</span><span>></span></span></span>
+<span><span><span><span>&lt;</span>h1</span><span>></span></span>Mr.Hope<span><span><span>&lt;/</span>h1</span><span>></span></span>
+<span><span><span>&lt;</span>p</span><span>></span></span>Is <span><span><span>&lt;</span>span</span> <span>id</span><span><span>=</span><span>"</span>very<span>"</span></span><span>></span></span>very<span><span><span>&lt;/</span>span</span><span>></span></span> handsome<span><span><span>&lt;/</span>p</span><span>></span></span></span>
 <span>```</span></span>
 
 <span><span>```</span><span>js</span>
-<span>document<span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>.</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token function"</span><span>></span>querySelector<span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>(</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token string"</span><span>></span><span>"#very"</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>)</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>.</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token function"</span><span>></span>addEventListener<span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>(</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token string"</span><span>></span><span>"click"</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>,</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>(</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>)</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token operator"</span><span>>=</span><span>></span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>{</span><span>&lt;</span><span>/</span>span<span>></span>
-  <span>&lt;</span>span <span>class</span><span>=</span><span>"token function"</span><span>></span>alert<span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>(</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token string"</span><span>></span><span>"Very handsome!"</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>)</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>;</span><span>&lt;</span><span>/</span>span<span>></span>
-<span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>}</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>)</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>;</span><span>&lt;</span><span>/</span>span<span>></span></span>
+<span>document<span>.</span><span>querySelector</span><span>(</span><span>"#very"</span><span>)</span><span>.</span><span>addEventListener</span><span>(</span><span>"click"</span><span>,</span> <span>(</span><span>)</span> <span>=></span> <span>{</span>
+  <span>alert</span><span>(</span><span>"Very handsome!"</span><span>)</span><span>;</span>
+<span>}</span><span>)</span><span>;</span></span>
 <span>```</span></span>
 
 <span><span>```</span><span>css</span>
-<span><span>&lt;span>span&lt;/span> &lt;span></span><span>{</span>&lt;/span>
-  &lt;span class=<span>"token property"</span>>color&lt;/span>&lt;span class=<span>"token punctuation"</span>><span>:</span>&lt;/span> red&lt;span class=<span>"token punctuation"</span>><span>;</span>&lt;/span>
-&lt;span class=<span>"token punctuation"</span>><span>}</span>&lt;/span></span>
+<span><span>span</span> <span>{</span>
+  <span>color</span><span>:</span> red<span>;</span>
+<span>}</span></span>
 <span>```</span></span>
 
 :::
@@ -6295,25 +6282,25 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <div><pre><code>::: demo [react] A react demo
 
 <span><span>```</span><span>js</span>
-<span><span>&lt;</span>span <span>class</span><span>=</span><span>"token keyword"</span><span>></span><span>export</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token keyword"</span><span>></span><span>default</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token keyword"</span><span>></span><span>class</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token class-name"</span><span>></span>App<span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token keyword"</span><span>></span><span>extends</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token class-name"</span><span>></span>React<span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>.</span><span>&lt;</span><span>/</span>span<span>></span>Component<span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>{</span><span>&lt;</span><span>/</span>span<span>></span>
-  <span>&lt;</span>span <span>class</span><span>=</span><span>"token function"</span><span>></span>constructor<span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>(</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token parameter"</span><span>></span>props<span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>)</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>{</span><span>&lt;</span><span>/</span>span<span>></span>
-    <span>&lt;</span>span <span>class</span><span>=</span><span>"token keyword"</span><span>></span><span>super</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>(</span><span>&lt;</span><span>/</span>span<span>></span>props<span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>)</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>;</span><span>&lt;</span><span>/</span>span<span>></span>
-    <span>&lt;</span>span <span>class</span><span>=</span><span>"token keyword"</span><span>></span><span>this</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>.</span><span>&lt;</span><span>/</span>span<span>></span>state <span>&lt;</span>span <span>class</span><span>=</span><span>"token operator"</span><span>>=</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>{</span><span>&lt;</span><span>/</span>span<span>></span> message<span>&lt;</span>span <span>class</span><span>=</span><span>"token operator"</span><span>></span><span>:</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token string"</span><span>></span><span>"very handsome"</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>}</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>;</span><span>&lt;</span><span>/</span>span<span>></span>
-  <span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>}</span><span>&lt;</span><span>/</span>span<span>></span>
-  <span>&lt;</span>span <span>class</span><span>=</span><span>"token function"</span><span>></span>render<span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>(</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>)</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>{</span><span>&lt;</span><span>/</span>span<span>></span>
-    <span>&lt;</span>span <span>class</span><span>=</span><span>"token keyword"</span><span>></span><span>return</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>(</span><span>&lt;</span><span>/</span>span<span>></span>
-      <span>&lt;</span>span <span>class</span><span>=</span><span>"token operator"</span><span>></span><span>&lt;&lt;</span><span>/</span>span<span>></span>div className<span>&lt;</span>span <span>class</span><span>=</span><span>"token operator"</span><span>>=</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token string"</span><span>></span><span>"box-react"</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token operator"</span><span>>></span><span>&lt;</span><span>/</span>span<span>></span>
-        Mr<span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>.</span><span>&lt;</span><span>/</span>span<span>></span>Hope is <span>&lt;</span>span <span>class</span><span>=</span><span>"token operator"</span><span>></span><span>&lt;&lt;</span><span>/</span>span<span>></span>span<span>&lt;</span>span <span>class</span><span>=</span><span>"token operator"</span><span>>></span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>{</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token keyword"</span><span>></span><span>this</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>.</span><span>&lt;</span><span>/</span>span<span>></span>state<span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>.</span><span>&lt;</span><span>/</span>span<span>></span>message<span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>}</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token operator"</span><span>></span><span>&lt;&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token operator"</span><span>></span><span>/</span><span>&lt;</span><span>/</span>span<span>></span>span<span>&lt;</span>span <span>class</span><span>=</span><span>"token operator"</span><span>>></span><span>&lt;</span><span>/</span>span<span>></span>
-      <span>&lt;</span>span <span>class</span><span>=</span><span>"token operator"</span><span>></span><span>&lt;&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token operator"</span><span>></span><span>/</span><span>&lt;</span><span>/</span>span<span>></span>div<span>&lt;</span>span <span>class</span><span>=</span><span>"token operator"</span><span>>></span><span>&lt;</span><span>/</span>span<span>></span>
-    <span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>)</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>;</span><span>&lt;</span><span>/</span>span<span>></span>
-  <span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>}</span><span>&lt;</span><span>/</span>span<span>></span>
-<span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>}</span><span>&lt;</span><span>/</span>span<span>></span></span>
+<span><span>export</span> <span>default</span> <span>class</span> <span>App</span> <span>extends</span> <span>React<span>.</span>Component</span> <span>{</span>
+  <span>constructor</span><span>(</span><span>props</span><span>)</span> <span>{</span>
+    <span>super</span><span>(</span>props<span>)</span><span>;</span>
+    <span>this</span><span>.</span>state <span>=</span> <span>{</span> message<span>:</span> <span>"very handsome"</span> <span>}</span><span>;</span>
+  <span>}</span>
+  <span>render</span><span>(</span><span>)</span> <span>{</span>
+    <span>return</span> <span>(</span>
+      <span>&lt;</span>div className<span>=</span><span>"box-react"</span><span>></span>
+        Mr<span>.</span>Hope is <span>&lt;</span>span<span>></span><span>{</span><span>this</span><span>.</span>state<span>.</span>message<span>}</span><span>&lt;</span><span>/</span>span<span>></span>
+      <span>&lt;</span><span>/</span>div<span>></span>
+    <span>)</span><span>;</span>
+  <span>}</span>
+<span>}</span></span>
 <span>```</span></span>
 
 <span><span>```</span><span>css</span>
-<span><span>&lt;span>.box-react span&lt;/span> &lt;span></span><span>{</span>&lt;/span>
-  &lt;span class=<span>"token property"</span>>color&lt;/span>&lt;span class=<span>"token punctuation"</span>><span>:</span>&lt;/span> red&lt;span class=<span>"token punctuation"</span>><span>;</span>&lt;/span>
-&lt;span class=<span>"token punctuation"</span>><span>}</span>&lt;/span></span>
+<span><span>.box-react span</span> <span>{</span>
+  <span>color</span><span>:</span> red<span>;</span>
+<span>}</span></span>
 <span>```</span></span>
 
 :::
@@ -6413,25 +6400,25 @@ document<span>.</span><span>querySelector</span><span>(</span><span>"h1"</span><
 <div><pre><code>::: demo A normal demo
 
 <span><span>```</span><span>md</span>
-<span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token title important<span>"</span></span><span>></span></span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token punctuation<span>"</span></span><span>></span></span>#<span><span><span>&lt;/</span>span</span><span>></span></span> Title<span><span><span>&lt;/</span>span</span><span>></span></span>
+<span><span><span>#</span> Title</span>
 
 is very handsome.</span>
 <span>```</span></span>
 
 <span><span>```</span><span>ts</span>
-<span><span>&lt;</span>span <span>class</span><span>=</span><span>"token keyword"</span><span>></span><span>const</span><span>&lt;</span><span>/</span>span<span>></span> message<span>&lt;</span>span <span>class</span><span>=</span><span>"token operator"</span><span>></span><span>:</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token builtin"</span><span>></span><span>string</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token operator"</span><span>>=</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token string"</span><span>></span><span>"Mr.Hope"</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>;</span><span>&lt;</span><span>/</span>span<span>></span>
+<span><span>const</span> message<span>:</span> <span>string</span> <span>=</span> <span>"Mr.Hope"</span><span>;</span>
 
-document<span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>.</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token function"</span><span>></span>querySelector<span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>(</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token string"</span><span>></span><span>"h1"</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>)</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>.</span><span>&lt;</span><span>/</span>span<span>></span>innerHTML <span>&lt;</span>span <span>class</span><span>=</span><span>"token operator"</span><span>>=</span><span>&lt;</span><span>/</span>span<span>></span> message<span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>;</span><span>&lt;</span><span>/</span>span<span>></span></span>
+document<span>.</span><span>querySelector</span><span>(</span><span>"h1"</span><span>)</span><span>.</span>innerHTML <span>=</span> message<span>;</span></span>
 <span>```</span></span>
 
 <span><span>```</span><span>scss</span>
-<span><span>&lt;span>h1 &lt;/span>&lt;span></span><span>{</span>&lt;/span>
-  &lt;span class=<span>"token property"</span>>font-style&lt;/span>&lt;span class=<span>"token punctuation"</span>><span>:</span>&lt;/span> italic&lt;span class=<span>"token punctuation"</span>><span>;</span><span>&lt;/span>
+<span><span>h1 </span><span>{</span>
+  <span>font-style</span><span>:</span> italic<span>;</span>
 
-  &lt;span>+ p &lt;/span>&lt;span></span><span>{</span>&lt;/span>
-    &lt;span class=<span>"token property"</span>>color&lt;/span>&lt;span class=<span>"token punctuation"</span>><span>:</span>&lt;/span> red&lt;span class=<span>"token punctuation"</span>><span>;</span>&lt;/span>
-  &lt;span class=<span>"token punctuation"</span>><span>}</span>&lt;/span>
-&lt;span class=<span>"token punctuation"</span>><span>}</span>&lt;/span></span>
+  <span>+ p </span><span>{</span>
+    <span>color</span><span>:</span> red<span>;</span>
+  <span>}</span>
+<span>}</span></span>
 <span>```</span></span>
 
 :::
@@ -6751,7 +6738,7 @@ A paragraph with some text and a <span>[<span>link</span>](<span>https://mrhope.
 <span><span>##</span> Slide 3.1</span>
 
 <span><span>```</span><span>js</span>
-<span><span>&lt;</span>span <span>class</span><span>=</span><span>"token keyword"</span><span>></span><span>const</span><span>&lt;</span><span>/</span>span<span>></span> a <span>&lt;</span>span <span>class</span><span>=</span><span>"token operator"</span><span>>=</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token number"</span><span>></span><span>1</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>;</span><span>&lt;</span><span>/</span>span<span>></span></span>
+<span><span>const</span> a <span>=</span> <span>1</span><span>;</span></span>
 <span>```</span></span>
 
 --
@@ -7401,11 +7388,11 @@ console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><div><pre><code>高亮格式:
 
 <span><span>```</span><span>js</span>
-<span><span>&lt;</span>span <span>class</span><span>=</span><span>"token keyword"</span><span>></span><span>var</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token function-variable function"</span><span>></span>foo<span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token operator"</span><span>>=</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token keyword"</span><span>></span><span>function</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>(</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token parameter"</span><span>></span>bar<span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>)</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>{</span><span>&lt;</span><span>/</span>span<span>></span>
-  <span>&lt;</span>span <span>class</span><span>=</span><span>"token keyword"</span><span>></span><span>return</span><span>&lt;</span><span>/</span>span<span>></span> bar<span>&lt;</span>span <span>class</span><span>=</span><span>"token operator"</span><span>></span><span>++</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>;</span><span>&lt;</span><span>/</span>span<span>></span>
-<span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>}</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>;</span><span>&lt;</span><span>/</span>span<span>></span>
+<span><span>var</span> <span>foo</span> <span>=</span> <span>function</span> <span>(</span><span>bar</span><span>)</span> <span>{</span>
+  <span>return</span> bar<span>++</span><span>;</span>
+<span>}</span><span>;</span>
 
-console<span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>.</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token function"</span><span>></span>log<span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>(</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token function"</span><span>></span>foo<span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>(</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token number"</span><span>></span><span>5</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>)</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>)</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>;</span><span>&lt;</span><span>/</span>span<span>></span></span>
+console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span><span>5</span><span>)</span><span>)</span><span>;</span></span>
 <span>```</span></span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br></div></div>]]></content:encoded>
@@ -8600,7 +8587,7 @@ const a = 1;</span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>会渲染为</p>
 <div><pre><code><span><span>```</span><span>js</span>
-<span><span>&lt;</span>span <span>class</span><span>=</span><span>"token keyword"</span><span>></span><span>const</span><span>&lt;</span><span>/</span>span<span>></span> a <span>&lt;</span>span <span>class</span><span>=</span><span>"token operator"</span><span>>=</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token number"</span><span>></span><span>1</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>;</span><span>&lt;</span><span>/</span>span<span>></span></span>
+<span><span>const</span> a <span>=</span> <span>1</span><span>;</span></span>
 <span>```</span></span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><h3 id="分隔线"> 分隔线</h3>
@@ -9386,8 +9373,8 @@ A backtick-delimited string in a code span: <span>`` `foo` ``</span>
 <p>VuePress 提供了对 <a href="https://jekyllrb.com/docs/frontmatter/" target="_blank" rel="noopener noreferrer">YAML front matter</a> 开箱即用的支持。</p>
 <p>Front matter 必须是 markdown 文件中的第一部分，并且必须采用在三点划线之间书写的有效的 YAML。 这是一个基本的例子:</p>
 <div><pre><code><span><span>---</span>
-<span><span>title</span><span>:</span> Blogging Like a Hacker
-<span>lang</span><span>:</span> en<span>-</span>US</span>
+<span>title: Blogging Like a Hacker
+lang: en-US</span>
 <span>---</span></span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><p>在这些三条虚线之间，你可以设置变量。然后，您可以使用 <code>$frontmatter</code> 访问这些变量。这些数据可以在当前 markdown 的正文，或者是任意的自定义或主题组件中使用。</p>
@@ -9467,7 +9454,7 @@ lang = &quot;en-US&quot;
 ::: details 点击查看代码
 
 <span><span>```</span><span>js</span>
-<span>console<span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>.</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token function"</span><span>></span>log<span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>(</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token string"</span><span>></span><span>"你好，VuePress！"</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>)</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>;</span><span>&lt;</span><span>/</span>span<span>></span></span>
+<span>console<span>.</span><span>log</span><span>(</span><span>"你好，VuePress！"</span><span>)</span><span>;</span></span>
 <span>```</span></span>
 
 :::
@@ -11567,7 +11554,7 @@ export default { // Highlighted
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>同时，你可以更加方便地在页面的 frontmatter 中配置密码</p>
 <div><pre><code><span><span>---</span>
-<span><span>password</span><span>:</span> abc1234</span>
+<span>password: abc1234</span>
 <span>---</span></span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br></div></div>]]></content:encoded>
@@ -11709,7 +11696,7 @@ export default { // Highlighted
 <h3 id="作者"> 作者 <i>Not supported content</i></h3>
 <p>例子:</p>
 <div><pre><code><span><span>---</span>
-<span><span>author</span><span>:</span> Mr.Hope</span>
+<span>author: Mr.Hope</span>
 <span>---</span></span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><p>作者姓名也可以在 <code>themeConfig.author</code> 中全局配置，这样每篇文章都会显示默认作者。这时，你仍可以在页面中配置 frontmatter 中的 <code>author</code> 为一个新值来覆盖默认作者，或者设置 <code>author</code> 为 <code>false</code> 取消作者显示。</p>
@@ -11717,7 +11704,7 @@ export default { // Highlighted
 <p>建议 time 以标准格式输入日期，即 <code>xxxx-xx-xx</code> 的形式，如 “2020 年 4 月 1 日” 应当输入为 <code>2020-04-01</code></p>
 <p>例子:</p>
 <div><pre><code><span><span>---</span>
-<span><span>time</span><span>:</span> <span>2020-01-01</span></span>
+<span>time: 2020-01-01</span>
 <span>---</span></span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><h3 id="分类与标签"> 分类与标签</h3>
@@ -11728,7 +11715,7 @@ export default { // Highlighted
 <p>当配置 <a href="./comment.html">评论功能</a> 为 Valine 时，该功能默认启用。</p>
 <p>例子:</p>
 <div><pre><code><span><span>---</span>
-<span><span>visitor</span><span>:</span> <span>false</span></span>
+<span>visitor: false</span>
 <span>---</span></span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><hr>
@@ -12367,14 +12354,14 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <link>https://vuepress-theme-hope.github.io/zh/guide/layout/breadcrumb/</link>
       <guid>https://vuepress-theme-hope.github.io/zh/guide/layout/breadcrumb/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">路径导航</source>
-      <description>&amp;lt;p&amp;gt;vuepress-theme-hope 添加了开箱即用的路径导航支持，你可以通过 &amp;lt;code&amp;gt;breadcrumb&amp;lt;/code&amp;gt; 字段控制它 &amp;lt;i&amp;gt;Not supported content&amp;lt;/i&amp;gt;[^applypartically]，默认的值为 &amp;lt;code&amp;gt;true&amp;lt;/code&amp;gt;。&amp;lt;/p&amp;gt;
+      <description>&amp;lt;p&amp;gt;vuepress-theme-hope 添加了开箱即用的路径导航支持，你可以通过 &amp;lt;code&amp;gt;breadcrumb&amp;lt;/code&amp;gt; 字段控制它 &amp;lt;i&amp;gt;Not supported content&amp;lt;/i&amp;gt; [^applypartically]，默认的值为 &amp;lt;code&amp;gt;true&amp;lt;/code&amp;gt;。&amp;lt;/p&amp;gt;
 &amp;lt;p&amp;gt;无需任何额外配置，一个和主题色相符合的路径导航会显示在页面内容最上方，帮助阅读者理解文档结构。&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;你也可以通过 &amp;lt;code&amp;gt;breadcrumbIcon&amp;lt;/code&amp;gt; 字段 &amp;lt;i&amp;gt;Not supported content&amp;lt;/i&amp;gt;[^applypartically] 控制路径导航的图标显示，默认值为 &amp;lt;code&amp;gt;true&amp;lt;/code&amp;gt;。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;你也可以通过 &amp;lt;code&amp;gt;breadcrumbIcon&amp;lt;/code&amp;gt; 字段 &amp;lt;i&amp;gt;Not supported content&amp;lt;/i&amp;gt; 控制路径导航的图标显示，默认值为 &amp;lt;code&amp;gt;true&amp;lt;/code&amp;gt;。&amp;lt;/p&amp;gt;
 </description>
       <category>layout</category>
-      <content:encoded><![CDATA[<p>vuepress-theme-hope 添加了开箱即用的路径导航支持，你可以通过 <code>breadcrumb</code> 字段控制它 <i>Not supported content</i><sup></sup>，默认的值为 <code>true</code>。</p>
+      <content:encoded><![CDATA[<p>vuepress-theme-hope 添加了开箱即用的路径导航支持，你可以通过 <code>breadcrumb</code> 字段控制它 <i>Not supported content</i> <sup></sup>，默认的值为 <code>true</code>。</p>
 <p>无需任何额外配置，一个和主题色相符合的路径导航会显示在页面内容最上方，帮助阅读者理解文档结构。</p>
-<p>你也可以通过 <code>breadcrumbIcon</code> 字段 <i>Not supported content</i><sup></sup> 控制路径导航的图标显示，默认值为 <code>true</code>。</p>
+<p>你也可以通过 <code>breadcrumbIcon</code> 字段 <i>Not supported content</i> 控制路径导航的图标显示，默认值为 <code>true</code>。</p>
 
 <div><p>注意事项</p>
 <p>为了保证路径导航更好的提示，建议在每一个路径下创建 readme.md 文件。否则，路径导航将因对应层级文件夹没有主页，无法生成标题与链接而忽略那一层级。</p>
@@ -12389,7 +12376,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <p>该功能默认全局启用，即 <code>themeConfig.breadcrumb</code> 默认为 <code>true</code>，同时你可以在特定页面的 Front Matter 中设置 <code>breadcrumb: false</code> 来局部禁用它。</p>
 <p>当然你也可以将 <code>themeConfig.breadcrumb</code> 选项设置为 <code>false</code> 来全局禁用它，之在特定页面的 Front Matter 中设置 <code>breadcrumb: true</code> 来局部启用它。</p>
 </details>
-  </li>
+ </li>
 </ol>
 </section>
 ]]></content:encoded>
@@ -12431,40 +12418,40 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <li>
 <p>启用默认的页脚文字:</p>
 <div><pre><code><span><span>---</span>
-<span><span>footer</span><span>:</span> <span>true</span></span>
+<span>footer: true</span>
 <span>---</span></span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br></div></div></li>
 <li>
 <p>自定义页脚文字，同时不显示版权信息和媒体链接</p>
 <div><pre><code><span><span>---</span>
-<span><span>footer</span><span>:</span> This website is served by GitHub Pages
-<span>copyrightText</span><span>:</span> <span>false</span>
-<span>medialink</span><span>:</span> <span>false</span></span>
+<span>footer: This website is served by GitHub Pages
+copyrightText: false
+medialink: false</span>
 <span>---</span></span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div></li>
 <li>
 <p>自定义页脚的内容和版权信息与媒体链接</p>
 <div><pre><code><span><span>---</span>
-<span><span>footer</span><span>:</span> &lt;a href="https<span>:</span>//github.com/Mister<span>-</span>Hope"<span>></span>Mr.Hope&lt;/a<span>></span>
-<span>copyrightText</span><span>:</span> MIT LICENSE
-<span>medialink</span><span>:</span>
-  <span>Zhihu</span><span>:</span> https<span>:</span>//zhihu.com</span>
+<span>footer: &lt;a href="https://github.com/Mister-Hope">Mr.Hope&lt;/a>
+copyrightText: MIT LICENSE
+medialink:
+  Zhihu: https://zhihu.com</span>
 <span>---</span></span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div></li>
 <li>
 <p>当你在主题中设置了 <code>footer.display</code> 为 <code>true</code> 时，你还可以局部禁用它</p>
 <div><pre><code><span><span>---</span>
-<span><span>footer</span><span>:</span> <span>false</span></span>
+<span>footer: false</span>
 <span>---</span></span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br></div></div></li>
 <li>
 <p>如果你希望移除默认的 footer 内容同时保持社交媒体与版权信息显示，请传入一个空字符串。</p>
 <div><pre><code><span><span>---</span>
-<span><span>footer</span><span>:</span> <span>""</span></span>
+<span>footer: ""</span>
 <span>---</span></span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br></div></div></li>
@@ -12540,86 +12527,85 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 </ul>
 <p>特性说明</p>
 <h2 id="配置案例"> 配置案例</h2>
-<div><pre><code><span>---</span>
-<span>home</span><span>:</span> <span>true</span>
-<span>title</span><span>:</span> 主页
-<span>icon</span><span>:</span> home
-<span>heroImage</span><span>:</span> /logo.svg
-<span>heroText</span><span>:</span> vuepress<span>-</span>theme<span>-</span>hope
-<span>tagline</span><span>:</span> 一个具有强大功能的 vuepress 主题✨
-<span>action</span><span>:</span>
-  <span>-</span> <span>text</span><span>:</span> 快速上手 💡
-    <span>link</span><span>:</span> /zh/guide/
-    <span>type</span><span>:</span> primary
+<div><pre><code><span><span>---</span>
+<span>home: true
+title: 主页
+icon: home
+heroImage: /logo.svg
+heroText: vuepress-theme-hope
+tagline: 一个具有强大功能的 vuepress 主题✨
+action:
+  - text: 快速上手 💡
+    link: /zh/guide/
+    type: primary
 
-  <span>-</span> <span>text</span><span>:</span> 配置 🛠
-    <span>link</span><span>:</span> /zh/config/
+  - text: 配置 🛠
+    link: /zh/config/
 
-<span>features</span><span>:</span>
-  <span>-</span> <span>title</span><span>:</span> Markdown 增强 🧰
-    <span>details</span><span>:</span> 新增文字对齐、上下角标、脚注、标记、数学公式、流程图与幻灯片支持
-    <span>link</span><span>:</span> /zh/guide/markdown/
+features:
+  - title: Markdown 增强 🧰
+    details: 新增文字对齐、上下角标、脚注、标记、数学公式、流程图与幻灯片支持
+    link: /zh/guide/markdown/
 
-  <span>-</span> <span>title</span><span>:</span> 浏览量与评论 💬
-    <span>details</span><span>:</span> 配合 Valine 与 Vssue 来开启阅读量统计与评论支持
-    <span>link</span><span>:</span> /zh/guide/feature/comment/
+  - title: 浏览量与评论 💬
+    details: 配合 Valine 与 Vssue 来开启阅读量统计与评论支持
+    link: /zh/guide/feature/comment/
 
-  <span>-</span> <span>title</span><span>:</span> 文章信息展示 ℹ
-    <span>details</span><span>:</span> 为你的文章添加作者、写作日期、预计阅读时间、字数统计等信息
-    <span>link</span><span>:</span> /zh/guide/feature/page<span>-</span>info/
+  - title: 文章信息展示 ℹ
+    details: 为你的文章添加作者、写作日期、预计阅读时间、字数统计等信息
+    link: /zh/guide/feature/page-info/
 
-  <span>-</span> <span>title</span><span>:</span> 博客支持 📝
-    <span>details</span><span>:</span> 为你的文章添加日期、标签和分类，即可自动生成文章、分类、标签与时间轴列表
-    <span>link</span><span>:</span> /zh/guide/blog/blog/
+  - title: 博客支持 📝
+    details: 为你的文章添加日期、标签和分类，即可自动生成文章、分类、标签与时间轴列表
+    link: /zh/guide/blog/blog/
 
-  <span>-</span> <span>title</span><span>:</span> 文章加密 🔐
-    <span>details</span><span>:</span> 你可以为你的特定页面或特定目录进行加密，以便陌生人不能随意访问它们
-    <span>link</span><span>:</span> /zh/guide/feature/encrypt/
+  - title: 文章加密 🔐
+    details: 你可以为你的特定页面或特定目录进行加密，以便陌生人不能随意访问它们
+    link: /zh/guide/feature/encrypt/
 
-  <span>-</span> <span>title</span><span>:</span> 主题色切换 🎨
-    <span>details</span><span>:</span> 支持自定义主题色并允许用户在预设的主题颜色之间切换
-    <span>link</span><span>:</span> /zh/guide/interface/theme<span>-</span>color/
+  - title: 主题色切换 🎨
+    details: 支持自定义主题色并允许用户在预设的主题颜色之间切换
+    link: /zh/guide/interface/theme-color/
 
-  <span>-</span> <span>title</span><span>:</span> 深色模式 🌙
-    <span>details</span><span>:</span> 可以自由切换浅色模式与深色模式
-    <span>link</span><span>:</span> /zh/guide/interface/darkmode/
+  - title: 深色模式 🌙
+    details: 可以自由切换浅色模式与深色模式
+    link: /zh/guide/interface/darkmode/
 
-  <span>-</span> <span>title</span><span>:</span> SEO 增强和 Sitemap 🗺
-    <span>details</span><span>:</span> 主题可以自动为你的网站生成 Sitemap，并将最终生成的网页针对搜索引擎进行优化。
-    <span>link</span><span>:</span> /zh/guide/feature/seo<span>-</span>sitemap/
+  - title: SEO 增强和 Sitemap 🗺
+    details: 主题可以自动为你的网站生成 Sitemap，并将最终生成的网页针对搜索引擎进行优化。
+    link: /zh/guide/feature/seo-sitemap/
 
-  <span>-</span> <span>title</span><span>:</span> Feed 支持 📡
-    <span>details</span><span>:</span> 你可以生成你的 Feed，并通知你的用户订阅它。
-    <span>link</span><span>:</span> /zh/guide/feature/feed/
+  - title: Feed 支持 📡
+    details: 你可以生成你的 Feed，并通知你的用户订阅它。
+    link: /zh/guide/feature/feed/
 
-  <span>-</span> <span>title</span><span>:</span> PWA 支持 📲
-    <span>details</span><span>:</span> 内置的 PWA 插件会让你的网站更像一个 APP。
-    <span>link</span><span>:</span> /zh/guide/feature/pwa/
+  - title: PWA 支持 📲
+    details: 内置的 PWA 插件会让你的网站更像一个 APP。
+    link: /zh/guide/feature/pwa/
 
-  <span>-</span> <span>title</span><span>:</span> TS 支持 🔧
-    <span>details</span><span>:</span> 为你的 VuePress 开启 TypeScript 支持
-    <span>link</span><span>:</span> /zh/guide/feature/typescript/
+  - title: TS 支持 🔧
+    details: 为你的 VuePress 开启 TypeScript 支持
+    link: /zh/guide/feature/typescript/
 
-  <span>-</span> <span>title</span><span>:</span> 更多新特性 ✨
-    <span>details</span><span>:</span> 包括博客主页、图标支持、路径导航、页脚支持、全屏按钮、返回顶部按钮等
-    <span>link</span><span>:</span> /zh/guide/feature/
+  - title: 更多新特性 ✨
+    details: 包括博客主页、图标支持、路径导航、页脚支持、全屏按钮、返回顶部按钮等
+    link: /zh/guide/feature/
 
-<span>footer</span><span>:</span> MIT Licensed <span>|</span> Copyright © 2019<span>-</span>present Mr.Hope
-<span>copyrightText</span><span>:</span> <span>false</span>
-<span>---</span>
-
+footer: MIT Licensed | Copyright © 2019-present Mr.Hope
+copyrightText: false</span>
+<span>---</span></span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br><span>40</span><br><span>41</span><br><span>42</span><br><span>43</span><br><span>44</span><br><span>45</span><br><span>46</span><br><span>47</span><br><span>48</span><br><span>49</span><br><span>50</span><br><span>51</span><br><span>52</span><br><span>53</span><br><span>54</span><br><span>55</span><br><span>56</span><br><span>57</span><br><span>58</span><br><span>59</span><br><span>60</span><br><span>61</span><br><span>62</span><br><span>63</span><br><span>64</span><br><span>65</span><br><span>66</span><br><span>67</span><br><span>68</span><br></div></div>]]></content:encoded>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br><span>40</span><br><span>41</span><br><span>42</span><br><span>43</span><br><span>44</span><br><span>45</span><br><span>46</span><br><span>47</span><br><span>48</span><br><span>49</span><br><span>50</span><br><span>51</span><br><span>52</span><br><span>53</span><br><span>54</span><br><span>55</span><br><span>56</span><br><span>57</span><br><span>58</span><br><span>59</span><br><span>60</span><br><span>61</span><br><span>62</span><br><span>63</span><br><span>64</span><br><span>65</span><br><span>66</span><br><span>67</span><br></div></div>]]></content:encoded>
     </item>
     <item>
       <title>导航栏</title>
       <link>https://vuepress-theme-hope.github.io/zh/guide/layout/navbar/</link>
       <guid>https://vuepress-theme-hope.github.io/zh/guide/layout/navbar/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">导航栏</source>
-      <description>&amp;lt;p&amp;gt;导航栏可能包含你的站点名称、、 、&amp;lt;a href=&amp;quot;https://v1.vuepress.vuejs.org/zh/guide/i18n.md&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;多语言切换&amp;lt;/a&amp;gt;、，它们均取决于你的配置。&amp;lt;/p&amp;gt;
+      <description>&amp;lt;p&amp;gt;导航栏可能包含你的站点名称、、 、&amp;lt;a href=&amp;quot;https://v1.vuepress.vuejs.org/zh/guide/i18n.html&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;多语言切换&amp;lt;/a&amp;gt;、，它们均取决于你的配置。&amp;lt;/p&amp;gt;
 </description>
       <category>layout</category>
-      <content:encoded><![CDATA[<p>导航栏可能包含你的站点名称、、 、<a href="https://v1.vuepress.vuejs.org/zh/guide/i18n.md" target="_blank" rel="noopener noreferrer">多语言切换</a>、，它们均取决于你的配置。</p>
+      <content:encoded><![CDATA[<p>导航栏可能包含你的站点名称、、 、<a href="https://v1.vuepress.vuejs.org/zh/guide/i18n.html" target="_blank" rel="noopener noreferrer">多语言切换</a>、，它们均取决于你的配置。</p>
 
 <h2 id="导航栏链接"> 导航栏链接</h2>
 <p>你可以通过 <code>themeConfig.nav</code> 增加一些导航栏链接。</p>
@@ -12704,12 +12690,11 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <span>}</span><span>;</span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>你也可以通过 <code>YAML front matter</code> 来禁用某个指定页面的导航栏:</p>
-<div><pre><code><span>---</span>
-<span>navbar</span><span>:</span> <span>false</span>
-<span>---</span>
-
+<div><pre><code><span><span>---</span>
+<span>navbar: false</span>
+<span>---</span></span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><h3 id="导航栏图标"> 导航栏图标</h3>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><h3 id="导航栏图标"> 导航栏图标</h3>
 <p>你可以使用 <code>themeConfig.logo</code> 来配置导航栏的图标，请填入绝对路径。</p>
 <p>当配置图标之后，在移动视图上，图标将取代先前的站点名称显示在导航栏上。</p>
 <div><pre><code><span>// .vuepress/config.js</span>
@@ -12733,12 +12718,11 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <span>}</span><span>;</span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>你可以通过 <code>YAML front matter</code> 来对单独的页面禁用内置的搜索框:</p>
-<div><pre><code><span>---</span>
-<span>search</span><span>:</span> <span>false</span>
-<span>---</span>
-
+<div><pre><code><span><span>---</span>
+<span>search: false</span>
+<span>---</span></span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><div><p>Tips</p>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><div><p>Tips</p>
 <p>内置搜索只会为页面的标题、<code>h2</code> 和 <code>h3</code> 构建搜索索引，如果你需要全文搜索，你可以使用 。</p>
 </div>
 <h3 id="algolia-搜索"> Algolia 搜索</h3>
@@ -12793,12 +12777,11 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <span>}</span><span>;</span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br></div></div><p>你可以通过 <code>YAML front matter</code> 来禁用指定页面的编辑链接:</p>
-<div><pre><code><span>---</span>
-<span>editLink</span><span>:</span> <span>false</span>
-<span>---</span>
-
+<div><pre><code><span><span>---</span>
+<span>editLink: false</span>
+<span>---</span></span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><h2 id="主题色切换按钮"> 主题色切换按钮</h2>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><h2 id="主题色切换按钮"> 主题色切换按钮</h2>
 <p>具体详情请见 <a href="./../interface/theme-color.html">主题色</a> 章节。</p>
 <h2 id="深色模式切换按钮"> 深色模式切换按钮</h2>
 <p>具体详情请见 <a href="./../interface/darkmode.html">深色模式</a> 章节。</p>
@@ -12908,7 +12891,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <p>你可以在页面的 frontmatter 中配置 <code>icon</code> 字段，填入对应图标的 FontClass 即可绑定图标到页面。</p>
 <details><summary>例子</summary>
 <div><pre><code><span><span>---</span>
-<span><span>icon</span><span>:</span> home</span>
+<span>icon: home</span>
 <span>---</span></span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br></div></div></details>
@@ -12927,22 +12910,20 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <p>详见 <a href="./../feature/last-update.html">最后更新时间</a> 章节。</p>
 <h2 id="上-下一篇链接"> 上 / 下一篇链接</h2>
 <p>上一篇和下一篇文章的链接将会自动地根据当前页面的侧边栏的顺序来获取。你也可以使用 <code>themeConfig</code> 或 frontmatter 来明确地重写或者禁用它:</p>
-<div><pre><code><span>---</span>
-<span>prev</span><span>:</span> ./some<span>-</span>other<span>-</span>page
-<span>next</span><span>:</span> <span>false</span>
-<span>---</span>
-
+<div><pre><code><span><span>---</span>
+<span>prev: ./some-other-page
+next: false</span>
+<span>---</span></span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><h2 id="评论"> 评论</h2>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><h2 id="评论"> 评论</h2>
 <p>具体详情请见 <a href="./../feature/comment.html">评论</a> 章节。</p>
 <h2 id="特定页面的自定义布局"> 特定页面的自定义布局</h2>
 <p>默认情况下，每个 <code>*.md</code> 文件将会被渲染在一个 <code>&lt;div class=&quot;page&quot;&gt;</code> 容器中，同时还有侧边栏、自动生成的编辑链接，以及上 / 下一篇文章的链接。如果你想要使用一个完全自定义的组件来代替当前的页面(而只保留导航栏)，你可以再次使用 frontmatter 来指定这个组件。</p>
-<div><pre><code><span>---</span>
-<span>layout</span><span>:</span> SpecialLayout
-<span>---</span>
-
+<div><pre><code><span><span>---</span>
+<span>layout: SpecialLayout</span>
+<span>---</span></span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><p>这将会为当前的页面渲染 <code>.vuepress/components/SpecialLayout.vue</code> 布局。</p>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><p>这将会为当前的页面渲染 <code>.vuepress/components/SpecialLayout.vue</code> 布局。</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -13019,7 +13000,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <p>默认情况下，侧边栏会自动地显示由当前页面的标题(headers)组成的链接，并按照页面本身的结构进行嵌套，你可以通过 <code>themeConfig.sidebarDepth</code> 来修改它的行为。默认的深度(也是最大的深度)是 <code>2</code>，它将提取到 <code>h2</code> 和 <code>h3</code> 的标题，设置成 <code>0</code> 将会禁用标题(headers)链接。</p>
 <p>也可以使用 frontmatter 来为某个页面重写此值:</p>
 <div><pre><code><span><span>---</span>
-<span><span>sidebarDepth</span><span>:</span> <span>2</span></span>
+<span>sidebarDepth: 2</span>
 <span>---</span></span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><h2 id="显示所有页面的标题链接"> 显示所有页面的标题链接</h2>
@@ -13110,12 +13091,11 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 </div>
 <h2 id="自动生成侧栏"> 自动生成侧栏</h2>
 <p>如果你希望自动生成一个仅仅包含了当前页面标题(headers)链接的侧边栏，你可以通过 frontmatter 来实现:</p>
-<div><pre><code><span>---</span>
-<span>sidebar</span><span>:</span> auto
-<span>---</span>
-
+<div><pre><code><span><span>---</span>
+<span>sidebar: auto</span>
+<span>---</span></span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><p>你也可以通过配置来在所有页面中启用它:</p>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><p>你也可以通过配置来在所有页面中启用它:</p>
 <div><pre><code><span>// .vuepress/config.js</span>
 module<span>.</span>exports <span>=</span> <span>{</span>
   themeConfig<span>:</span> <span>{</span>
@@ -13123,7 +13103,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
   <span>}</span><span>,</span>
 <span>}</span><span>;</span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>在 <a href="https://v1.vuepress.vuejs.org/zh/guide/i18n.md" target="_blank" rel="noopener noreferrer">多语言</a> 模式下, 你也可以将其应用到某一特定的语言下:</p>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>在 <a href="https://v1.vuepress.vuejs.org/zh/guide/i18n.html" target="_blank" rel="noopener noreferrer">多语言</a> 模式下, 你也可以将其应用到某一特定的语言下:</p>
 <div><pre><code><span>// .vuepress/config.js</span>
 module<span>.</span>exports <span>=</span> <span>{</span>
   themeConfig<span>:</span> <span>{</span>
@@ -13135,12 +13115,11 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br></div></div><h2 id="禁用侧边栏"> 禁用侧边栏</h2>
 <p>你可以通过 <code>YAML front matter</code> 来禁用指定页面的侧边栏:</p>
-<div><pre><code><span>---</span>
-<span>sidebar</span><span>:</span> <span>false</span>
-<span>---</span>
-
+<div><pre><code><span><span>---</span>
+<span>sidebar: false</span>
+<span>---</span></span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><h2 id="博主信息"> 博主信息</h2>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><h2 id="博主信息"> 博主信息</h2>
 <p>如果你配置了博客相关选项，你可以通过配置 <code>themeConfig.blog.sidebarDisplay</code> 来决定是否在侧边栏显示博主的名字、头像以及文章与标签的数量。</p>
 <p>你可以设置 <code>'mobile'</code> 来只在移动视图显示，或者设置 <code>always</code>，来保持在侧边栏显示。</p>
 <h2 id="案例"> 案例</h2>
@@ -13538,16 +13517,16 @@ npm i -D vuepress-theme-hope
 <div><pre><code>::: demo [类型] 可选的标题文字
 
 <span><span>```</span><span>html</span>
-<span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token comment<span>"</span></span><span>></span></span><span>&lt;!-- ↑ 使用可用的语言 --></span><span><span><span>&lt;/</span>span</span><span>></span></span>
-<span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token comment<span>"</span></span><span>></span></span><span>&lt;!-- 放置你的代码 --></span><span><span><span>&lt;/</span>span</span><span>></span></span>
-<span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token comment<span>"</span></span><span>></span></span><span>&lt;!-- 你可以有多个代码块 --></span><span><span><span>&lt;/</span>span</span><span>></span></span></span>
+<span><span>&lt;!-- ↑ 使用可用的语言 --></span>
+<span>&lt;!-- 放置你的代码 --></span>
+<span>&lt;!-- 你可以有多个代码块 --></span></span>
 <span>```</span></span>
 
 <span><span>```</span><span>json</span>
-<span>&lt;span class=<span>"token comment"</span>><span>// json block 作为插件配置&lt;/span></span>
-&lt;span class=<span>"token punctuation"</span>><span>{</span>&lt;/span>
-  &lt;span class=<span>"token comment"</span>><span>// 放置你的配置 (optional)&lt;/span></span>
-&lt;span class=<span>"token punctuation"</span>><span>}</span>&lt;/span></span>
+<span><span>// json block 作为插件配置</span>
+<span>{</span>
+  <span>// 放置你的配置 (optional)</span>
+<span>}</span></span>
 <span>```</span></span>
 
 :::
@@ -13566,27 +13545,27 @@ npm i -D vuepress-theme-hope
 <div><pre><code>::: demo 可选的标题文字
 
 <span><span>```</span><span>html</span>
-<span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token comment<span>"</span></span><span>></span></span><span>&lt;!-- html code --></span><span><span><span>&lt;/</span>span</span><span>></span></span></span>
+<span><span>&lt;!-- html code --></span></span>
 <span>```</span></span>
 
 <span><span>```</span><span>js</span>
-<span><span>&lt;</span>span <span>class</span><span>=</span><span>"token comment"</span><span>></span><span>// js code&lt;/span></span></span>
+<span><span>// js code</span></span>
 <span>```</span></span>
 
 <span><span>```</span><span>css</span>
-<span>&lt;span class=<span>"token comment"</span>><span>/* css code */</span>&lt;/span></span>
+<span><span>/* css code */</span></span>
 <span>```</span></span>
 
 <span><span>```</span><span>json</span>
-<span>&lt;span class=<span>"token comment"</span>><span>// 配置 (可选)&lt;/span></span>
-&lt;span class=<span>"token punctuation"</span>><span>{</span>&lt;/span>
-  &lt;span class=<span>"token property"</span>><span>"jsLib"</span>&lt;/span>&lt;span class=<span>"token operator"</span>><span>:</span>&lt;/span> &lt;span class=<span>"token punctuation"</span>><span>[</span>&lt;/span>
+<span><span>// 配置 (可选)</span>
+<span>{</span>
+  <span>"jsLib"</span><span>:</span> <span>[</span>
     ...
-  &lt;span class=<span>"token punctuation"</span>><span>]</span>&lt;/span>&lt;span class=<span>"token punctuation"</span>><span>,</span>&lt;/span>
-  &lt;span class=<span>"token property"</span>><span>"cssLib"</span>&lt;/span>&lt;span class=<span>"token operator"</span>><span>:</span>&lt;/span>&lt;span class=<span>"token punctuation"</span>><span>[</span>&lt;/span>
+  <span>]</span><span>,</span>
+  <span>"cssLib"</span><span>:</span><span>[</span>
     ...
-  &lt;span class=<span>"token punctuation"</span>><span>]</span>&lt;/span>
-&lt;span class=<span>"token punctuation"</span>><span>}</span>&lt;/span></span>
+  <span>]</span>
+<span>}</span></span>
 <span>```</span></span>
 
 :::
@@ -13611,7 +13590,7 @@ export default {
 <span>```</span></span>
 
 <span><span>```</span><span>json</span>
-<span>&lt;span class=<span>"token comment"</span>><span>// 配置 (可选)&lt;/span></span></span>
+<span><span>// 配置 (可选)</span></span>
 <span>```</span></span>
 
 :::
@@ -13621,17 +13600,17 @@ export default {
 <div><pre><code>::: demo [react] 可选的标题文字
 
 <span><span>```</span><span>js</span>
-<span><span>&lt;</span>span <span>class</span><span>=</span><span>"token keyword"</span><span>></span><span>export</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token keyword"</span><span>></span><span>default</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token keyword"</span><span>></span><span>class</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token class-name"</span><span>></span>App<span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token keyword"</span><span>></span><span>extends</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token class-name"</span><span>></span>React<span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>.</span><span>&lt;</span><span>/</span>span<span>></span>Component<span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>{</span><span>&lt;</span><span>/</span>span<span>></span>
-  <span>&lt;</span>span <span>class</span><span>=</span><span>"token comment"</span><span>></span><span>// react 组件&lt;/span></span>
-<span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>}</span><span>&lt;</span><span>/</span>span<span>></span></span>
+<span><span>export</span> <span>default</span> <span>class</span> <span>App</span> <span>extends</span> <span>React<span>.</span>Component</span> <span>{</span>
+  <span>// react 组件</span>
+<span>}</span></span>
 <span>```</span></span>
 
 <span><span>```</span><span>css</span>
-<span>&lt;span class=<span>"token comment"</span>><span>/* 你的 css 内容 */</span>&lt;/span></span>
+<span><span>/* 你的 css 内容 */</span></span>
 <span>```</span></span>
 
 <span><span>```</span><span>json</span>
-<span>&lt;span class=<span>"token comment"</span>><span>// 配置 (可选)&lt;/span></span></span>
+<span><span>// 配置 (可选)</span></span>
 <span>```</span></span>
 
 :::
@@ -13733,20 +13712,20 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <div><pre><code>::: demo 一个普通 Demo
 
 <span><span>```</span><span>html</span>
-<span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token tag<span>"</span></span><span>></span></span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token tag<span>"</span></span><span>></span></span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token punctuation<span>"</span></span><span>></span></span>&lt;<span><span><span>&lt;/</span>span</span><span>></span></span>h1<span><span><span>&lt;/</span>span</span><span>></span></span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token punctuation<span>"</span></span><span>></span></span>><span><span><span>&lt;/</span>span</span><span>></span></span><span><span><span>&lt;/</span>span</span><span>></span></span>Mr.Hope<span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token tag<span>"</span></span><span>></span></span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token tag<span>"</span></span><span>></span></span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token punctuation<span>"</span></span><span>></span></span>&lt;/<span><span><span>&lt;/</span>span</span><span>></span></span>h1<span><span><span>&lt;/</span>span</span><span>></span></span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token punctuation<span>"</span></span><span>></span></span>><span><span><span>&lt;/</span>span</span><span>></span></span><span><span><span>&lt;/</span>span</span><span>></span></span>
-<span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token tag<span>"</span></span><span>></span></span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token tag<span>"</span></span><span>></span></span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token punctuation<span>"</span></span><span>></span></span>&lt;<span><span><span>&lt;/</span>span</span><span>></span></span>p<span><span><span>&lt;/</span>span</span><span>></span></span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token punctuation<span>"</span></span><span>></span></span>><span><span><span>&lt;/</span>span</span><span>></span></span><span><span><span>&lt;/</span>span</span><span>></span></span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token tag<span>"</span></span><span>></span></span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token tag<span>"</span></span><span>></span></span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token punctuation<span>"</span></span><span>></span></span>&lt;<span><span><span>&lt;/</span>span</span><span>></span></span>span<span><span><span>&lt;/</span>span</span><span>></span></span> <span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token attr-name<span>"</span></span><span>></span></span>id<span><span><span>&lt;/</span>span</span><span>></span></span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token attr-value<span>"</span></span><span>></span></span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token punctuation attr-equals<span>"</span></span><span>></span></span>=<span><span><span>&lt;/</span>span</span><span>></span></span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token punctuation<span>"</span></span><span>></span></span>"<span><span><span>&lt;/</span>span</span><span>></span></span>very<span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token punctuation<span>"</span></span><span>></span></span>"<span><span><span>&lt;/</span>span</span><span>></span></span><span><span><span>&lt;/</span>span</span><span>></span></span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token punctuation<span>"</span></span><span>></span></span>><span><span><span>&lt;/</span>span</span><span>></span></span><span><span><span>&lt;/</span>span</span><span>></span></span>十分<span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token tag<span>"</span></span><span>></span></span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token tag<span>"</span></span><span>></span></span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token punctuation<span>"</span></span><span>></span></span>&lt;/<span><span><span>&lt;/</span>span</span><span>></span></span>span<span><span><span>&lt;/</span>span</span><span>></span></span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token punctuation<span>"</span></span><span>></span></span>><span><span><span>&lt;/</span>span</span><span>></span></span><span><span><span>&lt;/</span>span</span><span>></span></span> 帅<span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token tag<span>"</span></span><span>></span></span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token tag<span>"</span></span><span>></span></span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token punctuation<span>"</span></span><span>></span></span>&lt;/<span><span><span>&lt;/</span>span</span><span>></span></span>p<span><span><span>&lt;/</span>span</span><span>></span></span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token punctuation<span>"</span></span><span>></span></span>><span><span><span>&lt;/</span>span</span><span>></span></span><span><span><span>&lt;/</span>span</span><span>></span></span></span>
+<span><span><span><span>&lt;</span>h1</span><span>></span></span>Mr.Hope<span><span><span>&lt;/</span>h1</span><span>></span></span>
+<span><span><span>&lt;</span>p</span><span>></span></span><span><span><span>&lt;</span>span</span> <span>id</span><span><span>=</span><span>"</span>very<span>"</span></span><span>></span></span>十分<span><span><span>&lt;/</span>span</span><span>></span></span> 帅<span><span><span>&lt;/</span>p</span><span>></span></span></span>
 <span>```</span></span>
 
 <span><span>```</span><span>js</span>
-<span>document<span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>.</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token function"</span><span>></span>querySelector<span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>(</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token string"</span><span>></span><span>"#very"</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>)</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>.</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token function"</span><span>></span>addEventListener<span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>(</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token string"</span><span>></span><span>"click"</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>,</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>(</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>)</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token operator"</span><span>>=</span><span>></span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>{</span><span>&lt;</span><span>/</span>span<span>></span>
-  <span>&lt;</span>span <span>class</span><span>=</span><span>"token function"</span><span>></span>alert<span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>(</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token string"</span><span>></span><span>"十分帅"</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>)</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>;</span><span>&lt;</span><span>/</span>span<span>></span>
-<span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>}</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>)</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>;</span><span>&lt;</span><span>/</span>span<span>></span></span>
+<span>document<span>.</span><span>querySelector</span><span>(</span><span>"#very"</span><span>)</span><span>.</span><span>addEventListener</span><span>(</span><span>"click"</span><span>,</span> <span>(</span><span>)</span> <span>=></span> <span>{</span>
+  <span>alert</span><span>(</span><span>"十分帅"</span><span>)</span><span>;</span>
+<span>}</span><span>)</span><span>;</span></span>
 <span>```</span></span>
 
 <span><span>```</span><span>css</span>
-<span><span>&lt;span>span&lt;/span> &lt;span></span><span>{</span>&lt;/span>
-  &lt;span class=<span>"token property"</span>>color&lt;/span>&lt;span class=<span>"token punctuation"</span>><span>:</span>&lt;/span> red&lt;span class=<span>"token punctuation"</span>><span>;</span>&lt;/span>
-&lt;span class=<span>"token punctuation"</span>><span>}</span>&lt;/span></span>
+<span><span>span</span> <span>{</span>
+  <span>color</span><span>:</span> red<span>;</span>
+<span>}</span></span>
 <span>```</span></span>
 
 :::
@@ -13791,25 +13770,25 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <div><pre><code>::: demo [react] 一个 React Demo
 
 <span><span>```</span><span>js</span>
-<span><span>&lt;</span>span <span>class</span><span>=</span><span>"token keyword"</span><span>></span><span>export</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token keyword"</span><span>></span><span>default</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token keyword"</span><span>></span><span>class</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token class-name"</span><span>></span>App<span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token keyword"</span><span>></span><span>extends</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token class-name"</span><span>></span>React<span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>.</span><span>&lt;</span><span>/</span>span<span>></span>Component<span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>{</span><span>&lt;</span><span>/</span>span<span>></span>
-  <span>&lt;</span>span <span>class</span><span>=</span><span>"token function"</span><span>></span>constructor<span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>(</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token parameter"</span><span>></span>props<span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>)</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>{</span><span>&lt;</span><span>/</span>span<span>></span>
-    <span>&lt;</span>span <span>class</span><span>=</span><span>"token keyword"</span><span>></span><span>super</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>(</span><span>&lt;</span><span>/</span>span<span>></span>props<span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>)</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>;</span><span>&lt;</span><span>/</span>span<span>></span>
-    <span>&lt;</span>span <span>class</span><span>=</span><span>"token keyword"</span><span>></span><span>this</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>.</span><span>&lt;</span><span>/</span>span<span>></span>state <span>&lt;</span>span <span>class</span><span>=</span><span>"token operator"</span><span>>=</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>{</span><span>&lt;</span><span>/</span>span<span>></span> message<span>&lt;</span>span <span>class</span><span>=</span><span>"token operator"</span><span>></span><span>:</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token string"</span><span>></span><span>"十分帅"</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>}</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>;</span><span>&lt;</span><span>/</span>span<span>></span>
-  <span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>}</span><span>&lt;</span><span>/</span>span<span>></span>
-  <span>&lt;</span>span <span>class</span><span>=</span><span>"token function"</span><span>></span>render<span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>(</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>)</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>{</span><span>&lt;</span><span>/</span>span<span>></span>
-    <span>&lt;</span>span <span>class</span><span>=</span><span>"token keyword"</span><span>></span><span>return</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>(</span><span>&lt;</span><span>/</span>span<span>></span>
-      <span>&lt;</span>span <span>class</span><span>=</span><span>"token operator"</span><span>></span><span>&lt;&lt;</span><span>/</span>span<span>></span>div className<span>&lt;</span>span <span>class</span><span>=</span><span>"token operator"</span><span>>=</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token string"</span><span>></span><span>"box-react"</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token operator"</span><span>>></span><span>&lt;</span><span>/</span>span<span>></span>
-        Mr<span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>.</span><span>&lt;</span><span>/</span>span<span>></span>Hope <span>&lt;</span>span <span>class</span><span>=</span><span>"token operator"</span><span>></span><span>&lt;&lt;</span><span>/</span>span<span>></span>span<span>&lt;</span>span <span>class</span><span>=</span><span>"token operator"</span><span>>></span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>{</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token keyword"</span><span>></span><span>this</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>.</span><span>&lt;</span><span>/</span>span<span>></span>state<span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>.</span><span>&lt;</span><span>/</span>span<span>></span>message<span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>}</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token operator"</span><span>></span><span>&lt;&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token operator"</span><span>></span><span>/</span><span>&lt;</span><span>/</span>span<span>></span>span<span>&lt;</span>span <span>class</span><span>=</span><span>"token operator"</span><span>>></span><span>&lt;</span><span>/</span>span<span>></span>
-      <span>&lt;</span>span <span>class</span><span>=</span><span>"token operator"</span><span>></span><span>&lt;&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token operator"</span><span>></span><span>/</span><span>&lt;</span><span>/</span>span<span>></span>div<span>&lt;</span>span <span>class</span><span>=</span><span>"token operator"</span><span>>></span><span>&lt;</span><span>/</span>span<span>></span>
-    <span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>)</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>;</span><span>&lt;</span><span>/</span>span<span>></span>
-  <span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>}</span><span>&lt;</span><span>/</span>span<span>></span>
-<span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>}</span><span>&lt;</span><span>/</span>span<span>></span></span>
+<span><span>export</span> <span>default</span> <span>class</span> <span>App</span> <span>extends</span> <span>React<span>.</span>Component</span> <span>{</span>
+  <span>constructor</span><span>(</span><span>props</span><span>)</span> <span>{</span>
+    <span>super</span><span>(</span>props<span>)</span><span>;</span>
+    <span>this</span><span>.</span>state <span>=</span> <span>{</span> message<span>:</span> <span>"十分帅"</span> <span>}</span><span>;</span>
+  <span>}</span>
+  <span>render</span><span>(</span><span>)</span> <span>{</span>
+    <span>return</span> <span>(</span>
+      <span>&lt;</span>div className<span>=</span><span>"box-react"</span><span>></span>
+        Mr<span>.</span>Hope <span>&lt;</span>span<span>></span><span>{</span><span>this</span><span>.</span>state<span>.</span>message<span>}</span><span>&lt;</span><span>/</span>span<span>></span>
+      <span>&lt;</span><span>/</span>div<span>></span>
+    <span>)</span><span>;</span>
+  <span>}</span>
+<span>}</span></span>
 <span>```</span></span>
 
 <span><span>```</span><span>css</span>
-<span><span>&lt;span>.box-react span&lt;/span> &lt;span></span><span>{</span>&lt;/span>
-  &lt;span class=<span>"token property"</span>>color&lt;/span>&lt;span class=<span>"token punctuation"</span>><span>:</span>&lt;/span> red&lt;span class=<span>"token punctuation"</span>><span>;</span>&lt;/span>
-&lt;span class=<span>"token punctuation"</span>><span>}</span>&lt;/span></span>
+<span><span>.box-react span</span> <span>{</span>
+  <span>color</span><span>:</span> red<span>;</span>
+<span>}</span></span>
 <span>```</span></span>
 
 :::
@@ -13909,168 +13888,30 @@ document<span>.</span><span>querySelector</span><span>(</span><span>"h1"</span><
 <div><pre><code>::: demo 一个普通 Demo
 
 <span><span>```</span><span>md</span>
-<span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token title important<span>"</span></span><span>></span></span><span><span><span>&lt;</span>span</span> <span>class</span><span><span>=</span><span>"</span>token punctuation<span>"</span></span><span>></span></span>#<span><span><span>&lt;/</span>span</span><span>></span></span> 标题<span><span><span>&lt;/</span>span</span><span>></span></span>
+<span><span><span>#</span> 标题</span>
 
 十分帅</span>
 <span>```</span></span>
 
 <span><span>```</span><span>ts</span>
-<span><span>&lt;</span>span <span>class</span><span>=</span><span>"token keyword"</span><span>></span><span>const</span><span>&lt;</span><span>/</span>span<span>></span> message<span>&lt;</span>span <span>class</span><span>=</span><span>"token operator"</span><span>></span><span>:</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token builtin"</span><span>></span><span>string</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token operator"</span><span>>=</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token string"</span><span>></span><span>"Mr.Hope"</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>;</span><span>&lt;</span><span>/</span>span<span>></span>
+<span><span>const</span> message<span>:</span> <span>string</span> <span>=</span> <span>"Mr.Hope"</span><span>;</span>
 
-document<span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>.</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token function"</span><span>></span>querySelector<span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>(</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token string"</span><span>></span><span>"h1"</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>)</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>.</span><span>&lt;</span><span>/</span>span<span>></span>innerHTML <span>&lt;</span>span <span>class</span><span>=</span><span>"token operator"</span><span>>=</span><span>&lt;</span><span>/</span>span<span>></span> message<span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>;</span><span>&lt;</span><span>/</span>span<span>></span></span>
+document<span>.</span><span>querySelector</span><span>(</span><span>"h1"</span><span>)</span><span>.</span>innerHTML <span>=</span> message<span>;</span></span>
 <span>```</span></span>
 
 <span><span>```</span><span>scss</span>
-<span><span>&lt;span>h1 &lt;/span>&lt;span></span><span>{</span>&lt;/span>
-  &lt;span class=<span>"token property"</span>>font-style&lt;/span>&lt;span class=<span>"token punctuation"</span>><span>:</span>&lt;/span> italic&lt;span class=<span>"token punctuation"</span>><span>;</span><span>&lt;/span>
+<span><span>h1 </span><span>{</span>
+  <span>font-style</span><span>:</span> italic<span>;</span>
 
-  &lt;span>+ p &lt;/span>&lt;span></span><span>{</span>&lt;/span>
-    &lt;span class=<span>"token property"</span>>color&lt;/span>&lt;span class=<span>"token punctuation"</span>><span>:</span>&lt;/span> red&lt;span class=<span>"token punctuation"</span>><span>;</span>&lt;/span>
-  &lt;span class=<span>"token punctuation"</span>><span>}</span>&lt;/span>
-&lt;span class=<span>"token punctuation"</span>><span>}</span>&lt;/span></span>
+  <span>+ p </span><span>{</span>
+    <span>color</span><span>:</span> red<span>;</span>
+  <span>}</span>
+<span>}</span></span>
 <span>```</span></span>
 
 :::
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br></div></div>]]></content:encoded>
-    </item>
-    <item>
-      <title>代码复制</title>
-      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/copy-code/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/copy-code/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">代码复制</source>
-      <description>&amp;lt;p&amp;gt;如果你是一个程序员，你可能希望你的用户能够一键复制你在正文中展示的代码。&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;针对这一情况，&amp;lt;code&amp;gt;vuepress-theme-hope&amp;lt;/code&amp;gt; 内置了 &amp;lt;a href=&amp;quot;https://vuepress-theme-hope.github.io/copy-code/zh/&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;@mr-hope/copy-code&amp;lt;/a&amp;gt;，提供了一个复制按钮。&amp;lt;/p&amp;gt;
-</description>
-      <category>feature</category>
-      <content:encoded><![CDATA[<p>如果你是一个程序员，你可能希望你的用户能够一键复制你在正文中展示的代码。</p>
-<p>针对这一情况，<code>vuepress-theme-hope</code> 内置了 <a href="https://vuepress-theme-hope.github.io/copy-code/zh/" target="_blank" rel="noopener noreferrer">@mr-hope/copy-code</a>，提供了一个复制按钮。</p>
-
-<h2 id="使用"> 使用</h2>
-<p>启用后，本插件会自动添加复制按钮到每个代码块的右下角。</p>
-<p>默认情况下，按钮仅在桌面模式显示，如果你需要在移动端展示这个按钮，请将 <code>themeConfig.copyCode.showInMobile</code> 设置为 <code>true</code>。</p>
-<p>在用户点击复制按钮后，屏幕上会显示一个复制成功的提示。默认的提示时长为 2000ms，如果你需要更改这个时长，请设置 <code>themeConfig.copyCode.duration</code>(单位 ms)，如果你不需要这个提示，请将 <code>themeConfig.copyCode.duration</code> 设置为 <code>0</code>。</p>
-<h2 id="效果"> 效果</h2>
-<div><pre><code><span>// .vuepress/config.js</span>
-module<span>.</span>exports <span>=</span> <span>{</span>
-  themeConfig<span>:</span> <span>{</span>
-    copyCode<span>:</span> <span>{</span><span>}</span><span>,</span>
-  <span>}</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div>]]></content:encoded>
-    </item>
-    <item>
-      <title>评论</title>
-      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/comment/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/comment/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">评论</source>
-      <description>&amp;lt;p&amp;gt;通过内置 &amp;lt;code&amp;gt;@mr-hope/vuepress-plugin-comment&amp;lt;/code&amp;gt;，&amp;lt;code&amp;gt;vuepress-theme-hope&amp;lt;/code&amp;gt; 实现了评论功能。&amp;lt;/p&amp;gt;
-</description>
-      <category>feature</category>
-      <content:encoded><![CDATA[<p>通过内置 <code>@mr-hope/vuepress-plugin-comment</code>，<code>vuepress-theme-hope</code> 实现了评论功能。</p>
-
-<h2 id="启用"> 启用 <i>Not supported content</i></h2>
-<div><div><br><br><br><br><div>&nbsp;</div><br><br><div>&nbsp;</div><div>&nbsp;</div><br><br><br><br></div><pre><code><span>// .vuepress/config.js</span>
-module<span>.</span>exports <span>=</span> <span>{</span>
-  themeConfig<span>:</span> <span>{</span>
-    comment<span>:</span> <span>{</span>
-      type<span>:</span> <span>"valine"</span><span>,</span> <span>// "valine" 或 "vssue"</span>
-
-      <span>// valine 模式下</span>
-      appId<span>:</span> <span>"..."</span><span>,</span> <span>// your appId</span>
-      appKey<span>:</span> <span>"..."</span><span>,</span> <span>// your appKey</span>
-    <span>}</span><span>,</span>
-  <span>}</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br></div></div><p>评论功能默认全局启用，配置项为 <code>comment</code>。</p>
-<div><p>Info</p>
-<p>受篇幅限制，完整的评论插件配置，详见 <a href="https://vuepress-theme-hope.github.io/comment" target="_blank" rel="noopener noreferrer">@mr-hope/vuepress-plugin-comment 插件文档</a>。</p>
-</div>
-<h2 id="评论服务"> 评论服务</h2>
-<p>有两个评论插件可以选择: Valine 和 Vssue。</p>
-<div><p>Valine 与 Vssue 的比较</p>
-<ul>
-<li>Valine 使用 leancloud，支持页面访问量统计，无需登录账号即可评论</li>
-<li>Vssue 使用代码平台仓库的 issue 面板，需要用户登录或注册相应平台账号。</li>
-</ul>
-<p>如果你的站点面向大众而非程序员，推荐使用 Valine。</p>
-</div>
-<h2 id="valine"> Valine</h2>
-<p>借助 Valine，主题实现了无后端开启阅读量展示与评论功能。</p>
-<h3 id="获取-app-id-和-app-key"> 获取 APP ID 和 APP Key</h3>
-<p>请先 <a href="https://leancloud.cn/dashboard/login.html#/signin" target="_blank" rel="noopener noreferrer">登录</a> 或 <a href="https://leancloud.cn/dashboard/login.html#/signup" target="_blank" rel="noopener noreferrer">注册</a> LeanCloud, 进入控制台后点击左下角创建应用。</p>
-<p>应用创建好以后，进入刚刚创建的应用，选择左下角的 <code>设置 &gt; 应用Key</code>，然后就能看到你的 <code>APP ID</code> 和 <code>APP Key</code> 了。</p>
-<div><pre><code><span>{</span>
-  type<span>:</span> <span>'valine'</span><span>,</span>
-  appId<span>:</span> <span>'...'</span><span>,</span> <span>// your appId</span>
-  appKey<span>:</span> <span>'...'</span> <span>// your appKey</span>
-<span>}</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>将对应的 <code>APP ID</code> 和 <code>APP Key</code> 填入， Valine 即配置完成。</p>
-<p>Valine 评论的其他配置将在 <a href="http://vuepress-theme-hope.github.io/comment/zh/config/valine/" target="_blank" rel="noopener noreferrer">配置</a> 中列出。</p>
-<div><p>Tips</p>
-<p>更多配置与使用，请见 <a href="https://valine.js.org" target="_blank" rel="noopener noreferrer">Valine 官方文档</a>。</p>
-</div>
-<h2 id="vssue"> Vssue</h2>
-<h3 id="选择你要使用的代码托管平台"> 选择你要使用的代码托管平台</h3>
-<p>Vssue 支持通过 GitHub, Gitlab, Bitbucket 或者 Gitee 的 Issue 系统来为你的静态页面提供评论功能，你可以选择其中之一来使用。</p>
-<p>前往 <a href="http://vuepress-theme-hope.github.io/comment/zh/guide/supported-platforms/" target="_blank" rel="noopener noreferrer">支持的代码托管平台 - 创建 OAuth App</a> 查看详细指引。</p>
-<p>完成这一步之后，你将会配置好一个 OAuth App，并得到对应的 <code>client id</code> 和 <code>client secret</code>，它们将会用于 Vssue 的使用。</p>
-<ul>
-<li><code>owner</code>: 对应 repository 的拥有者帐号或者团队</li>
-<li><code>repo</code>: 用来存储评论的 repository</li>
-<li><code>clientId</code>: OAuth App 的 <code>client id</code></li>
-<li><code>clientSecret</code>: OAuth App 的 <code>client secret</code> (只有在使用某些平台时需要)</li>
-</ul>
-<h3 id="使用插件"> 使用插件</h3>
-<div><div><br><br><br><br><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><br><br><br></div><pre><code><span>// .vuepress/config.js</span>
-
-module<span>.</span>exports <span>=</span> <span>{</span>
-  plugins<span>:</span> <span>{</span>
-    <span>"@mr-hope/comment"</span><span>:</span> <span>{</span>
-      type<span>:</span> <span>"vssue"</span><span>,</span>
-      <span>// 设置 `platform` 而不是 `api`</span>
-      platform<span>:</span> <span>"github"</span><span>,</span>
-
-      <span>// 其他的 Vssue 配置</span>
-      owner<span>:</span> <span>"OWNER_OF_REPO"</span><span>,</span>
-      repo<span>:</span> <span>"NAME_OF_REPO"</span><span>,</span>
-      clientId<span>:</span> <span>"YOUR_CLIENT_ID"</span><span>,</span>
-      clientSecret<span>:</span> <span>"YOUR_CLIENT_SECRET"</span><span>,</span>
-    <span>}</span><span>,</span>
-  <span>}</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br></div></div><div><p>Tips</p>
-<p>唯一的区别在于，你需要设置 <code>platform</code> 而不是对应的 <code>api</code> 包。</p>
-<p><code>@vssue/vuepress-plugin-vssue</code> 会自动根据你设置的 <code>platform</code> 为你解析对应的 API 包:</p>
-<ul>
-<li>Platform <code>github</code> - API 包 <code>@vssue/api-github-v3</code></li>
-<li>Platform <code>github-v4</code> - API 包 <code>@vssue/api-github-v4</code></li>
-<li>Platform <code>gitlab</code> - API 包 <code>@vssue/api-gitlab-v4</code></li>
-<li>Platform <code>bitbucket</code> - API 包 <code>@vssue/api-bitbucket-v2</code></li>
-<li>Platform <code>gitee</code> - API 包 <code>@vssue/api-gitee-v5</code></li>
-<li>Platform <code>gitea</code> - API 包 <code>@vssue/api-gitea-v1</code></li>
-</ul>
-</div>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>博客</title>
-      <link>https://vuepress-theme-hope.github.io/zh/guide/blog/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/guide/blog/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">博客</source>
-      <category>blog</category>
-      <content:encoded><![CDATA[<h2 id="目录"> 目录</h2>
-<ul>
-<li>
-<p><a href="./blog.html">博客支持</a></p>
-</li>
-<li>
-<p><a href="./home.html">博客主页</a></p>
-</li>
-</ul>
-]]></content:encoded>
     </item>
     <item>
       <title>外部引入</title>
@@ -14412,7 +14253,7 @@ c2(no)->op2->e
 <span><span>##</span> 幻灯片 3.1</span>
 
 <span><span>```</span><span>js</span>
-<span><span>&lt;</span>span <span>class</span><span>=</span><span>"token keyword"</span><span>></span><span>const</span><span>&lt;</span><span>/</span>span<span>></span> a <span>&lt;</span>span <span>class</span><span>=</span><span>"token operator"</span><span>>=</span><span>&lt;</span><span>/</span>span<span>></span> <span>&lt;</span>span <span>class</span><span>=</span><span>"token number"</span><span>></span><span>1</span><span>&lt;</span><span>/</span>span<span>></span><span>&lt;</span>span <span>class</span><span>=</span><span>"token punctuation"</span><span>></span><span>;</span><span>&lt;</span><span>/</span>span<span>></span></span>
+<span><span>const</span> a <span>=</span> <span>1</span><span>;</span></span>
 <span>```</span></span>
 
 --
@@ -14781,6 +14622,144 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 <h2 id="官方-qq-群"> 官方 QQ 群</h2>
 <ul>
 <li><a href="https://jq.qq.com/?_wv=1027&amp;k=rATJyxGK" target="_blank" rel="noopener noreferrer">点击加入</a> (群号: 1003437555)</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>代码复制</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/copy-code/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/copy-code/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">代码复制</source>
+      <description>&amp;lt;p&amp;gt;如果你是一个程序员，你可能希望你的用户能够一键复制你在正文中展示的代码。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;针对这一情况，&amp;lt;code&amp;gt;vuepress-theme-hope&amp;lt;/code&amp;gt; 内置了 &amp;lt;a href=&amp;quot;https://vuepress-theme-hope.github.io/copy-code/zh/&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;@mr-hope/copy-code&amp;lt;/a&amp;gt;，提供了一个复制按钮。&amp;lt;/p&amp;gt;
+</description>
+      <category>feature</category>
+      <content:encoded><![CDATA[<p>如果你是一个程序员，你可能希望你的用户能够一键复制你在正文中展示的代码。</p>
+<p>针对这一情况，<code>vuepress-theme-hope</code> 内置了 <a href="https://vuepress-theme-hope.github.io/copy-code/zh/" target="_blank" rel="noopener noreferrer">@mr-hope/copy-code</a>，提供了一个复制按钮。</p>
+
+<h2 id="使用"> 使用</h2>
+<p>启用后，本插件会自动添加复制按钮到每个代码块的右下角。</p>
+<p>默认情况下，按钮仅在桌面模式显示，如果你需要在移动端展示这个按钮，请将 <code>themeConfig.copyCode.showInMobile</code> 设置为 <code>true</code>。</p>
+<p>在用户点击复制按钮后，屏幕上会显示一个复制成功的提示。默认的提示时长为 2000ms，如果你需要更改这个时长，请设置 <code>themeConfig.copyCode.duration</code>(单位 ms)，如果你不需要这个提示，请将 <code>themeConfig.copyCode.duration</code> 设置为 <code>0</code>。</p>
+<h2 id="效果"> 效果</h2>
+<div><pre><code><span>// .vuepress/config.js</span>
+module<span>.</span>exports <span>=</span> <span>{</span>
+  themeConfig<span>:</span> <span>{</span>
+    copyCode<span>:</span> <span>{</span><span>}</span><span>,</span>
+  <span>}</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div>]]></content:encoded>
+    </item>
+    <item>
+      <title>评论</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/comment/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/comment/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">评论</source>
+      <description>&amp;lt;p&amp;gt;通过内置 &amp;lt;code&amp;gt;@mr-hope/vuepress-plugin-comment&amp;lt;/code&amp;gt;，&amp;lt;code&amp;gt;vuepress-theme-hope&amp;lt;/code&amp;gt; 实现了评论功能。&amp;lt;/p&amp;gt;
+</description>
+      <category>feature</category>
+      <content:encoded><![CDATA[<p>通过内置 <code>@mr-hope/vuepress-plugin-comment</code>，<code>vuepress-theme-hope</code> 实现了评论功能。</p>
+
+<h2 id="启用"> 启用 <i>Not supported content</i></h2>
+<div><div><br><br><br><br><div>&nbsp;</div><br><br><div>&nbsp;</div><div>&nbsp;</div><br><br><br><br></div><pre><code><span>// .vuepress/config.js</span>
+module<span>.</span>exports <span>=</span> <span>{</span>
+  themeConfig<span>:</span> <span>{</span>
+    comment<span>:</span> <span>{</span>
+      type<span>:</span> <span>"valine"</span><span>,</span> <span>// "valine" 或 "vssue"</span>
+
+      <span>// valine 模式下</span>
+      appId<span>:</span> <span>"..."</span><span>,</span> <span>// your appId</span>
+      appKey<span>:</span> <span>"..."</span><span>,</span> <span>// your appKey</span>
+    <span>}</span><span>,</span>
+  <span>}</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br></div></div><p>评论功能默认全局启用，配置项为 <code>comment</code>。</p>
+<div><p>Info</p>
+<p>受篇幅限制，完整的评论插件配置，详见 <a href="https://vuepress-theme-hope.github.io/comment" target="_blank" rel="noopener noreferrer">@mr-hope/vuepress-plugin-comment 插件文档</a>。</p>
+</div>
+<h2 id="评论服务"> 评论服务</h2>
+<p>有两个评论插件可以选择: Valine 和 Vssue。</p>
+<div><p>Valine 与 Vssue 的比较</p>
+<ul>
+<li>Valine 使用 leancloud，支持页面访问量统计，无需登录账号即可评论</li>
+<li>Vssue 使用代码平台仓库的 issue 面板，需要用户登录或注册相应平台账号。</li>
+</ul>
+<p>如果你的站点面向大众而非程序员，推荐使用 Valine。</p>
+</div>
+<h2 id="valine"> Valine</h2>
+<p>借助 Valine，主题实现了无后端开启阅读量展示与评论功能。</p>
+<h3 id="获取-app-id-和-app-key"> 获取 APP ID 和 APP Key</h3>
+<p>请先 <a href="https://leancloud.cn/dashboard/login.html#/signin" target="_blank" rel="noopener noreferrer">登录</a> 或 <a href="https://leancloud.cn/dashboard/login.html#/signup" target="_blank" rel="noopener noreferrer">注册</a> LeanCloud, 进入控制台后点击左下角创建应用。</p>
+<p>应用创建好以后，进入刚刚创建的应用，选择左下角的 <code>设置 &gt; 应用Key</code>，然后就能看到你的 <code>APP ID</code> 和 <code>APP Key</code> 了。</p>
+<div><pre><code><span>{</span>
+  type<span>:</span> <span>'valine'</span><span>,</span>
+  appId<span>:</span> <span>'...'</span><span>,</span> <span>// your appId</span>
+  appKey<span>:</span> <span>'...'</span> <span>// your appKey</span>
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>将对应的 <code>APP ID</code> 和 <code>APP Key</code> 填入， Valine 即配置完成。</p>
+<p>Valine 评论的其他配置将在 <a href="http://vuepress-theme-hope.github.io/comment/zh/config/valine/" target="_blank" rel="noopener noreferrer">配置</a> 中列出。</p>
+<div><p>Tips</p>
+<p>更多配置与使用，请见 <a href="https://valine.js.org" target="_blank" rel="noopener noreferrer">Valine 官方文档</a>。</p>
+</div>
+<h2 id="vssue"> Vssue</h2>
+<h3 id="选择你要使用的代码托管平台"> 选择你要使用的代码托管平台</h3>
+<p>Vssue 支持通过 GitHub, Gitlab, Bitbucket 或者 Gitee 的 Issue 系统来为你的静态页面提供评论功能，你可以选择其中之一来使用。</p>
+<p>前往 <a href="http://vuepress-theme-hope.github.io/comment/zh/guide/supported-platforms/" target="_blank" rel="noopener noreferrer">支持的代码托管平台 - 创建 OAuth App</a> 查看详细指引。</p>
+<p>完成这一步之后，你将会配置好一个 OAuth App，并得到对应的 <code>client id</code> 和 <code>client secret</code>，它们将会用于 Vssue 的使用。</p>
+<ul>
+<li><code>owner</code>: 对应 repository 的拥有者帐号或者团队</li>
+<li><code>repo</code>: 用来存储评论的 repository</li>
+<li><code>clientId</code>: OAuth App 的 <code>client id</code></li>
+<li><code>clientSecret</code>: OAuth App 的 <code>client secret</code> (只有在使用某些平台时需要)</li>
+</ul>
+<h3 id="使用插件"> 使用插件</h3>
+<div><div><br><br><br><br><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><br><br><br></div><pre><code><span>// .vuepress/config.js</span>
+
+module<span>.</span>exports <span>=</span> <span>{</span>
+  plugins<span>:</span> <span>{</span>
+    <span>"@mr-hope/comment"</span><span>:</span> <span>{</span>
+      type<span>:</span> <span>"vssue"</span><span>,</span>
+      <span>// 设置 `platform` 而不是 `api`</span>
+      platform<span>:</span> <span>"github"</span><span>,</span>
+
+      <span>// 其他的 Vssue 配置</span>
+      owner<span>:</span> <span>"OWNER_OF_REPO"</span><span>,</span>
+      repo<span>:</span> <span>"NAME_OF_REPO"</span><span>,</span>
+      clientId<span>:</span> <span>"YOUR_CLIENT_ID"</span><span>,</span>
+      clientSecret<span>:</span> <span>"YOUR_CLIENT_SECRET"</span><span>,</span>
+    <span>}</span><span>,</span>
+  <span>}</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br></div></div><div><p>Tips</p>
+<p>唯一的区别在于，你需要设置 <code>platform</code> 而不是对应的 <code>api</code> 包。</p>
+<p><code>@vssue/vuepress-plugin-vssue</code> 会自动根据你设置的 <code>platform</code> 为你解析对应的 API 包:</p>
+<ul>
+<li>Platform <code>github</code> - API 包 <code>@vssue/api-github-v3</code></li>
+<li>Platform <code>github-v4</code> - API 包 <code>@vssue/api-github-v4</code></li>
+<li>Platform <code>gitlab</code> - API 包 <code>@vssue/api-gitlab-v4</code></li>
+<li>Platform <code>bitbucket</code> - API 包 <code>@vssue/api-bitbucket-v2</code></li>
+<li>Platform <code>gitee</code> - API 包 <code>@vssue/api-gitee-v5</code></li>
+<li>Platform <code>gitea</code> - API 包 <code>@vssue/api-gitea-v1</code></li>
+</ul>
+</div>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>博客</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/blog/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/blog/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">博客</source>
+      <category>blog</category>
+      <content:encoded><![CDATA[<h2 id="目录"> 目录</h2>
+<ul>
+<li>
+<p><a href="./blog.html">博客支持</a></p>
+</li>
+<li>
+<p><a href="./home.html">博客主页</a></p>
+</li>
 </ul>
 ]]></content:encoded>
     </item>
