@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/comment/</link>
     <description>Comment Plugin for VuePress</description>
     <language>en-US</language>
-    <pubDate>Sun, 28 Feb 2021 17:07:42 GMT</pubDate>
-    <lastBuildDate>Sun, 28 Feb 2021 17:07:42 GMT</lastBuildDate>
+    <pubDate>Sun, 28 Feb 2021 17:14:37 GMT</pubDate>
+    <lastBuildDate>Sun, 28 Feb 2021 17:14:37 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -502,6 +502,54 @@ And if you already have vue-i18n in your project, it will not affect Vssue.</p>
 <p>If <code>autoCreateIssue</code> is set to <code>false</code>, you need to create the issue manually.</p>
 </li>
 </ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>BitBucket OAuth Consumer</title>
+      <link>https://vuepress-theme-hope.github.io/comment/guide/bitbucket/</link>
+      <guid>https://vuepress-theme-hope.github.io/comment/guide/bitbucket/</guid>
+      <source url="https://vuepress-theme-hope.github.io/comment/rss.xml">BitBucket OAuth Consumer</source>
+      <content:encoded><![CDATA[<h1 id="bitbucket-oauth-consumer"> BitBucket OAuth Consumer</h1>
+<h2 id="create-a-new-oauth-consumer"> Create a new OAuth Consumer</h2>
+<ul>
+<li>Go to <strong>Bitbucket settings - OAuth</strong></li>
+<li>Click <strong>Add consumer</strong></li>
+</ul>
+<p><img src="./assets/oauth-app-bitbucket-01.png" alt="Set up OAuth App - Bitbucket 01">
+<img src="./assets/oauth-app-bitbucket-02.png" alt="Set up OAuth App - Bitbucket 02">
+<img src="./assets/oauth-app-bitbucket-03.png" alt="Set up OAuth App - Bitbucket 03"></p>
+<ul>
+<li>Set the <code>Callback URL</code> to your site URL (Here we take <code>localhost:8080</code> for example)</li>
+<li>Unselect <code>This is a private consumer</code></li>
+<li>Select <code>Account - Read</code> and <code>Issues - Write</code> permissions</li>
+</ul>
+<p><img src="./assets/oauth-app-bitbucket-04.png" alt="Set up OAuth App - Bitbucket 04">
+<img src="./assets/oauth-app-bitbucket-05.png" alt="Set up OAuth App - Bitbucket 05"></p>
+<h2 id="get-the-client-id"> Get the Client ID</h2>
+<p>Then you’ve created a new OAuth Consumer, and here is your <strong>Key</strong> (<code>Client ID</code>).</p>
+<p><img src="./assets/oauth-app-bitbucket-06.png" alt="Set up OAuth App - Bitbucket 06"></p>
+<h2 id="config-and-start-your-vssue"> Config and start your Vssue</h2>
+<p>Copy the <code>Client ID</code>, and set <code>owner</code> and <code>repo</code>.</p>
+<blockquote>
+<p>The URL pattern of bitbucket repo is <code>https://bitbucket.org/${owner}/${repo}</code></p>
+</blockquote>
+<p>Here we take <code>https://bitbucket.org/meteorlxy/vssue-demo</code> for example, and set the <code>title</code> of issue to <code>Vssue Demo</code>.</p>
+<p>Then run <code>anywhere -h localhost 8080</code> to serve the <code>index.html</code> on <code>localhost:8080</code>.</p>
+<p><img src="./assets/oauth-app-bitbucket-07.png" alt="Set up OAuth App - Bitbucket 07"></p>
+<h2 id="try-out-vssue-locally"> Try out Vssue locally</h2>
+<p>Vssue has already run here. Click <code>Login</code> to login with Bitbucket account.</p>
+<p><img src="./assets/oauth-app-bitbucket-08.png" alt="Set up OAuth App - Bitbucket 08"></p>
+<p>Redirect to Bitbucket Authorization page. Click <code>Grant access</code> to login.</p>
+<p><img src="./assets/oauth-app-bitbucket-09.png" alt="Set up OAuth App - Bitbucket 09">
+<img src="./assets/oauth-app-bitbucket-10.png" alt="Set up OAuth App - Bitbucket 10"></p>
+<p>Oops, failed to load comments. Your repository should enable the <strong>Issue Tracker</strong> to make Vssue works.</p>
+<p><img src="./assets/oauth-app-bitbucket-11.png" alt="Set up OAuth App - Bitbucket 11"></p>
+<p>Leave a comment on this page ~</p>
+<p><img src="./assets/oauth-app-bitbucket-12.png" alt="Set up OAuth App - Bitbucket 12">
+<img src="./assets/oauth-app-bitbucket-13.png" alt="Set up OAuth App - Bitbucket 13"></p>
+<div><p>Tips</p>
+<p>You can go to the repository <a href="https://bitbucket.org/meteorlxy/vssue-demo" target="_blank" rel="noopener noreferrer">meteorlxy/vssue-demo</a> to get the demo code. Check the <a href="https://bitbucket.org/meteorlxy/vssue-demo/issues/1" target="_blank" rel="noopener noreferrer">#1 issue</a> of that repository to see what happened.</p>
+</div>
 ]]></content:encoded>
     </item>
     <item>
@@ -2057,54 +2105,6 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <span>}</span><span>;</span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div>]]></content:encoded>
-    </item>
-    <item>
-      <title>BitBucket OAuth Consumer</title>
-      <link>https://vuepress-theme-hope.github.io/comment/guide/bitbucket/</link>
-      <guid>https://vuepress-theme-hope.github.io/comment/guide/bitbucket/</guid>
-      <source url="https://vuepress-theme-hope.github.io/comment/rss.xml">BitBucket OAuth Consumer</source>
-      <content:encoded><![CDATA[<h1 id="bitbucket-oauth-consumer"> BitBucket OAuth Consumer</h1>
-<h2 id="create-a-new-oauth-consumer"> Create a new OAuth Consumer</h2>
-<ul>
-<li>Go to <strong>Bitbucket settings - OAuth</strong></li>
-<li>Click <strong>Add consumer</strong></li>
-</ul>
-<p><img src="./assets/oauth-app-bitbucket-01.png" alt="Set up OAuth App - Bitbucket 01">
-<img src="./assets/oauth-app-bitbucket-02.png" alt="Set up OAuth App - Bitbucket 02">
-<img src="./assets/oauth-app-bitbucket-03.png" alt="Set up OAuth App - Bitbucket 03"></p>
-<ul>
-<li>Set the <code>Callback URL</code> to your site URL (Here we take <code>localhost:8080</code> for example)</li>
-<li>Unselect <code>This is a private consumer</code></li>
-<li>Select <code>Account - Read</code> and <code>Issues - Write</code> permissions</li>
-</ul>
-<p><img src="./assets/oauth-app-bitbucket-04.png" alt="Set up OAuth App - Bitbucket 04">
-<img src="./assets/oauth-app-bitbucket-05.png" alt="Set up OAuth App - Bitbucket 05"></p>
-<h2 id="get-the-client-id"> Get the Client ID</h2>
-<p>Then you’ve created a new OAuth Consumer, and here is your <strong>Key</strong> (<code>Client ID</code>).</p>
-<p><img src="./assets/oauth-app-bitbucket-06.png" alt="Set up OAuth App - Bitbucket 06"></p>
-<h2 id="config-and-start-your-vssue"> Config and start your Vssue</h2>
-<p>Copy the <code>Client ID</code>, and set <code>owner</code> and <code>repo</code>.</p>
-<blockquote>
-<p>The URL pattern of bitbucket repo is <code>https://bitbucket.org/${owner}/${repo}</code></p>
-</blockquote>
-<p>Here we take <code>https://bitbucket.org/meteorlxy/vssue-demo</code> for example, and set the <code>title</code> of issue to <code>Vssue Demo</code>.</p>
-<p>Then run <code>anywhere -h localhost 8080</code> to serve the <code>index.html</code> on <code>localhost:8080</code>.</p>
-<p><img src="./assets/oauth-app-bitbucket-07.png" alt="Set up OAuth App - Bitbucket 07"></p>
-<h2 id="try-out-vssue-locally"> Try out Vssue locally</h2>
-<p>Vssue has already run here. Click <code>Login</code> to login with Bitbucket account.</p>
-<p><img src="./assets/oauth-app-bitbucket-08.png" alt="Set up OAuth App - Bitbucket 08"></p>
-<p>Redirect to Bitbucket Authorization page. Click <code>Grant access</code> to login.</p>
-<p><img src="./assets/oauth-app-bitbucket-09.png" alt="Set up OAuth App - Bitbucket 09">
-<img src="./assets/oauth-app-bitbucket-10.png" alt="Set up OAuth App - Bitbucket 10"></p>
-<p>Oops, failed to load comments. Your repository should enable the <strong>Issue Tracker</strong> to make Vssue works.</p>
-<p><img src="./assets/oauth-app-bitbucket-11.png" alt="Set up OAuth App - Bitbucket 11"></p>
-<p>Leave a comment on this page ~</p>
-<p><img src="./assets/oauth-app-bitbucket-12.png" alt="Set up OAuth App - Bitbucket 12">
-<img src="./assets/oauth-app-bitbucket-13.png" alt="Set up OAuth App - Bitbucket 13"></p>
-<div><p>Tips</p>
-<p>You can go to the repository <a href="https://bitbucket.org/meteorlxy/vssue-demo" target="_blank" rel="noopener noreferrer">meteorlxy/vssue-demo</a> to get the demo code. Check the <a href="https://bitbucket.org/meteorlxy/vssue-demo/issues/1" target="_blank" rel="noopener noreferrer">#1 issue</a> of that repository to see what happened.</p>
-</div>
-]]></content:encoded>
     </item>
   </channel>
 </rss>
