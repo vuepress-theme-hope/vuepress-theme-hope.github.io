@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/copy-code/</link>
     <description>Quick Code Copy Plugin for vuepress</description>
     <language>en-US</language>
-    <pubDate>Sun, 28 Feb 2021 16:49:58 GMT</pubDate>
-    <lastBuildDate>Sun, 28 Feb 2021 16:49:58 GMT</lastBuildDate>
+    <pubDate>Sun, 28 Feb 2021 17:07:42 GMT</pubDate>
+    <lastBuildDate>Sun, 28 Feb 2021 17:07:42 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -49,8 +49,8 @@
       <source url="https://vuepress-theme-hope.github.io/copy-code/rss.xml">Guide</source>
       <content:encoded><![CDATA[<h2 id="usage"> Usage</h2>
 <p>After enabling, this plugin will automatically add a copy button to the bottom right corner of each code block.</p>
-<p>By default, the button is only displayed on desktop mode. If you want to display this button on mobile devices, set <code>showInMobile</code> to <code>true</code>.</p>
-<p>After user press the copy button, a success hint will display on the screen. The default hint duration is 2000ms, if you want to change the duration, please set <code>duration</code> in options (ms). If you want to disable the hint, set duration to <code>0</code>.</p>
+<p>By default, the button is only displayed on desktop mode. To display this button on mobile devices, set <code>showInMobile</code> to <code>true</code>.</p>
+<p>After user press the copy button, a success hint will display on the screen. The default hint duration is 2000ms, to change the duration, please set <code>duration</code> in options (ms). To disable the hint, set duration to <code>0</code>.</p>
 <h2 id="effect"> Effect</h2>
 <div><pre><code><span>// .vuepress/config.js</span>
 module<span>.</span>exports <span>=</span> <span>{</span>

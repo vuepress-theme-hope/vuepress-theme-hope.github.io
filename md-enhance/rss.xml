@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/md-enhance/</link>
     <description>Markdown Enhancement for VuePress</description>
     <language>en-US</language>
-    <pubDate>Sun, 28 Feb 2021 16:49:58 GMT</pubDate>
-    <lastBuildDate>Sun, 28 Feb 2021 16:49:58 GMT</lastBuildDate>
+    <pubDate>Sun, 28 Feb 2021 17:07:42 GMT</pubDate>
+    <lastBuildDate>Sun, 28 Feb 2021 17:07:42 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -732,6 +732,73 @@ document<span>.</span><span>querySelector</span><span>(</span><span>"h1"</span><
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br></div></div>]]></content:encoded>
     </item>
     <item>
+      <title>Footnote</title>
+      <link>https://vuepress-theme-hope.github.io/md-enhance/guide/footnote/</link>
+      <guid>https://vuepress-theme-hope.github.io/md-enhance/guide/footnote/</guid>
+      <source url="https://vuepress-theme-hope.github.io/md-enhance/rss.xml">Footnote</source>
+      <description>&amp;lt;p&amp;gt;Let the Markdown file in your VuePress site support footnotes.&amp;lt;/p&amp;gt;
+</description>
+      <category>markdown</category>
+      <content:encoded><![CDATA[<p>Let the Markdown file in your VuePress site support footnotes.</p>
+
+<h2 id="configuration"> Configuration</h2>
+<div><div><br><br><br><br><br><br><div>&nbsp;</div><br><br><br><br><br></div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
+  plugins<span>:</span> <span>[</span>
+    <span>[</span>
+      <span>"md-enhance"</span><span>,</span>
+      <span>{</span>
+        <span>// Enable Footnote</span>
+        footnote<span>:</span> <span>true</span><span>,</span>
+      <span>}</span><span>,</span>
+    <span>]</span><span>,</span>
+  <span>]</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div><h2 id="syntax"> Syntax</h2>
+<ul>
+<li>
+<p>Use <code>[^Anchor text]</code> in Markdown to define a footnote</p>
+</li>
+<li>
+<p>Use <code>[^Anchor text]: ...</code> to describe footnote content</p>
+</li>
+<li>
+<p>If there are muti paragraph in footnote, the paragraph show be double indented</p>
+</li>
+</ul>
+<h2 id="case"> Case</h2>
+<p>Footnote 1 link<sup></sup>.</p>
+<p>Footnote 2 link<sup></sup>.</p>
+<p>Inline footnote<sup></sup> definition.</p>
+<p>Duplicated footnote reference<sup></sup>.</p>
+<div><pre><code>Footnote 1 link[^first].
+
+Footnote 2 link[^second].
+
+Inline footnote^[Text of inline footnote] definition.
+
+Duplicated footnote reference[^second].
+
+<span><span>[</span><span>^first</span><span>]</span><span>:</span> Footnote</span> <span><span>**</span><span>can have markup</span><span>**</span></span>
+
+<span>    and multiple paragraphs.</span>
+
+<span><span>[</span><span>^second</span><span>]</span><span>:</span> Footnote</span> text.
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></div></div><hr>
+<section>
+<ol>
+<li id="fn1"><p>Footnote <strong>can have markup</strong></p>
+<p>and multiple paragraphs. </p>
+</li>
+<li id="fn2"><p>Footnote text.  </p>
+</li>
+<li id="fn3"><p>Text of inline footnote </p>
+</li>
+</ol>
+</section>
+]]></content:encoded>
+    </item>
+    <item>
       <title>Flowchart</title>
       <link>https://vuepress-theme-hope.github.io/md-enhance/guide/flowchart/</link>
       <guid>https://vuepress-theme-hope.github.io/md-enhance/guide/flowchart/</guid>
@@ -945,73 +1012,6 @@ e=>end: End:>http://www.yahoo.com
 <div><pre><code>st@>op1({"stroke":"Red"})@>cond({"stroke":"Red","stroke-width":6,"arrow-end":"classic-wide-long"})@>c2({"stroke":"Red"})@>op2({"stroke":"Red"})@>e({"stroke":"Red"})
 </code></pre>
 <div><span>1</span><br></div></div>]]></content:encoded>
-    </item>
-    <item>
-      <title>Footnote</title>
-      <link>https://vuepress-theme-hope.github.io/md-enhance/guide/footnote/</link>
-      <guid>https://vuepress-theme-hope.github.io/md-enhance/guide/footnote/</guid>
-      <source url="https://vuepress-theme-hope.github.io/md-enhance/rss.xml">Footnote</source>
-      <description>&amp;lt;p&amp;gt;Let the Markdown file in your VuePress site support footnotes.&amp;lt;/p&amp;gt;
-</description>
-      <category>markdown</category>
-      <content:encoded><![CDATA[<p>Let the Markdown file in your VuePress site support footnotes.</p>
-
-<h2 id="configuration"> Configuration</h2>
-<div><div><br><br><br><br><br><br><div>&nbsp;</div><br><br><br><br><br></div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
-  plugins<span>:</span> <span>[</span>
-    <span>[</span>
-      <span>"md-enhance"</span><span>,</span>
-      <span>{</span>
-        <span>// Enable Footnote</span>
-        footnote<span>:</span> <span>true</span><span>,</span>
-      <span>}</span><span>,</span>
-    <span>]</span><span>,</span>
-  <span>]</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div><h2 id="syntax"> Syntax</h2>
-<ul>
-<li>
-<p>Use <code>[^Anchor text]</code> in Markdown to define a footnote</p>
-</li>
-<li>
-<p>Use <code>[^Anchor text]: ...</code> to describe footnote content</p>
-</li>
-<li>
-<p>If there are muti paragraph in footnote, the paragraph show be double indented</p>
-</li>
-</ul>
-<h2 id="case"> Case</h2>
-<p>Footnote 1 link<sup></sup>.</p>
-<p>Footnote 2 link<sup></sup>.</p>
-<p>Inline footnote<sup></sup> definition.</p>
-<p>Duplicated footnote reference<sup></sup>.</p>
-<div><pre><code>Footnote 1 link[^first].
-
-Footnote 2 link[^second].
-
-Inline footnote^[Text of inline footnote] definition.
-
-Duplicated footnote reference[^second].
-
-<span><span>[</span><span>^first</span><span>]</span><span>:</span> Footnote</span> <span><span>**</span><span>can have markup</span><span>**</span></span>
-
-<span>    and multiple paragraphs.</span>
-
-<span><span>[</span><span>^second</span><span>]</span><span>:</span> Footnote</span> text.
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></div></div><hr>
-<section>
-<ol>
-<li id="fn1"><p>Footnote <strong>can have markup</strong></p>
-<p>and multiple paragraphs. </p>
-</li>
-<li id="fn2"><p>Footnote text.  </p>
-</li>
-<li id="fn3"><p>Text of inline footnote </p>
-</li>
-</ol>
-</section>
-]]></content:encoded>
     </item>
     <item>
       <title>Markup</title>

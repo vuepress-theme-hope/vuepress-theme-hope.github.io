@@ -6,7 +6,7 @@
   <author>
     <name>Mr.Hope</name>
   </author>
-  <updated>2021-02-28T16:49:58.790Z</updated>
+  <updated>2021-02-28T17:07:42.722Z</updated>
   <generator>@mr-hope/vuepress-plugin-feed</generator>
   <link rel="self" href="https://vuepress-theme-hope.github.io/seo/atom.xml"/>
   <link rel="alternate" href="https://vuepress-theme-hope.github.io/seo/"/>
@@ -18,7 +18,7 @@
     <title type="html">Config</title>
     <id>https://vuepress-theme-hope.github.io/seo/config/</id>
     <link href="https://vuepress-theme-hope.github.io/seo/config/"/>
-    <updated>2021-02-28T16:48:39.000Z</updated>
+    <updated>2021-02-28T17:06:20.000Z</updated>
     <content type="html"><![CDATA[<h2 id="plugin-options"> Plugin Options</h2>
 <h3 id="author"> author</h3>
 <ul>
@@ -67,7 +67,7 @@
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br></div></div></li>
 <li>
-<p>The interface type of <code>Meta</code> is <code>Record&lt;&quot;content&quot; | &quot;name&quot; | &quot;charset&quot; | &quot;http-equiv&quot;, string&gt;</code></p>
+<p>The interface of <code>Meta</code> is <code>Record&lt;&quot;content&quot; | &quot;name&quot; | &quot;charset&quot; | &quot;http-equiv&quot;, string&gt;</code></p>
 <p>The key of the <code>Meta</code> object will be rendered as the attribute of the meta tag, and the value will be rendered as the value of the corresponding attribute.</p>
 <p>For details, please see <a href="https://v1.vuepress.vuejs.org/guide/frontmatter.html#meta" target="_blank" rel="noopener noreferrer">Frontmatter → Meta</a></p>
 </li>
@@ -85,14 +85,14 @@
     <title type="html">Guide</title>
     <id>https://vuepress-theme-hope.github.io/seo/guide/</id>
     <link href="https://vuepress-theme-hope.github.io/seo/guide/"/>
-    <updated>2021-02-28T16:48:39.000Z</updated>
-    <content type="html"><![CDATA[<p>This plugin will inject the <code>&lt;meta&gt;</code> tag to enhance the search engine optimization of the website.</p>
+    <updated>2021-02-28T17:06:20.000Z</updated>
+    <content type="html"><![CDATA[<p>This plugin will inject the <code>&lt;meta&gt;</code> tag to enhance the search engine optimization of the site.</p>
 <h2 id="out-of-box"> Out of box</h2>
 <p>The plugin is used out of the box. Without any configuration, it will extract the corresponding information from the page content to generate the <code>&lt;meta&gt;</code> tag as much as possible.</p>
 <p>By default, the plugin will read the site configuration, theme configuration and page frontmatter to automatically generate <code>&lt;meta&gt;</code> tags as much as possible. Such as site name, page title, page type, writing date, last update date, and article tags are all automatically generated.</p>
 <p>The following are the <code>&lt;meta&gt;</code> tags and their values that will be injected into <code>&lt;head&gt;</code> by default:</p>
 <p>| property | content |
-| :----------------------: | :-------------------------------------------------------------------: | | |
+| :------: | :-----: || |
 | <code>og:url</code> | <code>themeConfig.hostname</code> + <code>path</code> |
 | <code>og:site_name</code> | <code>$site.title</code> |
 | <code>og:title</code> | <code>$page.title</code> |
@@ -110,7 +110,7 @@
 | <code>article:modified_time</code> | <code>$page.lastUpdatedTime</code> |</p>
 <h2 id="free-customization"> Free customization</h2>
 <p>You can configure the <code>meta</code> option in the frontmatter of the page to customize the content of the <code>&lt;meta&gt;</code> tag of a specific page for SEO.</p>
-<p>E.g.:</p>
+<p>For example:</p>
 <div><pre><code><span><span>---</span>
 <span>meta:
   - name: keywords
@@ -143,8 +143,8 @@
   path<span>:</span> <span>string</span><span>;</span>
 <span>}</span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br></div></div><p>The type of <code>Meta</code> is <code>Record&lt;&quot;content&quot; | &quot;name&quot; | &quot;charset&quot; | &quot;http-equiv&quot;, string&gt;</code>, the key of the object will be rendered as the attribute of the <code>&lt;meta&gt;</code> tag, and the value will be rendered as The value of the corresponding attribute.</p>
-<p>E.g.:</p>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br></div></div><p>The interface of <code>Meta</code> is <code>Record&lt;&quot;content&quot; | &quot;name&quot; | &quot;charset&quot; | &quot;http-equiv&quot;, string&gt;</code>, the key of the object will be rendered as the attribute of the <code>&lt;meta&gt;</code> tag, and the value will be rendered as The value of the corresponding attribute.</p>
+<p>For example:</p>
 <div><pre><code><span>(</span><span>meta<span>:</span> Meta<span>,</span> info<span>:</span> PageSeoInfo</span><span>)</span> <span>=></span> <span>{</span>
   <span>const</span> index <span>=</span> meta<span>.</span><span>findIndex</span><span>(</span><span>(</span><span>item</span><span>)</span> <span>=></span> item<span>.</span>property <span>===</span> <span>"og:type"</span><span>)</span><span>;</span>
 
@@ -155,8 +155,8 @@
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><p>Will inject <code>&lt;meta a=&quot;1&quot; b=&quot;2&quot; /&gt;</code> into the <code>&lt;head&gt;</code> of the current page, and remove any existing <code>&lt;meta property=&quot;og:type&quot; /&gt;</code>.</p>
 <h2 id="seo-introduction"> SEO Introduction</h2>
-<p><strong>S</strong>earch <strong>e</strong>ngine <strong>optimization</strong> (SEO) is the process of improving the quality and quantity of website traffic to a website or a web page from search engines. SEO targets unpaid traffic (known as &quot;natural&quot; or &quot;organic&quot; results) rather than direct traffic or paid traffic. Unpaid traffic may originate from different kinds of searches, including image search, video search, academic search, news search, and industry-specific vertical search engines.</p>
-<p>As an Internet marketing strategy, SEO considers how search engines work, the computer-programmed algorithms that dictate search engine behavior, what people search for, the actual search terms or keywords typed into search engines, and which search engines are preferred by their targeted audience. SEO is performed because a website will receive more visitors from a search engine when websites rank higher on the search engine results page (SERP). These visitors can then potentially be converted into customers.</p>
+<p><strong>S</strong>earch <strong>e</strong>ngine <strong>optimization</strong> (SEO) is the process of improving the quality and quantity of site traffic to a site or a web page from search engines. SEO targets unpaid traffic (known as &quot;natural&quot; or &quot;organic&quot; results) rather than direct traffic or paid traffic. Unpaid traffic may originate from different kinds of searches, including image search, video search, academic search, news search, and industry-specific vertical search engines.</p>
+<p>As an internet marketing strategy, SEO considers how search engines work, the computer-programmed algorithms that dictate search engine behavior, what people search for, the actual search terms or keywords typed into search engines, and which search engines are preferred by their targeted audience. SEO is performed because a site will receive more visitors from a search engine when sites rank higher on the search engine results page (SERP). These visitors can then potentially be converted into customers.</p>
 <h2 id="related-documents"> Related documents</h2>
 <ul>
 <li>
@@ -169,7 +169,7 @@
 </li>
 <li>
 <p><a href="https://www.w3.org/TR/rdfa-primer/" target="_blank" rel="noopener noreferrer">RDFa 1.1</a></p>
-<p>RDFa mainly marks HTML structure. This is what the plugin cannot support. <a href="https://vuepress-theme-hope.github.io/zh/" target="_blank" rel="noopener noreferrer">vuepress-theme-hope</a> uses this feature to pass Google's rich media structure test. You can consider using it.</p>
+<p>RDFa mainly marks HTML structure. This is what the plugin cannot support. <a href="https://vuepress-theme-hope.github.io/zh/" target="_blank" rel="noopener noreferrer">vuepress-theme-hope</a> uses this feature to pass Google’s rich media structure test. You can consider using it.</p>
 </li>
 <li>
 <p><a href="https://schema.org/" target="_blank" rel="noopener noreferrer">Schema.Org</a></p>
@@ -191,7 +191,7 @@
     <title type="html">Home</title>
     <id>https://vuepress-theme-hope.github.io/seo/</id>
     <link href="https://vuepress-theme-hope.github.io/seo/"/>
-    <updated>2021-02-28T16:48:39.000Z</updated>
+    <updated>2021-02-28T17:06:20.000Z</updated>
     <content type="html"><![CDATA[<h2 id="how-to-use"> How to use</h2>
 <h3 id="install"> Install</h3>
 <CodeGroup>
@@ -230,7 +230,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">选项</title>
     <id>https://vuepress-theme-hope.github.io/seo/zh/config/</id>
     <link href="https://vuepress-theme-hope.github.io/seo/zh/config/"/>
-    <updated>2021-02-28T16:48:39.000Z</updated>
+    <updated>2021-02-28T17:06:20.000Z</updated>
     <content type="html"><![CDATA[<h2 id="插件选项"> 插件选项</h2>
 <h3 id="author"> author</h3>
 <ul>
@@ -297,7 +297,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">指南</title>
     <id>https://vuepress-theme-hope.github.io/seo/zh/guide/</id>
     <link href="https://vuepress-theme-hope.github.io/seo/zh/guide/"/>
-    <updated>2021-02-28T16:48:39.000Z</updated>
+    <updated>2021-02-28T17:06:20.000Z</updated>
     <content type="html"><![CDATA[<p>本插件会通过注入 <code>&lt;meta&gt;</code> 标签，以增强网站搜索引擎优化性。</p>
 <h2 id="开箱即用"> 开箱即用</h2>
 <p>插件开箱即用，在不做任何配置的情况下，会尽可能通过页面内容，提取对应的信息生成 <code>&lt;meta&gt;</code> 标签。</p>
@@ -455,7 +455,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">主页</title>
     <id>https://vuepress-theme-hope.github.io/seo/zh/</id>
     <link href="https://vuepress-theme-hope.github.io/seo/zh/"/>
-    <updated>2021-02-28T16:48:39.000Z</updated>
+    <updated>2021-02-28T17:06:20.000Z</updated>
     <content type="html"><![CDATA[<h2 id="使用插件"> 使用插件</h2>
 <h3 id="安装"> 安装</h3>
 <CodeGroup>

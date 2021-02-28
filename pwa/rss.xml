@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/pwa/</link>
     <description>A powerful PWA plugin for vuepress</description>
     <language>en-US</language>
-    <pubDate>Sun, 28 Feb 2021 16:49:58 GMT</pubDate>
-    <lastBuildDate>Sun, 28 Feb 2021 16:49:58 GMT</lastBuildDate>
+    <pubDate>Sun, 28 Feb 2021 17:07:42 GMT</pubDate>
+    <lastBuildDate>Sun, 28 Feb 2021 17:07:42 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -186,7 +186,7 @@
 <p>To let your site be able to register as Web App, you should set icons in <code>themeConfig.pwa.manifest.icons</code>.</p>
 <p>You can also set other options in <code>themeConfig.pwa.manifest</code>.</p>
 <div><p>Note</p>
-<p>Note that all the url in manifest will not be resolved, which means if you are deploying in a subfolder, you should set base yourself.</p>
+<p>Note that all the URL in manifest will not be resolved, which means if you are deploying in a subfolder, you should set base yourself.</p>
 </div>
 <div><p>More</p>
 <p>For docs of Manifest, please see <a href="https://w3c.github.io/manifest/" target="_blank" rel="noopener noreferrer">W3C Manifest</a></p>
@@ -404,7 +404,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <p>为了使你的站点能够被注册为 Web App，你应该在 <code>themeConfig.pwa.manifest.icons</code> 中设置图标。</p>
 <p>你也可以在 <code>themeConfig.pwa.manifest</code> 中设置其他选项。</p>
 <div><p>Note</p>
-<p>请注意，manifest 中的所有 url 都不会被处理，这意味着如果打算你部署到某个子目录，你则应自行设置添加 base 到 url。</p>
+<p>请注意，manifest 中的所有 URL 都不会被处理，这意味着如果打算你部署到某个子目录，你则应自行设置添加 base 到 URL。</p>
 </div>
 <div><p>更多</p>
 <p>更多内容，请详见 <a href="https://w3c.github.io/manifest/" target="_blank" rel="noopener noreferrer">W3C Manifest</a></p>

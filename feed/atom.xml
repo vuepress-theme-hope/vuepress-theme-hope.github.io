@@ -6,7 +6,7 @@
   <author>
     <name>Mr.Hope</name>
   </author>
-  <updated>2021-02-28T16:49:58.797Z</updated>
+  <updated>2021-02-28T17:07:42.480Z</updated>
   <generator>@mr-hope/vuepress-plugin-feed</generator>
   <link rel="self" href="https://vuepress-theme-hope.github.io/feed/atom.xml"/>
   <link rel="alternate" href="https://vuepress-theme-hope.github.io/feed/"/>
@@ -18,7 +18,7 @@
     <title type="html">Channel Config</title>
     <id>https://vuepress-theme-hope.github.io/feed/config/channel/</id>
     <link href="https://vuepress-theme-hope.github.io/feed/config/channel/"/>
-    <updated>2021-02-28T16:48:39.000Z</updated>
+    <updated>2021-02-28T17:06:20.000Z</updated>
     <content type="html"><![CDATA[<p>The channel option is used to config the feed channel. The configurable options and default value are as follows:</p>
 <h2 id="channel-title"> channel.title</h2>
 <ul>
@@ -93,13 +93,13 @@
 <li>Type: <code>string</code></li>
 <li>Recommended to set manually: <strong>Yes</strong></li>
 </ul>
-<p>A picture presenting the channel. It is recommended to set a square picture with a size not smaller than 512×512.</p>
+<p>A picture presenting the channel. A square picture with a size not smaller than 512×512 is recommended.</p>
 <h2 id="channel-icon"> channel.icon</h2>
 <ul>
 <li>Type: <code>string</code></li>
 <li>Recommended to set manually: <strong>Yes</strong></li>
 </ul>
-<p>An icon representing a channel, it is recommended to set a square picture, the size is preferably not less than 128×128, and the background color should be transparent.</p>
+<p>An icon representing a channel, a square picture, with not less than 128×128 in size, and transparent background color is recommended .</p>
 <h2 id="channel-author"> channel.author</h2>
 <ul>
 <li>
@@ -151,7 +151,7 @@
     <title type="html">Item Config</title>
     <id>https://vuepress-theme-hope.github.io/feed/config/item/</id>
     <link href="https://vuepress-theme-hope.github.io/feed/config/item/"/>
-    <updated>2021-02-28T16:48:39.000Z</updated>
+    <updated>2021-02-28T17:06:20.000Z</updated>
     <content type="html"><![CDATA[<p>You can control the generation of each feed item individually by configuring the frontmatter of each page.</p>
 <p>By default, all articles will be added to the feed stream. To remove a specific page from the feed, you can set <code>feed.enable</code> to <code>false</code> in frontmatter.</p>
 <h2 id="frontmatter-options"> FrontMatter options</h2>
@@ -451,13 +451,13 @@
     <title type="html">Plugin Config</title>
     <id>https://vuepress-theme-hope.github.io/feed/config/</id>
     <link href="https://vuepress-theme-hope.github.io/feed/config/"/>
-    <updated>2021-02-28T16:48:39.000Z</updated>
+    <updated>2021-02-28T17:06:20.000Z</updated>
     <content type="html"><![CDATA[<h2 id="hostname"> hostname</h2>
 <ul>
 <li>Type: <code>string</code></li>
 <li>Required: Yes</li>
 </ul>
-<p>The domain name of the deployment website.</p>
+<p>The domain name of the deployment site.</p>
 <h2 id="baselang"> baseLang</h2>
 <ul>
 <li>Type: <code>string</code></li>
@@ -480,7 +480,7 @@
 <p>A custom sort function, used to sort feed items.</p>
 <p>The final feed items will be the same squence.</p>
 <div><p>Note</p>
-<p>We strongly recommend you to set this option, otherwise the order of items in the feed stream is completely determined by the order of pages output by vuepress.</p>
+<p>We strongly recommend you to set this option, otherwise the order of items in the feed stream is completely determined by the order of pages output by VuePress.</p>
 <p>You can sort the pages in the site according to your needs.</p>
 </div>
 <h2 id="count"> count</h2>
@@ -488,8 +488,8 @@
 <li>Type: <code>number</code></li>
 <li>Default: All feed items count</li>
 </ul>
-<p>设置 feed 的最大项目数量。设置后会在所有页面排序好后，截取前 count 个项目。</p>
-<p>如果你的站点文章很多，你可能需要考虑设置这个选项以减少 feed 文件大小。</p>
+<p>Set the maximum number of items in the feed. After setting, after all pages are sorted, the first <code>count</code> items will be intercepted.</p>
+<p>If your site has a lot of articles, you may want to consider setting this option to reduce the feed file size.</p>
 <h2 id="output"> output</h2>
 <p>Feed output configuration</p>
 <h3 id="output-atom-enable"> output.atom.enable</h3>
@@ -541,7 +541,7 @@
     <title type="html">Guide</title>
     <id>https://vuepress-theme-hope.github.io/feed/guide/</id>
     <link href="https://vuepress-theme-hope.github.io/feed/guide/"/>
-    <updated>2021-02-28T16:48:39.000Z</updated>
+    <updated>2021-02-28T17:06:20.000Z</updated>
     <summary type="html"><![CDATA[<h2 id="usage"> Usage</h2>
 <p><code>@mr-hope/vuepress-plugin-feed</code> plugin will automatically generate feed in the following three formats for you</p>
 <ul>
@@ -553,8 +553,8 @@
 <p>Atom and JSON are provided to improve more feed software adaptation.</p>
 <p>Please use RSS by default.</p>
 </div>
-<p>Considering that rare people stick to feed now, this plugin provides a minimal configuration to adjust the automatic generation of detailed feed files. Of course, this plugin allows you to freely define the output content of the feed.</p>
-<p>In order to generate the link address correctly, you need to provide <code>baseLang</code> (root directory language) and <code>hostname</code> (deployment domain name) in the plugin options or themeConfig. All other options are optional.</p>
+<p>Considering that rare people stick to feed now, this plugin provides a minimal configuration to adjust the automatic generation of detailed feed files. Also it allows you to freely define the output content of the feed.</p>
+<p>To generate the link address correctly, you need to provide <code>baseLang</code> (root directory language) and <code>hostname</code> (deployment domain name) in the plugin options or themeConfig. All other options are optional.</p>
 <h2 id="channel-settings"> Channel Settings</h2>
 <p>You can customize information of feed channel by setting the <code>channel</code> option.</p>
 <p>We recommend you to set the following options:</p>
@@ -614,8 +614,8 @@
 <p>Atom and JSON are provided to improve more feed software adaptation.</p>
 <p>Please use RSS by default.</p>
 </div>
-<p>Considering that rare people stick to feed now, this plugin provides a minimal configuration to adjust the automatic generation of detailed feed files. Of course, this plugin allows you to freely define the output content of the feed.</p>
-<p>In order to generate the link address correctly, you need to provide <code>baseLang</code> (root directory language) and <code>hostname</code> (deployment domain name) in the plugin options or themeConfig. All other options are optional.</p>
+<p>Considering that rare people stick to feed now, this plugin provides a minimal configuration to adjust the automatic generation of detailed feed files. Also it allows you to freely define the output content of the feed.</p>
+<p>To generate the link address correctly, you need to provide <code>baseLang</code> (root directory language) and <code>hostname</code> (deployment domain name) in the plugin options or themeConfig. All other options are optional.</p>
 <h2 id="channel-settings"> Channel Settings</h2>
 <p>You can customize information of feed channel by setting the <code>channel</code> option.</p>
 <p>We recommend you to set the following options:</p>
@@ -747,7 +747,7 @@
     <title type="html">Home</title>
     <id>https://vuepress-theme-hope.github.io/feed/</id>
     <link href="https://vuepress-theme-hope.github.io/feed/"/>
-    <updated>2021-02-28T16:48:39.000Z</updated>
+    <updated>2021-02-28T17:06:20.000Z</updated>
     <content type="html"><![CDATA[<h2 id="how-to-use"> How to use</h2>
 <h3 id="install"> Install</h3>
 <CodeGroup>
@@ -786,8 +786,8 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">频道设置</title>
     <id>https://vuepress-theme-hope.github.io/feed/zh/config/channel/</id>
     <link href="https://vuepress-theme-hope.github.io/feed/zh/config/channel/"/>
-    <updated>2021-02-28T16:48:39.000Z</updated>
-    <content type="html"><![CDATA[<p>channel 选项用于配置 feed 的频道。可以配置的选项与默认值如下:</p>
+    <updated>2021-02-28T17:06:20.000Z</updated>
+    <content type="html"><![CDATA[<p><code>channel</code> 选项用于配置 feed 的频道。可以配置的选项与默认值如下:</p>
 <h2 id="channel-title"> channel.title</h2>
 <ul>
 <li>类型: <code>string</code></li>
@@ -906,7 +906,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">项目设置</title>
     <id>https://vuepress-theme-hope.github.io/feed/zh/config/item/</id>
     <link href="https://vuepress-theme-hope.github.io/feed/zh/config/item/"/>
-    <updated>2021-02-28T16:48:39.000Z</updated>
+    <updated>2021-02-28T17:06:20.000Z</updated>
     <content type="html"><![CDATA[<p>你可以通过配置每个页面的 frontmatter，来对每个 Feed 项目生成进行单独的控制。</p>
 <p>默认情况下，所有文章均会被添加至 feed 流。如果你想在 feed 中移除特定页面，你可以在 frontmatter 中设置 <code>feed.enable</code> 为 <code>false</code></p>
 <h2 id="frontmatter-选项"> FrontMatter 选项</h2>
@@ -1206,7 +1206,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">插件配置</title>
     <id>https://vuepress-theme-hope.github.io/feed/zh/config/</id>
     <link href="https://vuepress-theme-hope.github.io/feed/zh/config/"/>
-    <updated>2021-02-28T16:48:39.000Z</updated>
+    <updated>2021-02-28T17:06:20.000Z</updated>
     <content type="html"><![CDATA[<h2 id="hostname"> hostname</h2>
 <ul>
 <li>类型: <code>string</code></li>
@@ -1220,7 +1220,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 </ul>
 <p>主目录所对应的语言。</p>
 <h2 id="channel"> channel</h2>
-<p>channel 选项用于配置 Feed 频道。</p>
+<p><code>channel</code> 选项用于配置 Feed 频道。</p>
 <p>可用选项详见 <a href="./channel.html">配置 → 频道设置</a></p>
 <h2 id="filter"> filter</h2>
 <ul>
@@ -1296,7 +1296,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">指南</title>
     <id>https://vuepress-theme-hope.github.io/feed/zh/guide/</id>
     <link href="https://vuepress-theme-hope.github.io/feed/zh/guide/"/>
-    <updated>2021-02-28T16:48:39.000Z</updated>
+    <updated>2021-02-28T17:06:20.000Z</updated>
     <summary type="html"><![CDATA[<h2 id="使用"> 使用</h2>
 <p><code>@mr-hope/vuepress-plugin-feed</code> 插件会自动为你生成以下三种格式的 feed 文件:</p>
 <ul>
@@ -1511,7 +1511,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">主页</title>
     <id>https://vuepress-theme-hope.github.io/feed/zh/</id>
     <link href="https://vuepress-theme-hope.github.io/feed/zh/"/>
-    <updated>2021-02-28T16:48:39.000Z</updated>
+    <updated>2021-02-28T17:06:20.000Z</updated>
     <content type="html"><![CDATA[<h2 id="使用插件"> 使用插件</h2>
 <h3 id="安装"> 安装</h3>
 <CodeGroup>
