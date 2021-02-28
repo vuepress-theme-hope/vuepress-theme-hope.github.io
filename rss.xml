@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/</link>
     <description>A vuepress theme with tons of features✨</description>
     <language>en-US</language>
-    <pubDate>Sun, 28 Feb 2021 09:00:31 GMT</pubDate>
-    <lastBuildDate>Sun, 28 Feb 2021 09:00:31 GMT</lastBuildDate>
+    <pubDate>Sun, 28 Feb 2021 09:27:04 GMT</pubDate>
+    <lastBuildDate>Sun, 28 Feb 2021 09:27:04 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -3919,10 +3919,10 @@ write something here ~
       <link>https://vuepress-theme-hope.github.io/guide/feature/comment/</link>
       <guid>https://vuepress-theme-hope.github.io/guide/feature/comment/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">Comment Function</source>
-      <description>&amp;lt;p&amp;gt;&amp;lt;code&amp;gt;vuepress-theme-hope&amp;lt;/code&amp;gt; implements the comment feature with built-in &amp;lt;code&amp;gt;@mr-hope/vuepress-plugin-comment&amp;lt;/code&amp;gt;.&amp;lt;/p&amp;gt;
+      <description>&amp;lt;p&amp;gt;&amp;lt;code&amp;gt;vuepress-theme-hope&amp;lt;/code&amp;gt; implements the comment feature with built-in &amp;lt;a href=&amp;quot;https://vuepress-theme-hope.github.io/comment/&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;&amp;lt;code&amp;gt;@mr-hope/vuepress-plugin-comment&amp;lt;/code&amp;gt;&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;
 </description>
       <category>feature</category>
-      <content:encoded><![CDATA[<p><code>vuepress-theme-hope</code> implements the comment feature with built-in <code>@mr-hope/vuepress-plugin-comment</code>.</p>
+      <content:encoded><![CDATA[<p><code>vuepress-theme-hope</code> implements the comment feature with built-in <a href="https://vuepress-theme-hope.github.io/comment/" target="_blank" rel="noopener noreferrer"><code>@mr-hope/vuepress-plugin-comment</code></a>.</p>
 
 <h2 id="enable"> Enable <i>Not supported content</i></h2>
 <div><pre><code><span>// .vuepress/config.js</span>
@@ -4113,24 +4113,24 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <link>https://vuepress-theme-hope.github.io/guide/feature/feed/</link>
       <guid>https://vuepress-theme-hope.github.io/guide/feature/feed/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">Feed Support</source>
-      <description>&amp;lt;p&amp;gt;The theme will enable feed generation support using &amp;lt;code&amp;gt;@mr-hope/vuepress-plugin-feed&amp;lt;/code&amp;gt; by default. If you do not need this feature, you can set the &amp;lt;code&amp;gt;themeConfig.feed&amp;lt;/code&amp;gt; to &amp;lt;code&amp;gt;false&amp;lt;/code&amp;gt; to disable the plugin.&amp;lt;/p&amp;gt;
+      <description>&amp;lt;p&amp;gt;The theme will enable feed generation support using &amp;lt;a href=&amp;quot;https://vuepress-theme-hope.github.io/feed/&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;&amp;lt;code&amp;gt;@mr-hope/vuepress-plugin-feed&amp;lt;/code&amp;gt;&amp;lt;/a&amp;gt; by default.&amp;lt;/p&amp;gt;
 &amp;lt;p&amp;gt;&amp;lt;code&amp;gt;@mr-hope/vuepress-plugin-feed&amp;lt;/code&amp;gt; plugin will automatically generate feed in the following three formats for you&amp;lt;/p&amp;gt;
 &amp;lt;ul&amp;gt;
 &amp;lt;li&amp;gt;Atom 1.0 (Default output: atom.xml)&amp;lt;/li&amp;gt;
 &amp;lt;li&amp;gt;JSON 1.1 (Default output: feed.json)&amp;lt;/li&amp;gt;
 &amp;lt;li&amp;gt;RSS 2.0 (Default output: rss.xml)&amp;lt;/li&amp;gt;
 &amp;lt;/ul&amp;gt;
-&amp;lt;p&amp;gt;Considering that rare people stick to feed now, this plugin provides a minimal configuration to adjust the automatic generation of detailed feed files.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Considering that rare people stick to feed now, this plugin provides a minimal configuration to adjust the automatic generation of detailed feed files. And if you do not need this feature, you can set the &amp;lt;code&amp;gt;themeConfig.feed&amp;lt;/code&amp;gt; to &amp;lt;code&amp;gt;false&amp;lt;/code&amp;gt; to disable the plugin.&amp;lt;/p&amp;gt;
 </description>
       <category>feature</category>
-      <content:encoded><![CDATA[<p>The theme will enable feed generation support using <code>@mr-hope/vuepress-plugin-feed</code> by default. If you do not need this feature, you can set the <code>themeConfig.feed</code> to <code>false</code> to disable the plugin.</p>
+      <content:encoded><![CDATA[<p>The theme will enable feed generation support using <a href="https://vuepress-theme-hope.github.io/feed/" target="_blank" rel="noopener noreferrer"><code>@mr-hope/vuepress-plugin-feed</code></a> by default.</p>
 <p><code>@mr-hope/vuepress-plugin-feed</code> plugin will automatically generate feed in the following three formats for you</p>
 <ul>
 <li>Atom 1.0 (Default output: atom.xml)</li>
 <li>JSON 1.1 (Default output: feed.json)</li>
 <li>RSS 2.0 (Default output: rss.xml)</li>
 </ul>
-<p>Considering that rare people stick to feed now, this plugin provides a minimal configuration to adjust the automatic generation of detailed feed files.</p>
+<p>Considering that rare people stick to feed now, this plugin provides a minimal configuration to adjust the automatic generation of detailed feed files. And if you do not need this feature, you can set the <code>themeConfig.feed</code> to <code>false</code> to disable the plugin.</p>
 
 <h2 id="channel-settings"> Channel Settings</h2>
 <p>You can customize information of feed channel by setting the <code>channel</code> option.</p>
@@ -4154,11 +4154,11 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <link>https://vuepress-theme-hope.github.io/guide/feature/last-update/</link>
       <guid>https://vuepress-theme-hope.github.io/guide/feature/last-update/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">LastUpdate Time</source>
-      <description>&amp;lt;p&amp;gt;vuepress-theme-hope willautomatic generate the last update time of the page through the built-in &amp;lt;code&amp;gt;@mr-hope/vuepress-plugin-last-update&amp;lt;/code&amp;gt; plugin.&amp;lt;/p&amp;gt;
+      <description>&amp;lt;p&amp;gt;vuepress-theme-hope willautomatic generate the last update time of the page through the built-in &amp;lt;a href=&amp;quot;https://vuepress-theme-hope.github.io/last-update/&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;&amp;lt;code&amp;gt;@mr-hope/vuepress-plugin-last-update&amp;lt;/code&amp;gt;&amp;lt;/a&amp;gt; plugin.&amp;lt;/p&amp;gt;
 &amp;lt;p&amp;gt;By default, the plugin will get the UNIX timestamp(ms) of each file’s last &amp;lt;code&amp;gt;git&amp;lt;/code&amp;gt; commit for you, and it will also display at the bottom of each page in an appropriate format.&amp;lt;/p&amp;gt;
 </description>
       <category>feature</category>
-      <content:encoded><![CDATA[<p>vuepress-theme-hope willautomatic generate the last update time of the page through the built-in <code>@mr-hope/vuepress-plugin-last-update</code> plugin.</p>
+      <content:encoded><![CDATA[<p>vuepress-theme-hope willautomatic generate the last update time of the page through the built-in <a href="https://vuepress-theme-hope.github.io/last-update/" target="_blank" rel="noopener noreferrer"><code>@mr-hope/vuepress-plugin-last-update</code></a> plugin.</p>
 <p>By default, the plugin will get the UNIX timestamp(ms) of each file’s last <code>git</code> commit for you, and it will also display at the bottom of each page in an appropriate format.</p>
 
 <div><p>Note</p>
@@ -4176,10 +4176,10 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <link>https://vuepress-theme-hope.github.io/guide/feature/page-info/</link>
       <guid>https://vuepress-theme-hope.github.io/guide/feature/page-info/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">Page information</source>
-      <description>&amp;lt;p&amp;gt;By including &amp;lt;code&amp;gt;@mr-hope/vuepress-plugin-comment&amp;lt;/code&amp;gt;, &amp;lt;code&amp;gt;vuepress-theme-hope&amp;lt;/code&amp;gt; can display article information for you.&amp;lt;/p&amp;gt;
+      <description>&amp;lt;p&amp;gt;By including &amp;lt;a href=&amp;quot;https://vuepress-theme-hope.github.io/comment/&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;&amp;lt;code&amp;gt;@mr-hope/vuepress-plugin-comment&amp;lt;/code&amp;gt;&amp;lt;/a&amp;gt;, &amp;lt;code&amp;gt;vuepress-theme-hope&amp;lt;/code&amp;gt; can display article information for you.&amp;lt;/p&amp;gt;
 </description>
       <category>feature</category>
-      <content:encoded><![CDATA[<p>By including <code>@mr-hope/vuepress-plugin-comment</code>, <code>vuepress-theme-hope</code> can display article information for you.</p>
+      <content:encoded><![CDATA[<p>By including <a href="https://vuepress-theme-hope.github.io/comment/" target="_blank" rel="noopener noreferrer"><code>@mr-hope/vuepress-plugin-comment</code></a>, <code>vuepress-theme-hope</code> can display article information for you.</p>
 
 <h2 id="enable"> Enable</h2>
 <p>Page information display is enabled globally by default, while supports local config<sup></sup>. You can disable it by setting <code>pageInfo: false</code> in frontmatter of a specific page.</p>
@@ -4313,10 +4313,12 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <link>https://vuepress-theme-hope.github.io/guide/feature/pwa/</link>
       <guid>https://vuepress-theme-hope.github.io/guide/feature/pwa/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">PWA</source>
-      <description>&amp;lt;p&amp;gt;The theme will enable progressive web app support using &amp;lt;code&amp;gt;@mr-hope/vuepress-plugin-pwa&amp;lt;/code&amp;gt; by default. If you do not need this feature or want to use other pwa plugins, you can set the &amp;lt;code&amp;gt;themeConfig.pwa&amp;lt;/code&amp;gt; to &amp;lt;code&amp;gt;false&amp;lt;/code&amp;gt; to disable the plugin.&amp;lt;/p&amp;gt;
+      <description>&amp;lt;p&amp;gt;The theme will enable progressive web app support by including &amp;lt;a href=&amp;quot;https://vuepress-theme-hope.github.io/pwa/&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;&amp;lt;code&amp;gt;@mr-hope/vuepress-plugin-pwa&amp;lt;/code&amp;gt;&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;If you do not need this feature or want to use other pwa plugins, you can set the &amp;lt;code&amp;gt;themeConfig.pwa&amp;lt;/code&amp;gt; to &amp;lt;code&amp;gt;false&amp;lt;/code&amp;gt; to disable the plugin.&amp;lt;/p&amp;gt;
 </description>
       <category>feature</category>
-      <content:encoded><![CDATA[<p>The theme will enable progressive web app support using <code>@mr-hope/vuepress-plugin-pwa</code> by default. If you do not need this feature or want to use other pwa plugins, you can set the <code>themeConfig.pwa</code> to <code>false</code> to disable the plugin.</p>
+      <content:encoded><![CDATA[<p>The theme will enable progressive web app support by including <a href="https://vuepress-theme-hope.github.io/pwa/" target="_blank" rel="noopener noreferrer"><code>@mr-hope/vuepress-plugin-pwa</code></a>.</p>
+<p>If you do not need this feature or want to use other pwa plugins, you can set the <code>themeConfig.pwa</code> to <code>false</code> to disable the plugin.</p>
 
 <h2 id="content-cache-and-update"> Content Cache and update</h2>
 <p>After the Service worker obtains the content update, a popup will be displayed in the bottom right corner, prompting the user that new content is available and allowing the user to trigger the update.</p>
@@ -4338,7 +4340,8 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <guid>https://vuepress-theme-hope.github.io/guide/feature/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">Features</source>
       <category>feature</category>
-      <content:encoded><![CDATA[<h2 id="catalog"> Catalog</h2>
+      <content:encoded><![CDATA[<p>vuepress-theme-hope introduces many great features. Most of the functions are separated into plugins, which means if you like them, you can use them in other vuepress themes or <code>@vuepress/theme-default</code>.</p>
+<h2 id="catalog"> Catalog</h2>
 <ul>
 <li>
 <p><a href="./page-info.html">Page Information</a></p>
@@ -4372,6 +4375,46 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 </li>
 <li>
 <p><a href="./typescript.html">TypeScript support</a></p>
+</li>
+</ul>
+<h2 id="🧩build-in-plugins"> 🧩Build-in Plugins</h2>
+<p>The theme includes the following plugins, you can use them directly in other themes.</p>
+<ul>
+<li>
+<p><a href="https://vuepress-theme-hope.github.io/comment/" target="_blank" rel="noopener noreferrer">@mr-hope/vuepress-plugin-comment</a>: Comment and page info feature</p>
+</li>
+<li>
+<p><a href="./feature/component.html">@mr-hope/vuepress-plugin-component</a>: Provide some out of box plugins</p>
+</li>
+<li>
+<p><a href="https://vuepress-theme-hope.github.io/copy-code/" target="_blank" rel="noopener noreferrer">@mr-hope/vuepress-plugin-copy-code</a>: Provide copy button for code blocks</p>
+</li>
+<li>
+<p><a href="https://vuepress-theme-hope.github.io/feed/" target="_blank" rel="noopener noreferrer">@mr-hope/vuepress-plugin-feed</a>: Feed support</p>
+</li>
+<li>
+<p><a href="https://vuepress-theme-hope.github.io/last-update/" target="_blank" rel="noopener noreferrer">@mr-hope/vuepress-plugin-last-update</a>: Last update time</p>
+</li>
+<li>
+<p><a href="https://vuepress-theme-hope.github.io/pwa/" target="_blank" rel="noopener noreferrer">@mr-hope/vuepress-plugin-pwa</a>: PWA support</p>
+</li>
+<li>
+<p><a href="https://vuepress-theme-hope.github.io/reading-time/" target="_blank" rel="noopener noreferrer">@mr-hope/vuepress-plugin-reading-time</a>: Expect reading time and words count</p>
+</li>
+<li>
+<p><a href="https://vuepress-theme-hope.github.io/seo/" target="_blank" rel="noopener noreferrer">@mr-hope/vuepress-plugin-seo</a>: SEO Enhancement Plugin</p>
+</li>
+<li>
+<p><a href="https://vuepress-theme-hope.github.io/sitemap/" target="_blank" rel="noopener noreferrer">@mr-hope/vuepress-plugin-sitemap</a>: Sitemap Generator for your site</p>
+</li>
+<li>
+<p><a href="https://vuepress-theme-hope.github.io/add-this/" target="_blank" rel="noopener noreferrer">vuepress-plugin-add-this</a>: Provide sociel share and follow function</p>
+</li>
+<li>
+<p><a href="https://vuepress-theme-hope.github.io/md-enhance/" target="_blank" rel="noopener noreferrer">vuepress-plugin-md-enhance</a>): Provide more Markdown syntax</p>
+</li>
+<li>
+<p><a href="https://vuepress-theme-hope.github.io/photo-swipe/" target="_blank" rel="noopener noreferrer">vuepress-plugin-photo-swipe</a>: Make the site’s picture support click zoom</p>
 </li>
 </ul>
 ]]></content:encoded>
@@ -5981,15 +6024,15 @@ A custom details container
 <p>Input:</p>
 <div><pre><code><span><span><span>&lt;</span>CodeGroup</span><span>></span></span>
 <span><span><span>&lt;</span>CodeGroupItem</span> <span>title</span><span><span>=</span><span>"</span>yarn<span>"</span></span><span>></span></span>
-```bash
-yarn add -D vuepress-theme-hope
-```
+<span><span>```</span><span>bash</span>
+<span><span>yarn</span> <span>add</span> -D vuepress-theme-hope</span>
+<span>```</span></span>
 <span><span><span>&lt;/</span>CodeGroupItem</span><span>></span></span>
 
 <span><span><span>&lt;</span>CodeGroupItem</span> <span>title</span><span><span>=</span><span>"</span>npm<span>"</span></span> <span>active</span><span>></span></span>
-```bash
-npm i -D vuepress-theme-hope
-```
+<span><span>```</span><span>bash</span>
+<span><span>npm</span> i -D vuepress-theme-hope</span>
+<span>```</span></span>
 <span><span><span>&lt;/</span>CodeGroupItem</span><span>></span></span>
 <span><span><span>&lt;/</span>CodeGroup</span><span>></span></span>
 </code></pre>
@@ -9377,7 +9420,7 @@ A backtick-delimited string in a code span: <span>`` `foo` ``</span>
 lang: en-US</span>
 <span>---</span></span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><p>在这些三条虚线之间，你可以设置变量。然后，您可以使用 <code>$frontmatter</code> 访问这些变量。这些数据可以在当前 markdown 的正文，或者是任意的自定义或主题组件中使用。</p>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><p>在这些三条虚线之间，你可以设置变量。然后，你可以使用 <code>$frontmatter</code> 访问这些变量。这些数据可以在当前 markdown 的正文，或者是任意的自定义或主题组件中使用。</p>
 <div><p>Tips</p>
 <p>在 VuePress 中，Front matter 是 <strong>可选的</strong>。</p>
 </div>
@@ -10738,7 +10781,7 @@ export default { // Highlighted
 <h2 id="博客配置"> 博客配置 <i>Not supported content</i></h2>
 <p>博客配置。</p>
 <blockquote>
-<p>如果您不需要博客相关功能，为了加快构建速度，请设置 <code>blog: false</code>。</p>
+<p>如果你不需要博客相关功能，为了加快构建速度，请设置 <code>blog: false</code>。</p>
 </blockquote>
 <h3 id="blog-blogger"> blog.blogger</h3>
 <ul>
@@ -10877,7 +10920,7 @@ export default { // Highlighted
 <p>请仅将此选项用于体验或测试。随着时间的增长，<code>vupress-plugin-md-enhance</code> 变得越来越强大。它为 Markdown 解析器添加了更多语法，并输出了更多代码。</p>
 <p>启用不需要的功能将增加开发和构建时间。 (<code>markdown-it</code> 必须检查额外的语法)</p>
 <p>同样，幻灯片演示功能将在输出中添加 700KB 大小的代码 (主要是 <code>reveal.js</code>)。</p>
-<p>因此，请使用下面的选项，仅启用您要使用的功能。</p>
+<p>因此，请使用下面的选项，仅启用你要使用的功能。</p>
 </div>
 <h3 id="mdenhance-linenumbers"> mdEnhance.lineNumbers <i>Not supported content</i></h3>
 <ul>
@@ -11056,7 +11099,7 @@ export default { // Highlighted
 <p>是否禁止选中文字</p>
 <h2 id="lastupdate"> lastUpdate</h2>
 <blockquote>
-<p>如果您不需要这个功能，请设置为 <code>false</code>。</p>
+<p>如果你不需要这个功能，请设置为 <code>false</code>。</p>
 </blockquote>
 <h3 id="lastupdate-timezone"> lastUpdate.timezone</h3>
 <ul>
@@ -11078,7 +11121,7 @@ export default { // Highlighted
 <h2 id="pwa"> pwa <i>Not supported content</i></h2>
 <p>渐进式网络应用程序支持</p>
 <blockquote>
-<p>如果您不需要这个功能，请设置为 <code>false</code>。</p>
+<p>如果你不需要这个功能，请设置为 <code>false</code>。</p>
 <p>有关更多详细信息，请参见 <a href="https://vuepress-theme-hope.github.io/pwa/zh/config/" target="_blank" rel="noopener noreferrer">pwa 插件文档</a></p>
 </blockquote>
 <h3 id="pwa-manifest"> pwa.manifest</h3>
@@ -11086,9 +11129,9 @@ export default { // Highlighted
 <li>类型: <code>ManifestOption</code></li>
 <li>必填: 否</li>
 </ul>
-<p>您可以填充一个将被解析为 manifest.webmanifest 的对象。</p>
+<p>你可以填充一个将被解析为 manifest.webmanifest 的对象。</p>
 <div><p>Tips</p>
-<p>如果您未设置某些选项，则这些选项会回退到插件预设值。</p>
+<p>如果你未设置某些选项，则这些选项会回退到插件预设值。</p>
 <ul>
 <li>
 <p>name: <code>siteConfig.title</code> || <code>themeConfig.title</code> || <code>'Site'</code></p>
@@ -11222,27 +11265,27 @@ export default { // Highlighted
 <h3 id="pwa-generateswconfig"> pwa.generateSwConfig</h3>
 <p>传递给 <code>workbox-build</code> 的选项，具体详情，请见 <a href="https://developers.google.com/web/tools/workbox/reference-docs/latest/module-workbox-build#.generateSW" target="_blank" rel="noopener noreferrer">Workbox 文档</a></p>
 <div><p>Tips</p>
-<p>我们将为您预缓存所有与网站相关的文件 <code>**/*.{js,css,svg}</code> 和字体文件 <code>**/*.{woff,woff2,eot,ttf,otf}</code>。</p>
-<p>如果将 <code>cachePic</code> 设置为 <code>true</code>，我们还将为您预缓存 <code>**/*.{png,jpg,jpeg,gif,bmp,webp}</code> 文件。</p>
+<p>我们将为你预缓存所有与网站相关的文件 <code>**/*.{js,css,svg}</code> 和字体文件 <code>**/*.{woff,woff2,eot,ttf,otf}</code>。</p>
+<p>如果将 <code>cachePic</code> 设置为 <code>true</code>，我们还将为你预缓存 <code>**/*.{png,jpg,jpeg,gif,bmp,webp}</code> 文件。</p>
 <p>所有大于 <code>maxSize</code> 的文件与所有大于 <code>maxPicSize</code> 的图片将被忽略。</p>
 </div>
 <h2 id="feed"> feed <i>Not supported content</i></h2>
 <p>Feed 生成，默认情况下无需任何配置。</p>
 <blockquote>
 <p>插件配置请参见 <a href="https://vuepress-theme-hope.github.io/feed/zh/config/" target="_blank" rel="noopener noreferrer">Feed 插件配置</a></p>
-<p>如果您不需要这个功能，请设置为 <code>false</code>。</p>
+<p>如果你不需要这个功能，请设置为 <code>false</code>。</p>
 </blockquote>
 <h2 id="seo"> seo <i>Not supported content</i></h2>
 <p>搜索引擎增强，默认情况下无需任何配置。</p>
 <blockquote>
 <p>插件配置请参见 <a href="https://vuepress-theme-hope.github.io/seo/zh/#%E6%8F%92%E4%BB%B6%E9%80%89%E9%A1%B9" target="_blank" rel="noopener noreferrer">SEO 插件配置</a></p>
-<p>如果您不需要这个功能，请设置为 <code>false</code>。</p>
+<p>如果你不需要这个功能，请设置为 <code>false</code>。</p>
 </blockquote>
 <h2 id="sitemap"> sitemap <i>Not supported content</i></h2>
 <p>Sitemap 生成配置，默认情况下无需任何配置。</p>
 <blockquote>
 <p>插件配置请参见 <a href="https://vuepress-theme-hope.github.io/sitemap/zh/#%E6%8F%92%E4%BB%B6%E9%80%89%E9%A1%B9" target="_blank" rel="noopener noreferrer">Sitemap 插件配置</a></p>
-<p>如果您不需要这个功能，请设置为 <code>false</code>。</p>
+<p>如果你不需要这个功能，请设置为 <code>false</code>。</p>
 </blockquote>
 <h2 id="addthis"> addThis</h2>
 <ul>
@@ -11564,28 +11607,28 @@ export default { // Highlighted
       <link>https://vuepress-theme-hope.github.io/zh/guide/feature/feed/</link>
       <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/feed/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">Feed 支持</source>
-      <description>&amp;lt;p&amp;gt;&amp;lt;code&amp;gt;vuepress-theme-hope&amp;lt;/code&amp;gt; 通过 &amp;lt;code&amp;gt;@mr-hope/vuepress-plugin-feed&amp;lt;/code&amp;gt; 插件来为你提供 feed 支持。如果你不需要这个功能，则可以将 &amp;lt;code&amp;gt;themeConfig.feed&amp;lt;/code&amp;gt; 设置为 &amp;lt;code&amp;gt;false&amp;lt;/code&amp;gt; 来禁用该插件。&amp;lt;/p&amp;gt;
+      <description>&amp;lt;p&amp;gt;&amp;lt;code&amp;gt;vuepress-theme-hope&amp;lt;/code&amp;gt; 通过内置 &amp;lt;a href=&amp;quot;https://vuepress-theme-hope.github.io/feed/zh/&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;&amp;lt;code&amp;gt;@mr-hope/vuepress-plugin-feed&amp;lt;/code&amp;gt;&amp;lt;/a&amp;gt; 插件来为你提供 feed 支持。&amp;lt;/p&amp;gt;
 &amp;lt;p&amp;gt;主题会自动为你生成以下三种格式的 feed 文件:&amp;lt;/p&amp;gt;
 &amp;lt;ul&amp;gt;
 &amp;lt;li&amp;gt;Atom 1.0 (默认输出为 atom.xml)&amp;lt;/li&amp;gt;
 &amp;lt;li&amp;gt;JSON 1.1 (默认输出为 feed.json)&amp;lt;/li&amp;gt;
 &amp;lt;li&amp;gt;RSS 2.0 (默认输出为 rss.xml)&amp;lt;/li&amp;gt;
 &amp;lt;/ul&amp;gt;
-&amp;lt;p&amp;gt;考虑到现在 Feed 已经很小众，我们旨在提供最小配置来尽可能自动生成详细的 Feed 文件。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;考虑到现在 Feed 已经很小众，我们旨在提供最小配置来尽可能自动生成详细的 Feed 文件。如果你不需要这个功能，则可以将 &amp;lt;code&amp;gt;themeConfig.feed&amp;lt;/code&amp;gt; 设置为 &amp;lt;code&amp;gt;false&amp;lt;/code&amp;gt; 来禁用该插件。&amp;lt;/p&amp;gt;
 </description>
       <category>feature</category>
-      <content:encoded><![CDATA[<p><code>vuepress-theme-hope</code> 通过 <code>@mr-hope/vuepress-plugin-feed</code> 插件来为你提供 feed 支持。如果你不需要这个功能，则可以将 <code>themeConfig.feed</code> 设置为 <code>false</code> 来禁用该插件。</p>
+      <content:encoded><![CDATA[<p><code>vuepress-theme-hope</code> 通过内置 <a href="https://vuepress-theme-hope.github.io/feed/zh/" target="_blank" rel="noopener noreferrer"><code>@mr-hope/vuepress-plugin-feed</code></a> 插件来为你提供 feed 支持。</p>
 <p>主题会自动为你生成以下三种格式的 feed 文件:</p>
 <ul>
 <li>Atom 1.0 (默认输出为 atom.xml)</li>
 <li>JSON 1.1 (默认输出为 feed.json)</li>
 <li>RSS 2.0 (默认输出为 rss.xml)</li>
 </ul>
-<p>考虑到现在 Feed 已经很小众，我们旨在提供最小配置来尽可能自动生成详细的 Feed 文件。</p>
+<p>考虑到现在 Feed 已经很小众，我们旨在提供最小配置来尽可能自动生成详细的 Feed 文件。如果你不需要这个功能，则可以将 <code>themeConfig.feed</code> 设置为 <code>false</code> 来禁用该插件。</p>
 
 <h2 id="频道设置"> 频道设置</h2>
 <p>你可以通过设置 <code>themeConfig.feed.channel</code> 选项来自自定义 Feed 频道的各项信息。</p>
-<p>我们推荐您进行如下设置:</p>
+<p>我们推荐你进行如下设置:</p>
 <ul>
 <li>将建立 Feed 的日期转换为 ISOString 写入到 <code>channel.pubDate</code> 中</li>
 <li>通过 <code>channel.ttl</code> 中设置内容的更新周期(单位: 分钟)</li>
@@ -11605,11 +11648,11 @@ export default { // Highlighted
       <link>https://vuepress-theme-hope.github.io/zh/guide/feature/last-update/</link>
       <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/last-update/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">最后更新时间</source>
-      <description>&amp;lt;p&amp;gt;vuepress-theme-hope 通过内置 &amp;lt;code&amp;gt;@mr-hope/vuepress-plugin-last-update&amp;lt;/code&amp;gt; 插件，实现了页面最后更新时间的自动生成。&amp;lt;/p&amp;gt;
+      <description>&amp;lt;p&amp;gt;vuepress-theme-hope 通过内置 &amp;lt;a href=&amp;quot;https://vuepress-theme-hope.github.io/last-update/zh/&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;&amp;lt;code&amp;gt;@mr-hope/vuepress-plugin-last-update&amp;lt;/code&amp;gt;&amp;lt;/a&amp;gt; 插件，实现了页面最后更新时间的自动生成。&amp;lt;/p&amp;gt;
 &amp;lt;p&amp;gt;默认情况下，页面的更新时间会通过页面文件文件最后一次 &amp;lt;code&amp;gt;git&amp;lt;/code&amp;gt; 提交的 UNIX 时间戳 (ms) 来自动生成，并将以合适的日期格式显示在每一页的底部。&amp;lt;/p&amp;gt;
 </description>
       <category>feature</category>
-      <content:encoded><![CDATA[<p>vuepress-theme-hope 通过内置 <code>@mr-hope/vuepress-plugin-last-update</code> 插件，实现了页面最后更新时间的自动生成。</p>
+      <content:encoded><![CDATA[<p>vuepress-theme-hope 通过内置 <a href="https://vuepress-theme-hope.github.io/last-update/zh/" target="_blank" rel="noopener noreferrer"><code>@mr-hope/vuepress-plugin-last-update</code></a> 插件，实现了页面最后更新时间的自动生成。</p>
 <p>默认情况下，页面的更新时间会通过页面文件文件最后一次 <code>git</code> 提交的 UNIX 时间戳 (ms) 来自动生成，并将以合适的日期格式显示在每一页的底部。</p>
 
 <div><p>Note</p>
@@ -11627,10 +11670,10 @@ export default { // Highlighted
       <link>https://vuepress-theme-hope.github.io/zh/guide/feature/page-info/</link>
       <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/page-info/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">页面信息</source>
-      <description>&amp;lt;p&amp;gt;通过内置 &amp;lt;code&amp;gt;@mr-hope/vuepress-plugin-comment&amp;lt;/code&amp;gt;，&amp;lt;code&amp;gt;vuepress-theme-hope&amp;lt;/code&amp;gt; 实现了文章信息。&amp;lt;/p&amp;gt;
+      <description>&amp;lt;p&amp;gt;通过内置 &amp;lt;a href=&amp;quot;https://vuepress-theme-hope.github.io/comment/zh/&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;&amp;lt;code&amp;gt;@mr-hope/vuepress-plugin-comment&amp;lt;/code&amp;gt;&amp;lt;/a&amp;gt;，&amp;lt;code&amp;gt;vuepress-theme-hope&amp;lt;/code&amp;gt; 实现了文章信息展示。&amp;lt;/p&amp;gt;
 </description>
       <category>feature</category>
-      <content:encoded><![CDATA[<p>通过内置 <code>@mr-hope/vuepress-plugin-comment</code>，<code>vuepress-theme-hope</code> 实现了文章信息。</p>
+      <content:encoded><![CDATA[<p>通过内置 <a href="https://vuepress-theme-hope.github.io/comment/zh/" target="_blank" rel="noopener noreferrer"><code>@mr-hope/vuepress-plugin-comment</code></a>，<code>vuepress-theme-hope</code> 实现了文章信息展示。</p>
 
 <h2 id="启用"> 启用</h2>
 <p>页面信息默认全局启用，同时支持页面配置<sup></sup>。你可以在特定页面的 frontmatter 中设置 <code>pageInfo: false</code> 来局部禁用它。</p>
@@ -11772,21 +11815,23 @@ export default { // Highlighted
       <link>https://vuepress-theme-hope.github.io/zh/guide/feature/pwa/</link>
       <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/pwa/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">PWA</source>
-      <description>&amp;lt;p&amp;gt;默认情况下，该主题将使用 &amp;lt;code&amp;gt;@mr-hope/vuepress-plugin-pwa&amp;lt;/code&amp;gt; 启用渐进式 Web 应用程序支持。如果您不需要此功能或想使用其他 pwa 插件，则可以将 &amp;lt;code&amp;gt;themeConfig.pwa&amp;lt;/code&amp;gt; 设置为 &amp;lt;code&amp;gt;false&amp;lt;/code&amp;gt; 来禁用该插件。&amp;lt;/p&amp;gt;
+      <description>&amp;lt;p&amp;gt;默认情况下，该主题将通过内置 &amp;lt;a href=&amp;quot;https://vuepress-theme-hope.github.io/pwa/zh/&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;&amp;lt;code&amp;gt;@mr-hope/vuepress-plugin-pwa&amp;lt;/code&amp;gt;&amp;lt;/a&amp;gt; 启用渐进式 Web 应用程序支持。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;如果你不需要此功能或想使用其他 pwa 插件，则可以将 &amp;lt;code&amp;gt;themeConfig.pwa&amp;lt;/code&amp;gt; 设置为 &amp;lt;code&amp;gt;false&amp;lt;/code&amp;gt; 来禁用该插件。&amp;lt;/p&amp;gt;
 </description>
       <category>feature</category>
-      <content:encoded><![CDATA[<p>默认情况下，该主题将使用 <code>@mr-hope/vuepress-plugin-pwa</code> 启用渐进式 Web 应用程序支持。如果您不需要此功能或想使用其他 pwa 插件，则可以将 <code>themeConfig.pwa</code> 设置为 <code>false</code> 来禁用该插件。</p>
+      <content:encoded><![CDATA[<p>默认情况下，该主题将通过内置 <a href="https://vuepress-theme-hope.github.io/pwa/zh/" target="_blank" rel="noopener noreferrer"><code>@mr-hope/vuepress-plugin-pwa</code></a> 启用渐进式 Web 应用程序支持。</p>
+<p>如果你不需要此功能或想使用其他 pwa 插件，则可以将 <code>themeConfig.pwa</code> 设置为 <code>false</code> 来禁用该插件。</p>
 
 <h2 id="内容缓存和更新"> 内容缓存和更新</h2>
 <p>Service worker 成功获取内容更新后，将在右下角显示一个弹出窗口，提示用户新内容可用并允许用户触发更新。</p>
 <p>弹出窗口的默认语言将自动设置为 <code>themeConfig.baseLang</code> 。</p>
 <h2 id="manifest"> Manifest</h2>
-<p>插件将自动在输出目录生成 <code>mainfest.json</code>。如果您在 <code>.vuepress/public</code> 中有一个 manifest.webmanifest 或 manifest.json，该插件将读取并合并到最终 manifest 中。</p>
-<p>为了使您的站点能够被注册为 Web App，您应该在 <code>themeConfig.pwa.manifest.icons</code> 中设置图标。</p>
-<p>您也可以在 <code>themeConfig.pwa.manifest</code> 中设置其他选项。</p>
+<p>插件将自动在输出目录生成 <code>mainfest.json</code>。如果你在 <code>.vuepress/public</code> 中有一个 manifest.webmanifest 或 manifest.json，该插件将读取并合并到最终 manifest 中。</p>
+<p>为了使你的站点能够被注册为 Web App，你应该在 <code>themeConfig.pwa.manifest.icons</code> 中设置图标。</p>
+<p>你也可以在 <code>themeConfig.pwa.manifest</code> 中设置其他选项。</p>
 <h2 id="缓存大小"> 缓存大小</h2>
 <p>为了更好地控制 Service Worker 可以预缓存的内容，可以设置 <code>themeConfig.pwa.cachePic</code> 和 <code>themeConfig.pwa.cacheHTML</code> 来决定 Service Worker 是否缓存除主页和 404 错误页外的 HTML 文件与站点图片。</p>
-<p>为了防止在预缓存列表中包含大文件，任何大于 2MB 的资源与大于 1MB 的图片都将被删除。您可以通过设置 <code>themeConfig.pwa.maxSize</code> 和 <code>themeConfig.pwa.maxPicSize</code> 来更改大小限制。</p>
+<p>为了防止在预缓存列表中包含大文件，任何大于 2MB 的资源与大于 1MB 的图片都将被删除。你可以通过设置 <code>themeConfig.pwa.maxSize</code> 和 <code>themeConfig.pwa.maxPicSize</code> 来更改大小限制。</p>
 <h2 id="更多"> 更多</h2>
 <p>有关更多详细信息，请参见 <a href="https://vuepress-theme-hope.github.io/pwa/zh/" target="_blank" rel="noopener noreferrer">pwa 插件文档</a></p>
 ]]></content:encoded>
@@ -11797,7 +11842,8 @@ export default { // Highlighted
       <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">功能</source>
       <category>feature</category>
-      <content:encoded><![CDATA[<h2 id="目录"> 目录</h2>
+      <content:encoded><![CDATA[<p>vuepress-theme-hope 引入了很多非常棒的功能。绝大部分功能都抽离成了单独组件，这意味着如果你喜欢它们，你可以在其他 vuepress 主题或默认主题中使用它们。</p>
+<h2 id="目录"> 目录</h2>
 <ul>
 <li>
 <p><a href="./page-info.html">页面信息</a></p>
@@ -11831,6 +11877,46 @@ export default { // Highlighted
 </li>
 <li>
 <p><a href="./typescript.html">TypeScript 支持</a></p>
+</li>
+</ul>
+<h2 id="🧩-内建插件"> 🧩 内建插件</h2>
+<p>本主题还包含了以下内建插件，如果有需要，你也可以单独进行使用或搭配其他主题。</p>
+<ul>
+<li>
+<p><a href="https://vuepress-theme-hope.github.io/comment/zh/" target="_blank" rel="noopener noreferrer">@mr-hope/vuepress-plugin-comment</a>: 评论与文章信息功能</p>
+</li>
+<li>
+<p><a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/packages/components/readme.md#%E4%BD%BF%E7%94%A8" target="_blank" rel="noopener noreferrer">@mr-hope/vuepress-plugin-component</a>: 提供一些开箱即用的插件</p>
+</li>
+<li>
+<p><a href="https://vuepress-theme-hope.github.io/copy-code/zh/" target="_blank" rel="noopener noreferrer">@mr-hope/vuepress-plugin-copy-code</a>: 提供一键复制代码块功能。</p>
+</li>
+<li>
+<p><a href="https://vuepress-theme-hope.github.io/feed/zh/" target="_blank" rel="noopener noreferrer">@mr-hope/vuepress-plugin-feed</a>: Feed 支持</p>
+</li>
+<li>
+<p><a href="https://vuepress-theme-hope.github.io/last-update/zh/" target="_blank" rel="noopener noreferrer">@mr-hope/vuepress-plugin-last-update</a>: 支持多语言格式的最后更新时间</p>
+</li>
+<li>
+<p><a href="https://vuepress-theme-hope.github.io/pwa/zh/" target="_blank" rel="noopener noreferrer">@mr-hope/vuepress-plugin-pwa</a>: PWA 支持</p>
+</li>
+<li>
+<p><a href="https://vuepress-theme-hope.github.io/reading-time/zh/" target="_blank" rel="noopener noreferrer">@mr-hope/vuepress-plugin-reading-time</a>: 阅读时间与字数统计</p>
+</li>
+<li>
+<p><a href="https://vuepress-theme-hope.github.io/seo/zh/" target="_blank" rel="noopener noreferrer">@mr-hope/vuepress-plugin-seo</a>: SEO 增强插件</p>
+</li>
+<li>
+<p><a href="https://vuepress-theme-hope.github.io/sitemap/zh/" target="_blank" rel="noopener noreferrer">@mr-hope/vuepress-plugin-sitemap</a>: 为你的站点生成 sitemap</p>
+</li>
+<li>
+<p><a href="https://vuepress-theme-hope.github.io/add-this/zh/" target="_blank" rel="noopener noreferrer">vuepress-plugin-add-this</a>: 让网站支持社交分享与关注</p>
+</li>
+<li>
+<p><a href="https://vuepress-theme-hope.github.io/md-enhance/zh/" target="_blank" rel="noopener noreferrer">vuepress-plugin-md-enhance</a>: 提供更多 Markdown 语法</p>
+</li>
+<li>
+<p><a href="https://vuepress-theme-hope.github.io/photo-swipe/zh/" target="_blank" rel="noopener noreferrer">vuepress-plugin-photo-swipe</a>: 使网站的图片支持缩放与滑动浏览</p>
 </li>
 </ul>
 ]]></content:encoded>
@@ -13264,7 +13350,9 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <content:encoded><![CDATA[<p><code>vuepress-theme-hope</code> 允许你添加幻灯片页面。</p>
 <p>你需要在相应的页面的 frontmatter 中，设置 <code>layout: Slide</code> 来开启幻灯片风格。</p>
 
-<p>另外，您应该通过设置 <code>themeConfig.mdEnhance.enableAll</code> 或 <code>themeConfig.mdEnhance.presentation</code> 在 <code>vuepress-plugin-md-enhance</code> 中启用幻灯片功能。</p>
+<div><p>Tips</p>
+<p>你应该通过设置 <code>themeConfig.mdEnhance.enableAll</code> 或 <code>themeConfig.mdEnhance.presentation</code> 在 <code>vuepress-plugin-md-enhance</code> 中启用幻灯片功能，否则幻灯片无法正确加载。</p>
+</div>
 <p><img src="./assets/slides.png" alt="幻灯片页截图"></p>
 <p>你应该仅在该页面包含一个单一的幻灯片语法，以避免其他问题。</p>
 <div><pre><code>@slidestart [your theme]
@@ -13469,15 +13557,15 @@ vuepress-theme-hope v2 仍在制作中，API 可能会有
 <p>输入:</p>
 <div><pre><code><span><span><span>&lt;</span>CodeGroup</span><span>></span></span>
 <span><span><span>&lt;</span>CodeGroupItem</span> <span>title</span><span><span>=</span><span>"</span>yarn<span>"</span></span><span>></span></span>
-```bash
-yarn add -D vuepress-theme-hope
-```
+<span><span>```</span><span>bash</span>
+<span><span>yarn</span> <span>add</span> -D vuepress-theme-hope</span>
+<span>```</span></span>
 <span><span><span>&lt;/</span>CodeGroupItem</span><span>></span></span>
 
 <span><span><span>&lt;</span>CodeGroupItem</span> <span>title</span><span><span>=</span><span>"</span>npm<span>"</span></span> <span>active</span><span>></span></span>
-```bash
-npm i -D vuepress-theme-hope
-```
+<span><span>```</span><span>bash</span>
+<span><span>npm</span> i -D vuepress-theme-hope</span>
+<span>```</span></span>
 <span><span><span>&lt;/</span>CodeGroupItem</span><span>></span></span>
 <span><span><span>&lt;/</span>CodeGroup</span><span>></span></span>
 </code></pre>
@@ -13513,7 +13601,7 @@ npm i -D vuepress-theme-hope
   <span>}</span><span>,</span>
 <span>}</span><span>;</span>
 </code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><h2 id="语法"> 语法</h2>
-<p>您应该使用以下语法：</p>
+<p>你应该使用以下语法：</p>
 <div><pre><code>::: demo [类型] 可选的标题文字
 
 <span><span>```</span><span>html</span>
@@ -13616,7 +13704,7 @@ export default {
 :::
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br></div></div><div><p>Note</p>
-<p>该插件未捆绑任何库，因此您必须通过在 <code>.vuepress/config.js</code> 文件中设置 <code>head</code> 来导入它们。</p>
+<p>该插件未捆绑任何库，因此你必须通过在 <code>.vuepress/config.js</code> 文件中设置 <code>head</code> 来导入它们。</p>
 <div><pre><code><span>// .vuepress/config.js</span>
 module<span>.</span>exports <span>=</span> <span>{</span>
   head<span>:</span> <span>[</span>
@@ -13644,8 +13732,8 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br></div></div><p>我们还进行了增强: 如果你导入 Babel，则将使用 babel 将脚本解析为 es6，以确保能在浏览器上正常运行。</p>
 </div>
 <h3 id="可用的语言"> 可用的语言</h3>
-<p>您可以在演示块中使用不同语言。</p>
-<p>当您设置其他语言时，由于插件无法解析它们，因此演示将被禁用，您只能看到代码。插件将为您提供一个 &quot;在 CodePen 中打开&quot; 按钮允许你直接在 CodePen 打开代码。</p>
+<p>你可以在演示块中使用不同语言。</p>
+<p>当你设置其他语言时，由于插件无法解析它们，因此演示将被禁用仅显示代码。插件将提供一个 &quot;在 CodePen 中打开&quot; 按钮允许用户直接在 CodePen 打开代码。</p>
 <p>可用的 HTML 语言:</p>
 <ul>
 <li><code>&quot;html&quot;</code> (默认)</li>
@@ -14146,7 +14234,7 @@ c2(no)->op2->e
 <p>请仅将此选项用于体验或测试。随着时间的增长，<code>vupress-plugin-md-enhance</code> 变得越来越强大。它为 Markdown 解析器添加了更多语法，并输出了更多代码。</p>
 <p>启用不需要的功能将增加开发和构建时间。 (<code>markdown-it</code> 必须检查额外的语法)</p>
 <p>同样，幻灯片演示功能将在输出中添加 700KB 大小的代码 (主要是 <code>reveal.js</code>)。</p>
-<p>因此，请仅启用您要使用的功能。</p>
+<p>因此，请仅启用需要的功能。</p>
 </div>
 <h3 id="启用特定的语法"> 启用特定的语法</h3>
 <p>特定语法的配置项可以在对应的说明页或者 <a href="./../../config/theme/plugin.html#mdEnhance">主题插件配置</a> 中找到。</p>
@@ -14268,7 +14356,7 @@ $$
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br></div></div><p>详细与完整的演示详见 <a href="https://vuepress-theme-hope.github.io/md-enhance/zh/guide/presentation/demo/" target="_blank" rel="noopener noreferrer">幻灯片演示</a></p>
 <h2 id="选项"> 选项</h2>
-<p>您可以在 Frontmatter 设置 <code>reveal</code> 以设置特定页面的 reveal.js 选项，也可以在插件选项中设置 <code>presentation</code> 以全局设置 reveal.js。</p>
+<p>你可以在 Frontmatter 设置 <code>reveal</code> 以设置特定页面的 reveal.js 选项，也可以在插件选项中设置 <code>presentation</code> 以全局设置 reveal.js。</p>
 <p>更多选项，请参见<a href="https://revealjs.com/config/" target="_blank" rel="noopener noreferrer">reveal.js config</a>，更多用法，请参阅 <a href="https://revealjs.com/" target="_blank" rel="noopener noreferrer">reveal.js 文档</a>。</p>
 ]]></content:encoded>
     </item>
@@ -14656,10 +14744,10 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <link>https://vuepress-theme-hope.github.io/zh/guide/feature/comment/</link>
       <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/comment/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">评论</source>
-      <description>&amp;lt;p&amp;gt;通过内置 &amp;lt;code&amp;gt;@mr-hope/vuepress-plugin-comment&amp;lt;/code&amp;gt;，&amp;lt;code&amp;gt;vuepress-theme-hope&amp;lt;/code&amp;gt; 实现了评论功能。&amp;lt;/p&amp;gt;
+      <description>&amp;lt;p&amp;gt;通过内置 &amp;lt;a href=&amp;quot;https://vuepress-theme-hope.github.io/comment/zh/&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;&amp;lt;code&amp;gt;@mr-hope/vuepress-plugin-comment&amp;lt;/code&amp;gt;&amp;lt;/a&amp;gt;，&amp;lt;code&amp;gt;vuepress-theme-hope&amp;lt;/code&amp;gt; 实现了评论功能。&amp;lt;/p&amp;gt;
 </description>
       <category>feature</category>
-      <content:encoded><![CDATA[<p>通过内置 <code>@mr-hope/vuepress-plugin-comment</code>，<code>vuepress-theme-hope</code> 实现了评论功能。</p>
+      <content:encoded><![CDATA[<p>通过内置 <a href="https://vuepress-theme-hope.github.io/comment/zh/" target="_blank" rel="noopener noreferrer"><code>@mr-hope/vuepress-plugin-comment</code></a>，<code>vuepress-theme-hope</code> 实现了评论功能。</p>
 
 <h2 id="启用"> 启用 <i>Not supported content</i></h2>
 <div><div><br><br><br><br><div>&nbsp;</div><br><br><div>&nbsp;</div><div>&nbsp;</div><br><br><br><br></div><pre><code><span>// .vuepress/config.js</span>

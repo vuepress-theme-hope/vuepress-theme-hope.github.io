@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/md-enhance/</link>
     <description>Markdown Enhancement for VuePress</description>
     <language>en-US</language>
-    <pubDate>Sun, 28 Feb 2021 09:00:31 GMT</pubDate>
-    <lastBuildDate>Sun, 28 Feb 2021 09:00:31 GMT</lastBuildDate>
+    <pubDate>Sun, 28 Feb 2021 09:27:04 GMT</pubDate>
+    <lastBuildDate>Sun, 28 Feb 2021 09:27:04 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -1657,7 +1657,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <p>随着时间的增长，<code>vupress-plugin-md-enhance</code> 变得越来越强大。它为 markdown 解析器添加了更多语法，并输出了更多代码。</p>
 <p>启用不需要的功能将增加开发和构建时间。 (<code>markdown-it</code> 必须检查额外的语法)</p>
 <p>同样，幻灯片演示功能将在输出中添加 700KB 大小的代码 (主要是 <code>reveal.js</code>)。</p>
-<p>因此，请使用下面的选项，仅启用您要使用的功能。</p>
+<p>因此，请使用下面的选项，仅启用需要的功能。</p>
 </div>
 <h2 id="align"> align</h2>
 <ul>
@@ -1955,7 +1955,7 @@ vuepress-theme-hope v2 仍在制作中，API 可能会有
   <span>]</span><span>,</span>
 <span>}</span><span>;</span>
 </code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div><h2 id="语法"> 语法</h2>
-<p>您应该使用以下语法：</p>
+<p>请使用以下语法：</p>
 <div><pre><code>::: demo [类型] 可选的标题文字
 
 <span><span>```</span><span>html</span>
@@ -2058,7 +2058,7 @@ export default {
 :::
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br></div></div><div><p>Note</p>
-<p>该插件未捆绑任何库，因此您必须通过在 <code>.vuepress/config.js</code> 文件中设置 <code>head</code> 来导入它们。</p>
+<p>该插件未捆绑任何库，因此你必须通过在 <code>.vuepress/config.js</code> 文件中设置 <code>head</code> 来导入它们。</p>
 <div><pre><code><span>// .vuepress/config.js</span>
 module<span>.</span>exports <span>=</span> <span>{</span>
   head<span>:</span> <span>[</span>
@@ -2086,8 +2086,8 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br></div></div><p>我们还进行了增强: 如果你导入 Babel，则将使用 babel 将脚本解析为 es6，以确保能在浏览器上正常运行。</p>
 </div>
 <h3 id="可用的语言"> 可用的语言</h3>
-<p>您可以在演示块中使用不同语言。</p>
-<p>当您设置其他语言时，由于插件无法解析它们，因此演示将被禁用，您只能看到代码。插件将为您提供一个 &quot;在 CodePen 中打开&quot; 按钮允许你直接在 CodePen 打开代码。</p>
+<p>你可以在演示块中使用不同语言。</p>
+<p>当你设置其他语言时，由于插件无法解析它们，因此演示将被禁用只显示代码。插件将提供一个 &quot;在 CodePen 中打开&quot; 按钮允许用户直接在 CodePen 打开代码。</p>
 <p>可用的 HTML 语言:</p>
 <ul>
 <li><code>&quot;html&quot;</code> (默认)</li>
@@ -2693,7 +2693,7 @@ e=>end: End:>http://www.yahoo.com
   <span>]</span><span>,</span>
 <span>}</span><span>;</span>
 </code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div><p>你也可以传入一个对象以进行更详细的配置。</p>
-<p><code>presentation.plugins</code> 接收一个字符串数组，让您可以自由配置是否启用一些预设的插件。</p>
+<p><code>presentation.plugins</code> 接收一个字符串数组，可以自由配置是否启用一些预设的插件。</p>
 <div><p>Tips</p>
 <p>可接受的插件有:</p>
 <ul>
@@ -2747,7 +2747,7 @@ e=>end: End:>http://www.yahoo.com
 <h2 id="演示"> 演示</h2>
 <p>请见 <a href="./demo.html">幻灯片演示</a>。</p>
 <h2 id="选项"> 选项</h2>
-<p>您可以在 Frontmatter 设置 <code>reveal</code> 以设置特定页面的 reveal.js 选项，也可以在插件选项中设置 <code>presentation</code> 以全局设置 reveal.js。</p>
+<p>你可以在 Frontmatter 设置 <code>reveal</code> 以设置特定页面的 reveal.js 选项，也可以在插件选项中设置 <code>presentation</code> 以全局设置 reveal.js。</p>
 <p>更多选项，请参见<a href="https://revealjs.com/config/" target="_blank" rel="noopener noreferrer">reveal.js config</a>，更多用法，请参阅 <a href="https://revealjs.com/" target="_blank" rel="noopener noreferrer">reveal.js 文档</a>。</p>
 ]]></content:encoded>
     </item>
@@ -2811,7 +2811,7 @@ e=>end: End:>http://www.yahoo.com
 <p>请仅将此选项用于体验或测试。随着时间的增长，<code>vupress-plugin-md-enhance</code> 变得越来越强大。它为 Markdown 解析器添加了更多语法，并输出了更多代码。</p>
 <p>启用不需要的功能将增加开发和构建时间。 (<code>markdown-it</code> 必须检查额外的语法)</p>
 <p>同样，幻灯片演示功能将在输出中添加 700KB 大小的代码 (主要是 <code>reveal.js</code>)。</p>
-<p>因此，请使用下面的选项，仅启用您要使用的功能。</p>
+<p>因此，请使用下面的选项，仅启用需要的功能。</p>
 </div>
 <h2 id="新增的更多语法"> 新增的更多语法</h2>
 <h3 id="自定义对齐"> 自定义对齐</h3>
