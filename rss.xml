@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/</link>
     <description>A vuepress theme with tons of features✨</description>
     <language>en-US</language>
-    <pubDate>Sun, 28 Feb 2021 09:27:04 GMT</pubDate>
-    <lastBuildDate>Sun, 28 Feb 2021 09:27:04 GMT</lastBuildDate>
+    <pubDate>Sun, 28 Feb 2021 12:57:51 GMT</pubDate>
+    <lastBuildDate>Sun, 28 Feb 2021 12:57:51 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -2422,7 +2422,7 @@ export default { // Highlighted
 <h3 id="pageinfo"> pageInfo</h3>
 <ul>
 <li>Type: <code>PageInfo[] | false</code></li>
-<li>Default value: Globally configured value (global default is <code>['author', 'visitor', 'time', 'category', 'tag', 'readtime']</code>)</li>
+<li>Default value: Globally configured value (global default is <code>['author', 'visitor', 'time', 'category', 'tag', 'reading-time']</code>)</li>
 </ul>
 <p>The optional values and corresponding contents of <code>PageInfo</code> are as follows:</p>
 <table>
@@ -2437,25 +2437,25 @@ export default { // Highlighted
 <tr>
 <td><code>'author'</code></td>
 <td>Author</td>
-<td>author</td>
+<td><code>author</code></td>
 </tr>
 <tr>
 <td><code>'time'</code></td>
 <td>Writing Date</td>
-<td>time</td>
+<td><code>time</code></td>
 </tr>
 <tr>
 <td><code>'category'</code></td>
 <td>Category</td>
-<td>category</td>
+<td><code>category</code></td>
 </tr>
 <tr>
 <td><code>'tag'</code></td>
 <td>Tags</td>
-<td>tags</td>
+<td><code>tag</code></td>
 </tr>
 <tr>
-<td><code>'readTime'</code></td>
+<td><code>'reading-time'</code></td>
 <td>Expect reading time</td>
 <td>N / A (automatically generated)</td>
 </tr>
@@ -2467,7 +2467,7 @@ export default { // Highlighted
 <tr>
 <td><code>'visitor'</code></td>
 <td>Visit Number</td>
-<td>visitor (only available with Valine)</td>
+<td><code>visitor</code> (only available with Valine)</td>
 </tr>
 </tbody>
 </table>
@@ -3204,18 +3204,18 @@ write something here ~
 <h2 id="pageinfo"> pageInfo</h2>
 <ul>
 <li>Type: <code>string[] | false</code></li>
-<li>Default: <code>['Author', 'Visitor', 'Time', 'Category', 'Tag', 'ReadTime']</code></li>
+<li>Default: <code>['author', 'visitor', 'time', 'category', 'tag', 'reading-time']</code></li>
 </ul>
-<p>Article information can be filled in an array, and the order of the array is the order in which the items are displayed. Fill in <code>false</code> to disable it.</p>
-<p>Available Options:</p>
+<p>Article information. The order of the items decides the display order. Fill in <code>false</code> to disable it.</p>
+<p>Available items:</p>
 <ul>
-<li><code>'Author'</code>: Author</li>
-<li><code>'Time'</code>: Writing Date</li>
-<li><code>'Category'</code>: Category</li>
-<li><code>'Tag'</code>: Tags</li>
-<li><code>'ReadTime'</code>: Expect reading time</li>
-<li><code>'Word'</code>: Word number for the article</li>
-<li><code>'Visitor'</code>: Visitor Number</li>
+<li><code>'author'</code>: author</li>
+<li><code>'time'</code>: writing date</li>
+<li><code>'category'</code>: category</li>
+<li><code>'tag'</code>: tags</li>
+<li><code>'reading-time'</code>: expect reading time</li>
+<li><code>'word'</code>: word number for the article</li>
+<li><code>'visitor'</code>: pageviews</li>
 </ul>
 <h2 id="footer-settings"> Footer settings</h2>
 <h3 id="footer-content"> footer.content</h3>
@@ -4217,7 +4217,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <td>tags</td>
 </tr>
 <tr>
-<td><code>'readtime'</code></td>
+<td><code>'reading-time'</code></td>
 <td>Estimated reading time</td>
 <td>N / A (automatically generated)</td>
 </tr>
@@ -10051,7 +10051,7 @@ export default { // Highlighted
 <h3 id="pageinfo"> pageInfo</h3>
 <ul>
 <li>类型: <code>PageInfo[] | false</code></li>
-<li>默认值: 全局中配置的值 (全局默认为 <code>['author', 'visitor', 'time', 'category', 'tag', 'readtime']</code>)</li>
+<li>默认值: 全局中配置的值 (全局默认为 <code>['author', 'visitor', 'time', 'category', 'tag', 'reading-time']</code>)</li>
 </ul>
 <p><code>PageInfo</code> 可选的值和对应内容如下:</p>
 <table>
@@ -10084,7 +10084,7 @@ export default { // Highlighted
 <td>tags</td>
 </tr>
 <tr>
-<td><code>'readtime'</code></td>
+<td><code>'reading-time'</code></td>
 <td>预计阅读时间</td>
 <td>N/A(自动生成)</td>
 </tr>
@@ -10834,18 +10834,18 @@ export default { // Highlighted
 <h2 id="pageinfo"> pageInfo</h2>
 <ul>
 <li>类型: <code>string[] | false</code></li>
-<li>默认值: <code>['Author', 'Visitor', 'Time', 'Category', 'Tag', 'ReadTime']</code></li>
+<li>默认值: <code>['author', 'visitor', 'time', 'category', 'tag', 'reading-time']</code></li>
 </ul>
 <p>文章信息，可以填入数组，数组的顺序是各条目显示的顺序。填入 <code>false</code> 使其被禁用。</p>
 <p>可以填入的条目如下:</p>
 <ul>
-<li><code>'Author'</code>: 作者</li>
-<li><code>'Time'</code>: 写作日期</li>
-<li><code>'Category'</code>: 分类</li>
-<li><code>'Tag'</code>: 标签</li>
-<li><code>'ReadTime'</code>: 预计阅读时间</li>
-<li><code>'Word'</code>: 字数</li>
-<li><code>'Visitor'</code>: 访问量</li>
+<li><code>'author'</code>: 作者</li>
+<li><code>'time'</code>: 写作日期</li>
+<li><code>'category'</code>: 分类</li>
+<li><code>'tag'</code>: 标签</li>
+<li><code>'reading-time'</code>: 预计阅读时间</li>
+<li><code>'word'</code>: 字数</li>
+<li><code>'visitor'</code>: 访问量</li>
 </ul>
 <h2 id="页脚设置"> 页脚设置</h2>
 <h3 id="footer-content"> footer.content</h3>
@@ -11716,7 +11716,7 @@ export default { // Highlighted
 <td>N/A</td>
 </tr>
 <tr>
-<td><code>'readtime'</code></td>
+<td><code>'reading-time'</code></td>
 <td>预计阅读时间</td>
 <td>N/A(自动生成)</td>
 <td>N/A</td>

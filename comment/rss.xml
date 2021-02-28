@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/comment/</link>
     <description>Comment Plugin for VuePress</description>
     <language>en-US</language>
-    <pubDate>Sun, 28 Feb 2021 09:27:04 GMT</pubDate>
-    <lastBuildDate>Sun, 28 Feb 2021 09:27:04 GMT</lastBuildDate>
+    <pubDate>Sun, 28 Feb 2021 12:57:51 GMT</pubDate>
+    <lastBuildDate>Sun, 28 Feb 2021 12:57:51 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -38,18 +38,18 @@
 <h2 id="pageinfo"> pageInfo</h2>
 <ul>
 <li>Type: <code>string[] | false</code></li>
-<li>Default: <code>['Author', 'Visitor', 'Time', 'Category', 'Tag', 'ReadTime']</code></li>
+<li>Default: <code>['author', 'visitor', 'time', 'category', 'tag', 'reading-time']</code></li>
 </ul>
-<p>The order of the items decides the display order . Fill in <code>false</code> to disable it.</p>
+<p>The order of the items decides the display order. Fill in <code>false</code> to disable it.</p>
 <p>Available items:</p>
 <ul>
-<li><code>'Author'</code>: Author</li>
-<li><code>'Time'</code>: Writing Date</li>
-<li><code>'Category'</code>: Category</li>
-<li><code>'Tag'</code>: Tags</li>
-<li><code>'ReadTime'</code>: Expect reading time</li>
-<li><code>'Word'</code>: Word number for the article</li>
-<li><code>'Visitor'</code>: Visitor Number</li>
+<li><code>'author'</code>: author</li>
+<li><code>'time'</code>: writing date</li>
+<li><code>'category'</code>: category</li>
+<li><code>'tag'</code>: tags</li>
+<li><code>'reading-time'</code>: expect reading time</li>
+<li><code>'word'</code>: word number for the article</li>
+<li><code>'visitor'</code>: pageviews</li>
 </ul>
 <h2 id="comment"> comment</h2>
 <ul>
@@ -710,39 +710,39 @@ Vssue can also work with self-hosted GitLab. Set the <code>baseURL</code> option
 </thead>
 <tbody>
 <tr>
-<td><code>'Author'</code></td>
+<td><code>'author'</code></td>
 <td>author</td>
-<td>author</td>
+<td><code>author</code></td>
 </tr>
 <tr>
-<td><code>'Time'</code></td>
+<td><code>'time'</code></td>
 <td>Writing Date</td>
-<td>time</td>
+<td><code>time</code></td>
 </tr>
 <tr>
-<td><code>'Category'</code></td>
+<td><code>'category'</code></td>
 <td>Category</td>
-<td>category</td>
+<td><code>category</code></td>
 </tr>
 <tr>
-<td><code>'Tag'</code></td>
+<td><code>'tag'</code></td>
 <td>tags</td>
-<td>tags</td>
+<td><code>tags</code></td>
 </tr>
 <tr>
-<td><code>'ReadTime'</code></td>
+<td><code>'reading-time'</code></td>
 <td>Estimated reading time</td>
 <td>N / A (automatically generated)</td>
 </tr>
 <tr>
-<td><code>'Word'</code></td>
+<td><code>'word'</code></td>
 <td>Word count</td>
 <td>N / A (automatically generated)</td>
 </tr>
 <tr>
-<td><code>'Visitor'</code></td>
-<td>Visits</td>
-<td>visitor (only Valine is available)</td>
+<td><code>'visitor'</code></td>
+<td>Pageviews</td>
+<td><code>visitor</code> (only Valine is available)</td>
 </tr>
 </tbody>
 </table>
@@ -757,7 +757,7 @@ Vssue can also work with self-hosted GitLab. Set the <code>baseURL</code> option
 </ul>
 <p>It is recommended to fill it with a standard date format. A standard format is in the form of <code>xxxx-xx-xx</code>, such as &quot;April 1, 2020&quot; should be written as <code>2020-04-01</code>.</p>
 <ul>
-<li><strong>Reading time</strong></li>
+<li><strong>reading time</strong></li>
 </ul>
 <p>The default statistic method is 300 words per minute. You can override it by setting <code>wordPerminute</code> in the plugin configuration. This option does not support individual configuration on the page.</p>
 </div>
@@ -1080,18 +1080,18 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <h2 id="pageinfo"> pageInfo</h2>
 <ul>
 <li>类型: <code>string[] | false</code></li>
-<li>默认值: <code>['Author', 'Visitor', 'Time', 'Category', 'Tag', 'ReadTime']</code></li>
+<li>默认值: <code>['author', 'visitor', 'time', 'category', 'tag', 'reading-time']</code></li>
 </ul>
 <p>文章信息，可以填入数组，数组的顺序是各条目显示的顺序。填入 <code>false</code> 使其被禁用。</p>
 <p>可以填入的条目如下:</p>
 <ul>
-<li><code>'Author'</code>: 作者</li>
-<li><code>'Time'</code>: 写作日期</li>
-<li><code>'Category'</code>: 分类</li>
-<li><code>'Tag'</code>: 标签</li>
-<li><code>'ReadTime'</code>: 预计阅读时间</li>
-<li><code>'Word'</code>: 字数</li>
-<li><code>'Visitor'</code>: 访问量</li>
+<li><code>'author'</code>: 作者</li>
+<li><code>'time'</code>: 写作日期</li>
+<li><code>'category'</code>: 分类</li>
+<li><code>'tag'</code>: 标签</li>
+<li><code>'reading-time'</code>: 预计阅读时间</li>
+<li><code>'word'</code>: 字数</li>
+<li><code>'visitor'</code>: 访问量</li>
 </ul>
 <h2 id="comment"> comment</h2>
 <ul>
@@ -1763,39 +1763,39 @@ Vssue 同样可以配合自己搭建的 GitLab 使用。只需要将 <code>baseU
 </thead>
 <tbody>
 <tr>
-<td><code>'Author'</code></td>
+<td><code>'author'</code></td>
 <td>作者</td>
-<td>author</td>
+<td><code>author</code></td>
 </tr>
 <tr>
-<td><code>'Time'</code></td>
+<td><code>'time'</code></td>
 <td>写作日期</td>
-<td>time</td>
+<td><code>time</code></td>
 </tr>
 <tr>
-<td><code>'Category'</code></td>
+<td><code>'category'</code></td>
 <td>分类</td>
-<td>category</td>
+<td><code>category</code></td>
 </tr>
 <tr>
-<td><code>'Tag'</code></td>
+<td><code>'tag'</code></td>
 <td>标签</td>
-<td>tags</td>
+<td><code>tag</code></td>
 </tr>
 <tr>
-<td><code>'ReadTime'</code></td>
+<td><code>'reading-time'</code></td>
 <td>预计阅读时间</td>
-<td>N/A(自动生成)</td>
+<td>N/A (自动生成)</td>
 </tr>
 <tr>
-<td><code>'Word'</code></td>
+<td><code>'word'</code></td>
 <td>字数</td>
-<td>N/A(自动生成)</td>
+<td>N/A (自动生成)</td>
 </tr>
 <tr>
-<td><code>'Visitor'</code></td>
+<td><code>'visitor'</code></td>
 <td>访问量</td>
-<td>visitor(仅 Valine 可用)</td>
+<td><code>visitor</code> (仅 Valine 可用)</td>
 </tr>
 </tbody>
 </table>
@@ -1810,7 +1810,7 @@ Vssue 同样可以配合自己搭建的 GitLab 使用。只需要将 <code>baseU
 </ul>
 <p>建议 time 以标准格式输入日期，即 <code>xxxx-xx-xx</code> 的形式，如 “2020 年 4 月 1 日” 应当输入为 <code>2020-04-01</code></p>
 <ul>
-<li><strong>阅读时间</strong></li>
+<li><strong>reading-time</strong></li>
 </ul>
 <p>默认的统计方式是一分钟 300 字，你可以在插件配置中设置 <code>wordPerminute</code> 来覆盖它，该选项不支持在页面单独配置。</p>
 </div>
