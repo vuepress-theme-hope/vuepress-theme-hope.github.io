@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/</link>
     <description>A vuepress theme with tons of features✨</description>
     <language>en-US</language>
-    <pubDate>Sat, 06 Mar 2021 14:54:24 GMT</pubDate>
-    <lastBuildDate>Sat, 06 Mar 2021 14:54:24 GMT</lastBuildDate>
+    <pubDate>Sat, 06 Mar 2021 15:25:28 GMT</pubDate>
+    <lastBuildDate>Sat, 06 Mar 2021 15:25:28 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -3787,6 +3787,60 @@ write something here ~
 ]]></content:encoded>
     </item>
     <item>
+      <title>Category and tags</title>
+      <link>https://vuepress-theme-hope.github.io/guide/blog/category-and-tags/</link>
+      <guid>https://vuepress-theme-hope.github.io/guide/blog/category-and-tags/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">Category and tags</source>
+      <description>&amp;lt;p&amp;gt;You can configure category and tags for articles through frontmatter to make them appear in specific categories and tags pages.&amp;lt;/p&amp;gt;
+</description>
+      <category>blog</category>
+      <content:encoded><![CDATA[<p>You can configure category and tags for articles through frontmatter to make them appear in specific categories and tags pages.</p>
+
+<h2 id="category-settings"> Category Settings</h2>
+<p>Just add <code>category: &lt;category name&gt;</code> to the frontmatter of the page, and the article will be automatically rendered in the list of the <code>/category/&lt;category name&gt;/</code> category page.</p>
+<p>For example, add this to a certain page:</p>
+<div><pre><code><span><span>---</span>
+<span>category: HTML</span>
+<span>---</span></span>
+
+Page content...
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>Then you can find it under the <code>/category/HTML</code> page.</p>
+<div><p>example</p>
+<p><img src="./assets/category.png" alt="Category"></p>
+<ul>
+<li><a href="https://mrhope.site/category/JavaScript/" target="_blank" rel="noopener noreferrer">Link</a></li>
+</ul>
+</div>
+<p>::: warn</p>
+<p>Please note that only one category can be set for an article. (V2 plan supports multiple categories of articles)</p>
+<p>:::</p>
+<h2 id="tags"> Tags</h2>
+<p>Just add the <code>tags</code> array to the frontmatter of the page, and set the tag to which one or more articles belong, and the article will be automatically rendered in the list of the <code>/tag/&lt;tag name&gt;/</code> tag page.</p>
+<p>For example, add this in a certain page:</p>
+<div><pre><code><span><span>---</span>
+<span>tags:
+  - HTML
+  - Web</span>
+<span>---</span></span>
+
+Page content...
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><p>Then you can find it under the <code>/tag/HTML</code> and <code>/tag/Web</code> pages.</p>
+<div><p>example</p>
+<p><img src="./assets/tag.png" alt="Tag"></p>
+<ul>
+<li><a href="https://mrhope.site/tag/Vuex/" target="_blank" rel="noopener noreferrer">Link</a></li>
+</ul>
+</div>
+<h2 id="view-list"> View list</h2>
+<p>Besides directly accessing the corresponding link, the category and tag name will be displayed at the article information at the top of the article. You can click on it to navigate to the corresponding list to view the articles of the same category or tag.</p>
+<p><img src="./assets/info.png" alt="Article Information"></p>
+<p>You can also select the category or tag tab in the sidebar of the blog homepage and select the corresponding item to enter the list.</p>
+<p><img src="./assets/sidebar.png" alt="Sidebar Tab"></p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>Blog homepage</title>
       <link>https://vuepress-theme-hope.github.io/guide/blog/home/</link>
       <guid>https://vuepress-theme-hope.github.io/guide/blog/home/</guid>
@@ -3875,19 +3929,13 @@ write something here ~
       <guid>https://vuepress-theme-hope.github.io/guide/blog/intro/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">Blog support Intro</source>
       <description>&amp;lt;p&amp;gt;The theme enables some blogging features using &amp;lt;code&amp;gt;@vuepress/plugin-blog&amp;lt;/code&amp;gt; by default.&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;You can set &amp;lt;code&amp;gt;themeConfig.blog&amp;lt;/code&amp;gt; to &amp;lt;code&amp;gt;false&amp;lt;/code&amp;gt; to disable all blog features.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;If you don’t need any blog features (such as a pure documentation site), you can set &amp;lt;code&amp;gt;themeConfig.blog&amp;lt;/code&amp;gt; to &amp;lt;code&amp;gt;false&amp;lt;/code&amp;gt; to disable all blog features.&amp;lt;/p&amp;gt;
 </description>
       <category>blog</category>
       <content:encoded><![CDATA[<p>The theme enables some blogging features using <code>@vuepress/plugin-blog</code> by default.</p>
-<p>You can set <code>themeConfig.blog</code> to <code>false</code> to disable all blog features.</p>
+<p>If you don’t need any blog features (such as a pure documentation site), you can set <code>themeConfig.blog</code> to <code>false</code> to disable all blog features.</p>
 
-<h2 id="category"> Category</h2>
-<p>Add <code>category: &lt;category name&gt;</code> to the frontmatter of the page, and the article will be automatically rendered in the list of category pages with URL <code>/category/</code>.</p>
-<p><img src="./assets/category.png" alt="Category"></p>
-<p>Please note that only one category can be set per article.</p>
-<h2 id="tags"> Tags</h2>
-<p>Add <code>tags: &lt;tag name&gt;</code> to the frontmatter of the page, and the article will be automatically listed in the list on the <code>/tag/</code> tag page.</p>
-<p><code>tags</code> accepts <code>string | string []</code>, which means that an article can contain multiple tags.</p>
+<h2 id="general"> General</h2>
 <h2 id="article"> Article</h2>
 <p>All articles will be added to the article list by default and rendered under path <code>/article/</code> .</p>
 <p>If you don’t want specific articles to be included, set <code>article</code> to <code>false</code> in the article’s frontmatter.</p>
@@ -11492,86 +11540,115 @@ export default { // Highlighted
 ]]></content:encoded>
     </item>
     <item>
-      <title>博客首页</title>
-      <link>https://vuepress-theme-hope.github.io/zh/guide/blog/home/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/guide/blog/home/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">博客首页</source>
+      <title>博客</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/blog/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/blog/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">博客</source>
       <category>blog</category>
-      <content:encoded><![CDATA[<h1 id="博客首页"> 博客首页</h1>
-<p><code>vuepress-theme-hope</code> 允许你启用博客风格的首页。</p>
-<p>你需要在相应的页面的 frontmatter 中，设置 <code>blog: true</code> 来开启博客风格。</p>
-<p><img src="./assets/blog.png" alt="首页截图"></p>
-<h2 id="可配置的项目"> 可配置的项目</h2>
-<p>你可以自由配置左上方的博主头像与博主姓名，他们的配置项为 <code>themeConfig.blog.avatar</code> 和 <code>themeConfig.blog.name</code>。如果你没有填写它们，它们会自动回退到站点 Logo (<code>themeConfig.logo</code>) 和 站点名称 (<code>themeConfig.name</code>)。</p>
-<p>如果你使用 <code>themeConfig.intro</code> 配置了个人介绍页地址，点击左上角的博主头像和博主名称，会自动跳转到博主的个人介绍页。</p>
-<p>你还可以在 <code>themeConfig.blog.links</code> 这个对象中以 <code>社交媒体名: 社交媒体链接</code> 的格式配置你的社交媒体链接。</p>
-<div><p>可用的社交媒体:</p>
+      <content:encoded><![CDATA[<h2 id="目录"> 目录</h2>
 <ul>
-<li><code>'Baidu'</code>: 百度</li>
-<li><code>'Bitbucket'</code>: Bitbucket</li>
-<li><code>'Dingding'</code>: 钉钉</li>
-<li><code>'Discord'</code>: Discord</li>
-<li><code>'Dribbble'</code>: Dribble</li>
-<li><code>'Evernote'</code>: 印象笔记</li>
-<li><code>'Facebook'</code>: 脸书</li>
-<li><code>'Flipboard'</code>: 红板报</li>
-<li><code>'Gitee'</code>: Gitee</li>
-<li><code>'Github'</code>: GitHub</li>
-<li><code>'Gitlab'</code>: Gitlab</li>
-<li><code>'Gmail'</code>: 谷歌邮箱(当然你也可以填入你自己的其他邮箱)</li>
-<li><code>'Instagram'</code>: Instagram</li>
-<li><code>'Line'</code>: Line</li>
-<li><code>'Linkedin'</code>: 领英</li>
-<li><code>'Pinterest'</code>: 拼趣</li>
-<li><code>'Pocket'</code>: Pocket</li>
-<li><code>'QQ'</code>: QQ</li>
-<li><code>'Qzone'</code>: QQ 空间</li>
-<li><code>'Reddit'</code>: Reddit</li>
-<li><code>'Rss'</code>: RSS 地址</li>
-<li><code>'Steam'</code>: Steam</li>
-<li><code>'Twitter'</code>: Twitter</li>
-<li><code>'Wechat'</code>: 微信</li>
-<li><code>'Weibo'</code>: 微博</li>
-<li><code>'Whatsapp'</code>: Whatsapp</li>
-<li><code>'Youtube'</code>: YouTube</li>
-<li><code>'Zhihu'</code>: 知乎</li>
+<li>
+<p><a href="./intro.html">博客功能介绍</a></p>
+</li>
+<li>
+<p><a href="./home.html">博客主页</a></p>
+</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>评论</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/comment/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/comment/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">评论</source>
+      <description>&amp;lt;p&amp;gt;通过内置 &amp;lt;a href=&amp;quot;https://vuepress-theme-hope.github.io/comment/zh/&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;&amp;lt;code&amp;gt;@mr-hope/vuepress-plugin-comment&amp;lt;/code&amp;gt;&amp;lt;/a&amp;gt;，&amp;lt;code&amp;gt;vuepress-theme-hope&amp;lt;/code&amp;gt; 实现了评论功能。&amp;lt;/p&amp;gt;
+</description>
+      <category>feature</category>
+      <content:encoded><![CDATA[<p>通过内置 <a href="https://vuepress-theme-hope.github.io/comment/zh/" target="_blank" rel="noopener noreferrer"><code>@mr-hope/vuepress-plugin-comment</code></a>，<code>vuepress-theme-hope</code> 实现了评论功能。</p>
+
+<h2 id="启用"> 启用 <i>Not supported content</i></h2>
+<div><div><br><br><br><br><div>&nbsp;</div><br><br><div>&nbsp;</div><div>&nbsp;</div><br><br><br><br></div><pre><code><span>// .vuepress/config.js</span>
+module<span>.</span>exports <span>=</span> <span>{</span>
+  themeConfig<span>:</span> <span>{</span>
+    comment<span>:</span> <span>{</span>
+      type<span>:</span> <span>"valine"</span><span>,</span> <span>// "valine" 或 "vssue"</span>
+
+      <span>// valine 模式下</span>
+      appId<span>:</span> <span>"..."</span><span>,</span> <span>// your appId</span>
+      appKey<span>:</span> <span>"..."</span><span>,</span> <span>// your appKey</span>
+    <span>}</span><span>,</span>
+  <span>}</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br></div></div><p>评论功能默认全局启用，配置项为 <code>comment</code>。</p>
+<div><p>Info</p>
+<p>受篇幅限制，完整的评论插件配置，详见 <a href="https://vuepress-theme-hope.github.io/comment" target="_blank" rel="noopener noreferrer">@mr-hope/vuepress-plugin-comment 插件文档</a>。</p>
+</div>
+<h2 id="评论服务"> 评论服务</h2>
+<p>有两个评论插件可以选择: Valine 和 Vssue。</p>
+<div><p>Valine 与 Vssue 的比较</p>
+<ul>
+<li>Valine 使用 leancloud，支持页面访问量统计，无需登录账号即可评论</li>
+<li>Vssue 使用代码平台仓库的 issue 面板，需要用户登录或注册相应平台账号。</li>
+</ul>
+<p>如果你的站点面向大众而非程序员，推荐使用 Valine。</p>
+</div>
+<h2 id="valine"> Valine</h2>
+<p>借助 Valine，主题实现了无后端开启阅读量展示与评论功能。</p>
+<h3 id="获取-app-id-和-app-key"> 获取 APP ID 和 APP Key</h3>
+<p>请先 <a href="https://leancloud.cn/dashboard/login.html#/signin" target="_blank" rel="noopener noreferrer">登录</a> 或 <a href="https://leancloud.cn/dashboard/login.html#/signup" target="_blank" rel="noopener noreferrer">注册</a> LeanCloud, 进入控制台后点击左下角创建应用。</p>
+<p>应用创建好以后，进入刚刚创建的应用，选择左下角的 <code>设置 &gt; 应用Key</code>，然后就能看到你的 <code>APP ID</code> 和 <code>APP Key</code> 了。</p>
+<div><pre><code><span>{</span>
+  type<span>:</span> <span>'valine'</span><span>,</span>
+  appId<span>:</span> <span>'...'</span><span>,</span> <span>// your appId</span>
+  appKey<span>:</span> <span>'...'</span> <span>// your appKey</span>
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>将对应的 <code>APP ID</code> 和 <code>APP Key</code> 填入， Valine 即配置完成。</p>
+<p>Valine 评论的其他配置将在 <a href="http://vuepress-theme-hope.github.io/comment/zh/config/valine/" target="_blank" rel="noopener noreferrer">配置</a> 中列出。</p>
+<div><p>Tips</p>
+<p>更多配置与使用，请见 <a href="https://valine.js.org" target="_blank" rel="noopener noreferrer">Valine 官方文档</a>。</p>
+</div>
+<h2 id="vssue"> Vssue</h2>
+<h3 id="选择你要使用的代码托管平台"> 选择你要使用的代码托管平台</h3>
+<p>Vssue 支持通过 GitHub, Gitlab, Bitbucket 或者 Gitee 的 Issue 系统来为你的静态页面提供评论功能，你可以选择其中之一来使用。</p>
+<p>前往 <a href="http://vuepress-theme-hope.github.io/comment/zh/guide/supported-platforms/" target="_blank" rel="noopener noreferrer">支持的代码托管平台 - 创建 OAuth App</a> 查看详细指引。</p>
+<p>完成这一步之后，你将会配置好一个 OAuth App，并得到对应的 <code>client id</code> 和 <code>client secret</code>，它们将会用于 Vssue 的使用。</p>
+<ul>
+<li><code>owner</code>: 对应 repository 的拥有者帐号或者团队</li>
+<li><code>repo</code>: 用来存储评论的 repository</li>
+<li><code>clientId</code>: OAuth App 的 <code>client id</code></li>
+<li><code>clientSecret</code>: OAuth App 的 <code>client secret</code> (只有在使用某些平台时需要)</li>
+</ul>
+<h3 id="使用插件"> 使用插件</h3>
+<div><div><br><br><br><br><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><br><br><br></div><pre><code><span>// .vuepress/config.js</span>
+
+module<span>.</span>exports <span>=</span> <span>{</span>
+  plugins<span>:</span> <span>{</span>
+    <span>"@mr-hope/comment"</span><span>:</span> <span>{</span>
+      type<span>:</span> <span>"vssue"</span><span>,</span>
+      <span>// 设置 `platform` 而不是 `api`</span>
+      platform<span>:</span> <span>"github"</span><span>,</span>
+
+      <span>// 其他的 Vssue 配置</span>
+      owner<span>:</span> <span>"OWNER_OF_REPO"</span><span>,</span>
+      repo<span>:</span> <span>"NAME_OF_REPO"</span><span>,</span>
+      clientId<span>:</span> <span>"YOUR_CLIENT_ID"</span><span>,</span>
+      clientSecret<span>:</span> <span>"YOUR_CLIENT_SECRET"</span><span>,</span>
+    <span>}</span><span>,</span>
+  <span>}</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br></div></div><div><p>Tips</p>
+<p>唯一的区别在于，你需要设置 <code>platform</code> 而不是对应的 <code>api</code> 包。</p>
+<p><code>@vssue/vuepress-plugin-vssue</code> 会自动根据你设置的 <code>platform</code> 为你解析对应的 API 包:</p>
+<ul>
+<li>Platform <code>github</code> - API 包 <code>@vssue/api-github-v3</code></li>
+<li>Platform <code>github-v4</code> - API 包 <code>@vssue/api-github-v4</code></li>
+<li>Platform <code>gitlab</code> - API 包 <code>@vssue/api-gitlab-v4</code></li>
+<li>Platform <code>bitbucket</code> - API 包 <code>@vssue/api-bitbucket-v2</code></li>
+<li>Platform <code>gitee</code> - API 包 <code>@vssue/api-gitee-v5</code></li>
+<li>Platform <code>gitea</code> - API 包 <code>@vssue/api-gitea-v1</code></li>
 </ul>
 </div>
-<p>如果你对时间轴上面的提示文字不满意，你可以使用 <code>themeConfig.blog.timeline</code> 自定义一个。</p>
-<h2 id="frontmatter-可用参数"> Frontmatter 可用参数</h2>
-<h3 id="hero"> hero</h3>
-<ul>
-<li>类型: <code>boolean</code></li>
-<li>默认: <code>true</code></li>
-</ul>
-<p>是否显示主页的图标与描述。主页的图标、描述设置请见默认主页。</p>
-<h3 id="bgimage"> bgImage</h3>
-<ul>
-<li>类型: <code>string</code></li>
-</ul>
-<p>背景图片的地址，需填写绝对路径。如果不填写，会自动应用一张默认的风景图片。</p>
-<h3 id="bgimagestyle"> bgImageStyle</h3>
-<ul>
-<li>类型: <code>Record&lt;string, string&gt;</code></li>
-</ul>
-<p>背景图片的 CSS 样式。</p>
-<h3 id="heroimagestyle"> heroImageStyle</h3>
-<ul>
-<li>类型: <code>Record&lt;string, string&gt;</code></li>
-</ul>
-<p>首页图标的 CSS 样式</p>
-<h3 id="项目"> 项目</h3>
-<ul>
-<li>类型: <code>ProjectOption[]</code></li>
-</ul>
-<p><code>ProjectOption</code> 包括以下键值:</p>
-<ul>
-<li><code>type</code>: 类型，可选值为 <code>'link' | 'project' | 'book' | 'article'</code></li>
-<li><code>name</code>: 项目名称，必填</li>
-<li><code>link</code>: 项目链接，必填，填入外部链接或绝对路径。</li>
-<li><code>desc</code>: 项目描述，选填</li>
-<li><code>cover</code>: 项目封面，选填，填入外部链接或绝对路径。</li>
-</ul>
 ]]></content:encoded>
     </item>
     <item>
@@ -14911,136 +14988,19 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 ]]></content:encoded>
     </item>
     <item>
-      <title>评论</title>
-      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/comment/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/comment/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">评论</source>
-      <description>&amp;lt;p&amp;gt;通过内置 &amp;lt;a href=&amp;quot;https://vuepress-theme-hope.github.io/comment/zh/&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;&amp;lt;code&amp;gt;@mr-hope/vuepress-plugin-comment&amp;lt;/code&amp;gt;&amp;lt;/a&amp;gt;，&amp;lt;code&amp;gt;vuepress-theme-hope&amp;lt;/code&amp;gt; 实现了评论功能。&amp;lt;/p&amp;gt;
-</description>
-      <category>feature</category>
-      <content:encoded><![CDATA[<p>通过内置 <a href="https://vuepress-theme-hope.github.io/comment/zh/" target="_blank" rel="noopener noreferrer"><code>@mr-hope/vuepress-plugin-comment</code></a>，<code>vuepress-theme-hope</code> 实现了评论功能。</p>
-
-<h2 id="启用"> 启用 <i>Not supported content</i></h2>
-<div><div><br><br><br><br><div>&nbsp;</div><br><br><div>&nbsp;</div><div>&nbsp;</div><br><br><br><br></div><pre><code><span>// .vuepress/config.js</span>
-module<span>.</span>exports <span>=</span> <span>{</span>
-  themeConfig<span>:</span> <span>{</span>
-    comment<span>:</span> <span>{</span>
-      type<span>:</span> <span>"valine"</span><span>,</span> <span>// "valine" 或 "vssue"</span>
-
-      <span>// valine 模式下</span>
-      appId<span>:</span> <span>"..."</span><span>,</span> <span>// your appId</span>
-      appKey<span>:</span> <span>"..."</span><span>,</span> <span>// your appKey</span>
-    <span>}</span><span>,</span>
-  <span>}</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br></div></div><p>评论功能默认全局启用，配置项为 <code>comment</code>。</p>
-<div><p>Info</p>
-<p>受篇幅限制，完整的评论插件配置，详见 <a href="https://vuepress-theme-hope.github.io/comment" target="_blank" rel="noopener noreferrer">@mr-hope/vuepress-plugin-comment 插件文档</a>。</p>
-</div>
-<h2 id="评论服务"> 评论服务</h2>
-<p>有两个评论插件可以选择: Valine 和 Vssue。</p>
-<div><p>Valine 与 Vssue 的比较</p>
-<ul>
-<li>Valine 使用 leancloud，支持页面访问量统计，无需登录账号即可评论</li>
-<li>Vssue 使用代码平台仓库的 issue 面板，需要用户登录或注册相应平台账号。</li>
-</ul>
-<p>如果你的站点面向大众而非程序员，推荐使用 Valine。</p>
-</div>
-<h2 id="valine"> Valine</h2>
-<p>借助 Valine，主题实现了无后端开启阅读量展示与评论功能。</p>
-<h3 id="获取-app-id-和-app-key"> 获取 APP ID 和 APP Key</h3>
-<p>请先 <a href="https://leancloud.cn/dashboard/login.html#/signin" target="_blank" rel="noopener noreferrer">登录</a> 或 <a href="https://leancloud.cn/dashboard/login.html#/signup" target="_blank" rel="noopener noreferrer">注册</a> LeanCloud, 进入控制台后点击左下角创建应用。</p>
-<p>应用创建好以后，进入刚刚创建的应用，选择左下角的 <code>设置 &gt; 应用Key</code>，然后就能看到你的 <code>APP ID</code> 和 <code>APP Key</code> 了。</p>
-<div><pre><code><span>{</span>
-  type<span>:</span> <span>'valine'</span><span>,</span>
-  appId<span>:</span> <span>'...'</span><span>,</span> <span>// your appId</span>
-  appKey<span>:</span> <span>'...'</span> <span>// your appKey</span>
-<span>}</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>将对应的 <code>APP ID</code> 和 <code>APP Key</code> 填入， Valine 即配置完成。</p>
-<p>Valine 评论的其他配置将在 <a href="http://vuepress-theme-hope.github.io/comment/zh/config/valine/" target="_blank" rel="noopener noreferrer">配置</a> 中列出。</p>
-<div><p>Tips</p>
-<p>更多配置与使用，请见 <a href="https://valine.js.org" target="_blank" rel="noopener noreferrer">Valine 官方文档</a>。</p>
-</div>
-<h2 id="vssue"> Vssue</h2>
-<h3 id="选择你要使用的代码托管平台"> 选择你要使用的代码托管平台</h3>
-<p>Vssue 支持通过 GitHub, Gitlab, Bitbucket 或者 Gitee 的 Issue 系统来为你的静态页面提供评论功能，你可以选择其中之一来使用。</p>
-<p>前往 <a href="http://vuepress-theme-hope.github.io/comment/zh/guide/supported-platforms/" target="_blank" rel="noopener noreferrer">支持的代码托管平台 - 创建 OAuth App</a> 查看详细指引。</p>
-<p>完成这一步之后，你将会配置好一个 OAuth App，并得到对应的 <code>client id</code> 和 <code>client secret</code>，它们将会用于 Vssue 的使用。</p>
-<ul>
-<li><code>owner</code>: 对应 repository 的拥有者帐号或者团队</li>
-<li><code>repo</code>: 用来存储评论的 repository</li>
-<li><code>clientId</code>: OAuth App 的 <code>client id</code></li>
-<li><code>clientSecret</code>: OAuth App 的 <code>client secret</code> (只有在使用某些平台时需要)</li>
-</ul>
-<h3 id="使用插件"> 使用插件</h3>
-<div><div><br><br><br><br><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><br><br><br></div><pre><code><span>// .vuepress/config.js</span>
-
-module<span>.</span>exports <span>=</span> <span>{</span>
-  plugins<span>:</span> <span>{</span>
-    <span>"@mr-hope/comment"</span><span>:</span> <span>{</span>
-      type<span>:</span> <span>"vssue"</span><span>,</span>
-      <span>// 设置 `platform` 而不是 `api`</span>
-      platform<span>:</span> <span>"github"</span><span>,</span>
-
-      <span>// 其他的 Vssue 配置</span>
-      owner<span>:</span> <span>"OWNER_OF_REPO"</span><span>,</span>
-      repo<span>:</span> <span>"NAME_OF_REPO"</span><span>,</span>
-      clientId<span>:</span> <span>"YOUR_CLIENT_ID"</span><span>,</span>
-      clientSecret<span>:</span> <span>"YOUR_CLIENT_SECRET"</span><span>,</span>
-    <span>}</span><span>,</span>
-  <span>}</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br></div></div><div><p>Tips</p>
-<p>唯一的区别在于，你需要设置 <code>platform</code> 而不是对应的 <code>api</code> 包。</p>
-<p><code>@vssue/vuepress-plugin-vssue</code> 会自动根据你设置的 <code>platform</code> 为你解析对应的 API 包:</p>
-<ul>
-<li>Platform <code>github</code> - API 包 <code>@vssue/api-github-v3</code></li>
-<li>Platform <code>github-v4</code> - API 包 <code>@vssue/api-github-v4</code></li>
-<li>Platform <code>gitlab</code> - API 包 <code>@vssue/api-gitlab-v4</code></li>
-<li>Platform <code>bitbucket</code> - API 包 <code>@vssue/api-bitbucket-v2</code></li>
-<li>Platform <code>gitee</code> - API 包 <code>@vssue/api-gitee-v5</code></li>
-<li>Platform <code>gitea</code> - API 包 <code>@vssue/api-gitea-v1</code></li>
-</ul>
-</div>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>博客</title>
-      <link>https://vuepress-theme-hope.github.io/zh/guide/blog/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/guide/blog/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">博客</source>
-      <category>blog</category>
-      <content:encoded><![CDATA[<h2 id="目录"> 目录</h2>
-<ul>
-<li>
-<p><a href="./intro.html">博客功能介绍</a></p>
-</li>
-<li>
-<p><a href="./home.html">博客主页</a></p>
-</li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
       <title>博客功能介绍</title>
       <link>https://vuepress-theme-hope.github.io/zh/guide/blog/intro/</link>
       <guid>https://vuepress-theme-hope.github.io/zh/guide/blog/intro/</guid>
       <source url="https://vuepress-theme-hope.github.io/rss.xml">博客功能介绍</source>
       <description>&amp;lt;p&amp;gt;主题通过引入 &amp;lt;code&amp;gt;@vuepress/plugin-blog&amp;lt;/code&amp;gt; &amp;lt;strong&amp;gt;默认&amp;lt;/strong&amp;gt;启用了一些博客功能。&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;如果你不需要任何的博客功能，请你也可以配置 &amp;lt;code&amp;gt;themeConfig.blog&amp;lt;/code&amp;gt; 为 &amp;lt;code&amp;gt;false&amp;lt;/code&amp;gt; 来禁用全部的博客功能。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;如果你不需要任何的博客功能 (比如一个纯文档站点)，你可以配置 &amp;lt;code&amp;gt;themeConfig.blog&amp;lt;/code&amp;gt; 为 &amp;lt;code&amp;gt;false&amp;lt;/code&amp;gt; 来禁用全部的博客功能。&amp;lt;/p&amp;gt;
 </description>
       <category>blog</category>
       <content:encoded><![CDATA[<p>主题通过引入 <code>@vuepress/plugin-blog</code> <strong>默认</strong>启用了一些博客功能。</p>
-<p>如果你不需要任何的博客功能，请你也可以配置 <code>themeConfig.blog</code> 为 <code>false</code> 来禁用全部的博客功能。</p>
+<p>如果你不需要任何的博客功能 (比如一个纯文档站点)，你可以配置 <code>themeConfig.blog</code> 为 <code>false</code> 来禁用全部的博客功能。</p>
 
-<h2 id="分类"> 分类</h2>
-<p>只需要在页面的 frontmatter 中添加 <code>category: &lt;分类名&gt;</code> ，该文章会自动渲染在 <code>/category/</code> 分类页面的列表中。</p>
-<p><img src="./assets/category.png" alt="Category"></p>
-<p>请注意，一篇文章只能设置一个分类。</p>
-<h2 id="标签"> 标签</h2>
-<p>只需要在页面的 frontmatter 中添加 <code>tags: &lt;标签名&gt;</code> 即可，该文章就会自动列出在 <code>/tag/</code> 标签页面的列表中。</p>
-<p><code>tags</code> 接受 <code>string | string[]</code>，也就是说一个文章可以包含多个标签。</p>
+<h2 id="综述"> 综述</h2>
+<p>总体上，通过启用主题功能，主题允许你通过页面的 frontmatter，为页面配置分类、标签、是否是文章、是否出现在时间线中、收藏、置顶等功能。</p>
 <h2 id="文章"> 文章</h2>
 <p>所有文章都会默认被添加到文章列表中渲染在 <code>/article/</code> 路径下。</p>
 <p>如果你不希望该列表包含一些特定的文章，只需在文章的 frontmatter 中将 <code>article</code> 设置为 <code>false</code>。</p>
@@ -15052,6 +15012,143 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <p>请勿在根目录中添加并放置对应的文件夹(&quot;tag&quot;, &quot;article&quot;, &quot;timeline&quot;)，否则可能造成编译时文件被覆盖而造成错误。</p>
 <p>如果你的确需要一个“文章”文件夹的话，请考虑使用 &quot;articles&quot;。</p>
 </div>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>博客首页</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/blog/home/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/blog/home/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">博客首页</source>
+      <category>blog</category>
+      <content:encoded><![CDATA[<h1 id="博客首页"> 博客首页</h1>
+<p><code>vuepress-theme-hope</code> 允许你启用博客风格的首页。</p>
+<p>你需要在相应的页面的 frontmatter 中，设置 <code>blog: true</code> 来开启博客风格。</p>
+<p><img src="./assets/blog.png" alt="首页截图"></p>
+<h2 id="可配置的项目"> 可配置的项目</h2>
+<p>你可以自由配置左上方的博主头像与博主姓名，他们的配置项为 <code>themeConfig.blog.avatar</code> 和 <code>themeConfig.blog.name</code>。如果你没有填写它们，它们会自动回退到站点 Logo (<code>themeConfig.logo</code>) 和 站点名称 (<code>themeConfig.name</code>)。</p>
+<p>如果你使用 <code>themeConfig.intro</code> 配置了个人介绍页地址，点击左上角的博主头像和博主名称，会自动跳转到博主的个人介绍页。</p>
+<p>你还可以在 <code>themeConfig.blog.links</code> 这个对象中以 <code>社交媒体名: 社交媒体链接</code> 的格式配置你的社交媒体链接。</p>
+<div><p>可用的社交媒体:</p>
+<ul>
+<li><code>'Baidu'</code>: 百度</li>
+<li><code>'Bitbucket'</code>: Bitbucket</li>
+<li><code>'Dingding'</code>: 钉钉</li>
+<li><code>'Discord'</code>: Discord</li>
+<li><code>'Dribbble'</code>: Dribble</li>
+<li><code>'Evernote'</code>: 印象笔记</li>
+<li><code>'Facebook'</code>: 脸书</li>
+<li><code>'Flipboard'</code>: 红板报</li>
+<li><code>'Gitee'</code>: Gitee</li>
+<li><code>'Github'</code>: GitHub</li>
+<li><code>'Gitlab'</code>: Gitlab</li>
+<li><code>'Gmail'</code>: 谷歌邮箱(当然你也可以填入你自己的其他邮箱)</li>
+<li><code>'Instagram'</code>: Instagram</li>
+<li><code>'Line'</code>: Line</li>
+<li><code>'Linkedin'</code>: 领英</li>
+<li><code>'Pinterest'</code>: 拼趣</li>
+<li><code>'Pocket'</code>: Pocket</li>
+<li><code>'QQ'</code>: QQ</li>
+<li><code>'Qzone'</code>: QQ 空间</li>
+<li><code>'Reddit'</code>: Reddit</li>
+<li><code>'Rss'</code>: RSS 地址</li>
+<li><code>'Steam'</code>: Steam</li>
+<li><code>'Twitter'</code>: Twitter</li>
+<li><code>'Wechat'</code>: 微信</li>
+<li><code>'Weibo'</code>: 微博</li>
+<li><code>'Whatsapp'</code>: Whatsapp</li>
+<li><code>'Youtube'</code>: YouTube</li>
+<li><code>'Zhihu'</code>: 知乎</li>
+</ul>
+</div>
+<p>如果你对时间轴上面的提示文字不满意，你可以使用 <code>themeConfig.blog.timeline</code> 自定义一个。</p>
+<h2 id="frontmatter-可用参数"> Frontmatter 可用参数</h2>
+<h3 id="hero"> hero</h3>
+<ul>
+<li>类型: <code>boolean</code></li>
+<li>默认: <code>true</code></li>
+</ul>
+<p>是否显示主页的图标与描述。主页的图标、描述设置请见默认主页。</p>
+<h3 id="bgimage"> bgImage</h3>
+<ul>
+<li>类型: <code>string</code></li>
+</ul>
+<p>背景图片的地址，需填写绝对路径。如果不填写，会自动应用一张默认的风景图片。</p>
+<h3 id="bgimagestyle"> bgImageStyle</h3>
+<ul>
+<li>类型: <code>Record&lt;string, string&gt;</code></li>
+</ul>
+<p>背景图片的 CSS 样式。</p>
+<h3 id="heroimagestyle"> heroImageStyle</h3>
+<ul>
+<li>类型: <code>Record&lt;string, string&gt;</code></li>
+</ul>
+<p>首页图标的 CSS 样式</p>
+<h3 id="项目"> 项目</h3>
+<ul>
+<li>类型: <code>ProjectOption[]</code></li>
+</ul>
+<p><code>ProjectOption</code> 包括以下键值:</p>
+<ul>
+<li><code>type</code>: 类型，可选值为 <code>'link' | 'project' | 'book' | 'article'</code></li>
+<li><code>name</code>: 项目名称，必填</li>
+<li><code>link</code>: 项目链接，必填，填入外部链接或绝对路径。</li>
+<li><code>desc</code>: 项目描述，选填</li>
+<li><code>cover</code>: 项目封面，选填，填入外部链接或绝对路径。</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>分类与标签</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/blog/category-and-tags/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/blog/category-and-tags/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">分类与标签</source>
+      <description>&amp;lt;p&amp;gt;你可以通过 frontmatter 来为文章配置分类与标签，使它们出现在特定的分类与标签页面中。&amp;lt;/p&amp;gt;
+</description>
+      <category>blog</category>
+      <content:encoded><![CDATA[<p>你可以通过 frontmatter 来为文章配置分类与标签，使它们出现在特定的分类与标签页面中。</p>
+
+<h2 id="分类设置"> 分类设置</h2>
+<p>只需要在页面的 frontmatter 中添加 <code>category: &lt;分类名&gt;</code> ，该文章会自动渲染在 <code>/category/&lt;分类名&gt;/</code> 分类页面的列表中。</p>
+<p>比如在某个页面设置:</p>
+<div><pre><code><span><span>---</span>
+<span>category: HTML</span>
+<span>---</span></span>
+
+页面内容...
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>你就可以在 <code>/category/HTML</code> 页面下找到它。</p>
+<div><p>例子</p>
+<p><img src="./assets/category.png" alt="Category"></p>
+<ul>
+<li><a href="https://mrhope.site/category/JavaScript/" target="_blank" rel="noopener noreferrer">地址</a></li>
+</ul>
+</div>
+<p>::: warn</p>
+<p>请注意，一篇文章只能设置一个分类。(V2 计划支持文章设置多个分类)</p>
+<p>:::</p>
+<h2 id="标签"> 标签</h2>
+<p>只需要在页面的 frontmatter 中添加 <code>tags</code> 数组，并设置一个或多个文章所属的标签 ，该文章会自动渲染在 <code>/tag/&lt;标签名&gt;/</code> 标签页面的列表中。</p>
+<p>比如在某个页面设置:</p>
+<div><pre><code><span><span>---</span>
+<span>tags:
+  - HTML
+  - Web</span>
+<span>---</span></span>
+
+页面内容...
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><p>你就可以在 <code>/tag/HTML</code> 和 <code>/tag/Web</code> 页面下找到它。</p>
+<div><p>例子</p>
+<p><img src="./assets/tag.png" alt="Tag"></p>
+<ul>
+<li><a href="https://mrhope.site/tag/Vuex/" target="_blank" rel="noopener noreferrer">地址</a></li>
+</ul>
+</div>
+<h2 id="查看列表"> 查看列表</h2>
+<p>除了直接访问对应的地址外，分类和标签名称会显示在文章开头的文章信息处，你可以点击它来导航到对应的列表查看相同分类或标签的文章。</p>
+<p><img src="./assets/info.png" alt="文章信息"></p>
+<p>你也可以在博客主页侧边栏中选择分类或标签选项卡选择对应的项目进入列表。</p>
+<p><img src="./assets/sidebar.png" alt="侧边栏选项卡"></p>
 ]]></content:encoded>
     </item>
   </channel>
