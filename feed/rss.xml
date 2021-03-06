@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/feed/</link>
     <description>Feed Plugin for vuepress</description>
     <language>en-US</language>
-    <pubDate>Mon, 01 Mar 2021 04:18:43 GMT</pubDate>
-    <lastBuildDate>Mon, 01 Mar 2021 04:18:43 GMT</lastBuildDate>
+    <pubDate>Sat, 06 Mar 2021 10:12:01 GMT</pubDate>
+    <lastBuildDate>Sat, 06 Mar 2021 10:12:01 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
