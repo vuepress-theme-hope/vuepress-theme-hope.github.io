@@ -6,7 +6,7 @@
   <author>
     <name>Mr.Hope</name>
   </author>
-  <updated>2021-03-06T10:52:35.233Z</updated>
+  <updated>2021-03-06T14:54:24.076Z</updated>
   <generator>@mr-hope/vuepress-plugin-feed</generator>
   <link rel="self" href="https://vuepress-theme-hope.github.io/pwa/atom.xml"/>
   <link rel="alternate" href="https://vuepress-theme-hope.github.io/pwa/"/>
@@ -18,7 +18,7 @@
     <title type="html">Config</title>
     <id>https://vuepress-theme-hope.github.io/pwa/config/</id>
     <link href="https://vuepress-theme-hope.github.io/pwa/config/"/>
-    <updated>2021-03-06T10:50:30.000Z</updated>
+    <updated>2021-03-06T14:49:20.000Z</updated>
     <content type="html"><![CDATA[<h2 id="baselang"> baseLang</h2>
 <ul>
 <li>Type: <code>string</code></li>
@@ -186,7 +186,7 @@
     <title type="html">Guide</title>
     <id>https://vuepress-theme-hope.github.io/pwa/guide/</id>
     <link href="https://vuepress-theme-hope.github.io/pwa/guide/"/>
-    <updated>2021-03-06T10:50:30.000Z</updated>
+    <updated>2021-03-06T14:49:20.000Z</updated>
     <content type="html"><![CDATA[<h2 id="content-cache-and-update"> Content Cache and update</h2>
 <p>After the Service worker obtains the content update, a popup will be displayed in the bottom right corner, prompting the user that new content is available and allowing the user to trigger the update.</p>
 <p>The default language of the popup will automatically be set to <code>baseLang</code> configured in <code>themeConfig</code>.</p>
@@ -217,7 +217,7 @@
     <title type="html">Home</title>
     <id>https://vuepress-theme-hope.github.io/pwa/</id>
     <link href="https://vuepress-theme-hope.github.io/pwa/"/>
-    <updated>2021-03-06T10:50:30.000Z</updated>
+    <updated>2021-03-06T14:49:20.000Z</updated>
     <content type="html"><![CDATA[<p>This plugin will turn on Progressive Web App Support.</p>
 <h2 id="how-to-use"> How to use</h2>
 <h3 id="install"> Install</h3>
@@ -257,7 +257,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">配置</title>
     <id>https://vuepress-theme-hope.github.io/pwa/zh/config/</id>
     <link href="https://vuepress-theme-hope.github.io/pwa/zh/config/"/>
-    <updated>2021-03-06T10:50:30.000Z</updated>
+    <updated>2021-03-06T14:49:20.000Z</updated>
     <content type="html"><![CDATA[<h2 id="baselang"> baseLang</h2>
 <ul>
 <li>类型: <code>string</code></li>
@@ -422,41 +422,10 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <rights>Copyright by Mr.Hope</rights>
   </entry>
   <entry>
-    <title type="html">指南</title>
-    <id>https://vuepress-theme-hope.github.io/pwa/zh/guide/</id>
-    <link href="https://vuepress-theme-hope.github.io/pwa/zh/guide/"/>
-    <updated>2021-03-06T10:50:30.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="内容缓存和更新"> 内容缓存和更新</h2>
-<p>Service worker 成功获取内容更新后，将在右下角显示一个弹出窗口，提示用户新内容可用并允许用户触发更新。</p>
-<p>弹出窗口的默认语言将自动设置为 <code>themeConfig.baseLang</code> 。</p>
-<h2 id="pwa"> PWA</h2>
-<h3 id="manifest"> Manifest</h3>
-<p>插件将自动在输出目录生成 <code>manifest.webmanifest</code>。如果你在 <code>.vuepress/public</code> 中有一个 manifest.webmanifest 或 manifest.json，该插件将读取并合并到最终 manifest 中。</p>
-<p>为了使你的站点能够被注册为 Web App，你应该在 <code>themeConfig.pwa.manifest.icons</code> 中设置图标。</p>
-<p>你也可以在 <code>themeConfig.pwa.manifest</code> 中设置其他选项。</p>
-<div><p>Note</p>
-<p>请注意，manifest 中的所有 URL 都不会被处理，这意味着如果打算你部署到某个子目录，你则应自行设置添加 base 到 URL。</p>
-</div>
-<div><p>更多</p>
-<p>更多内容，请详见 <a href="https://w3c.github.io/manifest/" target="_blank" rel="noopener noreferrer">W3C Manifest</a></p>
-</div>
-<h2 id="缓存大小"> 缓存大小</h2>
-<p>为了更好地控制 Service Worker 可以预缓存的内容，可以设置 <code>themeConfig.pwa.cachePic</code> 和 <code>themeConfig.pwa.cacheHTML</code> 来决定 Service Worker 是否缓存除主页和 404 错误页外的 HTML 文件与站点图片。</p>
-<p>为了防止在预缓存列表中包含大文件，任何大于 2MB 的文件或大于 1MB 的图片都将被删除。你可以通过设置 <code>themeConfig.pwa.maxSize</code> 和 <code>themeConfig.pwa.maxPicSize</code> 来更改大小限制。</p>
-]]></content>
-    <author>
-      <name>Mr.Hope</name>
-    </author>
-    <contributor>
-      <name>Mr.Hope</name>
-    </contributor>
-    <rights>Copyright by Mr.Hope</rights>
-  </entry>
-  <entry>
     <title type="html">主页</title>
     <id>https://vuepress-theme-hope.github.io/pwa/zh/</id>
     <link href="https://vuepress-theme-hope.github.io/pwa/zh/"/>
-    <updated>2021-03-06T10:50:30.000Z</updated>
+    <updated>2021-03-06T14:49:20.000Z</updated>
     <content type="html"><![CDATA[<p>渐进式网页应用 (Progressive Web App) 支持。</p>
 <h2 id="使用插件"> 使用插件</h2>
 <h3 id="安装"> 安装</h3>
@@ -484,6 +453,37 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <span>}</span><span>;</span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div>]]></content>
+    <author>
+      <name>Mr.Hope</name>
+    </author>
+    <contributor>
+      <name>Mr.Hope</name>
+    </contributor>
+    <rights>Copyright by Mr.Hope</rights>
+  </entry>
+  <entry>
+    <title type="html">指南</title>
+    <id>https://vuepress-theme-hope.github.io/pwa/zh/guide/</id>
+    <link href="https://vuepress-theme-hope.github.io/pwa/zh/guide/"/>
+    <updated>2021-03-06T14:49:20.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="内容缓存和更新"> 内容缓存和更新</h2>
+<p>Service worker 成功获取内容更新后，将在右下角显示一个弹出窗口，提示用户新内容可用并允许用户触发更新。</p>
+<p>弹出窗口的默认语言将自动设置为 <code>themeConfig.baseLang</code> 。</p>
+<h2 id="pwa"> PWA</h2>
+<h3 id="manifest"> Manifest</h3>
+<p>插件将自动在输出目录生成 <code>manifest.webmanifest</code>。如果你在 <code>.vuepress/public</code> 中有一个 manifest.webmanifest 或 manifest.json，该插件将读取并合并到最终 manifest 中。</p>
+<p>为了使你的站点能够被注册为 Web App，你应该在 <code>themeConfig.pwa.manifest.icons</code> 中设置图标。</p>
+<p>你也可以在 <code>themeConfig.pwa.manifest</code> 中设置其他选项。</p>
+<div><p>Note</p>
+<p>请注意，manifest 中的所有 URL 都不会被处理，这意味着如果打算你部署到某个子目录，你则应自行设置添加 base 到 URL。</p>
+</div>
+<div><p>更多</p>
+<p>更多内容，请详见 <a href="https://w3c.github.io/manifest/" target="_blank" rel="noopener noreferrer">W3C Manifest</a></p>
+</div>
+<h2 id="缓存大小"> 缓存大小</h2>
+<p>为了更好地控制 Service Worker 可以预缓存的内容，可以设置 <code>themeConfig.pwa.cachePic</code> 和 <code>themeConfig.pwa.cacheHTML</code> 来决定 Service Worker 是否缓存除主页和 404 错误页外的 HTML 文件与站点图片。</p>
+<p>为了防止在预缓存列表中包含大文件，任何大于 2MB 的文件或大于 1MB 的图片都将被删除。你可以通过设置 <code>themeConfig.pwa.maxSize</code> 和 <code>themeConfig.pwa.maxPicSize</code> 来更改大小限制。</p>
+]]></content>
     <author>
       <name>Mr.Hope</name>
     </author>

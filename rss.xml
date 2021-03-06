@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/</link>
     <description>A vuepress theme with tons of features✨</description>
     <language>en-US</language>
-    <pubDate>Sat, 06 Mar 2021 10:52:35 GMT</pubDate>
-    <lastBuildDate>Sat, 06 Mar 2021 10:52:35 GMT</lastBuildDate>
+    <pubDate>Sat, 06 Mar 2021 14:54:24 GMT</pubDate>
+    <lastBuildDate>Sat, 06 Mar 2021 14:54:24 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -3787,34 +3787,6 @@ write something here ~
 ]]></content:encoded>
     </item>
     <item>
-      <title>Blog related</title>
-      <link>https://vuepress-theme-hope.github.io/guide/blog/blog/</link>
-      <guid>https://vuepress-theme-hope.github.io/guide/blog/blog/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">Blog related</source>
-      <category>blog</category>
-      <content:encoded><![CDATA[<h1 id="blog-related"> Blog related</h1>
-<p>The theme enables some blogging features by configuring <code>@vuepress/plugin-blog</code>. Also you can set <code>themeConfig.blog</code> to <code>false</code> to disable all blog features.</p>
-<h2 id="category"> Category</h2>
-<p>Add <code>category: &lt;category name&gt;</code> to the frontmatter of the page, and the article will be automatically rendered in the list of category pages with URL <code>/category/</code>.</p>
-<p><img src="./assets/category.png" alt="Category"></p>
-<p>Please note that only one category can be set per article.</p>
-<h2 id="tags"> Tags</h2>
-<p>Add <code>tags: &lt;tag name&gt;</code> to the frontmatter of the page, and the article will be automatically listed in the list on the <code>/tag/</code> tag page.</p>
-<p><code>tags</code> accepts <code>string | string []</code>, which means that an article can contain multiple tags.</p>
-<h2 id="article"> Article</h2>
-<p>All articles will be added to the article list by default and rendered under path <code>/article/</code> .</p>
-<p>If you don’t want specific articles to be included, set <code>article</code> to <code>false</code> in the article’s frontmatter.</p>
-<p>To stick a specific article, set <code>sticky</code> to <code>true</code> in the article’s frontmatter.</p>
-<h2 id="timeline"> Timeline</h2>
-<p>All articles with a writing date will be sorted by time in the timeline page <code>/timeline/</code>.</p>
-<p>If you don’t want an article to be included, set <code>timeline</code> to <code>false</code> in the article’s Frontmatter.</p>
-<div><p>Note</p>
-<p>Do not add and place the corresponding folders (&quot;tag&quot;, &quot;article&quot;, &quot;timeline&quot;) in the root directory, otherwise the files may be overwritten during compilation and cause errors.</p>
-<p>If you do need an &quot;articles&quot; folder, consider using &quot;articles&quot;.</p>
-</div>
-]]></content:encoded>
-    </item>
-    <item>
       <title>Blog homepage</title>
       <link>https://vuepress-theme-hope.github.io/guide/blog/home/</link>
       <guid>https://vuepress-theme-hope.github.io/guide/blog/home/</guid>
@@ -3898,6 +3870,38 @@ write something here ~
 ]]></content:encoded>
     </item>
     <item>
+      <title>Blog support Intro</title>
+      <link>https://vuepress-theme-hope.github.io/guide/blog/intro/</link>
+      <guid>https://vuepress-theme-hope.github.io/guide/blog/intro/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">Blog support Intro</source>
+      <description>&amp;lt;p&amp;gt;The theme enables some blogging features using &amp;lt;code&amp;gt;@vuepress/plugin-blog&amp;lt;/code&amp;gt; by default.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;You can set &amp;lt;code&amp;gt;themeConfig.blog&amp;lt;/code&amp;gt; to &amp;lt;code&amp;gt;false&amp;lt;/code&amp;gt; to disable all blog features.&amp;lt;/p&amp;gt;
+</description>
+      <category>blog</category>
+      <content:encoded><![CDATA[<p>The theme enables some blogging features using <code>@vuepress/plugin-blog</code> by default.</p>
+<p>You can set <code>themeConfig.blog</code> to <code>false</code> to disable all blog features.</p>
+
+<h2 id="category"> Category</h2>
+<p>Add <code>category: &lt;category name&gt;</code> to the frontmatter of the page, and the article will be automatically rendered in the list of category pages with URL <code>/category/</code>.</p>
+<p><img src="./assets/category.png" alt="Category"></p>
+<p>Please note that only one category can be set per article.</p>
+<h2 id="tags"> Tags</h2>
+<p>Add <code>tags: &lt;tag name&gt;</code> to the frontmatter of the page, and the article will be automatically listed in the list on the <code>/tag/</code> tag page.</p>
+<p><code>tags</code> accepts <code>string | string []</code>, which means that an article can contain multiple tags.</p>
+<h2 id="article"> Article</h2>
+<p>All articles will be added to the article list by default and rendered under path <code>/article/</code> .</p>
+<p>If you don’t want specific articles to be included, set <code>article</code> to <code>false</code> in the article’s frontmatter.</p>
+<p>To stick a specific article, set <code>sticky</code> to <code>true</code> in the article’s frontmatter.</p>
+<h2 id="timeline"> Timeline</h2>
+<p>All articles with a writing date will be sorted by time in the timeline page <code>/timeline/</code>.</p>
+<p>If you don’t want an article to be included, set <code>timeline</code> to <code>false</code> in the article’s Frontmatter.</p>
+<div><p>Note</p>
+<p>Do not add and place the corresponding folders (&quot;tag&quot;, &quot;article&quot;, &quot;timeline&quot;) in the root directory, otherwise the files may be overwritten during compilation and cause errors.</p>
+<p>If you do need an &quot;articles&quot; folder, consider using &quot;articles&quot;.</p>
+</div>
+]]></content:encoded>
+    </item>
+    <item>
       <title>Blog</title>
       <link>https://vuepress-theme-hope.github.io/guide/blog/</link>
       <guid>https://vuepress-theme-hope.github.io/guide/blog/</guid>
@@ -3906,7 +3910,7 @@ write something here ~
       <content:encoded><![CDATA[<h2 id="catalog"> Catalog</h2>
 <ul>
 <li>
-<p><a href="./blog.html">Blog support</a></p>
+<p><a href="./intro.html">Blog support Intro</a></p>
 </li>
 <li>
 <p><a href="./home.html">Blog homepage</a></p>
@@ -4249,7 +4253,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <span>---</span></span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><h3 id="category-and-tags"> Category and Tags</h3>
-<p>See <a href="./../blog/blog.html">blog section</a> for details</p>
+<p>See <a href="./../blog/">blog section</a> for details</p>
 <h3 id="reading-time"> Reading time</h3>
 <p>The default statistic method is 300 words per minute. You can override it by setting <code>wordPerminute</code> in the plugin configuration. This option does not support individual configuration on the page.</p>
 <h3 id="view-count"> View Count <i>Not supported content</i></h3>
@@ -4682,7 +4686,7 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 </li>
 </ul>
 <h3 id="blog"> Blog</h3>
-<p>The theme provides <a href="./../blog/blog.html"><strong>categories, tags, timeline, featured articles</strong></a> and other functions. Also, the theme gives you a brand new <a href="./../blog/home.html"><strong>blog homepage</strong></a>, and also .</p>
+<p>The theme provides <a href="./../blog/blointrog.html"><strong>categories, tags, timeline, featured articles</strong></a> and other functions. Also, the theme gives you a brand new <a href="./../blog/home.html"><strong>blog homepage</strong></a>, and also .</p>
 <p>At the same time, the theme also provides common blog feature such as <a href="./../feature/comment.html"><strong>Comment</strong></a> and <a href="./../feature/feed.html"><strong>Feed</strong></a>.</p>
 ]]></content:encoded>
     </item>
@@ -5065,7 +5069,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <p>The <code>copyrightText</code> field is used to set the copyright information of a specific page. It also supports HTMLString (useful when you cite an article and the article uses a specific license).</p>
 <p>When <code>themeConfig.footer.display</code> is <code>true</code>, you can also fill in <code>false</code> to hide the copyright information of a specific page.</p>
 <h3 id="medialink"> medialink</h3>
-<p>This field is the same as <code>themeConfig.blog.links</code> (<a href="./../blog/blog.html">see here for specific configuration</a>). You can configure it on a specific page to display different social media links. You can also fill in <code>false</code> to hide it.</p>
+<p>This field is the same as <code>themeConfig.blog.links</code> (<a href="./../blog/intro.html">see here for specific configuration</a>). You can configure it on a specific page to display different social media links. You can also fill in <code>false</code> to hide it.</p>
 <h2 id="example"> Example</h2>
 <ul>
 <li>
@@ -5210,7 +5214,7 @@ features:
 
   - title: Blog support 📝
     details: Add date, tags and category to your articles, then article, tag, category and timeline list will be auto generated
-    link: /guide/blog/blog/
+    link: /guide/blog/intro/
 
   - title: Article Encryption 🔐
     details: Encrypt you article based on path and folders, so that only the one you want could see them
@@ -5894,6 +5898,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 
 <p>Also, you should enable presentation feature in <code>vuepress-plugin-md-enhance</code> by setting <code>themeConfig.mdEnhance.enableAll</code> or <code>themeConfig.mdEnhance.presentation</code>.</p>
 <p><img src="./assets/slides.png" alt="Slide page screenshot"></p>
+<p>Here is a demo for your to preview all the slide features: <a href="https://vuepress-theme-hope-demo.mrhope.site/slides/" target="_blank" rel="noopener noreferrer">Demo</a></p>
 <p>You should only include a single slide syntax on this page to avoid other problems.</p>
 <div><pre><code>@slidestart [your theme]
 
@@ -7122,22 +7127,22 @@ $$
 <p><a href="https://vuepress-theme-hope.github.io/add-this/" target="_blank" rel="noopener noreferrer">Social follow button and page social sharing</a></p>
 </li>
 <li>
-<p><a href="./blog/blog.html">Article display</a></p>
+<p><a href="./blog/intro.html">Article display</a></p>
 </li>
 <li>
 <p><a href="./blog/home.html">New blog homepage layout</a></p>
 </li>
 <li>
-<p><a href="./blog/blog.html#article">Articles list swith sticky support</a></p>
+<p><a href="./blog/intro.html#article">Articles list swith sticky support</a></p>
 </li>
 <li>
-<p><a href="./blog/blog.html#category">Cateory lists</a></p>
+<p><a href="./blog/intro.html#category">Cateory lists</a></p>
 </li>
 <li>
-<p><a href="./blog/blog.html#tags">Tag lists</a></p>
+<p><a href="./blog/intro.html#tags">Tag lists</a></p>
 </li>
 <li>
-<p><a href="./blog/blog.html#timeline">Timeline</a></p>
+<p><a href="./blog/intro.html#timeline">Timeline</a></p>
 </li>
 </ul>
 <h2 id="🧩build-in-plugins"> 🧩Build-in Plugins</h2>
@@ -11487,33 +11492,86 @@ export default { // Highlighted
 ]]></content:encoded>
     </item>
     <item>
-      <title>博客相关</title>
-      <link>https://vuepress-theme-hope.github.io/zh/guide/blog/blog/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/guide/blog/blog/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">博客相关</source>
-      <description>&amp;lt;p&amp;gt;主题通过配置 &amp;lt;code&amp;gt;@vuepress/plugin-blog&amp;lt;/code&amp;gt; 启用了一些博客功能。你也可以配置 &amp;lt;code&amp;gt;themeConfig.blog&amp;lt;/code&amp;gt; 为 &amp;lt;code&amp;gt;false&amp;lt;/code&amp;gt; 来禁用全部的博客功能。&amp;lt;/p&amp;gt;
-</description>
+      <title>博客首页</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/blog/home/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/blog/home/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">博客首页</source>
       <category>blog</category>
-      <content:encoded><![CDATA[<p>主题通过配置 <code>@vuepress/plugin-blog</code> 启用了一些博客功能。你也可以配置 <code>themeConfig.blog</code> 为 <code>false</code> 来禁用全部的博客功能。</p>
-
-<h2 id="分类"> 分类</h2>
-<p>只需要在页面的 frontmatter 中添加 <code>category: &lt;分类名&gt;</code> ，该文章会自动渲染在 <code>/category/</code> 分类页面的列表中。</p>
-<p><img src="./assets/category.png" alt="Category"></p>
-<p>请注意，一篇文章只能设置一个分类。</p>
-<h2 id="标签"> 标签</h2>
-<p>只需要在页面的 frontmatter 中添加 <code>tags: &lt;标签名&gt;</code> 即可，该文章就会自动列出在 <code>/tag/</code> 标签页面的列表中。</p>
-<p><code>tags</code> 接受 <code>string | string[]</code>，也就是说一个文章可以包含多个标签。</p>
-<h2 id="文章"> 文章</h2>
-<p>所有文章都会默认被添加到文章列表中渲染在 <code>/article/</code> 路径下。</p>
-<p>如果你不希望该列表包含一些特定的文章，只需在文章的 frontmatter 中将 <code>article</code> 设置为 <code>false</code>。</p>
-<p>如果你希望置顶特定文章，只需在文章的 frontmatter 中将 <code>sticky</code> 设置为 <code>true</code>。</p>
-<h2 id="时间线"> 时间线</h2>
-<p>所有注明了写作日期的文章都会被按照时间排序在 <code>/timeline/</code> 时间线中。</p>
-<p>如果你不希望某篇文章被包含，只需在文章的 frontmatter 中将 <code>timeline</code> 设置为 <code>false</code>。</p>
-<div><p>Note</p>
-<p>请勿在根目录中添加并放置对应的文件夹(&quot;tag&quot;, &quot;article&quot;, &quot;timeline&quot;)，否则可能造成编译时文件被覆盖而造成错误。</p>
-<p>如果你的确需要一个“文章”文件夹的话，请考虑使用 &quot;articles&quot;。</p>
+      <content:encoded><![CDATA[<h1 id="博客首页"> 博客首页</h1>
+<p><code>vuepress-theme-hope</code> 允许你启用博客风格的首页。</p>
+<p>你需要在相应的页面的 frontmatter 中，设置 <code>blog: true</code> 来开启博客风格。</p>
+<p><img src="./assets/blog.png" alt="首页截图"></p>
+<h2 id="可配置的项目"> 可配置的项目</h2>
+<p>你可以自由配置左上方的博主头像与博主姓名，他们的配置项为 <code>themeConfig.blog.avatar</code> 和 <code>themeConfig.blog.name</code>。如果你没有填写它们，它们会自动回退到站点 Logo (<code>themeConfig.logo</code>) 和 站点名称 (<code>themeConfig.name</code>)。</p>
+<p>如果你使用 <code>themeConfig.intro</code> 配置了个人介绍页地址，点击左上角的博主头像和博主名称，会自动跳转到博主的个人介绍页。</p>
+<p>你还可以在 <code>themeConfig.blog.links</code> 这个对象中以 <code>社交媒体名: 社交媒体链接</code> 的格式配置你的社交媒体链接。</p>
+<div><p>可用的社交媒体:</p>
+<ul>
+<li><code>'Baidu'</code>: 百度</li>
+<li><code>'Bitbucket'</code>: Bitbucket</li>
+<li><code>'Dingding'</code>: 钉钉</li>
+<li><code>'Discord'</code>: Discord</li>
+<li><code>'Dribbble'</code>: Dribble</li>
+<li><code>'Evernote'</code>: 印象笔记</li>
+<li><code>'Facebook'</code>: 脸书</li>
+<li><code>'Flipboard'</code>: 红板报</li>
+<li><code>'Gitee'</code>: Gitee</li>
+<li><code>'Github'</code>: GitHub</li>
+<li><code>'Gitlab'</code>: Gitlab</li>
+<li><code>'Gmail'</code>: 谷歌邮箱(当然你也可以填入你自己的其他邮箱)</li>
+<li><code>'Instagram'</code>: Instagram</li>
+<li><code>'Line'</code>: Line</li>
+<li><code>'Linkedin'</code>: 领英</li>
+<li><code>'Pinterest'</code>: 拼趣</li>
+<li><code>'Pocket'</code>: Pocket</li>
+<li><code>'QQ'</code>: QQ</li>
+<li><code>'Qzone'</code>: QQ 空间</li>
+<li><code>'Reddit'</code>: Reddit</li>
+<li><code>'Rss'</code>: RSS 地址</li>
+<li><code>'Steam'</code>: Steam</li>
+<li><code>'Twitter'</code>: Twitter</li>
+<li><code>'Wechat'</code>: 微信</li>
+<li><code>'Weibo'</code>: 微博</li>
+<li><code>'Whatsapp'</code>: Whatsapp</li>
+<li><code>'Youtube'</code>: YouTube</li>
+<li><code>'Zhihu'</code>: 知乎</li>
+</ul>
 </div>
+<p>如果你对时间轴上面的提示文字不满意，你可以使用 <code>themeConfig.blog.timeline</code> 自定义一个。</p>
+<h2 id="frontmatter-可用参数"> Frontmatter 可用参数</h2>
+<h3 id="hero"> hero</h3>
+<ul>
+<li>类型: <code>boolean</code></li>
+<li>默认: <code>true</code></li>
+</ul>
+<p>是否显示主页的图标与描述。主页的图标、描述设置请见默认主页。</p>
+<h3 id="bgimage"> bgImage</h3>
+<ul>
+<li>类型: <code>string</code></li>
+</ul>
+<p>背景图片的地址，需填写绝对路径。如果不填写，会自动应用一张默认的风景图片。</p>
+<h3 id="bgimagestyle"> bgImageStyle</h3>
+<ul>
+<li>类型: <code>Record&lt;string, string&gt;</code></li>
+</ul>
+<p>背景图片的 CSS 样式。</p>
+<h3 id="heroimagestyle"> heroImageStyle</h3>
+<ul>
+<li>类型: <code>Record&lt;string, string&gt;</code></li>
+</ul>
+<p>首页图标的 CSS 样式</p>
+<h3 id="项目"> 项目</h3>
+<ul>
+<li>类型: <code>ProjectOption[]</code></li>
+</ul>
+<p><code>ProjectOption</code> 包括以下键值:</p>
+<ul>
+<li><code>type</code>: 类型，可选值为 <code>'link' | 'project' | 'book' | 'article'</code></li>
+<li><code>name</code>: 项目名称，必填</li>
+<li><code>link</code>: 项目链接，必填，填入外部链接或绝对路径。</li>
+<li><code>desc</code>: 项目描述，选填</li>
+<li><code>cover</code>: 项目封面，选填，填入外部链接或绝对路径。</li>
+</ul>
 ]]></content:encoded>
     </item>
     <item>
@@ -11762,7 +11820,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <span>---</span></span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><h3 id="分类与标签"> 分类与标签</h3>
-<p>详见 <a href="./../blog/blog.html">博客章节</a></p>
+<p>详见 <a href="./../blog/">博客章节</a></p>
 <h3 id="阅读时间"> 阅读时间</h3>
 <p>默认的统计方式是一分钟 300 字，你可以设置 <code>themeConfig.wordPerminute</code> 来覆盖它，该选项不支持在页面单独配置。</p>
 <h3 id="浏览量"> 浏览量 <i>Not supported content</i></h3>
@@ -12254,7 +12312,7 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 </li>
 </ul>
 <h3 id="博客"> 博客</h3>
-<p>主题提供了 <a href="./../blog/blog.html"><strong>分类、标签、时间线、精选文章</strong></a> 等功能，并提供了全新的 <a href="./../blog/home.html"><strong>博客主页</strong></a>。</p>
+<p>主题提供了 <a href="./../blog/intro.html"><strong>分类、标签、时间线、精选文章</strong></a> 等功能，并提供了全新的 <a href="./../blog/home.html"><strong>博客主页</strong></a>。</p>
 <p>同时主题还提供了 <a href="./../feature/comment.html"><strong>评论</strong></a>、<a href="./../feature/feed.html"><strong>Feed</strong></a> 等博客常用内容。</p>
 ]]></content:encoded>
     </item>
@@ -12636,7 +12694,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <p><code>copyrightText</code> 字段用于设置特定页面的版权信息，它同样也支持 HTMLString (当你引用了文章且文章使用了特定许可的情况下很有用)。</p>
 <p>当然在 <code>themeConfig.footer.display</code> 为 <code>true</code> 时，你也可以填入 <code>false</code> 来隐藏特定页面的版权信息。</p>
 <h3 id="medialink"> medialink</h3>
-<p>该字段同 <code>themeConfig.blog.links</code> (<a href="./../blog/blog.html#可配置的项目">具体配置见此</a>)，你可以在特定页面配置它以展示不同的社交媒体链接，你也可以填入 <code>false</code> 来隐藏它。</p>
+<p>该字段同 <code>themeConfig.blog.links</code> (<a href="./../blog/intro.html#可配置的项目">具体配置见此</a>)，你可以在特定页面配置它以展示不同的社交媒体链接，你也可以填入 <code>false</code> 来隐藏它。</p>
 <h2 id="例子"> 例子</h2>
 <ul>
 <li>
@@ -12781,7 +12839,7 @@ features:
 
   - title: 博客支持 📝
     details: 为你的文章添加日期、标签和分类，即可自动生成文章、分类、标签与时间轴列表
-    link: /zh/guide/blog/blog/
+    link: /zh/guide/blog/intro/
 
   - title: 文章加密 🔐
     details: 你可以为你的特定页面或特定目录进行加密，以便陌生人不能随意访问它们
@@ -13492,6 +13550,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <p>你应该通过设置 <code>themeConfig.mdEnhance.enableAll</code> 或 <code>themeConfig.mdEnhance.presentation</code> 在 <code>vuepress-plugin-md-enhance</code> 中启用幻灯片功能，否则幻灯片无法正确加载。</p>
 </div>
 <p><img src="./assets/slides.png" alt="幻灯片页截图"></p>
+<p>这里有一个展示了所有幻灯片功能的案例: <a href="https://vuepress-theme-hope-demo.mrhope.site/zh/slides/" target="_blank" rel="noopener noreferrer">案例地址</a></p>
 <p>你应该仅在该页面包含一个单一的幻灯片语法，以避免其他问题。</p>
 <div><pre><code>@slidestart [your theme]
 
@@ -14755,22 +14814,22 @@ $$
 <p><a href="https://vuepress-theme-hope.github.io/add-this/zh/" target="_blank" rel="noopener noreferrer">社交关注按钮与页面社交分享</a></p>
 </li>
 <li>
-<p><a href="./blog/blog.html">文章展示</a></p>
+<p><a href="./blog/intro.html">文章展示</a></p>
 </li>
 <li>
 <p><a href="./blog/home.html">全新博客主页布局</a></p>
 </li>
 <li>
-<p><a href="./blog/blog.html#文章">支持置顶的文章列表</a></p>
+<p><a href="./blog/intro.html#文章">支持置顶的文章列表</a></p>
 </li>
 <li>
-<p><a href="./blog/blog.html#分类">分类分组列表</a></p>
+<p><a href="./blog/intro.html#分类">分类分组列表</a></p>
 </li>
 <li>
-<p><a href="./blog/blog.html#标签">标签分组列表</a></p>
+<p><a href="./blog/intro.html#标签">标签分组列表</a></p>
 </li>
 <li>
-<p><a href="./blog/blog.html#时间线">时间线</a></p>
+<p><a href="./blog/intro.html#时间线">时间线</a></p>
 </li>
 </ul>
 <h2 id="🧩-内建插件"> 🧩 内建插件</h2>
@@ -14955,7 +15014,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <content:encoded><![CDATA[<h2 id="目录"> 目录</h2>
 <ul>
 <li>
-<p><a href="./blog.html">博客支持</a></p>
+<p><a href="./intro.html">博客功能介绍</a></p>
 </li>
 <li>
 <p><a href="./home.html">博客主页</a></p>
@@ -14964,86 +15023,35 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 ]]></content:encoded>
     </item>
     <item>
-      <title>博客首页</title>
-      <link>https://vuepress-theme-hope.github.io/zh/guide/blog/home/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/guide/blog/home/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">博客首页</source>
+      <title>博客功能介绍</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/blog/intro/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/blog/intro/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">博客功能介绍</source>
+      <description>&amp;lt;p&amp;gt;主题通过引入 &amp;lt;code&amp;gt;@vuepress/plugin-blog&amp;lt;/code&amp;gt; &amp;lt;strong&amp;gt;默认&amp;lt;/strong&amp;gt;启用了一些博客功能。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;如果你不需要任何的博客功能，请你也可以配置 &amp;lt;code&amp;gt;themeConfig.blog&amp;lt;/code&amp;gt; 为 &amp;lt;code&amp;gt;false&amp;lt;/code&amp;gt; 来禁用全部的博客功能。&amp;lt;/p&amp;gt;
+</description>
       <category>blog</category>
-      <content:encoded><![CDATA[<h1 id="博客首页"> 博客首页</h1>
-<p><code>vuepress-theme-hope</code> 允许你启用博客风格的首页。</p>
-<p>你需要在相应的页面的 frontmatter 中，设置 <code>blog: true</code> 来开启博客风格。</p>
-<p><img src="./assets/blog.png" alt="首页截图"></p>
-<h2 id="可配置的项目"> 可配置的项目</h2>
-<p>你可以自由配置左上方的博主头像与博主姓名，他们的配置项为 <code>themeConfig.blog.avatar</code> 和 <code>themeConfig.blog.name</code>。如果你没有填写它们，它们会自动回退到站点 Logo (<code>themeConfig.logo</code>) 和 站点名称 (<code>themeConfig.name</code>)。</p>
-<p>如果你使用 <code>themeConfig.intro</code> 配置了个人介绍页地址，点击左上角的博主头像和博主名称，会自动跳转到博主的个人介绍页。</p>
-<p>你还可以在 <code>themeConfig.blog.links</code> 这个对象中以 <code>社交媒体名: 社交媒体链接</code> 的格式配置你的社交媒体链接。</p>
-<div><p>可用的社交媒体:</p>
-<ul>
-<li><code>'Baidu'</code>: 百度</li>
-<li><code>'Bitbucket'</code>: Bitbucket</li>
-<li><code>'Dingding'</code>: 钉钉</li>
-<li><code>'Discord'</code>: Discord</li>
-<li><code>'Dribbble'</code>: Dribble</li>
-<li><code>'Evernote'</code>: 印象笔记</li>
-<li><code>'Facebook'</code>: 脸书</li>
-<li><code>'Flipboard'</code>: 红板报</li>
-<li><code>'Gitee'</code>: Gitee</li>
-<li><code>'Github'</code>: GitHub</li>
-<li><code>'Gitlab'</code>: Gitlab</li>
-<li><code>'Gmail'</code>: 谷歌邮箱(当然你也可以填入你自己的其他邮箱)</li>
-<li><code>'Instagram'</code>: Instagram</li>
-<li><code>'Line'</code>: Line</li>
-<li><code>'Linkedin'</code>: 领英</li>
-<li><code>'Pinterest'</code>: 拼趣</li>
-<li><code>'Pocket'</code>: Pocket</li>
-<li><code>'QQ'</code>: QQ</li>
-<li><code>'Qzone'</code>: QQ 空间</li>
-<li><code>'Reddit'</code>: Reddit</li>
-<li><code>'Rss'</code>: RSS 地址</li>
-<li><code>'Steam'</code>: Steam</li>
-<li><code>'Twitter'</code>: Twitter</li>
-<li><code>'Wechat'</code>: 微信</li>
-<li><code>'Weibo'</code>: 微博</li>
-<li><code>'Whatsapp'</code>: Whatsapp</li>
-<li><code>'Youtube'</code>: YouTube</li>
-<li><code>'Zhihu'</code>: 知乎</li>
-</ul>
+      <content:encoded><![CDATA[<p>主题通过引入 <code>@vuepress/plugin-blog</code> <strong>默认</strong>启用了一些博客功能。</p>
+<p>如果你不需要任何的博客功能，请你也可以配置 <code>themeConfig.blog</code> 为 <code>false</code> 来禁用全部的博客功能。</p>
+
+<h2 id="分类"> 分类</h2>
+<p>只需要在页面的 frontmatter 中添加 <code>category: &lt;分类名&gt;</code> ，该文章会自动渲染在 <code>/category/</code> 分类页面的列表中。</p>
+<p><img src="./assets/category.png" alt="Category"></p>
+<p>请注意，一篇文章只能设置一个分类。</p>
+<h2 id="标签"> 标签</h2>
+<p>只需要在页面的 frontmatter 中添加 <code>tags: &lt;标签名&gt;</code> 即可，该文章就会自动列出在 <code>/tag/</code> 标签页面的列表中。</p>
+<p><code>tags</code> 接受 <code>string | string[]</code>，也就是说一个文章可以包含多个标签。</p>
+<h2 id="文章"> 文章</h2>
+<p>所有文章都会默认被添加到文章列表中渲染在 <code>/article/</code> 路径下。</p>
+<p>如果你不希望该列表包含一些特定的文章，只需在文章的 frontmatter 中将 <code>article</code> 设置为 <code>false</code>。</p>
+<p>如果你希望置顶特定文章，只需在文章的 frontmatter 中将 <code>sticky</code> 设置为 <code>true</code>。</p>
+<h2 id="时间线"> 时间线</h2>
+<p>所有注明了写作日期的文章都会被按照时间排序在 <code>/timeline/</code> 时间线中。</p>
+<p>如果你不希望某篇文章被包含，只需在文章的 frontmatter 中将 <code>timeline</code> 设置为 <code>false</code>。</p>
+<div><p>Note</p>
+<p>请勿在根目录中添加并放置对应的文件夹(&quot;tag&quot;, &quot;article&quot;, &quot;timeline&quot;)，否则可能造成编译时文件被覆盖而造成错误。</p>
+<p>如果你的确需要一个“文章”文件夹的话，请考虑使用 &quot;articles&quot;。</p>
 </div>
-<p>如果你对时间轴上面的提示文字不满意，你可以使用 <code>themeConfig.blog.timeline</code> 自定义一个。</p>
-<h2 id="frontmatter-可用参数"> Frontmatter 可用参数</h2>
-<h3 id="hero"> hero</h3>
-<ul>
-<li>类型: <code>boolean</code></li>
-<li>默认: <code>true</code></li>
-</ul>
-<p>是否显示主页的图标与描述。主页的图标、描述设置请见默认主页。</p>
-<h3 id="bgimage"> bgImage</h3>
-<ul>
-<li>类型: <code>string</code></li>
-</ul>
-<p>背景图片的地址，需填写绝对路径。如果不填写，会自动应用一张默认的风景图片。</p>
-<h3 id="bgimagestyle"> bgImageStyle</h3>
-<ul>
-<li>类型: <code>Record&lt;string, string&gt;</code></li>
-</ul>
-<p>背景图片的 CSS 样式。</p>
-<h3 id="heroimagestyle"> heroImageStyle</h3>
-<ul>
-<li>类型: <code>Record&lt;string, string&gt;</code></li>
-</ul>
-<p>首页图标的 CSS 样式</p>
-<h3 id="项目"> 项目</h3>
-<ul>
-<li>类型: <code>ProjectOption[]</code></li>
-</ul>
-<p><code>ProjectOption</code> 包括以下键值:</p>
-<ul>
-<li><code>type</code>: 类型，可选值为 <code>'link' | 'project' | 'book' | 'article'</code></li>
-<li><code>name</code>: 项目名称，必填</li>
-<li><code>link</code>: 项目链接，必填，填入外部链接或绝对路径。</li>
-<li><code>desc</code>: 项目描述，选填</li>
-<li><code>cover</code>: 项目封面，选填，填入外部链接或绝对路径。</li>
-</ul>
 ]]></content:encoded>
     </item>
   </channel>
