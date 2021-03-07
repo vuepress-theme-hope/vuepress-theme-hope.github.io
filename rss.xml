@@ -6,13 +6,13 @@
     <link>https://vuepress-theme-hope.github.io/</link>
     <description>A vuepress theme with tons of features✨</description>
     <language>en-US</language>
-    <pubDate>Sun, 07 Mar 2021 08:44:01 GMT</pubDate>
-    <lastBuildDate>Sun, 07 Mar 2021 08:44:01 GMT</lastBuildDate>
+    <pubDate>Sun, 07 Mar 2021 09:52:51 GMT</pubDate>
+    <lastBuildDate>Sun, 07 Mar 2021 09:52:51 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
-    <category>FAQ</category>
     <category>basic</category>
+    <category>FAQ</category>
     <category>config</category>
     <category>demo</category>
     <category>blog</category>
@@ -22,45 +22,6 @@
     <category>layout</category>
     <category>markdown</category>
     <category>guide</category>
-    <item>
-      <title>Common problems</title>
-      <link>https://vuepress-theme-hope.github.io/FAQ/</link>
-      <guid>https://vuepress-theme-hope.github.io/FAQ/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">Common problems</source>
-      <category>FAQ</category>
-      <content:encoded><![CDATA[<h1 id="common-problems"> Common problems</h1>
-<h2 id="some-page-settings-are-invalid"> Some page settings are invalid</h2>
-<p>You can first review the documentation to see if the setting <strong>does not support partial configuration</strong>.</p>
-<p><strong>Support for partial configuration</strong> means that the theme allows the configuration of the page to override the global configuration of the same name (same function), but not all functions meet this setting. For the sake of project compilation speed, some projects will not be loaded during the compilation phase after the global configuration is disabled, and they cannot be enabled locally.</p>
-<h2 id="typescript-problems"> TypeScript problems</h2>
-<p>Please make sure your project depends on TypeScript and there is a valid tsconfig.json file in the working directory.</p>
-<p>Also, make sure that your project has at least one TypeScript file included by it.</p>
-<h3 id="error-when-parsing-tsconfig-json"> error when parsing tsconfig.json</h3>
-<p>This problem is caused by ts-loader not finding tsconfig.json. Since the theme adds TypeScript support, you need to create a valid tsconfig.json inside your project.</p>
-<p>A simple tsconfig.json is as follows:</p>
-<div><pre><code><span>{</span>
-  <span>"compilerOptions"</span><span>:</span> <span>{</span>
-    <span>"target"</span><span>:</span> <span>"ES6"</span><span>,</span> <span>/// Any target not less than 'ES5'</span>
-    <span>"allowSyntheticDefaultImports"</span><span>:</span> <span>true</span><span>,</span> <span>// Avoiding some issues related to vuepress-types</span>
-    <span>"experimentalDecorators"</span><span>:</span> <span>true</span><span>,</span> <span>// TypeScript files for '.vue' needs this option</span>
-    <span>"module"</span><span>:</span> <span>"commonjs"</span><span>,</span> <span>// Avoiding some issues related to vuepress-types</span>
-    <span>// type definition files of vuepress and this theme</span>
-    <span>"types"</span><span>:</span> <span>[</span><span>"@mr-hope/vuepress-theme-types"</span><span>]</span>
-  <span>}</span><span>,</span>
-  <span>"include"</span><span>:</span> <span>[</span>
-    <span>"src/.vuepress/enhanceApp.ts"</span> <span>// replace `src` with your doc folder</span>
-  <span>]</span>
-<span>}</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></div></div><h3 id="can-t-find-corresponding-types"> Can’t find corresponding types</h3>
-<p>Make sure to add <code>&quot;@mr-hope/vuepress-theme-types&quot;</code> to <code>compilerOptions.types</code>, because the package is not in the <code>@types</code> directory.</p>
-<h3 id="no-inputs-were-found-in-config-file-tsconfig-json"> No inputs were found in config file tsconfig.json</h3>
-<p>This problem is caused by the absence of a TypeScript file in your project (or your tsconfig.json configuration is incorrect).</p>
-<p><code>ts-loader</code> requires that the include and exclude configuration items of tsconfig.json include at least one ts file in the project.</p>
-<p>If your project does not have a ts file, to avoid this problem, you can create an empty ts file anywhere in your project and add it to the include of tsconfig.json.</p>
-<p>A better solution is to solve this problem by creating an empty <code>enhanceApp.ts</code> in the<code>.vuepress</code> directory. If you already have <code>enhanceApp.js</code>, you can directly convert it to TS.</p>
-]]></content:encoded>
-    </item>
     <item>
       <title>Markdown DEMO</title>
       <link>https://vuepress-theme-hope.github.io/basic/markdown/demo/</link>
@@ -315,6 +276,45 @@ console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br></div></div>]]></content:encoded>
       <enclosure url="https://vuepress-theme-hope.github.io/logo.png" type="image/png"/>
+    </item>
+    <item>
+      <title>Common problems</title>
+      <link>https://vuepress-theme-hope.github.io/FAQ/</link>
+      <guid>https://vuepress-theme-hope.github.io/FAQ/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">Common problems</source>
+      <category>FAQ</category>
+      <content:encoded><![CDATA[<h1 id="common-problems"> Common problems</h1>
+<h2 id="some-page-settings-are-invalid"> Some page settings are invalid</h2>
+<p>You can first review the documentation to see if the setting <strong>does not support partial configuration</strong>.</p>
+<p><strong>Support for partial configuration</strong> means that the theme allows the configuration of the page to override the global configuration of the same name (same function), but not all functions meet this setting. For the sake of project compilation speed, some projects will not be loaded during the compilation phase after the global configuration is disabled, and they cannot be enabled locally.</p>
+<h2 id="typescript-problems"> TypeScript problems</h2>
+<p>Please make sure your project depends on TypeScript and there is a valid tsconfig.json file in the working directory.</p>
+<p>Also, make sure that your project has at least one TypeScript file included by it.</p>
+<h3 id="error-when-parsing-tsconfig-json"> error when parsing tsconfig.json</h3>
+<p>This problem is caused by ts-loader not finding tsconfig.json. Since the theme adds TypeScript support, you need to create a valid tsconfig.json inside your project.</p>
+<p>A simple tsconfig.json is as follows:</p>
+<div><pre><code><span>{</span>
+  <span>"compilerOptions"</span><span>:</span> <span>{</span>
+    <span>"target"</span><span>:</span> <span>"ES6"</span><span>,</span> <span>/// Any target not less than 'ES5'</span>
+    <span>"allowSyntheticDefaultImports"</span><span>:</span> <span>true</span><span>,</span> <span>// Avoiding some issues related to vuepress-types</span>
+    <span>"experimentalDecorators"</span><span>:</span> <span>true</span><span>,</span> <span>// TypeScript files for '.vue' needs this option</span>
+    <span>"module"</span><span>:</span> <span>"commonjs"</span><span>,</span> <span>// Avoiding some issues related to vuepress-types</span>
+    <span>// type definition files of vuepress and this theme</span>
+    <span>"types"</span><span>:</span> <span>[</span><span>"@mr-hope/vuepress-theme-types"</span><span>]</span>
+  <span>}</span><span>,</span>
+  <span>"include"</span><span>:</span> <span>[</span>
+    <span>"src/.vuepress/enhanceApp.ts"</span> <span>// replace `src` with your doc folder</span>
+  <span>]</span>
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></div></div><h3 id="can-t-find-corresponding-types"> Can’t find corresponding types</h3>
+<p>Make sure to add <code>&quot;@mr-hope/vuepress-theme-types&quot;</code> to <code>compilerOptions.types</code>, because the package is not in the <code>@types</code> directory.</p>
+<h3 id="no-inputs-were-found-in-config-file-tsconfig-json"> No inputs were found in config file tsconfig.json</h3>
+<p>This problem is caused by the absence of a TypeScript file in your project (or your tsconfig.json configuration is incorrect).</p>
+<p><code>ts-loader</code> requires that the include and exclude configuration items of tsconfig.json include at least one ts file in the project.</p>
+<p>If your project does not have a ts file, to avoid this problem, you can create an empty ts file anywhere in your project and add it to the include of tsconfig.json.</p>
+<p>A better solution is to solve this problem by creating an empty <code>enhanceApp.ts</code> in the<code>.vuepress</code> directory. If you already have <code>enhanceApp.js</code>, you can directly convert it to TS.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Nature</title>
@@ -3682,79 +3682,6 @@ write something here ~
 ]]></content:encoded>
     </item>
     <item>
-      <title>Theme Config</title>
-      <link>https://vuepress-theme-hope.github.io/config/theme/</link>
-      <guid>https://vuepress-theme-hope.github.io/config/theme/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">Theme Config</source>
-      <category>config</category>
-      <content:encoded><![CDATA[<div><p>Tips</p>
-<p>You can view <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/docs/theme/src/.vuepress/config.js" target="_blank" rel="noopener noreferrer">Config of this site</a> as an example, and you can directly view <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/packages/theme/types/theme/" target="_blank" rel="noopener noreferrer">Type Declaration file</a> in the source code.</p>
-</div>
-<p>The following configuration has been added to the themeConfig field in <code>.vuepress/config.js</code>:</p>
-<h2 id="basic-options"> Basic options</h2>
-<div><p>Warning</p>
-<p>These options are important and require you to configure them.</p>
-</div>
-<h3 id="baselang"> baseLang</h3>
-<ul>
-<li>Type: <code>string</code></li>
-<li>Default: <code>'en-US'</code></li>
-</ul>
-<p>The language of the home directory.</p>
-<p>This option ensures that the subject text in the main catalog page is displayed in the correct language. You can change it to other languages according to your needs.</p>
-<div><p>Tips</p>
-<p>Only <strong>Simplified Chinese</strong> (zh-CN), <strong>English (United States)</strong> (en-US) and <strong>Vietnamese</strong> (vi-VN) are available for i18n.</p>
-<p>If you need multi-language support for other languages, you can <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/packages/shared/src/i18n/config.ts" target="_blank" rel="noopener noreferrer">submit a PR to this file</a></p>
-</div>
-<h3 id="author"> author</h3>
-<ul>
-<li>Type: <code>string</code></li>
-<li>Required: No</li>
-</ul>
-<p>The default author of the article</p>
-<h3 id="hostname"> hostname</h3>
-<ul>
-<li>Type: <code>string</code></li>
-<li>Required: Yes</li>
-</ul>
-<p>The domain name where the current site is deployed.</p>
-<h3 id="nav"> nav <i>Not supported content</i></h3>
-<p>NavBarItem now has</p>
-<ul>
-<li><code>icon</code> field to support icon display.</li>
-<li><code>prefix</code> field to automatically add group prefix</li>
-</ul>
-<p>For certain configuration, please see <a href="./../../guide/layout/navbar.html">Layout → Navbar</a></p>
-<h3 id="sidebar"> sidebar <i>Not supported content</i></h3>
-<p>SideBarItem now has</p>
-<ul>
-<li><code>icon</code> field to support icon display.</li>
-<li><code>prefix</code> field to automatically add group prefix</li>
-</ul>
-<p>For certain configuration, please see <a href="./../../guide/layout/sidebar.html">Layout → Sidebar</a></p>
-<h3 id="locales"> locales</h3>
-<ul>
-<li>Type: <code>Record &lt;string, HopeLangI18nConfigItem&gt;</code></li>
-</ul>
-<p>The multi-language configuration of the theme mainly needs to configure <code>nav</code> and<code>sidebar</code> of each language.</p>
-<h2 id="more"> More</h2>
-<ul>
-<li>
-<p><a href="./default.html"><strong>Default Config</strong></a></p>
-</li>
-<li>
-<p><a href="./feature.html"><strong>Theme Feature Config</strong></a></p>
-</li>
-<li>
-<p><a href="./plugin.html"><strong>Theme Plugin Config</strong></a></p>
-</li>
-<li>
-<p><a href="./apperance.html"><strong>Theme Appearance Config</strong></a></p>
-</li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
       <title>Demos</title>
       <link>https://vuepress-theme-hope.github.io/demo/</link>
       <guid>https://vuepress-theme-hope.github.io/demo/</guid>
@@ -5973,9 +5900,9 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <span>}</span><span>;</span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br></div></div><div><p>Note</p>
-<p>Please pay special attention to the addition of <code>/</code> when configuring the sidebar. For performance considerations, we will assume that the user has correctly configured the sidebar, so we won't perform any resolveing and verification on the path (such as traversing pages for comparison verification), but directly splicing and generating it.</p>
+<p>Please pay special attention to the addition of <code>/</code> when configuring the sidebar. For performance considerations, we will assume that the user has correctly configured the sidebar, so we won’t perform any resolveing and verification on the path (such as traversing pages for comparison verification), but directly splicing and generating it.</p>
 <p>Please pay attention to whether your configuration can be spliced into the correct path.</p>
-<p>For example, <code>bar/foo/</code> is expecting, while <code>bar</code> lacks a trailing <code>/</code> and <code>foo</code> isn't with a prefix <code>/</code> resulting in <code>barfoo/</code>, or both are configured and an incorrect <code>bar//foo</code> is generated. They will cause parsing errors so the item won't be rendered.</p>
+<p>For example, <code>bar/foo/</code> is expecting, while <code>bar</code> lacks a trailing <code>/</code> and <code>foo</code> isn’t with a prefix <code>/</code> resulting in <code>barfoo/</code>, or both are configured and an incorrect <code>bar//foo</code> is generated. They will cause parsing errors so the item won’t be rendered.</p>
 </div>
 <div><p>Tips</p>
 <p>For the above reason, we will print any broken sidebar links in the console where the corresponding page cannot be found. This means that your misconfiguration can be easily tracked and corrected.</p>
@@ -7594,6 +7521,129 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 ]]></content:encoded>
     </item>
     <item>
+      <title>自然</title>
+      <link>https://vuepress-theme-hope.github.io/zh/basic/markdown/emoji/nature/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/basic/markdown/emoji/nature/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">自然</source>
+      <category>basic</category>
+      <content:encoded><![CDATA[<ul>
+<li>☀️ <code>:sunny:</code></li>
+<li>☔️ <code>:umbrella:</code></li>
+<li>☁️ <code>:cloud:</code></li>
+<li>❄️ <code>:snowflake:</code></li>
+<li>⛄️ <code>:snowman:</code></li>
+<li>⚡️ <code>:zap:</code></li>
+<li>🌀 <code>:cyclone:</code></li>
+<li>🌁 <code>:foggy:</code></li>
+<li>🌊 <code>:ocean:</code></li>
+<li>🐱 <code>:cat:</code></li>
+<li>🐶 <code>:dog:</code></li>
+<li>🐭 <code>:mouse:</code></li>
+<li>🐹 <code>:hamster:</code></li>
+<li>🐰 <code>:rabbit:</code></li>
+<li>🐺 <code>:wolf:</code></li>
+<li>🐸 <code>:frog:</code></li>
+<li>🐯 <code>:tiger:</code></li>
+<li>🐨 <code>:koala:</code></li>
+<li>🐻 <code>:bear:</code></li>
+<li>🐷 <code>:pig:</code></li>
+<li>🐽 <code>:pig_nose:</code></li>
+<li>🐮 <code>:cow:</code></li>
+<li>🐗 <code>:boar:</code></li>
+<li>🐵 <code>:monkey_face:</code></li>
+<li>🐒 <code>:monkey:</code></li>
+<li>🐴 <code>:horse:</code></li>
+<li>🐎 <code>:racehorse:</code></li>
+<li>🐫 <code>:camel:</code></li>
+<li>🐑 <code>:sheep:</code></li>
+<li>🐘 <code>:elephant:</code></li>
+<li>🐼 <code>:panda_face:</code></li>
+<li>🐍 <code>:snake:</code></li>
+<li>🐦 <code>:bird:</code></li>
+<li>🐤 <code>:baby_chick:</code></li>
+<li>🐥 <code>:hatched_chick:</code></li>
+<li>🐣 <code>:hatching_chick:</code></li>
+<li>🐔 <code>:chicken:</code></li>
+<li>🐧 <code>:penguin:</code></li>
+<li>🐢 <code>:turtle:</code></li>
+<li>🐛 <code>:bug:</code></li>
+<li>🐝 <code>:honeybee:</code></li>
+<li>🐜 <code>:ant:</code></li>
+<li>🐞 <code>:beetle:</code></li>
+<li>🐌 <code>:snail:</code></li>
+<li>🐙 <code>:octopus:</code></li>
+<li>🐠 <code>:tropical_fish:</code></li>
+<li>🐟 <code>:fish:</code></li>
+<li>🐳 <code>:whale:</code></li>
+<li>🐋 <code>:whale2:</code></li>
+<li>🐬 <code>:dolphin:</code></li>
+<li>🐄 <code>:cow2:</code></li>
+<li>🐏 <code>:ram:</code></li>
+<li>🐀 <code>:rat:</code></li>
+<li>🐃 <code>:water_buffalo:</code></li>
+<li>🐅 <code>:tiger2:</code></li>
+<li>🐇 <code>:rabbit2:</code></li>
+<li>🐉 <code>:dragon:</code></li>
+<li>🐐 <code>:goat:</code></li>
+<li>🐓 <code>:rooster:</code></li>
+<li>🐕 <code>:dog2:</code></li>
+<li>🐖 <code>:pig2:</code></li>
+<li>🐁 <code>:mouse2:</code></li>
+<li>🐂 <code>:ox:</code></li>
+<li>🐲 <code>:dragon_face:</code></li>
+<li>🐡 <code>:blowfish:</code></li>
+<li>🐊 <code>:crocodile:</code></li>
+<li>🐪 <code>:dromedary_camel:</code></li>
+<li>🐆 <code>:leopard:</code></li>
+<li>🐈 <code>:cat2:</code></li>
+<li>🐩 <code>:poodle:</code></li>
+<li>🐾 <code>:paw_prints:</code></li>
+<li>💐 <code>:bouquet:</code></li>
+<li>🌸 <code>:cherry_blossom:</code></li>
+<li>🌷 <code>:tulip:</code></li>
+<li>🍀 <code>:four_leaf_clover:</code></li>
+<li>🌹 <code>:rose:</code></li>
+<li>🌻 <code>:sunflower:</code></li>
+<li>🌺 <code>:hibiscus:</code></li>
+<li>🍁 <code>:maple_leaf:</code></li>
+<li>🍃 <code>:leaves:</code></li>
+<li>🍂 <code>:fallen_leaf:</code></li>
+<li>🌿 <code>:herb:</code></li>
+<li>🍄 <code>:mushroom:</code></li>
+<li>🌵 <code>:cactus:</code></li>
+<li>🌴 <code>:palm_tree:</code></li>
+<li>🌲 <code>:evergreen_tree:</code></li>
+<li>🌳 <code>:deciduous_tree:</code></li>
+<li>🌰 <code>:chestnut:</code></li>
+<li>🌱 <code>:seedling:</code></li>
+<li>🌼 <code>:blossom:</code></li>
+<li>🌾 <code>:ear_of_rice:</code></li>
+<li>🐚 <code>:shell:</code></li>
+<li>🌐 <code>:globe_with_meridians:</code></li>
+<li>🌞 <code>:sun_with_face:</code></li>
+<li>🌝 <code>:full_moon_with_face:</code></li>
+<li>🌚 <code>:new_moon_with_face:</code></li>
+<li>🌑 <code>:new_moon:</code></li>
+<li>🌒 <code>:waxing_crescent_moon:</code></li>
+<li>🌓 <code>:first_quarter_moon:</code></li>
+<li>🌔 <code>:waxing_gibbous_moon:</code></li>
+<li>🌕 <code>:full_moon:</code></li>
+<li>🌖 <code>:waning_gibbous_moon:</code></li>
+<li>🌗 <code>:last_quarter_moon:</code></li>
+<li>🌘 <code>:waning_crescent_moon:</code></li>
+<li>🌜 <code>:last_quarter_moon_with_face:</code></li>
+<li>🌛 <code>:first_quarter_moon_with_face:</code></li>
+<li>🌙 <code>:crescent_moon:</code></li>
+<li>🌍 <code>:earth_africa:</code></li>
+<li>🌎 <code>:earth_americas:</code></li>
+<li>🌏 <code>:earth_asia:</code></li>
+<li>🌋 <code>:volcano:</code></li>
+<li>🌌 <code>:milky_way:</code></li>
+<li>⛅️ <code>:partly_sunny:</code></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
       <title>Markdown示例</title>
       <link>https://vuepress-theme-hope.github.io/zh/basic/markdown/demo/</link>
       <guid>https://vuepress-theme-hope.github.io/zh/basic/markdown/demo/</guid>
@@ -7842,129 +7892,6 @@ console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br></div></div>]]></content:encoded>
       <enclosure url="https://vuepress-theme-hope.github.io/logo.png" type="image/png"/>
-    </item>
-    <item>
-      <title>自然</title>
-      <link>https://vuepress-theme-hope.github.io/zh/basic/markdown/emoji/nature/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/basic/markdown/emoji/nature/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">自然</source>
-      <category>basic</category>
-      <content:encoded><![CDATA[<ul>
-<li>☀️ <code>:sunny:</code></li>
-<li>☔️ <code>:umbrella:</code></li>
-<li>☁️ <code>:cloud:</code></li>
-<li>❄️ <code>:snowflake:</code></li>
-<li>⛄️ <code>:snowman:</code></li>
-<li>⚡️ <code>:zap:</code></li>
-<li>🌀 <code>:cyclone:</code></li>
-<li>🌁 <code>:foggy:</code></li>
-<li>🌊 <code>:ocean:</code></li>
-<li>🐱 <code>:cat:</code></li>
-<li>🐶 <code>:dog:</code></li>
-<li>🐭 <code>:mouse:</code></li>
-<li>🐹 <code>:hamster:</code></li>
-<li>🐰 <code>:rabbit:</code></li>
-<li>🐺 <code>:wolf:</code></li>
-<li>🐸 <code>:frog:</code></li>
-<li>🐯 <code>:tiger:</code></li>
-<li>🐨 <code>:koala:</code></li>
-<li>🐻 <code>:bear:</code></li>
-<li>🐷 <code>:pig:</code></li>
-<li>🐽 <code>:pig_nose:</code></li>
-<li>🐮 <code>:cow:</code></li>
-<li>🐗 <code>:boar:</code></li>
-<li>🐵 <code>:monkey_face:</code></li>
-<li>🐒 <code>:monkey:</code></li>
-<li>🐴 <code>:horse:</code></li>
-<li>🐎 <code>:racehorse:</code></li>
-<li>🐫 <code>:camel:</code></li>
-<li>🐑 <code>:sheep:</code></li>
-<li>🐘 <code>:elephant:</code></li>
-<li>🐼 <code>:panda_face:</code></li>
-<li>🐍 <code>:snake:</code></li>
-<li>🐦 <code>:bird:</code></li>
-<li>🐤 <code>:baby_chick:</code></li>
-<li>🐥 <code>:hatched_chick:</code></li>
-<li>🐣 <code>:hatching_chick:</code></li>
-<li>🐔 <code>:chicken:</code></li>
-<li>🐧 <code>:penguin:</code></li>
-<li>🐢 <code>:turtle:</code></li>
-<li>🐛 <code>:bug:</code></li>
-<li>🐝 <code>:honeybee:</code></li>
-<li>🐜 <code>:ant:</code></li>
-<li>🐞 <code>:beetle:</code></li>
-<li>🐌 <code>:snail:</code></li>
-<li>🐙 <code>:octopus:</code></li>
-<li>🐠 <code>:tropical_fish:</code></li>
-<li>🐟 <code>:fish:</code></li>
-<li>🐳 <code>:whale:</code></li>
-<li>🐋 <code>:whale2:</code></li>
-<li>🐬 <code>:dolphin:</code></li>
-<li>🐄 <code>:cow2:</code></li>
-<li>🐏 <code>:ram:</code></li>
-<li>🐀 <code>:rat:</code></li>
-<li>🐃 <code>:water_buffalo:</code></li>
-<li>🐅 <code>:tiger2:</code></li>
-<li>🐇 <code>:rabbit2:</code></li>
-<li>🐉 <code>:dragon:</code></li>
-<li>🐐 <code>:goat:</code></li>
-<li>🐓 <code>:rooster:</code></li>
-<li>🐕 <code>:dog2:</code></li>
-<li>🐖 <code>:pig2:</code></li>
-<li>🐁 <code>:mouse2:</code></li>
-<li>🐂 <code>:ox:</code></li>
-<li>🐲 <code>:dragon_face:</code></li>
-<li>🐡 <code>:blowfish:</code></li>
-<li>🐊 <code>:crocodile:</code></li>
-<li>🐪 <code>:dromedary_camel:</code></li>
-<li>🐆 <code>:leopard:</code></li>
-<li>🐈 <code>:cat2:</code></li>
-<li>🐩 <code>:poodle:</code></li>
-<li>🐾 <code>:paw_prints:</code></li>
-<li>💐 <code>:bouquet:</code></li>
-<li>🌸 <code>:cherry_blossom:</code></li>
-<li>🌷 <code>:tulip:</code></li>
-<li>🍀 <code>:four_leaf_clover:</code></li>
-<li>🌹 <code>:rose:</code></li>
-<li>🌻 <code>:sunflower:</code></li>
-<li>🌺 <code>:hibiscus:</code></li>
-<li>🍁 <code>:maple_leaf:</code></li>
-<li>🍃 <code>:leaves:</code></li>
-<li>🍂 <code>:fallen_leaf:</code></li>
-<li>🌿 <code>:herb:</code></li>
-<li>🍄 <code>:mushroom:</code></li>
-<li>🌵 <code>:cactus:</code></li>
-<li>🌴 <code>:palm_tree:</code></li>
-<li>🌲 <code>:evergreen_tree:</code></li>
-<li>🌳 <code>:deciduous_tree:</code></li>
-<li>🌰 <code>:chestnut:</code></li>
-<li>🌱 <code>:seedling:</code></li>
-<li>🌼 <code>:blossom:</code></li>
-<li>🌾 <code>:ear_of_rice:</code></li>
-<li>🐚 <code>:shell:</code></li>
-<li>🌐 <code>:globe_with_meridians:</code></li>
-<li>🌞 <code>:sun_with_face:</code></li>
-<li>🌝 <code>:full_moon_with_face:</code></li>
-<li>🌚 <code>:new_moon_with_face:</code></li>
-<li>🌑 <code>:new_moon:</code></li>
-<li>🌒 <code>:waxing_crescent_moon:</code></li>
-<li>🌓 <code>:first_quarter_moon:</code></li>
-<li>🌔 <code>:waxing_gibbous_moon:</code></li>
-<li>🌕 <code>:full_moon:</code></li>
-<li>🌖 <code>:waning_gibbous_moon:</code></li>
-<li>🌗 <code>:last_quarter_moon:</code></li>
-<li>🌘 <code>:waning_crescent_moon:</code></li>
-<li>🌜 <code>:last_quarter_moon_with_face:</code></li>
-<li>🌛 <code>:first_quarter_moon_with_face:</code></li>
-<li>🌙 <code>:crescent_moon:</code></li>
-<li>🌍 <code>:earth_africa:</code></li>
-<li>🌎 <code>:earth_americas:</code></li>
-<li>🌏 <code>:earth_asia:</code></li>
-<li>🌋 <code>:volcano:</code></li>
-<li>🌌 <code>:milky_way:</code></li>
-<li>⛅️ <code>:partly_sunny:</code></li>
-</ul>
-]]></content:encoded>
     </item>
     <item>
       <title>对象</title>
@@ -8425,6 +8352,34 @@ console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span
 ]]></content:encoded>
     </item>
     <item>
+      <title>Emoji 列表</title>
+      <link>https://vuepress-theme-hope.github.io/zh/basic/markdown/emoji/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/basic/markdown/emoji/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">Emoji 列表</source>
+      <content:encoded><![CDATA[<h1 id="emoji-列表"> Emoji 列表</h1>
+<h2 id="人物"> 人物</h2>
+<ul>
+<li><a href="./people.html">点击前往</a></li>
+</ul>
+<h2 id="自然"> 自然</h2>
+<ul>
+<li><a href="./nature.html">点击前往</a></li>
+</ul>
+<h2 id="对象"> 对象</h2>
+<ul>
+<li><a href="./object.html">点击前往</a></li>
+</ul>
+<h2 id="地点"> 地点</h2>
+<ul>
+<li><a href="./place.html">点击前往</a></li>
+</ul>
+<h2 id="符号"> 符号</h2>
+<ul>
+<li><a href="./symbol.html">点击前往</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
       <title>地点</title>
       <link>https://vuepress-theme-hope.github.io/zh/basic/markdown/emoji/place/</link>
       <guid>https://vuepress-theme-hope.github.io/zh/basic/markdown/emoji/place/</guid>
@@ -8526,34 +8481,6 @@ console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span
 <li>🎭 <code>:performing_arts:</code></li>
 <li>📍 <code>:round_pushpin:</code></li>
 <li>🚩 <code>:triangular_flag_on_post:</code></li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Emoji 列表</title>
-      <link>https://vuepress-theme-hope.github.io/zh/basic/markdown/emoji/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/basic/markdown/emoji/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">Emoji 列表</source>
-      <content:encoded><![CDATA[<h1 id="emoji-列表"> Emoji 列表</h1>
-<h2 id="人物"> 人物</h2>
-<ul>
-<li><a href="./people.html">点击前往</a></li>
-</ul>
-<h2 id="自然"> 自然</h2>
-<ul>
-<li><a href="./nature.html">点击前往</a></li>
-</ul>
-<h2 id="对象"> 对象</h2>
-<ul>
-<li><a href="./object.html">点击前往</a></li>
-</ul>
-<h2 id="地点"> 地点</h2>
-<ul>
-<li><a href="./place.html">点击前往</a></li>
-</ul>
-<h2 id="符号"> 符号</h2>
-<ul>
-<li><a href="./symbol.html">点击前往</a></li>
 </ul>
 ]]></content:encoded>
     </item>
@@ -12071,6 +11998,60 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 ]]></content:encoded>
     </item>
     <item>
+      <title>分类与标签</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/blog/category-and-tags/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/blog/category-and-tags/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">分类与标签</source>
+      <description>&amp;lt;p&amp;gt;你可以通过 frontmatter 来为文章配置分类与标签，使它们出现在特定的分类与标签页面中。&amp;lt;/p&amp;gt;
+</description>
+      <category>blog</category>
+      <content:encoded><![CDATA[<p>你可以通过 frontmatter 来为文章配置分类与标签，使它们出现在特定的分类与标签页面中。</p>
+
+<h2 id="分类设置"> 分类设置</h2>
+<p>只需要在页面的 frontmatter 中添加 <code>category: &lt;分类名&gt;</code> ，该文章会自动渲染在 <code>/category/&lt;分类名&gt;/</code> 分类页面的列表中。</p>
+<p>比如在某个页面设置:</p>
+<div><pre><code><span><span>---</span>
+<span>category: HTML</span>
+<span>---</span></span>
+
+页面内容...
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>你就可以在 <code>/category/HTML</code> 页面下找到它。</p>
+<div><p>例子</p>
+<p><img src="./assets/category.png" alt="Category"></p>
+<ul>
+<li><a href="https://mrhope.site/category/JavaScript/" target="_blank" rel="noopener noreferrer">地址</a></li>
+</ul>
+</div>
+<p>::: warn</p>
+<p>请注意，一篇文章只能设置一个分类。(V2 计划支持文章设置多个分类)</p>
+<p>:::</p>
+<h2 id="标签"> 标签</h2>
+<p>只需要在页面的 frontmatter 中添加 <code>tags</code> 数组，并设置一个或多个文章所属的标签 ，该文章会自动渲染在 <code>/tag/&lt;标签名&gt;/</code> 标签页面的列表中。</p>
+<p>比如在某个页面设置:</p>
+<div><pre><code><span><span>---</span>
+<span>tags:
+  - HTML
+  - Web</span>
+<span>---</span></span>
+
+页面内容...
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><p>你就可以在 <code>/tag/HTML</code> 和 <code>/tag/Web</code> 页面下找到它。</p>
+<div><p>例子</p>
+<p><img src="./assets/tag.png" alt="Tag"></p>
+<ul>
+<li><a href="https://mrhope.site/tag/Vuex/" target="_blank" rel="noopener noreferrer">地址</a></li>
+</ul>
+</div>
+<h2 id="查看列表"> 查看列表</h2>
+<p>除了直接访问对应的地址外，分类和标签名称会显示在文章开头的文章信息处，你可以点击它来导航到对应的列表查看相同分类或标签的文章。</p>
+<p><img src="./assets/info.png" alt="文章信息"></p>
+<p>你也可以在博客主页侧边栏中选择分类或标签选项卡选择对应的项目进入列表。</p>
+<p><img src="./assets/sidebar.png" alt="侧边栏选项卡"></p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>最后更新时间</title>
       <link>https://vuepress-theme-hope.github.io/zh/guide/feature/last-update/</link>
       <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/last-update/</guid>
@@ -12091,6 +12072,40 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 </div>
 <p>主题会使用 <code>dayjs</code> 自动根据当前语言，本地化最后更新时间的表述文字。如果你对默认的显示文字不满意，你可以设置自己的时间转换函数到 <code>themeConfig.lastUpdate.transformer</code>。函数的格式为 <code>(timestamp: number, lang: string) =&gt; string</code></p>
 ]]></content:encoded>
+    </item>
+    <item>
+      <title>图片预览</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/photo-swipe/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/photo-swipe/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">图片预览</source>
+      <description>&amp;lt;p&amp;gt;通过内置 &amp;lt;a href=&amp;quot;https://vuepress-theme-hope.github.io/photo-swipe/&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;vuepress-plugin-photo-swipe&amp;lt;/a&amp;gt;, vuepress-theme-hope 会使页面正文内的图片在点击时进入浏览模式浏览。&amp;lt;/p&amp;gt;
+</description>
+      <category>feature</category>
+      <content:encoded><![CDATA[<p>通过内置 <a href="https://vuepress-theme-hope.github.io/photo-swipe/" target="_blank" rel="noopener noreferrer">vuepress-plugin-photo-swipe</a>, vuepress-theme-hope 会使页面正文内的图片在点击时进入浏览模式浏览。</p>
+
+<p>如果你不需要此功能，请设置 <code>themeConfig.photoSwipe</code> 为 <code>false</code>。</p>
+<h2 id="浏览模式"> 浏览模式</h2>
+<p>在浏览模式中，你可以:</p>
+<ul>
+<li>左右滑动按顺序浏览页面内其他的图片</li>
+<li>查看图片的描述</li>
+<li>对图片进行缩放</li>
+<li>全屏浏览图片</li>
+<li>下载图片</li>
+<li>分享图片</li>
+</ul>
+<div><p>Tips</p>
+<ul>
+<li>除了点击右上角的 &quot;×&quot; 退出浏览模式外，在上下滚动超过一定距离后，会自动退出图片浏览模式</li>
+<li>在移动端，或使用 PC 触控板，你可以使用平移、缩放手势在浏览模式中平移、缩放图片</li>
+</ul>
+</div>
+<h2 id="演示"> 演示</h2>
+<p><img src="/logo.png" alt="Logo1">
+<img src="/logo.png" alt="Logo2">
+<img src="/logo.png" alt="Logo3"></p>
+]]></content:encoded>
+      <enclosure url="https://vuepress-theme-hope.github.io/logo.png" type="image/png"/>
     </item>
     <item>
       <title>页面信息</title>
@@ -12202,40 +12217,6 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 </ol>
 </section>
 ]]></content:encoded>
-    </item>
-    <item>
-      <title>图片预览</title>
-      <link>https://vuepress-theme-hope.github.io/zh/guide/feature/photo-swipe/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/guide/feature/photo-swipe/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">图片预览</source>
-      <description>&amp;lt;p&amp;gt;通过内置 &amp;lt;a href=&amp;quot;https://vuepress-theme-hope.github.io/photo-swipe/&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;vuepress-plugin-photo-swipe&amp;lt;/a&amp;gt;, vuepress-theme-hope 会使页面正文内的图片在点击时进入浏览模式浏览。&amp;lt;/p&amp;gt;
-</description>
-      <category>feature</category>
-      <content:encoded><![CDATA[<p>通过内置 <a href="https://vuepress-theme-hope.github.io/photo-swipe/" target="_blank" rel="noopener noreferrer">vuepress-plugin-photo-swipe</a>, vuepress-theme-hope 会使页面正文内的图片在点击时进入浏览模式浏览。</p>
-
-<p>如果你不需要此功能，请设置 <code>themeConfig.photoSwipe</code> 为 <code>false</code>。</p>
-<h2 id="浏览模式"> 浏览模式</h2>
-<p>在浏览模式中，你可以:</p>
-<ul>
-<li>左右滑动按顺序浏览页面内其他的图片</li>
-<li>查看图片的描述</li>
-<li>对图片进行缩放</li>
-<li>全屏浏览图片</li>
-<li>下载图片</li>
-<li>分享图片</li>
-</ul>
-<div><p>Tips</p>
-<ul>
-<li>除了点击右上角的 &quot;×&quot; 退出浏览模式外，在上下滚动超过一定距离后，会自动退出图片浏览模式</li>
-<li>在移动端，或使用 PC 触控板，你可以使用平移、缩放手势在浏览模式中平移、缩放图片</li>
-</ul>
-</div>
-<h2 id="演示"> 演示</h2>
-<p><img src="/logo.png" alt="Logo1">
-<img src="/logo.png" alt="Logo2">
-<img src="/logo.png" alt="Logo3"></p>
-]]></content:encoded>
-      <enclosure url="https://vuepress-theme-hope.github.io/logo.png" type="image/png"/>
     </item>
     <item>
       <title>PWA</title>
@@ -13685,6 +13666,251 @@ next: false</span>
 ]]></content:encoded>
     </item>
     <item>
+      <title>幻灯片</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/layout/slides/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/layout/slides/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">幻灯片</source>
+      <description>&amp;lt;p&amp;gt;&amp;lt;code&amp;gt;vuepress-theme-hope&amp;lt;/code&amp;gt; 允许你添加幻灯片页面。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;你需要在相应的页面的 frontmatter 中，设置 &amp;lt;code&amp;gt;layout: Slide&amp;lt;/code&amp;gt; 来开启幻灯片风格。&amp;lt;/p&amp;gt;
+</description>
+      <category>layout</category>
+      <content:encoded><![CDATA[<p><code>vuepress-theme-hope</code> 允许你添加幻灯片页面。</p>
+<p>你需要在相应的页面的 frontmatter 中，设置 <code>layout: Slide</code> 来开启幻灯片风格。</p>
+
+<div><p>Tips</p>
+<p>你应该通过设置 <code>themeConfig.mdEnhance.enableAll</code> 或 <code>themeConfig.mdEnhance.presentation</code> 在 <code>vuepress-plugin-md-enhance</code> 中启用幻灯片功能，否则幻灯片无法正确加载。</p>
+</div>
+<p><img src="./assets/slides.png" alt="幻灯片页截图"></p>
+<p>这里有一个展示了所有幻灯片功能的案例: <a href="https://vuepress-theme-hope-demo.mrhope.site/zh/slides/" target="_blank" rel="noopener noreferrer">案例地址</a></p>
+<p>你应该仅在该页面包含一个单一的幻灯片语法，以避免其他问题。</p>
+<div><pre><code>@slidestart [your theme]
+
+// your slides
+
+@slideend
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div>]]></content:encoded>
+    </item>
+    <item>
+      <title>自定义对齐</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/markdown/align/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/markdown/align/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">自定义对齐</source>
+      <description>&amp;lt;p&amp;gt;通过对 &amp;lt;code&amp;gt;vuepress-plugin-container&amp;lt;/code&amp;gt; 进行额外的配置注入，你可以使用&amp;lt;/p&amp;gt;
+&amp;lt;div&amp;gt;&amp;lt;pre&amp;gt;&amp;lt;code&amp;gt;::: center
+要居中的段落
+:::
+&amp;lt;div&amp;gt;
+&amp;lt;p&amp;gt;要居右的段落&amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;
+&amp;lt;div&amp;gt;&amp;lt;span&amp;gt;1&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;2&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;3&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;4&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;5&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;6&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;7&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;p&amp;gt;来对你的段落对齐进行自定义。&amp;lt;/p&amp;gt;&amp;lt;/p&amp;gt;
+</description>
+      <category>markdown</category>
+      <content:encoded><![CDATA[<p>通过对 <code>vuepress-plugin-container</code> 进行额外的配置注入，你可以使用</p>
+<div><pre><code>::: center
+要居中的段落
+:::
+
+::: right
+要居右的段落
+:::
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><p>来对你的段落对齐进行自定义。</p>
+
+<h2 id="配置"> 配置</h2>
+<div><div><br><br><br><div>&nbsp;</div><br><br><br><br></div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
+  themeConfig<span>:</span> <span>{</span>
+    mdEnhance<span>:</span> <span>{</span>
+      align<span>:</span> <span>true</span><span>,</span>
+    <span>}</span><span>,</span>
+  <span>}</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><h2 id="演示"> 演示</h2>
+<div><p>W.I.P</p>
+<p>vuepress-theme-hope v2 仍在制作中，API 可能会有</p>
+<div>
+<p>重大的变动。</p>
+</div>
+<p>如果你在使用过程中遇到了 bug，可以</p>
+<div>
+<p><a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/issues" target="_blank" rel="noopener noreferrer">提一个 issue</a>。</p>
+</div>
+</div>
+<div><pre><code>:::: danger W.I.P
+vuepress-theme-hope v2 仍在制作中，API 可能会有
+
+::: center
+重大的变动。
+:::
+
+如果你在使用过程中遇到了 bug，可以
+
+::: right
+<span>[<span>提一个 issue</span>](<span>https://github.com/vuepress-theme-hope/vuepress-theme-hope/issues</span>)</span>。
+:::
+
+::::
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br></div></div><h2 id="其他自定义容器"> 其他自定义容器</h2>
+<div><p>Info</p>
+<p>信息容器。</p>
+</div>
+<div><p>Tips</p>
+<p>提示容器</p>
+</div>
+<div><p>Note</p>
+<p>警告容器</p>
+</div>
+<div><p>Warning</p>
+<p>危险容器</p>
+</div>
+<details><summary>DETAILS</summary>
+<p>详情容器</p>
+</details>
+<div><p>自定义标题</p>
+<p>信息容器</p>
+</div>
+<div><p>自定义标题</p>
+<p>提示容器</p>
+</div>
+<div><p>自定义标题</p>
+<p>警告容器</p>
+</div>
+<div><p>自定义标题</p>
+<p>危险容器</p>
+</div>
+<details><summary>自定义标题</summary>
+<p>详情容器</p>
+</details>
+<div><pre><code>::: info
+信息容器。
+:::
+
+::: tip
+提示容器
+:::
+
+::: warning
+警告容器
+:::
+
+::: danger
+危险容器
+:::
+
+::: details
+详情容器
+:::
+
+::: info 自定义标题
+信息容器
+:::
+
+::: tip 自定义标题
+提示容器
+:::
+
+::: warning 自定义标题
+警告容器
+:::
+
+::: danger 自定义标题
+危险容器
+:::
+
+::: details 自定义标题
+详情容器
+:::
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br></div></div>]]></content:encoded>
+    </item>
+    <item>
+      <title>组件</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/markdown/components/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/markdown/components/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">组件</source>
+      <category>markdown</category>
+      <content:encoded><![CDATA[<h2 id="badge"> Badge</h2>
+<p>在 Markdown 中可用的徽章。</p>
+<h3 id="badge-属性"> Badge 属性</h3>
+<h4 id="text"> text</h4>
+<ul>
+<li>类型: <code>string</code></li>
+<li>必填: 是</li>
+</ul>
+<p>徽章的文字</p>
+<h4 id="type"> type</h4>
+<ul>
+<li>类型: <code>&quot;tip&quot; | &quot;warn&quot; | &quot;error&quot;</code></li>
+<li>默认值: <code>&quot;tip&quot;</code></li>
+</ul>
+<p>徽章的类型</p>
+<ul>
+<li>
+<i>Not supported content</i>
+</li>
+<li>
+<i>Not supported content</i>
+</li>
+<li>
+<i>Not supported content</i>
+</li>
+</ul>
+<h4 id="color"> color</h4>
+<ul>
+<li>类型: <code>string</code></li>
+<li>必填: 否</li>
+</ul>
+<p>徽章的颜色，填入在 CSS 中合法的颜色值。</p>
+<h4 id="vertical"> vertical</h4>
+<ul>
+<li>类型: <code>&quot;top&quot; | &quot;middle&quot;</code></li>
+<li>默认值: <code>&quot;top&quot;</code></li>
+</ul>
+<p>徽章的垂直方向的位置</p>
+<h3 id="badge-使用"> Badge 使用</h3>
+<p>你可以在 Markdown 中使用这个组件来为标题或链接添加一些状态:</p>
+<div><pre><code><span><span>###</span> Badge &lt;Badge text="Building" type="warn"/> &lt;Badge text="MrHope" color="grey" /></span>
+</code></pre>
+<div><span>1</span><br></div></div><h2 id="codegroup-codegroupitem"> CodeGroup, CodeGroupItem</h2>
+<p>在 Markdown 中可用的代码块分组</p>
+<h3 id="codegroup-使用"> CodeGroup 使用</h3>
+<p>请使用 <code>&lt;CodeGroup /&gt;</code> 包裹 <code>&lt;CodeGroupItem /&gt;</code>。</p>
+<p>对于每个 <code>&lt;CodeGroupItem /&gt;</code>，你需要设置 <code>title</code> 属性作为选项卡的标题，并仅在选项卡内放置一个代码块。你还可以在其中一个 <code>&lt;CodeGroupItem /&gt;</code> 上设置 <code>active</code> 属性使其默认激活。</p>
+<div><p>Tips</p>
+<p>你需要在每个 <code>&lt;CodeGroupItem /&gt;</code> 之间放置一个空行，否则 VuePress 可能无法正确的解析它们。</p>
+</div>
+<h3 id="codegroup-示例"> CodeGroup 示例</h3>
+<p>输入:</p>
+<div><pre><code><span><span><span>&lt;</span>CodeGroup</span><span>></span></span>
+<span><span><span>&lt;</span>CodeGroupItem</span> <span>title</span><span><span>=</span><span>"</span>yarn<span>"</span></span><span>></span></span>
+<span><span>```</span><span>bash</span>
+<span><span>yarn</span> <span>add</span> -D vuepress-theme-hope</span>
+<span>```</span></span>
+<span><span><span>&lt;/</span>CodeGroupItem</span><span>></span></span>
+
+<span><span><span>&lt;</span>CodeGroupItem</span> <span>title</span><span><span>=</span><span>"</span>npm<span>"</span></span> <span>active</span><span>></span></span>
+<span><span>```</span><span>bash</span>
+<span><span>npm</span> i -D vuepress-theme-hope</span>
+<span>```</span></span>
+<span><span><span>&lt;/</span>CodeGroupItem</span><span>></span></span>
+<span><span><span>&lt;/</span>CodeGroup</span><span>></span></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></div></div><p>输出:</p>
+<CodeGroup>
+<CodeGroupItem title="yarn">
+<div><pre><code><span>yarn</span> <span>add</span> -D vuepress-theme-hope
+</code></pre>
+<div><span>1</span><br></div></div></CodeGroupItem>
+<CodeGroupItem title="npm" active>
+<div><pre><code><span>npm</span> i -D vuepress-theme-hope
+</code></pre>
+<div><span>1</span><br></div></div></CodeGroupItem>
+</CodeGroup>
+]]></content:encoded>
+    </item>
+    <item>
       <title>侧边栏</title>
       <link>https://vuepress-theme-hope.github.io/zh/guide/layout/sidebar/</link>
       <guid>https://vuepress-theme-hope.github.io/zh/guide/layout/sidebar/</guid>
@@ -14149,251 +14375,6 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <span>}</span><span>;</span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br><span>40</span><br><span>41</span><br><span>42</span><br><span>43</span><br><span>44</span><br><span>45</span><br><span>46</span><br><span>47</span><br><span>48</span><br><span>49</span><br><span>50</span><br><span>51</span><br><span>52</span><br><span>53</span><br><span>54</span><br><span>55</span><br><span>56</span><br><span>57</span><br><span>58</span><br><span>59</span><br><span>60</span><br><span>61</span><br><span>62</span><br><span>63</span><br><span>64</span><br><span>65</span><br><span>66</span><br><span>67</span><br><span>68</span><br><span>69</span><br><span>70</span><br><span>71</span><br><span>72</span><br><span>73</span><br><span>74</span><br><span>75</span><br><span>76</span><br><span>77</span><br><span>78</span><br><span>79</span><br><span>80</span><br><span>81</span><br><span>82</span><br><span>83</span><br><span>84</span><br><span>85</span><br><span>86</span><br><span>87</span><br><span>88</span><br><span>89</span><br><span>90</span><br><span>91</span><br><span>92</span><br><span>93</span><br><span>94</span><br><span>95</span><br><span>96</span><br><span>97</span><br><span>98</span><br><span>99</span><br><span>100</span><br><span>101</span><br><span>102</span><br><span>103</span><br><span>104</span><br><span>105</span><br><span>106</span><br><span>107</span><br><span>108</span><br><span>109</span><br><span>110</span><br><span>111</span><br><span>112</span><br><span>113</span><br><span>114</span><br><span>115</span><br><span>116</span><br><span>117</span><br><span>118</span><br><span>119</span><br><span>120</span><br><span>121</span><br><span>122</span><br><span>123</span><br><span>124</span><br><span>125</span><br><span>126</span><br><span>127</span><br><span>128</span><br><span>129</span><br><span>130</span><br><span>131</span><br><span>132</span><br><span>133</span><br><span>134</span><br><span>135</span><br><span>136</span><br><span>137</span><br><span>138</span><br><span>139</span><br><span>140</span><br><span>141</span><br><span>142</span><br><span>143</span><br><span>144</span><br></div></div></details>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>幻灯片</title>
-      <link>https://vuepress-theme-hope.github.io/zh/guide/layout/slides/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/guide/layout/slides/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">幻灯片</source>
-      <description>&amp;lt;p&amp;gt;&amp;lt;code&amp;gt;vuepress-theme-hope&amp;lt;/code&amp;gt; 允许你添加幻灯片页面。&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;你需要在相应的页面的 frontmatter 中，设置 &amp;lt;code&amp;gt;layout: Slide&amp;lt;/code&amp;gt; 来开启幻灯片风格。&amp;lt;/p&amp;gt;
-</description>
-      <category>layout</category>
-      <content:encoded><![CDATA[<p><code>vuepress-theme-hope</code> 允许你添加幻灯片页面。</p>
-<p>你需要在相应的页面的 frontmatter 中，设置 <code>layout: Slide</code> 来开启幻灯片风格。</p>
-
-<div><p>Tips</p>
-<p>你应该通过设置 <code>themeConfig.mdEnhance.enableAll</code> 或 <code>themeConfig.mdEnhance.presentation</code> 在 <code>vuepress-plugin-md-enhance</code> 中启用幻灯片功能，否则幻灯片无法正确加载。</p>
-</div>
-<p><img src="./assets/slides.png" alt="幻灯片页截图"></p>
-<p>这里有一个展示了所有幻灯片功能的案例: <a href="https://vuepress-theme-hope-demo.mrhope.site/zh/slides/" target="_blank" rel="noopener noreferrer">案例地址</a></p>
-<p>你应该仅在该页面包含一个单一的幻灯片语法，以避免其他问题。</p>
-<div><pre><code>@slidestart [your theme]
-
-// your slides
-
-@slideend
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div>]]></content:encoded>
-    </item>
-    <item>
-      <title>自定义对齐</title>
-      <link>https://vuepress-theme-hope.github.io/zh/guide/markdown/align/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/guide/markdown/align/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">自定义对齐</source>
-      <description>&amp;lt;p&amp;gt;通过对 &amp;lt;code&amp;gt;vuepress-plugin-container&amp;lt;/code&amp;gt; 进行额外的配置注入，你可以使用&amp;lt;/p&amp;gt;
-&amp;lt;div&amp;gt;&amp;lt;pre&amp;gt;&amp;lt;code&amp;gt;::: center
-要居中的段落
-:::
-&amp;lt;div&amp;gt;
-&amp;lt;p&amp;gt;要居右的段落&amp;lt;/p&amp;gt;
-&amp;lt;/div&amp;gt;
-&amp;lt;p&amp;gt;&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;
-&amp;lt;div&amp;gt;&amp;lt;span&amp;gt;1&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;2&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;3&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;4&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;5&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;6&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;7&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;p&amp;gt;来对你的段落对齐进行自定义。&amp;lt;/p&amp;gt;&amp;lt;/p&amp;gt;
-</description>
-      <category>markdown</category>
-      <content:encoded><![CDATA[<p>通过对 <code>vuepress-plugin-container</code> 进行额外的配置注入，你可以使用</p>
-<div><pre><code>::: center
-要居中的段落
-:::
-
-::: right
-要居右的段落
-:::
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><p>来对你的段落对齐进行自定义。</p>
-
-<h2 id="配置"> 配置</h2>
-<div><div><br><br><br><div>&nbsp;</div><br><br><br><br></div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
-  themeConfig<span>:</span> <span>{</span>
-    mdEnhance<span>:</span> <span>{</span>
-      align<span>:</span> <span>true</span><span>,</span>
-    <span>}</span><span>,</span>
-  <span>}</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><h2 id="演示"> 演示</h2>
-<div><p>W.I.P</p>
-<p>vuepress-theme-hope v2 仍在制作中，API 可能会有</p>
-<div>
-<p>重大的变动。</p>
-</div>
-<p>如果你在使用过程中遇到了 bug，可以</p>
-<div>
-<p><a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/issues" target="_blank" rel="noopener noreferrer">提一个 issue</a>。</p>
-</div>
-</div>
-<div><pre><code>:::: danger W.I.P
-vuepress-theme-hope v2 仍在制作中，API 可能会有
-
-::: center
-重大的变动。
-:::
-
-如果你在使用过程中遇到了 bug，可以
-
-::: right
-<span>[<span>提一个 issue</span>](<span>https://github.com/vuepress-theme-hope/vuepress-theme-hope/issues</span>)</span>。
-:::
-
-::::
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br></div></div><h2 id="其他自定义容器"> 其他自定义容器</h2>
-<div><p>Info</p>
-<p>信息容器。</p>
-</div>
-<div><p>Tips</p>
-<p>提示容器</p>
-</div>
-<div><p>Note</p>
-<p>警告容器</p>
-</div>
-<div><p>Warning</p>
-<p>危险容器</p>
-</div>
-<details><summary>DETAILS</summary>
-<p>详情容器</p>
-</details>
-<div><p>自定义标题</p>
-<p>信息容器</p>
-</div>
-<div><p>自定义标题</p>
-<p>提示容器</p>
-</div>
-<div><p>自定义标题</p>
-<p>警告容器</p>
-</div>
-<div><p>自定义标题</p>
-<p>危险容器</p>
-</div>
-<details><summary>自定义标题</summary>
-<p>详情容器</p>
-</details>
-<div><pre><code>::: info
-信息容器。
-:::
-
-::: tip
-提示容器
-:::
-
-::: warning
-警告容器
-:::
-
-::: danger
-危险容器
-:::
-
-::: details
-详情容器
-:::
-
-::: info 自定义标题
-信息容器
-:::
-
-::: tip 自定义标题
-提示容器
-:::
-
-::: warning 自定义标题
-警告容器
-:::
-
-::: danger 自定义标题
-危险容器
-:::
-
-::: details 自定义标题
-详情容器
-:::
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br></div></div>]]></content:encoded>
-    </item>
-    <item>
-      <title>组件</title>
-      <link>https://vuepress-theme-hope.github.io/zh/guide/markdown/components/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/guide/markdown/components/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">组件</source>
-      <category>markdown</category>
-      <content:encoded><![CDATA[<h2 id="badge"> Badge</h2>
-<p>在 Markdown 中可用的徽章。</p>
-<h3 id="badge-属性"> Badge 属性</h3>
-<h4 id="text"> text</h4>
-<ul>
-<li>类型: <code>string</code></li>
-<li>必填: 是</li>
-</ul>
-<p>徽章的文字</p>
-<h4 id="type"> type</h4>
-<ul>
-<li>类型: <code>&quot;tip&quot; | &quot;warn&quot; | &quot;error&quot;</code></li>
-<li>默认值: <code>&quot;tip&quot;</code></li>
-</ul>
-<p>徽章的类型</p>
-<ul>
-<li>
-<i>Not supported content</i>
-</li>
-<li>
-<i>Not supported content</i>
-</li>
-<li>
-<i>Not supported content</i>
-</li>
-</ul>
-<h4 id="color"> color</h4>
-<ul>
-<li>类型: <code>string</code></li>
-<li>必填: 否</li>
-</ul>
-<p>徽章的颜色，填入在 CSS 中合法的颜色值。</p>
-<h4 id="vertical"> vertical</h4>
-<ul>
-<li>类型: <code>&quot;top&quot; | &quot;middle&quot;</code></li>
-<li>默认值: <code>&quot;top&quot;</code></li>
-</ul>
-<p>徽章的垂直方向的位置</p>
-<h3 id="badge-使用"> Badge 使用</h3>
-<p>你可以在 Markdown 中使用这个组件来为标题或链接添加一些状态:</p>
-<div><pre><code><span><span>###</span> Badge &lt;Badge text="Building" type="warn"/> &lt;Badge text="MrHope" color="grey" /></span>
-</code></pre>
-<div><span>1</span><br></div></div><h2 id="codegroup-codegroupitem"> CodeGroup, CodeGroupItem</h2>
-<p>在 Markdown 中可用的代码块分组</p>
-<h3 id="codegroup-使用"> CodeGroup 使用</h3>
-<p>请使用 <code>&lt;CodeGroup /&gt;</code> 包裹 <code>&lt;CodeGroupItem /&gt;</code>。</p>
-<p>对于每个 <code>&lt;CodeGroupItem /&gt;</code>，你需要设置 <code>title</code> 属性作为选项卡的标题，并仅在选项卡内放置一个代码块。你还可以在其中一个 <code>&lt;CodeGroupItem /&gt;</code> 上设置 <code>active</code> 属性使其默认激活。</p>
-<div><p>Tips</p>
-<p>你需要在每个 <code>&lt;CodeGroupItem /&gt;</code> 之间放置一个空行，否则 VuePress 可能无法正确的解析它们。</p>
-</div>
-<h3 id="codegroup-示例"> CodeGroup 示例</h3>
-<p>输入:</p>
-<div><pre><code><span><span><span>&lt;</span>CodeGroup</span><span>></span></span>
-<span><span><span>&lt;</span>CodeGroupItem</span> <span>title</span><span><span>=</span><span>"</span>yarn<span>"</span></span><span>></span></span>
-<span><span>```</span><span>bash</span>
-<span><span>yarn</span> <span>add</span> -D vuepress-theme-hope</span>
-<span>```</span></span>
-<span><span><span>&lt;/</span>CodeGroupItem</span><span>></span></span>
-
-<span><span><span>&lt;</span>CodeGroupItem</span> <span>title</span><span><span>=</span><span>"</span>npm<span>"</span></span> <span>active</span><span>></span></span>
-<span><span>```</span><span>bash</span>
-<span><span>npm</span> i -D vuepress-theme-hope</span>
-<span>```</span></span>
-<span><span><span>&lt;/</span>CodeGroupItem</span><span>></span></span>
-<span><span><span>&lt;/</span>CodeGroup</span><span>></span></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></div></div><p>输出:</p>
-<CodeGroup>
-<CodeGroupItem title="yarn">
-<div><pre><code><span>yarn</span> <span>add</span> -D vuepress-theme-hope
-</code></pre>
-<div><span>1</span><br></div></div></CodeGroupItem>
-<CodeGroupItem title="npm" active>
-<div><pre><code><span>npm</span> i -D vuepress-theme-hope
-</code></pre>
-<div><span>1</span><br></div></div></CodeGroupItem>
-</CodeGroup>
 ]]></content:encoded>
     </item>
     <item>
@@ -15528,30 +15509,76 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 ]]></content:encoded>
     </item>
     <item>
-      <title>博客功能介绍</title>
-      <link>https://vuepress-theme-hope.github.io/zh/guide/blog/intro/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/guide/blog/intro/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">博客功能介绍</source>
-      <description>&amp;lt;p&amp;gt;主题通过引入 &amp;lt;code&amp;gt;@vuepress/plugin-blog&amp;lt;/code&amp;gt; &amp;lt;strong&amp;gt;默认&amp;lt;/strong&amp;gt;启用了一些博客功能。&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;如果你不需要任何的博客功能 (比如一个纯文档站点)，你可以配置 &amp;lt;code&amp;gt;themeConfig.blog&amp;lt;/code&amp;gt; 为 &amp;lt;code&amp;gt;false&amp;lt;/code&amp;gt; 来禁用全部的博客功能。&amp;lt;/p&amp;gt;
-</description>
-      <category>blog</category>
-      <content:encoded><![CDATA[<p>主题通过引入 <code>@vuepress/plugin-blog</code> <strong>默认</strong>启用了一些博客功能。</p>
-<p>如果你不需要任何的博客功能 (比如一个纯文档站点)，你可以配置 <code>themeConfig.blog</code> 为 <code>false</code> 来禁用全部的博客功能。</p>
-
-<h2 id="综述"> 综述</h2>
-<p>总体上，通过启用主题功能，主题允许你通过页面的 frontmatter，为页面配置分类、标签、是否是文章、是否出现在时间线中、收藏、置顶等功能。</p>
-<h2 id="文章"> 文章</h2>
-<p>所有文章都会默认被添加到文章列表中渲染在 <code>/article/</code> 路径下。</p>
-<p>如果你不希望该列表包含一些特定的文章，只需在文章的 frontmatter 中将 <code>article</code> 设置为 <code>false</code>。</p>
-<p>如果你希望置顶特定文章，只需在文章的 frontmatter 中将 <code>sticky</code> 设置为 <code>true</code>。</p>
-<h2 id="时间线"> 时间线</h2>
-<p>所有注明了写作日期的文章都会被按照时间排序在 <code>/timeline/</code> 时间线中。</p>
-<p>如果你不希望某篇文章被包含，只需在文章的 frontmatter 中将 <code>timeline</code> 设置为 <code>false</code>。</p>
-<div><p>Note</p>
-<p>请勿在根目录中添加并放置对应的文件夹(&quot;tag&quot;, &quot;article&quot;, &quot;timeline&quot;)，否则可能造成编译时文件被覆盖而造成错误。</p>
-<p>如果你的确需要一个“文章”文件夹的话，请考虑使用 &quot;articles&quot;。</p>
+      <title>Theme Config</title>
+      <link>https://vuepress-theme-hope.github.io/config/theme/</link>
+      <guid>https://vuepress-theme-hope.github.io/config/theme/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">Theme Config</source>
+      <category>config</category>
+      <content:encoded><![CDATA[<div><p>Tips</p>
+<p>You can view <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/docs/theme/src/.vuepress/config.js" target="_blank" rel="noopener noreferrer">Config of this site</a> as an example, and you can directly view <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/packages/theme/types/theme/" target="_blank" rel="noopener noreferrer">Type Declaration file</a> in the source code.</p>
 </div>
+<p>The following configuration has been added to the themeConfig field in <code>.vuepress/config.js</code>:</p>
+<h2 id="basic-options"> Basic options</h2>
+<div><p>Warning</p>
+<p>These options are important and require you to configure them.</p>
+</div>
+<h3 id="baselang"> baseLang</h3>
+<ul>
+<li>Type: <code>string</code></li>
+<li>Default: <code>'en-US'</code></li>
+</ul>
+<p>The language of the home directory.</p>
+<p>This option ensures that the subject text in the main catalog page is displayed in the correct language. You can change it to other languages according to your needs.</p>
+<div><p>Tips</p>
+<p>Only <strong>Simplified Chinese</strong> (zh-CN), <strong>English (United States)</strong> (en-US) and <strong>Vietnamese</strong> (vi-VN) are available for i18n.</p>
+<p>If you need multi-language support for other languages, you can <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/packages/shared/src/i18n/config.ts" target="_blank" rel="noopener noreferrer">submit a PR to this file</a></p>
+</div>
+<h3 id="author"> author</h3>
+<ul>
+<li>Type: <code>string</code></li>
+<li>Required: No</li>
+</ul>
+<p>The default author of the article</p>
+<h3 id="hostname"> hostname</h3>
+<ul>
+<li>Type: <code>string</code></li>
+<li>Required: Yes</li>
+</ul>
+<p>The domain name where the current site is deployed.</p>
+<h3 id="nav"> nav <i>Not supported content</i></h3>
+<p>NavBarItem now has</p>
+<ul>
+<li><code>icon</code> field to support icon display.</li>
+<li><code>prefix</code> field to automatically add group prefix</li>
+</ul>
+<p>For certain configuration, please see <a href="./../../guide/layout/navbar.html">Layout → Navbar</a></p>
+<h3 id="sidebar"> sidebar <i>Not supported content</i></h3>
+<p>SideBarItem now has</p>
+<ul>
+<li><code>icon</code> field to support icon display.</li>
+<li><code>prefix</code> field to automatically add group prefix</li>
+</ul>
+<p>For certain configuration, please see <a href="./../../guide/layout/sidebar.html">Layout → Sidebar</a></p>
+<h3 id="locales"> locales</h3>
+<ul>
+<li>Type: <code>Record &lt;string, HopeLangI18nConfigItem&gt;</code></li>
+</ul>
+<p>The multi-language configuration of the theme mainly needs to configure <code>nav</code> and<code>sidebar</code> of each language.</p>
+<h2 id="more"> More</h2>
+<ul>
+<li>
+<p><a href="./default.html"><strong>Default Config</strong></a></p>
+</li>
+<li>
+<p><a href="./feature.html"><strong>Theme Feature Config</strong></a></p>
+</li>
+<li>
+<p><a href="./plugin.html"><strong>Theme Plugin Config</strong></a></p>
+</li>
+<li>
+<p><a href="./apperance.html"><strong>Theme Appearance Config</strong></a></p>
+</li>
+</ul>
 ]]></content:encoded>
     </item>
     <item>
@@ -15638,57 +15665,30 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 ]]></content:encoded>
     </item>
     <item>
-      <title>分类与标签</title>
-      <link>https://vuepress-theme-hope.github.io/zh/guide/blog/category-and-tags/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/guide/blog/category-and-tags/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">分类与标签</source>
-      <description>&amp;lt;p&amp;gt;你可以通过 frontmatter 来为文章配置分类与标签，使它们出现在特定的分类与标签页面中。&amp;lt;/p&amp;gt;
+      <title>博客功能介绍</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/blog/intro/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/blog/intro/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">博客功能介绍</source>
+      <description>&amp;lt;p&amp;gt;主题通过引入 &amp;lt;code&amp;gt;@vuepress/plugin-blog&amp;lt;/code&amp;gt; &amp;lt;strong&amp;gt;默认&amp;lt;/strong&amp;gt;启用了一些博客功能。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;如果你不需要任何的博客功能 (比如一个纯文档站点)，你可以配置 &amp;lt;code&amp;gt;themeConfig.blog&amp;lt;/code&amp;gt; 为 &amp;lt;code&amp;gt;false&amp;lt;/code&amp;gt; 来禁用全部的博客功能。&amp;lt;/p&amp;gt;
 </description>
       <category>blog</category>
-      <content:encoded><![CDATA[<p>你可以通过 frontmatter 来为文章配置分类与标签，使它们出现在特定的分类与标签页面中。</p>
+      <content:encoded><![CDATA[<p>主题通过引入 <code>@vuepress/plugin-blog</code> <strong>默认</strong>启用了一些博客功能。</p>
+<p>如果你不需要任何的博客功能 (比如一个纯文档站点)，你可以配置 <code>themeConfig.blog</code> 为 <code>false</code> 来禁用全部的博客功能。</p>
 
-<h2 id="分类设置"> 分类设置</h2>
-<p>只需要在页面的 frontmatter 中添加 <code>category: &lt;分类名&gt;</code> ，该文章会自动渲染在 <code>/category/&lt;分类名&gt;/</code> 分类页面的列表中。</p>
-<p>比如在某个页面设置:</p>
-<div><pre><code><span><span>---</span>
-<span>category: HTML</span>
-<span>---</span></span>
-
-页面内容...
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>你就可以在 <code>/category/HTML</code> 页面下找到它。</p>
-<div><p>例子</p>
-<p><img src="./assets/category.png" alt="Category"></p>
-<ul>
-<li><a href="https://mrhope.site/category/JavaScript/" target="_blank" rel="noopener noreferrer">地址</a></li>
-</ul>
+<h2 id="综述"> 综述</h2>
+<p>总体上，通过启用主题功能，主题允许你通过页面的 frontmatter，为页面配置分类、标签、是否是文章、是否出现在时间线中、收藏、置顶等功能。</p>
+<h2 id="文章"> 文章</h2>
+<p>所有文章都会默认被添加到文章列表中渲染在 <code>/article/</code> 路径下。</p>
+<p>如果你不希望该列表包含一些特定的文章，只需在文章的 frontmatter 中将 <code>article</code> 设置为 <code>false</code>。</p>
+<p>如果你希望置顶特定文章，只需在文章的 frontmatter 中将 <code>sticky</code> 设置为 <code>true</code>。</p>
+<h2 id="时间线"> 时间线</h2>
+<p>所有注明了写作日期的文章都会被按照时间排序在 <code>/timeline/</code> 时间线中。</p>
+<p>如果你不希望某篇文章被包含，只需在文章的 frontmatter 中将 <code>timeline</code> 设置为 <code>false</code>。</p>
+<div><p>Note</p>
+<p>请勿在根目录中添加并放置对应的文件夹(&quot;tag&quot;, &quot;article&quot;, &quot;timeline&quot;)，否则可能造成编译时文件被覆盖而造成错误。</p>
+<p>如果你的确需要一个“文章”文件夹的话，请考虑使用 &quot;articles&quot;。</p>
 </div>
-<p>::: warn</p>
-<p>请注意，一篇文章只能设置一个分类。(V2 计划支持文章设置多个分类)</p>
-<p>:::</p>
-<h2 id="标签"> 标签</h2>
-<p>只需要在页面的 frontmatter 中添加 <code>tags</code> 数组，并设置一个或多个文章所属的标签 ，该文章会自动渲染在 <code>/tag/&lt;标签名&gt;/</code> 标签页面的列表中。</p>
-<p>比如在某个页面设置:</p>
-<div><pre><code><span><span>---</span>
-<span>tags:
-  - HTML
-  - Web</span>
-<span>---</span></span>
-
-页面内容...
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><p>你就可以在 <code>/tag/HTML</code> 和 <code>/tag/Web</code> 页面下找到它。</p>
-<div><p>例子</p>
-<p><img src="./assets/tag.png" alt="Tag"></p>
-<ul>
-<li><a href="https://mrhope.site/tag/Vuex/" target="_blank" rel="noopener noreferrer">地址</a></li>
-</ul>
-</div>
-<h2 id="查看列表"> 查看列表</h2>
-<p>除了直接访问对应的地址外，分类和标签名称会显示在文章开头的文章信息处，你可以点击它来导航到对应的列表查看相同分类或标签的文章。</p>
-<p><img src="./assets/info.png" alt="文章信息"></p>
-<p>你也可以在博客主页侧边栏中选择分类或标签选项卡选择对应的项目进入列表。</p>
-<p><img src="./assets/sidebar.png" alt="侧边栏选项卡"></p>
 ]]></content:encoded>
     </item>
   </channel>
