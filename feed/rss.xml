@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/feed/</link>
     <description>Feed Plugin for vuepress</description>
     <language>en-US</language>
-    <pubDate>Sun, 07 Mar 2021 12:47:06 GMT</pubDate>
-    <lastBuildDate>Sun, 07 Mar 2021 12:47:06 GMT</lastBuildDate>
+    <pubDate>Sun, 07 Mar 2021 13:31:18 GMT</pubDate>
+    <lastBuildDate>Sun, 07 Mar 2021 13:31:18 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -713,6 +713,38 @@
 ]]></content:encoded>
     </item>
     <item>
+      <title>Home</title>
+      <link>https://vuepress-theme-hope.github.io/feed/</link>
+      <guid>https://vuepress-theme-hope.github.io/feed/</guid>
+      <source url="https://vuepress-theme-hope.github.io/feed/rss.xml">Home</source>
+      <content:encoded><![CDATA[<h2 id="how-to-use"> How to use</h2>
+<h3 id="install"> Install</h3>
+<CodeGroup>
+<CodeGroupItem title="yarn">
+<div><pre><code><span>yarn</span> <span>add</span> -D @mr-hope/vuepress-plugin-feed
+</code></pre>
+<div><span>1</span><br></div></div></CodeGroupItem>
+<CodeGroupItem title="npm">
+<div><pre><code><span>npm</span> i -D @mr-hope/vuepress-plugin-feed
+</code></pre>
+<div><span>1</span><br></div></div></CodeGroupItem>
+</CodeGroup>
+<h3 id="usage"> Usage</h3>
+<div><pre><code><span>// .vuepress/config.js</span>
+module<span>.</span>exports <span>=</span> <span>{</span>
+  plugins<span>:</span> <span>[</span>
+    <span>[</span>
+      <span>"@mr-hope/feed"</span><span>,</span>
+      <span>{</span>
+        <span>// your options</span>
+      <span>}</span><span>,</span>
+    <span>]</span><span>,</span>
+  <span>]</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div>]]></content:encoded>
+    </item>
+    <item>
       <title>频道设置</title>
       <link>https://vuepress-theme-hope.github.io/feed/zh/config/channel/</link>
       <guid>https://vuepress-theme-hope.github.io/feed/zh/config/channel/</guid>
@@ -824,38 +856,6 @@
 <p>有关信息，详见 <a href="https://w3c.github.io/websub/#subscription-migration" target="_blank" rel="noopener noreferrer">Websub</a>。</p>
 </div>
 ]]></content:encoded>
-    </item>
-    <item>
-      <title>Home</title>
-      <link>https://vuepress-theme-hope.github.io/feed/</link>
-      <guid>https://vuepress-theme-hope.github.io/feed/</guid>
-      <source url="https://vuepress-theme-hope.github.io/feed/rss.xml">Home</source>
-      <content:encoded><![CDATA[<h2 id="how-to-use"> How to use</h2>
-<h3 id="install"> Install</h3>
-<CodeGroup>
-<CodeGroupItem title="yarn">
-<div><pre><code><span>yarn</span> <span>add</span> -D @mr-hope/vuepress-plugin-feed
-</code></pre>
-<div><span>1</span><br></div></div></CodeGroupItem>
-<CodeGroupItem title="npm">
-<div><pre><code><span>npm</span> i -D @mr-hope/vuepress-plugin-feed
-</code></pre>
-<div><span>1</span><br></div></div></CodeGroupItem>
-</CodeGroup>
-<h3 id="usage"> Usage</h3>
-<div><pre><code><span>// .vuepress/config.js</span>
-module<span>.</span>exports <span>=</span> <span>{</span>
-  plugins<span>:</span> <span>[</span>
-    <span>[</span>
-      <span>"@mr-hope/feed"</span><span>,</span>
-      <span>{</span>
-        <span>// your options</span>
-      <span>}</span><span>,</span>
-    <span>]</span><span>,</span>
-  <span>]</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div>]]></content:encoded>
     </item>
     <item>
       <title>项目设置</title>
