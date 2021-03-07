@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/</link>
     <description>A vuepress theme with tons of features✨</description>
     <language>en-US</language>
-    <pubDate>Sun, 07 Mar 2021 02:30:01 GMT</pubDate>
-    <lastBuildDate>Sun, 07 Mar 2021 02:30:01 GMT</lastBuildDate>
+    <pubDate>Sun, 07 Mar 2021 06:48:26 GMT</pubDate>
+    <lastBuildDate>Sun, 07 Mar 2021 06:48:26 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -5319,9 +5319,9 @@ copyrightText: false</span>
 module<span>.</span>exports <span>=</span> <span>{</span>
   themeConfig<span>:</span> <span>{</span>
     nav<span>:</span> <span>[</span>
-      <span>{</span> text<span>:</span> <span>"Home"</span><span>,</span> link<span>:</span> <span>"/"</span><span>,</span> icon<span>:</span> <span>"home"</span> <span>}</span><span>,</span>
-      <span>{</span> text<span>:</span> <span>"Guide"</span><span>,</span> link<span>:</span> <span>"/guide/"</span><span>,</span> icon<span>:</span> <span>"info"</span> <span>}</span><span>,</span>
-      <span>{</span> text<span>:</span> <span>"External"</span><span>,</span> link<span>:</span> <span>"https://google.com"</span><span>,</span> icon<span>:</span> <span>"markdown"</span> <span>}</span><span>,</span>
+      <span>{</span> text<span>:</span> <span>"Guide"</span><span>,</span> link<span>:</span> <span>"/guide/"</span><span>,</span> icon<span>:</span> <span>"creative"</span> <span>}</span><span>,</span>
+      <span>{</span> text<span>:</span> <span>"Config"</span><span>,</span> link<span>:</span> <span>"/config/"</span><span>,</span> icon<span>:</span> <span>"config"</span> <span>}</span><span>,</span>
+      <span>{</span> text<span>:</span> <span>"FAQ"</span><span>,</span> link<span>:</span> <span>"/FAQ/"</span><span>,</span> icon<span>:</span> <span>"question"</span> <span>}</span><span>,</span>
     <span>]</span><span>,</span>
   <span>}</span><span>,</span>
 <span>}</span><span>;</span>
@@ -5331,43 +5331,18 @@ module<span>.</span>exports <span>=</span> <span>{</span>
   themeConfig<span>:</span> <span>{</span>
     nav<span>:</span> <span>[</span>
       <span>{</span>
-        text<span>:</span> <span>"Languages"</span><span>,</span>
-        ariaLabel<span>:</span> <span>"Language Menu"</span><span>,</span>
+        text<span>:</span> <span>"Basic"</span><span>,</span>
+        icon<span>:</span> <span>"info"</span><span>,</span>
         items<span>:</span> <span>[</span>
-          <span>{</span> text<span>:</span> <span>"Chinese"</span><span>,</span> link<span>:</span> <span>"/language/chinese/"</span> <span>}</span><span>,</span>
-          <span>{</span> text<span>:</span> <span>"Japanese"</span><span>,</span> link<span>:</span> <span>"/language/japanese/"</span> <span>}</span><span>,</span>
+          <span>{</span> text<span>:</span> <span>"Markdown"</span><span>,</span> link<span>:</span> <span>"/basic/markdown/"</span><span>,</span> icon<span>:</span> <span>"markdown"</span> <span>}</span><span>,</span>
+          <span>{</span> text<span>:</span> <span>"VuePress"</span><span>,</span> link<span>:</span> <span>"/basic/vuepress/"</span><span>,</span> icon<span>:</span> <span>"vue"</span> <span>}</span><span>,</span>
         <span>]</span><span>,</span>
       <span>}</span><span>,</span>
     <span>]</span><span>,</span>
   <span>}</span><span>,</span>
 <span>}</span><span>;</span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br></div></div><p>You can also have sub groups inside a dropdown by having nested items:</p>
-<div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
-  themeConfig<span>:</span> <span>{</span>
-    nav<span>:</span> <span>[</span>
-      <span>{</span>
-        text<span>:</span> <span>"Languages"</span><span>,</span>
-        items<span>:</span> <span>[</span>
-          <span>{</span>
-            text<span>:</span> <span>"Group1"</span><span>,</span>
-            items<span>:</span> <span>[</span>
-              <span>/*  */</span>
-            <span>]</span><span>,</span>
-          <span>}</span><span>,</span>
-          <span>{</span>
-            text<span>:</span> <span>"Group2"</span><span>,</span>
-            items<span>:</span> <span>[</span>
-              <span>/*  */</span>
-            <span>]</span><span>,</span>
-          <span>}</span><span>,</span>
-        <span>]</span><span>,</span>
-      <span>}</span><span>,</span>
-    <span>]</span><span>,</span>
-  <span>}</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br></div></div><p>In the navigation bar grouping, you can add a <code>prefix</code> field to add a prefix to each submenu link:</p>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br></div></div><p>In most cases, the grouped items in the navigation bar belong to the same category and will be placed in the same subdirectory, and they have the same path prefix. To simplify the configuration, you can add the <code>prefix</code> field to add a prefix to each sub-link in the group:</p>
 <div><pre><code><span>// .vuepress/config.js</span>
 module<span>.</span>exports <span>=</span> <span>{</span>
   themeConfig<span>:</span> <span>{</span>
@@ -5377,7 +5352,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
         icon<span>:</span> <span>"info"</span><span>,</span>
         prefix<span>:</span> <span>"/basic/"</span><span>,</span>
         items<span>:</span> <span>[</span>
-          <span>{</span> text<span>:</span> <span>"Markdown"</span><span>,</span> link<span>:</span> <span>"markdown"</span><span>,</span> icon<span>:</span> <span>"markdown"</span> <span>}</span><span>,</span>
+          <span>{</span> text<span>:</span> <span>"Markdown"</span><span>,</span> link<span>:</span> <span>"markdown/"</span><span>,</span> icon<span>:</span> <span>"markdown"</span> <span>}</span><span>,</span>
           <span>{</span> text<span>:</span> <span>"VuePress"</span><span>,</span> link<span>:</span> <span>"vuepress/"</span><span>,</span> icon<span>:</span> <span>"vue"</span> <span>}</span><span>,</span>
         <span>]</span><span>,</span>
       <span>}</span><span>,</span>
@@ -5385,7 +5360,114 @@ module<span>.</span>exports <span>=</span> <span>{</span>
   <span>}</span><span>,</span>
 <span>}</span><span>;</span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br></div></div><h3 id="disable-the-navbar"> Disable the Navbar</h3>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br></div></div><p>You can also have sub groups inside a dropdown by having nested <code>items</code>:</p>
+<div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
+  themeConfig<span>:</span> <span>{</span>
+    nav<span>:</span> <span>[</span>
+      <span>{</span>
+        text<span>:</span> <span>"Project"</span><span>,</span>
+        icon<span>:</span> <span>"info"</span><span>,</span>
+        items<span>:</span> <span>[</span>
+          <span>{</span>
+            text<span>:</span> <span>"Built in Plugins"</span><span>,</span>
+            icon<span>:</span> <span>"plugin"</span><span>,</span>
+            items<span>:</span> <span>[</span>
+              <span>/* Some items */</span>
+            <span>]</span><span>,</span>
+          <span>}</span><span>,</span>
+          <span>{</span>
+            text<span>:</span> <span>"Third party Plugins"</span><span>,</span>
+            icon<span>:</span> <span>"plugin"</span><span>,</span>
+            items<span>:</span> <span>[</span>
+              <span>/* Some items */</span>
+            <span>]</span><span>,</span>
+          <span>}</span><span>,</span>
+        <span>]</span><span>,</span>
+      <span>}</span><span>,</span>
+    <span>]</span><span>,</span>
+  <span>}</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br></div></div><details><summary>Demo</summary>
+<div><pre><code><span>// .vuepress/config.js</span>
+module<span>.</span>exports <span>=</span> <span>{</span>
+  themeConfig<span>:</span> <span>{</span>
+    nav<span>:</span> <span>[</span>
+      <span>{</span>
+        text<span>:</span> <span>"Project"</span><span>,</span>
+        icon<span>:</span> <span>"info"</span><span>,</span>
+        items<span>:</span> <span>[</span>
+          <span>{</span>
+            text<span>:</span> <span>"Changelog"</span><span>,</span>
+            link<span>:</span>
+              <span>"https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/CHANGELOG.md"</span><span>,</span>
+          <span>}</span><span>,</span>
+          <span>{</span>
+            text<span>:</span> <span>"Repo"</span><span>,</span>
+            link<span>:</span> <span>"https://github.com/vuepress-theme-hope/vuepress-theme-hope"</span><span>,</span>
+          <span>}</span><span>,</span>
+          <span>{</span>
+            text<span>:</span> <span>"Theme Demo"</span><span>,</span>
+            link<span>:</span> <span>"/demo/"</span><span>,</span>
+          <span>}</span><span>,</span>
+          <span>{</span>
+            text<span>:</span> <span>"Plugins"</span><span>,</span>
+            icon<span>:</span> <span>"plugin"</span><span>,</span>
+            items<span>:</span> <span>[</span>
+              <span>{</span>
+                text<span>:</span> <span>"AddThis Plugin"</span><span>,</span>
+                link<span>:</span> <span>"https://vuepress-theme-hope.github.io/add-this/"</span><span>,</span>
+              <span>}</span><span>,</span>
+              <span>{</span>
+                text<span>:</span> <span>"Comment Plugin"</span><span>,</span>
+                link<span>:</span> <span>"https://vuepress-theme-hope.github.io/comment/"</span><span>,</span>
+              <span>}</span><span>,</span>
+              <span>{</span>
+                text<span>:</span> <span>"Copy Code Plugin"</span><span>,</span>
+                link<span>:</span> <span>"https://vuepress-theme-hope.github.io/copy-code/"</span><span>,</span>
+              <span>}</span><span>,</span>
+              <span>{</span>
+                text<span>:</span> <span>"Feed Plugin"</span><span>,</span>
+                link<span>:</span> <span>"https://vuepress-theme-hope.github.io/feed/"</span><span>,</span>
+              <span>}</span><span>,</span>
+              <span>{</span>
+                text<span>:</span> <span>"Last Update Plugin"</span><span>,</span>
+                link<span>:</span> <span>"https://vuepress-theme-hope.github.io/last-update/"</span><span>,</span>
+              <span>}</span><span>,</span>
+              <span>{</span>
+                text<span>:</span> <span>"Markdown Enhance Plugin"</span><span>,</span>
+                link<span>:</span> <span>"https://vuepress-theme-hope.github.io/md-enhance/"</span><span>,</span>
+              <span>}</span><span>,</span>
+              <span>{</span>
+                text<span>:</span> <span>"Photo Swipe Plugin"</span><span>,</span>
+                link<span>:</span> <span>"https://vuepress-theme-hope.github.io/photo-swipe/"</span><span>,</span>
+              <span>}</span><span>,</span>
+              <span>{</span>
+                text<span>:</span> <span>"PWA Plugin"</span><span>,</span>
+                link<span>:</span> <span>"https://vuepress-theme-hope.github.io/pwa/"</span><span>,</span>
+              <span>}</span><span>,</span>
+              <span>{</span>
+                text<span>:</span> <span>"Reading Time Plugin"</span><span>,</span>
+                link<span>:</span> <span>"https://vuepress-theme-hope.github.io/reading-time/"</span><span>,</span>
+              <span>}</span><span>,</span>
+              <span>{</span>
+                text<span>:</span> <span>"Seo Plugin"</span><span>,</span>
+                link<span>:</span> <span>"https://vuepress-theme-hope.github.io/seo/"</span><span>,</span>
+              <span>}</span><span>,</span>
+              <span>{</span>
+                text<span>:</span> <span>"Sitemap Plugin"</span><span>,</span>
+                link<span>:</span> <span>"https://vuepress-theme-hope.github.io/sitemap/"</span><span>,</span>
+              <span>}</span><span>,</span>
+            <span>]</span><span>,</span>
+          <span>}</span><span>,</span>
+        <span>]</span><span>,</span>
+      <span>}</span><span>,</span>
+    <span>]</span><span>,</span>
+  <span>}</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br><span>40</span><br><span>41</span><br><span>42</span><br><span>43</span><br><span>44</span><br><span>45</span><br><span>46</span><br><span>47</span><br><span>48</span><br><span>49</span><br><span>50</span><br><span>51</span><br><span>52</span><br><span>53</span><br><span>54</span><br><span>55</span><br><span>56</span><br><span>57</span><br><span>58</span><br><span>59</span><br><span>60</span><br><span>61</span><br><span>62</span><br><span>63</span><br><span>64</span><br><span>65</span><br><span>66</span><br><span>67</span><br><span>68</span><br><span>69</span><br><span>70</span><br><span>71</span><br><span>72</span><br><span>73</span><br><span>74</span><br><span>75</span><br><span>76</span><br></div></div></details>
+<h3 id="disable-the-navbar"> Disable the Navbar</h3>
 <p>To disable the navbar globally, use <code>themeConfig.navbar</code>:</p>
 <div><pre><code><span>// .vuepress/config.js</span>
 module<span>.</span>exports <span>=</span> <span>{</span>
@@ -5501,14 +5583,12 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 module<span>.</span>exports <span>=</span> <span>{</span>
   themeConfig<span>:</span> <span>{</span>
     nav<span>:</span> <span>[</span>
-      <span>// add icon field to each item to display icon</span>
       <span>{</span> text<span>:</span> <span>"Guide"</span><span>,</span> link<span>:</span> <span>"/guide/"</span><span>,</span> icon<span>:</span> <span>"creative"</span> <span>}</span><span>,</span>
       <span>{</span> text<span>:</span> <span>"Config"</span><span>,</span> link<span>:</span> <span>"/config/"</span><span>,</span> icon<span>:</span> <span>"config"</span> <span>}</span><span>,</span>
       <span>{</span> text<span>:</span> <span>"FAQ"</span><span>,</span> link<span>:</span> <span>"/FAQ/"</span><span>,</span> icon<span>:</span> <span>"question"</span> <span>}</span><span>,</span>
       <span>{</span>
         text<span>:</span> <span>"Basic"</span><span>,</span>
         icon<span>:</span> <span>"info"</span><span>,</span>
-        <span>// add prefix field to add a link prefix to all the items</span>
         prefix<span>:</span> <span>"/basic/"</span><span>,</span>
         items<span>:</span> <span>[</span>
           <span>{</span> text<span>:</span> <span>"Markdown"</span><span>,</span> link<span>:</span> <span>"markdown/"</span><span>,</span> icon<span>:</span> <span>"markdown"</span> <span>}</span><span>,</span>
@@ -5588,7 +5668,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
   <span>}</span><span>,</span>
 <span>}</span><span>;</span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br><span>40</span><br><span>41</span><br><span>42</span><br><span>43</span><br><span>44</span><br><span>45</span><br><span>46</span><br><span>47</span><br><span>48</span><br><span>49</span><br><span>50</span><br><span>51</span><br><span>52</span><br><span>53</span><br><span>54</span><br><span>55</span><br><span>56</span><br><span>57</span><br><span>58</span><br><span>59</span><br><span>60</span><br><span>61</span><br><span>62</span><br><span>63</span><br><span>64</span><br><span>65</span><br><span>66</span><br><span>67</span><br><span>68</span><br><span>69</span><br><span>70</span><br><span>71</span><br><span>72</span><br><span>73</span><br><span>74</span><br><span>75</span><br><span>76</span><br><span>77</span><br><span>78</span><br><span>79</span><br><span>80</span><br><span>81</span><br><span>82</span><br><span>83</span><br><span>84</span><br><span>85</span><br><span>86</span><br><span>87</span><br><span>88</span><br><span>89</span><br><span>90</span><br></div></div>]]></content:encoded>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br><span>40</span><br><span>41</span><br><span>42</span><br><span>43</span><br><span>44</span><br><span>45</span><br><span>46</span><br><span>47</span><br><span>48</span><br><span>49</span><br><span>50</span><br><span>51</span><br><span>52</span><br><span>53</span><br><span>54</span><br><span>55</span><br><span>56</span><br><span>57</span><br><span>58</span><br><span>59</span><br><span>60</span><br><span>61</span><br><span>62</span><br><span>63</span><br><span>64</span><br><span>65</span><br><span>66</span><br><span>67</span><br><span>68</span><br><span>69</span><br><span>70</span><br><span>71</span><br><span>72</span><br><span>73</span><br><span>74</span><br><span>75</span><br><span>76</span><br><span>77</span><br><span>78</span><br><span>79</span><br><span>80</span><br><span>81</span><br><span>82</span><br><span>83</span><br><span>84</span><br><span>85</span><br><span>86</span><br><span>87</span><br><span>88</span><br></div></div>]]></content:encoded>
     </item>
     <item>
       <title>Page</title>
@@ -5677,24 +5757,54 @@ next: false</span>
 &amp;lt;div&amp;gt;&amp;lt;pre&amp;gt;&amp;lt;code&amp;gt;&amp;lt;span&amp;gt;// .vuepress/config.js&amp;lt;/span&amp;gt;
 module&amp;lt;span&amp;gt;.&amp;lt;/span&amp;gt;exports &amp;lt;span&amp;gt;=&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;{&amp;lt;/span&amp;gt;
   themeConfig&amp;lt;span&amp;gt;:&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;{&amp;lt;/span&amp;gt;
-    sidebar&amp;lt;span&amp;gt;:&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;[&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;&amp;quot;/&amp;quot;&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;&amp;quot;/page-a&amp;quot;&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;[&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;&amp;quot;/page-b&amp;quot;&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;&amp;quot;Explicit link text&amp;quot;&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;]&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;]&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;/span&amp;gt;
+    sidebar&amp;lt;span&amp;gt;:&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;[&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;&amp;quot;/&amp;quot;&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;&amp;quot;/page-a&amp;quot;&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;&amp;quot;/page-b&amp;quot;&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;]&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;/span&amp;gt;
   &amp;lt;span&amp;gt;}&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;/span&amp;gt;
 &amp;lt;span&amp;gt;}&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;;&amp;lt;/span&amp;gt;
 &amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;
-&amp;lt;div&amp;gt;&amp;lt;span&amp;gt;1&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;2&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;3&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;4&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;5&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;6&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;</description>
+&amp;lt;div&amp;gt;&amp;lt;span&amp;gt;1&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;2&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;3&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;4&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;5&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;6&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;p&amp;gt;Each item of the array will eventually be rendered as a sidebar item.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;You can omit the &amp;lt;code&amp;gt;.md&amp;lt;/code&amp;gt; extension, and paths ending with &amp;lt;code&amp;gt;/&amp;lt;/code&amp;gt; are inferred as &amp;lt;code&amp;gt;*/README.md&amp;lt;/code&amp;gt;.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Icon support is enabled in the sidebar by default, and the icon of the page will be displayed before the link in the sidebar (by reading &amp;lt;code&amp;gt;icon&amp;lt;/code&amp;gt; field in frontmatter). It can be disabled by setting &amp;lt;code&amp;gt;sidebarIcon&amp;lt;/code&amp;gt; to &amp;lt;code&amp;gt;false&amp;lt;/code&amp;gt; in &amp;lt;code&amp;gt;themeConfig&amp;lt;/code&amp;gt;.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;The text for the link is automatically inferred (&amp;lt;code&amp;gt;title&amp;lt;/code&amp;gt; field in frontmatter, then first header in the page). To explicitly specify the link text, use an array in form of &amp;lt;code&amp;gt;[link, text]&amp;lt;/code&amp;gt;.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;::: detail Demo&amp;lt;/p&amp;gt;
+&amp;lt;div&amp;gt;&amp;lt;pre&amp;gt;&amp;lt;code&amp;gt;&amp;lt;span&amp;gt;// .vuepress/config.js&amp;lt;/span&amp;gt;
+module&amp;lt;span&amp;gt;.&amp;lt;/span&amp;gt;exports &amp;lt;span&amp;gt;=&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;{&amp;lt;/span&amp;gt;
+  themeConfig&amp;lt;span&amp;gt;:&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;{&amp;lt;/span&amp;gt;
+    sidebar&amp;lt;span&amp;gt;:&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;[&amp;lt;/span&amp;gt;
+      &amp;lt;span&amp;gt;&amp;quot;/&amp;quot;&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;/span&amp;gt;
+      &amp;lt;span&amp;gt;&amp;quot;/page-a&amp;quot;&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;/span&amp;gt;
+      &amp;lt;span&amp;gt;[&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;&amp;quot;/page-b&amp;quot;&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;&amp;quot;This text will be the title of `page-b`&amp;quot;&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;]&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;/span&amp;gt;
+    &amp;lt;span&amp;gt;]&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;/span&amp;gt;
+  &amp;lt;span&amp;gt;}&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;/span&amp;gt;
+&amp;lt;span&amp;gt;}&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;;&amp;lt;/span&amp;gt;
+&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;
+&amp;lt;div&amp;gt;&amp;lt;span&amp;gt;1&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;2&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;3&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;4&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;5&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;6&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;7&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;8&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;9&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;10&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;p&amp;gt;:::&amp;lt;/p&amp;gt;
+</description>
       <category>layout</category>
       <content:encoded><![CDATA[<p>To enable the sidebar, use <code>themeConfig.sidebar</code>. The basic configuration expects an Array of links:</p>
 <div><pre><code><span>// .vuepress/config.js</span>
 module<span>.</span>exports <span>=</span> <span>{</span>
   themeConfig<span>:</span> <span>{</span>
-    sidebar<span>:</span> <span>[</span><span>"/"</span><span>,</span> <span>"/page-a"</span><span>,</span> <span>[</span><span>"/page-b"</span><span>,</span> <span>"Explicit link text"</span><span>]</span><span>]</span><span>,</span>
+    sidebar<span>:</span> <span>[</span><span>"/"</span><span>,</span> <span>"/page-a"</span><span>,</span> <span>"/page-b"</span><span>]</span><span>,</span>
   <span>}</span><span>,</span>
 <span>}</span><span>;</span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>Each item of the array will eventually be rendered as a sidebar item.</p>
 <p>You can omit the <code>.md</code> extension, and paths ending with <code>/</code> are inferred as <code>*/README.md</code>.</p>
-<p>The text for the link is automatically inferred (either from the first header in the page or explicit title in <code>YAML front matter</code>). To explicitly specify the link text, use an array in form of <code>[link, text]</code>.</p>
-<p>Icon support is enabled in the sidebar by default, and the icon of the page will be displayed before the link in the sidebar. It can be disabled by setting <code>sidebarIcon</code> to <code>false</code> in <code>themeConfig</code>.</p>
+<p>Icon support is enabled in the sidebar by default, and the icon of the page will be displayed before the link in the sidebar (by reading <code>icon</code> field in frontmatter). It can be disabled by setting <code>sidebarIcon</code> to <code>false</code> in <code>themeConfig</code>.</p>
+<p>The text for the link is automatically inferred (<code>title</code> field in frontmatter, then first header in the page). To explicitly specify the link text, use an array in form of <code>[link, text]</code>.</p>
+<p>::: detail Demo</p>
+<div><pre><code><span>// .vuepress/config.js</span>
+module<span>.</span>exports <span>=</span> <span>{</span>
+  themeConfig<span>:</span> <span>{</span>
+    sidebar<span>:</span> <span>[</span>
+      <span>"/"</span><span>,</span>
+      <span>"/page-a"</span><span>,</span>
+      <span>[</span><span>"/page-b"</span><span>,</span> <span>"This text will be the title of `page-b`"</span><span>]</span><span>,</span>
+    <span>]</span><span>,</span>
+  <span>}</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br></div></div><p>:::</p>
 
 <h2 id="nested-header-links"> Nested Header Links</h2>
 <p>The sidebar automatically displays links for headers in the current active page, nested under the link for the page itself. You can customize this behavior using <code>themeConfig.sidebarDepth</code>. The default depth(the max value) is <code>2</code>, which extracts both <code>h2</code> and <code>h3</code> headers. Setting it to <code>0</code> disables the header links.</p>
@@ -5720,16 +5830,26 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <span>}</span><span>;</span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><h3 id="sidebar-groups"> Sidebar Groups</h3>
-<p>You can divide sidebar links into mutiple groups by using objects. You can use <code>prefix</code> to add a default path prefix to each link in the group, and <code>icon</code> to add an icon to the group text.</p>
+<p>You can divide the sidebar into multiple groups by using <strong>Objects</strong>. By default, each group will be rendered into a menu that can be opened and collapsed. The menu item is each group link set by <code>children</code> in the group.</p>
+<p>You can use <code>prefix</code> field to add a default path prefix to each link in the group, and <code>icon</code> field to add an icon to the group text.</p>
+<p>Sidebar groups are collapsable by default. You can force a group to be always open with <code>collapsable: false</code>.</p>
+<p>A sidebar group config also supports  field to override the default sidebar depth (<code>2</code>).</p>
 <div><pre><code><span>// .vuepress/config.js</span>
 module<span>.</span>exports <span>=</span> <span>{</span>
   themeConfig<span>:</span> <span>{</span>
     sidebar<span>:</span> <span>[</span>
       <span>{</span>
-        title<span>:</span> <span>"Group 1"</span><span>,</span> <span>// required</span>
-        path<span>:</span> <span>"/foo/"</span><span>,</span> <span>// optional, which should be a absolute path.</span>
-        collapsable<span>:</span> <span>false</span><span>,</span> <span>// optional, defaults to true</span>
-        sidebarDepth<span>:</span> <span>2</span><span>,</span> <span>// optional, defaults to 2</span>
+        <span>// required, title of group</span>
+        title<span>:</span> <span>"Group 1"</span><span>,</span>
+        <span>// optional, icon of group</span>
+        icon<span>:</span> <span>"bar"</span><span>,</span>
+        <span>// optional, link of group title</span>
+        path<span>:</span> <span>"/foo/"</span><span>,</span>
+        <span>// optional, defaults to true</span>
+        collapsable<span>:</span> <span>false</span><span>,</span>
+        <span>// optional, defaults to 2</span>
+        sidebarDepth<span>:</span> <span>2</span><span>,</span>
+        <span>// required, items of group</span>
         children<span>:</span> <span>[</span><span>"/"</span><span>]</span><span>,</span>
       <span>}</span><span>,</span>
       <span>{</span>
@@ -5742,10 +5862,9 @@ module<span>.</span>exports <span>=</span> <span>{</span>
   <span>}</span><span>,</span>
 <span>}</span><span>;</span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br></div></div><p>Sidebar groups are collapsable by default. You can force a group to be always open with <code>collapsable: false</code>.</p>
-<p>A sidebar group config also supports  field to override the default sidebar depth (<code>2</code>).</p>
-<h3 id="multiple-sidebars"> Multiple Sidebars</h3>
-<p>To display different sidebars for different sections of content, first organize your pages into directories for each desired section:</p>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br></div></div><h3 id="multiple-sidebars"> Multiple Sidebars</h3>
+<p>To display different sidebars for different page groups, set an object for the sidebar in the format of <code>path: config</code>.</p>
+<p>For example, if you have the following structure:</p>
 <div><pre><code>.
 ├─ README.md
 ├─ contact.md
@@ -5759,7 +5878,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     ├─ three.md
     └─ four.md
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br></div></div><p>Then, update your configuration to define your sidebar for each section.</p>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br></div></div><p>You can define your sidebar for each section using below configuration:</p>
 <div><pre><code><span>// .vuepress/config.js</span>
 module<span>.</span>exports <span>=</span> <span>{</span>
   themeConfig<span>:</span> <span>{</span>
@@ -5787,7 +5906,8 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <span>}</span><span>;</span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br></div></div><div><p>Note</p>
-<p>Make sure to define the fallback configuration last, because VuePress checks each sidebar config from top to bottom.</p>
+<p>You need to pay special attention to the order of object key declaration. Generally speaking, you should put the more precise path first, because VuePress will traverse the key names of the sidebar configuration in order to find the matching configuration. Once a key name is successfully matched with the current path, it will display the corresponding sidebar configuration.</p>
+<p>In this case, the fallback sidebar must be defined last for this reason.</p>
 </div>
 <h3 id="auto-sidebar-for-single-pages"> Auto Sidebar for Single Pages</h3>
 <p>To automatically generate a sidebar that contains only the header links for the current page, you can use frontmatter on that page:</p>
@@ -5803,23 +5923,26 @@ module<span>.</span>exports <span>=</span> <span>{</span>
   <span>}</span><span>,</span>
 <span>}</span><span>;</span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>In <a href="https://v1.vuepress.vuejs.org/guide/i18n.html" target="_blank" rel="noopener noreferrer">multi-language</a> mode, you can also apply it to a specific locale:</p>
-<div><pre><code><span>// .vuepress/config.js</span>
-module<span>.</span>exports <span>=</span> <span>{</span>
-  themeConfig<span>:</span> <span>{</span>
-    <span>"/"</span><span>:</span> <span>{</span>
-      sidebar<span>:</span> <span>"auto"</span><span>,</span>
-    <span>}</span><span>,</span>
-  <span>}</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br></div></div><h3 id="disabling-the-sidebar"> Disabling the Sidebar</h3>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><h3 id="disabling-the-sidebar"> Disabling the Sidebar</h3>
 <p>You can disable the sidebar on a specific page with <code>YAML front matter</code>:</p>
 <div><pre><code><span><span>---</span>
 <span>sidebar: false</span>
 <span>---</span></span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><h2 id="blogger-information"> Blogger Information</h2>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><h2 id="muti-language-support"> Muti language support</h2>
+<p>In <a href="https://v1.vuepress.vuejs.org/guide/i18n.html" target="_blank" rel="noopener noreferrer">multi-language</a> mode, you can also apply it to a specific locale:</p>
+<div><pre><code><span>// .vuepress/config.js</span>
+module<span>.</span>exports <span>=</span> <span>{</span>
+  themeConfig<span>:</span> <span>{</span>
+    <span>"/zh/"</span><span>:</span> <span>{</span>
+      sidebar<span>:</span> <span>[</span>
+        <span>/* your config */</span>
+      <span>]</span><span>,</span><span>:</span> <span>"auto"</span><span>,</span>
+    <span>}</span><span>,</span>
+  <span>}</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br></div></div><h2 id="blogger-information"> Blogger Information</h2>
 <p>If you have configured blog related options, you can configure <code>themeConfig.blog.sidebarDisplay</code> to decide whether to display the blogger’s name, avatar, and the number of articles and tags in the sidebar.</p>
 <p>You can set <code>'mobile'</code> to display only in mobile view, or set <code>always</code> to keep it displayed in the sidebar.</p>
 <h2 id="demo"> Demo</h2>
@@ -5832,48 +5955,80 @@ module<span>.</span>exports <span>=</span> <span>{</span>
         <span>{</span>
           title<span>:</span> <span>"Get Started"</span><span>,</span>
           icon<span>:</span> <span>"creative"</span><span>,</span>
+          prefix<span>:</span> <span>"get-started/"</span><span>,</span>
           collapsable<span>:</span> <span>false</span><span>,</span>
-          children<span>:</span> <span>[</span><span>""</span><span>,</span> <span>"install"</span><span>]</span><span>,</span>
+          children<span>:</span> <span>[</span><span>"intro"</span><span>,</span> <span>"install"</span><span>,</span> <span>"markdown"</span><span>]</span><span>,</span>
         <span>}</span><span>,</span>
         <span>{</span>
-          title<span>:</span> <span>"New Features"</span><span>,</span>
+          title<span>:</span> <span>"Interface"</span><span>,</span>
+          icon<span>:</span> <span>"skin"</span><span>,</span>
+          prefix<span>:</span> <span>"interface/"</span><span>,</span>
+          collapsable<span>:</span> <span>false</span><span>,</span>
+          children<span>:</span> <span>[</span><span>"darkmode"</span><span>,</span> <span>"theme-color"</span><span>,</span> <span>"icon"</span><span>,</span> <span>"others"</span><span>]</span><span>,</span>
+        <span>}</span><span>,</span>
+        <span>{</span>
+          title<span>:</span> <span>"Layout"</span><span>,</span>
+          icon<span>:</span> <span>"layout"</span><span>,</span>
+          prefix<span>:</span> <span>"layout/"</span><span>,</span>
+          collapsable<span>:</span> <span>false</span><span>,</span>
+          children<span>:</span> <span>[</span>
+            <span>"navbar"</span><span>,</span>
+            <span>"sidebar"</span><span>,</span>
+            <span>{</span>
+              title<span>:</span> <span>"Page"</span><span>,</span>
+              icon<span>:</span> <span>"page"</span><span>,</span>
+              collapsable<span>:</span> <span>false</span><span>,</span>
+              children<span>:</span> <span>[</span><span>"page"</span><span>,</span> <span>"breadcrumb"</span><span>,</span> <span>"footer"</span><span>]</span><span>,</span>
+            <span>}</span><span>,</span>
+            <span>"home"</span><span>,</span>
+            <span>"slides"</span><span>,</span>
+          <span>]</span><span>,</span>
+        <span>}</span><span>,</span>
+        <span>{</span>
+          title<span>:</span> <span>"Markdown enhance"</span><span>,</span>
+          icon<span>:</span> <span>"markdown"</span><span>,</span>
+          prefix<span>:</span> <span>"markdown/"</span><span>,</span>
+          collapsable<span>:</span> <span>false</span><span>,</span>
+          children<span>:</span> <span>[</span>
+            <span>"intro"</span><span>,</span>
+            <span>"components"</span><span>,</span>
+            <span>"align"</span><span>,</span>
+            <span>"sup-sub"</span><span>,</span>
+            <span>"footnote"</span><span>,</span>
+            <span>"mark"</span><span>,</span>
+            <span>"tex"</span><span>,</span>
+            <span>"flowchart"</span><span>,</span>
+            <span>"demo"</span><span>,</span>
+            <span>"presentation"</span><span>,</span>
+            <span>"external"</span><span>,</span>
+          <span>]</span><span>,</span>
+        <span>}</span><span>,</span>
+        <span>{</span>
+          title<span>:</span> <span>"Features"</span><span>,</span>
           icon<span>:</span> <span>"discover"</span><span>,</span>
           prefix<span>:</span> <span>"feature/"</span><span>,</span>
           collapsable<span>:</span> <span>false</span><span>,</span>
           children<span>:</span> <span>[</span>
-            <span>""</span><span>,</span>
-            <span>"theme"</span><span>,</span>
             <span>"page-info"</span><span>,</span>
             <span>"comment"</span><span>,</span>
-            <span>"blog"</span><span>,</span>
+            <span>"copy-code"</span><span>,</span>
+            <span>"photo-swipe"</span><span>,</span>
+            <span>"copyright"</span><span>,</span>
+            <span>"last-update"</span><span>,</span>
             <span>"encrypt"</span><span>,</span>
-            <span>{</span>
-              title<span>:</span> <span>"Markdown enhance"</span><span>,</span>
-              icon<span>:</span> <span>"markdown"</span><span>,</span>
-              prefix<span>:</span> <span>"markdown/"</span><span>,</span>
-              collapsable<span>:</span> <span>false</span><span>,</span>
-              children<span>:</span> <span>[</span>
-                <span>""</span><span>,</span>
-                <span>"align"</span><span>,</span>
-                <span>"sup-sub"</span><span>,</span>
-                <span>"footnote"</span><span>,</span>
-                <span>"mark"</span><span>,</span>
-                <span>"tex"</span><span>,</span>
-                <span>"flowchart"</span><span>,</span>
-                <span>"presentation"</span><span>,</span>
-              <span>]</span><span>,</span>
-            <span>}</span><span>,</span>
-            <span>"component"</span><span>,</span>
-            <span>"seo-sitemap"</span><span>,</span>
+            <span>"pwa"</span><span>,</span>
+            <span>"feed"</span><span>,</span>
+            <span>"seo"</span><span>,</span>
+            <span>"sitemap"</span><span>,</span>
             <span>"typescript"</span><span>,</span>
           <span>]</span><span>,</span>
         <span>}</span><span>,</span>
         <span>{</span>
-          title<span>:</span> <span>"Outlook"</span><span>,</span>
+          title<span>:</span> <span>"Blog"</span><span>,</span>
           icon<span>:</span> <span>"layout"</span><span>,</span>
-          prefix<span>:</span> <span>"layout/"</span><span>,</span>
+          prefix<span>:</span> <span>"blog/"</span><span>,</span>
           collapsable<span>:</span> <span>false</span><span>,</span>
-          children<span>:</span> <span>[</span><span>""</span><span>,</span> <span>"navbar"</span><span>,</span> <span>"sidebar"</span><span>,</span> <span>"page"</span><span>,</span> <span>"home"</span><span>,</span> <span>"blog"</span><span>]</span><span>,</span>
+          children<span>:</span> <span>[</span><span>"intro"</span><span>,</span> <span>"home"</span><span>,</span> <span>"category-and-tags"</span><span>]</span><span>,</span>
         <span>}</span><span>,</span>
       <span>]</span><span>,</span>
 
@@ -5889,7 +6044,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
         <span>"stylus"</span><span>,</span>
         <span>{</span>
           title<span>:</span> <span>"Plugins"</span><span>,</span>
-          icon<span>:</span> <span>"extension"</span><span>,</span>
+          icon<span>:</span> <span>"plugin"</span><span>,</span>
           prefix<span>:</span> <span>"plugin/"</span><span>,</span>
           collapsable<span>:</span> <span>false</span><span>,</span>
           children<span>:</span> <span>[</span><span>""</span><span>,</span> <span>"container"</span><span>,</span> <span>"copyright"</span><span>]</span><span>,</span>
@@ -5920,7 +6075,15 @@ module<span>.</span>exports <span>=</span> <span>{</span>
           icon<span>:</span> <span>"vue"</span><span>,</span>
           prefix<span>:</span> <span>"vuepress/"</span><span>,</span>
           collapsable<span>:</span> <span>false</span><span>,</span>
-          children<span>:</span> <span>[</span><span>""</span><span>,</span> <span>"file"</span><span>,</span> <span>"plugin"</span><span>,</span> <span>"theme"</span><span>,</span> <span>"command"</span><span>,</span> <span>"case"</span><span>]</span><span>,</span>
+          children<span>:</span> <span>[</span>
+            <span>""</span><span>,</span>
+            <span>"file"</span><span>,</span>
+            <span>"markdown"</span><span>,</span>
+            <span>"plugin"</span><span>,</span>
+            <span>"theme"</span><span>,</span>
+            <span>"command"</span><span>,</span>
+            <span>"case"</span><span>,</span>
+          <span>]</span><span>,</span>
         <span>}</span><span>,</span>
       <span>]</span><span>,</span>
 
@@ -5929,7 +6092,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
   <span>}</span><span>,</span>
 <span>}</span><span>;</span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br><span>40</span><br><span>41</span><br><span>42</span><br><span>43</span><br><span>44</span><br><span>45</span><br><span>46</span><br><span>47</span><br><span>48</span><br><span>49</span><br><span>50</span><br><span>51</span><br><span>52</span><br><span>53</span><br><span>54</span><br><span>55</span><br><span>56</span><br><span>57</span><br><span>58</span><br><span>59</span><br><span>60</span><br><span>61</span><br><span>62</span><br><span>63</span><br><span>64</span><br><span>65</span><br><span>66</span><br><span>67</span><br><span>68</span><br><span>69</span><br><span>70</span><br><span>71</span><br><span>72</span><br><span>73</span><br><span>74</span><br><span>75</span><br><span>76</span><br><span>77</span><br><span>78</span><br><span>79</span><br><span>80</span><br><span>81</span><br><span>82</span><br><span>83</span><br><span>84</span><br><span>85</span><br><span>86</span><br><span>87</span><br><span>88</span><br><span>89</span><br><span>90</span><br><span>91</span><br><span>92</span><br><span>93</span><br><span>94</span><br><span>95</span><br><span>96</span><br><span>97</span><br><span>98</span><br><span>99</span><br><span>100</span><br><span>101</span><br><span>102</span><br><span>103</span><br><span>104</span><br></div></div></details>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br><span>40</span><br><span>41</span><br><span>42</span><br><span>43</span><br><span>44</span><br><span>45</span><br><span>46</span><br><span>47</span><br><span>48</span><br><span>49</span><br><span>50</span><br><span>51</span><br><span>52</span><br><span>53</span><br><span>54</span><br><span>55</span><br><span>56</span><br><span>57</span><br><span>58</span><br><span>59</span><br><span>60</span><br><span>61</span><br><span>62</span><br><span>63</span><br><span>64</span><br><span>65</span><br><span>66</span><br><span>67</span><br><span>68</span><br><span>69</span><br><span>70</span><br><span>71</span><br><span>72</span><br><span>73</span><br><span>74</span><br><span>75</span><br><span>76</span><br><span>77</span><br><span>78</span><br><span>79</span><br><span>80</span><br><span>81</span><br><span>82</span><br><span>83</span><br><span>84</span><br><span>85</span><br><span>86</span><br><span>87</span><br><span>88</span><br><span>89</span><br><span>90</span><br><span>91</span><br><span>92</span><br><span>93</span><br><span>94</span><br><span>95</span><br><span>96</span><br><span>97</span><br><span>98</span><br><span>99</span><br><span>100</span><br><span>101</span><br><span>102</span><br><span>103</span><br><span>104</span><br><span>105</span><br><span>106</span><br><span>107</span><br><span>108</span><br><span>109</span><br><span>110</span><br><span>111</span><br><span>112</span><br><span>113</span><br><span>114</span><br><span>115</span><br><span>116</span><br><span>117</span><br><span>118</span><br><span>119</span><br><span>120</span><br><span>121</span><br><span>122</span><br><span>123</span><br><span>124</span><br><span>125</span><br><span>126</span><br><span>127</span><br><span>128</span><br><span>129</span><br><span>130</span><br><span>131</span><br><span>132</span><br><span>133</span><br><span>134</span><br><span>135</span><br><span>136</span><br><span>137</span><br><span>138</span><br><span>139</span><br><span>140</span><br><span>141</span><br><span>142</span><br><span>143</span><br><span>144</span><br></div></div></details>
 ]]></content:encoded>
     </item>
     <item>
@@ -12973,9 +13136,9 @@ copyrightText: false</span>
 module<span>.</span>exports <span>=</span> <span>{</span>
   themeConfig<span>:</span> <span>{</span>
     nav<span>:</span> <span>[</span>
-      <span>{</span> text<span>:</span> <span>"主页"</span><span>,</span> link<span>:</span> <span>"/"</span><span>,</span> icon<span>:</span> <span>"home"</span> <span>}</span><span>,</span>
-      <span>{</span> text<span>:</span> <span>"VuePress介绍"</span><span>,</span> link<span>:</span> <span>"/vuepress/"</span><span>,</span> icon<span>:</span> <span>"info"</span> <span>}</span><span>,</span>
-      <span>{</span> text<span>:</span> <span>"Markdown介绍"</span><span>,</span> link<span>:</span> <span>"/markdown/"</span><span>,</span> icon<span>:</span> <span>"markdown"</span> <span>}</span><span>,</span>
+      <span>{</span> text<span>:</span> <span>"指南"</span><span>,</span> link<span>:</span> <span>"/zh/guide/"</span><span>,</span> icon<span>:</span> <span>"creative"</span> <span>}</span><span>,</span>
+      <span>{</span> text<span>:</span> <span>"配置"</span><span>,</span> link<span>:</span> <span>"/zh/config/"</span><span>,</span> icon<span>:</span> <span>"config"</span> <span>}</span><span>,</span>
+      <span>{</span> text<span>:</span> <span>"常见问题"</span><span>,</span> link<span>:</span> <span>"/zh/FAQ/"</span><span>,</span> icon<span>:</span> <span>"question"</span> <span>}</span><span>,</span>
     <span>]</span><span>,</span>
   <span>}</span><span>,</span>
 <span>}</span><span>;</span>
@@ -12985,43 +13148,18 @@ module<span>.</span>exports <span>=</span> <span>{</span>
   themeConfig<span>:</span> <span>{</span>
     nav<span>:</span> <span>[</span>
       <span>{</span>
-        text<span>:</span> <span>"Languages"</span><span>,</span>
-        ariaLabel<span>:</span> <span>"Language Menu"</span><span>,</span>
+        text<span>:</span> <span>"基础"</span><span>,</span>
+        icon<span>:</span> <span>"info"</span><span>,</span>
         items<span>:</span> <span>[</span>
-          <span>{</span> text<span>:</span> <span>"Chinese"</span><span>,</span> link<span>:</span> <span>"/language/chinese/"</span> <span>}</span><span>,</span>
-          <span>{</span> text<span>:</span> <span>"Japanese"</span><span>,</span> link<span>:</span> <span>"/language/japanese/"</span> <span>}</span><span>,</span>
+          <span>{</span> text<span>:</span> <span>"Markdown"</span><span>,</span> link<span>:</span> <span>"/zh/basic/markdown/"</span><span>,</span> icon<span>:</span> <span>"markdown"</span> <span>}</span><span>,</span>
+          <span>{</span> text<span>:</span> <span>"VuePress"</span><span>,</span> link<span>:</span> <span>"/zh/basic/vuepress/"</span><span>,</span> icon<span>:</span> <span>"vue"</span> <span>}</span><span>,</span>
         <span>]</span><span>,</span>
       <span>}</span><span>,</span>
     <span>]</span><span>,</span>
   <span>}</span><span>,</span>
 <span>}</span><span>;</span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br></div></div><p>此外，你还可以通过嵌套的 <code>items</code> 来在下拉列表中设置分组:</p>
-<div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
-  themeConfig<span>:</span> <span>{</span>
-    nav<span>:</span> <span>[</span>
-      <span>{</span>
-        text<span>:</span> <span>"Languages"</span><span>,</span>
-        items<span>:</span> <span>[</span>
-          <span>{</span>
-            text<span>:</span> <span>"Group1"</span><span>,</span>
-            items<span>:</span> <span>[</span>
-              <span>/*  */</span>
-            <span>]</span><span>,</span>
-          <span>}</span><span>,</span>
-          <span>{</span>
-            text<span>:</span> <span>"Group2"</span><span>,</span>
-            items<span>:</span> <span>[</span>
-              <span>/*  */</span>
-            <span>]</span><span>,</span>
-          <span>}</span><span>,</span>
-        <span>]</span><span>,</span>
-      <span>}</span><span>,</span>
-    <span>]</span><span>,</span>
-  <span>}</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br></div></div><p>在导航栏分组中，你可以添加 <code>prefix</code> 字段为每一个子菜单链接添加一个前缀:</p>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br></div></div><p>由于大多数情况下，导航栏的分组项目都属于同一类别，会放在同一个子目录下，它们具有相同的路径前缀。为了简化配置，你可以添加 <code>prefix</code> 字段为分组的每一个子链接添加一个前缀:</p>
 <div><pre><code><span>// .vuepress/config.js</span>
 module<span>.</span>exports <span>=</span> <span>{</span>
   themeConfig<span>:</span> <span>{</span>
@@ -13039,7 +13177,114 @@ module<span>.</span>exports <span>=</span> <span>{</span>
   <span>}</span><span>,</span>
 <span>}</span><span>;</span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br></div></div><h3 id="禁用导航栏"> 禁用导航栏</h3>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br></div></div><p>此外，你还可以通过嵌套的 <code>items</code> 来在下拉列表中设置分组:</p>
+<div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
+  themeConfig<span>:</span> <span>{</span>
+    nav<span>:</span> <span>[</span>
+      <span>{</span>
+        text<span>:</span> <span>"项目"</span><span>,</span>
+        icon<span>:</span> <span>"info"</span><span>,</span>
+        items<span>:</span> <span>[</span>
+          <span>{</span>
+            text<span>:</span> <span>"内置插件"</span><span>,</span>
+            icon<span>:</span> <span>"plugin"</span><span>,</span>
+            items<span>:</span> <span>[</span>
+              <span>/* 一些子项目 */</span>
+            <span>]</span><span>,</span>
+          <span>}</span><span>,</span>
+          <span>{</span>
+            text<span>:</span> <span>"引入插件"</span><span>,</span>
+            icon<span>:</span> <span>"plugin"</span><span>,</span>
+            items<span>:</span> <span>[</span>
+              <span>/* 一些子项目 */</span>
+            <span>]</span><span>,</span>
+          <span>}</span><span>,</span>
+        <span>]</span><span>,</span>
+      <span>}</span><span>,</span>
+    <span>]</span><span>,</span>
+  <span>}</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br></div></div><details><summary>例子</summary>
+<div><pre><code><span>// .vuepress/config.js</span>
+module<span>.</span>exports <span>=</span> <span>{</span>
+  themeConfig<span>:</span> <span>{</span>
+    nav<span>:</span> <span>[</span>
+      <span>{</span>
+        text<span>:</span> <span>"项目"</span><span>,</span>
+        icon<span>:</span> <span>"info"</span><span>,</span>
+        items<span>:</span> <span>[</span>
+          <span>{</span>
+            text<span>:</span> <span>"更新日志"</span><span>,</span>
+            link<span>:</span>
+              <span>"https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/CHANGELOG.md"</span><span>,</span>
+          <span>}</span><span>,</span>
+          <span>{</span>
+            text<span>:</span> <span>"项目地址"</span><span>,</span>
+            link<span>:</span> <span>"https://github.com/vuepress-theme-hope/vuepress-theme-hope"</span><span>,</span>
+          <span>}</span><span>,</span>
+          <span>{</span>
+            text<span>:</span> <span>"项目案例"</span><span>,</span>
+            link<span>:</span> <span>"/zh/demo/"</span><span>,</span>
+          <span>}</span><span>,</span>
+          <span>{</span>
+            text<span>:</span> <span>"插件"</span><span>,</span>
+            icon<span>:</span> <span>"plugin"</span><span>,</span>
+            items<span>:</span> <span>[</span>
+              <span>{</span>
+                text<span>:</span> <span>"AddThis 插件"</span><span>,</span>
+                link<span>:</span> <span>"https://vuepress-theme-hope.github.io/add-this/zh/"</span><span>,</span>
+              <span>}</span><span>,</span>
+              <span>{</span>
+                text<span>:</span> <span>"评论插件"</span><span>,</span>
+                link<span>:</span> <span>"https://vuepress-theme-hope.github.io/comment/zh/"</span><span>,</span>
+              <span>}</span><span>,</span>
+              <span>{</span>
+                text<span>:</span> <span>"代码复制插件"</span><span>,</span>
+                link<span>:</span> <span>"https://vuepress-theme-hope.github.io/copy-code/zh/"</span><span>,</span>
+              <span>}</span><span>,</span>
+              <span>{</span>
+                text<span>:</span> <span>"Feed 插件"</span><span>,</span>
+                link<span>:</span> <span>"https://vuepress-theme-hope.github.io/feed/zh/"</span><span>,</span>
+              <span>}</span><span>,</span>
+              <span>{</span>
+                text<span>:</span> <span>"最后更新时间插件"</span><span>,</span>
+                link<span>:</span> <span>"https://vuepress-theme-hope.github.io/last-update/zh/"</span><span>,</span>
+              <span>}</span><span>,</span>
+              <span>{</span>
+                text<span>:</span> <span>"Markdown 增强插件"</span><span>,</span>
+                link<span>:</span> <span>"https://vuepress-theme-hope.github.io/md-enhance/zh/"</span><span>,</span>
+              <span>}</span><span>,</span>
+              <span>{</span>
+                text<span>:</span> <span>"图片预览插件"</span><span>,</span>
+                link<span>:</span> <span>"https://vuepress-theme-hope.github.io/photo-swipe/zh/"</span><span>,</span>
+              <span>}</span><span>,</span>
+              <span>{</span>
+                text<span>:</span> <span>"PWA 插件"</span><span>,</span>
+                link<span>:</span> <span>"https://vuepress-theme-hope.github.io/pwa/zh/"</span><span>,</span>
+              <span>}</span><span>,</span>
+              <span>{</span>
+                text<span>:</span> <span>"阅读时间插件"</span><span>,</span>
+                link<span>:</span> <span>"https://vuepress-theme-hope.github.io/reading-time/zh/"</span><span>,</span>
+              <span>}</span><span>,</span>
+              <span>{</span>
+                text<span>:</span> <span>"Seo 插件"</span><span>,</span>
+                link<span>:</span> <span>"https://vuepress-theme-hope.github.io/seo/zh/"</span><span>,</span>
+              <span>}</span><span>,</span>
+              <span>{</span>
+                text<span>:</span> <span>"Sitemap 插件"</span><span>,</span>
+                link<span>:</span> <span>"https://vuepress-theme-hope.github.io/sitemap/zh/"</span><span>,</span>
+              <span>}</span><span>,</span>
+            <span>]</span><span>,</span>
+          <span>}</span><span>,</span>
+        <span>]</span><span>,</span>
+      <span>}</span><span>,</span>
+    <span>]</span><span>,</span>
+  <span>}</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br><span>40</span><br><span>41</span><br><span>42</span><br><span>43</span><br><span>44</span><br><span>45</span><br><span>46</span><br><span>47</span><br><span>48</span><br><span>49</span><br><span>50</span><br><span>51</span><br><span>52</span><br><span>53</span><br><span>54</span><br><span>55</span><br><span>56</span><br><span>57</span><br><span>58</span><br><span>59</span><br><span>60</span><br><span>61</span><br><span>62</span><br><span>63</span><br><span>64</span><br><span>65</span><br><span>66</span><br><span>67</span><br><span>68</span><br><span>69</span><br><span>70</span><br><span>71</span><br><span>72</span><br><span>73</span><br><span>74</span><br><span>75</span><br><span>76</span><br></div></div></details>
+<h3 id="禁用导航栏"> 禁用导航栏</h3>
 <p>你可以使用 <code>themeConfig.navbar</code> 来禁用所有页面的导航栏:</p>
 <div><pre><code><span>// .vuepress/config.js</span>
 module<span>.</span>exports <span>=</span> <span>{</span>
@@ -13151,14 +13396,12 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 module<span>.</span>exports <span>=</span> <span>{</span>
   themeConfig<span>:</span> <span>{</span>
     nav<span>:</span> <span>[</span>
-      <span>// 可在每一项中添加 icon 字段来显示图标</span>
       <span>{</span> text<span>:</span> <span>"指南"</span><span>,</span> link<span>:</span> <span>"/zh/guide/"</span><span>,</span> icon<span>:</span> <span>"creative"</span> <span>}</span><span>,</span>
       <span>{</span> text<span>:</span> <span>"配置"</span><span>,</span> link<span>:</span> <span>"/zh/config/"</span><span>,</span> icon<span>:</span> <span>"config"</span> <span>}</span><span>,</span>
       <span>{</span> text<span>:</span> <span>"常见问题"</span><span>,</span> link<span>:</span> <span>"/zh/FAQ/"</span><span>,</span> icon<span>:</span> <span>"question"</span> <span>}</span><span>,</span>
       <span>{</span>
         text<span>:</span> <span>"基础"</span><span>,</span>
         icon<span>:</span> <span>"info"</span><span>,</span>
-        <span>// prefix 字段会为所有的 items 添加这段 prefix</span>
         prefix<span>:</span> <span>"/zh/basic/"</span><span>,</span>
         items<span>:</span> <span>[</span>
           <span>{</span> text<span>:</span> <span>"Markdown"</span><span>,</span> link<span>:</span> <span>"markdown/"</span><span>,</span> icon<span>:</span> <span>"markdown"</span> <span>}</span><span>,</span>
@@ -13238,7 +13481,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
   <span>}</span><span>,</span>
 <span>}</span><span>;</span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br><span>40</span><br><span>41</span><br><span>42</span><br><span>43</span><br><span>44</span><br><span>45</span><br><span>46</span><br><span>47</span><br><span>48</span><br><span>49</span><br><span>50</span><br><span>51</span><br><span>52</span><br><span>53</span><br><span>54</span><br><span>55</span><br><span>56</span><br><span>57</span><br><span>58</span><br><span>59</span><br><span>60</span><br><span>61</span><br><span>62</span><br><span>63</span><br><span>64</span><br><span>65</span><br><span>66</span><br><span>67</span><br><span>68</span><br><span>69</span><br><span>70</span><br><span>71</span><br><span>72</span><br><span>73</span><br><span>74</span><br><span>75</span><br><span>76</span><br><span>77</span><br><span>78</span><br><span>79</span><br><span>80</span><br><span>81</span><br><span>82</span><br><span>83</span><br><span>84</span><br><span>85</span><br><span>86</span><br><span>87</span><br><span>88</span><br><span>89</span><br><span>90</span><br></div></div>]]></content:encoded>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br><span>40</span><br><span>41</span><br><span>42</span><br><span>43</span><br><span>44</span><br><span>45</span><br><span>46</span><br><span>47</span><br><span>48</span><br><span>49</span><br><span>50</span><br><span>51</span><br><span>52</span><br><span>53</span><br><span>54</span><br><span>55</span><br><span>56</span><br><span>57</span><br><span>58</span><br><span>59</span><br><span>60</span><br><span>61</span><br><span>62</span><br><span>63</span><br><span>64</span><br><span>65</span><br><span>66</span><br><span>67</span><br><span>68</span><br><span>69</span><br><span>70</span><br><span>71</span><br><span>72</span><br><span>73</span><br><span>74</span><br><span>75</span><br><span>76</span><br><span>77</span><br><span>78</span><br><span>79</span><br><span>80</span><br><span>81</span><br><span>82</span><br><span>83</span><br><span>84</span><br><span>85</span><br><span>86</span><br><span>87</span><br><span>88</span><br></div></div>]]></content:encoded>
     </item>
     <item>
       <title>页面</title>
@@ -13333,13 +13576,27 @@ next: false</span>
 &amp;lt;div&amp;gt;&amp;lt;pre&amp;gt;&amp;lt;code&amp;gt;&amp;lt;span&amp;gt;// .vuepress/config.js&amp;lt;/span&amp;gt;
 module&amp;lt;span&amp;gt;.&amp;lt;/span&amp;gt;exports &amp;lt;span&amp;gt;=&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;{&amp;lt;/span&amp;gt;
   themeConfig&amp;lt;span&amp;gt;:&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;{&amp;lt;/span&amp;gt;
-    sidebar&amp;lt;span&amp;gt;:&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;[&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;&amp;quot;/&amp;quot;&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;&amp;quot;/page-a&amp;quot;&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;[&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;&amp;quot;/page-b&amp;quot;&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;&amp;quot;Explicit link text&amp;quot;&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;]&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;]&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;/span&amp;gt;
+    sidebar&amp;lt;span&amp;gt;:&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;[&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;&amp;quot;/&amp;quot;&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;&amp;quot;/page-a&amp;quot;&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;&amp;quot;/page-b&amp;quot;&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;]&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;/span&amp;gt;
   &amp;lt;span&amp;gt;}&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;/span&amp;gt;
 &amp;lt;span&amp;gt;}&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;;&amp;lt;/span&amp;gt;
 &amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;
-&amp;lt;div&amp;gt;&amp;lt;span&amp;gt;1&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;2&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;3&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;4&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;5&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;6&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;p&amp;gt;你可以省略 &amp;lt;code&amp;gt;.md&amp;lt;/code&amp;gt; 拓展名，同时以 &amp;lt;code&amp;gt;/&amp;lt;/code&amp;gt; 结尾的路径将会被视为 &amp;lt;code&amp;gt;*/README.md&amp;lt;/code&amp;gt;。&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;侧边栏链接的文字将会被自动获取到 (无论你是声明为页面的第一个 header，还是明确地在 frontmatter 中指定页面的标题)。如果你想要显示地指定链接的文字，使用一个格式为 &amp;lt;code&amp;gt;[link, text]&amp;lt;/code&amp;gt; 的数组。&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;侧边栏默认启用图标支持，将在侧边栏的链接前显示页面的图标。可以在 &amp;lt;code&amp;gt;themeConfig&amp;lt;/code&amp;gt; 中将 &amp;lt;code&amp;gt;sidebarIcon&amp;lt;/code&amp;gt; 设置为 &amp;lt;code&amp;gt;false&amp;lt;/code&amp;gt; 来禁用它。&amp;lt;/p&amp;gt;
+&amp;lt;div&amp;gt;&amp;lt;span&amp;gt;1&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;2&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;3&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;4&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;5&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;6&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;p&amp;gt;数组的每一项最终都会渲染为一个侧边栏项目。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;你可以省略 &amp;lt;code&amp;gt;.md&amp;lt;/code&amp;gt; 拓展名，同时以 &amp;lt;code&amp;gt;/&amp;lt;/code&amp;gt; 结尾的路径将会被视为 &amp;lt;code&amp;gt;*/README.md&amp;lt;/code&amp;gt;。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;侧边栏默认启用图标支持，将在侧边栏的链接前显示页面的图标 (读取在 frontmatter 中设置的 &amp;lt;code&amp;gt;icon&amp;lt;/code&amp;gt;)。你可以在 &amp;lt;code&amp;gt;themeConfig&amp;lt;/code&amp;gt; 中将 &amp;lt;code&amp;gt;sidebarIcon&amp;lt;/code&amp;gt; 设置为 &amp;lt;code&amp;gt;false&amp;lt;/code&amp;gt; 来禁用它。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;侧边栏链接的文字将会从页面自动获取 (优先读取在 frontmatter 中设置的标题，然后回退到页面的第一个标题)。如果你想要指定链接的文字，使用一个格式为 &amp;lt;code&amp;gt;[link, text]&amp;lt;/code&amp;gt; 的数组。&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;::: detail 例子&amp;lt;/p&amp;gt;
+&amp;lt;div&amp;gt;&amp;lt;pre&amp;gt;&amp;lt;code&amp;gt;&amp;lt;span&amp;gt;// .vuepress/config.js&amp;lt;/span&amp;gt;
+module&amp;lt;span&amp;gt;.&amp;lt;/span&amp;gt;exports &amp;lt;span&amp;gt;=&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;{&amp;lt;/span&amp;gt;
+  themeConfig&amp;lt;span&amp;gt;:&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;{&amp;lt;/span&amp;gt;
+    sidebar&amp;lt;span&amp;gt;:&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;[&amp;lt;/span&amp;gt;
+      &amp;lt;span&amp;gt;&amp;quot;/&amp;quot;&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;/span&amp;gt;
+      &amp;lt;span&amp;gt;&amp;quot;/page-a&amp;quot;&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;/span&amp;gt;
+      &amp;lt;span&amp;gt;[&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;&amp;quot;/page-b&amp;quot;&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;/span&amp;gt; &amp;lt;span&amp;gt;&amp;quot;This text will be the title of `page-b`&amp;quot;&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;]&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;/span&amp;gt;
+    &amp;lt;span&amp;gt;]&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;/span&amp;gt;
+  &amp;lt;span&amp;gt;}&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;,&amp;lt;/span&amp;gt;
+&amp;lt;span&amp;gt;}&amp;lt;/span&amp;gt;&amp;lt;span&amp;gt;;&amp;lt;/span&amp;gt;
+&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;
+&amp;lt;div&amp;gt;&amp;lt;span&amp;gt;1&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;2&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;3&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;4&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;5&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;6&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;7&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;8&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;9&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;span&amp;gt;10&amp;lt;/span&amp;gt;&amp;lt;br&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;p&amp;gt;:::&amp;lt;/p&amp;gt;
 </description>
       <category>layout</category>
       <content:encoded><![CDATA[<p>你需要配置 <code>themeConfig.sidebar</code>，才能在站点中显示侧边栏(Sidebar)。</p>
@@ -13347,13 +13604,27 @@ module&amp;lt;span&amp;gt;.&amp;lt;/span&amp;gt;exports &amp;lt;span&amp;gt;=&am
 <div><pre><code><span>// .vuepress/config.js</span>
 module<span>.</span>exports <span>=</span> <span>{</span>
   themeConfig<span>:</span> <span>{</span>
-    sidebar<span>:</span> <span>[</span><span>"/"</span><span>,</span> <span>"/page-a"</span><span>,</span> <span>[</span><span>"/page-b"</span><span>,</span> <span>"Explicit link text"</span><span>]</span><span>]</span><span>,</span>
+    sidebar<span>:</span> <span>[</span><span>"/"</span><span>,</span> <span>"/page-a"</span><span>,</span> <span>"/page-b"</span><span>]</span><span>,</span>
   <span>}</span><span>,</span>
 <span>}</span><span>;</span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>你可以省略 <code>.md</code> 拓展名，同时以 <code>/</code> 结尾的路径将会被视为 <code>*/README.md</code>。</p>
-<p>侧边栏链接的文字将会被自动获取到 (无论你是声明为页面的第一个 header，还是明确地在 frontmatter 中指定页面的标题)。如果你想要显示地指定链接的文字，使用一个格式为 <code>[link, text]</code> 的数组。</p>
-<p>侧边栏默认启用图标支持，将在侧边栏的链接前显示页面的图标。可以在 <code>themeConfig</code> 中将 <code>sidebarIcon</code> 设置为 <code>false</code> 来禁用它。</p>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>数组的每一项最终都会渲染为一个侧边栏项目。</p>
+<p>你可以省略 <code>.md</code> 拓展名，同时以 <code>/</code> 结尾的路径将会被视为 <code>*/README.md</code>。</p>
+<p>侧边栏默认启用图标支持，将在侧边栏的链接前显示页面的图标 (读取在 frontmatter 中设置的 <code>icon</code>)。你可以在 <code>themeConfig</code> 中将 <code>sidebarIcon</code> 设置为 <code>false</code> 来禁用它。</p>
+<p>侧边栏链接的文字将会从页面自动获取 (优先读取在 frontmatter 中设置的标题，然后回退到页面的第一个标题)。如果你想要指定链接的文字，使用一个格式为 <code>[link, text]</code> 的数组。</p>
+<p>::: detail 例子</p>
+<div><pre><code><span>// .vuepress/config.js</span>
+module<span>.</span>exports <span>=</span> <span>{</span>
+  themeConfig<span>:</span> <span>{</span>
+    sidebar<span>:</span> <span>[</span>
+      <span>"/"</span><span>,</span>
+      <span>"/page-a"</span><span>,</span>
+      <span>[</span><span>"/page-b"</span><span>,</span> <span>"This text will be the title of `page-b`"</span><span>]</span><span>,</span>
+    <span>]</span><span>,</span>
+  <span>}</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br></div></div><p>:::</p>
 
 <h2 id="嵌套的标题链接"> 嵌套的标题链接</h2>
 <p>默认情况下，侧边栏会自动地显示由当前页面的标题(headers)组成的链接，并按照页面本身的结构进行嵌套，你可以通过 <code>themeConfig.sidebarDepth</code> 来修改它的行为。默认的深度(也是最大的深度)是 <code>2</code>，它将提取到 <code>h2</code> 和 <code>h3</code> 的标题，设置成 <code>0</code> 将会禁用标题(headers)链接。</p>
@@ -13379,16 +13650,26 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <span>}</span><span>;</span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><h2 id="侧边栏分组"> 侧边栏分组</h2>
-<p>你可以通过使用<strong>对象</strong>来将侧边栏划分成多个组，你可以使用 <code>prefix</code> 来为组内的每个链接添加默认的路径前缀，使用 <code>icon</code> 为该分组文字添加一个图标。</p>
+<p>你可以通过使用<strong>对象</strong>来将侧边栏划分成多个组。每一个组默认会被渲染成一个可以打开与折叠的菜单，菜单项目是组内通过 <code>children</code> 设置的每个分组链接。</p>
+<p>你可以使用 <code>prefix</code> 来为组内的每个链接添加默认的路径前缀，使用 <code>icon</code> 为该分组文字添加一个图标。</p>
+<p>侧边栏的每个子组默认是可折叠的，你可以设置 <code>collapsable: false</code> 来让一个组永远都是展开状态。</p>
+<p>一个侧边栏的子组配置同时支持  字段用于重写默认显示的侧边栏深度(<code>2</code>)。</p>
 <div><pre><code><span>// .vuepress/config.js</span>
 module<span>.</span>exports <span>=</span> <span>{</span>
   themeConfig<span>:</span> <span>{</span>
     sidebar<span>:</span> <span>[</span>
       <span>{</span>
-        title<span>:</span> <span>"Group 1"</span><span>,</span> <span>// 必要的</span>
-        path<span>:</span> <span>"/foo/"</span><span>,</span> <span>// 可选的, 应该是一个绝对路径</span>
-        collapsable<span>:</span> <span>false</span><span>,</span> <span>// 可选的, 默认值是 true,</span>
-        sidebarDepth<span>:</span> <span>2</span><span>,</span> <span>// 可选的, 默认值是 2</span>
+        <span>// 必要的，分组的标题文字</span>
+        title<span>:</span> <span>"Group 1"</span><span>,</span>
+        <span>// 可选的, 分组标题对应的图标</span>
+        icon<span>:</span> <span>"bar"</span><span>,</span>
+        <span>// 可选的, 分组标题对应的链接</span>
+        path<span>:</span> <span>"/foo/"</span><span>,</span>
+        <span>// 可选的, 设置分组是否可以折叠，默认值是 true,</span>
+        collapsable<span>:</span> <span>false</span><span>,</span>
+        <span>// 可选的, 嵌套渲染深度，默认值是 2</span>
+        sidebarDepth<span>:</span> <span>2</span><span>,</span>
+        <span>// 必要的，分组的子项目</span>
         children<span>:</span> <span>[</span><span>"/"</span><span>]</span><span>,</span>
       <span>}</span><span>,</span>
       <span>{</span>
@@ -13401,24 +13682,23 @@ module<span>.</span>exports <span>=</span> <span>{</span>
   <span>}</span><span>,</span>
 <span>}</span><span>;</span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br></div></div><p>侧边栏的每个子组默认是可折叠的，你可以设置 <code>collapsable: false</code> 来让一个组永远都是展开状态。</p>
-<p>一个侧边栏的子组配置同时支持  字段用于重写默认显示的侧边栏深度(<code>2</code>)。</p>
-<h2 id="多个侧边栏"> 多个侧边栏</h2>
-<p>如果你想为不同的页面组来显示不同的侧边栏，首先，将你的页面文件组织成下述的目录结构:</p>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br></div></div><h2 id="多个侧边栏"> 多个侧边栏</h2>
+<p>如果你想为不同的页面组来显示不同的侧边栏，你需要通过 <code>路径前缀: 侧边栏配置</code> 的格式为侧边栏配置一个对象。</p>
+<p>比如，将你的页面文件为下述的目录结构:</p>
 <div><pre><code>.
 ├─ README.md
 ├─ contact.md
 ├─ about.md
 ├─ foo/
-│ ├─ README.md
-│ ├─ one.md
-│ └─ two.md
+│   ├─ README.md
+│   ├─ one.md
+│   └─ two.md
 └─ bar/
-├─ README.md
-├─ three.md
-└─ four.md
+    ├─ README.md
+    ├─ three.md
+    └─ four.md
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br></div></div><p>接着，遵循以下的侧边栏配置:</p>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br></div></div><p>你就可以遵循以下的侧边栏配置，来为不同路径显示不同的分组:</p>
 <div><pre><code><span>// .vuepress/config.js</span>
 module<span>.</span>exports <span>=</span> <span>{</span>
   themeConfig<span>:</span> <span>{</span>
@@ -13446,7 +13726,8 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <span>}</span><span>;</span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br></div></div><div><p>Note</p>
-<p>确保 fallback 侧边栏被最后定义。VuePress 会按顺序遍历侧边栏配置来寻找匹配的配置。</p>
+<p>你需要特别注意对象键声明的顺序，通常来说你应该把更精确的路径放置在前边。这是因为 VuePress 会按顺序遍历侧边栏配置的各项键名来寻找匹配的配置，一旦一个键名成功匹配为当前路经，它就会显示对应的侧边栏配置。</p>
+<p>在本例中，fallback 侧边栏就是因为这个原因必须在最后定义。</p>
 </div>
 <h2 id="自动生成侧栏"> 自动生成侧栏</h2>
 <p>如果你希望自动生成一个仅仅包含了当前页面标题(headers)链接的侧边栏，你可以通过 frontmatter 来实现:</p>
@@ -13462,23 +13743,26 @@ module<span>.</span>exports <span>=</span> <span>{</span>
   <span>}</span><span>,</span>
 <span>}</span><span>;</span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>在 <a href="https://v1.vuepress.vuejs.org/zh/guide/i18n.html" target="_blank" rel="noopener noreferrer">多语言</a> 模式下, 你也可以将其应用到某一特定的语言下:</p>
-<div><pre><code><span>// .vuepress/config.js</span>
-module<span>.</span>exports <span>=</span> <span>{</span>
-  themeConfig<span>:</span> <span>{</span>
-    <span>"/zh/"</span><span>:</span> <span>{</span>
-      sidebar<span>:</span> <span>"auto"</span><span>,</span>
-    <span>}</span><span>,</span>
-  <span>}</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br></div></div><h2 id="禁用侧边栏"> 禁用侧边栏</h2>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><h2 id="禁用侧边栏"> 禁用侧边栏</h2>
 <p>你可以通过 <code>YAML front matter</code> 来禁用指定页面的侧边栏:</p>
 <div><pre><code><span><span>---</span>
 <span>sidebar: false</span>
 <span>---</span></span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><h2 id="博主信息"> 博主信息</h2>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><h2 id="多语言"> 多语言</h2>
+<p>在 <a href="https://v1.vuepress.vuejs.org/zh/guide/i18n.html" target="_blank" rel="noopener noreferrer">多语言</a> 模式下, 你也可以为某一特定的语言配置侧边栏:</p>
+<div><pre><code><span>// .vuepress/config.js</span>
+module<span>.</span>exports <span>=</span> <span>{</span>
+  themeConfig<span>:</span> <span>{</span>
+    <span>"/zh/"</span><span>:</span> <span>{</span>
+      sidebar<span>:</span> <span>[</span>
+        <span>/* your config */</span>
+      <span>]</span><span>,</span>
+    <span>}</span><span>,</span>
+  <span>}</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br></div></div><h2 id="博主信息"> 博主信息</h2>
 <p>如果你配置了博客相关选项，你可以通过配置 <code>themeConfig.blog.sidebarDisplay</code> 来决定是否在侧边栏显示博主的名字、头像以及文章与标签的数量。</p>
 <p>你可以设置 <code>'mobile'</code> 来只在移动视图显示，或者设置 <code>always</code>，来保持在侧边栏显示。</p>
 <h2 id="案例"> 案例</h2>
@@ -13496,11 +13780,29 @@ module<span>.</span>exports <span>=</span> <span>{</span>
           children<span>:</span> <span>[</span><span>"intro"</span><span>,</span> <span>"install"</span><span>,</span> <span>"markdown"</span><span>]</span><span>,</span>
         <span>}</span><span>,</span>
         <span>{</span>
+          title<span>:</span> <span>"界面"</span><span>,</span>
+          icon<span>:</span> <span>"skin"</span><span>,</span>
+          prefix<span>:</span> <span>"interface/"</span><span>,</span>
+          collapsable<span>:</span> <span>false</span><span>,</span>
+          children<span>:</span> <span>[</span><span>"darkmode"</span><span>,</span> <span>"theme-color"</span><span>,</span> <span>"icon"</span><span>,</span> <span>"others"</span><span>]</span><span>,</span>
+        <span>}</span><span>,</span>
+        <span>{</span>
           title<span>:</span> <span>"布局"</span><span>,</span>
           icon<span>:</span> <span>"layout"</span><span>,</span>
           prefix<span>:</span> <span>"layout/"</span><span>,</span>
           collapsable<span>:</span> <span>false</span><span>,</span>
-          children<span>:</span> <span>[</span><span>""</span><span>,</span> <span>"navbar"</span><span>,</span> <span>"sidebar"</span><span>,</span> <span>"page"</span><span>,</span> <span>"home"</span><span>,</span> <span>"blog"</span><span>,</span> <span>"slides"</span><span>]</span><span>,</span>
+          children<span>:</span> <span>[</span>
+            <span>"navbar"</span><span>,</span>
+            <span>"sidebar"</span><span>,</span>
+            <span>{</span>
+              title<span>:</span> <span>"页面"</span><span>,</span>
+              icon<span>:</span> <span>"page"</span><span>,</span>
+              collapsable<span>:</span> <span>false</span><span>,</span>
+              children<span>:</span> <span>[</span><span>"page"</span><span>,</span> <span>"breadcrumb"</span><span>,</span> <span>"footer"</span><span>]</span><span>,</span>
+            <span>}</span><span>,</span>
+            <span>"home"</span><span>,</span>
+            <span>"slides"</span><span>,</span>
+          <span>]</span><span>,</span>
         <span>}</span><span>,</span>
         <span>{</span>
           title<span>:</span> <span>"Markdown 增强"</span><span>,</span>
@@ -13508,7 +13810,6 @@ module<span>.</span>exports <span>=</span> <span>{</span>
           prefix<span>:</span> <span>"markdown/"</span><span>,</span>
           collapsable<span>:</span> <span>false</span><span>,</span>
           children<span>:</span> <span>[</span>
-            <span>""</span><span>,</span>
             <span>"intro"</span><span>,</span>
             <span>"components"</span><span>,</span>
             <span>"align"</span><span>,</span>
@@ -13523,28 +13824,31 @@ module<span>.</span>exports <span>=</span> <span>{</span>
           <span>]</span><span>,</span>
         <span>}</span><span>,</span>
         <span>{</span>
-          title<span>:</span> <span>"界面"</span><span>,</span>
-          icon<span>:</span> <span>"skin"</span><span>,</span>
-          prefix<span>:</span> <span>"interface/"</span><span>,</span>
-          collapsable<span>:</span> <span>false</span><span>,</span>
-          children<span>:</span> <span>[</span><span>"theme"</span><span>,</span> <span>"icon"</span><span>]</span><span>,</span>
-        <span>}</span><span>,</span>
-        <span>{</span>
-          title<span>:</span> <span>"新增功能"</span><span>,</span>
+          title<span>:</span> <span>"功能"</span><span>,</span>
           icon<span>:</span> <span>"discover"</span><span>,</span>
           prefix<span>:</span> <span>"feature/"</span><span>,</span>
           collapsable<span>:</span> <span>false</span><span>,</span>
           children<span>:</span> <span>[</span>
             <span>"page-info"</span><span>,</span>
             <span>"comment"</span><span>,</span>
-            <span>"page"</span><span>,</span>
-            <span>"blog"</span><span>,</span>
+            <span>"copy-code"</span><span>,</span>
+            <span>"photo-swipe"</span><span>,</span>
+            <span>"copyright"</span><span>,</span>
+            <span>"last-update"</span><span>,</span>
             <span>"encrypt"</span><span>,</span>
             <span>"pwa"</span><span>,</span>
             <span>"feed"</span><span>,</span>
-            <span>"seo-sitemap"</span><span>,</span>
+            <span>"seo"</span><span>,</span>
+            <span>"sitemap"</span><span>,</span>
             <span>"typescript"</span><span>,</span>
           <span>]</span><span>,</span>
+        <span>}</span><span>,</span>
+        <span>{</span>
+          title<span>:</span> <span>"博客"</span><span>,</span>
+          icon<span>:</span> <span>"layout"</span><span>,</span>
+          prefix<span>:</span> <span>"blog/"</span><span>,</span>
+          collapsable<span>:</span> <span>false</span><span>,</span>
+          children<span>:</span> <span>[</span><span>"intro"</span><span>,</span> <span>"home"</span><span>,</span> <span>"category-and-tags"</span><span>]</span><span>,</span>
         <span>}</span><span>,</span>
       <span>]</span><span>,</span>
 
@@ -13608,7 +13912,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
   <span>}</span><span>,</span>
 <span>}</span><span>;</span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br><span>40</span><br><span>41</span><br><span>42</span><br><span>43</span><br><span>44</span><br><span>45</span><br><span>46</span><br><span>47</span><br><span>48</span><br><span>49</span><br><span>50</span><br><span>51</span><br><span>52</span><br><span>53</span><br><span>54</span><br><span>55</span><br><span>56</span><br><span>57</span><br><span>58</span><br><span>59</span><br><span>60</span><br><span>61</span><br><span>62</span><br><span>63</span><br><span>64</span><br><span>65</span><br><span>66</span><br><span>67</span><br><span>68</span><br><span>69</span><br><span>70</span><br><span>71</span><br><span>72</span><br><span>73</span><br><span>74</span><br><span>75</span><br><span>76</span><br><span>77</span><br><span>78</span><br><span>79</span><br><span>80</span><br><span>81</span><br><span>82</span><br><span>83</span><br><span>84</span><br><span>85</span><br><span>86</span><br><span>87</span><br><span>88</span><br><span>89</span><br><span>90</span><br><span>91</span><br><span>92</span><br><span>93</span><br><span>94</span><br><span>95</span><br><span>96</span><br><span>97</span><br><span>98</span><br><span>99</span><br><span>100</span><br><span>101</span><br><span>102</span><br><span>103</span><br><span>104</span><br><span>105</span><br><span>106</span><br><span>107</span><br><span>108</span><br><span>109</span><br><span>110</span><br><span>111</span><br><span>112</span><br><span>113</span><br><span>114</span><br><span>115</span><br><span>116</span><br><span>117</span><br><span>118</span><br><span>119</span><br><span>120</span><br><span>121</span><br><span>122</span><br><span>123</span><br><span>124</span><br></div></div></details>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br><span>40</span><br><span>41</span><br><span>42</span><br><span>43</span><br><span>44</span><br><span>45</span><br><span>46</span><br><span>47</span><br><span>48</span><br><span>49</span><br><span>50</span><br><span>51</span><br><span>52</span><br><span>53</span><br><span>54</span><br><span>55</span><br><span>56</span><br><span>57</span><br><span>58</span><br><span>59</span><br><span>60</span><br><span>61</span><br><span>62</span><br><span>63</span><br><span>64</span><br><span>65</span><br><span>66</span><br><span>67</span><br><span>68</span><br><span>69</span><br><span>70</span><br><span>71</span><br><span>72</span><br><span>73</span><br><span>74</span><br><span>75</span><br><span>76</span><br><span>77</span><br><span>78</span><br><span>79</span><br><span>80</span><br><span>81</span><br><span>82</span><br><span>83</span><br><span>84</span><br><span>85</span><br><span>86</span><br><span>87</span><br><span>88</span><br><span>89</span><br><span>90</span><br><span>91</span><br><span>92</span><br><span>93</span><br><span>94</span><br><span>95</span><br><span>96</span><br><span>97</span><br><span>98</span><br><span>99</span><br><span>100</span><br><span>101</span><br><span>102</span><br><span>103</span><br><span>104</span><br><span>105</span><br><span>106</span><br><span>107</span><br><span>108</span><br><span>109</span><br><span>110</span><br><span>111</span><br><span>112</span><br><span>113</span><br><span>114</span><br><span>115</span><br><span>116</span><br><span>117</span><br><span>118</span><br><span>119</span><br><span>120</span><br><span>121</span><br><span>122</span><br><span>123</span><br><span>124</span><br><span>125</span><br><span>126</span><br><span>127</span><br><span>128</span><br><span>129</span><br><span>130</span><br><span>131</span><br><span>132</span><br><span>133</span><br><span>134</span><br><span>135</span><br><span>136</span><br><span>137</span><br><span>138</span><br><span>139</span><br><span>140</span><br><span>141</span><br><span>142</span><br><span>143</span><br><span>144</span><br></div></div></details>
 ]]></content:encoded>
     </item>
     <item>
