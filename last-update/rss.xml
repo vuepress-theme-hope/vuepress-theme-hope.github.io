@@ -6,62 +6,11 @@
     <link>https://vuepress-theme-hope.github.io/last-update/</link>
     <description>Last update time getter for vuepress</description>
     <language>en-US</language>
-    <pubDate>Sun, 07 Mar 2021 13:41:31 GMT</pubDate>
-    <lastBuildDate>Sun, 07 Mar 2021 13:41:31 GMT</lastBuildDate>
+    <pubDate>Mon, 08 Mar 2021 03:23:00 GMT</pubDate>
+    <lastBuildDate>Mon, 08 Mar 2021 03:23:00 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
-    <item>
-      <title>主页</title>
-      <link>https://vuepress-theme-hope.github.io/last-update/zh/</link>
-      <guid>https://vuepress-theme-hope.github.io/last-update/zh/</guid>
-      <source url="https://vuepress-theme-hope.github.io/last-update/rss.xml">主页</source>
-      <content:encoded><![CDATA[<p>这个插件将会利用 Git 的日志向 page 注入可阅读的最后更新时间文字与最后更新时间的时间戳。</p>
-<div><p>为什么使用本插件</p>
-<p>官方插件的国际化支持并不良好，本插件提供了更为优秀的多语言支持。</p>
-</div>
-<h2 id="使用插件"> 使用插件</h2>
-<h3 id="安装"> 安装</h3>
-<CodeGroup>
-<CodeGroupItem title="yarn">
-<div><pre><code><span>yarn</span> <span>add</span> -D @mr-hope/vuepress-plugin-last-update
-</code></pre>
-<div><span>1</span><br></div></div></CodeGroupItem>
-<CodeGroupItem title="npm">
-<div><pre><code><span>npm</span> i -D @mr-hope/vuepress-plugin-last-update
-</code></pre>
-<div><span>1</span><br></div></div></CodeGroupItem>
-</CodeGroup>
-<h3 id="使用"> 使用</h3>
-<div><pre><code><span>// .vuepress/config.js</span>
-module<span>.</span>exports <span>=</span> <span>{</span>
-  plugins<span>:</span> <span>[</span><span>[</span><span>"@vuepress/last-updated"</span><span>,</span> <span>false</span><span>]</span><span>,</span> <span>"@mr-hope/last-update"</span><span>]</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><div><p>Note</p>
-<p>你必须禁用官方插件</p>
-</div>
-<h2 id="插件说明"> 插件说明</h2>
-<p>该插件基于 Git，会自动读取文件的上一次提交时间，并以本地化的形式，注入到 <code>lastUpdated</code> 上，同时，会将时间戳注入到 <code>lastUpdatedTime</code> 上，以供其他插件使用。</p>
-<h2 id="配置"> 配置</h2>
-<h3 id="timezone"> timezone</h3>
-<ul>
-<li>类型: <code>string</code></li>
-<li>必填: 否</li>
-</ul>
-<p>有些时候你的站点可能通过 CI 自动部署，而这些 CI 服务器的时间可能基于 UTC，这会导致生成的时间不同于你所在的时区，在这种情况下，你可以设置 <code>timezone</code> 选项 来指定你所在的时区。</p>
-<div><p>时区列表</p>
-<p>详细的时区列表，详见 <a href="https://www.zeitverschiebung.net/cn/all-time-zones.html" target="_blank" rel="noopener noreferrer">时区列表</a></p>
-</div>
-<h3 id="transformer"> transformer</h3>
-<ul>
-<li>类型: <code>(timestamp: number, lang: string) =&gt; string</code></li>
-<li>默认值: <code>`${dayjs(timestamp).format('LL')} ${dayjs(timestamp).format('HH:mm')}`</code></li>
-</ul>
-<p>时间转换函数，默认情况下，会使用 dayjs 自动根据当前页面语言进行本地化。</p>
-<p>如: <code>2020年5月8日 16:05</code> <code>May 8, 2020 16:05</code></p>
-]]></content:encoded>
-    </item>
     <item>
       <title>Home</title>
       <link>https://vuepress-theme-hope.github.io/last-update/</link>
@@ -111,6 +60,57 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 </ul>
 <p>Time conversion function, by default, will use dayjs to automatically localize according to the current page language.</p>
 <p>Such as: <code>2020年5月8日 16:05</code> <code>May 8, 2020 16:05</code></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>主页</title>
+      <link>https://vuepress-theme-hope.github.io/last-update/zh/</link>
+      <guid>https://vuepress-theme-hope.github.io/last-update/zh/</guid>
+      <source url="https://vuepress-theme-hope.github.io/last-update/rss.xml">主页</source>
+      <content:encoded><![CDATA[<p>这个插件将会利用 Git 的日志向 page 注入可阅读的最后更新时间文字与最后更新时间的时间戳。</p>
+<div><p>为什么使用本插件</p>
+<p>官方插件的国际化支持并不良好，本插件提供了更为优秀的多语言支持。</p>
+</div>
+<h2 id="使用插件"> 使用插件</h2>
+<h3 id="安装"> 安装</h3>
+<CodeGroup>
+<CodeGroupItem title="yarn">
+<div><pre><code><span>yarn</span> <span>add</span> -D @mr-hope/vuepress-plugin-last-update
+</code></pre>
+<div><span>1</span><br></div></div></CodeGroupItem>
+<CodeGroupItem title="npm">
+<div><pre><code><span>npm</span> i -D @mr-hope/vuepress-plugin-last-update
+</code></pre>
+<div><span>1</span><br></div></div></CodeGroupItem>
+</CodeGroup>
+<h3 id="使用"> 使用</h3>
+<div><pre><code><span>// .vuepress/config.js</span>
+module<span>.</span>exports <span>=</span> <span>{</span>
+  plugins<span>:</span> <span>[</span><span>[</span><span>"@vuepress/last-updated"</span><span>,</span> <span>false</span><span>]</span><span>,</span> <span>"@mr-hope/last-update"</span><span>]</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><div><p>Note</p>
+<p>你必须禁用官方插件</p>
+</div>
+<h2 id="插件说明"> 插件说明</h2>
+<p>该插件基于 Git，会自动读取文件的上一次提交时间，并以本地化的形式，注入到 <code>lastUpdated</code> 上，同时，会将时间戳注入到 <code>lastUpdatedTime</code> 上，以供其他插件使用。</p>
+<h2 id="配置"> 配置</h2>
+<h3 id="timezone"> timezone</h3>
+<ul>
+<li>类型: <code>string</code></li>
+<li>必填: 否</li>
+</ul>
+<p>有些时候你的站点可能通过 CI 自动部署，而这些 CI 服务器的时间可能基于 UTC，这会导致生成的时间不同于你所在的时区，在这种情况下，你可以设置 <code>timezone</code> 选项 来指定你所在的时区。</p>
+<div><p>时区列表</p>
+<p>详细的时区列表，详见 <a href="https://www.zeitverschiebung.net/cn/all-time-zones.html" target="_blank" rel="noopener noreferrer">时区列表</a></p>
+</div>
+<h3 id="transformer"> transformer</h3>
+<ul>
+<li>类型: <code>(timestamp: number, lang: string) =&gt; string</code></li>
+<li>默认值: <code>`${dayjs(timestamp).format('LL')} ${dayjs(timestamp).format('HH:mm')}`</code></li>
+</ul>
+<p>时间转换函数，默认情况下，会使用 dayjs 自动根据当前页面语言进行本地化。</p>
+<p>如: <code>2020年5月8日 16:05</code> <code>May 8, 2020 16:05</code></p>
 ]]></content:encoded>
     </item>
   </channel>
