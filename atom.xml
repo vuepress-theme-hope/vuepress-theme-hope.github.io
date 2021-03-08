@@ -6,7 +6,7 @@
   <author>
     <name>Mr.Hope</name>
   </author>
-  <updated>2021-03-08T03:26:46.149Z</updated>
+  <updated>2021-03-08T12:23:00.854Z</updated>
   <generator>@mr-hope/vuepress-plugin-feed</generator>
   <link rel="self" href="https://vuepress-theme-hope.github.io/atom.xml"/>
   <link rel="alternate" href="https://vuepress-theme-hope.github.io/"/>
@@ -29,7 +29,7 @@
     <title type="html">Common problems</title>
     <id>https://vuepress-theme-hope.github.io/FAQ/</id>
     <link href="https://vuepress-theme-hope.github.io/FAQ/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<h1 id="common-problems"> Common problems</h1>
 <h2 id="some-page-settings-are-invalid"> Some page settings are invalid</h2>
 <p>You can first review the documentation to see if the setting <strong>does not support partial configuration</strong>.</p>
@@ -75,7 +75,7 @@
     <title type="html">Markdown DEMO</title>
     <id>https://vuepress-theme-hope.github.io/basic/markdown/demo/</id>
     <link href="https://vuepress-theme-hope.github.io/basic/markdown/demo/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[
 <h1 id="first-heading"> First Heading</h1>
 
@@ -336,7 +336,7 @@ console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span
     <title type="html">Nature</title>
     <id>https://vuepress-theme-hope.github.io/basic/markdown/emoji/nature/</id>
     <link href="https://vuepress-theme-hope.github.io/basic/markdown/emoji/nature/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<ul>
 <li>☀️ <code>:sunny:</code></li>
 <li>☔️ <code>:umbrella:</code></li>
@@ -466,7 +466,7 @@ console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span
     <title type="html">Object</title>
     <id>https://vuepress-theme-hope.github.io/basic/markdown/emoji/object/</id>
     <link href="https://vuepress-theme-hope.github.io/basic/markdown/emoji/object/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<ul>
 <li>🎍 <code>:bamboo:</code></li>
 <li>💝 <code>:gift_heart:</code></li>
@@ -743,7 +743,7 @@ console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span
     <title type="html">People</title>
     <id>https://vuepress-theme-hope.github.io/basic/markdown/emoji/people/</id>
     <link href="https://vuepress-theme-hope.github.io/basic/markdown/emoji/people/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<ul>
 <li>😄 <code>:smile:</code></li>
 <li>😆 <code>:laughing:</code></li>
@@ -938,7 +938,7 @@ console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span
     <title type="html">Place</title>
     <id>https://vuepress-theme-hope.github.io/basic/markdown/emoji/place/</id>
     <link href="https://vuepress-theme-hope.github.io/basic/markdown/emoji/place/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<ul>
 <li>🏠 <code>:house:</code></li>
 <li>🏡 <code>:house_with_garden:</code></li>
@@ -1050,7 +1050,7 @@ console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span
     <title type="html">Emoji List</title>
     <id>https://vuepress-theme-hope.github.io/basic/markdown/emoji/</id>
     <link href="https://vuepress-theme-hope.github.io/basic/markdown/emoji/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<h1 id="emoji-list"> Emoji List</h1>
 <h2 id="people"> People</h2>
 <ul>
@@ -1085,7 +1085,7 @@ console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span
     <title type="html">Symbol</title>
     <id>https://vuepress-theme-hope.github.io/basic/markdown/emoji/symbol/</id>
     <link href="https://vuepress-theme-hope.github.io/basic/markdown/emoji/symbol/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<ul>
 <li>1️⃣ <code>:one:</code></li>
 <li>2️⃣ <code>:two:</code></li>
@@ -1292,7 +1292,7 @@ console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span
     <title type="html">Markdown Introduction</title>
     <id>https://vuepress-theme-hope.github.io/basic/markdown/</id>
     <link href="https://vuepress-theme-hope.github.io/basic/markdown/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<p>Markdown is a markup language that can be written using a plain text editor that allows plain text content to be formatted with simple markup syntax.</p>
 <p>Markdown has a series of derivative versions that extend Markdown’s functionality (such as tables, footnotes, embedded HTML, etc.). These features were not available in the original Markdown. They can convert Markdown into more formats, such as LaTeX, Docbook. . Markdown Extra, MultiMarkdown, Maruku, etc. are more famous in Markdown’s enhanced version. These derivative versions are either based on tools such as Pandoc; or based on sites such as GitHub and Wikipedia, which are syntactically compatible, but have some changes in syntax and rendering effects.</p>
 <h2 id="usage"> Usage</h2>
@@ -1402,7 +1402,7 @@ console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span
     <title type="html">Basic</title>
     <id>https://vuepress-theme-hope.github.io/basic/</id>
     <link href="https://vuepress-theme-hope.github.io/basic/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<h1 id="basic"> Basic</h1>
 <p>Here are some docs about VuePress.</p>
 <ul>
@@ -1422,7 +1422,7 @@ console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span
     <title type="html">VuePress Cases</title>
     <id>https://vuepress-theme-hope.github.io/basic/vuepress/case/</id>
     <link href="https://vuepress-theme-hope.github.io/basic/vuepress/case/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<h2 id="resources"> Resources</h2>
 <h3 id="official-resources"> Official Resources</h3>
 <ul>
@@ -1657,7 +1657,7 @@ console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span
     <title type="html">VuePress commands</title>
     <id>https://vuepress-theme-hope.github.io/basic/vuepress/command/</id>
     <link href="https://vuepress-theme-hope.github.io/basic/vuepress/command/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<h2 id="install-dependency"> Install Dependency</h2>
 <CodeGroup>
 <CodeGroupItem title="yarn">
@@ -1729,7 +1729,7 @@ console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span
     <title type="html">File Structure</title>
     <id>https://vuepress-theme-hope.github.io/basic/vuepress/file/</id>
     <link href="https://vuepress-theme-hope.github.io/basic/vuepress/file/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<h2 id="file-structure"> File Structure</h2>
 <div><pre><code>.
 ├── dist → Built Output
@@ -1868,7 +1868,7 @@ console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span
     <title type="html">Builtin Markdown features</title>
     <id>https://vuepress-theme-hope.github.io/basic/vuepress/markdown/</id>
     <link href="https://vuepress-theme-hope.github.io/basic/vuepress/markdown/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<p>Here are some enhance VuePress makes on markdown syntax.</p>
 <h2 id="header-anchors"> Header Anchors</h2>
 <p>Headers automatically get anchor links applied.</p>
@@ -2190,7 +2190,7 @@ export default { // Highlighted
     <title type="html">Plugins</title>
     <id>https://vuepress-theme-hope.github.io/basic/vuepress/plugin/</id>
     <link href="https://vuepress-theme-hope.github.io/basic/vuepress/plugin/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<h2 id="introduction"> Introduction</h2>
 <p>Plugins generally add global-level functionality to VuePress.</p>
 <p>The architecture of the whole plugin system is as follows:</p>
@@ -2326,7 +2326,7 @@ export default { // Highlighted
     <title type="html">About VuePress</title>
     <id>https://vuepress-theme-hope.github.io/basic/vuepress/</id>
     <link href="https://vuepress-theme-hope.github.io/basic/vuepress/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<h2 id="as-easy-as-1-2-3"> As Easy as 1, 2, 3</h2>
 <div><pre><code><span># find a proper place to clone this project template</span>
 <span>git</span> clone git@github.com:vuepress-theme-hope/vuepress-theme-hope-template.git
@@ -2380,7 +2380,7 @@ export default { // Highlighted
     <title type="html">Theme Config</title>
     <id>https://vuepress-theme-hope.github.io/basic/vuepress/theme/</id>
     <link href="https://vuepress-theme-hope.github.io/basic/vuepress/theme/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<h2 id="using-a-theme"> Using a theme</h2>
 <p>Using a theme is almost the same as using a plugin.</p>
 <h2 id="using-a-theme-from-a-dependency"> Using a theme from a dependency</h2>
@@ -2426,7 +2426,7 @@ export default { // Highlighted
     <title type="html">Page Config</title>
     <id>https://vuepress-theme-hope.github.io/config/page/</id>
     <link href="https://vuepress-theme-hope.github.io/config/page/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<p>The following configuration options have been added to the page’s Front Matter:</p>
 <h2 id="page-information-configuration"> Page Information Configuration</h2>
 <h3 id="icon"> icon</h3>
@@ -2735,7 +2735,7 @@ Set it to <code>false</code> to disable the footer, and set it to <code>true</co
     <title type="html">vuepress-plugin-container</title>
     <id>https://vuepress-theme-hope.github.io/config/plugin/container/</id>
     <link href="https://vuepress-theme-hope.github.io/config/plugin/container/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>Markdown DIY container</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>Markdown DIY container</p>
@@ -2819,7 +2819,7 @@ write something here ~
     <title type="html">vuepress-plugin-copyright</title>
     <id>https://vuepress-theme-hope.github.io/config/plugin/copyright/</id>
     <link href="https://vuepress-theme-hope.github.io/config/plugin/copyright/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>Handling copy operations in your VuePress site</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>Handling copy operations in your VuePress site</p>
@@ -2859,7 +2859,7 @@ write something here ~
     <title type="html">Plugin Description</title>
     <id>https://vuepress-theme-hope.github.io/config/plugin/</id>
     <link href="https://vuepress-theme-hope.github.io/config/plugin/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p><code>vuepress-theme-hope</code> brings you some VuePress plugins. Some plugins are automatically enabled. If you don’t need them, you can disable them in themeConfig; some plugins will only be enabled if you configure them.</p>
 ]]></summary>
     <content type="html"><![CDATA[<p><code>vuepress-theme-hope</code> brings you some VuePress plugins. Some plugins are automatically enabled. If you don’t need them, you can disable them in themeConfig; some plugins will only be enabled if you configure them.</p>
@@ -2950,7 +2950,7 @@ write something here ~
     <title type="html">Config</title>
     <id>https://vuepress-theme-hope.github.io/config/</id>
     <link href="https://vuepress-theme-hope.github.io/config/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<h2 id="theme-config"> Theme Config</h2>
 <ul>
 <li>
@@ -2995,7 +2995,7 @@ write something here ~
     <title type="html">Stylus config</title>
     <id>https://vuepress-theme-hope.github.io/config/stylus/</id>
     <link href="https://vuepress-theme-hope.github.io/config/stylus/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>You can use palette.styl in <code>.vuepress/styles</code> folder to change the style of this theme。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>You can use palette.styl in <code>.vuepress/styles</code> folder to change the style of this theme。</p>
@@ -3082,7 +3082,7 @@ write something here ~
     <title type="html">Theme Layout Config</title>
     <id>https://vuepress-theme-hope.github.io/config/theme/apperance/</id>
     <link href="https://vuepress-theme-hope.github.io/config/theme/apperance/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<p>These are appearance configuration options provided by the theme.</p>
 <h2 id="algoliatype"> algoliaType</h2>
 <ul>
@@ -3170,7 +3170,7 @@ write something here ~
     <title type="html">Default Theme Config</title>
     <id>https://vuepress-theme-hope.github.io/config/theme/default/</id>
     <link href="https://vuepress-theme-hope.github.io/config/theme/default/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<p>The following configurations follow the configuration items in <code>@vuepress/theme-default</code>:</p>
 <div><p>Note</p>
 <p>By injecting, vuepress-theme-hope changes the default values of some configurations of the default theme.</p>
@@ -3287,7 +3287,7 @@ write something here ~
     <title type="html">Theme Feature Config</title>
     <id>https://vuepress-theme-hope.github.io/config/theme/feature/</id>
     <link href="https://vuepress-theme-hope.github.io/config/theme/feature/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<p>These are config items of features provided by theme.</p>
 <h2 id="darkmode"> darkmode <i>Not supported content</i></h2>
 <ul>
@@ -3455,7 +3455,7 @@ write something here ~
     <title type="html">Theme Plugin Config</title>
     <id>https://vuepress-theme-hope.github.io/config/theme/plugin/</id>
     <link href="https://vuepress-theme-hope.github.io/config/theme/plugin/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<p>These are plugin config provided by theme.</p>
 <div><p>Tips</p>
 <p>All the config key name is the camelCase version of plugin name.</p>
@@ -3876,7 +3876,7 @@ write something here ~
     <title type="html">Theme Config</title>
     <id>https://vuepress-theme-hope.github.io/config/theme/</id>
     <link href="https://vuepress-theme-hope.github.io/config/theme/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<div><p>Tips</p>
 <p>You can view <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/docs/theme/src/.vuepress/config.js" target="_blank" rel="noopener noreferrer">Config of this site</a> as an example, and you can directly view <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/packages/theme/types/theme/" target="_blank" rel="noopener noreferrer">Type Declaration file</a> in the source code.</p>
 </div>
@@ -3956,7 +3956,7 @@ write something here ~
     <title type="html">Demos</title>
     <id>https://vuepress-theme-hope.github.io/demo/</id>
     <link href="https://vuepress-theme-hope.github.io/demo/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<h2 id="mr-hope-s-blog"> Mr.Hope’s Blog</h2>
 <ul>
 <li><a href="https://mrhope.site" target="_blank" rel="noopener noreferrer">Link</a></li>
@@ -3995,7 +3995,7 @@ write something here ~
     <title type="html">Article List</title>
     <id>https://vuepress-theme-hope.github.io/guide/blog/article/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/blog/article/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<p>The topic provides you with a list of all articles under the path <code>/article/</code>.</p>
 <h2 id="article"> Article</h2>
 <p>All articles will be added to the article list by default and rendered under the path <code>/article/</code>.</p>
@@ -4032,7 +4032,7 @@ write something here ~
     <title type="html">Category and tags</title>
     <id>https://vuepress-theme-hope.github.io/guide/blog/category-and-tags/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/blog/category-and-tags/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>You can configure category and tags for articles through frontmatter to make them appear in specific categories and tags pages.</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>You can configure category and tags for articles through frontmatter to make them appear in specific categories and tags pages.</p>
@@ -4093,7 +4093,7 @@ Page content...
     <title type="html">Blog homepage</title>
     <id>https://vuepress-theme-hope.github.io/guide/blog/home/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/blog/home/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p><code>vuepress-theme-hope</code> allows you to enable a blog-style homepage.</p>
 <p>You need to set <code>blog</code> to <code>true</code> in the frontmatter of the corresponding page to enable blog style.</p>
 ]]></summary>
@@ -4187,7 +4187,7 @@ Page content...
     <title type="html">Blog Intro</title>
     <id>https://vuepress-theme-hope.github.io/guide/blog/intro/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/blog/intro/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>The theme enables some blogging features using <code>@vuepress/plugin-blog</code> by default.</p>
 <p>If you don’t need any blog features (such as a pure documentation site), you can set <code>themeConfig.blog</code> to <code>false</code> to disable all blog features.</p>
 ]]></summary>
@@ -4233,7 +4233,7 @@ Page content...
     <title type="html">Blog</title>
     <id>https://vuepress-theme-hope.github.io/guide/blog/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/blog/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<h2 id="catalog"> Catalog</h2>
 <ul>
 <li>
@@ -4266,7 +4266,7 @@ Page content...
     <title type="html">Timeline</title>
     <id>https://vuepress-theme-hope.github.io/guide/blog/timeline/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/blog/timeline/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<p>You can access the time page through <code>/timeline/</code>. On the page, you can view all the articles in time reverse order.</p>
 <p><img src="./assets/timeline.png" alt="Timeline Page"></p>
 <h2 id="exclude-articles"> Exclude articles</h2>
@@ -4290,7 +4290,7 @@ Page content...
     <title type="html">Comment Function</title>
     <id>https://vuepress-theme-hope.github.io/guide/feature/comment/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/feature/comment/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p><code>vuepress-theme-hope</code> implements the comment feature with built-in <a href="https://vuepress-theme-hope.github.io/comment/" target="_blank" rel="noopener noreferrer"><code>@mr-hope/vuepress-plugin-comment</code></a>.</p>
 ]]></summary>
     <content type="html"><![CDATA[<p><code>vuepress-theme-hope</code> implements the comment feature with built-in <a href="https://vuepress-theme-hope.github.io/comment/" target="_blank" rel="noopener noreferrer"><code>@mr-hope/vuepress-plugin-comment</code></a>.</p>
@@ -4393,7 +4393,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">Code Copy</title>
     <id>https://vuepress-theme-hope.github.io/guide/feature/copy-code/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/feature/copy-code/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>If you are a programmer, you may want your users to be able to copy the code you show in the text with one click.</p>
 <p>For this, <code>vuepress-theme-hope</code> includes <a href="https://vuepress-theme-hope.github.io/copy-code/" target="_blank" rel="noopener noreferrer">@mr-hope/copy-code</a>, which provides a copy button on code blocks.</p>
 ]]></summary>
@@ -4426,7 +4426,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">Copyright</title>
     <id>https://vuepress-theme-hope.github.io/guide/feature/copyright/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/feature/copyright/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>Sometimes, you may not want some of your articles to be copied by others, or you want others to automatically generate a piece of copyright information to the clipboard when copying.</p>
 <p><code>vuepress-theme-hope</code> introduced <a href="https://www.npmjs.com/package/vuepress-plugin-copyright" target="_blank" rel="noopener noreferrer">vuepress-plugin-copyright</a> to provide related features.</p>
 ]]></summary>
@@ -4471,7 +4471,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">Encryption</title>
     <id>https://vuepress-theme-hope.github.io/guide/feature/encrypt/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/feature/encrypt/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>The theme supports encryption of specific folders or specific paths, as well as global scope encryption.</p>
 <div><p>Warning</p>
 <p>Note that because of the limitation of vuepress, the content of the article is only hidden before being decrypted, and visitors can still get the content of the article from the source code (from js).</p>
@@ -4512,7 +4512,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">Feed Support</title>
     <id>https://vuepress-theme-hope.github.io/guide/feature/feed/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/feature/feed/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>The theme will enable feed generation support using <a href="https://vuepress-theme-hope.github.io/feed/" target="_blank" rel="noopener noreferrer"><code>@mr-hope/vuepress-plugin-feed</code></a> by default.</p>
 <p><code>@mr-hope/vuepress-plugin-feed</code> plugin will automatically generate feed in the following three formats for you</p>
 <ul>
@@ -4560,7 +4560,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">LastUpdate Time</title>
     <id>https://vuepress-theme-hope.github.io/guide/feature/last-update/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/feature/last-update/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p><code>vuepress-theme-hope</code> will automatic generate the last update time of the page through the built-in <a href="https://vuepress-theme-hope.github.io/last-update/" target="_blank" rel="noopener noreferrer"><code>@mr-hope/vuepress-plugin-last-update</code></a> plugin.</p>
 <p>By default, the plugin will get the UNIX timestamp(ms) of each file’s last <code>git</code> commit for you, and it will also display at the bottom of each page in an appropriate format.</p>
 ]]></summary>
@@ -4589,7 +4589,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">Page information</title>
     <id>https://vuepress-theme-hope.github.io/guide/feature/page-info/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/feature/page-info/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>By including <a href="https://vuepress-theme-hope.github.io/comment/" target="_blank" rel="noopener noreferrer"><code>@mr-hope/vuepress-plugin-comment</code></a>, <code>vuepress-theme-hope</code> can display article information for you.</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>By including <a href="https://vuepress-theme-hope.github.io/comment/" target="_blank" rel="noopener noreferrer"><code>@mr-hope/vuepress-plugin-comment</code></a>, <code>vuepress-theme-hope</code> can display article information for you.</p>
@@ -4699,7 +4699,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">Picture Preview</title>
     <id>https://vuepress-theme-hope.github.io/guide/feature/photo-swipe/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/feature/photo-swipe/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>By including <a href="https://vuepress-theme-hope.github.io/photo-swipe/" target="_blank" rel="noopener noreferrer">vuepress-plugin-photo-swipe</a>, vuepress-theme-hope will make the pictures in the body of the page enter the preview mode when clicked.</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>By including <a href="https://vuepress-theme-hope.github.io/photo-swipe/" target="_blank" rel="noopener noreferrer">vuepress-plugin-photo-swipe</a>, vuepress-theme-hope will make the pictures in the body of the page enter the preview mode when clicked.</p>
@@ -4739,7 +4739,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">PWA</title>
     <id>https://vuepress-theme-hope.github.io/guide/feature/pwa/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/feature/pwa/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>The theme will enable progressive web app support by including <a href="https://vuepress-theme-hope.github.io/pwa/" target="_blank" rel="noopener noreferrer"><code>@mr-hope/vuepress-plugin-pwa</code></a>.</p>
 <p>If you do not need this feature or want to use other pwa plugins, you can set the <code>themeConfig.pwa</code> to <code>false</code> to disable the plugin.</p>
 ]]></summary>
@@ -4772,7 +4772,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">Features</title>
     <id>https://vuepress-theme-hope.github.io/guide/feature/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/feature/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<p>vuepress-theme-hope introduces many great features. Most of the functions are separated into plugins, which means if you like them, you can use them in other vuepress themes or <code>@vuepress/theme-default</code>.</p>
 <h2 id="catalog"> Catalog</h2>
 <ul>
@@ -4867,7 +4867,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">SEO</title>
     <id>https://vuepress-theme-hope.github.io/guide/feature/seo/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/feature/seo/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<p><code>vuepress-theme-hope</code> provide SEO enhancement by includeing <a href="https://vuepress-theme-hope.github.io/seo/" target="_blank" rel="noopener noreferrer"><code>@mr-hope/vuepress-plugin-seo</code></a>.</p>
 <p>To make the plugin work better, you may need to look at <a href="./../../config/page.html#page-information-configuration">Page Information Configuration</a> and configure them reasonably.</p>
 <p>If you don’t need this plugin, please set <code>themeConfig.seo</code> to <code>false</code>.</p>
@@ -4958,7 +4958,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">Sitemap</title>
     <id>https://vuepress-theme-hope.github.io/guide/feature/sitemap/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/feature/sitemap/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<p><code>vuepress-theme-hope</code> provide SEO enhancement by includeing <a href="https://vuepress-theme-hope.github.io/sitemap/" target="_blank" rel="noopener noreferrer"><code>@mr-hope/vuepress-plugin-sitemap</code></a>.</p>
 <p>The plugin will automatically generate the last update time of the page based on the Git timestamp of the page, and will also declare the alternative version link of the page in other languages ​​according to the locales config.</p>
 <p>If you don’t need this plugin, please set <code>themeConfig.sitemap</code> to <code>false</code>.</p>
@@ -4998,7 +4998,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">TS support</title>
     <id>https://vuepress-theme-hope.github.io/guide/feature/typescript/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/feature/typescript/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>Most of the files of vuepress-theme-hope are written using TypeScript, so vuepress-theme-hope can also bring native TypeScript support to your VuePress project, you only need to set <code>themeConfig.typescript</code> to <code>true</code> so that support for <code>typescript</code> can be turned on.</p>
 <p>This means you can use <code>enhanceAppFiles.ts</code> and use Typescript in both your vue components and Markdown files.</p>
 <p>To pass some custom options to ts-loader, you can also set <code>themeConfig.typescript</code> with an Object to pass it to ts-loader.</p>
@@ -5056,7 +5056,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">Install / Usage</title>
     <id>https://vuepress-theme-hope.github.io/guide/get-started/install/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/get-started/install/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<h2 id="use-in-new-project"> Use in new project</h2>
 <p>You can use <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope-template" target="_blank" rel="noopener noreferrer">vuepress-theme-hope template</a> directly to start your VuePress journey.</p>
 <h2 id="use-in-existing-project"> Use in existing project</h2>
@@ -5097,7 +5097,7 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
     <title type="html">Theme intro</title>
     <id>https://vuepress-theme-hope.github.io/guide/get-started/intro/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/get-started/intro/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<h2 id="🎈-the-original-intention-and-design-goals-of-this-theme"> 🎈 The original intention and design goals of this theme</h2>
 <h3 id="original-intention"> Original intention</h3>
 <p>The original intention of making this theme was to find that VuePress is just a pure static document generator. For example, it will not inject meta tags for SEO optimization, nor will it generate a Sitemap to help search engines index the content of the document.</p>
@@ -5166,7 +5166,7 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
     <title type="html">Markdown</title>
     <id>https://vuepress-theme-hope.github.io/guide/get-started/markdown/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/get-started/markdown/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>Every document page in VuePress is rendered by Markdown.</p>
 <p>You need to build your document or blog page by creating and writing Markdown in the corresponding path.</p>
 ]]></summary>
@@ -5275,7 +5275,7 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
     <title type="html">Get Started</title>
     <id>https://vuepress-theme-hope.github.io/guide/get-started/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/get-started/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<h2 id="目录"> 目录</h2>
 <ul>
 <li>
@@ -5302,7 +5302,7 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
     <title type="html">Darkmode</title>
     <id>https://vuepress-theme-hope.github.io/guide/interface/darkmode/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/interface/darkmode/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>In dark mode, the page uses a dark background to protect your eyes.</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>In dark mode, the page uses a dark background to protect your eyes.</p>
@@ -5331,7 +5331,7 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
     <title type="html">Icon support</title>
     <id>https://vuepress-theme-hope.github.io/guide/interface/icon/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/interface/icon/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>The entire theme has added FontClass format icon support in mutiple places.</p>
 <p>You can use iconfont and fontawesome to add icons to your project.</p>
 <ul>
@@ -5422,7 +5422,7 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
     <title type="html">Other features</title>
     <id>https://vuepress-theme-hope.github.io/guide/interface/others/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/interface/others/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<h2 id="style-customization"> Style customization</h2>
 <p>The theme allows you to set variables in the <code>palette.styl</code> of <code>.vuepress/style</code> to customize most of the colors, responsive breakpoints, page layout size and other parameters.</p>
 <p>For detailed info, please refer to <a href="./../../config/stylus.html">Stylus Configuration</a></p>
@@ -5455,7 +5455,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">Interface</title>
     <id>https://vuepress-theme-hope.github.io/guide/interface/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/interface/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<h2 id="catalog"> Catalog</h2>
 <ul>
 <li>
@@ -5485,7 +5485,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">Theme Color</title>
     <id>https://vuepress-theme-hope.github.io/guide/interface/theme-color/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/interface/theme-color/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>This is an out-of-the-box feature that offers five theme color &quot;red, blue, green, orange and purple&quot; besides your theme color. You can also use your own theme color list.</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>This is an out-of-the-box feature that offers five theme color &quot;red, blue, green, orange and purple&quot; besides your theme color. You can also use your own theme color list.</p>
@@ -5531,7 +5531,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">Path Navigation</title>
     <id>https://vuepress-theme-hope.github.io/guide/layout/breadcrumb/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/layout/breadcrumb/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>The theme adds a new Breadcrumb support, you can config it using <code>breadcrumb</code> in Frontmatter and themeConfig <i>Not supported content</i> [^applypartically], the default value is <code>true</code>.</p>
 <p>Without any config, a Breadcrumb that matches the theme color is displayed at the top of the page content to help the reader understand the document structure.</p>
 ]]></summary>
@@ -5570,7 +5570,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">Footer</title>
     <id>https://vuepress-theme-hope.github.io/guide/layout/footer/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/layout/footer/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>vuepress-theme-hope provides footer feature for all pages <i>Not supported content</i>.</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>vuepress-theme-hope provides footer feature for all pages <i>Not supported content</i>.</p>
@@ -5654,7 +5654,7 @@ medialink:
     <title type="html">Home Page</title>
     <id>https://vuepress-theme-hope.github.io/guide/layout/home/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/layout/home/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p><code>vuepress-theme-hope</code> improves the default home page.</p>
 <p>To use it, set <code>home: true</code> in page frontmatter. Any extra content after the <code>YAML front matter</code> will be parsed as normal Markdown and rendered after the features section.</p>
 <p><img src="./assets/home.png" alt="Screenshot"></p>
@@ -5801,7 +5801,7 @@ copyrightText: false</span>
     <title type="html">NavBar</title>
     <id>https://vuepress-theme-hope.github.io/guide/layout/navbar/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/layout/navbar/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>The Navbar may contain your site title, , , <a href="https://v1.vuepress.vuejs.org/guide/i18n.html" target="_blank" rel="noopener noreferrer">Languages</a> and , they all depend on your configuration.</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>The Navbar may contain your site title, , , <a href="https://v1.vuepress.vuejs.org/guide/i18n.html" target="_blank" rel="noopener noreferrer">Languages</a> and , they all depend on your configuration.</p>
@@ -6176,7 +6176,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">Page</title>
     <id>https://vuepress-theme-hope.github.io/guide/layout/page/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/layout/page/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<h2 id="icon-support"> Icon support</h2>
 <p>You can configure the <code>icon</code> field in the frontmatter of the page, and fill in the FontClass of the corresponding icon to bind the icon to the page.</p>
 <details><summary>Example</summary>
@@ -6228,7 +6228,7 @@ next: false</span>
     <title type="html">Layout</title>
     <id>https://vuepress-theme-hope.github.io/guide/layout/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/layout/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<h2 id="catalog"> Catalog</h2>
 <ul>
 <li>
@@ -6268,7 +6268,7 @@ next: false</span>
     <title type="html">Sidebar</title>
     <id>https://vuepress-theme-hope.github.io/guide/layout/sidebar/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/layout/sidebar/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>To enable the sidebar, use <code>themeConfig.sidebar</code>. The basic configuration expects an Array of links:</p>
 <div><pre><code><span>// .vuepress/config.js</span>
 module<span>.</span>exports <span>=</span> <span>{</span>
@@ -6740,7 +6740,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">Slide</title>
     <id>https://vuepress-theme-hope.github.io/guide/layout/slides/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/layout/slides/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p><code>vuepress-theme-hope</code> allows you to add slides pages.</p>
 <p>You need to set <code>layout: Slide</code> in the frontmatter of the corresponding page to enable the slides page.</p>
 ]]></summary>
@@ -6771,7 +6771,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">Custom alignment</title>
     <id>https://vuepress-theme-hope.github.io/guide/markdown/align/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/markdown/align/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>By injecting configuration into vuepress-plugin-container, you can use</p>
 <div><pre><code>::: center
 Paragraph to center
@@ -6907,7 +6907,7 @@ A custom details container
     <title type="html">Components</title>
     <id>https://vuepress-theme-hope.github.io/guide/markdown/components/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/markdown/components/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<h2 id="badge"> Badge</h2>
 <p>Badge available in Markdown</p>
 <h3 id="badge-props"> Badge Props</h3>
@@ -6999,7 +6999,7 @@ A custom details container
     <title type="html">Code Demo</title>
     <id>https://vuepress-theme-hope.github.io/guide/markdown/demo/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/markdown/demo/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>Let you insert code demos in your Markdown file.</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>Let you insert code demos in your Markdown file.</p>
@@ -7425,7 +7425,7 @@ document<span>.</span><span>querySelector</span><span>(</span><span>"h1"</span><
     <title type="html">External import</title>
     <id>https://vuepress-theme-hope.github.io/guide/markdown/external/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/markdown/external/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>In addition to using new syntax inside Markdown to enhance content, you can also use <code>&lt;iframe&gt;</code> or <code>&lt;img&gt;</code> to import external links to enhance your Markdown content.</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>In addition to using new syntax inside Markdown to enhance content, you can also use <code>&lt;iframe&gt;</code> or <code>&lt;img&gt;</code> to import external links to enhance your Markdown content.</p>
@@ -7512,7 +7512,7 @@ document<span>.</span><span>querySelector</span><span>(</span><span>"h1"</span><
     <title type="html">Flowchart</title>
     <id>https://vuepress-theme-hope.github.io/guide/markdown/flowchart/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/markdown/flowchart/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>Let the Markdown file support flow chart in your VuePress site</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>Let the Markdown file support flow chart in your VuePress site</p>
@@ -7575,7 +7575,7 @@ c2(no)->op2->e
     <title type="html">Footnote</title>
     <id>https://vuepress-theme-hope.github.io/guide/markdown/footnote/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/markdown/footnote/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>Let the Markdown file in your VuePress site support footnotes.</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>Let the Markdown file in your VuePress site support footnotes.</p>
@@ -7619,7 +7619,7 @@ c2(no)->op2->e
     <title type="html">Enable Enhance</title>
     <id>https://vuepress-theme-hope.github.io/guide/markdown/intro/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/markdown/intro/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>Besides Markdown syntaxes VuePress itself adds, <code>vuepress-theme-hope</code> enables more syntax in Markdown via <a href="https://vuepress-theme-hope.github.io/md-enhance" target="_blank" rel="noopener noreferrer">vuepress-plugin-md-enhance</a> plugin.</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>Besides Markdown syntaxes VuePress itself adds, <code>vuepress-theme-hope</code> enables more syntax in Markdown via <a href="https://vuepress-theme-hope.github.io/md-enhance" target="_blank" rel="noopener noreferrer">vuepress-plugin-md-enhance</a> plugin.</p>
@@ -7664,7 +7664,7 @@ c2(no)->op2->e
     <title type="html">Mark</title>
     <id>https://vuepress-theme-hope.github.io/guide/markdown/mark/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/markdown/mark/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>Make Markdown files in your VuePress site support mark.</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>Make Markdown files in your VuePress site support mark.</p>
@@ -7697,7 +7697,7 @@ c2(no)->op2->e
     <title type="html">Presentation</title>
     <id>https://vuepress-theme-hope.github.io/guide/markdown/presentation/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/markdown/presentation/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>Let the Markdown file in your VuePress site support presentation.</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>Let the Markdown file in your VuePress site support presentation.</p>
@@ -7798,7 +7798,7 @@ $$
     <title type="html">Markdown Enhance</title>
     <id>https://vuepress-theme-hope.github.io/guide/markdown/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/markdown/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>Besides Markdown syntaxes VuePress itself adds, <code>vuepress-theme-hope</code> enables more syntax in Markdown via <a href="https://vuepress-theme-hope.github.io/md-enhance" target="_blank" rel="noopener noreferrer">vuepress-plugin-md-enhance</a> plugin.</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>Besides Markdown syntaxes VuePress itself adds, <code>vuepress-theme-hope</code> enables more syntax in Markdown via <a href="https://vuepress-theme-hope.github.io/md-enhance" target="_blank" rel="noopener noreferrer">vuepress-plugin-md-enhance</a> plugin.</p>
@@ -7856,7 +7856,7 @@ $$
     <title type="html">Superscript and Subscript</title>
     <id>https://vuepress-theme-hope.github.io/guide/markdown/sup-sub/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/markdown/sup-sub/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>Let the Markdown file in your VuePress site support Subscript and Superscript.</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>Let the Markdown file in your VuePress site support Subscript and Superscript.</p>
@@ -7898,7 +7898,7 @@ $$
     <title type="html">Tex</title>
     <id>https://vuepress-theme-hope.github.io/guide/markdown/tex/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/markdown/tex/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>Let the Markdown file in your VuePress site support the <span><span><i>Not supported content</i></span><span aria-hidden="true"><span><span style="height:0.89883em;vertical-align:-0.2155em;"></span><span><span>T</span><span style="margin-right:-0.1667em;"></span><span><span><span style="height:0.46782999999999997em;"><span style="top:-2.7845em;"><span style="height:3em;"></span><span><span>E</span></span></span></span><span>​</span></span><span><span style="height:0.2155em;"><span></span></span></span></span><span style="margin-right:-0.125em;"></span><span>X</span></span></span></span></span> syntax.</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>Let the Markdown file in your VuePress site support the <span><span><i>Not supported content</i></span><span aria-hidden="true"><span><span style="height:0.89883em;vertical-align:-0.2155em;"></span><span><span>T</span><span style="margin-right:-0.1667em;"></span><span><span><span style="height:0.46782999999999997em;"><span style="top:-2.7845em;"><span style="height:3em;"></span><span><span>E</span></span></span></span><span>​</span></span><span><span style="height:0.2155em;"><span></span></span></span></span><span style="margin-right:-0.125em;"></span><span>X</span></span></span></span></span> syntax.</p>
@@ -7945,7 +7945,7 @@ $$
     <title type="html">Guide</title>
     <id>https://vuepress-theme-hope.github.io/guide/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<div><p>Tips</p>
 <p>If you met a bug while using, you can open an issue <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/issues" target="_blank" rel="noopener noreferrer">here</a></p>
 </div>
@@ -8140,7 +8140,7 @@ $$
     <title type="html">Home</title>
     <id>https://vuepress-theme-hope.github.io/</id>
     <link href="https://vuepress-theme-hope.github.io/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<p>You can use <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope-template" target="_blank" rel="noopener noreferrer">vuepress-theme-hope template</a> directly to start your VuePress journey.</p>
 <h2 id="🛠install"> 🛠Install</h2>
 <CodeGroup>
@@ -8179,7 +8179,7 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
     <title type="html">常见问题</title>
     <id>https://vuepress-theme-hope.github.io/zh/FAQ/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/FAQ/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<h2 id="官方-qq-群"> 官方 QQ 群</h2>
 <ul>
 <li><a href="https://jq.qq.com/?_wv=1027&amp;k=rATJyxGK" target="_blank" rel="noopener noreferrer">点击加入</a> (群号: 1003437555)</li>
@@ -8231,7 +8231,7 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
     <title type="html">Markdown示例</title>
     <id>https://vuepress-theme-hope.github.io/zh/basic/markdown/demo/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/basic/markdown/demo/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[
 <h1 id="一级标题"> 一级标题</h1>
 
@@ -8487,7 +8487,7 @@ console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span
     <title type="html">自然</title>
     <id>https://vuepress-theme-hope.github.io/zh/basic/markdown/emoji/nature/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/basic/markdown/emoji/nature/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<ul>
 <li>☀️ <code>:sunny:</code></li>
 <li>☔️ <code>:umbrella:</code></li>
@@ -8617,7 +8617,7 @@ console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span
     <title type="html">对象</title>
     <id>https://vuepress-theme-hope.github.io/zh/basic/markdown/emoji/object/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/basic/markdown/emoji/object/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<ul>
 <li>🎍 <code>:bamboo:</code></li>
 <li>💝 <code>:gift_heart:</code></li>
@@ -8894,7 +8894,7 @@ console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span
     <title type="html">人物</title>
     <id>https://vuepress-theme-hope.github.io/zh/basic/markdown/emoji/people/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/basic/markdown/emoji/people/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<ul>
 <li>😄 <code>:smile:</code></li>
 <li>😆 <code>:laughing:</code></li>
@@ -9089,7 +9089,7 @@ console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span
     <title type="html">地点</title>
     <id>https://vuepress-theme-hope.github.io/zh/basic/markdown/emoji/place/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/basic/markdown/emoji/place/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<ul>
 <li>🏠 <code>:house:</code></li>
 <li>🏡 <code>:house_with_garden:</code></li>
@@ -9201,7 +9201,7 @@ console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span
     <title type="html">Emoji 列表</title>
     <id>https://vuepress-theme-hope.github.io/zh/basic/markdown/emoji/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/basic/markdown/emoji/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<h1 id="emoji-列表"> Emoji 列表</h1>
 <h2 id="人物"> 人物</h2>
 <ul>
@@ -9236,7 +9236,7 @@ console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span
     <title type="html">符号</title>
     <id>https://vuepress-theme-hope.github.io/zh/basic/markdown/emoji/symbol/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/basic/markdown/emoji/symbol/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<ul>
 <li>1️⃣ <code>:one:</code></li>
 <li>2️⃣ <code>:two:</code></li>
@@ -9443,7 +9443,7 @@ console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span
     <title type="html">Markdown 介绍</title>
     <id>https://vuepress-theme-hope.github.io/zh/basic/markdown/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/basic/markdown/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>Markdown 是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。</p>
 <p>Markdown 的目标是实现「易读易写」。</p>
 ]]></summary>
@@ -10022,7 +10022,7 @@ A backtick-delimited string in a code span: <span>`` `foo` ``</span>
     <title type="html">基础知识</title>
     <id>https://vuepress-theme-hope.github.io/zh/basic/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/basic/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<h1 id="基础知识"> 基础知识</h1>
 <p>这里是一些和 VuePress 有关的基础知识。</p>
 <ul>
@@ -10046,7 +10046,7 @@ A backtick-delimited string in a code span: <span>`` `foo` ``</span>
     <title type="html">VuePress 案例</title>
     <id>https://vuepress-theme-hope.github.io/zh/basic/vuepress/case/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/basic/vuepress/case/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<h2 id="资源"> 资源</h2>
 <h3 id="官方资源"> 官方资源</h3>
 <ul>
@@ -10281,7 +10281,7 @@ A backtick-delimited string in a code span: <span>`` `foo` ``</span>
     <title type="html">项目指令</title>
     <id>https://vuepress-theme-hope.github.io/zh/basic/vuepress/command/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/basic/vuepress/command/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<h2 id="安装项目依赖"> 安装项目依赖</h2>
 <CodeGroup>
 <CodeGroupItem title="yarn">
@@ -10353,7 +10353,7 @@ A backtick-delimited string in a code span: <span>`` `foo` ``</span>
     <title type="html">文件结构介绍</title>
     <id>https://vuepress-theme-hope.github.io/zh/basic/vuepress/file/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/basic/vuepress/file/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<h2 id="文件结构"> 文件结构</h2>
 <div><pre><code>.
 ├── dist → 构建输出目录
@@ -10496,7 +10496,7 @@ A backtick-delimited string in a code span: <span>`` `foo` ``</span>
     <title type="html">内置 Markdown 拓展</title>
     <id>https://vuepress-theme-hope.github.io/zh/basic/vuepress/markdown/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/basic/vuepress/markdown/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<p>以下是 VuePress 在 Markdown 基础语法上对 Markdown 功能进行的扩展。</p>
 <h2 id="标题-anchor"> 标题 Anchor</h2>
 <p>所有的标题将会自动地应用 anchor 链接。</p>
@@ -10809,7 +10809,7 @@ export default { // Highlighted
     <title type="html">插件</title>
     <id>https://vuepress-theme-hope.github.io/zh/basic/vuepress/plugin/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/basic/vuepress/plugin/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<h2 id="介绍"> 介绍</h2>
 <p>插件通常会为 VuePress 添加全局功能。</p>
 <p>整个插件系统的架构如下:</p>
@@ -10945,7 +10945,7 @@ export default { // Highlighted
     <title type="html">VuePress</title>
     <id>https://vuepress-theme-hope.github.io/zh/basic/vuepress/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/basic/vuepress/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>VuePress 是一个 Vue 驱动的静态网站生成器。它遵循:</p>
 <ul>
 <li>
@@ -11031,7 +11031,7 @@ export default { // Highlighted
     <title type="html">主题配置</title>
     <id>https://vuepress-theme-hope.github.io/zh/basic/vuepress/theme/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/basic/vuepress/theme/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<p>使用一个主题和使用一个插件的方式几乎一致。</p>
 <h3 id="使用来自依赖的主题"> 使用来自依赖的主题</h3>
 <p>一个主题可以在以 <code>vuepress-theme-xxx</code> 的形式发布到 npm，你可以这样使用它:</p>
@@ -11077,7 +11077,7 @@ export default { // Highlighted
     <title type="html">页面配置</title>
     <id>https://vuepress-theme-hope.github.io/zh/config/page/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/config/page/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<p>页面的 frontmatter 新增如下配置选项:</p>
 <h2 id="页面信息配置"> 页面信息配置</h2>
 <h3 id="icon"> icon</h3>
@@ -11387,7 +11387,7 @@ export default { // Highlighted
     <title type="html">vuepress-plugin-container</title>
     <id>https://vuepress-theme-hope.github.io/zh/config/plugin/container/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/config/plugin/container/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>Markdown 自定义容器。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>Markdown 自定义容器。</p>
@@ -11471,7 +11471,7 @@ export default { // Highlighted
     <title type="html">vuepress-plugin-copyright</title>
     <id>https://vuepress-theme-hope.github.io/zh/config/plugin/copyright/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/config/plugin/copyright/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>处理你的 VuePress 站点中的复制操作</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>处理你的 VuePress 站点中的复制操作</p>
@@ -11511,7 +11511,7 @@ export default { // Highlighted
     <title type="html">插件说明</title>
     <id>https://vuepress-theme-hope.github.io/zh/config/plugin/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/config/plugin/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p><code>vuepress-theme-hope</code> 自带了很多 VuePress 插件。一些插件会自动启用，如果你不需要，可以在 themeConfig 中将其禁用；一些插件也只有你进行配置才会启用。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p><code>vuepress-theme-hope</code> 自带了很多 VuePress 插件。一些插件会自动启用，如果你不需要，可以在 themeConfig 中将其禁用；一些插件也只有你进行配置才会启用。</p>
@@ -11602,7 +11602,7 @@ export default { // Highlighted
     <title type="html">配置</title>
     <id>https://vuepress-theme-hope.github.io/zh/config/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/config/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<h2 id="主题配置"> 主题配置</h2>
 <ul>
 <li>
@@ -11647,7 +11647,7 @@ export default { // Highlighted
     <title type="html">Stylus 配置</title>
     <id>https://vuepress-theme-hope.github.io/zh/config/stylus/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/config/stylus/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>你可以通过在 <code>.vuepress/styles</code> 中的 palette.styl 写入变量值来更改主题的样式。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>你可以通过在 <code>.vuepress/styles</code> 中的 palette.styl 写入变量值来更改主题的样式。</p>
@@ -11734,7 +11734,7 @@ export default { // Highlighted
     <title type="html">主题布局配置</title>
     <id>https://vuepress-theme-hope.github.io/zh/config/theme/apperance/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/config/theme/apperance/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<p>以下是主题提供的外观配置选项，一般情况下你无需关注他们，它们仅为有相关配置需求的少数用户提供。</p>
 <h2 id="algoliatype"> algoliaType</h2>
 <ul>
@@ -11822,7 +11822,7 @@ export default { // Highlighted
     <title type="html">默认主题配置</title>
     <id>https://vuepress-theme-hope.github.io/zh/config/theme/default/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/config/theme/default/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<p>以下这些配置沿用了 <code>@vuepress/theme-default</code> 的配置项，你无需进行改动:</p>
 <div><p>Note</p>
 <p>通过注入，vuepress-theme-hope 改变了默认主题一些配置的默认值。</p>
@@ -11940,7 +11940,7 @@ export default { // Highlighted
     <title type="html">主题功能配置</title>
     <id>https://vuepress-theme-hope.github.io/zh/config/theme/feature/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/config/theme/feature/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<p>这些是主题功能的配置项。</p>
 <h2 id="主题色与深色模式"> 主题色与深色模式 <i>Not supported content</i></h2>
 <p>主题色和深色模式设置选项配置。</p>
@@ -12110,7 +12110,7 @@ export default { // Highlighted
     <title type="html">主题插件配置</title>
     <id>https://vuepress-theme-hope.github.io/zh/config/theme/plugin/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/config/theme/plugin/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<p>这些是主题提供的插件配置选项。</p>
 <div><p>Tips</p>
 <p>所有的配置键名均为插件名称的驼峰式 (camelcase) 版本。</p>
@@ -12533,7 +12533,7 @@ export default { // Highlighted
     <title type="html">分类与标签</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/blog/category-and-tags/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/blog/category-and-tags/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>你可以通过 frontmatter 来为文章配置分类与标签，使它们出现在特定的分类与标签页面中。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>你可以通过 frontmatter 来为文章配置分类与标签，使它们出现在特定的分类与标签页面中。</p>
@@ -12594,7 +12594,7 @@ export default { // Highlighted
     <title type="html">博客首页</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/blog/home/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/blog/home/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p><code>vuepress-theme-hope</code> 允许你启用博客风格的首页。</p>
 <p>你需要在相应的页面的 frontmatter 中，设置 <code>blog: true</code> 来开启博客风格。</p>
 ]]></summary>
@@ -12687,7 +12687,7 @@ export default { // Highlighted
     <title type="html">博客功能介绍</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/blog/intro/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/blog/intro/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>主题通过引入 <code>@vuepress/plugin-blog</code> <strong>默认</strong>启用了一些博客功能。</p>
 <p>如果你不需要任何的博客功能 (比如一个纯文档站点)，你可以配置 <code>themeConfig.blog</code> 为 <code>false</code> 来禁用全部的博客功能。</p>
 ]]></summary>
@@ -12733,7 +12733,7 @@ export default { // Highlighted
     <title type="html">博客</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/blog/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/blog/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<h2 id="目录"> 目录</h2>
 <ul>
 <li>
@@ -12766,7 +12766,7 @@ export default { // Highlighted
     <title type="html">时间线</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/blog/timeline/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/blog/timeline/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<p>你可以通过 <code>/timeline/</code> 访问时间页面，在页面中，你可以按照时间倒序查看所有的文章列表。</p>
 <p><img src="./assets/timeline.png" alt="时间线列表哦"></p>
 <h2 id="排除文章"> 排除文章</h2>
@@ -12790,7 +12790,7 @@ export default { // Highlighted
     <title type="html">评论</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/feature/comment/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/feature/comment/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>通过内置 <a href="https://vuepress-theme-hope.github.io/comment/zh/" target="_blank" rel="noopener noreferrer"><code>@mr-hope/vuepress-plugin-comment</code></a>，<code>vuepress-theme-hope</code> 实现了评论功能。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>通过内置 <a href="https://vuepress-theme-hope.github.io/comment/zh/" target="_blank" rel="noopener noreferrer"><code>@mr-hope/vuepress-plugin-comment</code></a>，<code>vuepress-theme-hope</code> 实现了评论功能。</p>
@@ -12892,7 +12892,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">代码复制</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/feature/copy-code/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/feature/copy-code/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>如果你是一个程序员，你可能希望你的用户能够一键复制你在正文中展示的代码。</p>
 <p>针对这一情况，<code>vuepress-theme-hope</code> 内置了 <a href="https://vuepress-theme-hope.github.io/copy-code/zh/" target="_blank" rel="noopener noreferrer">@mr-hope/copy-code</a>，提供了一个复制按钮。</p>
 ]]></summary>
@@ -12925,7 +12925,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">版权信息</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/feature/copyright/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/feature/copyright/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>有些时候，你可能不想让你的某些文章被他人复制，或者你想让他人在复制时，自动生成一段版权信息到剪切板中。</p>
 <p>针对这一情况，<code>vuepress-theme-hope</code> 引入了 <a href="https://www.npmjs.com/package/vuepress-plugin-copyright" target="_blank" rel="noopener noreferrer">vuepress-plugin-copyright</a>。</p>
 ]]></summary>
@@ -12969,7 +12969,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">加密</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/feature/encrypt/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/feature/encrypt/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>主题支持对特定文件夹或特定的路径进行加密，也支持进行全局范围的加密。</p>
 <div><p>警告</p>
 <p>注意，受到 VuePress 的限制，在未解密前，文章内容仅仅被隐藏，访问者仍可以从源码中获取文章的内容。</p>
@@ -13010,7 +13010,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">Feed 支持</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/feature/feed/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/feature/feed/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p><code>vuepress-theme-hope</code> 通过内置 <a href="https://vuepress-theme-hope.github.io/feed/zh/" target="_blank" rel="noopener noreferrer"><code>@mr-hope/vuepress-plugin-feed</code></a> 插件来为你提供 feed 支持。</p>
 <p>主题会自动为你生成以下三种格式的 feed 文件:</p>
 <ul>
@@ -13058,7 +13058,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">最后更新时间</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/feature/last-update/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/feature/last-update/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>vuepress-theme-hope 通过内置 <a href="https://vuepress-theme-hope.github.io/last-update/zh/" target="_blank" rel="noopener noreferrer"><code>@mr-hope/vuepress-plugin-last-update</code></a> 插件，实现了页面最后更新时间的自动生成。</p>
 <p>默认情况下，页面的更新时间会通过页面文件文件最后一次 <code>git</code> 提交的 UNIX 时间戳 (ms) 来自动生成，并将以合适的日期格式显示在每一页的底部。</p>
 ]]></summary>
@@ -13087,7 +13087,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">页面信息</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/feature/page-info/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/feature/page-info/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>通过内置 <a href="https://vuepress-theme-hope.github.io/comment/zh/" target="_blank" rel="noopener noreferrer"><code>@mr-hope/vuepress-plugin-comment</code></a>，<code>vuepress-theme-hope</code> 实现了文章信息展示。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>通过内置 <a href="https://vuepress-theme-hope.github.io/comment/zh/" target="_blank" rel="noopener noreferrer"><code>@mr-hope/vuepress-plugin-comment</code></a>，<code>vuepress-theme-hope</code> 实现了文章信息展示。</p>
@@ -13205,7 +13205,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">图片预览</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/feature/photo-swipe/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/feature/photo-swipe/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>通过内置 <a href="https://vuepress-theme-hope.github.io/photo-swipe/" target="_blank" rel="noopener noreferrer">vuepress-plugin-photo-swipe</a>, vuepress-theme-hope 会使页面正文内的图片在点击时进入浏览模式浏览。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>通过内置 <a href="https://vuepress-theme-hope.github.io/photo-swipe/" target="_blank" rel="noopener noreferrer">vuepress-plugin-photo-swipe</a>, vuepress-theme-hope 会使页面正文内的图片在点击时进入浏览模式浏览。</p>
@@ -13245,7 +13245,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">PWA</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/feature/pwa/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/feature/pwa/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>默认情况下，该主题将通过内置 <a href="https://vuepress-theme-hope.github.io/pwa/zh/" target="_blank" rel="noopener noreferrer"><code>@mr-hope/vuepress-plugin-pwa</code></a> 启用渐进式 Web 应用程序支持。</p>
 <p>如果你不需要此功能或想使用其他 pwa 插件，则可以将 <code>themeConfig.pwa</code> 设置为 <code>false</code> 来禁用该插件。</p>
 ]]></summary>
@@ -13278,7 +13278,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">功能</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/feature/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/feature/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<p>vuepress-theme-hope 引入了很多非常棒的功能。绝大部分功能都抽离成了单独组件，这意味着如果你喜欢它们，你可以在其他 VuePress 主题或默认主题中使用它们。</p>
 <h2 id="目录"> 目录</h2>
 <ul>
@@ -13373,7 +13373,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">SEO</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/feature/seo/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/feature/seo/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<p><code>vuepress-theme-hope</code> 通过内置 <a href="https://vuepress-theme-hope.github.io/seo/zh/" target="_blank" rel="noopener noreferrer"><code>@mr-hope/vuepress-plugin-seo</code></a> 为提供 SEO 增强功能。</p>
 <p>为了使插件能够更好的工作，可能需要查看一下 <a href="./../../config/page.html#页面信息配置">页面信息配置</a> 并合理的配置它们。</p>
 <p>如果不需要这个插件，请设置 <code>themeConfig.seo</code> 为 <code>false</code>。</p>
@@ -13516,7 +13516,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">Sitemap</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/feature/sitemap/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/feature/sitemap/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<p><code>vuepress-theme-hope</code> 通过内置 <a href="https://vuepress-theme-hope.github.io/sitemap/zh/" target="_blank" rel="noopener noreferrer"><code>@mr-hope/vuepress-plugin-sitemap</code></a> 为你提供 Sitemap 生成。</p>
 <p>插件会为你的网站自动生成 Sitemap，它会自动根据页面的 Git 的时间戳生成页面的最后更新时间，同时会根据站点的多语言配置声明页面的其他语言替代版本地址。</p>
 <p>如果你不需要这个插件，请设置 <code>themeConfig.sitemap</code> 为 <code>false</code>。</p>
@@ -13563,7 +13563,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">TS 支持</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/feature/typescript/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/feature/typescript/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p><code>vuepress-theme-hope</code> 的大部分文件都是使用 TypeScript 编写，所以 vuepress-theme-hope 也可以为你的 VuePress 项目带来了原生的 TypeScript 支持，你只需设置 <code>themeConfig.typescript</code> 为 <code>true</code> 即可开启 <code>typescript</code> 支持。</p>
 <p>开启 TypeScript 支持意味着你可以使用 <code>enhanceAppFiles.ts</code>，同时在你的 vue 组件 和 Markdown 文件中使用 Typescript。</p>
 <p>如果你需要向 ts-loader 传递一些自定义选项，你也可以将 <code>themeConfig.typescript</code> 设置为一个 Object 来传递给 ts-loader。</p>
@@ -13621,7 +13621,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">安装/使用</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/get-started/install/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/get-started/install/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<h2 id="在新项目中使用"> 在新项目中使用</h2>
 <p>如果你想构建自己的博客，或者在一个新的项目中使用本主题生成你的文档，你可以直接使用 <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope-template" target="_blank" rel="noopener noreferrer">vuepress-theme-hope 模板</a> 来开始你的 VuePress 之旅。点击 <code>Use this template</code> 按钮即可。</p>
 <h2 id="在旧项目中使用"> 在旧项目中使用</h2>
@@ -13662,7 +13662,7 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
     <title type="html">主题介绍</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/get-started/intro/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/get-started/intro/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<h2 id="🎈-主题的初衷与设计目标"> 🎈 主题的初衷与设计目标</h2>
 <h3 id="初衷"> 初衷</h3>
 <p>制作本主题的初衷是发现 VuePress 只是一个单纯的静态文档生成器。举个例子，它并不会注入 meta 标签做 SEO 优化，也不会生成 Sitemap 帮助搜索引擎索引文档内容。</p>
@@ -13731,7 +13731,7 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
     <title type="html">Markdown</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/get-started/markdown/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/get-started/markdown/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>VuePress 的每个文档页面都是由 Markdown 渲染而成。所以你需要通过在相应路径创建编写 Markdown 建立你的文档或博客页面。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>VuePress 的每个文档页面都是由 Markdown 渲染而成。所以你需要通过在相应路径创建编写 Markdown 建立你的文档或博客页面。</p>
@@ -13838,7 +13838,7 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
     <title type="html">快速上手</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/get-started/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/get-started/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<h2 id="目录"> 目录</h2>
 <ul>
 <li>
@@ -13865,7 +13865,7 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
     <title type="html">深色模式</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/interface/darkmode/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/interface/darkmode/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>在深色模式下，页面会使用深色背景与浅色文字，以保护你的眼睛。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>在深色模式下，页面会使用深色背景与浅色文字，以保护你的眼睛。</p>
@@ -13894,7 +13894,7 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
     <title type="html">图标支持</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/interface/icon/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/interface/icon/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>整个主题在多处都添加了 FontClass 格式图标的支持。</p>
 <p>目前你可以使用 iconfont 和 fontawesome 为你的项目添加图标。</p>
 <ul>
@@ -13985,7 +13985,7 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
     <title type="html">其他界面功能</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/interface/others/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/interface/others/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<h2 id="样式定制"> 样式定制</h2>
 <p>主题允许你在 <code>.vuepress/style</code> 的 <code>palette.styl</code> 设置变量，来定制绝大部分颜色、响应式断点，页面布局尺寸等参数。</p>
 <p>详细的参数详见 <a href="./../../config/stylus.html">Stylus 配置</a></p>
@@ -14018,7 +14018,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">界面</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/interface/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/interface/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<h2 id="目录"> 目录</h2>
 <ul>
 <li>
@@ -14048,7 +14048,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">主题色</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/interface/theme-color/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/interface/theme-color/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>这是一个开箱即用的功能，除了你的主题色之外，还提供 “红、蓝、绿、橙、紫” 五种颜色主题。你也可以定制自己的主题色选择列表。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>这是一个开箱即用的功能，除了你的主题色之外，还提供 “红、蓝、绿、橙、紫” 五种颜色主题。你也可以定制自己的主题色选择列表。</p>
@@ -14095,7 +14095,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">路径导航</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/layout/breadcrumb/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/layout/breadcrumb/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>vuepress-theme-hope 添加了开箱即用的路径导航支持，你可以通过 <code>breadcrumb</code> 字段控制它 <i>Not supported content</i> [^applypartically]，默认的值为 <code>true</code>。</p>
 <p>无需任何额外配置，一个和主题色相符合的路径导航会显示在页面内容最上方，帮助阅读者理解文档结构。</p>
 <p>你也可以通过 <code>breadcrumbIcon</code> 字段 <i>Not supported content</i> 控制路径导航的图标显示，默认值为 <code>true</code>。</p>
@@ -14134,7 +14134,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">页脚支持</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/layout/footer/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/layout/footer/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>vuepress-theme-hope 为所有页面提供了页脚功能<i>Not supported content</i>。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>vuepress-theme-hope 为所有页面提供了页脚功能<i>Not supported content</i>。</p>
@@ -14218,7 +14218,7 @@ medialink:
     <title type="html">首页</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/layout/home/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/layout/home/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p><code>vuepress-theme-hope</code> 对首页布局进行了一些改进。</p>
 <p>如果想要使用它，请在 frontmatter 中设置 <code>home: true</code>。任何 <code>YAML front matter</code> 之后额外的内容将会以普通的 Markdown 被渲染，并插入到 <code>features</code> 的后面。</p>
 <p><img src="./assets/home.png" alt="首页截图"></p>
@@ -14365,7 +14365,7 @@ copyrightText: false</span>
     <title type="html">导航栏</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/layout/navbar/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/layout/navbar/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>导航栏可能包含你的站点名称、、 、<a href="https://v1.vuepress.vuejs.org/zh/guide/i18n.html" target="_blank" rel="noopener noreferrer">多语言切换</a>、，它们均取决于你的配置。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>导航栏可能包含你的站点名称、、 、<a href="https://v1.vuepress.vuejs.org/zh/guide/i18n.html" target="_blank" rel="noopener noreferrer">多语言切换</a>、，它们均取决于你的配置。</p>
@@ -14736,7 +14736,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">页面</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/layout/page/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/layout/page/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<h2 id="图标支持"> 图标支持</h2>
 <p>你可以在页面的 frontmatter 中配置 <code>icon</code> 字段，填入对应图标的 FontClass 即可绑定图标到页面。</p>
 <details><summary>例子</summary>
@@ -14788,7 +14788,7 @@ next: false</span>
     <title type="html">布局</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/layout/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/layout/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<h2 id="目录"> 目录</h2>
 <ul>
 <li>
@@ -14833,7 +14833,7 @@ next: false</span>
     <title type="html">侧边栏</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/layout/sidebar/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/layout/sidebar/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>你需要配置 <code>themeConfig.sidebar</code>，才能在站点中显示侧边栏(Sidebar)。</p>
 <p>对于 Sidebar 基本的配置，可以传入一个包含多个链接的数组:</p>
 <div><pre><code><span>// .vuepress/config.js</span>
@@ -15307,7 +15307,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">幻灯片</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/layout/slides/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/layout/slides/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p><code>vuepress-theme-hope</code> 允许你添加幻灯片页面。</p>
 <p>你需要在相应的页面的 frontmatter 中，设置 <code>layout: Slide</code> 来开启幻灯片风格。</p>
 ]]></summary>
@@ -15340,7 +15340,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <title type="html">自定义对齐</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/markdown/align/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/markdown/align/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>通过对 <code>vuepress-plugin-container</code> 进行额外的配置注入，你可以使用</p>
 <div><pre><code>::: center
 要居中的段落
@@ -15481,7 +15481,7 @@ vuepress-theme-hope v2 仍在制作中，API 可能会有
     <title type="html">组件</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/markdown/components/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/markdown/components/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<h2 id="badge"> Badge</h2>
 <p>在 Markdown 中可用的徽章。</p>
 <h3 id="badge-属性"> Badge 属性</h3>
@@ -15573,7 +15573,7 @@ vuepress-theme-hope v2 仍在制作中，API 可能会有
     <title type="html">代码演示</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/markdown/demo/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/markdown/demo/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>让你的 VuePress 站点中的 Markdown 文件支持代码案例。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>让你的 VuePress 站点中的 Markdown 文件支持代码案例。</p>
@@ -15999,7 +15999,7 @@ document<span>.</span><span>querySelector</span><span>(</span><span>"h1"</span><
     <title type="html">外部引入</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/markdown/external/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/markdown/external/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>除了在 Markdown 内部使用新语法来增强内容外，你也可以使用 <code>&lt;iframe&gt;</code> 或 <code>&lt;img&gt;</code> 从外部引入链接来增强你的 Markdown 内容。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>除了在 Markdown 内部使用新语法来增强内容外，你也可以使用 <code>&lt;iframe&gt;</code> 或 <code>&lt;img&gt;</code> 从外部引入链接来增强你的 Markdown 内容。</p>
@@ -16086,7 +16086,7 @@ document<span>.</span><span>querySelector</span><span>(</span><span>"h1"</span><
     <title type="html">流程图</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/markdown/flowchart/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/markdown/flowchart/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>让你的 VuePress 站点中的 Markdown 文件支持流程图。</p>
 <p>本插件利用了 <a href="https://github.com/adrai/flowchart.js" target="_blank" rel="noopener noreferrer">flowchart.js</a> 来支持这一功能。</p>
 ]]></summary>
@@ -16150,7 +16150,7 @@ c2(no)->op2->e
     <title type="html">脚注</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/markdown/footnote/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/markdown/footnote/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>让你的 VuePress 站点中的 Markdown 文件支持脚注。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>让你的 VuePress 站点中的 Markdown 文件支持脚注。</p>
@@ -16221,7 +16221,7 @@ c2(no)->op2->e
     <title type="html">启用 Markdown 增强</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/markdown/intro/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/markdown/intro/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>除了 VuePress 本身新增了一些 Markdown 语法外，<code>vuepress-theme-hope</code> 通过 <a href="https://vuepress-theme-hope.github.io/md-enhance" target="_blank" rel="noopener noreferrer">vuepress-plugin-md-enhance</a>，在 Markdown 中启用了更多的语法与新功能。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>除了 VuePress 本身新增了一些 Markdown 语法外，<code>vuepress-theme-hope</code> 通过 <a href="https://vuepress-theme-hope.github.io/md-enhance" target="_blank" rel="noopener noreferrer">vuepress-plugin-md-enhance</a>，在 Markdown 中启用了更多的语法与新功能。</p>
@@ -16265,7 +16265,7 @@ c2(no)->op2->e
     <title type="html">标记</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/markdown/mark/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/markdown/mark/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>让你的 VuePress 站点中的 Markdown 文件支持标记。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>让你的 VuePress 站点中的 Markdown 文件支持标记。</p>
@@ -16298,7 +16298,7 @@ c2(no)->op2->e
     <title type="html">幻灯片</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/markdown/presentation/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/markdown/presentation/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>让你的 VuePress 站点中的 Markdown 文件支持幻灯片。</p>
 <p>本插件利用了 <a href="https://revealjs.com/" target="_blank" rel="noopener noreferrer">reveal.js</a> 来支持这一功能。</p>
 ]]></summary>
@@ -16399,7 +16399,7 @@ $$
     <title type="html">Markdown 增强</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/markdown/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/markdown/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>除了 VuePress 本身新增了一些 Markdown 语法外，<code>vuepress-theme-hope</code> 通过 <a href="https://vuepress-theme-hope.github.io/md-enhance" target="_blank" rel="noopener noreferrer">vuepress-plugin-md-enhance</a>，在 Markdown 中启用了更多的语法与新功能。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>除了 VuePress 本身新增了一些 Markdown 语法外，<code>vuepress-theme-hope</code> 通过 <a href="https://vuepress-theme-hope.github.io/md-enhance" target="_blank" rel="noopener noreferrer">vuepress-plugin-md-enhance</a>，在 Markdown 中启用了更多的语法与新功能。</p>
@@ -16458,7 +16458,7 @@ $$
     <title type="html">上下角标</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/markdown/sup-sub/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/markdown/sup-sub/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>让你的 VuePress 站点中的 Markdown 文件支持上下角标。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>让你的 VuePress 站点中的 Markdown 文件支持上下角标。</p>
@@ -16499,169 +16499,10 @@ $$
     <rights>Copyright by Mr.Hope</rights>
   </entry>
   <entry>
-    <title type="html">文章列表</title>
-    <id>https://vuepress-theme-hope.github.io/zh/guide/blog/article/</id>
-    <link href="https://vuepress-theme-hope.github.io/zh/guide/blog/article/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
-    <summary type="html"><![CDATA[<p>主题在 <code>/article/</code> 路径下为你提供了全部的文章列表。</p>
-]]></summary>
-    <content type="html"><![CDATA[<p>主题在 <code>/article/</code> 路径下为你提供了全部的文章列表。</p>
-
-<h2 id="文章"> 文章</h2>
-<p>所有文章都会默认被添加到文章列表中渲染在 <code>/article/</code> 路径下。</p>
-<p><img src="./assets/article.png" alt="文章列表"></p>
-<p>如果你不希望该列表包含一些特定的文章，只需在文章的 frontmatter 中将 <code>article</code> 设置为 <code>false</code>。</p>
-<p>如果你希望在文章列表中置顶特定文章，只需在文章的 frontmatter 中将 <code>sticky</code> 设置为 <code>true</code>。</p>
-<div><p>置顶顺序</p>
-<p>对于置顶文章，你可以将 <code>sticky</code> 设置为 <code>number</code> 来设置它们的顺序。数值大的文章会排列在前面。</p>
-</div>
-<h2 id="收藏文章"> 收藏文章</h2>
-<p>你可以通过在 frontmatter 中设置 <code>star</code> 为 <code>true</code> 收藏一个文章。收藏后，用户就可以在 <code>/star/</code> 页面中查看这些文章。</p>
-<p>同时任何任何收藏的文章都会显示在博客主页侧边栏的文章栏目中。</p>
-<div><p>Info</p>
-<p>我们提供收藏选项的考虑是: 主题使用者可能希望向访客展示一定数量的精品文章，而又不希望置顶文章充斥主页，导致用户不能看到最近更新的文章。</p>
-</div>
-<div><p>收藏顺序</p>
-<p>类似置顶文章，你同样可以将 <code>star</code> 设置为 <code>number</code> 来设置它们的顺序。数值大的文章会排列在前面。</p>
-</div>
-<h2 id="加密与幻灯片"> 加密与幻灯片</h2>
-<p>主题为加密文章页与幻灯片页这两个特殊页面提供了单独的列表，你可以在 <code>/encrypt/</code> 和 <code>/slide/</code> 页面查看它们。</p>
-<p>同时为了帮助访问者区分，这两个类别的页面会在文章列表中用图标明确标明其类别。</p>
-<p><img src="./assets/icon-type.png" alt="类别提示"></p>
-]]></content>
-    <author>
-      <name>Mr.Hope</name>
-    </author>
-    <category term="blog"/>
-    <contributor>
-      <name>Mr.Hope</name>
-    </contributor>
-    <rights>Copyright by Mr.Hope</rights>
-  </entry>
-  <entry>
-    <title type="html">项目案例</title>
-    <id>https://vuepress-theme-hope.github.io/zh/demo/</id>
-    <link href="https://vuepress-theme-hope.github.io/zh/demo/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="mr-hope-的个人博客"> Mr.Hope 的个人博客</h2>
-<ul>
-<li><a href="https://mrhope.site" target="_blank" rel="noopener noreferrer">项目地址</a></li>
-<li><a href="https://github.com/Mister-Hope/Mister-Hope.github.io" target="_blank" rel="noopener noreferrer">项目文件</a></li>
-</ul>
-<h2 id="希望工作室官网"> 希望工作室官网</h2>
-<ul>
-<li><a href="https://hope-studio.innenu.com" target="_blank" rel="noopener noreferrer">项目地址</a></li>
-<li><a href="https://github.com/Hope-Studio/Hope-Studio.github.io" target="_blank" rel="noopener noreferrer">项目文件</a></li>
-</ul>
-<h2 id="vuepress-theme-hope-文档"> vuepress-theme-hope 文档</h2>
-<ul>
-<li><a href="https://vuepress-theme-hope.github.io" target="_blank" rel="noopener noreferrer">项目地址</a></li>
-<li><a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/tree/v1/docs/theme" target="_blank" rel="noopener noreferrer">项目文件</a></li>
-</ul>
-<h2 id="docker-从入门到实践"> Docker 从入门到实践</h2>
-<ul>
-<li><a href="https://vuepress.mirror.docker-practice.com/" target="_blank" rel="noopener noreferrer">项目地址</a></li>
-<li><a href="https://github.com/yeasy/docker_practice" target="_blank" rel="noopener noreferrer">项目文件</a></li>
-</ul>
-<h2 id="更多"> 更多</h2>
-<ul>
-<li>随时随地添加你的博客或文档到此</li>
-</ul>
-]]></content>
-    <author>
-      <name>Mr.Hope</name>
-    </author>
-    <category term="demo"/>
-    <contributor>
-      <name>Mr.Hope</name>
-    </contributor>
-    <rights>Copyright by Mr.Hope</rights>
-  </entry>
-  <entry>
-    <title type="html">主题配置</title>
-    <id>https://vuepress-theme-hope.github.io/zh/config/theme/</id>
-    <link href="https://vuepress-theme-hope.github.io/zh/config/theme/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
-    <content type="html"><![CDATA[<div><p>Tips</p>
-<p>你可以查看 <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/docs/theme/src/.vuepress/config.js" target="_blank" rel="noopener noreferrer">本文档的配置</a> 作为案例，你也可以直接查看源代码中的 <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/packages/theme/types/theme/" target="_blank" rel="noopener noreferrer">types 文件</a></p>
-</div>
-<p><code>.vuepress/config.js</code> 中的 themeConfig 字段(主题字段)新增以下配置:</p>
-<h2 id="基本选项"> 基本选项</h2>
-<div><p>Warning</p>
-<p>这些选项很重要，需要你正确配置。</p>
-</div>
-<h3 id="baselang"> baseLang</h3>
-<ul>
-<li>类型: <code>string</code></li>
-<li>默认值: <code>'en-US'</code></li>
-</ul>
-<p>主目录所对应的语言。</p>
-<p>这个选项会保证主目录页面中主题文字使用正确的语言显示。你可以根据自己的需要将其改为其他语言。</p>
-<div><p>Tips</p>
-<p>目前多语言仅适配了 <strong>简体中文</strong> (zh-CN)、<strong>英文(美国)</strong> (en-US) 与 越南语 (vi-VN)。</p>
-<p>如果你需要其它语言的多语言支持，你可以 <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/packages/shared/src/i18n/config.ts" target="_blank" rel="noopener noreferrer">向此文件提交一个 PR</a></p>
-</div>
-<h3 id="author"> author</h3>
-<ul>
-<li>类型: <code>string</code></li>
-<li>必填: 否</li>
-</ul>
-<p>文章显示的默认作者</p>
-<h3 id="nav"> nav <i>Not supported content</i></h3>
-<p>NavBarItem 新增</p>
-<ul>
-<li><code>icon</code> 字段来支持图标显示。</li>
-<li><code>prefix</code> 字段来自动添加分组前缀</li>
-</ul>
-<p>具体配置，请见 <a href="./../../guide/layout/navbar.html">布局 → 导航栏</a></p>
-<h3 id="sidebar"> sidebar <i>Not supported content</i></h3>
-<p>SideBarItem 新增</p>
-<ul>
-<li><code>icon</code> 字段来支持图标显示。</li>
-<li><code>prefix</code> 字段来自动添加分组前缀</li>
-</ul>
-<p>具体配置，请见 <a href="./../../guide/layout/sidebar.html">布局 → 侧边栏</a></p>
-<h3 id="locales"> locales</h3>
-<ul>
-<li>类型: <code>Record&lt;string, HopeLangI18nConfigItem&gt;</code></li>
-</ul>
-<p>主题的多语言配置，主要需要配置各语言的 <code>nav</code> 与 <code>sidebar</code>。</p>
-<h3 id="hostname"> hostname</h3>
-<ul>
-<li>类型: <code>string</code></li>
-<li>必填: 是</li>
-</ul>
-<p>当前网站部署到的域名。</p>
-<h2 id="更多配置"> 更多配置</h2>
-<ul>
-<li>
-<p><a href="./default.html"><strong>默认主题配置</strong></a></p>
-</li>
-<li>
-<p><a href="./feature.html"><strong>主题功能配置</strong></a></p>
-</li>
-<li>
-<p><a href="./plugin.html"><strong>主题插件配置</strong></a></p>
-</li>
-<li>
-<p><a href="./apperance.html"><strong>主题外观配置</strong></a></p>
-</li>
-</ul>
-]]></content>
-    <author>
-      <name>Mr.Hope</name>
-    </author>
-    <category term="config"/>
-    <contributor>
-      <name>Mr.Hope</name>
-    </contributor>
-    <rights>Copyright by Mr.Hope</rights>
-  </entry>
-  <entry>
     <title type="html">Tex</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/markdown/tex/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/markdown/tex/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<p>让你的 VuePress 站点中的 Markdown 文件支持 <span><span><i>Not supported content</i></span><span aria-hidden="true"><span><span style="height:0.89883em;vertical-align:-0.2155em;"></span><span><span>T</span><span style="margin-right:-0.1667em;"></span><span><span><span style="height:0.46782999999999997em;"><span style="top:-2.7845em;"><span style="height:3em;"></span><span><span>E</span></span></span></span><span>​</span></span><span><span style="height:0.2155em;"><span></span></span></span></span><span style="margin-right:-0.125em;"></span><span>X</span></span></span></span></span> 语法。</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>让你的 VuePress 站点中的 Markdown 文件支持 <span><span><i>Not supported content</i></span><span aria-hidden="true"><span><span style="height:0.89883em;vertical-align:-0.2155em;"></span><span><span>T</span><span style="margin-right:-0.1667em;"></span><span><span><span style="height:0.46782999999999997em;"><span style="top:-2.7845em;"><span style="height:3em;"></span><span><span>E</span></span></span></span><span>​</span></span><span><span style="height:0.2155em;"><span></span></span></span></span><span style="margin-right:-0.125em;"></span><span>X</span></span></span></span></span> 语法。</p>
@@ -16708,7 +16549,7 @@ $$
     <title type="html">指南</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <summary type="html"><![CDATA[<div><p>提示</p>
 <p>如果你在使用过程中遇到了 bug，可以 <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/issues" target="_blank" rel="noopener noreferrer">提一个 issue</a> 或者 <a href="https://jq.qq.com/?_wv=1027&amp;k=rATJyxGK" target="_blank" rel="noopener noreferrer">加入 QQ 群</a> (群号: 1003437555) 进行反馈。</p>
 </div>
@@ -16903,7 +16744,7 @@ $$
     <title type="html">主页</title>
     <id>https://vuepress-theme-hope.github.io/zh/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/"/>
-    <updated>2021-03-08T03:25:52.000Z</updated>
+    <updated>2021-03-08T11:33:11.000Z</updated>
     <content type="html"><![CDATA[<p>你可以直接使用 <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope-template" target="_blank" rel="noopener noreferrer">vuepress-theme-hope 模板</a> 来开始你的 VuePress 之旅。</p>
 <h2 id="🛠-安装"> 🛠 安装</h2>
 <CodeGroup>
@@ -16937,6 +16778,165 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
     <author>
       <name>Mr.Hope</name>
     </author>
+    <contributor>
+      <name>Mr.Hope</name>
+    </contributor>
+    <rights>Copyright by Mr.Hope</rights>
+  </entry>
+  <entry>
+    <title type="html">文章列表</title>
+    <id>https://vuepress-theme-hope.github.io/zh/guide/blog/article/</id>
+    <link href="https://vuepress-theme-hope.github.io/zh/guide/blog/article/"/>
+    <updated>2021-03-08T11:33:11.000Z</updated>
+    <summary type="html"><![CDATA[<p>主题在 <code>/article/</code> 路径下为你提供了全部的文章列表。</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>主题在 <code>/article/</code> 路径下为你提供了全部的文章列表。</p>
+
+<h2 id="文章"> 文章</h2>
+<p>所有文章都会默认被添加到文章列表中渲染在 <code>/article/</code> 路径下。</p>
+<p><img src="./assets/article.png" alt="文章列表"></p>
+<p>如果你不希望该列表包含一些特定的文章，只需在文章的 frontmatter 中将 <code>article</code> 设置为 <code>false</code>。</p>
+<p>如果你希望在文章列表中置顶特定文章，只需在文章的 frontmatter 中将 <code>sticky</code> 设置为 <code>true</code>。</p>
+<div><p>置顶顺序</p>
+<p>对于置顶文章，你可以将 <code>sticky</code> 设置为 <code>number</code> 来设置它们的顺序。数值大的文章会排列在前面。</p>
+</div>
+<h2 id="收藏文章"> 收藏文章</h2>
+<p>你可以通过在 frontmatter 中设置 <code>star</code> 为 <code>true</code> 收藏一个文章。收藏后，用户就可以在 <code>/star/</code> 页面中查看这些文章。</p>
+<p>同时任何任何收藏的文章都会显示在博客主页侧边栏的文章栏目中。</p>
+<div><p>Info</p>
+<p>我们提供收藏选项的考虑是: 主题使用者可能希望向访客展示一定数量的精品文章，而又不希望置顶文章充斥主页，导致用户不能看到最近更新的文章。</p>
+</div>
+<div><p>收藏顺序</p>
+<p>类似置顶文章，你同样可以将 <code>star</code> 设置为 <code>number</code> 来设置它们的顺序。数值大的文章会排列在前面。</p>
+</div>
+<h2 id="加密与幻灯片"> 加密与幻灯片</h2>
+<p>主题为加密文章页与幻灯片页这两个特殊页面提供了单独的列表，你可以在 <code>/encrypt/</code> 和 <code>/slide/</code> 页面查看它们。</p>
+<p>同时为了帮助访问者区分，这两个类别的页面会在文章列表中用图标明确标明其类别。</p>
+<p><img src="./assets/icon-type.png" alt="类别提示"></p>
+]]></content>
+    <author>
+      <name>Mr.Hope</name>
+    </author>
+    <category term="blog"/>
+    <contributor>
+      <name>Mr.Hope</name>
+    </contributor>
+    <rights>Copyright by Mr.Hope</rights>
+  </entry>
+  <entry>
+    <title type="html">项目案例</title>
+    <id>https://vuepress-theme-hope.github.io/zh/demo/</id>
+    <link href="https://vuepress-theme-hope.github.io/zh/demo/"/>
+    <updated>2021-03-08T11:33:11.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="mr-hope-的个人博客"> Mr.Hope 的个人博客</h2>
+<ul>
+<li><a href="https://mrhope.site" target="_blank" rel="noopener noreferrer">项目地址</a></li>
+<li><a href="https://github.com/Mister-Hope/Mister-Hope.github.io" target="_blank" rel="noopener noreferrer">项目文件</a></li>
+</ul>
+<h2 id="希望工作室官网"> 希望工作室官网</h2>
+<ul>
+<li><a href="https://hope-studio.innenu.com" target="_blank" rel="noopener noreferrer">项目地址</a></li>
+<li><a href="https://github.com/Hope-Studio/Hope-Studio.github.io" target="_blank" rel="noopener noreferrer">项目文件</a></li>
+</ul>
+<h2 id="vuepress-theme-hope-文档"> vuepress-theme-hope 文档</h2>
+<ul>
+<li><a href="https://vuepress-theme-hope.github.io" target="_blank" rel="noopener noreferrer">项目地址</a></li>
+<li><a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/tree/v1/docs/theme" target="_blank" rel="noopener noreferrer">项目文件</a></li>
+</ul>
+<h2 id="docker-从入门到实践"> Docker 从入门到实践</h2>
+<ul>
+<li><a href="https://vuepress.mirror.docker-practice.com/" target="_blank" rel="noopener noreferrer">项目地址</a></li>
+<li><a href="https://github.com/yeasy/docker_practice" target="_blank" rel="noopener noreferrer">项目文件</a></li>
+</ul>
+<h2 id="更多"> 更多</h2>
+<ul>
+<li>随时随地添加你的博客或文档到此</li>
+</ul>
+]]></content>
+    <author>
+      <name>Mr.Hope</name>
+    </author>
+    <category term="demo"/>
+    <contributor>
+      <name>Mr.Hope</name>
+    </contributor>
+    <rights>Copyright by Mr.Hope</rights>
+  </entry>
+  <entry>
+    <title type="html">主题配置</title>
+    <id>https://vuepress-theme-hope.github.io/zh/config/theme/</id>
+    <link href="https://vuepress-theme-hope.github.io/zh/config/theme/"/>
+    <updated>2021-03-08T11:33:11.000Z</updated>
+    <content type="html"><![CDATA[<div><p>Tips</p>
+<p>你可以查看 <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/docs/theme/src/.vuepress/config.js" target="_blank" rel="noopener noreferrer">本文档的配置</a> 作为案例，你也可以直接查看源代码中的 <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/packages/theme/types/theme/" target="_blank" rel="noopener noreferrer">types 文件</a></p>
+</div>
+<p><code>.vuepress/config.js</code> 中的 themeConfig 字段(主题字段)新增以下配置:</p>
+<h2 id="基本选项"> 基本选项</h2>
+<div><p>Warning</p>
+<p>这些选项很重要，需要你正确配置。</p>
+</div>
+<h3 id="baselang"> baseLang</h3>
+<ul>
+<li>类型: <code>string</code></li>
+<li>默认值: <code>'en-US'</code></li>
+</ul>
+<p>主目录所对应的语言。</p>
+<p>这个选项会保证主目录页面中主题文字使用正确的语言显示。你可以根据自己的需要将其改为其他语言。</p>
+<div><p>Tips</p>
+<p>目前多语言仅适配了 <strong>简体中文</strong> (zh-CN)、<strong>英文(美国)</strong> (en-US) 与 越南语 (vi-VN)。</p>
+<p>如果你需要其它语言的多语言支持，你可以 <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/packages/shared/src/i18n/config.ts" target="_blank" rel="noopener noreferrer">向此文件提交一个 PR</a></p>
+</div>
+<h3 id="author"> author</h3>
+<ul>
+<li>类型: <code>string</code></li>
+<li>必填: 否</li>
+</ul>
+<p>文章显示的默认作者</p>
+<h3 id="nav"> nav <i>Not supported content</i></h3>
+<p>NavBarItem 新增</p>
+<ul>
+<li><code>icon</code> 字段来支持图标显示。</li>
+<li><code>prefix</code> 字段来自动添加分组前缀</li>
+</ul>
+<p>具体配置，请见 <a href="./../../guide/layout/navbar.html">布局 → 导航栏</a></p>
+<h3 id="sidebar"> sidebar <i>Not supported content</i></h3>
+<p>SideBarItem 新增</p>
+<ul>
+<li><code>icon</code> 字段来支持图标显示。</li>
+<li><code>prefix</code> 字段来自动添加分组前缀</li>
+</ul>
+<p>具体配置，请见 <a href="./../../guide/layout/sidebar.html">布局 → 侧边栏</a></p>
+<h3 id="locales"> locales</h3>
+<ul>
+<li>类型: <code>Record&lt;string, HopeLangI18nConfigItem&gt;</code></li>
+</ul>
+<p>主题的多语言配置，主要需要配置各语言的 <code>nav</code> 与 <code>sidebar</code>。</p>
+<h3 id="hostname"> hostname</h3>
+<ul>
+<li>类型: <code>string</code></li>
+<li>必填: 是</li>
+</ul>
+<p>当前网站部署到的域名。</p>
+<h2 id="更多配置"> 更多配置</h2>
+<ul>
+<li>
+<p><a href="./default.html"><strong>默认主题配置</strong></a></p>
+</li>
+<li>
+<p><a href="./feature.html"><strong>主题功能配置</strong></a></p>
+</li>
+<li>
+<p><a href="./plugin.html"><strong>主题插件配置</strong></a></p>
+</li>
+<li>
+<p><a href="./apperance.html"><strong>主题外观配置</strong></a></p>
+</li>
+</ul>
+]]></content>
+    <author>
+      <name>Mr.Hope</name>
+    </author>
+    <category term="config"/>
     <contributor>
       <name>Mr.Hope</name>
     </contributor>
