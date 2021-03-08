@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/add-this/</link>
     <description>Share Plugin provided by AddThis</description>
     <language>en-US</language>
-    <pubDate>Mon, 08 Mar 2021 15:01:13 GMT</pubDate>
-    <lastBuildDate>Mon, 08 Mar 2021 15:01:13 GMT</lastBuildDate>
+    <pubDate>Mon, 08 Mar 2021 15:09:07 GMT</pubDate>
+    <lastBuildDate>Mon, 08 Mar 2021 15:09:07 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -16,7 +16,7 @@
       <link>https://vuepress-theme-hope.github.io/add-this/config/</link>
       <guid>https://vuepress-theme-hope.github.io/add-this/config/</guid>
       <source url="https://vuepress-theme-hope.github.io/add-this/rss.xml">API Config</source>
-      <pubDate>Mon, 08 Mar 2021 14:59:57 GMT</pubDate>
+      <pubDate>Mon, 08 Mar 2021 15:07:45 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="pubid"> pubid</h2>
 <ul>
 <li>Type: <code>string</code></li>
@@ -30,7 +30,7 @@
       <link>https://vuepress-theme-hope.github.io/add-this/guide/</link>
       <guid>https://vuepress-theme-hope.github.io/add-this/guide/</guid>
       <source url="https://vuepress-theme-hope.github.io/add-this/rss.xml">Guide</source>
-      <pubDate>Mon, 08 Mar 2021 14:59:57 GMT</pubDate>
+      <pubDate>Mon, 08 Mar 2021 15:07:45 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="register"> Register</h2>
 <p>Please go to <a href="https://www.addthis.com/register?next=/dashboard" target="_blank" rel="noopener noreferrer">Add this registration page</a> to register or <a href="https://www.addthis.com/login?next=/dashboard" target="_blank" rel="noopener noreferrer">Add this login page</a> Login account.</p>
 <h2 id="usage"> Usage</h2>
@@ -43,7 +43,7 @@
       <link>https://vuepress-theme-hope.github.io/add-this/</link>
       <guid>https://vuepress-theme-hope.github.io/add-this/</guid>
       <source url="https://vuepress-theme-hope.github.io/add-this/rss.xml">Home</source>
-      <pubDate>Mon, 08 Mar 2021 14:59:57 GMT</pubDate>
+      <pubDate>Mon, 08 Mar 2021 15:07:45 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="how-to-use"> How to use</h2>
 <h3 id="install"> Install</h3>
 <CodeGroup>
@@ -69,7 +69,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <link>https://vuepress-theme-hope.github.io/add-this/zh/config/</link>
       <guid>https://vuepress-theme-hope.github.io/add-this/zh/config/</guid>
       <source url="https://vuepress-theme-hope.github.io/add-this/rss.xml">配置</source>
-      <pubDate>Mon, 08 Mar 2021 14:59:57 GMT</pubDate>
+      <pubDate>Mon, 08 Mar 2021 15:07:45 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="pubid"> pubid</h2>
 <ul>
 <li>类型: <code>string</code></li>
@@ -83,7 +83,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <link>https://vuepress-theme-hope.github.io/add-this/zh/guide/</link>
       <guid>https://vuepress-theme-hope.github.io/add-this/zh/guide/</guid>
       <source url="https://vuepress-theme-hope.github.io/add-this/rss.xml">指南</source>
-      <pubDate>Mon, 08 Mar 2021 14:59:57 GMT</pubDate>
+      <pubDate>Mon, 08 Mar 2021 15:07:45 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="注册"> 注册</h2>
 <p>请前往 <a href="https://www.addthis.com/register?next=/dashboard" target="_blank" rel="noopener noreferrer">Add this 注册页面</a> 注册或 <a href="https://www.addthis.com/login?next=/dashboard" target="_blank" rel="noopener noreferrer">Add this 登录页面</a> 登录账号。</p>
 <div><p>Tips</p>
@@ -99,7 +99,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <link>https://vuepress-theme-hope.github.io/add-this/zh/</link>
       <guid>https://vuepress-theme-hope.github.io/add-this/zh/</guid>
       <source url="https://vuepress-theme-hope.github.io/add-this/rss.xml">主页</source>
-      <pubDate>Mon, 08 Mar 2021 14:59:57 GMT</pubDate>
+      <pubDate>Mon, 08 Mar 2021 15:07:45 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="使用插件"> 使用插件</h2>
 <h3 id="安装"> 安装</h3>
 <CodeGroup>

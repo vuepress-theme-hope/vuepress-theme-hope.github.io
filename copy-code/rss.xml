@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/copy-code/</link>
     <description>Quick Code Copy Plugin for vuepress</description>
     <language>en-US</language>
-    <pubDate>Mon, 08 Mar 2021 15:01:13 GMT</pubDate>
-    <lastBuildDate>Mon, 08 Mar 2021 15:01:13 GMT</lastBuildDate>
+    <pubDate>Mon, 08 Mar 2021 15:09:07 GMT</pubDate>
+    <lastBuildDate>Mon, 08 Mar 2021 15:09:07 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -16,7 +16,7 @@
       <link>https://vuepress-theme-hope.github.io/copy-code/config/</link>
       <guid>https://vuepress-theme-hope.github.io/copy-code/config/</guid>
       <source url="https://vuepress-theme-hope.github.io/copy-code/rss.xml">API Config</source>
-      <pubDate>Mon, 08 Mar 2021 14:59:57 GMT</pubDate>
+      <pubDate>Mon, 08 Mar 2021 15:07:45 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="baselang"> baseLang</h2>
 <ul>
 <li>Type: <code>string</code></li>
@@ -48,7 +48,7 @@
       <link>https://vuepress-theme-hope.github.io/copy-code/guide/</link>
       <guid>https://vuepress-theme-hope.github.io/copy-code/guide/</guid>
       <source url="https://vuepress-theme-hope.github.io/copy-code/rss.xml">Guide</source>
-      <pubDate>Mon, 08 Mar 2021 14:59:57 GMT</pubDate>
+      <pubDate>Mon, 08 Mar 2021 15:07:45 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="usage"> Usage</h2>
 <p>After enabling, this plugin will automatically add a copy button to the bottom right corner of each code block.</p>
 <p>By default, the button is only displayed on desktop mode. To display this button on mobile devices, set <code>showInMobile</code> to <code>true</code>.</p>
@@ -73,7 +73,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <link>https://vuepress-theme-hope.github.io/copy-code/</link>
       <guid>https://vuepress-theme-hope.github.io/copy-code/</guid>
       <source url="https://vuepress-theme-hope.github.io/copy-code/rss.xml">Home</source>
-      <pubDate>Mon, 08 Mar 2021 14:59:57 GMT</pubDate>
+      <pubDate>Mon, 08 Mar 2021 15:07:45 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="how-to-use"> How to use</h2>
 <h3 id="install"> Install</h3>
 <CodeGroup>
@@ -106,7 +106,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <link>https://vuepress-theme-hope.github.io/copy-code/zh/config/</link>
       <guid>https://vuepress-theme-hope.github.io/copy-code/zh/config/</guid>
       <source url="https://vuepress-theme-hope.github.io/copy-code/rss.xml">配置</source>
-      <pubDate>Mon, 08 Mar 2021 14:59:57 GMT</pubDate>
+      <pubDate>Mon, 08 Mar 2021 15:07:45 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="插件配置"> 插件配置</h2>
 <h3 id="baselang"> baseLang</h3>
 <ul>
@@ -139,7 +139,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <link>https://vuepress-theme-hope.github.io/copy-code/zh/guide/</link>
       <guid>https://vuepress-theme-hope.github.io/copy-code/zh/guide/</guid>
       <source url="https://vuepress-theme-hope.github.io/copy-code/rss.xml">指南</source>
-      <pubDate>Mon, 08 Mar 2021 14:59:57 GMT</pubDate>
+      <pubDate>Mon, 08 Mar 2021 15:07:45 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="使用"> 使用</h2>
 <p>启用后，本插件会自动添加复制按钮到每个代码块的右下角。</p>
 <p>默认情况下，按钮仅在桌面模式显示，如果你需要在移动端展示这个按钮，请将 <code>showInMobile</code> 设置为 <code>true</code>。</p>
@@ -164,7 +164,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <link>https://vuepress-theme-hope.github.io/copy-code/zh/</link>
       <guid>https://vuepress-theme-hope.github.io/copy-code/zh/</guid>
       <source url="https://vuepress-theme-hope.github.io/copy-code/rss.xml">主页</source>
-      <pubDate>Mon, 08 Mar 2021 14:59:57 GMT</pubDate>
+      <pubDate>Mon, 08 Mar 2021 15:07:45 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="使用插件"> 使用插件</h2>
 <h3 id="安装"> 安装</h3>
 <CodeGroup>

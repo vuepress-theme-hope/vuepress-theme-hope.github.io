@@ -6,7 +6,7 @@
   <author>
     <name>Mr.Hope</name>
   </author>
-  <updated>2021-03-08T15:01:13.570Z</updated>
+  <updated>2021-03-08T15:09:07.781Z</updated>
   <generator>@mr-hope/vuepress-plugin-feed</generator>
   <link rel="self" href="https://vuepress-theme-hope.github.io/git/atom.xml"/>
   <link rel="alternate" href="https://vuepress-theme-hope.github.io/git/"/>
@@ -18,7 +18,7 @@
     <title type="html">Home</title>
     <id>https://vuepress-theme-hope.github.io/git/</id>
     <link href="https://vuepress-theme-hope.github.io/git/"/>
-    <updated>2021-03-08T14:59:57.000Z</updated>
+    <updated>2021-03-08T15:07:45.000Z</updated>
     <content type="html"><![CDATA[<p>This plugin will use git to inject contributors, createTime and updateTime timestamp into the page. It will also use dayjs to generate localized time text.</p>
 <h2 id="how-to-use"> How to use</h2>
 <h3 id="install"> Install</h3>
@@ -47,7 +47,25 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div><h2 id="plugin-description"> Plugin description</h2>
 <p>To let the plugin work, your docs should be a git project, the plugin will automatically read the file’s contributors, create and last commit timestamp and inject it into page. It will also use dayjs to generate localized time text.</p>
-<h2 id="configuration"> Configuration</h2>
+<div><pre><code><span>interface</span> <span>GitContributor</span> <span>{</span>
+  name<span>:</span> <span>string</span><span>;</span>
+  email<span>:</span> <span>string</span><span>;</span>
+  commits<span>:</span> <span>number</span><span>;</span>
+<span>}</span>
+
+<span>interface</span> <span>Page</span> <span>{</span>
+  <span>// other keys...</span>
+
+  contributors<span>?</span><span>:</span> GitContributor<span>[</span><span>]</span><span>;</span>
+  <span>/** Readable create time text in current language */</span>
+  createTime<span>?</span><span>:</span> <span>string</span><span>;</span>
+  createTimeStamp<span>?</span><span>:</span> <span>number</span><span>;</span>
+  <span>/** Readable time text in current language */</span>
+  updateTime<span>?</span><span>:</span> <span>string</span><span>;</span>
+  updateTimeStamp<span>?</span><span>:</span> <span>number</span><span>;</span>
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br></div></div><h2 id="configuration"> Configuration</h2>
 <h3 id="contributor"> contributor</h3>
 <ul>
 <li>Type: <code>boolean</code></li>
@@ -77,14 +95,14 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <contributor>
       <name>Mr.Hope</name>
     </contributor>
-    <published>2021-03-08T14:59:57.000Z</published>
+    <published>2021-03-08T15:07:45.000Z</published>
     <rights>Copyright by Mr.Hope</rights>
   </entry>
   <entry>
     <title type="html">主页</title>
     <id>https://vuepress-theme-hope.github.io/git/zh/</id>
     <link href="https://vuepress-theme-hope.github.io/git/zh/"/>
-    <updated>2021-03-08T14:59:57.000Z</updated>
+    <updated>2021-03-08T15:07:45.000Z</updated>
     <content type="html"><![CDATA[<p>这个插件将会利用 Git 向 page 注入页面的贡献者与创建时间、最后更新时间的时间戳，同时还会使用 dayjs 生成本地化的时间文字。</p>
 <h2 id="使用插件"> 使用插件</h2>
 <h3 id="安装"> 安装</h3>
@@ -113,7 +131,31 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div><h2 id="插件说明"> 插件说明</h2>
 <p>该插件基于 Git，会自动读取文件的创建时间、上一次提交时间与贡献者，并注入到 page 上。同时，还会使用 dayjs 本地化时间，生成可阅读的时间文字。</p>
-<h2 id="配置"> 配置</h2>
+<div><pre><code><span>interface</span> <span>GitContributor</span> <span>{</span>
+  <span>/** 姓名 */</span>
+  name<span>:</span> <span>string</span><span>;</span>
+  <span>/** 邮箱 */</span>
+  email<span>:</span> <span>string</span><span>;</span>
+  <span>/** 贡献的提交数 */</span>
+  commits<span>:</span> <span>number</span><span>;</span>
+<span>}</span>
+
+<span>interface</span> <span>Page</span> <span>{</span>
+  <span>// other keys...</span>
+
+  <span>/** Git 贡献者 */</span>
+  contributors<span>?</span><span>:</span> GitContributor<span>[</span><span>]</span><span>;</span>
+  <span>/** 当前语言的创建时间文字 */</span>
+  createTime<span>?</span><span>:</span> <span>string</span><span>;</span>
+  <span>/** 创建时间的时间戳 */</span>
+  createTimeStamp<span>?</span><span>:</span> <span>number</span><span>;</span>
+  <span>/** 当前语言的更新时间文字 */</span>
+  updateTime<span>?</span><span>:</span> <span>string</span><span>;</span>
+  <span>/** 更新时间的时间戳 */</span>
+  updateTimeStamp<span>?</span><span>:</span> <span>number</span><span>;</span>
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br></div></div><h2 id="配置"> 配置</h2>
 <h3 id="contributor"> contributor</h3>
 <ul>
 <li>类型: <code>boolean</code></li>
@@ -143,7 +185,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <contributor>
       <name>Mr.Hope</name>
     </contributor>
-    <published>2021-03-08T14:59:57.000Z</published>
+    <published>2021-03-08T15:07:45.000Z</published>
     <rights>Copyright by Mr.Hope</rights>
   </entry>
 </feed>
