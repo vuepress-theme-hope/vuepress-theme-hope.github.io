@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/photo-swipe/</link>
     <description>Photo swipe Plugin for VuePress</description>
     <language>en-US</language>
-    <pubDate>Mon, 08 Mar 2021 12:23:00 GMT</pubDate>
-    <lastBuildDate>Mon, 08 Mar 2021 12:23:00 GMT</lastBuildDate>
+    <pubDate>Mon, 08 Mar 2021 14:45:29 GMT</pubDate>
+    <lastBuildDate>Mon, 08 Mar 2021 14:45:29 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -16,6 +16,7 @@
       <link>https://vuepress-theme-hope.github.io/photo-swipe/config/</link>
       <guid>https://vuepress-theme-hope.github.io/photo-swipe/config/</guid>
       <source url="https://vuepress-theme-hope.github.io/photo-swipe/rss.xml">Config</source>
+      <pubDate>Mon, 08 Mar 2021 14:43:06 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="plugin-options"> Plugin Options</h2>
 <h3 id="container"> container</h3>
 <ul>
@@ -40,6 +41,7 @@
       <source url="https://vuepress-theme-hope.github.io/photo-swipe/rss.xml">Guide</source>
       <description>&amp;lt;p&amp;gt;This plugin will make the pictures in the body of the page enter the preview mode when clicked.&amp;lt;/p&amp;gt;
 </description>
+      <pubDate>Mon, 08 Mar 2021 14:43:06 GMT</pubDate>
       <content:encoded><![CDATA[<p>This plugin will make the pictures in the body of the page enter the preview mode when clicked.</p>
 
 <h2 id="browse-mode"> Browse Mode</h2>
@@ -70,6 +72,7 @@
       <link>https://vuepress-theme-hope.github.io/photo-swipe/</link>
       <guid>https://vuepress-theme-hope.github.io/photo-swipe/</guid>
       <source url="https://vuepress-theme-hope.github.io/photo-swipe/rss.xml">Home</source>
+      <pubDate>Mon, 08 Mar 2021 14:43:06 GMT</pubDate>
       <content:encoded><![CDATA[<p>Let your images support preview, zoom, share, swipe view and download.</p>
 <h2 id="how-to-use"> How to use</h2>
 <h3 id="install"> Install</h3>
@@ -96,6 +99,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <link>https://vuepress-theme-hope.github.io/photo-swipe/zh/config/</link>
       <guid>https://vuepress-theme-hope.github.io/photo-swipe/zh/config/</guid>
       <source url="https://vuepress-theme-hope.github.io/photo-swipe/rss.xml">配置</source>
+      <pubDate>Mon, 08 Mar 2021 14:43:06 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="选项"> 选项</h2>
 <h3 id="container"> container</h3>
 <ul>
@@ -120,6 +124,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <source url="https://vuepress-theme-hope.github.io/photo-swipe/rss.xml">指南</source>
       <description>&amp;lt;p&amp;gt;此插件会使页面正文内的图片在点击时进入浏览模式浏览。&amp;lt;/p&amp;gt;
 </description>
+      <pubDate>Mon, 08 Mar 2021 14:43:06 GMT</pubDate>
       <content:encoded><![CDATA[<p>此插件会使页面正文内的图片在点击时进入浏览模式浏览。</p>
 
 <h2 id="浏览模式"> 浏览模式</h2>
@@ -150,6 +155,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <link>https://vuepress-theme-hope.github.io/photo-swipe/zh/</link>
       <guid>https://vuepress-theme-hope.github.io/photo-swipe/zh/</guid>
       <source url="https://vuepress-theme-hope.github.io/photo-swipe/rss.xml">主页</source>
+      <pubDate>Mon, 08 Mar 2021 14:43:06 GMT</pubDate>
       <content:encoded><![CDATA[<p>让页面图像支持预览，缩放，共享，滑动查看和下载。</p>
 <h2 id="使用插件"> 使用插件</h2>
 <h3 id="安装"> 安装</h3>

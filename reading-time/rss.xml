@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/reading-time/</link>
     <description>Expect reading time and word count statistics</description>
     <language>en-US</language>
-    <pubDate>Mon, 08 Mar 2021 12:23:00 GMT</pubDate>
-    <lastBuildDate>Mon, 08 Mar 2021 12:23:00 GMT</lastBuildDate>
+    <pubDate>Mon, 08 Mar 2021 14:45:29 GMT</pubDate>
+    <lastBuildDate>Mon, 08 Mar 2021 14:45:29 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -16,6 +16,7 @@
       <link>https://vuepress-theme-hope.github.io/reading-time/</link>
       <guid>https://vuepress-theme-hope.github.io/reading-time/</guid>
       <source url="https://vuepress-theme-hope.github.io/reading-time/rss.xml">Home</source>
+      <pubDate>Mon, 08 Mar 2021 14:43:06 GMT</pubDate>
       <content:encoded><![CDATA[<p>This plugin will inject expect reading time and word count statistics into the page object.</p>
 <p>Will automatically inject <code>readingTime</code> into the page object:</p>
 <div><pre><code><span>interface</span> <span>ReadingTime</span> <span>{</span>
@@ -64,6 +65,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <link>https://vuepress-theme-hope.github.io/reading-time/zh/</link>
       <guid>https://vuepress-theme-hope.github.io/reading-time/zh/</guid>
       <source url="https://vuepress-theme-hope.github.io/reading-time/rss.xml">主页</source>
+      <pubDate>Mon, 08 Mar 2021 14:43:06 GMT</pubDate>
       <content:encoded><![CDATA[<p>这个插件将会向 page 对象注入预计阅读时间与字数统计。</p>
 <p>会自动向 page 对象注入 <code>readingTime</code>:</p>
 <div><pre><code><span>interface</span> <span>ReadingTime</span> <span>{</span>
