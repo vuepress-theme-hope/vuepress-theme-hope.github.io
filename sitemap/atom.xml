@@ -6,7 +6,7 @@
   <author>
     <name>Mr.Hope</name>
   </author>
-  <updated>2021-03-08T14:45:30.074Z</updated>
+  <updated>2021-03-08T14:47:27.360Z</updated>
   <generator>@mr-hope/vuepress-plugin-feed</generator>
   <link rel="self" href="https://vuepress-theme-hope.github.io/sitemap/atom.xml"/>
   <link rel="alternate" href="https://vuepress-theme-hope.github.io/sitemap/"/>
@@ -18,7 +18,7 @@
     <title type="html">Config</title>
     <id>https://vuepress-theme-hope.github.io/sitemap/config/</id>
     <link href="https://vuepress-theme-hope.github.io/sitemap/config/"/>
-    <updated>2021-03-08T14:43:06.000Z</updated>
+    <updated>2021-03-08T14:44:58.000Z</updated>
     <content type="html"><![CDATA[<h2 id="frontmatter-options"> Frontmatter Options</h2>
 <h3 id="sitemap-changefreq"> sitemap.changefreq</h3>
 <ul>
@@ -82,14 +82,14 @@
     <contributor>
       <name>Mr.Hope</name>
     </contributor>
-    <published>2021-03-08T14:43:06.000Z</published>
+    <published>2021-03-08T14:44:58.000Z</published>
     <rights>Copyright by Mr.Hope</rights>
   </entry>
   <entry>
     <title type="html">Guide</title>
     <id>https://vuepress-theme-hope.github.io/sitemap/guide/</id>
     <link href="https://vuepress-theme-hope.github.io/sitemap/guide/"/>
-    <updated>2021-03-08T14:43:06.000Z</updated>
+    <updated>2021-03-08T14:44:58.000Z</updated>
     <content type="html"><![CDATA[<p>This plugin will automatically generate a Sitemap for your site. In order for the plugin to work properly, you need to pass the deployed domain name to the <code>domain</code> option of the plugin.</p>
 <p>The plugin will automatically generate the last update time of the page based on the Git timestamp of the page, and will also declare the alternative version link of the page in other languages ​​according to the locales config.</p>
 <h2 id="control-sitemap-link"> Control Sitemap Link</h2>
@@ -120,14 +120,14 @@
     <contributor>
       <name>Mr.Hope</name>
     </contributor>
-    <published>2021-03-08T14:43:06.000Z</published>
+    <published>2021-03-08T14:44:58.000Z</published>
     <rights>Copyright by Mr.Hope</rights>
   </entry>
   <entry>
     <title type="html">Home</title>
     <id>https://vuepress-theme-hope.github.io/sitemap/</id>
     <link href="https://vuepress-theme-hope.github.io/sitemap/"/>
-    <updated>2021-03-08T14:43:06.000Z</updated>
+    <updated>2021-03-08T14:44:58.000Z</updated>
     <content type="html"><![CDATA[<h2 id="how-to-use"> How to use</h2>
 <h3 id="install"> Install</h3>
 <CodeGroup>
@@ -160,14 +160,14 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <contributor>
       <name>Mr.Hope</name>
     </contributor>
-    <published>2021-03-08T14:43:06.000Z</published>
+    <published>2021-03-08T14:44:58.000Z</published>
     <rights>Copyright by Mr.Hope</rights>
   </entry>
   <entry>
     <title type="html">配置</title>
     <id>https://vuepress-theme-hope.github.io/sitemap/zh/config/</id>
     <link href="https://vuepress-theme-hope.github.io/sitemap/zh/config/"/>
-    <updated>2021-03-08T14:43:06.000Z</updated>
+    <updated>2021-03-08T14:44:58.000Z</updated>
     <content type="html"><![CDATA[<h2 id="frontmatter-选项"> Frontmatter 选项</h2>
 <h3 id="sitemap-changefreq"> sitemap.changefreq</h3>
 <ul>
@@ -231,14 +231,14 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <contributor>
       <name>Mr.Hope</name>
     </contributor>
-    <published>2021-03-08T14:43:06.000Z</published>
+    <published>2021-03-08T14:44:58.000Z</published>
     <rights>Copyright by Mr.Hope</rights>
   </entry>
   <entry>
     <title type="html">指南</title>
     <id>https://vuepress-theme-hope.github.io/sitemap/zh/guide/</id>
     <link href="https://vuepress-theme-hope.github.io/sitemap/zh/guide/"/>
-    <updated>2021-03-08T14:43:06.000Z</updated>
+    <updated>2021-03-08T14:44:58.000Z</updated>
     <content type="html"><![CDATA[<p>本插件会为你的网站自动生成 Sitemap。为了使插件正常工作，你需要将部署的域名传递给插件的 <code>domain</code> 选项。</p>
 <p>插件会自动根据页面的 Git 的时间戳生成页面的最后更新时间，同时会根据站点的多语言配置声明页面的其他语言替代版本地址。</p>
 <h2 id="控制-sitemap-链接"> 控制 Sitemap 链接</h2>
@@ -276,14 +276,14 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <contributor>
       <name>Mr.Hope</name>
     </contributor>
-    <published>2021-03-08T14:43:06.000Z</published>
+    <published>2021-03-08T14:44:58.000Z</published>
     <rights>Copyright by Mr.Hope</rights>
   </entry>
   <entry>
     <title type="html">主页</title>
     <id>https://vuepress-theme-hope.github.io/sitemap/zh/</id>
     <link href="https://vuepress-theme-hope.github.io/sitemap/zh/"/>
-    <updated>2021-03-08T14:43:06.000Z</updated>
+    <updated>2021-03-08T14:44:58.000Z</updated>
     <content type="html"><![CDATA[<h2 id="使用插件"> 使用插件</h2>
 <h3 id="安装"> 安装</h3>
 <CodeGroup>
@@ -316,7 +316,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <contributor>
       <name>Mr.Hope</name>
     </contributor>
-    <published>2021-03-08T14:43:06.000Z</published>
+    <published>2021-03-08T14:44:58.000Z</published>
     <rights>Copyright by Mr.Hope</rights>
   </entry>
 </feed>

@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/git/</link>
     <description>Info plugin based on git for vuepress</description>
     <language>en-US</language>
-    <pubDate>Mon, 08 Mar 2021 14:45:29 GMT</pubDate>
-    <lastBuildDate>Mon, 08 Mar 2021 14:45:29 GMT</lastBuildDate>
+    <pubDate>Mon, 08 Mar 2021 14:47:27 GMT</pubDate>
+    <lastBuildDate>Mon, 08 Mar 2021 14:47:27 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -16,7 +16,7 @@
       <link>https://vuepress-theme-hope.github.io/git/</link>
       <guid>https://vuepress-theme-hope.github.io/git/</guid>
       <source url="https://vuepress-theme-hope.github.io/git/rss.xml">Home</source>
-      <pubDate>Mon, 08 Mar 2021 14:43:06 GMT</pubDate>
+      <pubDate>Mon, 08 Mar 2021 14:44:58 GMT</pubDate>
       <content:encoded><![CDATA[<p>This plugin will use git to inject contributors, createTime and updateTime timestamp into the page. It will also use dayjs to generate localized time text.</p>
 <h2 id="how-to-use"> How to use</h2>
 <h3 id="install"> Install</h3>
@@ -75,7 +75,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <link>https://vuepress-theme-hope.github.io/git/zh/</link>
       <guid>https://vuepress-theme-hope.github.io/git/zh/</guid>
       <source url="https://vuepress-theme-hope.github.io/git/rss.xml">主页</source>
-      <pubDate>Mon, 08 Mar 2021 14:43:06 GMT</pubDate>
+      <pubDate>Mon, 08 Mar 2021 14:44:58 GMT</pubDate>
       <content:encoded><![CDATA[<p>这个插件将会利用 Git 向 page 注入页面的贡献者与创建时间、最后更新时间的时间戳，同时还会使用 dayjs 生成本地化的时间文字。</p>
 <h2 id="使用插件"> 使用插件</h2>
 <h3 id="安装"> 安装</h3>

@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/seo/</link>
     <description>Using &lt;meta&gt; tags to Enhance Your site SEO</description>
     <language>en-US</language>
-    <pubDate>Mon, 08 Mar 2021 14:45:30 GMT</pubDate>
-    <lastBuildDate>Mon, 08 Mar 2021 14:45:30 GMT</lastBuildDate>
+    <pubDate>Mon, 08 Mar 2021 14:47:27 GMT</pubDate>
+    <lastBuildDate>Mon, 08 Mar 2021 14:47:27 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -16,7 +16,7 @@
       <link>https://vuepress-theme-hope.github.io/seo/config/</link>
       <guid>https://vuepress-theme-hope.github.io/seo/config/</guid>
       <source url="https://vuepress-theme-hope.github.io/seo/rss.xml">Config</source>
-      <pubDate>Mon, 08 Mar 2021 14:43:06 GMT</pubDate>
+      <pubDate>Mon, 08 Mar 2021 14:44:58 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="plugin-options"> Plugin Options</h2>
 <h3 id="author"> author</h3>
 <ul>
@@ -77,7 +77,7 @@
       <link>https://vuepress-theme-hope.github.io/seo/guide/</link>
       <guid>https://vuepress-theme-hope.github.io/seo/guide/</guid>
       <source url="https://vuepress-theme-hope.github.io/seo/rss.xml">Guide</source>
-      <pubDate>Mon, 08 Mar 2021 14:43:06 GMT</pubDate>
+      <pubDate>Mon, 08 Mar 2021 14:44:58 GMT</pubDate>
       <content:encoded><![CDATA[<p>This plugin will inject the <code>&lt;meta&gt;</code> tag to enhance the search engine optimization of the site.</p>
 <h2 id="out-of-box"> Out of box</h2>
 <p>The plugin is used out of the box. Without any configuration, it will extract the corresponding information from the page content to generate the <code>&lt;meta&gt;</code> tag as much as possible.</p>
@@ -230,7 +230,7 @@
       <link>https://vuepress-theme-hope.github.io/seo/</link>
       <guid>https://vuepress-theme-hope.github.io/seo/</guid>
       <source url="https://vuepress-theme-hope.github.io/seo/rss.xml">Home</source>
-      <pubDate>Mon, 08 Mar 2021 14:43:06 GMT</pubDate>
+      <pubDate>Mon, 08 Mar 2021 14:44:58 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="how-to-use"> How to use</h2>
 <h3 id="install"> Install</h3>
 <CodeGroup>
@@ -263,7 +263,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <link>https://vuepress-theme-hope.github.io/seo/zh/config/</link>
       <guid>https://vuepress-theme-hope.github.io/seo/zh/config/</guid>
       <source url="https://vuepress-theme-hope.github.io/seo/rss.xml">选项</source>
-      <pubDate>Mon, 08 Mar 2021 14:43:06 GMT</pubDate>
+      <pubDate>Mon, 08 Mar 2021 14:44:58 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="插件选项"> 插件选项</h2>
 <h3 id="author"> author</h3>
 <ul>
@@ -324,7 +324,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <link>https://vuepress-theme-hope.github.io/seo/zh/guide/</link>
       <guid>https://vuepress-theme-hope.github.io/seo/zh/guide/</guid>
       <source url="https://vuepress-theme-hope.github.io/seo/rss.xml">指南</source>
-      <pubDate>Mon, 08 Mar 2021 14:43:06 GMT</pubDate>
+      <pubDate>Mon, 08 Mar 2021 14:44:58 GMT</pubDate>
       <content:encoded><![CDATA[<p>本插件会通过注入 <code>&lt;meta&gt;</code> 标签，以增强网站搜索引擎优化性。</p>
 <h2 id="开箱即用"> 开箱即用</h2>
 <p>插件开箱即用，在不做任何配置的情况下，会尽可能通过页面内容，提取对应的信息生成 <code>&lt;meta&gt;</code> 标签。</p>
@@ -476,7 +476,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <link>https://vuepress-theme-hope.github.io/seo/zh/</link>
       <guid>https://vuepress-theme-hope.github.io/seo/zh/</guid>
       <source url="https://vuepress-theme-hope.github.io/seo/rss.xml">主页</source>
-      <pubDate>Mon, 08 Mar 2021 14:43:06 GMT</pubDate>
+      <pubDate>Mon, 08 Mar 2021 14:44:58 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="使用插件"> 使用插件</h2>
 <h3 id="安装"> 安装</h3>
 <CodeGroup>

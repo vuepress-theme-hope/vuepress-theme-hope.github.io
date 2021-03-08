@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/pwa/</link>
     <description>A powerful PWA plugin for vuepress</description>
     <language>en-US</language>
-    <pubDate>Mon, 08 Mar 2021 14:45:29 GMT</pubDate>
-    <lastBuildDate>Mon, 08 Mar 2021 14:45:29 GMT</lastBuildDate>
+    <pubDate>Mon, 08 Mar 2021 14:47:27 GMT</pubDate>
+    <lastBuildDate>Mon, 08 Mar 2021 14:47:27 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -16,7 +16,7 @@
       <link>https://vuepress-theme-hope.github.io/pwa/config/</link>
       <guid>https://vuepress-theme-hope.github.io/pwa/config/</guid>
       <source url="https://vuepress-theme-hope.github.io/pwa/rss.xml">Config</source>
-      <pubDate>Mon, 08 Mar 2021 14:43:06 GMT</pubDate>
+      <pubDate>Mon, 08 Mar 2021 14:44:58 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="baselang"> baseLang</h2>
 <ul>
 <li>Type: <code>string</code></li>
@@ -178,7 +178,7 @@
       <link>https://vuepress-theme-hope.github.io/pwa/guide/</link>
       <guid>https://vuepress-theme-hope.github.io/pwa/guide/</guid>
       <source url="https://vuepress-theme-hope.github.io/pwa/rss.xml">Guide</source>
-      <pubDate>Mon, 08 Mar 2021 14:43:06 GMT</pubDate>
+      <pubDate>Mon, 08 Mar 2021 14:44:58 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="content-cache-and-update"> Content Cache and update</h2>
 <p>After the Service worker obtains the content update, a popup will be displayed in the bottom right corner, prompting the user that new content is available and allowing the user to trigger the update.</p>
 <p>The default language of the popup will automatically be set to <code>baseLang</code> configured in <code>themeConfig</code>.</p>
@@ -203,7 +203,7 @@
       <link>https://vuepress-theme-hope.github.io/pwa/</link>
       <guid>https://vuepress-theme-hope.github.io/pwa/</guid>
       <source url="https://vuepress-theme-hope.github.io/pwa/rss.xml">Home</source>
-      <pubDate>Mon, 08 Mar 2021 14:43:06 GMT</pubDate>
+      <pubDate>Mon, 08 Mar 2021 14:44:58 GMT</pubDate>
       <content:encoded><![CDATA[<p>This plugin will turn on Progressive Web App Support.</p>
 <h2 id="how-to-use"> How to use</h2>
 <h3 id="install"> Install</h3>
@@ -237,7 +237,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <link>https://vuepress-theme-hope.github.io/pwa/zh/config/</link>
       <guid>https://vuepress-theme-hope.github.io/pwa/zh/config/</guid>
       <source url="https://vuepress-theme-hope.github.io/pwa/rss.xml">配置</source>
-      <pubDate>Mon, 08 Mar 2021 14:43:06 GMT</pubDate>
+      <pubDate>Mon, 08 Mar 2021 14:44:58 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="baselang"> baseLang</h2>
 <ul>
 <li>类型: <code>string</code></li>
@@ -399,7 +399,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <link>https://vuepress-theme-hope.github.io/pwa/zh/guide/</link>
       <guid>https://vuepress-theme-hope.github.io/pwa/zh/guide/</guid>
       <source url="https://vuepress-theme-hope.github.io/pwa/rss.xml">指南</source>
-      <pubDate>Mon, 08 Mar 2021 14:43:06 GMT</pubDate>
+      <pubDate>Mon, 08 Mar 2021 14:44:58 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="内容缓存和更新"> 内容缓存和更新</h2>
 <p>Service worker 成功获取内容更新后，将在右下角显示一个弹出窗口，提示用户新内容可用并允许用户触发更新。</p>
 <p>弹出窗口的默认语言将自动设置为 <code>themeConfig.baseLang</code> 。</p>
@@ -424,7 +424,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <link>https://vuepress-theme-hope.github.io/pwa/zh/</link>
       <guid>https://vuepress-theme-hope.github.io/pwa/zh/</guid>
       <source url="https://vuepress-theme-hope.github.io/pwa/rss.xml">主页</source>
-      <pubDate>Mon, 08 Mar 2021 14:43:06 GMT</pubDate>
+      <pubDate>Mon, 08 Mar 2021 14:44:58 GMT</pubDate>
       <content:encoded><![CDATA[<p>渐进式网页应用 (Progressive Web App) 支持。</p>
 <h2 id="使用插件"> 使用插件</h2>
 <h3 id="安装"> 安装</h3>
