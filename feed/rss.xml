@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/feed/</link>
     <description>Feed Plugin for vuepress</description>
     <language>en-US</language>
-    <pubDate>Mon, 08 Mar 2021 15:09:07 GMT</pubDate>
-    <lastBuildDate>Mon, 08 Mar 2021 15:09:07 GMT</lastBuildDate>
+    <pubDate>Mon, 08 Mar 2021 15:27:43 GMT</pubDate>
+    <lastBuildDate>Mon, 08 Mar 2021 15:27:43 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -16,7 +16,7 @@
       <link>https://vuepress-theme-hope.github.io/feed/config/channel/</link>
       <guid>https://vuepress-theme-hope.github.io/feed/config/channel/</guid>
       <source url="https://vuepress-theme-hope.github.io/feed/rss.xml">Channel Config</source>
-      <pubDate>Mon, 08 Mar 2021 15:07:45 GMT</pubDate>
+      <pubDate>Sun, 24 Jan 2021 05:12:30 GMT</pubDate>
       <content:encoded><![CDATA[<p>The channel option is used to config the feed channel. The configurable options and default value are as follows:</p>
 <h2 id="channel-title"> channel.title</h2>
 <ul>
@@ -143,7 +143,7 @@
       <link>https://vuepress-theme-hope.github.io/feed/config/item/</link>
       <guid>https://vuepress-theme-hope.github.io/feed/config/item/</guid>
       <source url="https://vuepress-theme-hope.github.io/feed/rss.xml">Item Config</source>
-      <pubDate>Mon, 08 Mar 2021 15:07:45 GMT</pubDate>
+      <pubDate>Sun, 24 Jan 2021 05:12:30 GMT</pubDate>
       <content:encoded><![CDATA[<p>You can control the generation of each feed item individually by configuring the frontmatter of each page.</p>
 <p>By default, all articles will be added to the feed stream. To remove a specific page from the feed, you can set <code>feed.enable</code> to <code>false</code> in frontmatter.</p>
 <h2 id="frontmatter-options"> FrontMatter options</h2>
@@ -437,7 +437,7 @@
       <link>https://vuepress-theme-hope.github.io/feed/config/</link>
       <guid>https://vuepress-theme-hope.github.io/feed/config/</guid>
       <source url="https://vuepress-theme-hope.github.io/feed/rss.xml">Plugin Config</source>
-      <pubDate>Mon, 08 Mar 2021 15:07:45 GMT</pubDate>
+      <pubDate>Sun, 24 Jan 2021 05:12:30 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="hostname"> hostname</h2>
 <ul>
 <li>Type: <code>string</code></li>
@@ -582,7 +582,7 @@
 &amp;lt;li&amp;gt;&amp;lt;code&amp;gt;page.excerpt&amp;lt;/code&amp;gt;: any content before `&amp;lt;/li&amp;gt;
 &amp;lt;/ul&amp;gt;
 </description>
-      <pubDate>Mon, 08 Mar 2021 15:07:45 GMT</pubDate>
+      <pubDate>Sun, 24 Jan 2021 05:12:30 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="usage"> Usage</h2>
 <p><code>@mr-hope/vuepress-plugin-feed</code> plugin will automatically generate feed in the following three formats for you</p>
 <ul>
@@ -721,7 +721,7 @@
       <link>https://vuepress-theme-hope.github.io/feed/</link>
       <guid>https://vuepress-theme-hope.github.io/feed/</guid>
       <source url="https://vuepress-theme-hope.github.io/feed/rss.xml">Home</source>
-      <pubDate>Mon, 08 Mar 2021 15:07:45 GMT</pubDate>
+      <pubDate>Sun, 24 Jan 2021 05:12:30 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="how-to-use"> How to use</h2>
 <h3 id="install"> Install</h3>
 <CodeGroup>
@@ -754,7 +754,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <link>https://vuepress-theme-hope.github.io/feed/zh/config/channel/</link>
       <guid>https://vuepress-theme-hope.github.io/feed/zh/config/channel/</guid>
       <source url="https://vuepress-theme-hope.github.io/feed/rss.xml">频道设置</source>
-      <pubDate>Mon, 08 Mar 2021 15:07:45 GMT</pubDate>
+      <pubDate>Sun, 24 Jan 2021 05:12:30 GMT</pubDate>
       <content:encoded><![CDATA[<p><code>channel</code> 选项用于配置 feed 的频道。可以配置的选项与默认值如下:</p>
 <h2 id="channel-title"> channel.title</h2>
 <ul>
@@ -868,7 +868,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <link>https://vuepress-theme-hope.github.io/feed/zh/config/item/</link>
       <guid>https://vuepress-theme-hope.github.io/feed/zh/config/item/</guid>
       <source url="https://vuepress-theme-hope.github.io/feed/rss.xml">项目设置</source>
-      <pubDate>Mon, 08 Mar 2021 15:07:45 GMT</pubDate>
+      <pubDate>Sun, 24 Jan 2021 05:12:30 GMT</pubDate>
       <content:encoded><![CDATA[<p>你可以通过配置每个页面的 frontmatter，来对每个 Feed 项目生成进行单独的控制。</p>
 <p>默认情况下，所有文章均会被添加至 feed 流。如果你想在 feed 中移除特定页面，你可以在 frontmatter 中设置 <code>feed.enable</code> 为 <code>false</code></p>
 <h2 id="frontmatter-选项"> FrontMatter 选项</h2>
@@ -1162,7 +1162,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <link>https://vuepress-theme-hope.github.io/feed/zh/config/</link>
       <guid>https://vuepress-theme-hope.github.io/feed/zh/config/</guid>
       <source url="https://vuepress-theme-hope.github.io/feed/rss.xml">插件配置</source>
-      <pubDate>Mon, 08 Mar 2021 15:07:45 GMT</pubDate>
+      <pubDate>Sun, 24 Jan 2021 05:12:30 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="hostname"> hostname</h2>
 <ul>
 <li>类型: <code>string</code></li>
@@ -1311,7 +1311,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 &amp;lt;li&amp;gt;&amp;lt;code&amp;gt;page.excerpt&amp;lt;/code&amp;gt;: 在 `&amp;lt;/li&amp;gt;
 &amp;lt;/ul&amp;gt;
 </description>
-      <pubDate>Mon, 08 Mar 2021 15:07:45 GMT</pubDate>
+      <pubDate>Sun, 24 Jan 2021 05:12:30 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="使用"> 使用</h2>
 <p><code>@mr-hope/vuepress-plugin-feed</code> 插件会自动为你生成以下三种格式的 feed 文件:</p>
 <ul>
@@ -1455,7 +1455,7 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <link>https://vuepress-theme-hope.github.io/feed/zh/</link>
       <guid>https://vuepress-theme-hope.github.io/feed/zh/</guid>
       <source url="https://vuepress-theme-hope.github.io/feed/rss.xml">主页</source>
-      <pubDate>Mon, 08 Mar 2021 15:07:45 GMT</pubDate>
+      <pubDate>Sun, 24 Jan 2021 05:12:30 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="使用插件"> 使用插件</h2>
 <h3 id="安装"> 安装</h3>
 <CodeGroup>

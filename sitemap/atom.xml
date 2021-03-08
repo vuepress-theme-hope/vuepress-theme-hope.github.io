@@ -6,7 +6,7 @@
   <author>
     <name>Mr.Hope</name>
   </author>
-  <updated>2021-03-08T15:09:07.988Z</updated>
+  <updated>2021-03-08T15:27:43.652Z</updated>
   <generator>@mr-hope/vuepress-plugin-feed</generator>
   <link rel="self" href="https://vuepress-theme-hope.github.io/sitemap/atom.xml"/>
   <link rel="alternate" href="https://vuepress-theme-hope.github.io/sitemap/"/>
@@ -15,244 +15,10 @@
     <name>Mr.Hope</name>
   </contributor>
   <entry>
-    <title type="html">配置</title>
-    <id>https://vuepress-theme-hope.github.io/sitemap/zh/config/</id>
-    <link href="https://vuepress-theme-hope.github.io/sitemap/zh/config/"/>
-    <updated>2021-03-08T15:07:45.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="frontmatter-选项"> Frontmatter 选项</h2>
-<h3 id="sitemap-changefreq"> sitemap.changefreq</h3>
-<ul>
-<li>类型: <code>&quot;always&quot;|&quot;hourly&quot;|&quot;daily&quot;|&quot;weekly&quot;|&quot;monthly&quot;|&quot;yearly&quot;|&quot;never&quot;</code></li>
-<li>默认值: <code>&quot;daily&quot;</code></li>
-</ul>
-<p>页面默认更新频率</p>
-<h3 id="sitemap-exclude"> sitemap.exclude</h3>
-<ul>
-<li>类型: <code>boolean</code></li>
-<li>默认值: <code>false</code></li>
-</ul>
-<p>Sitemap 是否不包含此页面</p>
-<h3 id="sitemap-priority"> sitemap.priority</h3>
-<ul>
-<li>类型: <code>number</code></li>
-<li>默认值: <code>0.5</code></li>
-</ul>
-<p>页面优先级，范围 0~1</p>
-<h2 id="插件选项"> 插件选项</h2>
-<h3 id="hostname"> hostname</h3>
-<ul>
-<li>类型: <code>string</code></li>
-<li>必填: 是</li>
-</ul>
-<p>当前网站部署到的域名，请至少将其传入插件选项，或填写 <code>themeConfig.hostname</code>，否则插件将无法工作。</p>
-<h3 id="urls"> urls</h3>
-<ul>
-<li>类型: <code>string[]</code></li>
-<li>必填: 否</li>
-</ul>
-<p>需要额外包含的网址</p>
-<h3 id="exclude"> exclude</h3>
-<ul>
-<li>类型: <code>string[]</code></li>
-<li>必填: 否</li>
-</ul>
-<p>不被收录的页面</p>
-<h3 id="outfile"> outFile</h3>
-<ul>
-<li>类型: <code>string</code></li>
-<li>默认值: <code>&quot;sitemap.xml&quot;</code></li>
-</ul>
-<p>输出的文件名</p>
-<h3 id="changefreq"> changefreq</h3>
-<ul>
-<li>类型: <code>&quot;always&quot;|&quot;hourly&quot;|&quot;daily&quot;|&quot;weekly&quot;|&quot;monthly&quot;|&quot;yearly&quot;|&quot;never&quot;</code></li>
-<li>默认值: <code>&quot;daily&quot;</code></li>
-</ul>
-<p>页面默认更新频率</p>
-<h3 id="dateformatter"> dateFormatter</h3>
-<ul>
-<li>类型: <code>($page: PageComputed) =&gt; string</code></li>
-<li>必填: 否</li>
-</ul>
-<p>时间格式化器。默认会自动生成时间戳，如果你遇到了时区问题，请设置这个选项。</p>
-]]></content>
-    <author>
-      <name>Mr.Hope</name>
-    </author>
-    <contributor>
-      <name>Mr.Hope</name>
-    </contributor>
-    <published>2021-03-08T15:07:45.000Z</published>
-    <rights>Copyright by Mr.Hope</rights>
-  </entry>
-  <entry>
-    <title type="html">指南</title>
-    <id>https://vuepress-theme-hope.github.io/sitemap/zh/guide/</id>
-    <link href="https://vuepress-theme-hope.github.io/sitemap/zh/guide/"/>
-    <updated>2021-03-08T15:07:45.000Z</updated>
-    <content type="html"><![CDATA[<p>本插件会为你的网站自动生成 Sitemap。为了使插件正常工作，你需要将部署的域名传递给插件的 <code>domain</code> 选项。</p>
-<p>插件会自动根据页面的 Git 的时间戳生成页面的最后更新时间，同时会根据站点的多语言配置声明页面的其他语言替代版本地址。</p>
-<h2 id="控制-sitemap-链接"> 控制 Sitemap 链接</h2>
-<p>默认情况下，所有除 404 页面以外的网站链接均会被添加进 Sitemap。</p>
-<p>如果你希望在 VuePress 项目页面之外，添加其他页面链接到 Sitemap，请将它们变成数组传入插件的 <code>urls</code> 选项。</p>
-<p>如果你不希望某些页面出现在 sitemap 中，你可以将它们变成一个数组传入到插件的 <code>exclude</code> 选项中，或者在对应页面的 frontmatter 中，设置 <code>feed.exclude</code> 为 <code>true</code>。</p>
-<p>你还可以通过插件的 <code>outFile</code> 选项控制输出的地址，默认的输出目录下的 <code>sitemap.xml</code>。</p>
-<h2 id="更新周期"> 更新周期</h2>
-<p>页面默认的更新周期是 <code>daily</code> (每天)，如果你希望修改全部的页面周期，请在插件选项中设置 <code>changefreq</code> 。你也可以在页面的 frontmatter 中设置 <code>feed.changefreq</code>，页面具有更高的优先级。</p>
-<p>合法的频率有:</p>
-<ul>
-<li><code>&quot;always&quot;</code></li>
-<li><code>&quot;hourly&quot;</code></li>
-<li><code>&quot;daily&quot;</code></li>
-<li><code>&quot;weekly&quot;</code></li>
-<li><code>&quot;monthly&quot;</code></li>
-<li><code>&quot;yearly&quot;</code></li>
-<li><code>&quot;never&quot;</code></li>
-</ul>
-<h2 id="sitemap-介绍"> Sitemap 介绍</h2>
-<p>网站地图 (Sitemap) 提供 SEO 增强:</p>
-<ul>
-<li>为搜索引擎爬虫提供可以浏览整个网站的链接；</li>
-<li>为搜索引擎爬虫提供一些链接，指向动态页面或者采用其他方法比较难以到达的页面；</li>
-<li>如果访问者试图访问网站所在域内并不存在的 URL，那么这个访问者就会被转到“无法找到文件”的错误页面，而网站地图可以作为该页面的“准”内容。</li>
-</ul>
-<p>网站地图通过使所有页面可被找到来增强搜索引擎优化的效果。</p>
-<p>大部分搜索引擎只跟踪页面内有限数量的链接，因此当网站非常大的时候，网站地图对于使搜索引擎和访问者可以访问网站中的所有内容就变得必不可少了。</p>
-<p>Sitemaps 是站点管理员向搜索引擎爬虫公布站点可被抓取页面的协议，sitemap 文件内容必须遵循 XML 格式的定义。每个 URL 可以包含更新的周期和时间、URL 在整个站点中的优先级。这样可以让搜索引擎更佳有效的抓取网站内容。</p>
-<p>Google 引入了 Google 网站地图使得网页开发者可以发布整个站点的链接列表。网站地图文件可以被用来指引网络蜘蛛如何找到这类页面。</p>
-]]></content>
-    <author>
-      <name>Mr.Hope</name>
-    </author>
-    <contributor>
-      <name>Mr.Hope</name>
-    </contributor>
-    <published>2021-03-08T15:07:45.000Z</published>
-    <rights>Copyright by Mr.Hope</rights>
-  </entry>
-  <entry>
-    <title type="html">主页</title>
-    <id>https://vuepress-theme-hope.github.io/sitemap/zh/</id>
-    <link href="https://vuepress-theme-hope.github.io/sitemap/zh/"/>
-    <updated>2021-03-08T15:07:45.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="使用插件"> 使用插件</h2>
-<h3 id="安装"> 安装</h3>
-<CodeGroup>
-<CodeGroupItem title="yarn">
-<div><pre><code><span>yarn</span> <span>add</span> -D @mr-hope/vuepress-plugin-sitemap
-</code></pre>
-<div><span>1</span><br></div></div></CodeGroupItem>
-<CodeGroupItem title="npm">
-<div><pre><code><span>npm</span> i -D @mr-hope/vuepress-plugin-sitemap
-</code></pre>
-<div><span>1</span><br></div></div></CodeGroupItem>
-</CodeGroup>
-<h3 id="使用"> 使用</h3>
-<div><pre><code><span>// .vuepress/config.js</span>
-module<span>.</span>exports <span>=</span> <span>{</span>
-  plugins<span>:</span> <span>[</span>
-    <span>[</span>
-      <span>"@mr-hope/sitemap"</span><span>,</span>
-      <span>{</span>
-        <span>// 你的选项</span>
-      <span>}</span><span>,</span>
-    <span>]</span><span>,</span>
-  <span>]</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div>]]></content>
-    <author>
-      <name>Mr.Hope</name>
-    </author>
-    <contributor>
-      <name>Mr.Hope</name>
-    </contributor>
-    <published>2021-03-08T15:07:45.000Z</published>
-    <rights>Copyright by Mr.Hope</rights>
-  </entry>
-  <entry>
-    <title type="html">Home</title>
-    <id>https://vuepress-theme-hope.github.io/sitemap/</id>
-    <link href="https://vuepress-theme-hope.github.io/sitemap/"/>
-    <updated>2021-03-08T15:07:45.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="how-to-use"> How to use</h2>
-<h3 id="install"> Install</h3>
-<CodeGroup>
-<CodeGroupItem title="yarn">
-<div><pre><code><span>yarn</span> <span>add</span> -D @mr-hope/vuepress-plugin-sitemap
-</code></pre>
-<div><span>1</span><br></div></div></CodeGroupItem>
-<CodeGroupItem title="npm">
-<div><pre><code><span>npm</span> i -D @mr-hope/vuepress-plugin-sitemap
-</code></pre>
-<div><span>1</span><br></div></div></CodeGroupItem>
-</CodeGroup>
-<h3 id="usage"> Usage</h3>
-<div><pre><code><span>// .vuepress/config.js</span>
-module<span>.</span>exports <span>=</span> <span>{</span>
-  plugins<span>:</span> <span>[</span>
-    <span>[</span>
-      <span>"@mr-hope/sitemap"</span><span>,</span>
-      <span>{</span>
-        <span>// your options</span>
-      <span>}</span><span>,</span>
-    <span>]</span><span>,</span>
-  <span>]</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div>]]></content>
-    <author>
-      <name>Mr.Hope</name>
-    </author>
-    <contributor>
-      <name>Mr.Hope</name>
-    </contributor>
-    <published>2021-03-08T15:07:45.000Z</published>
-    <rights>Copyright by Mr.Hope</rights>
-  </entry>
-  <entry>
-    <title type="html">Guide</title>
-    <id>https://vuepress-theme-hope.github.io/sitemap/guide/</id>
-    <link href="https://vuepress-theme-hope.github.io/sitemap/guide/"/>
-    <updated>2021-03-08T15:07:45.000Z</updated>
-    <content type="html"><![CDATA[<p>This plugin will automatically generate a Sitemap for your site. In order for the plugin to work properly, you need to pass the deployed domain name to the <code>domain</code> option of the plugin.</p>
-<p>The plugin will automatically generate the last update time of the page based on the Git timestamp of the page, and will also declare the alternative version link of the page in other languages ​​according to the locales config.</p>
-<h2 id="control-sitemap-link"> Control Sitemap Link</h2>
-<p>By default, all site links except 404 page will be added to the Sitemap.</p>
-<p>To add other pages to the Sitemap outside of the VuePress project page, please turn them into an array and pass to the <code>urls</code> plugin option.</p>
-<p>If you don’t want certain pages to appear in the sitemap, you can turn them into an array and pass them to the <code>exclude</code> plugin option, or set <code>feed.exclude</code> to <code>true</code> in the frontmatter of the corresponding page.</p>
-<p>You can also control the output link through the <code>outFile</code> option of the plugin. The default output directory is <code>sitemap.xml</code>.</p>
-<h2 id="change-frequency"> Change frequency</h2>
-<p>The default update cycle of the page is <code>daily</code> (every day). To modify the entire page cycle, please set <code>changefreq</code> in the plugin options. You can also set <code>feed.changefreq</code> in the frontmatter of the page. Note that page has a higher priority.</p>
-<p>The legal frequencies are:</p>
-<ul>
-<li><code>&quot;always&quot;</code></li>
-<li><code>&quot;hourly&quot;</code></li>
-<li><code>&quot;daily&quot;</code></li>
-<li><code>&quot;weekly&quot;</code></li>
-<li><code>&quot;monthly&quot;</code></li>
-<li><code>&quot;yearly&quot;</code></li>
-<li><code>&quot;never&quot;</code></li>
-</ul>
-<h2 id="sitemap-intro"> Sitemap Intro</h2>
-<p>Sitemaps may be addressed to users or to software. Many sites have user-visible sitemaps which present a systematic view, typically hierarchical, of the site. These are intended to help visitors find specific pages, and can also be used by crawlers. Alphabetically organized site maps, sometimes called site indexes, are a different approach.</p>
-<p>For use by search engines and other crawlers, there is a structured format, the XML Sitemap, which lists the pages in a site, their relative importance, and how often they are updated. This is pointed to from the robots.txt file and is typically called sitemap.xml.</p>
-<p>Google introduced the Sitemaps protocol so web developers can publish lists of links from across their sites.</p>
-]]></content>
-    <author>
-      <name>Mr.Hope</name>
-    </author>
-    <contributor>
-      <name>Mr.Hope</name>
-    </contributor>
-    <published>2021-03-08T15:07:45.000Z</published>
-    <rights>Copyright by Mr.Hope</rights>
-  </entry>
-  <entry>
     <title type="html">Config</title>
     <id>https://vuepress-theme-hope.github.io/sitemap/config/</id>
     <link href="https://vuepress-theme-hope.github.io/sitemap/config/"/>
-    <updated>2021-03-08T15:07:45.000Z</updated>
+    <updated>2021-02-28T16:19:11.000Z</updated>
     <content type="html"><![CDATA[<h2 id="frontmatter-options"> Frontmatter Options</h2>
 <h3 id="sitemap-changefreq"> sitemap.changefreq</h3>
 <ul>
@@ -316,7 +82,241 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <contributor>
       <name>Mr.Hope</name>
     </contributor>
-    <published>2021-03-08T15:07:45.000Z</published>
+    <published>2021-02-28T16:19:11.000Z</published>
+    <rights>Copyright by Mr.Hope</rights>
+  </entry>
+  <entry>
+    <title type="html">Guide</title>
+    <id>https://vuepress-theme-hope.github.io/sitemap/guide/</id>
+    <link href="https://vuepress-theme-hope.github.io/sitemap/guide/"/>
+    <updated>2021-02-28T17:06:20.000Z</updated>
+    <content type="html"><![CDATA[<p>This plugin will automatically generate a Sitemap for your site. In order for the plugin to work properly, you need to pass the deployed domain name to the <code>domain</code> option of the plugin.</p>
+<p>The plugin will automatically generate the last update time of the page based on the Git timestamp of the page, and will also declare the alternative version link of the page in other languages ​​according to the locales config.</p>
+<h2 id="control-sitemap-link"> Control Sitemap Link</h2>
+<p>By default, all site links except 404 page will be added to the Sitemap.</p>
+<p>To add other pages to the Sitemap outside of the VuePress project page, please turn them into an array and pass to the <code>urls</code> plugin option.</p>
+<p>If you don’t want certain pages to appear in the sitemap, you can turn them into an array and pass them to the <code>exclude</code> plugin option, or set <code>feed.exclude</code> to <code>true</code> in the frontmatter of the corresponding page.</p>
+<p>You can also control the output link through the <code>outFile</code> option of the plugin. The default output directory is <code>sitemap.xml</code>.</p>
+<h2 id="change-frequency"> Change frequency</h2>
+<p>The default update cycle of the page is <code>daily</code> (every day). To modify the entire page cycle, please set <code>changefreq</code> in the plugin options. You can also set <code>feed.changefreq</code> in the frontmatter of the page. Note that page has a higher priority.</p>
+<p>The legal frequencies are:</p>
+<ul>
+<li><code>&quot;always&quot;</code></li>
+<li><code>&quot;hourly&quot;</code></li>
+<li><code>&quot;daily&quot;</code></li>
+<li><code>&quot;weekly&quot;</code></li>
+<li><code>&quot;monthly&quot;</code></li>
+<li><code>&quot;yearly&quot;</code></li>
+<li><code>&quot;never&quot;</code></li>
+</ul>
+<h2 id="sitemap-intro"> Sitemap Intro</h2>
+<p>Sitemaps may be addressed to users or to software. Many sites have user-visible sitemaps which present a systematic view, typically hierarchical, of the site. These are intended to help visitors find specific pages, and can also be used by crawlers. Alphabetically organized site maps, sometimes called site indexes, are a different approach.</p>
+<p>For use by search engines and other crawlers, there is a structured format, the XML Sitemap, which lists the pages in a site, their relative importance, and how often they are updated. This is pointed to from the robots.txt file and is typically called sitemap.xml.</p>
+<p>Google introduced the Sitemaps protocol so web developers can publish lists of links from across their sites.</p>
+]]></content>
+    <author>
+      <name>Mr.Hope</name>
+    </author>
+    <contributor>
+      <name>Mr.Hope</name>
+    </contributor>
+    <published>2021-02-28T16:19:11.000Z</published>
+    <rights>Copyright by Mr.Hope</rights>
+  </entry>
+  <entry>
+    <title type="html">Home</title>
+    <id>https://vuepress-theme-hope.github.io/sitemap/</id>
+    <link href="https://vuepress-theme-hope.github.io/sitemap/"/>
+    <updated>2021-03-06T14:49:20.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="how-to-use"> How to use</h2>
+<h3 id="install"> Install</h3>
+<CodeGroup>
+<CodeGroupItem title="yarn">
+<div><pre><code><span>yarn</span> <span>add</span> -D @mr-hope/vuepress-plugin-sitemap
+</code></pre>
+<div><span>1</span><br></div></div></CodeGroupItem>
+<CodeGroupItem title="npm">
+<div><pre><code><span>npm</span> i -D @mr-hope/vuepress-plugin-sitemap
+</code></pre>
+<div><span>1</span><br></div></div></CodeGroupItem>
+</CodeGroup>
+<h3 id="usage"> Usage</h3>
+<div><pre><code><span>// .vuepress/config.js</span>
+module<span>.</span>exports <span>=</span> <span>{</span>
+  plugins<span>:</span> <span>[</span>
+    <span>[</span>
+      <span>"@mr-hope/sitemap"</span><span>,</span>
+      <span>{</span>
+        <span>// your options</span>
+      <span>}</span><span>,</span>
+    <span>]</span><span>,</span>
+  <span>]</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div>]]></content>
+    <author>
+      <name>Mr.Hope</name>
+    </author>
+    <contributor>
+      <name>Mr.Hope</name>
+    </contributor>
+    <published>2020-10-13T09:17:32.000Z</published>
+    <rights>Copyright by Mr.Hope</rights>
+  </entry>
+  <entry>
+    <title type="html">配置</title>
+    <id>https://vuepress-theme-hope.github.io/sitemap/zh/config/</id>
+    <link href="https://vuepress-theme-hope.github.io/sitemap/zh/config/"/>
+    <updated>2021-02-28T16:19:11.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="frontmatter-选项"> Frontmatter 选项</h2>
+<h3 id="sitemap-changefreq"> sitemap.changefreq</h3>
+<ul>
+<li>类型: <code>&quot;always&quot;|&quot;hourly&quot;|&quot;daily&quot;|&quot;weekly&quot;|&quot;monthly&quot;|&quot;yearly&quot;|&quot;never&quot;</code></li>
+<li>默认值: <code>&quot;daily&quot;</code></li>
+</ul>
+<p>页面默认更新频率</p>
+<h3 id="sitemap-exclude"> sitemap.exclude</h3>
+<ul>
+<li>类型: <code>boolean</code></li>
+<li>默认值: <code>false</code></li>
+</ul>
+<p>Sitemap 是否不包含此页面</p>
+<h3 id="sitemap-priority"> sitemap.priority</h3>
+<ul>
+<li>类型: <code>number</code></li>
+<li>默认值: <code>0.5</code></li>
+</ul>
+<p>页面优先级，范围 0~1</p>
+<h2 id="插件选项"> 插件选项</h2>
+<h3 id="hostname"> hostname</h3>
+<ul>
+<li>类型: <code>string</code></li>
+<li>必填: 是</li>
+</ul>
+<p>当前网站部署到的域名，请至少将其传入插件选项，或填写 <code>themeConfig.hostname</code>，否则插件将无法工作。</p>
+<h3 id="urls"> urls</h3>
+<ul>
+<li>类型: <code>string[]</code></li>
+<li>必填: 否</li>
+</ul>
+<p>需要额外包含的网址</p>
+<h3 id="exclude"> exclude</h3>
+<ul>
+<li>类型: <code>string[]</code></li>
+<li>必填: 否</li>
+</ul>
+<p>不被收录的页面</p>
+<h3 id="outfile"> outFile</h3>
+<ul>
+<li>类型: <code>string</code></li>
+<li>默认值: <code>&quot;sitemap.xml&quot;</code></li>
+</ul>
+<p>输出的文件名</p>
+<h3 id="changefreq"> changefreq</h3>
+<ul>
+<li>类型: <code>&quot;always&quot;|&quot;hourly&quot;|&quot;daily&quot;|&quot;weekly&quot;|&quot;monthly&quot;|&quot;yearly&quot;|&quot;never&quot;</code></li>
+<li>默认值: <code>&quot;daily&quot;</code></li>
+</ul>
+<p>页面默认更新频率</p>
+<h3 id="dateformatter"> dateFormatter</h3>
+<ul>
+<li>类型: <code>($page: PageComputed) =&gt; string</code></li>
+<li>必填: 否</li>
+</ul>
+<p>时间格式化器。默认会自动生成时间戳，如果你遇到了时区问题，请设置这个选项。</p>
+]]></content>
+    <author>
+      <name>Mr.Hope</name>
+    </author>
+    <contributor>
+      <name>Mr.Hope</name>
+    </contributor>
+    <published>2021-02-28T16:19:11.000Z</published>
+    <rights>Copyright by Mr.Hope</rights>
+  </entry>
+  <entry>
+    <title type="html">指南</title>
+    <id>https://vuepress-theme-hope.github.io/sitemap/zh/guide/</id>
+    <link href="https://vuepress-theme-hope.github.io/sitemap/zh/guide/"/>
+    <updated>2021-02-28T17:06:20.000Z</updated>
+    <content type="html"><![CDATA[<p>本插件会为你的网站自动生成 Sitemap。为了使插件正常工作，你需要将部署的域名传递给插件的 <code>domain</code> 选项。</p>
+<p>插件会自动根据页面的 Git 的时间戳生成页面的最后更新时间，同时会根据站点的多语言配置声明页面的其他语言替代版本地址。</p>
+<h2 id="控制-sitemap-链接"> 控制 Sitemap 链接</h2>
+<p>默认情况下，所有除 404 页面以外的网站链接均会被添加进 Sitemap。</p>
+<p>如果你希望在 VuePress 项目页面之外，添加其他页面链接到 Sitemap，请将它们变成数组传入插件的 <code>urls</code> 选项。</p>
+<p>如果你不希望某些页面出现在 sitemap 中，你可以将它们变成一个数组传入到插件的 <code>exclude</code> 选项中，或者在对应页面的 frontmatter 中，设置 <code>feed.exclude</code> 为 <code>true</code>。</p>
+<p>你还可以通过插件的 <code>outFile</code> 选项控制输出的地址，默认的输出目录下的 <code>sitemap.xml</code>。</p>
+<h2 id="更新周期"> 更新周期</h2>
+<p>页面默认的更新周期是 <code>daily</code> (每天)，如果你希望修改全部的页面周期，请在插件选项中设置 <code>changefreq</code> 。你也可以在页面的 frontmatter 中设置 <code>feed.changefreq</code>，页面具有更高的优先级。</p>
+<p>合法的频率有:</p>
+<ul>
+<li><code>&quot;always&quot;</code></li>
+<li><code>&quot;hourly&quot;</code></li>
+<li><code>&quot;daily&quot;</code></li>
+<li><code>&quot;weekly&quot;</code></li>
+<li><code>&quot;monthly&quot;</code></li>
+<li><code>&quot;yearly&quot;</code></li>
+<li><code>&quot;never&quot;</code></li>
+</ul>
+<h2 id="sitemap-介绍"> Sitemap 介绍</h2>
+<p>网站地图 (Sitemap) 提供 SEO 增强:</p>
+<ul>
+<li>为搜索引擎爬虫提供可以浏览整个网站的链接；</li>
+<li>为搜索引擎爬虫提供一些链接，指向动态页面或者采用其他方法比较难以到达的页面；</li>
+<li>如果访问者试图访问网站所在域内并不存在的 URL，那么这个访问者就会被转到“无法找到文件”的错误页面，而网站地图可以作为该页面的“准”内容。</li>
+</ul>
+<p>网站地图通过使所有页面可被找到来增强搜索引擎优化的效果。</p>
+<p>大部分搜索引擎只跟踪页面内有限数量的链接，因此当网站非常大的时候，网站地图对于使搜索引擎和访问者可以访问网站中的所有内容就变得必不可少了。</p>
+<p>Sitemaps 是站点管理员向搜索引擎爬虫公布站点可被抓取页面的协议，sitemap 文件内容必须遵循 XML 格式的定义。每个 URL 可以包含更新的周期和时间、URL 在整个站点中的优先级。这样可以让搜索引擎更佳有效的抓取网站内容。</p>
+<p>Google 引入了 Google 网站地图使得网页开发者可以发布整个站点的链接列表。网站地图文件可以被用来指引网络蜘蛛如何找到这类页面。</p>
+]]></content>
+    <author>
+      <name>Mr.Hope</name>
+    </author>
+    <contributor>
+      <name>Mr.Hope</name>
+    </contributor>
+    <published>2021-02-28T16:19:11.000Z</published>
+    <rights>Copyright by Mr.Hope</rights>
+  </entry>
+  <entry>
+    <title type="html">主页</title>
+    <id>https://vuepress-theme-hope.github.io/sitemap/zh/</id>
+    <link href="https://vuepress-theme-hope.github.io/sitemap/zh/"/>
+    <updated>2021-03-06T14:49:20.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="使用插件"> 使用插件</h2>
+<h3 id="安装"> 安装</h3>
+<CodeGroup>
+<CodeGroupItem title="yarn">
+<div><pre><code><span>yarn</span> <span>add</span> -D @mr-hope/vuepress-plugin-sitemap
+</code></pre>
+<div><span>1</span><br></div></div></CodeGroupItem>
+<CodeGroupItem title="npm">
+<div><pre><code><span>npm</span> i -D @mr-hope/vuepress-plugin-sitemap
+</code></pre>
+<div><span>1</span><br></div></div></CodeGroupItem>
+</CodeGroup>
+<h3 id="使用"> 使用</h3>
+<div><pre><code><span>// .vuepress/config.js</span>
+module<span>.</span>exports <span>=</span> <span>{</span>
+  plugins<span>:</span> <span>[</span>
+    <span>[</span>
+      <span>"@mr-hope/sitemap"</span><span>,</span>
+      <span>{</span>
+        <span>// 你的选项</span>
+      <span>}</span><span>,</span>
+    <span>]</span><span>,</span>
+  <span>]</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div>]]></content>
+    <author>
+      <name>Mr.Hope</name>
+    </author>
+    <contributor>
+      <name>Mr.Hope</name>
+    </contributor>
+    <published>2020-10-13T09:17:32.000Z</published>
     <rights>Copyright by Mr.Hope</rights>
   </entry>
 </feed>
