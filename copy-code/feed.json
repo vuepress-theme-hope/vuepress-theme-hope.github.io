@@ -51,10 +51,10 @@
       "tags": []
     },
     {
-      "title": "指南",
-      "url": "https://vuepress-theme-hope.github.io/copy-code/zh/guide/",
-      "id": "https://vuepress-theme-hope.github.io/copy-code/zh/guide/",
-      "content_html": "<h2 id=\"使用\"> 使用</h2>\n<p>启用后，本插件会自动添加复制按钮到每个代码块的右下角。</p>\n<p>默认情况下，按钮仅在桌面模式显示，如果你需要在移动端展示这个按钮，请将 <code>showInMobile</code> 设置为 <code>true</code>。</p>\n<p>在用户点击复制按钮后，屏幕上会显示一个复制成功的提示。默认的提示时长为 2000ms，如果你需要更改这个时长，请设置 <code>duration</code>(单位 ms)，如果你不需要这个提示，请将 <code>duration</code> 设置为 <code>0</code>。</p>\n<h2 id=\"效果\"> 效果</h2>\n<div><pre><code><span>// .vuepress/config.js</span>\nmodule<span>.</span>exports <span>=</span> <span>{</span>\n  plugins<span>:</span> <span>[</span>\n    <span>[</span>\n      <span>\"@mr-hope/copy-code\"</span><span>,</span>\n      <span>{</span>\n        <span>// 你的选项</span>\n      <span>}</span><span>,</span>\n    <span>]</span><span>,</span>\n  <span>]</span><span>,</span>\n<span>}</span><span>;</span>\n</code></pre>\n<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div>",
+      "title": "配置",
+      "url": "https://vuepress-theme-hope.github.io/copy-code/zh/config/",
+      "id": "https://vuepress-theme-hope.github.io/copy-code/zh/config/",
+      "content_html": "<h2 id=\"插件配置\"> 插件配置</h2>\n<h3 id=\"baselang\"> baseLang</h3>\n<ul>\n<li>类型: <code>string</code></li>\n<li>默认值: <code>'en-US'</code></li>\n</ul>\n<p>主目录所对应的语言。</p>\n<h3 id=\"selector\"> selector</h3>\n<ul>\n<li>类型: <code>string | string[]</code></li>\n<li>默认值: <code>'.theme-default-content div[class*=&quot;language-&quot;] pre'</code></li>\n</ul>\n<p>代码块选择器</p>\n<h3 id=\"duration\"> duration</h3>\n<ul>\n<li>类型: <code>number</code></li>\n<li>默认值: <code>2000</code></li>\n</ul>\n<p>提示消息显示时间，设置为 <code>0</code> 会禁用提示。</p>\n<h3 id=\"showinmobile\"> showInMobile</h3>\n<ul>\n<li>类型: <code>boolean</code></li>\n<li>默认值: <code>false</code></li>\n</ul>\n<p>是否展示在移动端</p>\n",
       "date_published": "2020-10-13T05:36:44.000Z",
       "date_modified": "2021-02-26T13:05:09.000Z",
       "authors": [
@@ -65,10 +65,10 @@
       "tags": []
     },
     {
-      "title": "配置",
-      "url": "https://vuepress-theme-hope.github.io/copy-code/zh/config/",
-      "id": "https://vuepress-theme-hope.github.io/copy-code/zh/config/",
-      "content_html": "<h2 id=\"插件配置\"> 插件配置</h2>\n<h3 id=\"baselang\"> baseLang</h3>\n<ul>\n<li>类型: <code>string</code></li>\n<li>默认值: <code>'en-US'</code></li>\n</ul>\n<p>主目录所对应的语言。</p>\n<h3 id=\"selector\"> selector</h3>\n<ul>\n<li>类型: <code>string | string[]</code></li>\n<li>默认值: <code>'.theme-default-content div[class*=&quot;language-&quot;] pre'</code></li>\n</ul>\n<p>代码块选择器</p>\n<h3 id=\"duration\"> duration</h3>\n<ul>\n<li>类型: <code>number</code></li>\n<li>默认值: <code>2000</code></li>\n</ul>\n<p>提示消息显示时间，设置为 <code>0</code> 会禁用提示。</p>\n<h3 id=\"showinmobile\"> showInMobile</h3>\n<ul>\n<li>类型: <code>boolean</code></li>\n<li>默认值: <code>false</code></li>\n</ul>\n<p>是否展示在移动端</p>\n",
+      "title": "指南",
+      "url": "https://vuepress-theme-hope.github.io/copy-code/zh/guide/",
+      "id": "https://vuepress-theme-hope.github.io/copy-code/zh/guide/",
+      "content_html": "<h2 id=\"使用\"> 使用</h2>\n<p>启用后，本插件会自动添加复制按钮到每个代码块的右下角。</p>\n<p>默认情况下，按钮仅在桌面模式显示，如果你需要在移动端展示这个按钮，请将 <code>showInMobile</code> 设置为 <code>true</code>。</p>\n<p>在用户点击复制按钮后，屏幕上会显示一个复制成功的提示。默认的提示时长为 2000ms，如果你需要更改这个时长，请设置 <code>duration</code>(单位 ms)，如果你不需要这个提示，请将 <code>duration</code> 设置为 <code>0</code>。</p>\n<h2 id=\"效果\"> 效果</h2>\n<div><pre><code><span>// .vuepress/config.js</span>\nmodule<span>.</span>exports <span>=</span> <span>{</span>\n  plugins<span>:</span> <span>[</span>\n    <span>[</span>\n      <span>\"@mr-hope/copy-code\"</span><span>,</span>\n      <span>{</span>\n        <span>// 你的选项</span>\n      <span>}</span><span>,</span>\n    <span>]</span><span>,</span>\n  <span>]</span><span>,</span>\n<span>}</span><span>;</span>\n</code></pre>\n<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div>",
       "date_published": "2020-10-13T05:36:44.000Z",
       "date_modified": "2021-02-26T13:05:09.000Z",
       "authors": [
