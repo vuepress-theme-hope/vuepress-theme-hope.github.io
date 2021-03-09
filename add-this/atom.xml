@@ -6,7 +6,7 @@
   <author>
     <name>Mr.Hope</name>
   </author>
-  <updated>2021-03-09T11:56:34.762Z</updated>
+  <updated>2021-03-09T12:17:48.200Z</updated>
   <generator>@mr-hope/vuepress-plugin-feed</generator>
   <link rel="self" href="https://vuepress-theme-hope.github.io/add-this/atom.xml"/>
   <link rel="alternate" href="https://vuepress-theme-hope.github.io/add-this/"/>
@@ -89,6 +89,38 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <rights>Copyright by Mr.Hope</rights>
   </entry>
   <entry>
+    <title type="html">主页</title>
+    <id>https://vuepress-theme-hope.github.io/add-this/zh/</id>
+    <link href="https://vuepress-theme-hope.github.io/add-this/zh/"/>
+    <updated>2021-02-24T15:41:50.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="使用插件"> 使用插件</h2>
+<h3 id="安装"> 安装</h3>
+<CodeGroup>
+<CodeGroupItem title="yarn">
+<div><pre><code><span>yarn</span> <span>add</span> -D vuepress-plugin-add-this
+</code></pre>
+<div><span>1</span><br></div></div></CodeGroupItem>
+<CodeGroupItem title="npm">
+<div><pre><code><span>npm</span> i -D vuepress-plugin-add-this
+</code></pre>
+<div><span>1</span><br></div></div></CodeGroupItem>
+</CodeGroup>
+<h3 id="使用"> 使用</h3>
+<div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
+  plugins<span>:</span> <span>[</span><span>[</span><span>"add-this"</span><span>,</span> <span>{</span> pubid<span>:</span> <span>"你的 pubid"</span> <span>}</span><span>]</span><span>]</span><span>,</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div>]]></content>
+    <author>
+      <name>Mr.Hope</name>
+    </author>
+    <contributor>
+      <name>Mr.Hope</name>
+    </contributor>
+    <published>2020-10-13T05:36:44.000Z</published>
+    <rights>Copyright by Mr.Hope</rights>
+  </entry>
+  <entry>
     <title type="html">配置</title>
     <id>https://vuepress-theme-hope.github.io/add-this/zh/config/</id>
     <link href="https://vuepress-theme-hope.github.io/add-this/zh/config/"/>
@@ -123,38 +155,6 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <p>进入 <a href="https://www.addthis.com/dashboard#gallery/" target="_blank" rel="noopener noreferrer">工具页面</a> 添加你所需要的工具，并进行合理的配置。</p>
 <p>在配置完成后，请进入 <a href="https://www.addthis.com/dashboard#get-the-code/" target="_blank" rel="noopener noreferrer">获取代码页面</a>，即可代码中获得你的 pubid。</p>
 ]]></content>
-    <author>
-      <name>Mr.Hope</name>
-    </author>
-    <contributor>
-      <name>Mr.Hope</name>
-    </contributor>
-    <published>2020-10-13T05:36:44.000Z</published>
-    <rights>Copyright by Mr.Hope</rights>
-  </entry>
-  <entry>
-    <title type="html">主页</title>
-    <id>https://vuepress-theme-hope.github.io/add-this/zh/</id>
-    <link href="https://vuepress-theme-hope.github.io/add-this/zh/"/>
-    <updated>2021-02-24T15:41:50.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="使用插件"> 使用插件</h2>
-<h3 id="安装"> 安装</h3>
-<CodeGroup>
-<CodeGroupItem title="yarn">
-<div><pre><code><span>yarn</span> <span>add</span> -D vuepress-plugin-add-this
-</code></pre>
-<div><span>1</span><br></div></div></CodeGroupItem>
-<CodeGroupItem title="npm">
-<div><pre><code><span>npm</span> i -D vuepress-plugin-add-this
-</code></pre>
-<div><span>1</span><br></div></div></CodeGroupItem>
-</CodeGroup>
-<h3 id="使用"> 使用</h3>
-<div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
-  plugins<span>:</span> <span>[</span><span>[</span><span>"add-this"</span><span>,</span> <span>{</span> pubid<span>:</span> <span>"你的 pubid"</span> <span>}</span><span>]</span><span>]</span><span>,</span>
-<span>}</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div>]]></content>
     <author>
       <name>Mr.Hope</name>
     </author>
