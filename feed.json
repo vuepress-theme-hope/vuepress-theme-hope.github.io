@@ -2059,6 +2059,55 @@
       ]
     },
     {
+      "title": "文章列表",
+      "url": "https://vuepress-theme-hope.github.io/zh/guide/blog/article/",
+      "id": "https://vuepress-theme-hope.github.io/zh/guide/blog/article/",
+      "summary": "<p>主题在 <code>/article/</code> 路径下为你提供了全部的文章列表。</p>\n",
+      "content_html": "<p>主题在 <code>/article/</code> 路径下为你提供了全部的文章列表。</p>\n\n<h2 id=\"文章\"> 文章</h2>\n<p>所有文章都会默认被添加到文章列表中渲染在 <code>/article/</code> 路径下。</p>\n<p><img src=\"./assets/article.png\" alt=\"文章列表\"></p>\n<p>如果你不希望该列表包含一些特定的文章，只需在文章的 frontmatter 中将 <code>article</code> 设置为 <code>false</code>。</p>\n<p>如果你希望在文章列表中置顶特定文章，只需在文章的 frontmatter 中将 <code>sticky</code> 设置为 <code>true</code>。</p>\n<div><p>置顶顺序</p>\n<p>对于置顶文章，你可以将 <code>sticky</code> 设置为 <code>number</code> 来设置它们的顺序。数值大的文章会排列在前面。</p>\n</div>\n<h2 id=\"收藏文章\"> 收藏文章</h2>\n<p>你可以通过在 frontmatter 中设置 <code>star</code> 为 <code>true</code> 收藏一个文章。收藏后，用户就可以在 <code>/star/</code> 页面中查看这些文章。</p>\n<p>同时任何任何收藏的文章都会显示在博客主页侧边栏的文章栏目中。</p>\n<div><p>Info</p>\n<p>我们提供收藏选项的考虑是: 主题使用者可能希望向访客展示一定数量的精品文章，而又不希望置顶文章充斥主页，导致用户不能看到最近更新的文章。</p>\n</div>\n<div><p>收藏顺序</p>\n<p>类似置顶文章，你同样可以将 <code>star</code> 设置为 <code>number</code> 来设置它们的顺序。数值大的文章会排列在前面。</p>\n</div>\n<h2 id=\"加密与幻灯片\"> 加密与幻灯片</h2>\n<p>主题为加密文章页与幻灯片页这两个特殊页面提供了单独的列表，你可以在 <code>/encrypt/</code> 和 <code>/slide/</code> 页面查看它们。</p>\n<p>同时为了帮助访问者区分，这两个类别的页面会在文章列表中用图标明确标明其类别。</p>\n<p><img src=\"./assets/icon-type.png\" alt=\"类别提示\"></p>\n",
+      "date_published": "2021-03-08T03:21:06.000Z",
+      "date_modified": "2021-03-08T03:21:06.000Z",
+      "authors": [
+        {
+          "name": "Mr.Hope"
+        }
+      ],
+      "tags": [
+        "blog"
+      ]
+    },
+    {
+      "title": "项目案例",
+      "url": "https://vuepress-theme-hope.github.io/zh/demo/",
+      "id": "https://vuepress-theme-hope.github.io/zh/demo/",
+      "content_html": "<h2 id=\"mr-hope-的个人博客\"> Mr.Hope 的个人博客</h2>\n<ul>\n<li><a href=\"https://mrhope.site\" target=\"_blank\" rel=\"noopener noreferrer\">项目地址</a></li>\n<li><a href=\"https://github.com/Mister-Hope/Mister-Hope.github.io\" target=\"_blank\" rel=\"noopener noreferrer\">项目文件</a></li>\n</ul>\n<h2 id=\"希望工作室官网\"> 希望工作室官网</h2>\n<ul>\n<li><a href=\"https://hope-studio.innenu.com\" target=\"_blank\" rel=\"noopener noreferrer\">项目地址</a></li>\n<li><a href=\"https://github.com/Hope-Studio/Hope-Studio.github.io\" target=\"_blank\" rel=\"noopener noreferrer\">项目文件</a></li>\n</ul>\n<h2 id=\"vuepress-theme-hope-文档\"> vuepress-theme-hope 文档</h2>\n<ul>\n<li><a href=\"https://vuepress-theme-hope.github.io\" target=\"_blank\" rel=\"noopener noreferrer\">项目地址</a></li>\n<li><a href=\"https://github.com/vuepress-theme-hope/vuepress-theme-hope/tree/v1/docs/theme\" target=\"_blank\" rel=\"noopener noreferrer\">项目文件</a></li>\n</ul>\n<h2 id=\"docker-从入门到实践\"> Docker 从入门到实践</h2>\n<ul>\n<li><a href=\"https://vuepress.mirror.docker-practice.com/\" target=\"_blank\" rel=\"noopener noreferrer\">项目地址</a></li>\n<li><a href=\"https://github.com/yeasy/docker_practice\" target=\"_blank\" rel=\"noopener noreferrer\">项目文件</a></li>\n</ul>\n<h2 id=\"更多\"> 更多</h2>\n<ul>\n<li>随时随地添加你的博客或文档到此</li>\n</ul>\n",
+      "date_published": "2020-10-13T05:36:44.000Z",
+      "date_modified": "2021-02-27T06:18:09.000Z",
+      "authors": [
+        {
+          "name": "Mr.Hope"
+        }
+      ],
+      "tags": [
+        "demo"
+      ]
+    },
+    {
+      "title": "主题配置",
+      "url": "https://vuepress-theme-hope.github.io/zh/config/theme/",
+      "id": "https://vuepress-theme-hope.github.io/zh/config/theme/",
+      "content_html": "<div><p>Tips</p>\n<p>你可以查看 <a href=\"https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/docs/theme/src/.vuepress/config.js\" target=\"_blank\" rel=\"noopener noreferrer\">本文档的配置</a> 作为案例，你也可以直接查看源代码中的 <a href=\"https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/packages/theme/types/theme/\" target=\"_blank\" rel=\"noopener noreferrer\">types 文件</a></p>\n</div>\n<p><code>.vuepress/config.js</code> 中的 themeConfig 字段(主题字段)新增以下配置:</p>\n<h2 id=\"基本选项\"> 基本选项</h2>\n<div><p>Warning</p>\n<p>这些选项很重要，需要你正确配置。</p>\n</div>\n<h3 id=\"baselang\"> baseLang</h3>\n<ul>\n<li>类型: <code>string</code></li>\n<li>默认值: <code>'en-US'</code></li>\n</ul>\n<p>主目录所对应的语言。</p>\n<p>这个选项会保证主目录页面中主题文字使用正确的语言显示。你可以根据自己的需要将其改为其他语言。</p>\n<div><p>Tips</p>\n<p>目前多语言仅适配了 <strong>简体中文</strong> (zh-CN)、<strong>英文(美国)</strong> (en-US) 与 越南语 (vi-VN)。</p>\n<p>如果你需要其它语言的多语言支持，你可以 <a href=\"https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/packages/shared/src/i18n/config.ts\" target=\"_blank\" rel=\"noopener noreferrer\">向此文件提交一个 PR</a></p>\n</div>\n<h3 id=\"author\"> author</h3>\n<ul>\n<li>类型: <code>string</code></li>\n<li>必填: 否</li>\n</ul>\n<p>文章显示的默认作者</p>\n<h3 id=\"nav\"> nav <i>Not supported content</i></h3>\n<p>NavBarItem 新增</p>\n<ul>\n<li><code>icon</code> 字段来支持图标显示。</li>\n<li><code>prefix</code> 字段来自动添加分组前缀</li>\n</ul>\n<p>具体配置，请见 <a href=\"./../../guide/layout/navbar.html\">布局 → 导航栏</a></p>\n<h3 id=\"sidebar\"> sidebar <i>Not supported content</i></h3>\n<p>SideBarItem 新增</p>\n<ul>\n<li><code>icon</code> 字段来支持图标显示。</li>\n<li><code>prefix</code> 字段来自动添加分组前缀</li>\n</ul>\n<p>具体配置，请见 <a href=\"./../../guide/layout/sidebar.html\">布局 → 侧边栏</a></p>\n<h3 id=\"locales\"> locales</h3>\n<ul>\n<li>类型: <code>Record&lt;string, HopeLangI18nConfigItem&gt;</code></li>\n</ul>\n<p>主题的多语言配置，主要需要配置各语言的 <code>nav</code> 与 <code>sidebar</code>。</p>\n<h3 id=\"hostname\"> hostname</h3>\n<ul>\n<li>类型: <code>string</code></li>\n<li>必填: 是</li>\n</ul>\n<p>当前网站部署到的域名。</p>\n<h2 id=\"更多配置\"> 更多配置</h2>\n<ul>\n<li>\n<p><a href=\"./default.html\"><strong>默认主题配置</strong></a></p>\n</li>\n<li>\n<p><a href=\"./feature.html\"><strong>主题功能配置</strong></a></p>\n</li>\n<li>\n<p><a href=\"./plugin.html\"><strong>主题插件配置</strong></a></p>\n</li>\n<li>\n<p><a href=\"./apperance.html\"><strong>主题外观配置</strong></a></p>\n</li>\n</ul>\n",
+      "date_published": "2020-10-17T08:18:13.000Z",
+      "date_modified": "2021-02-26T05:26:49.000Z",
+      "authors": [
+        {
+          "name": "Mr.Hope"
+        }
+      ],
+      "tags": [
+        "config"
+      ]
+    },
+    {
       "title": "主题介绍",
       "url": "https://vuepress-theme-hope.github.io/zh/guide/get-started/intro/",
       "id": "https://vuepress-theme-hope.github.io/zh/guide/get-started/intro/",
@@ -2556,55 +2605,6 @@
         }
       ],
       "tags": []
-    },
-    {
-      "title": "文章列表",
-      "url": "https://vuepress-theme-hope.github.io/zh/guide/blog/article/",
-      "id": "https://vuepress-theme-hope.github.io/zh/guide/blog/article/",
-      "summary": "<p>主题在 <code>/article/</code> 路径下为你提供了全部的文章列表。</p>\n",
-      "content_html": "<p>主题在 <code>/article/</code> 路径下为你提供了全部的文章列表。</p>\n\n<h2 id=\"文章\"> 文章</h2>\n<p>所有文章都会默认被添加到文章列表中渲染在 <code>/article/</code> 路径下。</p>\n<p><img src=\"./assets/article.png\" alt=\"文章列表\"></p>\n<p>如果你不希望该列表包含一些特定的文章，只需在文章的 frontmatter 中将 <code>article</code> 设置为 <code>false</code>。</p>\n<p>如果你希望在文章列表中置顶特定文章，只需在文章的 frontmatter 中将 <code>sticky</code> 设置为 <code>true</code>。</p>\n<div><p>置顶顺序</p>\n<p>对于置顶文章，你可以将 <code>sticky</code> 设置为 <code>number</code> 来设置它们的顺序。数值大的文章会排列在前面。</p>\n</div>\n<h2 id=\"收藏文章\"> 收藏文章</h2>\n<p>你可以通过在 frontmatter 中设置 <code>star</code> 为 <code>true</code> 收藏一个文章。收藏后，用户就可以在 <code>/star/</code> 页面中查看这些文章。</p>\n<p>同时任何任何收藏的文章都会显示在博客主页侧边栏的文章栏目中。</p>\n<div><p>Info</p>\n<p>我们提供收藏选项的考虑是: 主题使用者可能希望向访客展示一定数量的精品文章，而又不希望置顶文章充斥主页，导致用户不能看到最近更新的文章。</p>\n</div>\n<div><p>收藏顺序</p>\n<p>类似置顶文章，你同样可以将 <code>star</code> 设置为 <code>number</code> 来设置它们的顺序。数值大的文章会排列在前面。</p>\n</div>\n<h2 id=\"加密与幻灯片\"> 加密与幻灯片</h2>\n<p>主题为加密文章页与幻灯片页这两个特殊页面提供了单独的列表，你可以在 <code>/encrypt/</code> 和 <code>/slide/</code> 页面查看它们。</p>\n<p>同时为了帮助访问者区分，这两个类别的页面会在文章列表中用图标明确标明其类别。</p>\n<p><img src=\"./assets/icon-type.png\" alt=\"类别提示\"></p>\n",
-      "date_published": "2021-03-08T03:21:06.000Z",
-      "date_modified": "2021-03-08T03:21:06.000Z",
-      "authors": [
-        {
-          "name": "Mr.Hope"
-        }
-      ],
-      "tags": [
-        "blog"
-      ]
-    },
-    {
-      "title": "项目案例",
-      "url": "https://vuepress-theme-hope.github.io/zh/demo/",
-      "id": "https://vuepress-theme-hope.github.io/zh/demo/",
-      "content_html": "<h2 id=\"mr-hope-的个人博客\"> Mr.Hope 的个人博客</h2>\n<ul>\n<li><a href=\"https://mrhope.site\" target=\"_blank\" rel=\"noopener noreferrer\">项目地址</a></li>\n<li><a href=\"https://github.com/Mister-Hope/Mister-Hope.github.io\" target=\"_blank\" rel=\"noopener noreferrer\">项目文件</a></li>\n</ul>\n<h2 id=\"希望工作室官网\"> 希望工作室官网</h2>\n<ul>\n<li><a href=\"https://hope-studio.innenu.com\" target=\"_blank\" rel=\"noopener noreferrer\">项目地址</a></li>\n<li><a href=\"https://github.com/Hope-Studio/Hope-Studio.github.io\" target=\"_blank\" rel=\"noopener noreferrer\">项目文件</a></li>\n</ul>\n<h2 id=\"vuepress-theme-hope-文档\"> vuepress-theme-hope 文档</h2>\n<ul>\n<li><a href=\"https://vuepress-theme-hope.github.io\" target=\"_blank\" rel=\"noopener noreferrer\">项目地址</a></li>\n<li><a href=\"https://github.com/vuepress-theme-hope/vuepress-theme-hope/tree/v1/docs/theme\" target=\"_blank\" rel=\"noopener noreferrer\">项目文件</a></li>\n</ul>\n<h2 id=\"docker-从入门到实践\"> Docker 从入门到实践</h2>\n<ul>\n<li><a href=\"https://vuepress.mirror.docker-practice.com/\" target=\"_blank\" rel=\"noopener noreferrer\">项目地址</a></li>\n<li><a href=\"https://github.com/yeasy/docker_practice\" target=\"_blank\" rel=\"noopener noreferrer\">项目文件</a></li>\n</ul>\n<h2 id=\"更多\"> 更多</h2>\n<ul>\n<li>随时随地添加你的博客或文档到此</li>\n</ul>\n",
-      "date_published": "2020-10-13T05:36:44.000Z",
-      "date_modified": "2021-02-27T06:18:09.000Z",
-      "authors": [
-        {
-          "name": "Mr.Hope"
-        }
-      ],
-      "tags": [
-        "demo"
-      ]
-    },
-    {
-      "title": "主题配置",
-      "url": "https://vuepress-theme-hope.github.io/zh/config/theme/",
-      "id": "https://vuepress-theme-hope.github.io/zh/config/theme/",
-      "content_html": "<div><p>Tips</p>\n<p>你可以查看 <a href=\"https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/docs/theme/src/.vuepress/config.js\" target=\"_blank\" rel=\"noopener noreferrer\">本文档的配置</a> 作为案例，你也可以直接查看源代码中的 <a href=\"https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/packages/theme/types/theme/\" target=\"_blank\" rel=\"noopener noreferrer\">types 文件</a></p>\n</div>\n<p><code>.vuepress/config.js</code> 中的 themeConfig 字段(主题字段)新增以下配置:</p>\n<h2 id=\"基本选项\"> 基本选项</h2>\n<div><p>Warning</p>\n<p>这些选项很重要，需要你正确配置。</p>\n</div>\n<h3 id=\"baselang\"> baseLang</h3>\n<ul>\n<li>类型: <code>string</code></li>\n<li>默认值: <code>'en-US'</code></li>\n</ul>\n<p>主目录所对应的语言。</p>\n<p>这个选项会保证主目录页面中主题文字使用正确的语言显示。你可以根据自己的需要将其改为其他语言。</p>\n<div><p>Tips</p>\n<p>目前多语言仅适配了 <strong>简体中文</strong> (zh-CN)、<strong>英文(美国)</strong> (en-US) 与 越南语 (vi-VN)。</p>\n<p>如果你需要其它语言的多语言支持，你可以 <a href=\"https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/packages/shared/src/i18n/config.ts\" target=\"_blank\" rel=\"noopener noreferrer\">向此文件提交一个 PR</a></p>\n</div>\n<h3 id=\"author\"> author</h3>\n<ul>\n<li>类型: <code>string</code></li>\n<li>必填: 否</li>\n</ul>\n<p>文章显示的默认作者</p>\n<h3 id=\"nav\"> nav <i>Not supported content</i></h3>\n<p>NavBarItem 新增</p>\n<ul>\n<li><code>icon</code> 字段来支持图标显示。</li>\n<li><code>prefix</code> 字段来自动添加分组前缀</li>\n</ul>\n<p>具体配置，请见 <a href=\"./../../guide/layout/navbar.html\">布局 → 导航栏</a></p>\n<h3 id=\"sidebar\"> sidebar <i>Not supported content</i></h3>\n<p>SideBarItem 新增</p>\n<ul>\n<li><code>icon</code> 字段来支持图标显示。</li>\n<li><code>prefix</code> 字段来自动添加分组前缀</li>\n</ul>\n<p>具体配置，请见 <a href=\"./../../guide/layout/sidebar.html\">布局 → 侧边栏</a></p>\n<h3 id=\"locales\"> locales</h3>\n<ul>\n<li>类型: <code>Record&lt;string, HopeLangI18nConfigItem&gt;</code></li>\n</ul>\n<p>主题的多语言配置，主要需要配置各语言的 <code>nav</code> 与 <code>sidebar</code>。</p>\n<h3 id=\"hostname\"> hostname</h3>\n<ul>\n<li>类型: <code>string</code></li>\n<li>必填: 是</li>\n</ul>\n<p>当前网站部署到的域名。</p>\n<h2 id=\"更多配置\"> 更多配置</h2>\n<ul>\n<li>\n<p><a href=\"./default.html\"><strong>默认主题配置</strong></a></p>\n</li>\n<li>\n<p><a href=\"./feature.html\"><strong>主题功能配置</strong></a></p>\n</li>\n<li>\n<p><a href=\"./plugin.html\"><strong>主题插件配置</strong></a></p>\n</li>\n<li>\n<p><a href=\"./apperance.html\"><strong>主题外观配置</strong></a></p>\n</li>\n</ul>\n",
-      "date_published": "2020-10-17T08:18:13.000Z",
-      "date_modified": "2021-02-26T05:26:49.000Z",
-      "authors": [
-        {
-          "name": "Mr.Hope"
-        }
-      ],
-      "tags": [
-        "config"
-      ]
     }
   ]
 }

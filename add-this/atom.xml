@@ -6,7 +6,7 @@
   <author>
     <name>Mr.Hope</name>
   </author>
-  <updated>2021-03-09T07:51:11.785Z</updated>
+  <updated>2021-03-09T09:48:16.999Z</updated>
   <generator>@mr-hope/vuepress-plugin-feed</generator>
   <link rel="self" href="https://vuepress-theme-hope.github.io/add-this/atom.xml"/>
   <link rel="alternate" href="https://vuepress-theme-hope.github.io/add-this/"/>
@@ -89,6 +89,27 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <rights>Copyright by Mr.Hope</rights>
   </entry>
   <entry>
+    <title type="html">配置</title>
+    <id>https://vuepress-theme-hope.github.io/add-this/zh/config/</id>
+    <link href="https://vuepress-theme-hope.github.io/add-this/zh/config/"/>
+    <updated>2020-11-17T09:58:20.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="pubid"> pubid</h2>
+<ul>
+<li>类型: <code>string</code></li>
+<li>必填: 是</li>
+</ul>
+<p>Add this 的 pubid</p>
+]]></content>
+    <author>
+      <name>Mr.Hope</name>
+    </author>
+    <contributor>
+      <name>Mr.Hope</name>
+    </contributor>
+    <published>2020-10-13T05:36:44.000Z</published>
+    <rights>Copyright by Mr.Hope</rights>
+  </entry>
+  <entry>
     <title type="html">指南</title>
     <id>https://vuepress-theme-hope.github.io/add-this/zh/guide/</id>
     <link href="https://vuepress-theme-hope.github.io/add-this/zh/guide/"/>
@@ -101,27 +122,6 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <h2 id="使用"> 使用</h2>
 <p>进入 <a href="https://www.addthis.com/dashboard#gallery/" target="_blank" rel="noopener noreferrer">工具页面</a> 添加你所需要的工具，并进行合理的配置。</p>
 <p>在配置完成后，请进入 <a href="https://www.addthis.com/dashboard#get-the-code/" target="_blank" rel="noopener noreferrer">获取代码页面</a>，即可代码中获得你的 pubid。</p>
-]]></content>
-    <author>
-      <name>Mr.Hope</name>
-    </author>
-    <contributor>
-      <name>Mr.Hope</name>
-    </contributor>
-    <published>2020-10-13T05:36:44.000Z</published>
-    <rights>Copyright by Mr.Hope</rights>
-  </entry>
-  <entry>
-    <title type="html">配置</title>
-    <id>https://vuepress-theme-hope.github.io/add-this/zh/config/</id>
-    <link href="https://vuepress-theme-hope.github.io/add-this/zh/config/"/>
-    <updated>2020-11-17T09:58:20.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="pubid"> pubid</h2>
-<ul>
-<li>类型: <code>string</code></li>
-<li>必填: 是</li>
-</ul>
-<p>Add this 的 pubid</p>
 ]]></content>
     <author>
       <name>Mr.Hope</name>
