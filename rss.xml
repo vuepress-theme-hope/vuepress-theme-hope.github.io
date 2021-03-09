@@ -6,11 +6,12 @@
     <link>https://vuepress-theme-hope.github.io/</link>
     <description>A vuepress theme with tons of features✨</description>
     <language>en-US</language>
-    <pubDate>Tue, 09 Mar 2021 15:30:55 GMT</pubDate>
-    <lastBuildDate>Tue, 09 Mar 2021 15:30:55 GMT</lastBuildDate>
+    <pubDate>Tue, 09 Mar 2021 15:33:44 GMT</pubDate>
+    <lastBuildDate>Tue, 09 Mar 2021 15:33:44 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
+    <category>FAQ</category>
     <category>basic</category>
     <category>config</category>
     <category>demo</category>
@@ -21,7 +22,426 @@
     <category>layout</category>
     <category>markdown</category>
     <category>guide</category>
-    <category>FAQ</category>
+    <item>
+      <title>Common problems</title>
+      <link>https://vuepress-theme-hope.github.io/FAQ/</link>
+      <guid>https://vuepress-theme-hope.github.io/FAQ/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">Common problems</source>
+      <category>FAQ</category>
+      <pubDate>Mon, 27 Jan 2020 06:39:01 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="common-problems"> Common problems</h1>
+<h2 id="some-page-settings-are-invalid"> Some page settings are invalid</h2>
+<p>You can first review the documentation to see if the setting <strong>does not support partial configuration</strong>.</p>
+<p><strong>Support for partial configuration</strong> means that the theme allows the configuration of the page to override the global configuration of the same name (same function), but not all functions meet this setting. For the sake of project compilation speed, some projects will not be loaded during the compilation phase after the global configuration is disabled, and they cannot be enabled locally.</p>
+<h2 id="typescript-problems"> TypeScript problems</h2>
+<p>Please make sure your project depends on TypeScript and there is a valid tsconfig.json file in the working directory.</p>
+<p>Also, make sure that your project has at least one TypeScript file included by it.</p>
+<h3 id="error-when-parsing-tsconfig-json"> error when parsing tsconfig.json</h3>
+<p>This problem is caused by ts-loader not finding tsconfig.json. Since the theme adds TypeScript support, you need to create a valid tsconfig.json inside your project.</p>
+<p>A simple tsconfig.json is as follows:</p>
+<div><pre><code><span>{</span>
+  <span>"compilerOptions"</span><span>:</span> <span>{</span>
+    <span>"target"</span><span>:</span> <span>"ES6"</span><span>,</span> <span>/// Any target not less than 'ES5'</span>
+    <span>"allowSyntheticDefaultImports"</span><span>:</span> <span>true</span><span>,</span> <span>// Avoiding some issues related to vuepress-types</span>
+    <span>"experimentalDecorators"</span><span>:</span> <span>true</span><span>,</span> <span>// TypeScript files for '.vue' needs this option</span>
+    <span>"module"</span><span>:</span> <span>"commonjs"</span><span>,</span> <span>// Avoiding some issues related to vuepress-types</span>
+    <span>// type definition files of vuepress and this theme</span>
+    <span>"types"</span><span>:</span> <span>[</span><span>"@mr-hope/vuepress-theme-types"</span><span>]</span>
+  <span>}</span><span>,</span>
+  <span>"include"</span><span>:</span> <span>[</span>
+    <span>"src/.vuepress/enhanceApp.ts"</span> <span>// replace `src` with your doc folder</span>
+  <span>]</span>
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></div></div><h3 id="can-t-find-corresponding-types"> Can’t find corresponding types</h3>
+<p>Make sure to add <code>&quot;@mr-hope/vuepress-theme-types&quot;</code> to <code>compilerOptions.types</code>, because the package is not in the <code>@types</code> directory.</p>
+<h3 id="no-inputs-were-found-in-config-file-tsconfig-json"> No inputs were found in config file tsconfig.json</h3>
+<p>This problem is caused by the absence of a TypeScript file in your project (or your tsconfig.json configuration is incorrect).</p>
+<p><code>ts-loader</code> requires that the include and exclude configuration items of tsconfig.json include at least one ts file in the project.</p>
+<p>If your project does not have a ts file, to avoid this problem, you can create an empty ts file anywhere in your project and add it to the include of tsconfig.json.</p>
+<p>A better solution is to solve this problem by creating an empty <code>enhanceApp.ts</code> in the<code>.vuepress</code> directory. If you already have <code>enhanceApp.js</code>, you can directly convert it to TS.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Markdown DEMO</title>
+      <link>https://vuepress-theme-hope.github.io/basic/markdown/demo/</link>
+      <guid>https://vuepress-theme-hope.github.io/basic/markdown/demo/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">Markdown DEMO</source>
+      <category>basic</category>
+      <pubDate>Tue, 07 Jan 2020 06:44:41 GMT</pubDate>
+      <content:encoded><![CDATA[
+<h1 id="first-heading"> First Heading</h1>
+
+<div><pre><code><span><span>#</span> First Heading</span>
+</code></pre>
+<div><span>1</span><br></div></div><h2 id="second-heading"> Second Heading</h2>
+<div><pre><code><span><span>##</span> Second Heading</span>
+</code></pre>
+<div><span>1</span><br></div></div><h3 id="third-heading"> Third Heading</h3>
+<div><pre><code><span><span>###</span> Third Heading</span>
+</code></pre>
+<div><span>1</span><br></div></div><h4 id="fourth-heading"> Fourth Heading</h4>
+<div><pre><code><span><span>####</span> Fourth Heading</span>
+</code></pre>
+<div><span>1</span><br></div></div><h5 id="fifth-heading"> Fifth Heading</h5>
+<div><pre><code><span><span>#####</span> Fifth Heading</span>
+</code></pre>
+<div><span>1</span><br></div></div><h6 id="sixth-heading"> Sixth Heading</h6>
+<div><pre><code><span><span>######</span> Sixth Heading</span>
+</code></pre>
+<div><span>1</span><br></div></div><h2 id="text"> Text</h2>
+<p>This sentence has <strong>bold</strong>、<em>italic</em> and <s>delete</s> style text.</p>
+<div><pre><code>This sentence has <span><span>**</span><span>bold</span><span>**</span></span>、<span><span>_</span><span>italic</span><span>_</span></span> and <span><span>~~</span><span>delete</span><span>~~</span></span> style text.
+</code></pre>
+<div><span>1</span><br></div></div><h2 id="paragraph"> Paragraph</h2>
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+<div><pre><code>This is a paragraph.
+
+This is another paragraph.
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><h2 id="line-break"> Line Break</h2>
+<p>I would like to line break at<br>
+this point</p>
+<div><pre><code>I would like to line break at  
+this point
+</code></pre>
+<div><span>1</span><br><span>2</span><br></div></div><div><p>Tips</p>
+<p>In codes above, two spaces are behind <code>at</code>.</p>
+</div>
+<h2 id="blockquotes"> Blockquotes</h2>
+<blockquote>
+<p>Blockquotes can also be nested...</p>
+<blockquote>
+<p>...by using greater-than signs right next to each other...</p>
+<blockquote>
+<p>...or with spaces between arrows.</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<div><pre><code><span>></span> Blockquotes can also be nested...
+<span>></span>
+<span>> ></span> ...by using greater-than signs right next to each other...
+<span>> ></span>
+<span>> > ></span> ...or with spaces between arrows.
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><h2 id="list"> List</h2>
+<h3 id="unordered-list"> Unordered List</h3>
+<ul>
+<li>
+<p>Create a list by starting a line with <code>-</code></p>
+</li>
+<li>
+<p>Make sub-lists by indenting 2 spaces:</p>
+<ul>
+<li>
+<p>Marker character change forces new list start:</p>
+<ul>
+<li>
+<p>Ac tristique libero volutpat at</p>
+</li>
+<li>
+<p>Facilisis in pretium nisl aliquet</p>
+</li>
+<li>
+<p>Nulla volutpat aliquam velit<br>
+link break</p>
+<p>New paragraph</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>It’s easy!</p>
+</li>
+</ul>
+<div><pre><code><span>-</span> Create a list by starting a line with <span>`-`</span>
+<span>-</span> Sub-lists are made by indenting 2 spaces:
+
+  <span>-</span> Marker character change forces new list start:
+
+<span>    - Ac tristique libero volutpat at
+    - Facilisis in pretium nisl aliquet
+    - Nulla volutpat aliquam velit  
+      link break</span>
+
+<span>      New paragraph</span>
+
+<span>-</span> Very easy!
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></div></div><h3 id="ordered-list"> Ordered List</h3>
+<ol>
+<li>Lorem ipsum dolor sit amet</li>
+<li>Consectetur adipiscing elit<br>
+line break<br>
+line break again</li>
+<li>Integer molestie lorem at massa</li>
+</ol>
+<div><pre><code><span>1.</span> Lorem ipsum dolor sit amet
+<span>1.</span> Consectetur adipiscing elit  
+   line break  
+   line break again
+<span>1.</span> Integer molestie lorem at massa
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><h2 id="hr"> HR</h2>
+<hr>
+<div><pre><code><span>---</span>
+</code></pre>
+<div><span>1</span><br></div></div><h2 id="link"> Link</h2>
+<p><a href="/">Home page using absolute path</a></p>
+<p><a href="./../">Home page using relative path</a></p>
+<p><a href="/about">About page using absolute path</a></p>
+<p><a href="./../about.html">About page using relative path</a></p>
+<div><pre><code><span>[<span>Home page using absolute path</span>](<span>/</span>)</span>
+
+<span>[<span>Home page using relative path</span>](<span>../readme.md</span>)</span>
+
+<span>[<span>About page using absolute path</span>](<span>/about</span>)</span>
+
+<span>[<span>About page using relative path</span>](<span>../about.md</span>)</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><div><p>Tips</p>
+<p>You can also use these in VuePress:</p>
+<ul>
+<li>
+<p><a href="./../">Home page-Can route when editing Markdown file</a></p>
+</li>
+<li>
+<p><a href="/">Home page using absolute path 2</a></p>
+</li>
+<li>
+<p><a href="./../index.html">Visit in HTML</a></p>
+</li>
+</ul>
+<p>To be able to jump to each other when editing the Markdown using the editor, you need to use the <strong>relative path</strong>, also you must place <code>readme.md</code> in <strong>every folder</strong>.</p>
+<p>代码:</p>
+<div><pre><code><span>-</span> <span>[<span>Home page-Can route when editing markdown file</span>](<span>../readme.md</span>)</span>
+
+<span>-</span> <span>[<span>Home page using absolute path 2</span>](<span>/readme.md</span>)</span>
+
+<span>-</span> <span>[<span>Visit in HTML</span>](<span>../index.html</span>)</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div></div>
+<h2 id="image"> Image</h2>
+<p><img src="/logo.png" alt="Logo"></p>
+<div><pre><code><span><span>!</span>[<span>Logo</span>](<span>/logo.png</span>)</span>
+</code></pre>
+<div><span>1</span><br></div></div><h2 id="emoji"> Emoji</h2>
+<p>Classic:</p>
+<p>😉 😢 😆 😋</p>
+<div><pre><code>:wink: :cry: :laughing: :yum:
+</code></pre>
+<div><span>1</span><br></div></div><p>Shortcuts:</p>
+<p>😎 😃 😗 😦 😃 😦 😉</p>
+<div><pre><code>8-) :) :\* :( :-) :-( ;)
+</code></pre>
+<div><span>1</span><br></div></div><div><p>Tips</p>
+<p>For more see <a href="./emoji.html">emoji list</a></p>
+</div>
+<h2 id="tables"> Tables</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">center</th>
+<th style="text-align:right">right</th>
+<th style="text-align:left">left</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">For center align use <code>:-:</code></td>
+<td style="text-align:right">For right align use <code>-:</code></td>
+<td style="text-align:left">For left align use <code>:-</code></td>
+</tr>
+<tr>
+<td style="text-align:center">b</td>
+<td style="text-align:right">aaaaaaaaa</td>
+<td style="text-align:left">aaaa</td>
+</tr>
+<tr>
+<td style="text-align:center">c</td>
+<td style="text-align:right">aaaa</td>
+<td style="text-align:left">a</td>
+</tr>
+</tbody>
+</table>
+<div><pre><code><span><span><span>|</span><span>           center           </span><span>|</span><span>                    right </span><span>|</span><span> left                    </span><span>|</span>
+</span><span><span>|</span> <span>:------------------------:</span> <span>|</span> <span>-----------------------:</span> <span>|</span> <span>:----------------------</span> <span>|</span>
+</span><span><span>|</span><span> For center align use <span>`:-:`</span> </span><span>|</span><span> For right align use <span>`-:`</span> </span><span>|</span><span> For left align use <span>`:-`</span> </span><span>|</span>
+<span>|</span><span>             b              </span><span>|</span><span>                aaaaaaaaa </span><span>|</span><span> aaaa                    </span><span>|</span>
+<span>|</span><span>             c              </span><span>|</span><span>                     aaaa </span><span>|</span><span> a                       </span><span>|</span>
+</span></span></code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><h2 id="codes"> Codes</h2>
+<p>Inline Code: <code>code</code></p>
+<div><pre><code>Inline Code: <span>`code`</span>
+</code></pre>
+<div><span>1</span><br></div></div><p>Indented code:</p>
+<div><pre><code>// Some comments
+line 1 of code
+line 2 of code
+line 3 of code
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><div><pre><code>Indented code:
+
+    // Some comments
+    line 1 of code
+    line 2 of code
+    line 3 of code
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>Block code:</p>
+<div><pre><code>Sample text here...
+</code></pre>
+<div><span>1</span><br></div></div><div><pre><code>Block code:
+
+<span><span>```</span>
+<span>Sample text here...</span>
+<span>```</span></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>Syntax highlighting:</p>
+<div><pre><code><span>var</span> <span>foo</span> <span>=</span> <span>function</span> <span>(</span><span>bar</span><span>)</span> <span>{</span>
+  <span>return</span> bar<span>++</span><span>;</span>
+<span>}</span><span>;</span>
+
+console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span><span>5</span><span>)</span><span>)</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><div><pre><code>Syntax highlighting:
+
+<span><span>```</span><span>js</span>
+<span><span>var</span> <span>foo</span> <span>=</span> <span>function</span> <span>(</span><span>bar</span><span>)</span> <span>{</span>
+  <span>return</span> bar<span>++</span><span>;</span>
+<span>}</span><span>;</span>
+
+console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span><span>5</span><span>)</span><span>)</span><span>;</span></span>
+<span>```</span></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br></div></div>]]></content:encoded>
+      <enclosure url="https://vuepress-theme-hope.github.io/logo.png" type="image/png"/>
+    </item>
+    <item>
+      <title>Nature</title>
+      <link>https://vuepress-theme-hope.github.io/basic/markdown/emoji/nature/</link>
+      <guid>https://vuepress-theme-hope.github.io/basic/markdown/emoji/nature/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">Nature</source>
+      <category>basic</category>
+      <pubDate>Mon, 27 Jan 2020 06:39:01 GMT</pubDate>
+      <content:encoded><![CDATA[<ul>
+<li>☀️ <code>:sunny:</code></li>
+<li>☔️ <code>:umbrella:</code></li>
+<li>☁️ <code>:cloud:</code></li>
+<li>❄️ <code>:snowflake:</code></li>
+<li>⛄️ <code>:snowman:</code></li>
+<li>⚡️ <code>:zap:</code></li>
+<li>🌀 <code>:cyclone:</code></li>
+<li>🌁 <code>:foggy:</code></li>
+<li>🌊 <code>:ocean:</code></li>
+<li>🐱 <code>:cat:</code></li>
+<li>🐶 <code>:dog:</code></li>
+<li>🐭 <code>:mouse:</code></li>
+<li>🐹 <code>:hamster:</code></li>
+<li>🐰 <code>:rabbit:</code></li>
+<li>🐺 <code>:wolf:</code></li>
+<li>🐸 <code>:frog:</code></li>
+<li>🐯 <code>:tiger:</code></li>
+<li>🐨 <code>:koala:</code></li>
+<li>🐻 <code>:bear:</code></li>
+<li>🐷 <code>:pig:</code></li>
+<li>🐽 <code>:pig_nose:</code></li>
+<li>🐮 <code>:cow:</code></li>
+<li>🐗 <code>:boar:</code></li>
+<li>🐵 <code>:monkey_face:</code></li>
+<li>🐒 <code>:monkey:</code></li>
+<li>🐴 <code>:horse:</code></li>
+<li>🐎 <code>:racehorse:</code></li>
+<li>🐫 <code>:camel:</code></li>
+<li>🐑 <code>:sheep:</code></li>
+<li>🐘 <code>:elephant:</code></li>
+<li>🐼 <code>:panda_face:</code></li>
+<li>🐍 <code>:snake:</code></li>
+<li>🐦 <code>:bird:</code></li>
+<li>🐤 <code>:baby_chick:</code></li>
+<li>🐥 <code>:hatched_chick:</code></li>
+<li>🐣 <code>:hatching_chick:</code></li>
+<li>🐔 <code>:chicken:</code></li>
+<li>🐧 <code>:penguin:</code></li>
+<li>🐢 <code>:turtle:</code></li>
+<li>🐛 <code>:bug:</code></li>
+<li>🐝 <code>:honeybee:</code></li>
+<li>🐜 <code>:ant:</code></li>
+<li>🐞 <code>:beetle:</code></li>
+<li>🐌 <code>:snail:</code></li>
+<li>🐙 <code>:octopus:</code></li>
+<li>🐠 <code>:tropical_fish:</code></li>
+<li>🐟 <code>:fish:</code></li>
+<li>🐳 <code>:whale:</code></li>
+<li>🐋 <code>:whale2:</code></li>
+<li>🐬 <code>:dolphin:</code></li>
+<li>🐄 <code>:cow2:</code></li>
+<li>🐏 <code>:ram:</code></li>
+<li>🐀 <code>:rat:</code></li>
+<li>🐃 <code>:water_buffalo:</code></li>
+<li>🐅 <code>:tiger2:</code></li>
+<li>🐇 <code>:rabbit2:</code></li>
+<li>🐉 <code>:dragon:</code></li>
+<li>🐐 <code>:goat:</code></li>
+<li>🐓 <code>:rooster:</code></li>
+<li>🐕 <code>:dog2:</code></li>
+<li>🐖 <code>:pig2:</code></li>
+<li>🐁 <code>:mouse2:</code></li>
+<li>🐂 <code>:ox:</code></li>
+<li>🐲 <code>:dragon_face:</code></li>
+<li>🐡 <code>:blowfish:</code></li>
+<li>🐊 <code>:crocodile:</code></li>
+<li>🐪 <code>:dromedary_camel:</code></li>
+<li>🐆 <code>:leopard:</code></li>
+<li>🐈 <code>:cat2:</code></li>
+<li>🐩 <code>:poodle:</code></li>
+<li>🐾 <code>:paw_prints:</code></li>
+<li>💐 <code>:bouquet:</code></li>
+<li>🌸 <code>:cherry_blossom:</code></li>
+<li>🌷 <code>:tulip:</code></li>
+<li>🍀 <code>:four_leaf_clover:</code></li>
+<li>🌹 <code>:rose:</code></li>
+<li>🌻 <code>:sunflower:</code></li>
+<li>🌺 <code>:hibiscus:</code></li>
+<li>🍁 <code>:maple_leaf:</code></li>
+<li>🍃 <code>:leaves:</code></li>
+<li>🍂 <code>:fallen_leaf:</code></li>
+<li>🌿 <code>:herb:</code></li>
+<li>🍄 <code>:mushroom:</code></li>
+<li>🌵 <code>:cactus:</code></li>
+<li>🌴 <code>:palm_tree:</code></li>
+<li>🌲 <code>:evergreen_tree:</code></li>
+<li>🌳 <code>:deciduous_tree:</code></li>
+<li>🌰 <code>:chestnut:</code></li>
+<li>🌱 <code>:seedling:</code></li>
+<li>🌼 <code>:blossom:</code></li>
+<li>🌾 <code>:ear_of_rice:</code></li>
+<li>🐚 <code>:shell:</code></li>
+<li>🌐 <code>:globe_with_meridians:</code></li>
+<li>🌞 <code>:sun_with_face:</code></li>
+<li>🌝 <code>:full_moon_with_face:</code></li>
+<li>🌚 <code>:new_moon_with_face:</code></li>
+<li>🌑 <code>:new_moon:</code></li>
+<li>🌒 <code>:waxing_crescent_moon:</code></li>
+<li>🌓 <code>:first_quarter_moon:</code></li>
+<li>🌔 <code>:waxing_gibbous_moon:</code></li>
+<li>🌕 <code>:full_moon:</code></li>
+<li>🌖 <code>:waning_gibbous_moon:</code></li>
+<li>🌗 <code>:last_quarter_moon:</code></li>
+<li>🌘 <code>:waning_crescent_moon:</code></li>
+<li>🌜 <code>:last_quarter_moon_with_face:</code></li>
+<li>🌛 <code>:first_quarter_moon_with_face:</code></li>
+<li>🌙 <code>:crescent_moon:</code></li>
+<li>🌍 <code>:earth_africa:</code></li>
+<li>🌎 <code>:earth_americas:</code></li>
+<li>🌏 <code>:earth_asia:</code></li>
+<li>🌋 <code>:volcano:</code></li>
+<li>🌌 <code>:milky_way:</code></li>
+<li>⛅️ <code>:partly_sunny:</code></li>
+</ul>
+]]></content:encoded>
+    </item>
     <item>
       <title>Object</title>
       <link>https://vuepress-theme-hope.github.io/basic/markdown/emoji/object/</link>
@@ -15219,147 +15639,6 @@ $$
 ]]></content:encoded>
     </item>
     <item>
-      <title>文章列表</title>
-      <link>https://vuepress-theme-hope.github.io/zh/guide/blog/article/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/guide/blog/article/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">文章列表</source>
-      <description>&amp;lt;p&amp;gt;主题在 &amp;lt;code&amp;gt;/article/&amp;lt;/code&amp;gt; 路径下为你提供了全部的文章列表。&amp;lt;/p&amp;gt;
-</description>
-      <category>blog</category>
-      <pubDate>Mon, 08 Mar 2021 03:21:06 GMT</pubDate>
-      <content:encoded><![CDATA[<p>主题在 <code>/article/</code> 路径下为你提供了全部的文章列表。</p>
-
-<h2 id="文章"> 文章</h2>
-<p>所有文章都会默认被添加到文章列表中渲染在 <code>/article/</code> 路径下。</p>
-<p><img src="./assets/article.png" alt="文章列表"></p>
-<p>如果你不希望该列表包含一些特定的文章，只需在文章的 frontmatter 中将 <code>article</code> 设置为 <code>false</code>。</p>
-<p>如果你希望在文章列表中置顶特定文章，只需在文章的 frontmatter 中将 <code>sticky</code> 设置为 <code>true</code>。</p>
-<div><p>置顶顺序</p>
-<p>对于置顶文章，你可以将 <code>sticky</code> 设置为 <code>number</code> 来设置它们的顺序。数值大的文章会排列在前面。</p>
-</div>
-<h2 id="收藏文章"> 收藏文章</h2>
-<p>你可以通过在 frontmatter 中设置 <code>star</code> 为 <code>true</code> 收藏一个文章。收藏后，用户就可以在 <code>/star/</code> 页面中查看这些文章。</p>
-<p>同时任何任何收藏的文章都会显示在博客主页侧边栏的文章栏目中。</p>
-<div><p>Info</p>
-<p>我们提供收藏选项的考虑是: 主题使用者可能希望向访客展示一定数量的精品文章，而又不希望置顶文章充斥主页，导致用户不能看到最近更新的文章。</p>
-</div>
-<div><p>收藏顺序</p>
-<p>类似置顶文章，你同样可以将 <code>star</code> 设置为 <code>number</code> 来设置它们的顺序。数值大的文章会排列在前面。</p>
-</div>
-<h2 id="加密与幻灯片"> 加密与幻灯片</h2>
-<p>主题为加密文章页与幻灯片页这两个特殊页面提供了单独的列表，你可以在 <code>/encrypt/</code> 和 <code>/slide/</code> 页面查看它们。</p>
-<p>同时为了帮助访问者区分，这两个类别的页面会在文章列表中用图标明确标明其类别。</p>
-<p><img src="./assets/icon-type.png" alt="类别提示"></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>项目案例</title>
-      <link>https://vuepress-theme-hope.github.io/zh/demo/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/demo/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">项目案例</source>
-      <category>demo</category>
-      <pubDate>Tue, 13 Oct 2020 05:36:44 GMT</pubDate>
-      <content:encoded><![CDATA[<h2 id="mr-hope-的个人博客"> Mr.Hope 的个人博客</h2>
-<ul>
-<li><a href="https://mrhope.site" target="_blank" rel="noopener noreferrer">项目地址</a></li>
-<li><a href="https://github.com/Mister-Hope/Mister-Hope.github.io" target="_blank" rel="noopener noreferrer">项目文件</a></li>
-</ul>
-<h2 id="希望工作室官网"> 希望工作室官网</h2>
-<ul>
-<li><a href="https://hope-studio.innenu.com" target="_blank" rel="noopener noreferrer">项目地址</a></li>
-<li><a href="https://github.com/Hope-Studio/Hope-Studio.github.io" target="_blank" rel="noopener noreferrer">项目文件</a></li>
-</ul>
-<h2 id="vuepress-theme-hope-文档"> vuepress-theme-hope 文档</h2>
-<ul>
-<li><a href="https://vuepress-theme-hope.github.io" target="_blank" rel="noopener noreferrer">项目地址</a></li>
-<li><a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/tree/v1/docs/theme" target="_blank" rel="noopener noreferrer">项目文件</a></li>
-</ul>
-<h2 id="docker-从入门到实践"> Docker 从入门到实践</h2>
-<ul>
-<li><a href="https://vuepress.mirror.docker-practice.com/" target="_blank" rel="noopener noreferrer">项目地址</a></li>
-<li><a href="https://github.com/yeasy/docker_practice" target="_blank" rel="noopener noreferrer">项目文件</a></li>
-</ul>
-<h2 id="更多"> 更多</h2>
-<ul>
-<li>随时随地添加你的博客或文档到此</li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>主题配置</title>
-      <link>https://vuepress-theme-hope.github.io/zh/config/theme/</link>
-      <guid>https://vuepress-theme-hope.github.io/zh/config/theme/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">主题配置</source>
-      <category>config</category>
-      <pubDate>Sat, 17 Oct 2020 08:18:13 GMT</pubDate>
-      <content:encoded><![CDATA[<div><p>Tips</p>
-<p>你可以查看 <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/docs/theme/src/.vuepress/config.js" target="_blank" rel="noopener noreferrer">本文档的配置</a> 作为案例，你也可以直接查看源代码中的 <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/packages/theme/types/theme/" target="_blank" rel="noopener noreferrer">types 文件</a></p>
-</div>
-<p><code>.vuepress/config.js</code> 中的 themeConfig 字段(主题字段)新增以下配置:</p>
-<h2 id="基本选项"> 基本选项</h2>
-<div><p>Warning</p>
-<p>这些选项很重要，需要你正确配置。</p>
-</div>
-<h3 id="baselang"> baseLang</h3>
-<ul>
-<li>类型: <code>string</code></li>
-<li>默认值: <code>'en-US'</code></li>
-</ul>
-<p>主目录所对应的语言。</p>
-<p>这个选项会保证主目录页面中主题文字使用正确的语言显示。你可以根据自己的需要将其改为其他语言。</p>
-<div><p>Tips</p>
-<p>目前多语言仅适配了 <strong>简体中文</strong> (zh-CN)、<strong>英文(美国)</strong> (en-US) 与 越南语 (vi-VN)。</p>
-<p>如果你需要其它语言的多语言支持，你可以 <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/packages/shared/src/i18n/config.ts" target="_blank" rel="noopener noreferrer">向此文件提交一个 PR</a></p>
-</div>
-<h3 id="author"> author</h3>
-<ul>
-<li>类型: <code>string</code></li>
-<li>必填: 否</li>
-</ul>
-<p>文章显示的默认作者</p>
-<h3 id="nav"> nav <i>Not supported content</i></h3>
-<p>NavBarItem 新增</p>
-<ul>
-<li><code>icon</code> 字段来支持图标显示。</li>
-<li><code>prefix</code> 字段来自动添加分组前缀</li>
-</ul>
-<p>具体配置，请见 <a href="./../../guide/layout/navbar.html">布局 → 导航栏</a></p>
-<h3 id="sidebar"> sidebar <i>Not supported content</i></h3>
-<p>SideBarItem 新增</p>
-<ul>
-<li><code>icon</code> 字段来支持图标显示。</li>
-<li><code>prefix</code> 字段来自动添加分组前缀</li>
-</ul>
-<p>具体配置，请见 <a href="./../../guide/layout/sidebar.html">布局 → 侧边栏</a></p>
-<h3 id="locales"> locales</h3>
-<ul>
-<li>类型: <code>Record&lt;string, HopeLangI18nConfigItem&gt;</code></li>
-</ul>
-<p>主题的多语言配置，主要需要配置各语言的 <code>nav</code> 与 <code>sidebar</code>。</p>
-<h3 id="hostname"> hostname</h3>
-<ul>
-<li>类型: <code>string</code></li>
-<li>必填: 是</li>
-</ul>
-<p>当前网站部署到的域名。</p>
-<h2 id="更多配置"> 更多配置</h2>
-<ul>
-<li>
-<p><a href="./default.html"><strong>默认主题配置</strong></a></p>
-</li>
-<li>
-<p><a href="./feature.html"><strong>主题功能配置</strong></a></p>
-</li>
-<li>
-<p><a href="./plugin.html"><strong>主题插件配置</strong></a></p>
-</li>
-<li>
-<p><a href="./apperance.html"><strong>主题外观配置</strong></a></p>
-</li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
       <title>Tex</title>
       <link>https://vuepress-theme-hope.github.io/zh/guide/markdown/tex/</link>
       <guid>https://vuepress-theme-hope.github.io/zh/guide/markdown/tex/</guid>
@@ -15624,423 +15903,144 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
 ]]></content:encoded>
     </item>
     <item>
-      <title>Nature</title>
-      <link>https://vuepress-theme-hope.github.io/basic/markdown/emoji/nature/</link>
-      <guid>https://vuepress-theme-hope.github.io/basic/markdown/emoji/nature/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">Nature</source>
-      <category>basic</category>
-      <pubDate>Mon, 27 Jan 2020 06:39:01 GMT</pubDate>
-      <content:encoded><![CDATA[<ul>
-<li>☀️ <code>:sunny:</code></li>
-<li>☔️ <code>:umbrella:</code></li>
-<li>☁️ <code>:cloud:</code></li>
-<li>❄️ <code>:snowflake:</code></li>
-<li>⛄️ <code>:snowman:</code></li>
-<li>⚡️ <code>:zap:</code></li>
-<li>🌀 <code>:cyclone:</code></li>
-<li>🌁 <code>:foggy:</code></li>
-<li>🌊 <code>:ocean:</code></li>
-<li>🐱 <code>:cat:</code></li>
-<li>🐶 <code>:dog:</code></li>
-<li>🐭 <code>:mouse:</code></li>
-<li>🐹 <code>:hamster:</code></li>
-<li>🐰 <code>:rabbit:</code></li>
-<li>🐺 <code>:wolf:</code></li>
-<li>🐸 <code>:frog:</code></li>
-<li>🐯 <code>:tiger:</code></li>
-<li>🐨 <code>:koala:</code></li>
-<li>🐻 <code>:bear:</code></li>
-<li>🐷 <code>:pig:</code></li>
-<li>🐽 <code>:pig_nose:</code></li>
-<li>🐮 <code>:cow:</code></li>
-<li>🐗 <code>:boar:</code></li>
-<li>🐵 <code>:monkey_face:</code></li>
-<li>🐒 <code>:monkey:</code></li>
-<li>🐴 <code>:horse:</code></li>
-<li>🐎 <code>:racehorse:</code></li>
-<li>🐫 <code>:camel:</code></li>
-<li>🐑 <code>:sheep:</code></li>
-<li>🐘 <code>:elephant:</code></li>
-<li>🐼 <code>:panda_face:</code></li>
-<li>🐍 <code>:snake:</code></li>
-<li>🐦 <code>:bird:</code></li>
-<li>🐤 <code>:baby_chick:</code></li>
-<li>🐥 <code>:hatched_chick:</code></li>
-<li>🐣 <code>:hatching_chick:</code></li>
-<li>🐔 <code>:chicken:</code></li>
-<li>🐧 <code>:penguin:</code></li>
-<li>🐢 <code>:turtle:</code></li>
-<li>🐛 <code>:bug:</code></li>
-<li>🐝 <code>:honeybee:</code></li>
-<li>🐜 <code>:ant:</code></li>
-<li>🐞 <code>:beetle:</code></li>
-<li>🐌 <code>:snail:</code></li>
-<li>🐙 <code>:octopus:</code></li>
-<li>🐠 <code>:tropical_fish:</code></li>
-<li>🐟 <code>:fish:</code></li>
-<li>🐳 <code>:whale:</code></li>
-<li>🐋 <code>:whale2:</code></li>
-<li>🐬 <code>:dolphin:</code></li>
-<li>🐄 <code>:cow2:</code></li>
-<li>🐏 <code>:ram:</code></li>
-<li>🐀 <code>:rat:</code></li>
-<li>🐃 <code>:water_buffalo:</code></li>
-<li>🐅 <code>:tiger2:</code></li>
-<li>🐇 <code>:rabbit2:</code></li>
-<li>🐉 <code>:dragon:</code></li>
-<li>🐐 <code>:goat:</code></li>
-<li>🐓 <code>:rooster:</code></li>
-<li>🐕 <code>:dog2:</code></li>
-<li>🐖 <code>:pig2:</code></li>
-<li>🐁 <code>:mouse2:</code></li>
-<li>🐂 <code>:ox:</code></li>
-<li>🐲 <code>:dragon_face:</code></li>
-<li>🐡 <code>:blowfish:</code></li>
-<li>🐊 <code>:crocodile:</code></li>
-<li>🐪 <code>:dromedary_camel:</code></li>
-<li>🐆 <code>:leopard:</code></li>
-<li>🐈 <code>:cat2:</code></li>
-<li>🐩 <code>:poodle:</code></li>
-<li>🐾 <code>:paw_prints:</code></li>
-<li>💐 <code>:bouquet:</code></li>
-<li>🌸 <code>:cherry_blossom:</code></li>
-<li>🌷 <code>:tulip:</code></li>
-<li>🍀 <code>:four_leaf_clover:</code></li>
-<li>🌹 <code>:rose:</code></li>
-<li>🌻 <code>:sunflower:</code></li>
-<li>🌺 <code>:hibiscus:</code></li>
-<li>🍁 <code>:maple_leaf:</code></li>
-<li>🍃 <code>:leaves:</code></li>
-<li>🍂 <code>:fallen_leaf:</code></li>
-<li>🌿 <code>:herb:</code></li>
-<li>🍄 <code>:mushroom:</code></li>
-<li>🌵 <code>:cactus:</code></li>
-<li>🌴 <code>:palm_tree:</code></li>
-<li>🌲 <code>:evergreen_tree:</code></li>
-<li>🌳 <code>:deciduous_tree:</code></li>
-<li>🌰 <code>:chestnut:</code></li>
-<li>🌱 <code>:seedling:</code></li>
-<li>🌼 <code>:blossom:</code></li>
-<li>🌾 <code>:ear_of_rice:</code></li>
-<li>🐚 <code>:shell:</code></li>
-<li>🌐 <code>:globe_with_meridians:</code></li>
-<li>🌞 <code>:sun_with_face:</code></li>
-<li>🌝 <code>:full_moon_with_face:</code></li>
-<li>🌚 <code>:new_moon_with_face:</code></li>
-<li>🌑 <code>:new_moon:</code></li>
-<li>🌒 <code>:waxing_crescent_moon:</code></li>
-<li>🌓 <code>:first_quarter_moon:</code></li>
-<li>🌔 <code>:waxing_gibbous_moon:</code></li>
-<li>🌕 <code>:full_moon:</code></li>
-<li>🌖 <code>:waning_gibbous_moon:</code></li>
-<li>🌗 <code>:last_quarter_moon:</code></li>
-<li>🌘 <code>:waning_crescent_moon:</code></li>
-<li>🌜 <code>:last_quarter_moon_with_face:</code></li>
-<li>🌛 <code>:first_quarter_moon_with_face:</code></li>
-<li>🌙 <code>:crescent_moon:</code></li>
-<li>🌍 <code>:earth_africa:</code></li>
-<li>🌎 <code>:earth_americas:</code></li>
-<li>🌏 <code>:earth_asia:</code></li>
-<li>🌋 <code>:volcano:</code></li>
-<li>🌌 <code>:milky_way:</code></li>
-<li>⛅️ <code>:partly_sunny:</code></li>
+      <title>文章列表</title>
+      <link>https://vuepress-theme-hope.github.io/zh/guide/blog/article/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/guide/blog/article/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">文章列表</source>
+      <description>&amp;lt;p&amp;gt;主题在 &amp;lt;code&amp;gt;/article/&amp;lt;/code&amp;gt; 路径下为你提供了全部的文章列表。&amp;lt;/p&amp;gt;
+</description>
+      <category>blog</category>
+      <pubDate>Mon, 08 Mar 2021 03:21:06 GMT</pubDate>
+      <content:encoded><![CDATA[<p>主题在 <code>/article/</code> 路径下为你提供了全部的文章列表。</p>
+
+<h2 id="文章"> 文章</h2>
+<p>所有文章都会默认被添加到文章列表中渲染在 <code>/article/</code> 路径下。</p>
+<p><img src="./assets/article.png" alt="文章列表"></p>
+<p>如果你不希望该列表包含一些特定的文章，只需在文章的 frontmatter 中将 <code>article</code> 设置为 <code>false</code>。</p>
+<p>如果你希望在文章列表中置顶特定文章，只需在文章的 frontmatter 中将 <code>sticky</code> 设置为 <code>true</code>。</p>
+<div><p>置顶顺序</p>
+<p>对于置顶文章，你可以将 <code>sticky</code> 设置为 <code>number</code> 来设置它们的顺序。数值大的文章会排列在前面。</p>
+</div>
+<h2 id="收藏文章"> 收藏文章</h2>
+<p>你可以通过在 frontmatter 中设置 <code>star</code> 为 <code>true</code> 收藏一个文章。收藏后，用户就可以在 <code>/star/</code> 页面中查看这些文章。</p>
+<p>同时任何任何收藏的文章都会显示在博客主页侧边栏的文章栏目中。</p>
+<div><p>Info</p>
+<p>我们提供收藏选项的考虑是: 主题使用者可能希望向访客展示一定数量的精品文章，而又不希望置顶文章充斥主页，导致用户不能看到最近更新的文章。</p>
+</div>
+<div><p>收藏顺序</p>
+<p>类似置顶文章，你同样可以将 <code>star</code> 设置为 <code>number</code> 来设置它们的顺序。数值大的文章会排列在前面。</p>
+</div>
+<h2 id="加密与幻灯片"> 加密与幻灯片</h2>
+<p>主题为加密文章页与幻灯片页这两个特殊页面提供了单独的列表，你可以在 <code>/encrypt/</code> 和 <code>/slide/</code> 页面查看它们。</p>
+<p>同时为了帮助访问者区分，这两个类别的页面会在文章列表中用图标明确标明其类别。</p>
+<p><img src="./assets/icon-type.png" alt="类别提示"></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>项目案例</title>
+      <link>https://vuepress-theme-hope.github.io/zh/demo/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/demo/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">项目案例</source>
+      <category>demo</category>
+      <pubDate>Tue, 13 Oct 2020 05:36:44 GMT</pubDate>
+      <content:encoded><![CDATA[<h2 id="mr-hope-的个人博客"> Mr.Hope 的个人博客</h2>
+<ul>
+<li><a href="https://mrhope.site" target="_blank" rel="noopener noreferrer">项目地址</a></li>
+<li><a href="https://github.com/Mister-Hope/Mister-Hope.github.io" target="_blank" rel="noopener noreferrer">项目文件</a></li>
+</ul>
+<h2 id="希望工作室官网"> 希望工作室官网</h2>
+<ul>
+<li><a href="https://hope-studio.innenu.com" target="_blank" rel="noopener noreferrer">项目地址</a></li>
+<li><a href="https://github.com/Hope-Studio/Hope-Studio.github.io" target="_blank" rel="noopener noreferrer">项目文件</a></li>
+</ul>
+<h2 id="vuepress-theme-hope-文档"> vuepress-theme-hope 文档</h2>
+<ul>
+<li><a href="https://vuepress-theme-hope.github.io" target="_blank" rel="noopener noreferrer">项目地址</a></li>
+<li><a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/tree/v1/docs/theme" target="_blank" rel="noopener noreferrer">项目文件</a></li>
+</ul>
+<h2 id="docker-从入门到实践"> Docker 从入门到实践</h2>
+<ul>
+<li><a href="https://vuepress.mirror.docker-practice.com/" target="_blank" rel="noopener noreferrer">项目地址</a></li>
+<li><a href="https://github.com/yeasy/docker_practice" target="_blank" rel="noopener noreferrer">项目文件</a></li>
+</ul>
+<h2 id="更多"> 更多</h2>
+<ul>
+<li>随时随地添加你的博客或文档到此</li>
 </ul>
 ]]></content:encoded>
     </item>
     <item>
-      <title>Markdown DEMO</title>
-      <link>https://vuepress-theme-hope.github.io/basic/markdown/demo/</link>
-      <guid>https://vuepress-theme-hope.github.io/basic/markdown/demo/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">Markdown DEMO</source>
-      <category>basic</category>
-      <pubDate>Tue, 07 Jan 2020 06:44:41 GMT</pubDate>
-      <content:encoded><![CDATA[
-<h1 id="first-heading"> First Heading</h1>
-
-<div><pre><code><span><span>#</span> First Heading</span>
-</code></pre>
-<div><span>1</span><br></div></div><h2 id="second-heading"> Second Heading</h2>
-<div><pre><code><span><span>##</span> Second Heading</span>
-</code></pre>
-<div><span>1</span><br></div></div><h3 id="third-heading"> Third Heading</h3>
-<div><pre><code><span><span>###</span> Third Heading</span>
-</code></pre>
-<div><span>1</span><br></div></div><h4 id="fourth-heading"> Fourth Heading</h4>
-<div><pre><code><span><span>####</span> Fourth Heading</span>
-</code></pre>
-<div><span>1</span><br></div></div><h5 id="fifth-heading"> Fifth Heading</h5>
-<div><pre><code><span><span>#####</span> Fifth Heading</span>
-</code></pre>
-<div><span>1</span><br></div></div><h6 id="sixth-heading"> Sixth Heading</h6>
-<div><pre><code><span><span>######</span> Sixth Heading</span>
-</code></pre>
-<div><span>1</span><br></div></div><h2 id="text"> Text</h2>
-<p>This sentence has <strong>bold</strong>、<em>italic</em> and <s>delete</s> style text.</p>
-<div><pre><code>This sentence has <span><span>**</span><span>bold</span><span>**</span></span>、<span><span>_</span><span>italic</span><span>_</span></span> and <span><span>~~</span><span>delete</span><span>~~</span></span> style text.
-</code></pre>
-<div><span>1</span><br></div></div><h2 id="paragraph"> Paragraph</h2>
-<p>This is a paragraph.</p>
-<p>This is another paragraph.</p>
-<div><pre><code>This is a paragraph.
-
-This is another paragraph.
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><h2 id="line-break"> Line Break</h2>
-<p>I would like to line break at<br>
-this point</p>
-<div><pre><code>I would like to line break at  
-this point
-</code></pre>
-<div><span>1</span><br><span>2</span><br></div></div><div><p>Tips</p>
-<p>In codes above, two spaces are behind <code>at</code>.</p>
+      <title>主题配置</title>
+      <link>https://vuepress-theme-hope.github.io/zh/config/theme/</link>
+      <guid>https://vuepress-theme-hope.github.io/zh/config/theme/</guid>
+      <source url="https://vuepress-theme-hope.github.io/rss.xml">主题配置</source>
+      <category>config</category>
+      <pubDate>Sat, 17 Oct 2020 08:18:13 GMT</pubDate>
+      <content:encoded><![CDATA[<div><p>Tips</p>
+<p>你可以查看 <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/docs/theme/src/.vuepress/config.js" target="_blank" rel="noopener noreferrer">本文档的配置</a> 作为案例，你也可以直接查看源代码中的 <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/packages/theme/types/theme/" target="_blank" rel="noopener noreferrer">types 文件</a></p>
 </div>
-<h2 id="blockquotes"> Blockquotes</h2>
-<blockquote>
-<p>Blockquotes can also be nested...</p>
-<blockquote>
-<p>...by using greater-than signs right next to each other...</p>
-<blockquote>
-<p>...or with spaces between arrows.</p>
-</blockquote>
-</blockquote>
-</blockquote>
-<div><pre><code><span>></span> Blockquotes can also be nested...
-<span>></span>
-<span>> ></span> ...by using greater-than signs right next to each other...
-<span>> ></span>
-<span>> > ></span> ...or with spaces between arrows.
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><h2 id="list"> List</h2>
-<h3 id="unordered-list"> Unordered List</h3>
-<ul>
-<li>
-<p>Create a list by starting a line with <code>-</code></p>
-</li>
-<li>
-<p>Make sub-lists by indenting 2 spaces:</p>
-<ul>
-<li>
-<p>Marker character change forces new list start:</p>
-<ul>
-<li>
-<p>Ac tristique libero volutpat at</p>
-</li>
-<li>
-<p>Facilisis in pretium nisl aliquet</p>
-</li>
-<li>
-<p>Nulla volutpat aliquam velit<br>
-link break</p>
-<p>New paragraph</p>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<p>It’s easy!</p>
-</li>
-</ul>
-<div><pre><code><span>-</span> Create a list by starting a line with <span>`-`</span>
-<span>-</span> Sub-lists are made by indenting 2 spaces:
-
-  <span>-</span> Marker character change forces new list start:
-
-<span>    - Ac tristique libero volutpat at
-    - Facilisis in pretium nisl aliquet
-    - Nulla volutpat aliquam velit  
-      link break</span>
-
-<span>      New paragraph</span>
-
-<span>-</span> Very easy!
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></div></div><h3 id="ordered-list"> Ordered List</h3>
-<ol>
-<li>Lorem ipsum dolor sit amet</li>
-<li>Consectetur adipiscing elit<br>
-line break<br>
-line break again</li>
-<li>Integer molestie lorem at massa</li>
-</ol>
-<div><pre><code><span>1.</span> Lorem ipsum dolor sit amet
-<span>1.</span> Consectetur adipiscing elit  
-   line break  
-   line break again
-<span>1.</span> Integer molestie lorem at massa
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><h2 id="hr"> HR</h2>
-<hr>
-<div><pre><code><span>---</span>
-</code></pre>
-<div><span>1</span><br></div></div><h2 id="link"> Link</h2>
-<p><a href="/">Home page using absolute path</a></p>
-<p><a href="./../">Home page using relative path</a></p>
-<p><a href="/about">About page using absolute path</a></p>
-<p><a href="./../about.html">About page using relative path</a></p>
-<div><pre><code><span>[<span>Home page using absolute path</span>](<span>/</span>)</span>
-
-<span>[<span>Home page using relative path</span>](<span>../readme.md</span>)</span>
-
-<span>[<span>About page using absolute path</span>](<span>/about</span>)</span>
-
-<span>[<span>About page using relative path</span>](<span>../about.md</span>)</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><div><p>Tips</p>
-<p>You can also use these in VuePress:</p>
-<ul>
-<li>
-<p><a href="./../">Home page-Can route when editing Markdown file</a></p>
-</li>
-<li>
-<p><a href="/">Home page using absolute path 2</a></p>
-</li>
-<li>
-<p><a href="./../index.html">Visit in HTML</a></p>
-</li>
-</ul>
-<p>To be able to jump to each other when editing the Markdown using the editor, you need to use the <strong>relative path</strong>, also you must place <code>readme.md</code> in <strong>every folder</strong>.</p>
-<p>代码:</p>
-<div><pre><code><span>-</span> <span>[<span>Home page-Can route when editing markdown file</span>](<span>../readme.md</span>)</span>
-
-<span>-</span> <span>[<span>Home page using absolute path 2</span>](<span>/readme.md</span>)</span>
-
-<span>-</span> <span>[<span>Visit in HTML</span>](<span>../index.html</span>)</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div></div>
-<h2 id="image"> Image</h2>
-<p><img src="/logo.png" alt="Logo"></p>
-<div><pre><code><span><span>!</span>[<span>Logo</span>](<span>/logo.png</span>)</span>
-</code></pre>
-<div><span>1</span><br></div></div><h2 id="emoji"> Emoji</h2>
-<p>Classic:</p>
-<p>😉 😢 😆 😋</p>
-<div><pre><code>:wink: :cry: :laughing: :yum:
-</code></pre>
-<div><span>1</span><br></div></div><p>Shortcuts:</p>
-<p>😎 😃 😗 😦 😃 😦 😉</p>
-<div><pre><code>8-) :) :\* :( :-) :-( ;)
-</code></pre>
-<div><span>1</span><br></div></div><div><p>Tips</p>
-<p>For more see <a href="./emoji.html">emoji list</a></p>
+<p><code>.vuepress/config.js</code> 中的 themeConfig 字段(主题字段)新增以下配置:</p>
+<h2 id="基本选项"> 基本选项</h2>
+<div><p>Warning</p>
+<p>这些选项很重要，需要你正确配置。</p>
 </div>
-<h2 id="tables"> Tables</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">center</th>
-<th style="text-align:right">right</th>
-<th style="text-align:left">left</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">For center align use <code>:-:</code></td>
-<td style="text-align:right">For right align use <code>-:</code></td>
-<td style="text-align:left">For left align use <code>:-</code></td>
-</tr>
-<tr>
-<td style="text-align:center">b</td>
-<td style="text-align:right">aaaaaaaaa</td>
-<td style="text-align:left">aaaa</td>
-</tr>
-<tr>
-<td style="text-align:center">c</td>
-<td style="text-align:right">aaaa</td>
-<td style="text-align:left">a</td>
-</tr>
-</tbody>
-</table>
-<div><pre><code><span><span><span>|</span><span>           center           </span><span>|</span><span>                    right </span><span>|</span><span> left                    </span><span>|</span>
-</span><span><span>|</span> <span>:------------------------:</span> <span>|</span> <span>-----------------------:</span> <span>|</span> <span>:----------------------</span> <span>|</span>
-</span><span><span>|</span><span> For center align use <span>`:-:`</span> </span><span>|</span><span> For right align use <span>`-:`</span> </span><span>|</span><span> For left align use <span>`:-`</span> </span><span>|</span>
-<span>|</span><span>             b              </span><span>|</span><span>                aaaaaaaaa </span><span>|</span><span> aaaa                    </span><span>|</span>
-<span>|</span><span>             c              </span><span>|</span><span>                     aaaa </span><span>|</span><span> a                       </span><span>|</span>
-</span></span></code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><h2 id="codes"> Codes</h2>
-<p>Inline Code: <code>code</code></p>
-<div><pre><code>Inline Code: <span>`code`</span>
-</code></pre>
-<div><span>1</span><br></div></div><p>Indented code:</p>
-<div><pre><code>// Some comments
-line 1 of code
-line 2 of code
-line 3 of code
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><div><pre><code>Indented code:
-
-    // Some comments
-    line 1 of code
-    line 2 of code
-    line 3 of code
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>Block code:</p>
-<div><pre><code>Sample text here...
-</code></pre>
-<div><span>1</span><br></div></div><div><pre><code>Block code:
-
-<span><span>```</span>
-<span>Sample text here...</span>
-<span>```</span></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>Syntax highlighting:</p>
-<div><pre><code><span>var</span> <span>foo</span> <span>=</span> <span>function</span> <span>(</span><span>bar</span><span>)</span> <span>{</span>
-  <span>return</span> bar<span>++</span><span>;</span>
-<span>}</span><span>;</span>
-
-console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span><span>5</span><span>)</span><span>)</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><div><pre><code>Syntax highlighting:
-
-<span><span>```</span><span>js</span>
-<span><span>var</span> <span>foo</span> <span>=</span> <span>function</span> <span>(</span><span>bar</span><span>)</span> <span>{</span>
-  <span>return</span> bar<span>++</span><span>;</span>
-<span>}</span><span>;</span>
-
-console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span><span>5</span><span>)</span><span>)</span><span>;</span></span>
-<span>```</span></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br></div></div>]]></content:encoded>
-      <enclosure url="https://vuepress-theme-hope.github.io/logo.png" type="image/png"/>
-    </item>
-    <item>
-      <title>Common problems</title>
-      <link>https://vuepress-theme-hope.github.io/FAQ/</link>
-      <guid>https://vuepress-theme-hope.github.io/FAQ/</guid>
-      <source url="https://vuepress-theme-hope.github.io/rss.xml">Common problems</source>
-      <category>FAQ</category>
-      <pubDate>Mon, 27 Jan 2020 06:39:01 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="common-problems"> Common problems</h1>
-<h2 id="some-page-settings-are-invalid"> Some page settings are invalid</h2>
-<p>You can first review the documentation to see if the setting <strong>does not support partial configuration</strong>.</p>
-<p><strong>Support for partial configuration</strong> means that the theme allows the configuration of the page to override the global configuration of the same name (same function), but not all functions meet this setting. For the sake of project compilation speed, some projects will not be loaded during the compilation phase after the global configuration is disabled, and they cannot be enabled locally.</p>
-<h2 id="typescript-problems"> TypeScript problems</h2>
-<p>Please make sure your project depends on TypeScript and there is a valid tsconfig.json file in the working directory.</p>
-<p>Also, make sure that your project has at least one TypeScript file included by it.</p>
-<h3 id="error-when-parsing-tsconfig-json"> error when parsing tsconfig.json</h3>
-<p>This problem is caused by ts-loader not finding tsconfig.json. Since the theme adds TypeScript support, you need to create a valid tsconfig.json inside your project.</p>
-<p>A simple tsconfig.json is as follows:</p>
-<div><pre><code><span>{</span>
-  <span>"compilerOptions"</span><span>:</span> <span>{</span>
-    <span>"target"</span><span>:</span> <span>"ES6"</span><span>,</span> <span>/// Any target not less than 'ES5'</span>
-    <span>"allowSyntheticDefaultImports"</span><span>:</span> <span>true</span><span>,</span> <span>// Avoiding some issues related to vuepress-types</span>
-    <span>"experimentalDecorators"</span><span>:</span> <span>true</span><span>,</span> <span>// TypeScript files for '.vue' needs this option</span>
-    <span>"module"</span><span>:</span> <span>"commonjs"</span><span>,</span> <span>// Avoiding some issues related to vuepress-types</span>
-    <span>// type definition files of vuepress and this theme</span>
-    <span>"types"</span><span>:</span> <span>[</span><span>"@mr-hope/vuepress-theme-types"</span><span>]</span>
-  <span>}</span><span>,</span>
-  <span>"include"</span><span>:</span> <span>[</span>
-    <span>"src/.vuepress/enhanceApp.ts"</span> <span>// replace `src` with your doc folder</span>
-  <span>]</span>
-<span>}</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></div></div><h3 id="can-t-find-corresponding-types"> Can’t find corresponding types</h3>
-<p>Make sure to add <code>&quot;@mr-hope/vuepress-theme-types&quot;</code> to <code>compilerOptions.types</code>, because the package is not in the <code>@types</code> directory.</p>
-<h3 id="no-inputs-were-found-in-config-file-tsconfig-json"> No inputs were found in config file tsconfig.json</h3>
-<p>This problem is caused by the absence of a TypeScript file in your project (or your tsconfig.json configuration is incorrect).</p>
-<p><code>ts-loader</code> requires that the include and exclude configuration items of tsconfig.json include at least one ts file in the project.</p>
-<p>If your project does not have a ts file, to avoid this problem, you can create an empty ts file anywhere in your project and add it to the include of tsconfig.json.</p>
-<p>A better solution is to solve this problem by creating an empty <code>enhanceApp.ts</code> in the<code>.vuepress</code> directory. If you already have <code>enhanceApp.js</code>, you can directly convert it to TS.</p>
+<h3 id="baselang"> baseLang</h3>
+<ul>
+<li>类型: <code>string</code></li>
+<li>默认值: <code>'en-US'</code></li>
+</ul>
+<p>主目录所对应的语言。</p>
+<p>这个选项会保证主目录页面中主题文字使用正确的语言显示。你可以根据自己的需要将其改为其他语言。</p>
+<div><p>Tips</p>
+<p>目前多语言仅适配了 <strong>简体中文</strong> (zh-CN)、<strong>英文(美国)</strong> (en-US) 与 越南语 (vi-VN)。</p>
+<p>如果你需要其它语言的多语言支持，你可以 <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/packages/shared/src/i18n/config.ts" target="_blank" rel="noopener noreferrer">向此文件提交一个 PR</a></p>
+</div>
+<h3 id="author"> author</h3>
+<ul>
+<li>类型: <code>string</code></li>
+<li>必填: 否</li>
+</ul>
+<p>文章显示的默认作者</p>
+<h3 id="nav"> nav <i>Not supported content</i></h3>
+<p>NavBarItem 新增</p>
+<ul>
+<li><code>icon</code> 字段来支持图标显示。</li>
+<li><code>prefix</code> 字段来自动添加分组前缀</li>
+</ul>
+<p>具体配置，请见 <a href="./../../guide/layout/navbar.html">布局 → 导航栏</a></p>
+<h3 id="sidebar"> sidebar <i>Not supported content</i></h3>
+<p>SideBarItem 新增</p>
+<ul>
+<li><code>icon</code> 字段来支持图标显示。</li>
+<li><code>prefix</code> 字段来自动添加分组前缀</li>
+</ul>
+<p>具体配置，请见 <a href="./../../guide/layout/sidebar.html">布局 → 侧边栏</a></p>
+<h3 id="locales"> locales</h3>
+<ul>
+<li>类型: <code>Record&lt;string, HopeLangI18nConfigItem&gt;</code></li>
+</ul>
+<p>主题的多语言配置，主要需要配置各语言的 <code>nav</code> 与 <code>sidebar</code>。</p>
+<h3 id="hostname"> hostname</h3>
+<ul>
+<li>类型: <code>string</code></li>
+<li>必填: 是</li>
+</ul>
+<p>当前网站部署到的域名。</p>
+<h2 id="更多配置"> 更多配置</h2>
+<ul>
+<li>
+<p><a href="./default.html"><strong>默认主题配置</strong></a></p>
+</li>
+<li>
+<p><a href="./feature.html"><strong>主题功能配置</strong></a></p>
+</li>
+<li>
+<p><a href="./plugin.html"><strong>主题插件配置</strong></a></p>
+</li>
+<li>
+<p><a href="./apperance.html"><strong>主题外观配置</strong></a></p>
+</li>
+</ul>
 ]]></content:encoded>
     </item>
   </channel>
