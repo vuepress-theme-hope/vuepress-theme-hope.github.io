@@ -51,12 +51,12 @@
       "tags": []
     },
     {
-      "title": "配置",
-      "url": "https://vuepress-theme-hope.github.io/add-this/zh/config/",
-      "id": "https://vuepress-theme-hope.github.io/add-this/zh/config/",
-      "content_html": "<h2 id=\"pubid\"> pubid</h2>\n<ul>\n<li>类型: <code>string</code></li>\n<li>必填: 是</li>\n</ul>\n<p>Add this 的 pubid</p>\n",
+      "title": "指南",
+      "url": "https://vuepress-theme-hope.github.io/add-this/zh/guide/",
+      "id": "https://vuepress-theme-hope.github.io/add-this/zh/guide/",
+      "content_html": "<h2 id=\"注册\"> 注册</h2>\n<p>请前往 <a href=\"https://www.addthis.com/register?next=/dashboard\" target=\"_blank\" rel=\"noopener noreferrer\">Add this 注册页面</a> 注册或 <a href=\"https://www.addthis.com/login?next=/dashboard\" target=\"_blank\" rel=\"noopener noreferrer\">Add this 登录页面</a> 登录账号。</p>\n<div><p>Tips</p>\n<p>该页面有 reCAPTCHA 认证，可能需要科学上网</p>\n</div>\n<h2 id=\"使用\"> 使用</h2>\n<p>进入 <a href=\"https://www.addthis.com/dashboard#gallery/\" target=\"_blank\" rel=\"noopener noreferrer\">工具页面</a> 添加你所需要的工具，并进行合理的配置。</p>\n<p>在配置完成后，请进入 <a href=\"https://www.addthis.com/dashboard#get-the-code/\" target=\"_blank\" rel=\"noopener noreferrer\">获取代码页面</a>，即可代码中获得你的 pubid。</p>\n",
       "date_published": "2020-10-13T05:36:44.000Z",
-      "date_modified": "2020-11-17T09:58:20.000Z",
+      "date_modified": "2021-01-19T14:31:34.000Z",
       "authors": [
         {
           "name": "Mr.Hope"
@@ -65,12 +65,12 @@
       "tags": []
     },
     {
-      "title": "指南",
-      "url": "https://vuepress-theme-hope.github.io/add-this/zh/guide/",
-      "id": "https://vuepress-theme-hope.github.io/add-this/zh/guide/",
-      "content_html": "<h2 id=\"注册\"> 注册</h2>\n<p>请前往 <a href=\"https://www.addthis.com/register?next=/dashboard\" target=\"_blank\" rel=\"noopener noreferrer\">Add this 注册页面</a> 注册或 <a href=\"https://www.addthis.com/login?next=/dashboard\" target=\"_blank\" rel=\"noopener noreferrer\">Add this 登录页面</a> 登录账号。</p>\n<div><p>Tips</p>\n<p>该页面有 reCAPTCHA 认证，可能需要科学上网</p>\n</div>\n<h2 id=\"使用\"> 使用</h2>\n<p>进入 <a href=\"https://www.addthis.com/dashboard#gallery/\" target=\"_blank\" rel=\"noopener noreferrer\">工具页面</a> 添加你所需要的工具，并进行合理的配置。</p>\n<p>在配置完成后，请进入 <a href=\"https://www.addthis.com/dashboard#get-the-code/\" target=\"_blank\" rel=\"noopener noreferrer\">获取代码页面</a>，即可代码中获得你的 pubid。</p>\n",
+      "title": "配置",
+      "url": "https://vuepress-theme-hope.github.io/add-this/zh/config/",
+      "id": "https://vuepress-theme-hope.github.io/add-this/zh/config/",
+      "content_html": "<h2 id=\"pubid\"> pubid</h2>\n<ul>\n<li>类型: <code>string</code></li>\n<li>必填: 是</li>\n</ul>\n<p>Add this 的 pubid</p>\n",
       "date_published": "2020-10-13T05:36:44.000Z",
-      "date_modified": "2021-01-19T14:31:34.000Z",
+      "date_modified": "2020-11-17T09:58:20.000Z",
       "authors": [
         {
           "name": "Mr.Hope"

@@ -6,8 +6,8 @@
     <link>https://vuepress-theme-hope.github.io/add-this/</link>
     <description>Share Plugin provided by AddThis</description>
     <language>en-US</language>
-    <pubDate>Mon, 08 Mar 2021 15:27:43 GMT</pubDate>
-    <lastBuildDate>Mon, 08 Mar 2021 15:27:43 GMT</lastBuildDate>
+    <pubDate>Tue, 09 Mar 2021 07:51:11 GMT</pubDate>
+    <lastBuildDate>Tue, 09 Mar 2021 07:51:11 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019-present Mr.Hope</copyright>
@@ -65,20 +65,6 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div>]]></content:encoded>
     </item>
     <item>
-      <title>配置</title>
-      <link>https://vuepress-theme-hope.github.io/add-this/zh/config/</link>
-      <guid>https://vuepress-theme-hope.github.io/add-this/zh/config/</guid>
-      <source url="https://vuepress-theme-hope.github.io/add-this/rss.xml">配置</source>
-      <pubDate>Tue, 13 Oct 2020 05:36:44 GMT</pubDate>
-      <content:encoded><![CDATA[<h2 id="pubid"> pubid</h2>
-<ul>
-<li>类型: <code>string</code></li>
-<li>必填: 是</li>
-</ul>
-<p>Add this 的 pubid</p>
-]]></content:encoded>
-    </item>
-    <item>
       <title>指南</title>
       <link>https://vuepress-theme-hope.github.io/add-this/zh/guide/</link>
       <guid>https://vuepress-theme-hope.github.io/add-this/zh/guide/</guid>
@@ -92,6 +78,20 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <h2 id="使用"> 使用</h2>
 <p>进入 <a href="https://www.addthis.com/dashboard#gallery/" target="_blank" rel="noopener noreferrer">工具页面</a> 添加你所需要的工具，并进行合理的配置。</p>
 <p>在配置完成后，请进入 <a href="https://www.addthis.com/dashboard#get-the-code/" target="_blank" rel="noopener noreferrer">获取代码页面</a>，即可代码中获得你的 pubid。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>配置</title>
+      <link>https://vuepress-theme-hope.github.io/add-this/zh/config/</link>
+      <guid>https://vuepress-theme-hope.github.io/add-this/zh/config/</guid>
+      <source url="https://vuepress-theme-hope.github.io/add-this/rss.xml">配置</source>
+      <pubDate>Tue, 13 Oct 2020 05:36:44 GMT</pubDate>
+      <content:encoded><![CDATA[<h2 id="pubid"> pubid</h2>
+<ul>
+<li>类型: <code>string</code></li>
+<li>必填: 是</li>
+</ul>
+<p>Add this 的 pubid</p>
 ]]></content:encoded>
     </item>
     <item>
