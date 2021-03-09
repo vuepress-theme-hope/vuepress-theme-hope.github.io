@@ -6,7 +6,7 @@
   <author>
     <name>Mr.Hope</name>
   </author>
-  <updated>2021-03-09T14:32:33.118Z</updated>
+  <updated>2021-03-09T14:57:48.018Z</updated>
   <generator>@mr-hope/vuepress-plugin-feed</generator>
   <link rel="self" href="https://vuepress-theme-hope.github.io/atom.xml"/>
   <link rel="alternate" href="https://vuepress-theme-hope.github.io/"/>
@@ -66,137 +66,6 @@
       <name>Mr.Hope</name>
     </author>
     <category term="FAQ"/>
-    <contributor>
-      <name>Mr.Hope</name>
-    </contributor>
-    <published>2020-01-27T06:39:01.000Z</published>
-    <rights>Copyright by Mr.Hope</rights>
-  </entry>
-  <entry>
-    <title type="html">Nature</title>
-    <id>https://vuepress-theme-hope.github.io/basic/markdown/emoji/nature/</id>
-    <link href="https://vuepress-theme-hope.github.io/basic/markdown/emoji/nature/"/>
-    <updated>2021-02-27T06:18:09.000Z</updated>
-    <content type="html"><![CDATA[<ul>
-<li>☀️ <code>:sunny:</code></li>
-<li>☔️ <code>:umbrella:</code></li>
-<li>☁️ <code>:cloud:</code></li>
-<li>❄️ <code>:snowflake:</code></li>
-<li>⛄️ <code>:snowman:</code></li>
-<li>⚡️ <code>:zap:</code></li>
-<li>🌀 <code>:cyclone:</code></li>
-<li>🌁 <code>:foggy:</code></li>
-<li>🌊 <code>:ocean:</code></li>
-<li>🐱 <code>:cat:</code></li>
-<li>🐶 <code>:dog:</code></li>
-<li>🐭 <code>:mouse:</code></li>
-<li>🐹 <code>:hamster:</code></li>
-<li>🐰 <code>:rabbit:</code></li>
-<li>🐺 <code>:wolf:</code></li>
-<li>🐸 <code>:frog:</code></li>
-<li>🐯 <code>:tiger:</code></li>
-<li>🐨 <code>:koala:</code></li>
-<li>🐻 <code>:bear:</code></li>
-<li>🐷 <code>:pig:</code></li>
-<li>🐽 <code>:pig_nose:</code></li>
-<li>🐮 <code>:cow:</code></li>
-<li>🐗 <code>:boar:</code></li>
-<li>🐵 <code>:monkey_face:</code></li>
-<li>🐒 <code>:monkey:</code></li>
-<li>🐴 <code>:horse:</code></li>
-<li>🐎 <code>:racehorse:</code></li>
-<li>🐫 <code>:camel:</code></li>
-<li>🐑 <code>:sheep:</code></li>
-<li>🐘 <code>:elephant:</code></li>
-<li>🐼 <code>:panda_face:</code></li>
-<li>🐍 <code>:snake:</code></li>
-<li>🐦 <code>:bird:</code></li>
-<li>🐤 <code>:baby_chick:</code></li>
-<li>🐥 <code>:hatched_chick:</code></li>
-<li>🐣 <code>:hatching_chick:</code></li>
-<li>🐔 <code>:chicken:</code></li>
-<li>🐧 <code>:penguin:</code></li>
-<li>🐢 <code>:turtle:</code></li>
-<li>🐛 <code>:bug:</code></li>
-<li>🐝 <code>:honeybee:</code></li>
-<li>🐜 <code>:ant:</code></li>
-<li>🐞 <code>:beetle:</code></li>
-<li>🐌 <code>:snail:</code></li>
-<li>🐙 <code>:octopus:</code></li>
-<li>🐠 <code>:tropical_fish:</code></li>
-<li>🐟 <code>:fish:</code></li>
-<li>🐳 <code>:whale:</code></li>
-<li>🐋 <code>:whale2:</code></li>
-<li>🐬 <code>:dolphin:</code></li>
-<li>🐄 <code>:cow2:</code></li>
-<li>🐏 <code>:ram:</code></li>
-<li>🐀 <code>:rat:</code></li>
-<li>🐃 <code>:water_buffalo:</code></li>
-<li>🐅 <code>:tiger2:</code></li>
-<li>🐇 <code>:rabbit2:</code></li>
-<li>🐉 <code>:dragon:</code></li>
-<li>🐐 <code>:goat:</code></li>
-<li>🐓 <code>:rooster:</code></li>
-<li>🐕 <code>:dog2:</code></li>
-<li>🐖 <code>:pig2:</code></li>
-<li>🐁 <code>:mouse2:</code></li>
-<li>🐂 <code>:ox:</code></li>
-<li>🐲 <code>:dragon_face:</code></li>
-<li>🐡 <code>:blowfish:</code></li>
-<li>🐊 <code>:crocodile:</code></li>
-<li>🐪 <code>:dromedary_camel:</code></li>
-<li>🐆 <code>:leopard:</code></li>
-<li>🐈 <code>:cat2:</code></li>
-<li>🐩 <code>:poodle:</code></li>
-<li>🐾 <code>:paw_prints:</code></li>
-<li>💐 <code>:bouquet:</code></li>
-<li>🌸 <code>:cherry_blossom:</code></li>
-<li>🌷 <code>:tulip:</code></li>
-<li>🍀 <code>:four_leaf_clover:</code></li>
-<li>🌹 <code>:rose:</code></li>
-<li>🌻 <code>:sunflower:</code></li>
-<li>🌺 <code>:hibiscus:</code></li>
-<li>🍁 <code>:maple_leaf:</code></li>
-<li>🍃 <code>:leaves:</code></li>
-<li>🍂 <code>:fallen_leaf:</code></li>
-<li>🌿 <code>:herb:</code></li>
-<li>🍄 <code>:mushroom:</code></li>
-<li>🌵 <code>:cactus:</code></li>
-<li>🌴 <code>:palm_tree:</code></li>
-<li>🌲 <code>:evergreen_tree:</code></li>
-<li>🌳 <code>:deciduous_tree:</code></li>
-<li>🌰 <code>:chestnut:</code></li>
-<li>🌱 <code>:seedling:</code></li>
-<li>🌼 <code>:blossom:</code></li>
-<li>🌾 <code>:ear_of_rice:</code></li>
-<li>🐚 <code>:shell:</code></li>
-<li>🌐 <code>:globe_with_meridians:</code></li>
-<li>🌞 <code>:sun_with_face:</code></li>
-<li>🌝 <code>:full_moon_with_face:</code></li>
-<li>🌚 <code>:new_moon_with_face:</code></li>
-<li>🌑 <code>:new_moon:</code></li>
-<li>🌒 <code>:waxing_crescent_moon:</code></li>
-<li>🌓 <code>:first_quarter_moon:</code></li>
-<li>🌔 <code>:waxing_gibbous_moon:</code></li>
-<li>🌕 <code>:full_moon:</code></li>
-<li>🌖 <code>:waning_gibbous_moon:</code></li>
-<li>🌗 <code>:last_quarter_moon:</code></li>
-<li>🌘 <code>:waning_crescent_moon:</code></li>
-<li>🌜 <code>:last_quarter_moon_with_face:</code></li>
-<li>🌛 <code>:first_quarter_moon_with_face:</code></li>
-<li>🌙 <code>:crescent_moon:</code></li>
-<li>🌍 <code>:earth_africa:</code></li>
-<li>🌎 <code>:earth_americas:</code></li>
-<li>🌏 <code>:earth_asia:</code></li>
-<li>🌋 <code>:volcano:</code></li>
-<li>🌌 <code>:milky_way:</code></li>
-<li>⛅️ <code>:partly_sunny:</code></li>
-</ul>
-]]></content>
-    <author>
-      <name>Mr.Hope</name>
-    </author>
-    <category term="basic"/>
     <contributor>
       <name>Mr.Hope</name>
     </contributor>
@@ -463,6 +332,137 @@ console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span
       <name>Mr.Hope</name>
     </contributor>
     <published>2020-01-07T06:44:41.000Z</published>
+    <rights>Copyright by Mr.Hope</rights>
+  </entry>
+  <entry>
+    <title type="html">Nature</title>
+    <id>https://vuepress-theme-hope.github.io/basic/markdown/emoji/nature/</id>
+    <link href="https://vuepress-theme-hope.github.io/basic/markdown/emoji/nature/"/>
+    <updated>2021-02-27T06:18:09.000Z</updated>
+    <content type="html"><![CDATA[<ul>
+<li>☀️ <code>:sunny:</code></li>
+<li>☔️ <code>:umbrella:</code></li>
+<li>☁️ <code>:cloud:</code></li>
+<li>❄️ <code>:snowflake:</code></li>
+<li>⛄️ <code>:snowman:</code></li>
+<li>⚡️ <code>:zap:</code></li>
+<li>🌀 <code>:cyclone:</code></li>
+<li>🌁 <code>:foggy:</code></li>
+<li>🌊 <code>:ocean:</code></li>
+<li>🐱 <code>:cat:</code></li>
+<li>🐶 <code>:dog:</code></li>
+<li>🐭 <code>:mouse:</code></li>
+<li>🐹 <code>:hamster:</code></li>
+<li>🐰 <code>:rabbit:</code></li>
+<li>🐺 <code>:wolf:</code></li>
+<li>🐸 <code>:frog:</code></li>
+<li>🐯 <code>:tiger:</code></li>
+<li>🐨 <code>:koala:</code></li>
+<li>🐻 <code>:bear:</code></li>
+<li>🐷 <code>:pig:</code></li>
+<li>🐽 <code>:pig_nose:</code></li>
+<li>🐮 <code>:cow:</code></li>
+<li>🐗 <code>:boar:</code></li>
+<li>🐵 <code>:monkey_face:</code></li>
+<li>🐒 <code>:monkey:</code></li>
+<li>🐴 <code>:horse:</code></li>
+<li>🐎 <code>:racehorse:</code></li>
+<li>🐫 <code>:camel:</code></li>
+<li>🐑 <code>:sheep:</code></li>
+<li>🐘 <code>:elephant:</code></li>
+<li>🐼 <code>:panda_face:</code></li>
+<li>🐍 <code>:snake:</code></li>
+<li>🐦 <code>:bird:</code></li>
+<li>🐤 <code>:baby_chick:</code></li>
+<li>🐥 <code>:hatched_chick:</code></li>
+<li>🐣 <code>:hatching_chick:</code></li>
+<li>🐔 <code>:chicken:</code></li>
+<li>🐧 <code>:penguin:</code></li>
+<li>🐢 <code>:turtle:</code></li>
+<li>🐛 <code>:bug:</code></li>
+<li>🐝 <code>:honeybee:</code></li>
+<li>🐜 <code>:ant:</code></li>
+<li>🐞 <code>:beetle:</code></li>
+<li>🐌 <code>:snail:</code></li>
+<li>🐙 <code>:octopus:</code></li>
+<li>🐠 <code>:tropical_fish:</code></li>
+<li>🐟 <code>:fish:</code></li>
+<li>🐳 <code>:whale:</code></li>
+<li>🐋 <code>:whale2:</code></li>
+<li>🐬 <code>:dolphin:</code></li>
+<li>🐄 <code>:cow2:</code></li>
+<li>🐏 <code>:ram:</code></li>
+<li>🐀 <code>:rat:</code></li>
+<li>🐃 <code>:water_buffalo:</code></li>
+<li>🐅 <code>:tiger2:</code></li>
+<li>🐇 <code>:rabbit2:</code></li>
+<li>🐉 <code>:dragon:</code></li>
+<li>🐐 <code>:goat:</code></li>
+<li>🐓 <code>:rooster:</code></li>
+<li>🐕 <code>:dog2:</code></li>
+<li>🐖 <code>:pig2:</code></li>
+<li>🐁 <code>:mouse2:</code></li>
+<li>🐂 <code>:ox:</code></li>
+<li>🐲 <code>:dragon_face:</code></li>
+<li>🐡 <code>:blowfish:</code></li>
+<li>🐊 <code>:crocodile:</code></li>
+<li>🐪 <code>:dromedary_camel:</code></li>
+<li>🐆 <code>:leopard:</code></li>
+<li>🐈 <code>:cat2:</code></li>
+<li>🐩 <code>:poodle:</code></li>
+<li>🐾 <code>:paw_prints:</code></li>
+<li>💐 <code>:bouquet:</code></li>
+<li>🌸 <code>:cherry_blossom:</code></li>
+<li>🌷 <code>:tulip:</code></li>
+<li>🍀 <code>:four_leaf_clover:</code></li>
+<li>🌹 <code>:rose:</code></li>
+<li>🌻 <code>:sunflower:</code></li>
+<li>🌺 <code>:hibiscus:</code></li>
+<li>🍁 <code>:maple_leaf:</code></li>
+<li>🍃 <code>:leaves:</code></li>
+<li>🍂 <code>:fallen_leaf:</code></li>
+<li>🌿 <code>:herb:</code></li>
+<li>🍄 <code>:mushroom:</code></li>
+<li>🌵 <code>:cactus:</code></li>
+<li>🌴 <code>:palm_tree:</code></li>
+<li>🌲 <code>:evergreen_tree:</code></li>
+<li>🌳 <code>:deciduous_tree:</code></li>
+<li>🌰 <code>:chestnut:</code></li>
+<li>🌱 <code>:seedling:</code></li>
+<li>🌼 <code>:blossom:</code></li>
+<li>🌾 <code>:ear_of_rice:</code></li>
+<li>🐚 <code>:shell:</code></li>
+<li>🌐 <code>:globe_with_meridians:</code></li>
+<li>🌞 <code>:sun_with_face:</code></li>
+<li>🌝 <code>:full_moon_with_face:</code></li>
+<li>🌚 <code>:new_moon_with_face:</code></li>
+<li>🌑 <code>:new_moon:</code></li>
+<li>🌒 <code>:waxing_crescent_moon:</code></li>
+<li>🌓 <code>:first_quarter_moon:</code></li>
+<li>🌔 <code>:waxing_gibbous_moon:</code></li>
+<li>🌕 <code>:full_moon:</code></li>
+<li>🌖 <code>:waning_gibbous_moon:</code></li>
+<li>🌗 <code>:last_quarter_moon:</code></li>
+<li>🌘 <code>:waning_crescent_moon:</code></li>
+<li>🌜 <code>:last_quarter_moon_with_face:</code></li>
+<li>🌛 <code>:first_quarter_moon_with_face:</code></li>
+<li>🌙 <code>:crescent_moon:</code></li>
+<li>🌍 <code>:earth_africa:</code></li>
+<li>🌎 <code>:earth_americas:</code></li>
+<li>🌏 <code>:earth_asia:</code></li>
+<li>🌋 <code>:volcano:</code></li>
+<li>🌌 <code>:milky_way:</code></li>
+<li>⛅️ <code>:partly_sunny:</code></li>
+</ul>
+]]></content>
+    <author>
+      <name>Mr.Hope</name>
+    </author>
+    <category term="basic"/>
+    <contributor>
+      <name>Mr.Hope</name>
+    </contributor>
+    <published>2020-01-27T06:39:01.000Z</published>
     <rights>Copyright by Mr.Hope</rights>
   </entry>
   <entry>
@@ -1053,6 +1053,42 @@ console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span
     <rights>Copyright by Mr.Hope</rights>
   </entry>
   <entry>
+    <title type="html">Emoji List</title>
+    <id>https://vuepress-theme-hope.github.io/basic/markdown/emoji/</id>
+    <link href="https://vuepress-theme-hope.github.io/basic/markdown/emoji/"/>
+    <updated>2021-02-27T06:18:09.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="emoji-list"> Emoji List</h1>
+<h2 id="people"> People</h2>
+<ul>
+<li><a href="./people.html">View Detail</a></li>
+</ul>
+<h2 id="nature"> Nature</h2>
+<ul>
+<li><a href="./nature.html">View Detail</a></li>
+</ul>
+<h2 id="object"> Object</h2>
+<ul>
+<li><a href="./object.html">View Detail</a></li>
+</ul>
+<h2 id="location"> Location</h2>
+<ul>
+<li><a href="./place.html">View Detail</a></li>
+</ul>
+<h2 id="synbol"> Synbol</h2>
+<ul>
+<li><a href="./symbol.html">View Detail</a></li>
+</ul>
+]]></content>
+    <author>
+      <name>Mr.Hope</name>
+    </author>
+    <contributor>
+      <name>Mr.Hope</name>
+    </contributor>
+    <published>2020-01-27T06:39:01.000Z</published>
+    <rights>Copyright by Mr.Hope</rights>
+  </entry>
+  <entry>
     <title type="html">Symbol</title>
     <id>https://vuepress-theme-hope.github.io/basic/markdown/emoji/symbol/</id>
     <link href="https://vuepress-theme-hope.github.io/basic/markdown/emoji/symbol/"/>
@@ -1254,42 +1290,6 @@ console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span
       <name>Mr.Hope</name>
     </author>
     <category term="basic"/>
-    <contributor>
-      <name>Mr.Hope</name>
-    </contributor>
-    <published>2020-01-27T06:39:01.000Z</published>
-    <rights>Copyright by Mr.Hope</rights>
-  </entry>
-  <entry>
-    <title type="html">Emoji List</title>
-    <id>https://vuepress-theme-hope.github.io/basic/markdown/emoji/</id>
-    <link href="https://vuepress-theme-hope.github.io/basic/markdown/emoji/"/>
-    <updated>2021-02-27T06:18:09.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="emoji-list"> Emoji List</h1>
-<h2 id="people"> People</h2>
-<ul>
-<li><a href="./people.html">View Detail</a></li>
-</ul>
-<h2 id="nature"> Nature</h2>
-<ul>
-<li><a href="./nature.html">View Detail</a></li>
-</ul>
-<h2 id="object"> Object</h2>
-<ul>
-<li><a href="./object.html">View Detail</a></li>
-</ul>
-<h2 id="location"> Location</h2>
-<ul>
-<li><a href="./place.html">View Detail</a></li>
-</ul>
-<h2 id="synbol"> Synbol</h2>
-<ul>
-<li><a href="./symbol.html">View Detail</a></li>
-</ul>
-]]></content>
-    <author>
-      <name>Mr.Hope</name>
-    </author>
     <contributor>
       <name>Mr.Hope</name>
     </contributor>
@@ -1665,6 +1665,79 @@ console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span
     <rights>Copyright by Mr.Hope</rights>
   </entry>
   <entry>
+    <title type="html">VuePress commands</title>
+    <id>https://vuepress-theme-hope.github.io/basic/vuepress/command/</id>
+    <link href="https://vuepress-theme-hope.github.io/basic/vuepress/command/"/>
+    <updated>2021-02-24T15:41:50.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="install-dependency"> Install Dependency</h2>
+<CodeGroup>
+<CodeGroupItem title="yarn">
+<div><pre><code><span>yarn</span> <span>install</span>
+</code></pre>
+<div><span>1</span><br></div></div></CodeGroupItem>
+<CodeGroupItem title="npm">
+<div><pre><code><span>npm</span> <span>install</span>
+</code></pre>
+<div><span>1</span><br></div></div></CodeGroupItem>
+<CodeGroupItem title="yarn short">
+<div><pre><code><span>yarn</span>
+</code></pre>
+<div><span>1</span><br></div></div></CodeGroupItem>
+<CodeGroupItem title="npm short">
+<div><pre><code><span>npm</span> i
+</code></pre>
+<div><span>1</span><br></div></div></CodeGroupItem>
+</CodeGroup>
+<h2 id="update-dependency"> Update Dependency</h2>
+<CodeGroup>
+<CodeGroupItem title="yarn">
+<div><pre><code><span>yarn</span> upgrade
+</code></pre>
+<div><span>1</span><br></div></div></CodeGroupItem>
+<CodeGroupItem title="npm">
+<div><pre><code><span>npm</span> update
+</code></pre>
+<div><span>1</span><br></div></div></CodeGroupItem>
+</CodeGroup>
+<h2 id="start-dev"> Start Dev</h2>
+<p>Open local develop environment, please visit<a href="http://localhost:8080" target="_blank" rel="noopener noreferrer">localhost:8080</a>。</p>
+<CodeGroup>
+<CodeGroupItem title="yarn">
+<div><pre><code><span>yarn</span> run serve
+</code></pre>
+<div><span>1</span><br></div></div></CodeGroupItem>
+<CodeGroupItem title="npm">
+<div><pre><code><span>npm</span> run serve
+</code></pre>
+<div><span>1</span><br></div></div></CodeGroupItem>
+</CodeGroup>
+<div><p>Tips</p>
+<p>Use <code>Ctrl + C</code> to stop local dev process.</p>
+</div>
+<h2 id="build-project"> Build project</h2>
+<p>Generate the files that will be deployed to the server.</p>
+<CodeGroup>
+<CodeGroupItem title="yarn">
+<div><pre><code><span>yarn</span> run build
+</code></pre>
+<div><span>1</span><br></div></div></CodeGroupItem>
+<CodeGroupItem title="npm">
+<div><pre><code><span>npm</span> run build
+</code></pre>
+<div><span>1</span><br></div></div></CodeGroupItem>
+</CodeGroup>
+]]></content>
+    <author>
+      <name>Mr.Hope</name>
+    </author>
+    <category term="basic"/>
+    <contributor>
+      <name>Mr.Hope</name>
+    </contributor>
+    <published>2020-01-07T06:44:41.000Z</published>
+    <rights>Copyright by Mr.Hope</rights>
+  </entry>
+  <entry>
     <title type="html">File Structure</title>
     <id>https://vuepress-theme-hope.github.io/basic/vuepress/file/</id>
     <link href="https://vuepress-theme-hope.github.io/basic/vuepress/file/"/>
@@ -1793,79 +1866,6 @@ console<span>.</span><span>log</span><span>(</span><span>foo</span><span>(</span
 </tr>
 </tbody>
 </table>
-]]></content>
-    <author>
-      <name>Mr.Hope</name>
-    </author>
-    <category term="basic"/>
-    <contributor>
-      <name>Mr.Hope</name>
-    </contributor>
-    <published>2020-01-07T06:44:41.000Z</published>
-    <rights>Copyright by Mr.Hope</rights>
-  </entry>
-  <entry>
-    <title type="html">VuePress commands</title>
-    <id>https://vuepress-theme-hope.github.io/basic/vuepress/command/</id>
-    <link href="https://vuepress-theme-hope.github.io/basic/vuepress/command/"/>
-    <updated>2021-02-24T15:41:50.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="install-dependency"> Install Dependency</h2>
-<CodeGroup>
-<CodeGroupItem title="yarn">
-<div><pre><code><span>yarn</span> <span>install</span>
-</code></pre>
-<div><span>1</span><br></div></div></CodeGroupItem>
-<CodeGroupItem title="npm">
-<div><pre><code><span>npm</span> <span>install</span>
-</code></pre>
-<div><span>1</span><br></div></div></CodeGroupItem>
-<CodeGroupItem title="yarn short">
-<div><pre><code><span>yarn</span>
-</code></pre>
-<div><span>1</span><br></div></div></CodeGroupItem>
-<CodeGroupItem title="npm short">
-<div><pre><code><span>npm</span> i
-</code></pre>
-<div><span>1</span><br></div></div></CodeGroupItem>
-</CodeGroup>
-<h2 id="update-dependency"> Update Dependency</h2>
-<CodeGroup>
-<CodeGroupItem title="yarn">
-<div><pre><code><span>yarn</span> upgrade
-</code></pre>
-<div><span>1</span><br></div></div></CodeGroupItem>
-<CodeGroupItem title="npm">
-<div><pre><code><span>npm</span> update
-</code></pre>
-<div><span>1</span><br></div></div></CodeGroupItem>
-</CodeGroup>
-<h2 id="start-dev"> Start Dev</h2>
-<p>Open local develop environment, please visit<a href="http://localhost:8080" target="_blank" rel="noopener noreferrer">localhost:8080</a>。</p>
-<CodeGroup>
-<CodeGroupItem title="yarn">
-<div><pre><code><span>yarn</span> run serve
-</code></pre>
-<div><span>1</span><br></div></div></CodeGroupItem>
-<CodeGroupItem title="npm">
-<div><pre><code><span>npm</span> run serve
-</code></pre>
-<div><span>1</span><br></div></div></CodeGroupItem>
-</CodeGroup>
-<div><p>Tips</p>
-<p>Use <code>Ctrl + C</code> to stop local dev process.</p>
-</div>
-<h2 id="build-project"> Build project</h2>
-<p>Generate the files that will be deployed to the server.</p>
-<CodeGroup>
-<CodeGroupItem title="yarn">
-<div><pre><code><span>yarn</span> run build
-</code></pre>
-<div><span>1</span><br></div></div></CodeGroupItem>
-<CodeGroupItem title="npm">
-<div><pre><code><span>npm</span> run build
-</code></pre>
-<div><span>1</span><br></div></div></CodeGroupItem>
-</CodeGroup>
 ]]></content>
     <author>
       <name>Mr.Hope</name>
@@ -3191,6 +3191,124 @@ write something here ~
     <rights>Copyright by Mr.Hope</rights>
   </entry>
   <entry>
+    <title type="html">Default Theme Config</title>
+    <id>https://vuepress-theme-hope.github.io/config/theme/default/</id>
+    <link href="https://vuepress-theme-hope.github.io/config/theme/default/"/>
+    <updated>2021-02-26T05:26:49.000Z</updated>
+    <content type="html"><![CDATA[<p>The following configurations follow the configuration items in <code>@vuepress/theme-default</code>:</p>
+<div><p>Note</p>
+<p>By injecting, vuepress-theme-hope changes the default values of some configurations of the default theme.</p>
+<p>Although they have little effect, they may led to a result that does not match the default document expectations.</p>
+<p>All the configuration items changes are listed below the documentation.</p>
+</div>
+<h2 id="logo"> logo <i>Not supported content</i></h2>
+<ul>
+<li>Type: <code>string</code></li>
+<li>Required: No</li>
+</ul>
+<p>The logo image of the navigation bar. Needs to be filled with an absolute path. To display another logo in dark mode, please configure the <code>themeConfig.darkLogo</code> option.</p>
+<h2 id="sidebardepth"> sidebarDepth</h2>
+<ul>
+<li>Type: <code>number</code></li>
+<li>Default: <code>2</code></li>
+</ul>
+<p>Nested headings depth in sidebar</p>
+<h2 id="displayallheaders"> displayAllHeaders</h2>
+<ul>
+<li>Type: <code>boolean</code></li>
+<li>Default: <code>false</code></li>
+</ul>
+<p>Whether to display header links in sidebar for all pages</p>
+<h2 id="activeheaderlinks"> activeHeaderLinks</h2>
+<ul>
+<li>Type: <code>boolean</code></li>
+<li>Default value: <code>true</code></li>
+</ul>
+<p>Whether to automatically update hash values ​​in URLs and sidebar active headings.</p>
+<h2 id="search"> search</h2>
+<ul>
+<li>Type: <code>boolean</code></li>
+<li>Default: <code>true</code></li>
+</ul>
+<p>Whether to enable the default search box</p>
+<h2 id="searchplaceholder"> searchPlaceholder</h2>
+<ul>
+<li>Type: <code>string</code></li>
+<li>Required: No</li>
+</ul>
+<p>Placeholder for the search box</p>
+<h2 id="searchmaxsuggestions"> searchMaxSuggestions</h2>
+<ul>
+<li>Type: <code>number</code></li>
+<li>Default: <code>10</code></li>
+</ul>
+<p>The number of search results displayed in the default search box</p>
+<h2 id="algolia"> algolia</h2>
+<ul>
+<li>Type: <code>AlgoliaOption</code></li>
+<li>Required: No</li>
+</ul>
+<p>Algolia search configuration, you need to provide at least <code>apiKey</code> and<code>indexName</code>. For details, see <a href="https://github.com/algolia/docsearch#docsearch-options" target="_blank" rel="noopener noreferrer">Doc Search documentation</a>. You can also configure algolia for each language.</p>
+<h2 id="nextlinks"> nextLinks</h2>
+<ul>
+<li>Type: <code>boolean</code></li>
+<li>Default: <code>true</code></li>
+</ul>
+<p>Whether to display next link of all pages</p>
+<h2 id="prevlinks"> prevLinks</h2>
+<ul>
+<li>Type: <code>boolean</code></li>
+<li>Default: <code>true</code></li>
+</ul>
+<p>Whether to display previous link on all pages</p>
+<h2 id="repo"> repo</h2>
+<ul>
+<li>Type: <code>string</code></li>
+<li>Required: No</li>
+</ul>
+<p>Project repository address</p>
+<h2 id="repolabel"> repoLabel</h2>
+<ul>
+<li>Type: <code>string</code></li>
+<li>Required: No</li>
+</ul>
+<p>Repository label text, will automatically try to parse the <code>repo</code> option, try to derive <code>'GitHub'</code> <code>'GitLab'</code> <code>'Bitbucket'</code>, if the repo link is not recognized, it will be displayed as <code>'Source'</code></p>
+<h2 id="docsrepo"> docsRepo</h2>
+<ul>
+<li>Type: <code>string</code></li>
+<li>Required: No</li>
+</ul>
+<p>The address of the docs repository. Will be the same as <code>repo</code> by default.</p>
+<h2 id="docsdir"> docsDir</h2>
+<ul>
+<li>Type: <code>string</code></li>
+<li>Required: No</li>
+</ul>
+<p>The folder which the document belongs to, the default is the root directory of the repository.</p>
+<h2 id="docsbranch"> docsBranch</h2>
+<ul>
+<li>Type: <code>string</code></li>
+<li>Default: <code>'master'</code></li>
+</ul>
+<p>Document branch</p>
+<h2 id="editlinks"> editLinks <i>Not supported content</i></h2>
+<ul>
+<li>Type: <code>boolean</code></li>
+<li>Default: <code>true</code></li>
+</ul>
+<p>Show edit page link</p>
+]]></content>
+    <author>
+      <name>Mr.Hope</name>
+    </author>
+    <category term="config"/>
+    <contributor>
+      <name>Mr.Hope</name>
+    </contributor>
+    <published>2020-10-17T08:18:13.000Z</published>
+    <rights>Copyright by Mr.Hope</rights>
+  </entry>
+  <entry>
     <title type="html">Theme Feature Config</title>
     <id>https://vuepress-theme-hope.github.io/config/theme/feature/</id>
     <link href="https://vuepress-theme-hope.github.io/config/theme/feature/"/>
@@ -3348,124 +3466,6 @@ write something here ~
 <span>}</span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div></details>
-]]></content>
-    <author>
-      <name>Mr.Hope</name>
-    </author>
-    <category term="config"/>
-    <contributor>
-      <name>Mr.Hope</name>
-    </contributor>
-    <published>2020-10-17T08:18:13.000Z</published>
-    <rights>Copyright by Mr.Hope</rights>
-  </entry>
-  <entry>
-    <title type="html">Default Theme Config</title>
-    <id>https://vuepress-theme-hope.github.io/config/theme/default/</id>
-    <link href="https://vuepress-theme-hope.github.io/config/theme/default/"/>
-    <updated>2021-02-26T05:26:49.000Z</updated>
-    <content type="html"><![CDATA[<p>The following configurations follow the configuration items in <code>@vuepress/theme-default</code>:</p>
-<div><p>Note</p>
-<p>By injecting, vuepress-theme-hope changes the default values of some configurations of the default theme.</p>
-<p>Although they have little effect, they may led to a result that does not match the default document expectations.</p>
-<p>All the configuration items changes are listed below the documentation.</p>
-</div>
-<h2 id="logo"> logo <i>Not supported content</i></h2>
-<ul>
-<li>Type: <code>string</code></li>
-<li>Required: No</li>
-</ul>
-<p>The logo image of the navigation bar. Needs to be filled with an absolute path. To display another logo in dark mode, please configure the <code>themeConfig.darkLogo</code> option.</p>
-<h2 id="sidebardepth"> sidebarDepth</h2>
-<ul>
-<li>Type: <code>number</code></li>
-<li>Default: <code>2</code></li>
-</ul>
-<p>Nested headings depth in sidebar</p>
-<h2 id="displayallheaders"> displayAllHeaders</h2>
-<ul>
-<li>Type: <code>boolean</code></li>
-<li>Default: <code>false</code></li>
-</ul>
-<p>Whether to display header links in sidebar for all pages</p>
-<h2 id="activeheaderlinks"> activeHeaderLinks</h2>
-<ul>
-<li>Type: <code>boolean</code></li>
-<li>Default value: <code>true</code></li>
-</ul>
-<p>Whether to automatically update hash values ​​in URLs and sidebar active headings.</p>
-<h2 id="search"> search</h2>
-<ul>
-<li>Type: <code>boolean</code></li>
-<li>Default: <code>true</code></li>
-</ul>
-<p>Whether to enable the default search box</p>
-<h2 id="searchplaceholder"> searchPlaceholder</h2>
-<ul>
-<li>Type: <code>string</code></li>
-<li>Required: No</li>
-</ul>
-<p>Placeholder for the search box</p>
-<h2 id="searchmaxsuggestions"> searchMaxSuggestions</h2>
-<ul>
-<li>Type: <code>number</code></li>
-<li>Default: <code>10</code></li>
-</ul>
-<p>The number of search results displayed in the default search box</p>
-<h2 id="algolia"> algolia</h2>
-<ul>
-<li>Type: <code>AlgoliaOption</code></li>
-<li>Required: No</li>
-</ul>
-<p>Algolia search configuration, you need to provide at least <code>apiKey</code> and<code>indexName</code>. For details, see <a href="https://github.com/algolia/docsearch#docsearch-options" target="_blank" rel="noopener noreferrer">Doc Search documentation</a>. You can also configure algolia for each language.</p>
-<h2 id="nextlinks"> nextLinks</h2>
-<ul>
-<li>Type: <code>boolean</code></li>
-<li>Default: <code>true</code></li>
-</ul>
-<p>Whether to display next link of all pages</p>
-<h2 id="prevlinks"> prevLinks</h2>
-<ul>
-<li>Type: <code>boolean</code></li>
-<li>Default: <code>true</code></li>
-</ul>
-<p>Whether to display previous link on all pages</p>
-<h2 id="repo"> repo</h2>
-<ul>
-<li>Type: <code>string</code></li>
-<li>Required: No</li>
-</ul>
-<p>Project repository address</p>
-<h2 id="repolabel"> repoLabel</h2>
-<ul>
-<li>Type: <code>string</code></li>
-<li>Required: No</li>
-</ul>
-<p>Repository label text, will automatically try to parse the <code>repo</code> option, try to derive <code>'GitHub'</code> <code>'GitLab'</code> <code>'Bitbucket'</code>, if the repo link is not recognized, it will be displayed as <code>'Source'</code></p>
-<h2 id="docsrepo"> docsRepo</h2>
-<ul>
-<li>Type: <code>string</code></li>
-<li>Required: No</li>
-</ul>
-<p>The address of the docs repository. Will be the same as <code>repo</code> by default.</p>
-<h2 id="docsdir"> docsDir</h2>
-<ul>
-<li>Type: <code>string</code></li>
-<li>Required: No</li>
-</ul>
-<p>The folder which the document belongs to, the default is the root directory of the repository.</p>
-<h2 id="docsbranch"> docsBranch</h2>
-<ul>
-<li>Type: <code>string</code></li>
-<li>Default: <code>'master'</code></li>
-</ul>
-<p>Document branch</p>
-<h2 id="editlinks"> editLinks <i>Not supported content</i></h2>
-<ul>
-<li>Type: <code>boolean</code></li>
-<li>Default: <code>true</code></li>
-</ul>
-<p>Show edit page link</p>
 ]]></content>
     <author>
       <name>Mr.Hope</name>
@@ -4018,6 +4018,44 @@ write something here ~
     <rights>Copyright by Mr.Hope</rights>
   </entry>
   <entry>
+    <title type="html">Article List</title>
+    <id>https://vuepress-theme-hope.github.io/guide/blog/article/</id>
+    <link href="https://vuepress-theme-hope.github.io/guide/blog/article/"/>
+    <updated>2021-03-08T03:21:06.000Z</updated>
+    <content type="html"><![CDATA[<p>The topic provides you with a list of all articles under the path <code>/article/</code>.</p>
+<h2 id="article"> Article</h2>
+<p>All articles will be added to the article list by default and rendered under the path <code>/article/</code>.</p>
+<p><img src="./assets/article.png" alt="Article list"></p>
+<p>If you don’t want the list to contain some specific articles, just set the <code>article</code> to <code>false</code> in the frontmatter of the article.</p>
+<p>If you want to top a specific article in the article list, just set <code>sticky</code> to <code>true</code> in the frontmatter of the article.</p>
+<div><p>Order</p>
+<p>For sticky articles, you can set <code>sticky</code> with a number to set their order. Articles with large numbers will be listed first.</p>
+</div>
+<h2 id="star-articles"> Star articles</h2>
+<p>You can star an article by setting <code>star</code> to <code>true</code> in frontmatter. After staring, users can view these articles on the <code>/star/</code> page.</p>
+<p>At the same time, any star articles will be displayed in the article column on the sidebar of the blog homepage.</p>
+<div><p>Info</p>
+<p>Our consideration for providing star options: Theme users may want to show visitors some high-quality articles, but do not want sticky articles to flood the homepage, resulting in visitors not being able to see the recently updated articles.</p>
+</div>
+<div><p>Order</p>
+<p>Similar to sticky articles, you can also set <code>star</code> to number to set their order. Articles with large numbers will be listed first.</p>
+</div>
+<h2 id="encryption-and-slideshow"> Encryption and Slideshow</h2>
+<p>The theme provides separate lists for the two special pages: encrypted article page and slide page. You can view them on the <code>/encrypt/</code> and <code>/slide/</code> pages.</p>
+<p>At the same time, in order to help visitors distinguish between these two categories of pages, their categories will be clearly marked with icons in the article list.</p>
+<p><img src="./assets/icon-type.png" alt="Category Tips"></p>
+]]></content>
+    <author>
+      <name>Mr.Hope</name>
+    </author>
+    <category term="blog"/>
+    <contributor>
+      <name>Mr.Hope</name>
+    </contributor>
+    <published>2021-03-08T03:21:06.000Z</published>
+    <rights>Copyright by Mr.Hope</rights>
+  </entry>
+  <entry>
     <title type="html">Category and tags</title>
     <id>https://vuepress-theme-hope.github.io/guide/blog/category-and-tags/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/blog/category-and-tags/"/>
@@ -4077,44 +4115,6 @@ Page content...
       <name>Mr.Hope</name>
     </contributor>
     <published>2021-03-06T15:23:44.000Z</published>
-    <rights>Copyright by Mr.Hope</rights>
-  </entry>
-  <entry>
-    <title type="html">Article List</title>
-    <id>https://vuepress-theme-hope.github.io/guide/blog/article/</id>
-    <link href="https://vuepress-theme-hope.github.io/guide/blog/article/"/>
-    <updated>2021-03-08T03:21:06.000Z</updated>
-    <content type="html"><![CDATA[<p>The topic provides you with a list of all articles under the path <code>/article/</code>.</p>
-<h2 id="article"> Article</h2>
-<p>All articles will be added to the article list by default and rendered under the path <code>/article/</code>.</p>
-<p><img src="./assets/article.png" alt="Article list"></p>
-<p>If you don’t want the list to contain some specific articles, just set the <code>article</code> to <code>false</code> in the frontmatter of the article.</p>
-<p>If you want to top a specific article in the article list, just set <code>sticky</code> to <code>true</code> in the frontmatter of the article.</p>
-<div><p>Order</p>
-<p>For sticky articles, you can set <code>sticky</code> with a number to set their order. Articles with large numbers will be listed first.</p>
-</div>
-<h2 id="star-articles"> Star articles</h2>
-<p>You can star an article by setting <code>star</code> to <code>true</code> in frontmatter. After staring, users can view these articles on the <code>/star/</code> page.</p>
-<p>At the same time, any star articles will be displayed in the article column on the sidebar of the blog homepage.</p>
-<div><p>Info</p>
-<p>Our consideration for providing star options: Theme users may want to show visitors some high-quality articles, but do not want sticky articles to flood the homepage, resulting in visitors not being able to see the recently updated articles.</p>
-</div>
-<div><p>Order</p>
-<p>Similar to sticky articles, you can also set <code>star</code> to number to set their order. Articles with large numbers will be listed first.</p>
-</div>
-<h2 id="encryption-and-slideshow"> Encryption and Slideshow</h2>
-<p>The theme provides separate lists for the two special pages: encrypted article page and slide page. You can view them on the <code>/encrypt/</code> and <code>/slide/</code> pages.</p>
-<p>At the same time, in order to help visitors distinguish between these two categories of pages, their categories will be clearly marked with icons in the article list.</p>
-<p><img src="./assets/icon-type.png" alt="Category Tips"></p>
-]]></content>
-    <author>
-      <name>Mr.Hope</name>
-    </author>
-    <category term="blog"/>
-    <contributor>
-      <name>Mr.Hope</name>
-    </contributor>
-    <published>2021-03-08T03:21:06.000Z</published>
     <rights>Copyright by Mr.Hope</rights>
   </entry>
   <entry>
@@ -4503,6 +4503,48 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <rights>Copyright by Mr.Hope</rights>
   </entry>
   <entry>
+    <title type="html">Encryption</title>
+    <id>https://vuepress-theme-hope.github.io/guide/feature/encrypt/</id>
+    <link href="https://vuepress-theme-hope.github.io/guide/feature/encrypt/"/>
+    <updated>2021-02-27T06:18:09.000Z</updated>
+    <summary type="html"><![CDATA[<p>The theme supports encryption of specific folders or specific paths, as well as global scope encryption.</p>
+<div><p>Warning</p>
+<p>Note that because of the limitation of vuepress, the content of the article is only hidden before being decrypted, and visitors can still get the content of the article from the source code (from js).</p>
+<p>Please <strong>DO NOT USE</strong> this encryption function for any sensitive and confidential articles and files, please bear the consequences of it.</p>
+</div>
+]]></summary>
+    <content type="html"><![CDATA[<p>The theme supports encryption of specific folders or specific paths, as well as global scope encryption.</p>
+<div><p>Warning</p>
+<p>Note that because of the limitation of vuepress, the content of the article is only hidden before being decrypted, and visitors can still get the content of the article from the source code (from js).</p>
+<p>Please <strong>DO NOT USE</strong> this encryption function for any sensitive and confidential articles and files, please bear the consequences of it.</p>
+</div>
+
+<h2 id="encryption-configuration"> Encryption configuration</h2>
+<p>You can configure the encryption options in the <code>themeConfig.encrypt</code> field.</p>
+<div><pre><code><span>{</span>
+  <span>// This will encrypt the entire guide directory and both passwords will be available</span>
+  <span>"/guide/"</span><span>:</span> <span>[</span><span>"1234"</span><span>,</span> <span>"5678"</span><span>]</span><span>,</span>
+  <span>// this will only encrypt config/page.html</span>
+  <span>"/config/page.html"</span><span>:</span> <span>"1234"</span>
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>You can also configure the password in the frontmatter of the page</p>
+<div><pre><code><span><span>---</span>
+<span>password: abc1234</span>
+<span>---</span></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div>]]></content>
+    <author>
+      <name>Mr.Hope</name>
+    </author>
+    <category term="feature"/>
+    <contributor>
+      <name>Mr.Hope</name>
+    </contributor>
+    <published>2020-01-29T09:45:52.000Z</published>
+    <rights>Copyright by Mr.Hope</rights>
+  </entry>
+  <entry>
     <title type="html">Feed Support</title>
     <id>https://vuepress-theme-hope.github.io/guide/feature/feed/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/feature/feed/"/>
@@ -4552,48 +4594,6 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <rights>Copyright by Mr.Hope</rights>
   </entry>
   <entry>
-    <title type="html">Encryption</title>
-    <id>https://vuepress-theme-hope.github.io/guide/feature/encrypt/</id>
-    <link href="https://vuepress-theme-hope.github.io/guide/feature/encrypt/"/>
-    <updated>2021-02-27T06:18:09.000Z</updated>
-    <summary type="html"><![CDATA[<p>The theme supports encryption of specific folders or specific paths, as well as global scope encryption.</p>
-<div><p>Warning</p>
-<p>Note that because of the limitation of vuepress, the content of the article is only hidden before being decrypted, and visitors can still get the content of the article from the source code (from js).</p>
-<p>Please <strong>DO NOT USE</strong> this encryption function for any sensitive and confidential articles and files, please bear the consequences of it.</p>
-</div>
-]]></summary>
-    <content type="html"><![CDATA[<p>The theme supports encryption of specific folders or specific paths, as well as global scope encryption.</p>
-<div><p>Warning</p>
-<p>Note that because of the limitation of vuepress, the content of the article is only hidden before being decrypted, and visitors can still get the content of the article from the source code (from js).</p>
-<p>Please <strong>DO NOT USE</strong> this encryption function for any sensitive and confidential articles and files, please bear the consequences of it.</p>
-</div>
-
-<h2 id="encryption-configuration"> Encryption configuration</h2>
-<p>You can configure the encryption options in the <code>themeConfig.encrypt</code> field.</p>
-<div><pre><code><span>{</span>
-  <span>// This will encrypt the entire guide directory and both passwords will be available</span>
-  <span>"/guide/"</span><span>:</span> <span>[</span><span>"1234"</span><span>,</span> <span>"5678"</span><span>]</span><span>,</span>
-  <span>// this will only encrypt config/page.html</span>
-  <span>"/config/page.html"</span><span>:</span> <span>"1234"</span>
-<span>}</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>You can also configure the password in the frontmatter of the page</p>
-<div><pre><code><span><span>---</span>
-<span>password: abc1234</span>
-<span>---</span></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div>]]></content>
-    <author>
-      <name>Mr.Hope</name>
-    </author>
-    <category term="feature"/>
-    <contributor>
-      <name>Mr.Hope</name>
-    </contributor>
-    <published>2020-01-29T09:45:52.000Z</published>
-    <rights>Copyright by Mr.Hope</rights>
-  </entry>
-  <entry>
     <title type="html">Git info</title>
     <id>https://vuepress-theme-hope.github.io/guide/feature/git/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/feature/git/"/>
@@ -4623,47 +4623,6 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <name>Mr.Hope</name>
     </contributor>
     <published>2021-03-08T14:44:58.000Z</published>
-    <rights>Copyright by Mr.Hope</rights>
-  </entry>
-  <entry>
-    <title type="html">Picture Preview</title>
-    <id>https://vuepress-theme-hope.github.io/guide/feature/photo-swipe/</id>
-    <link href="https://vuepress-theme-hope.github.io/guide/feature/photo-swipe/"/>
-    <updated>2021-02-27T06:18:09.000Z</updated>
-    <summary type="html"><![CDATA[<p>By including <a href="https://vuepress-theme-hope.github.io/photo-swipe/" target="_blank" rel="noopener noreferrer">vuepress-plugin-photo-swipe</a>, vuepress-theme-hope will make the pictures in the body of the page enter the preview mode when clicked.</p>
-]]></summary>
-    <content type="html"><![CDATA[<p>By including <a href="https://vuepress-theme-hope.github.io/photo-swipe/" target="_blank" rel="noopener noreferrer">vuepress-plugin-photo-swipe</a>, vuepress-theme-hope will make the pictures in the body of the page enter the preview mode when clicked.</p>
-
-<p>If you don’t need this feature, you can set <code>themeConfig.photoSwipe</code> to <code>false</code> to disable it.</p>
-<h2 id="browse-mode"> Browse Mode</h2>
-<p>In preview mode, you can:</p>
-<ul>
-<li>Swipe left and right to preview other pictures on the page in order</li>
-<li>View the description of the picture</li>
-<li>Zoom in and zoom out the picture</li>
-<li>View pictures in full screen</li>
-<li>Download pictures</li>
-<li>Share pictures</li>
-</ul>
-<div><p>Tips</p>
-<ul>
-<li>Besides clicking &quot;×&quot; in the upper right corner to exit the preview mode, scrolling up and down more than a certain distance will also exit preview mode</li>
-<li>On cellphones, or using the PC trackpad, you can use pan and zoom gestures to pan and zoom in the preview mode</li>
-</ul>
-</div>
-<h2 id="demo"> Demo</h2>
-<p><img src="/logo.png" alt="Logo1">
-<img src="/logo.png" alt="Logo2">
-<img src="/logo.png" alt="Logo3"></p>
-]]></content>
-    <author>
-      <name>Mr.Hope</name>
-    </author>
-    <category term="feature"/>
-    <contributor>
-      <name>Mr.Hope</name>
-    </contributor>
-    <published>2021-02-26T16:07:24.000Z</published>
     <rights>Copyright by Mr.Hope</rights>
   </entry>
   <entry>
@@ -4778,6 +4737,47 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <rights>Copyright by Mr.Hope</rights>
   </entry>
   <entry>
+    <title type="html">Picture Preview</title>
+    <id>https://vuepress-theme-hope.github.io/guide/feature/photo-swipe/</id>
+    <link href="https://vuepress-theme-hope.github.io/guide/feature/photo-swipe/"/>
+    <updated>2021-02-27T06:18:09.000Z</updated>
+    <summary type="html"><![CDATA[<p>By including <a href="https://vuepress-theme-hope.github.io/photo-swipe/" target="_blank" rel="noopener noreferrer">vuepress-plugin-photo-swipe</a>, vuepress-theme-hope will make the pictures in the body of the page enter the preview mode when clicked.</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>By including <a href="https://vuepress-theme-hope.github.io/photo-swipe/" target="_blank" rel="noopener noreferrer">vuepress-plugin-photo-swipe</a>, vuepress-theme-hope will make the pictures in the body of the page enter the preview mode when clicked.</p>
+
+<p>If you don’t need this feature, you can set <code>themeConfig.photoSwipe</code> to <code>false</code> to disable it.</p>
+<h2 id="browse-mode"> Browse Mode</h2>
+<p>In preview mode, you can:</p>
+<ul>
+<li>Swipe left and right to preview other pictures on the page in order</li>
+<li>View the description of the picture</li>
+<li>Zoom in and zoom out the picture</li>
+<li>View pictures in full screen</li>
+<li>Download pictures</li>
+<li>Share pictures</li>
+</ul>
+<div><p>Tips</p>
+<ul>
+<li>Besides clicking &quot;×&quot; in the upper right corner to exit the preview mode, scrolling up and down more than a certain distance will also exit preview mode</li>
+<li>On cellphones, or using the PC trackpad, you can use pan and zoom gestures to pan and zoom in the preview mode</li>
+</ul>
+</div>
+<h2 id="demo"> Demo</h2>
+<p><img src="/logo.png" alt="Logo1">
+<img src="/logo.png" alt="Logo2">
+<img src="/logo.png" alt="Logo3"></p>
+]]></content>
+    <author>
+      <name>Mr.Hope</name>
+    </author>
+    <category term="feature"/>
+    <contributor>
+      <name>Mr.Hope</name>
+    </contributor>
+    <published>2021-02-26T16:07:24.000Z</published>
+    <rights>Copyright by Mr.Hope</rights>
+  </entry>
+  <entry>
     <title type="html">PWA</title>
     <id>https://vuepress-theme-hope.github.io/guide/feature/pwa/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/feature/pwa/"/>
@@ -4809,6 +4809,102 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <name>Mr.Hope</name>
     </contributor>
     <published>2020-10-22T04:23:17.000Z</published>
+    <rights>Copyright by Mr.Hope</rights>
+  </entry>
+  <entry>
+    <title type="html">Features</title>
+    <id>https://vuepress-theme-hope.github.io/guide/feature/</id>
+    <link href="https://vuepress-theme-hope.github.io/guide/feature/"/>
+    <updated>2021-03-08T14:44:58.000Z</updated>
+    <content type="html"><![CDATA[<p>vuepress-theme-hope introduces many great features. Most of the functions are separated into plugins, which means if you like them, you can use them in other vuepress themes or <code>@vuepress/theme-default</code>.</p>
+<h2 id="catalog"> Catalog</h2>
+<ul>
+<li>
+<p><a href="./page-info.html">Page Information</a></p>
+</li>
+<li>
+<p><a href="./comment.html">Comment function</a></p>
+</li>
+<li>
+<p><a href="./copy-code.html">One Click copy</a></p>
+</li>
+<li>
+<p><a href="./photo-swipe.html">Picture preview</a></p>
+</li>
+<li>
+<p><a href="./copyright.html">Copyright info</a></p>
+</li>
+<li>
+<p><a href="./git.html">Git info</a></p>
+</li>
+<li>
+<p><a href="./encrypt.html">Encryption function</a></p>
+</li>
+<li>
+<p><a href="./pwa.html">PWA Support</a></p>
+</li>
+<li>
+<p><a href="./feed.html">Feed Support</a></p>
+</li>
+<li>
+<p><a href="./seo.html">SEO Enhance</a></p>
+</li>
+<li>
+<p><a href="./sitemap.html">Sitemap Generation</a></p>
+</li>
+<li>
+<p><a href="./typescript.html">TypeScript support</a></p>
+</li>
+</ul>
+<h2 id="🧩build-in-plugins"> 🧩Build-in Plugins</h2>
+<p>The theme includes the following plugins, you can use them directly in other themes.</p>
+<ul>
+<li>
+<p><a href="https://vuepress-theme-hope.github.io/comment/" target="_blank" rel="noopener noreferrer">@mr-hope/vuepress-plugin-comment</a>: Comment and page info feature</p>
+</li>
+<li>
+<p><a href="./feature/component.html">@mr-hope/vuepress-plugin-component</a>: Provide some out of box plugins</p>
+</li>
+<li>
+<p><a href="https://vuepress-theme-hope.github.io/copy-code/" target="_blank" rel="noopener noreferrer">@mr-hope/vuepress-plugin-copy-code</a>: Provide copy button for code blocks</p>
+</li>
+<li>
+<p><a href="https://vuepress-theme-hope.github.io/feed/" target="_blank" rel="noopener noreferrer">@mr-hope/vuepress-plugin-feed</a>: Feed support</p>
+</li>
+<li>
+<p><a href="https://vuepress-theme-hope.github.io/git/" target="_blank" rel="noopener noreferrer">@mr-hope/vuepress-plugin-git</a>: Info based on git</p>
+</li>
+<li>
+<p><a href="https://vuepress-theme-hope.github.io/pwa/" target="_blank" rel="noopener noreferrer">@mr-hope/vuepress-plugin-pwa</a>: PWA support</p>
+</li>
+<li>
+<p><a href="https://vuepress-theme-hope.github.io/reading-time/" target="_blank" rel="noopener noreferrer">@mr-hope/vuepress-plugin-reading-time</a>: Expect reading time and words count</p>
+</li>
+<li>
+<p><a href="https://vuepress-theme-hope.github.io/seo/" target="_blank" rel="noopener noreferrer">@mr-hope/vuepress-plugin-seo</a>: SEO Enhancement Plugin</p>
+</li>
+<li>
+<p><a href="https://vuepress-theme-hope.github.io/sitemap/" target="_blank" rel="noopener noreferrer">@mr-hope/vuepress-plugin-sitemap</a>: Sitemap Generator for your site</p>
+</li>
+<li>
+<p><a href="https://vuepress-theme-hope.github.io/add-this/" target="_blank" rel="noopener noreferrer">vuepress-plugin-add-this</a>: Provide sociel share and follow function</p>
+</li>
+<li>
+<p><a href="https://vuepress-theme-hope.github.io/md-enhance/" target="_blank" rel="noopener noreferrer">vuepress-plugin-md-enhance</a>): Provide more Markdown syntax</p>
+</li>
+<li>
+<p><a href="https://vuepress-theme-hope.github.io/photo-swipe/" target="_blank" rel="noopener noreferrer">vuepress-plugin-photo-swipe</a>: Make the site’s picture support click zoom</p>
+</li>
+</ul>
+]]></content>
+    <author>
+      <name>Mr.Hope</name>
+    </author>
+    <category term="feature"/>
+    <contributor>
+      <name>Mr.Hope</name>
+    </contributor>
+    <published>2020-01-30T11:25:30.000Z</published>
     <rights>Copyright by Mr.Hope</rights>
   </entry>
   <entry>
@@ -4954,102 +5050,6 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <name>Mr.Hope</name>
     </contributor>
     <published>2021-02-28T16:47:07.000Z</published>
-    <rights>Copyright by Mr.Hope</rights>
-  </entry>
-  <entry>
-    <title type="html">Features</title>
-    <id>https://vuepress-theme-hope.github.io/guide/feature/</id>
-    <link href="https://vuepress-theme-hope.github.io/guide/feature/"/>
-    <updated>2021-03-08T14:44:58.000Z</updated>
-    <content type="html"><![CDATA[<p>vuepress-theme-hope introduces many great features. Most of the functions are separated into plugins, which means if you like them, you can use them in other vuepress themes or <code>@vuepress/theme-default</code>.</p>
-<h2 id="catalog"> Catalog</h2>
-<ul>
-<li>
-<p><a href="./page-info.html">Page Information</a></p>
-</li>
-<li>
-<p><a href="./comment.html">Comment function</a></p>
-</li>
-<li>
-<p><a href="./copy-code.html">One Click copy</a></p>
-</li>
-<li>
-<p><a href="./photo-swipe.html">Picture preview</a></p>
-</li>
-<li>
-<p><a href="./copyright.html">Copyright info</a></p>
-</li>
-<li>
-<p><a href="./git.html">Git info</a></p>
-</li>
-<li>
-<p><a href="./encrypt.html">Encryption function</a></p>
-</li>
-<li>
-<p><a href="./pwa.html">PWA Support</a></p>
-</li>
-<li>
-<p><a href="./feed.html">Feed Support</a></p>
-</li>
-<li>
-<p><a href="./seo.html">SEO Enhance</a></p>
-</li>
-<li>
-<p><a href="./sitemap.html">Sitemap Generation</a></p>
-</li>
-<li>
-<p><a href="./typescript.html">TypeScript support</a></p>
-</li>
-</ul>
-<h2 id="🧩build-in-plugins"> 🧩Build-in Plugins</h2>
-<p>The theme includes the following plugins, you can use them directly in other themes.</p>
-<ul>
-<li>
-<p><a href="https://vuepress-theme-hope.github.io/comment/" target="_blank" rel="noopener noreferrer">@mr-hope/vuepress-plugin-comment</a>: Comment and page info feature</p>
-</li>
-<li>
-<p><a href="./feature/component.html">@mr-hope/vuepress-plugin-component</a>: Provide some out of box plugins</p>
-</li>
-<li>
-<p><a href="https://vuepress-theme-hope.github.io/copy-code/" target="_blank" rel="noopener noreferrer">@mr-hope/vuepress-plugin-copy-code</a>: Provide copy button for code blocks</p>
-</li>
-<li>
-<p><a href="https://vuepress-theme-hope.github.io/feed/" target="_blank" rel="noopener noreferrer">@mr-hope/vuepress-plugin-feed</a>: Feed support</p>
-</li>
-<li>
-<p><a href="https://vuepress-theme-hope.github.io/git/" target="_blank" rel="noopener noreferrer">@mr-hope/vuepress-plugin-git</a>: Info based on git</p>
-</li>
-<li>
-<p><a href="https://vuepress-theme-hope.github.io/pwa/" target="_blank" rel="noopener noreferrer">@mr-hope/vuepress-plugin-pwa</a>: PWA support</p>
-</li>
-<li>
-<p><a href="https://vuepress-theme-hope.github.io/reading-time/" target="_blank" rel="noopener noreferrer">@mr-hope/vuepress-plugin-reading-time</a>: Expect reading time and words count</p>
-</li>
-<li>
-<p><a href="https://vuepress-theme-hope.github.io/seo/" target="_blank" rel="noopener noreferrer">@mr-hope/vuepress-plugin-seo</a>: SEO Enhancement Plugin</p>
-</li>
-<li>
-<p><a href="https://vuepress-theme-hope.github.io/sitemap/" target="_blank" rel="noopener noreferrer">@mr-hope/vuepress-plugin-sitemap</a>: Sitemap Generator for your site</p>
-</li>
-<li>
-<p><a href="https://vuepress-theme-hope.github.io/add-this/" target="_blank" rel="noopener noreferrer">vuepress-plugin-add-this</a>: Provide sociel share and follow function</p>
-</li>
-<li>
-<p><a href="https://vuepress-theme-hope.github.io/md-enhance/" target="_blank" rel="noopener noreferrer">vuepress-plugin-md-enhance</a>): Provide more Markdown syntax</p>
-</li>
-<li>
-<p><a href="https://vuepress-theme-hope.github.io/photo-swipe/" target="_blank" rel="noopener noreferrer">vuepress-plugin-photo-swipe</a>: Make the site’s picture support click zoom</p>
-</li>
-</ul>
-]]></content>
-    <author>
-      <name>Mr.Hope</name>
-    </author>
-    <category term="feature"/>
-    <contributor>
-      <name>Mr.Hope</name>
-    </contributor>
-    <published>2020-01-30T11:25:30.000Z</published>
     <rights>Copyright by Mr.Hope</rights>
   </entry>
   <entry>
@@ -5559,6 +5559,37 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <rights>Copyright by Mr.Hope</rights>
   </entry>
   <entry>
+    <title type="html">Interface</title>
+    <id>https://vuepress-theme-hope.github.io/guide/interface/</id>
+    <link href="https://vuepress-theme-hope.github.io/guide/interface/"/>
+    <updated>2021-02-27T06:18:09.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="catalog"> Catalog</h2>
+<ul>
+<li>
+<p><a href="./dark-mode.html">Dark Mode</a></p>
+</li>
+<li>
+<p><a href="./theme-color.html">Theme Color</a></p>
+</li>
+<li>
+<p><a href="./icon.html">Icon support</a></p>
+</li>
+<li>
+<p><a href="./others.html">Other features</a></p>
+</li>
+</ul>
+]]></content>
+    <author>
+      <name>Mr.Hope</name>
+    </author>
+    <category term="interface"/>
+    <contributor>
+      <name>Mr.Hope</name>
+    </contributor>
+    <published>2021-02-26T08:10:04.000Z</published>
+    <rights>Copyright by Mr.Hope</rights>
+  </entry>
+  <entry>
     <title type="html">Theme Color</title>
     <id>https://vuepress-theme-hope.github.io/guide/interface/theme-color/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/interface/theme-color/"/>
@@ -5603,37 +5634,6 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <name>Mr.Hope</name>
     </contributor>
     <published>2021-02-26T12:39:35.000Z</published>
-    <rights>Copyright by Mr.Hope</rights>
-  </entry>
-  <entry>
-    <title type="html">Interface</title>
-    <id>https://vuepress-theme-hope.github.io/guide/interface/</id>
-    <link href="https://vuepress-theme-hope.github.io/guide/interface/"/>
-    <updated>2021-02-27T06:18:09.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="catalog"> Catalog</h2>
-<ul>
-<li>
-<p><a href="./dark-mode.html">Dark Mode</a></p>
-</li>
-<li>
-<p><a href="./theme-color.html">Theme Color</a></p>
-</li>
-<li>
-<p><a href="./icon.html">Icon support</a></p>
-</li>
-<li>
-<p><a href="./others.html">Other features</a></p>
-</li>
-</ul>
-]]></content>
-    <author>
-      <name>Mr.Hope</name>
-    </author>
-    <category term="interface"/>
-    <contributor>
-      <name>Mr.Hope</name>
-    </contributor>
-    <published>2021-02-26T08:10:04.000Z</published>
     <rights>Copyright by Mr.Hope</rights>
   </entry>
   <entry>
@@ -5899,59 +5899,6 @@ copyrightText: false</span>
 <span>---</span></span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br><span>40</span><br><span>41</span><br><span>42</span><br><span>43</span><br><span>44</span><br><span>45</span><br><span>46</span><br><span>47</span><br><span>48</span><br><span>49</span><br><span>50</span><br><span>51</span><br><span>52</span><br><span>53</span><br><span>54</span><br><span>55</span><br><span>56</span><br><span>57</span><br><span>58</span><br><span>59</span><br><span>60</span><br><span>61</span><br><span>62</span><br><span>63</span><br><span>64</span><br><span>65</span><br><span>66</span><br><span>67</span><br></div></div>]]></content>
-    <author>
-      <name>Mr.Hope</name>
-    </author>
-    <category term="layout"/>
-    <contributor>
-      <name>Mr.Hope</name>
-    </contributor>
-    <published>2020-01-27T06:39:01.000Z</published>
-    <rights>Copyright by Mr.Hope</rights>
-  </entry>
-  <entry>
-    <title type="html">Page</title>
-    <id>https://vuepress-theme-hope.github.io/guide/layout/page/</id>
-    <link href="https://vuepress-theme-hope.github.io/guide/layout/page/"/>
-    <updated>2021-03-08T14:44:58.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="icon-support"> Icon support</h2>
-<p>You can configure the <code>icon</code> field in the frontmatter of the page, and fill in the FontClass of the corresponding icon to bind the icon to the page.</p>
-<details><summary>Example</summary>
-<div><pre><code><span><span>---</span>
-<span>icon: home</span>
-<span>---</span></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div></details>
-<p>This icon is used in navbar, sidebar, breadcrumb and page title.</p>
-<div><p>Info</p>
-<p>For icon settings, please refer to <a href="./../interface/icon.html">Icon Support</a></p>
-</div>
-<h2 id="page-info-display"> Page Info Display</h2>
-<p>Please see <a href="./../feature/page-info.html">Page Info Section</a></p>
-<h2 id="breadcrumb"> Breadcrumb</h2>
-<p>Please see <a href="./breadcrumb.html">Breadcrumb</a>.</p>
-<h2 id="title-list"> Title list</h2>
-<p>In desktop mode, a list of article titles will automatically be displayed on the right side of the screen. (They will be placed in the sidebar on mobile devices)</p>
-<p>If you don’t want to display the title list on the right in desktop mode, please set <code>themeConfig.anchorDisplay</code> to <code>false</code>.</p>
-<h2 id="contributors-and-last-updated-time"> Contributors and Last Updated Time</h2>
-<p>Please see <a href="./../feature/git.html">Git info plugin</a>.</p>
-<h2 id="prev-next-links"> Prev / Next Links</h2>
-<p>Prev and next links are automatically inferred based on the sidebar order of the active page. You can also explicitly overwrite or disable them globally with theme config or on specific pages using <code>Front matter</code>:</p>
-<div><pre><code><span><span>---</span>
-<span>prev: ./some-other-page
-next: false</span>
-<span>---</span></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><h2 id="comment"> Comment</h2>
-<p>Please see <a href="./../feature/comment.html">Comment section</a> for details.</p>
-<h2 id="custom-layout-for-specific-pages"> Custom Layout for Specific Pages</h2>
-<p>By default the content of each <code>*.md</code> file is rendered in a <code>&lt;div class=&quot;page&quot;&gt;</code> container, along with the sidebar, auto-generated edit links and prev/next links. To use a fully custom component in place of the page, you can again specify the component to use using <code>YAML front matter</code>:</p>
-<div><pre><code><span><span>---</span>
-<span>layout: SpecialLayout</span>
-<span>---</span></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><p>This will render <code>.vuepress/components/SpecialLayout.vue</code> for the given page.</p>
-]]></content>
     <author>
       <name>Mr.Hope</name>
     </author>
@@ -6328,6 +6275,59 @@ module<span>.</span>exports <span>=</span> <span>{</span>
 <span>}</span><span>;</span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br><span>40</span><br><span>41</span><br><span>42</span><br><span>43</span><br><span>44</span><br><span>45</span><br><span>46</span><br><span>47</span><br><span>48</span><br><span>49</span><br><span>50</span><br><span>51</span><br><span>52</span><br><span>53</span><br><span>54</span><br><span>55</span><br><span>56</span><br><span>57</span><br><span>58</span><br><span>59</span><br><span>60</span><br><span>61</span><br><span>62</span><br><span>63</span><br><span>64</span><br><span>65</span><br><span>66</span><br><span>67</span><br><span>68</span><br><span>69</span><br><span>70</span><br><span>71</span><br><span>72</span><br><span>73</span><br><span>74</span><br><span>75</span><br><span>76</span><br><span>77</span><br><span>78</span><br><span>79</span><br><span>80</span><br><span>81</span><br><span>82</span><br><span>83</span><br><span>84</span><br><span>85</span><br><span>86</span><br><span>87</span><br><span>88</span><br></div></div>]]></content>
+    <author>
+      <name>Mr.Hope</name>
+    </author>
+    <category term="layout"/>
+    <contributor>
+      <name>Mr.Hope</name>
+    </contributor>
+    <published>2020-01-27T06:39:01.000Z</published>
+    <rights>Copyright by Mr.Hope</rights>
+  </entry>
+  <entry>
+    <title type="html">Page</title>
+    <id>https://vuepress-theme-hope.github.io/guide/layout/page/</id>
+    <link href="https://vuepress-theme-hope.github.io/guide/layout/page/"/>
+    <updated>2021-03-08T14:44:58.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="icon-support"> Icon support</h2>
+<p>You can configure the <code>icon</code> field in the frontmatter of the page, and fill in the FontClass of the corresponding icon to bind the icon to the page.</p>
+<details><summary>Example</summary>
+<div><pre><code><span><span>---</span>
+<span>icon: home</span>
+<span>---</span></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div></details>
+<p>This icon is used in navbar, sidebar, breadcrumb and page title.</p>
+<div><p>Info</p>
+<p>For icon settings, please refer to <a href="./../interface/icon.html">Icon Support</a></p>
+</div>
+<h2 id="page-info-display"> Page Info Display</h2>
+<p>Please see <a href="./../feature/page-info.html">Page Info Section</a></p>
+<h2 id="breadcrumb"> Breadcrumb</h2>
+<p>Please see <a href="./breadcrumb.html">Breadcrumb</a>.</p>
+<h2 id="title-list"> Title list</h2>
+<p>In desktop mode, a list of article titles will automatically be displayed on the right side of the screen. (They will be placed in the sidebar on mobile devices)</p>
+<p>If you don’t want to display the title list on the right in desktop mode, please set <code>themeConfig.anchorDisplay</code> to <code>false</code>.</p>
+<h2 id="contributors-and-last-updated-time"> Contributors and Last Updated Time</h2>
+<p>Please see <a href="./../feature/git.html">Git info plugin</a>.</p>
+<h2 id="prev-next-links"> Prev / Next Links</h2>
+<p>Prev and next links are automatically inferred based on the sidebar order of the active page. You can also explicitly overwrite or disable them globally with theme config or on specific pages using <code>Front matter</code>:</p>
+<div><pre><code><span><span>---</span>
+<span>prev: ./some-other-page
+next: false</span>
+<span>---</span></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><h2 id="comment"> Comment</h2>
+<p>Please see <a href="./../feature/comment.html">Comment section</a> for details.</p>
+<h2 id="custom-layout-for-specific-pages"> Custom Layout for Specific Pages</h2>
+<p>By default the content of each <code>*.md</code> file is rendered in a <code>&lt;div class=&quot;page&quot;&gt;</code> container, along with the sidebar, auto-generated edit links and prev/next links. To use a fully custom component in place of the page, you can again specify the component to use using <code>YAML front matter</code>:</p>
+<div><pre><code><span><span>---</span>
+<span>layout: SpecialLayout</span>
+<span>---</span></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><p>This will render <code>.vuepress/components/SpecialLayout.vue</code> for the given page.</p>
+]]></content>
     <author>
       <name>Mr.Hope</name>
     </author>
@@ -8071,46 +8071,6 @@ $$
     <rights>Copyright by Mr.Hope</rights>
   </entry>
   <entry>
-    <title type="html">Home</title>
-    <id>https://vuepress-theme-hope.github.io/</id>
-    <link href="https://vuepress-theme-hope.github.io/"/>
-    <updated>2021-03-06T14:49:20.000Z</updated>
-    <content type="html"><![CDATA[<p>You can use <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope-template" target="_blank" rel="noopener noreferrer">vuepress-theme-hope template</a> directly to start your VuePress journey.</p>
-<h2 id="🛠install"> 🛠Install</h2>
-<CodeGroup>
-<CodeGroupItem title="yarn">
-<div><pre><code><span>yarn</span> <span>add</span> -D vuepress-theme-hope
-</code></pre>
-<div><span>1</span><br></div></div></CodeGroupItem>
-<CodeGroupItem title="npm">
-<div><pre><code><span>npm</span> i -D vuepress-theme-hope
-</code></pre>
-<div><span>1</span><br></div></div></CodeGroupItem>
-</CodeGroup>
-<h2 id="🚀usage"> 🚀Usage</h2>
-<div><pre><code><span>// .vuepress/config.js</span>
-<span>const</span> <span>{</span> config <span>}</span> <span>=</span> <span>require</span><span>(</span><span>"vuepress-theme-hope"</span><span>)</span><span>;</span>
-
-module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><span>{</span>
-  <span>// your config here</span>
-<span>}</span><span>)</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><div><p>Tips</p>
-<p>The purpose of introducing the <code>config</code> function is to give you full hints through TS’s Interface and JSDoc when you edit the configuration.</p>
-<p>At the same time, the <code>config</code> function will also complete some default configurations for your current configuration which will pass directly to VuePress.</p>
-<p>You can view <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/docs/theme/src/.vuepress/config.js" target="_blank" rel="noopener noreferrer">Config of this site</a> as an example.</p>
-</div>
-]]></content>
-    <author>
-      <name>Mr.Hope</name>
-    </author>
-    <contributor>
-      <name>Mr.Hope</name>
-    </contributor>
-    <published>2020-01-07T06:44:41.000Z</published>
-    <rights>Copyright by Mr.Hope</rights>
-  </entry>
-  <entry>
     <title type="html">Guide</title>
     <id>https://vuepress-theme-hope.github.io/guide/</id>
     <link href="https://vuepress-theme-hope.github.io/guide/"/>
@@ -8300,6 +8260,46 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
       <name>Mr.Hope</name>
     </author>
     <category term="guide"/>
+    <contributor>
+      <name>Mr.Hope</name>
+    </contributor>
+    <published>2020-01-07T06:44:41.000Z</published>
+    <rights>Copyright by Mr.Hope</rights>
+  </entry>
+  <entry>
+    <title type="html">Home</title>
+    <id>https://vuepress-theme-hope.github.io/</id>
+    <link href="https://vuepress-theme-hope.github.io/"/>
+    <updated>2021-03-06T14:49:20.000Z</updated>
+    <content type="html"><![CDATA[<p>You can use <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope-template" target="_blank" rel="noopener noreferrer">vuepress-theme-hope template</a> directly to start your VuePress journey.</p>
+<h2 id="🛠install"> 🛠Install</h2>
+<CodeGroup>
+<CodeGroupItem title="yarn">
+<div><pre><code><span>yarn</span> <span>add</span> -D vuepress-theme-hope
+</code></pre>
+<div><span>1</span><br></div></div></CodeGroupItem>
+<CodeGroupItem title="npm">
+<div><pre><code><span>npm</span> i -D vuepress-theme-hope
+</code></pre>
+<div><span>1</span><br></div></div></CodeGroupItem>
+</CodeGroup>
+<h2 id="🚀usage"> 🚀Usage</h2>
+<div><pre><code><span>// .vuepress/config.js</span>
+<span>const</span> <span>{</span> config <span>}</span> <span>=</span> <span>require</span><span>(</span><span>"vuepress-theme-hope"</span><span>)</span><span>;</span>
+
+module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><span>{</span>
+  <span>// your config here</span>
+<span>}</span><span>)</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><div><p>Tips</p>
+<p>The purpose of introducing the <code>config</code> function is to give you full hints through TS’s Interface and JSDoc when you edit the configuration.</p>
+<p>At the same time, the <code>config</code> function will also complete some default configurations for your current configuration which will pass directly to VuePress.</p>
+<p>You can view <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/docs/theme/src/.vuepress/config.js" target="_blank" rel="noopener noreferrer">Config of this site</a> as an example.</p>
+</div>
+]]></content>
+    <author>
+      <name>Mr.Hope</name>
+    </author>
     <contributor>
       <name>Mr.Hope</name>
     </contributor>
@@ -10159,6 +10159,31 @@ A backtick-delimited string in a code span: <span>`` `foo` ``</span>
     <rights>Copyright by Mr.Hope</rights>
   </entry>
   <entry>
+    <title type="html">基础知识</title>
+    <id>https://vuepress-theme-hope.github.io/zh/basic/</id>
+    <link href="https://vuepress-theme-hope.github.io/zh/basic/"/>
+    <updated>2020-11-17T09:58:20.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="基础知识"> 基础知识</h1>
+<p>这里是一些和 VuePress 有关的基础知识。</p>
+<ul>
+<li>
+<p><a href="./markdown/">Markdown</a></p>
+</li>
+<li>
+<p><a href="./vuepress/">VuePress</a></p>
+</li>
+</ul>
+]]></content>
+    <author>
+      <name>Mr.Hope</name>
+    </author>
+    <contributor>
+      <name>Mr.Hope</name>
+    </contributor>
+    <published>2020-10-13T05:36:44.000Z</published>
+    <rights>Copyright by Mr.Hope</rights>
+  </entry>
+  <entry>
     <title type="html">VuePress 案例</title>
     <id>https://vuepress-theme-hope.github.io/zh/basic/vuepress/case/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/basic/vuepress/case/"/>
@@ -10388,31 +10413,6 @@ A backtick-delimited string in a code span: <span>`` `foo` ``</span>
       <name>Mr.Hope</name>
     </author>
     <category term="basic"/>
-    <contributor>
-      <name>Mr.Hope</name>
-    </contributor>
-    <published>2020-10-13T05:36:44.000Z</published>
-    <rights>Copyright by Mr.Hope</rights>
-  </entry>
-  <entry>
-    <title type="html">基础知识</title>
-    <id>https://vuepress-theme-hope.github.io/zh/basic/</id>
-    <link href="https://vuepress-theme-hope.github.io/zh/basic/"/>
-    <updated>2020-11-17T09:58:20.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="基础知识"> 基础知识</h1>
-<p>这里是一些和 VuePress 有关的基础知识。</p>
-<ul>
-<li>
-<p><a href="./markdown/">Markdown</a></p>
-</li>
-<li>
-<p><a href="./vuepress/">VuePress</a></p>
-</li>
-</ul>
-]]></content>
-    <author>
-      <name>Mr.Hope</name>
-    </author>
     <contributor>
       <name>Mr.Hope</name>
     </contributor>
@@ -11659,52 +11659,6 @@ export default { // Highlighted
     <rights>Copyright by Mr.Hope</rights>
   </entry>
   <entry>
-    <title type="html">配置</title>
-    <id>https://vuepress-theme-hope.github.io/zh/config/</id>
-    <link href="https://vuepress-theme-hope.github.io/zh/config/"/>
-    <updated>2021-02-26T13:39:01.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="主题配置"> 主题配置</h2>
-<ul>
-<li>
-<p><a href="./theme/">主题重要配置</a></p>
-</li>
-<li>
-<p><a href="./theme/default.html">默认主题配置</a></p>
-</li>
-<li>
-<p><a href="./theme/feature.html">主题功能配置</a></p>
-</li>
-<li>
-<p><a href="./theme/plugin.html">主题插件配置</a></p>
-</li>
-<li>
-<p><a href="./theme/apperance.html">主题外观配置</a></p>
-</li>
-</ul>
-<h2 id="页面配置"> 页面配置</h2>
-<ul>
-<li><a href="./page.html">Frontmatter 配置</a></li>
-</ul>
-<h2 id="样式配置"> 样式配置</h2>
-<ul>
-<li><a href="./stylus.html">样式配置</a></li>
-</ul>
-<h2 id="插件配置"> 插件配置</h2>
-<ul>
-<li><a href="./plugin/">插件配置</a></li>
-</ul>
-]]></content>
-    <author>
-      <name>Mr.Hope</name>
-    </author>
-    <category term="config"/>
-    <contributor>
-      <name>Mr.Hope</name>
-    </contributor>
-    <published>2020-10-13T05:36:44.000Z</published>
-    <rights>Copyright by Mr.Hope</rights>
-  </entry>
-  <entry>
     <title type="html">插件说明</title>
     <id>https://vuepress-theme-hope.github.io/zh/config/plugin/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/config/plugin/"/>
@@ -11784,6 +11738,52 @@ export default { // Highlighted
 <li>
 <p>vuepress-plugin-smooth-scroll: 平滑滚动。</p>
 </li>
+</ul>
+]]></content>
+    <author>
+      <name>Mr.Hope</name>
+    </author>
+    <category term="config"/>
+    <contributor>
+      <name>Mr.Hope</name>
+    </contributor>
+    <published>2020-10-13T05:36:44.000Z</published>
+    <rights>Copyright by Mr.Hope</rights>
+  </entry>
+  <entry>
+    <title type="html">配置</title>
+    <id>https://vuepress-theme-hope.github.io/zh/config/</id>
+    <link href="https://vuepress-theme-hope.github.io/zh/config/"/>
+    <updated>2021-02-26T13:39:01.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="主题配置"> 主题配置</h2>
+<ul>
+<li>
+<p><a href="./theme/">主题重要配置</a></p>
+</li>
+<li>
+<p><a href="./theme/default.html">默认主题配置</a></p>
+</li>
+<li>
+<p><a href="./theme/feature.html">主题功能配置</a></p>
+</li>
+<li>
+<p><a href="./theme/plugin.html">主题插件配置</a></p>
+</li>
+<li>
+<p><a href="./theme/apperance.html">主题外观配置</a></p>
+</li>
+</ul>
+<h2 id="页面配置"> 页面配置</h2>
+<ul>
+<li><a href="./page.html">Frontmatter 配置</a></li>
+</ul>
+<h2 id="样式配置"> 样式配置</h2>
+<ul>
+<li><a href="./stylus.html">样式配置</a></li>
+</ul>
+<h2 id="插件配置"> 插件配置</h2>
+<ul>
+<li><a href="./plugin/">插件配置</a></li>
 </ul>
 ]]></content>
     <author>
@@ -12685,47 +12685,6 @@ export default { // Highlighted
     <rights>Copyright by Mr.Hope</rights>
   </entry>
   <entry>
-    <title type="html">文章列表</title>
-    <id>https://vuepress-theme-hope.github.io/zh/guide/blog/article/</id>
-    <link href="https://vuepress-theme-hope.github.io/zh/guide/blog/article/"/>
-    <updated>2021-03-08T03:21:06.000Z</updated>
-    <summary type="html"><![CDATA[<p>主题在 <code>/article/</code> 路径下为你提供了全部的文章列表。</p>
-]]></summary>
-    <content type="html"><![CDATA[<p>主题在 <code>/article/</code> 路径下为你提供了全部的文章列表。</p>
-
-<h2 id="文章"> 文章</h2>
-<p>所有文章都会默认被添加到文章列表中渲染在 <code>/article/</code> 路径下。</p>
-<p><img src="./assets/article.png" alt="文章列表"></p>
-<p>如果你不希望该列表包含一些特定的文章，只需在文章的 frontmatter 中将 <code>article</code> 设置为 <code>false</code>。</p>
-<p>如果你希望在文章列表中置顶特定文章，只需在文章的 frontmatter 中将 <code>sticky</code> 设置为 <code>true</code>。</p>
-<div><p>置顶顺序</p>
-<p>对于置顶文章，你可以将 <code>sticky</code> 设置为 <code>number</code> 来设置它们的顺序。数值大的文章会排列在前面。</p>
-</div>
-<h2 id="收藏文章"> 收藏文章</h2>
-<p>你可以通过在 frontmatter 中设置 <code>star</code> 为 <code>true</code> 收藏一个文章。收藏后，用户就可以在 <code>/star/</code> 页面中查看这些文章。</p>
-<p>同时任何任何收藏的文章都会显示在博客主页侧边栏的文章栏目中。</p>
-<div><p>Info</p>
-<p>我们提供收藏选项的考虑是: 主题使用者可能希望向访客展示一定数量的精品文章，而又不希望置顶文章充斥主页，导致用户不能看到最近更新的文章。</p>
-</div>
-<div><p>收藏顺序</p>
-<p>类似置顶文章，你同样可以将 <code>star</code> 设置为 <code>number</code> 来设置它们的顺序。数值大的文章会排列在前面。</p>
-</div>
-<h2 id="加密与幻灯片"> 加密与幻灯片</h2>
-<p>主题为加密文章页与幻灯片页这两个特殊页面提供了单独的列表，你可以在 <code>/encrypt/</code> 和 <code>/slide/</code> 页面查看它们。</p>
-<p>同时为了帮助访问者区分，这两个类别的页面会在文章列表中用图标明确标明其类别。</p>
-<p><img src="./assets/icon-type.png" alt="类别提示"></p>
-]]></content>
-    <author>
-      <name>Mr.Hope</name>
-    </author>
-    <category term="blog"/>
-    <contributor>
-      <name>Mr.Hope</name>
-    </contributor>
-    <published>2021-03-08T03:21:06.000Z</published>
-    <rights>Copyright by Mr.Hope</rights>
-  </entry>
-  <entry>
     <title type="html">分类与标签</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/blog/category-and-tags/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/blog/category-and-tags/"/>
@@ -12785,53 +12744,6 @@ export default { // Highlighted
       <name>Mr.Hope</name>
     </contributor>
     <published>2021-03-06T15:23:44.000Z</published>
-    <rights>Copyright by Mr.Hope</rights>
-  </entry>
-  <entry>
-    <title type="html">博客功能介绍</title>
-    <id>https://vuepress-theme-hope.github.io/zh/guide/blog/intro/</id>
-    <link href="https://vuepress-theme-hope.github.io/zh/guide/blog/intro/"/>
-    <updated>2021-03-08T03:21:06.000Z</updated>
-    <summary type="html"><![CDATA[<p>主题通过引入 <code>@vuepress/plugin-blog</code> <strong>默认</strong>启用了一些博客功能。</p>
-<p>如果你不需要任何的博客功能 (比如一个纯文档站点)，你可以配置 <code>themeConfig.blog</code> 为 <code>false</code> 来禁用全部的博客功能。</p>
-]]></summary>
-    <content type="html"><![CDATA[<p>主题通过引入 <code>@vuepress/plugin-blog</code> <strong>默认</strong>启用了一些博客功能。</p>
-<p>如果你不需要任何的博客功能 (比如一个纯文档站点)，你可以配置 <code>themeConfig.blog</code> 为 <code>false</code> 来禁用全部的博客功能。</p>
-
-<h2 id="综述"> 综述</h2>
-<p>总体上，通过启用博客功能，主题允许你通过页面的 frontmatter，为页面配置分类、标签、是否是文章、是否出现在时间线中、收藏、置顶等功能。</p>
-<ul>
-<li>
-<p><a href="./article.html">文章列表</a></p>
-</li>
-<li>
-<p><a href="./category-and-tags.html">分类与标签</a></p>
-</li>
-<li>
-<p><a href="./timeline.html">时间线</a></p>
-</li>
-</ul>
-<p>同时主题还为你提供了 <a href="./home.html">博客风格的主页</a>。</p>
-<h2 id="侧边栏"> 侧边栏</h2>
-<p>主题提供了一个博客相关的侧边栏。该侧边栏会在博客相关的页面显示 (在桌面会显示在右侧，在移动视图下收起到侧边栏中)</p>
-<p>你可以通过 <code>themeConfig.blog.sidebarDisplay</code> 控制该侧边栏在非博客相关的页面的显示行为。可选的值有 <code>'mobile' | 'none' | 'always'</code>。默认为 <code>mobile</code>，即当你在移动视图下访问非博客相关的页面时，你也可以在侧边栏看到它。</p>
-<h2 id="分页配置"> 分页配置</h2>
-<p>对于所有页面的文章列表，我们都会在底部显示一个分页组件。你可以通过这个组件快捷的在首页、尾页、前后两页进行跳转。你也可以输入数字跳转到指定页面。</p>
-<p>默认每个分页的文章数为 <code>10</code>，你可以设置 <code>themeConfig.blog.perPage</code> 来覆盖它。</p>
-<h2 id="注意事项"> 注意事项</h2>
-<div><p>Note</p>
-<p>请勿在根目录中添加并放置对应的文件夹(&quot;article&quot;, &quot;slide&quot;, &quot;star&quot;, &quot;encrypt&quot;, &quot;category&quot;, &quot;tag&quot;, &quot;timeline&quot;)，否则可能造成编译时文件被覆盖而造成错误。</p>
-<p>比如你的确需要一个“文章”文件夹的话，请考虑使用 &quot;articles&quot;。</p>
-</div>
-]]></content>
-    <author>
-      <name>Mr.Hope</name>
-    </author>
-    <category term="blog"/>
-    <contributor>
-      <name>Mr.Hope</name>
-    </contributor>
-    <published>2021-03-06T14:49:20.000Z</published>
     <rights>Copyright by Mr.Hope</rights>
   </entry>
   <entry>
@@ -12929,6 +12841,53 @@ export default { // Highlighted
     <rights>Copyright by Mr.Hope</rights>
   </entry>
   <entry>
+    <title type="html">博客功能介绍</title>
+    <id>https://vuepress-theme-hope.github.io/zh/guide/blog/intro/</id>
+    <link href="https://vuepress-theme-hope.github.io/zh/guide/blog/intro/"/>
+    <updated>2021-03-08T03:21:06.000Z</updated>
+    <summary type="html"><![CDATA[<p>主题通过引入 <code>@vuepress/plugin-blog</code> <strong>默认</strong>启用了一些博客功能。</p>
+<p>如果你不需要任何的博客功能 (比如一个纯文档站点)，你可以配置 <code>themeConfig.blog</code> 为 <code>false</code> 来禁用全部的博客功能。</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>主题通过引入 <code>@vuepress/plugin-blog</code> <strong>默认</strong>启用了一些博客功能。</p>
+<p>如果你不需要任何的博客功能 (比如一个纯文档站点)，你可以配置 <code>themeConfig.blog</code> 为 <code>false</code> 来禁用全部的博客功能。</p>
+
+<h2 id="综述"> 综述</h2>
+<p>总体上，通过启用博客功能，主题允许你通过页面的 frontmatter，为页面配置分类、标签、是否是文章、是否出现在时间线中、收藏、置顶等功能。</p>
+<ul>
+<li>
+<p><a href="./article.html">文章列表</a></p>
+</li>
+<li>
+<p><a href="./category-and-tags.html">分类与标签</a></p>
+</li>
+<li>
+<p><a href="./timeline.html">时间线</a></p>
+</li>
+</ul>
+<p>同时主题还为你提供了 <a href="./home.html">博客风格的主页</a>。</p>
+<h2 id="侧边栏"> 侧边栏</h2>
+<p>主题提供了一个博客相关的侧边栏。该侧边栏会在博客相关的页面显示 (在桌面会显示在右侧，在移动视图下收起到侧边栏中)</p>
+<p>你可以通过 <code>themeConfig.blog.sidebarDisplay</code> 控制该侧边栏在非博客相关的页面的显示行为。可选的值有 <code>'mobile' | 'none' | 'always'</code>。默认为 <code>mobile</code>，即当你在移动视图下访问非博客相关的页面时，你也可以在侧边栏看到它。</p>
+<h2 id="分页配置"> 分页配置</h2>
+<p>对于所有页面的文章列表，我们都会在底部显示一个分页组件。你可以通过这个组件快捷的在首页、尾页、前后两页进行跳转。你也可以输入数字跳转到指定页面。</p>
+<p>默认每个分页的文章数为 <code>10</code>，你可以设置 <code>themeConfig.blog.perPage</code> 来覆盖它。</p>
+<h2 id="注意事项"> 注意事项</h2>
+<div><p>Note</p>
+<p>请勿在根目录中添加并放置对应的文件夹(&quot;article&quot;, &quot;slide&quot;, &quot;star&quot;, &quot;encrypt&quot;, &quot;category&quot;, &quot;tag&quot;, &quot;timeline&quot;)，否则可能造成编译时文件被覆盖而造成错误。</p>
+<p>比如你的确需要一个“文章”文件夹的话，请考虑使用 &quot;articles&quot;。</p>
+</div>
+]]></content>
+    <author>
+      <name>Mr.Hope</name>
+    </author>
+    <category term="blog"/>
+    <contributor>
+      <name>Mr.Hope</name>
+    </contributor>
+    <published>2021-03-06T14:49:20.000Z</published>
+    <rights>Copyright by Mr.Hope</rights>
+  </entry>
+  <entry>
     <title type="html">博客</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/blog/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/blog/"/>
@@ -12960,6 +12919,31 @@ export default { // Highlighted
       <name>Mr.Hope</name>
     </contributor>
     <published>2021-02-26T08:10:04.000Z</published>
+    <rights>Copyright by Mr.Hope</rights>
+  </entry>
+  <entry>
+    <title type="html">时间线</title>
+    <id>https://vuepress-theme-hope.github.io/zh/guide/blog/timeline/</id>
+    <link href="https://vuepress-theme-hope.github.io/zh/guide/blog/timeline/"/>
+    <updated>2021-03-08T03:21:06.000Z</updated>
+    <content type="html"><![CDATA[<p>你可以通过 <code>/timeline/</code> 访问时间页面，在页面中，你可以按照时间倒序查看所有的文章列表。</p>
+<p><img src="./assets/timeline.png" alt="时间线列表哦"></p>
+<h2 id="排除文章"> 排除文章</h2>
+<p>默认情况下所有注明了写作日期的文章都会显示时间线中。如果你不希望某篇文章被包含，只需在文章的 frontmatter 中将 <code>timeline</code> 设置为 <code>false</code>。</p>
+<h2 id="配置时间线顶部文字"> 配置时间线顶部文字</h2>
+<p>我们允许你定制时间线的顶部文字，你可以通过 <code>themeConfig.blog.timeline</code> 配置它。</p>
+<h2 id="侧边栏"> 侧边栏</h2>
+<p>我们在博客相关页面的侧边栏添加了时间线选项卡，供用户快速预览时间线。</p>
+<p><img src="./assets/timeline-tab.png" alt="时间线选项卡"></p>
+]]></content>
+    <author>
+      <name>Mr.Hope</name>
+    </author>
+    <category term="blog"/>
+    <contributor>
+      <name>Mr.Hope</name>
+    </contributor>
+    <published>2021-03-08T03:21:06.000Z</published>
     <rights>Copyright by Mr.Hope</rights>
   </entry>
   <entry>
@@ -13063,31 +13047,6 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <name>Mr.Hope</name>
     </contributor>
     <published>2020-10-13T05:36:44.000Z</published>
-    <rights>Copyright by Mr.Hope</rights>
-  </entry>
-  <entry>
-    <title type="html">时间线</title>
-    <id>https://vuepress-theme-hope.github.io/zh/guide/blog/timeline/</id>
-    <link href="https://vuepress-theme-hope.github.io/zh/guide/blog/timeline/"/>
-    <updated>2021-03-08T03:21:06.000Z</updated>
-    <content type="html"><![CDATA[<p>你可以通过 <code>/timeline/</code> 访问时间页面，在页面中，你可以按照时间倒序查看所有的文章列表。</p>
-<p><img src="./assets/timeline.png" alt="时间线列表哦"></p>
-<h2 id="排除文章"> 排除文章</h2>
-<p>默认情况下所有注明了写作日期的文章都会显示时间线中。如果你不希望某篇文章被包含，只需在文章的 frontmatter 中将 <code>timeline</code> 设置为 <code>false</code>。</p>
-<h2 id="配置时间线顶部文字"> 配置时间线顶部文字</h2>
-<p>我们允许你定制时间线的顶部文字，你可以通过 <code>themeConfig.blog.timeline</code> 配置它。</p>
-<h2 id="侧边栏"> 侧边栏</h2>
-<p>我们在博客相关页面的侧边栏添加了时间线选项卡，供用户快速预览时间线。</p>
-<p><img src="./assets/timeline-tab.png" alt="时间线选项卡"></p>
-]]></content>
-    <author>
-      <name>Mr.Hope</name>
-    </author>
-    <category term="blog"/>
-    <contributor>
-      <name>Mr.Hope</name>
-    </contributor>
-    <published>2021-03-08T03:21:06.000Z</published>
     <rights>Copyright by Mr.Hope</rights>
   </entry>
   <entry>
@@ -14269,46 +14228,6 @@ module<span>.</span>exports <span>=</span> <span>{</span>
     <rights>Copyright by Mr.Hope</rights>
   </entry>
   <entry>
-    <title type="html">路径导航</title>
-    <id>https://vuepress-theme-hope.github.io/zh/guide/layout/breadcrumb/</id>
-    <link href="https://vuepress-theme-hope.github.io/zh/guide/layout/breadcrumb/"/>
-    <updated>2021-02-28T07:37:26.000Z</updated>
-    <summary type="html"><![CDATA[<p>vuepress-theme-hope 添加了开箱即用的路径导航支持，你可以通过 <code>breadcrumb</code> 字段控制它 <i>Not supported content</i> [^applypartically]，默认的值为 <code>true</code>。</p>
-<p>无需任何额外配置，一个和主题色相符合的路径导航会显示在页面内容最上方，帮助阅读者理解文档结构。</p>
-<p>你也可以通过 <code>breadcrumbIcon</code> 字段 <i>Not supported content</i> 控制路径导航的图标显示，默认值为 <code>true</code>。</p>
-]]></summary>
-    <content type="html"><![CDATA[<p>vuepress-theme-hope 添加了开箱即用的路径导航支持，你可以通过 <code>breadcrumb</code> 字段控制它 <i>Not supported content</i> <sup></sup>，默认的值为 <code>true</code>。</p>
-<p>无需任何额外配置，一个和主题色相符合的路径导航会显示在页面内容最上方，帮助阅读者理解文档结构。</p>
-<p>你也可以通过 <code>breadcrumbIcon</code> 字段 <i>Not supported content</i> 控制路径导航的图标显示，默认值为 <code>true</code>。</p>
-
-<div><p>注意事项</p>
-<p>为了保证路径导航更好的提示，建议在每一个路径下创建 readme.md 文件。否则，路径导航将因对应层级文件夹没有主页，无法生成标题与链接而忽略那一层级。</p>
-</div>
-<hr>
-<section>
-<ol>
-<li id="fn1"><p><strong>支持页面配置</strong> <i>Not supported content</i></p>
-<p><strong>支持页面配置</strong> 指主题允许页面的配置覆盖全局的配置。这意味着你可以在全局启用的情况下，在特定页面将其禁用，或在全局禁用的情况下在特定页面启用。</p>
-<details><summary>例子</summary>
-<p>以路径导航为例:</p>
-<p>该功能默认全局启用，即 <code>themeConfig.breadcrumb</code> 默认为 <code>true</code>，同时你可以在特定页面的 Front Matter 中设置 <code>breadcrumb: false</code> 来局部禁用它。</p>
-<p>当然你也可以将 <code>themeConfig.breadcrumb</code> 选项设置为 <code>false</code> 来全局禁用它，之在特定页面的 Front Matter 中设置 <code>breadcrumb: true</code> 来局部启用它。</p>
-</details>
- </li>
-</ol>
-</section>
-]]></content>
-    <author>
-      <name>Mr.Hope</name>
-    </author>
-    <category term="layout"/>
-    <contributor>
-      <name>Mr.Hope</name>
-    </contributor>
-    <published>2021-02-27T06:18:09.000Z</published>
-    <rights>Copyright by Mr.Hope</rights>
-  </entry>
-  <entry>
     <title type="html">主题色</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/interface/theme-color/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/interface/theme-color/"/>
@@ -14354,6 +14273,46 @@ module<span>.</span>exports <span>=</span> <span>{</span>
       <name>Mr.Hope</name>
     </contributor>
     <published>2021-02-26T12:39:35.000Z</published>
+    <rights>Copyright by Mr.Hope</rights>
+  </entry>
+  <entry>
+    <title type="html">路径导航</title>
+    <id>https://vuepress-theme-hope.github.io/zh/guide/layout/breadcrumb/</id>
+    <link href="https://vuepress-theme-hope.github.io/zh/guide/layout/breadcrumb/"/>
+    <updated>2021-02-28T07:37:26.000Z</updated>
+    <summary type="html"><![CDATA[<p>vuepress-theme-hope 添加了开箱即用的路径导航支持，你可以通过 <code>breadcrumb</code> 字段控制它 <i>Not supported content</i> [^applypartically]，默认的值为 <code>true</code>。</p>
+<p>无需任何额外配置，一个和主题色相符合的路径导航会显示在页面内容最上方，帮助阅读者理解文档结构。</p>
+<p>你也可以通过 <code>breadcrumbIcon</code> 字段 <i>Not supported content</i> 控制路径导航的图标显示，默认值为 <code>true</code>。</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>vuepress-theme-hope 添加了开箱即用的路径导航支持，你可以通过 <code>breadcrumb</code> 字段控制它 <i>Not supported content</i> <sup></sup>，默认的值为 <code>true</code>。</p>
+<p>无需任何额外配置，一个和主题色相符合的路径导航会显示在页面内容最上方，帮助阅读者理解文档结构。</p>
+<p>你也可以通过 <code>breadcrumbIcon</code> 字段 <i>Not supported content</i> 控制路径导航的图标显示，默认值为 <code>true</code>。</p>
+
+<div><p>注意事项</p>
+<p>为了保证路径导航更好的提示，建议在每一个路径下创建 readme.md 文件。否则，路径导航将因对应层级文件夹没有主页，无法生成标题与链接而忽略那一层级。</p>
+</div>
+<hr>
+<section>
+<ol>
+<li id="fn1"><p><strong>支持页面配置</strong> <i>Not supported content</i></p>
+<p><strong>支持页面配置</strong> 指主题允许页面的配置覆盖全局的配置。这意味着你可以在全局启用的情况下，在特定页面将其禁用，或在全局禁用的情况下在特定页面启用。</p>
+<details><summary>例子</summary>
+<p>以路径导航为例:</p>
+<p>该功能默认全局启用，即 <code>themeConfig.breadcrumb</code> 默认为 <code>true</code>，同时你可以在特定页面的 Front Matter 中设置 <code>breadcrumb: false</code> 来局部禁用它。</p>
+<p>当然你也可以将 <code>themeConfig.breadcrumb</code> 选项设置为 <code>false</code> 来全局禁用它，之在特定页面的 Front Matter 中设置 <code>breadcrumb: true</code> 来局部启用它。</p>
+</details>
+ </li>
+</ol>
+</section>
+]]></content>
+    <author>
+      <name>Mr.Hope</name>
+    </author>
+    <category term="layout"/>
+    <contributor>
+      <name>Mr.Hope</name>
+    </contributor>
+    <published>2021-02-27T06:18:09.000Z</published>
     <rights>Copyright by Mr.Hope</rights>
   </entry>
   <entry>
@@ -15712,6 +15671,99 @@ vuepress-theme-hope v2 仍在制作中，API 可能会有
     <rights>Copyright by Mr.Hope</rights>
   </entry>
   <entry>
+    <title type="html">组件</title>
+    <id>https://vuepress-theme-hope.github.io/zh/guide/markdown/components/</id>
+    <link href="https://vuepress-theme-hope.github.io/zh/guide/markdown/components/"/>
+    <updated>2021-02-28T09:03:04.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="badge"> Badge</h2>
+<p>在 Markdown 中可用的徽章。</p>
+<h3 id="badge-属性"> Badge 属性</h3>
+<h4 id="text"> text</h4>
+<ul>
+<li>类型: <code>string</code></li>
+<li>必填: 是</li>
+</ul>
+<p>徽章的文字</p>
+<h4 id="type"> type</h4>
+<ul>
+<li>类型: <code>&quot;tip&quot; | &quot;warn&quot; | &quot;error&quot;</code></li>
+<li>默认值: <code>&quot;tip&quot;</code></li>
+</ul>
+<p>徽章的类型</p>
+<ul>
+<li>
+<i>Not supported content</i>
+</li>
+<li>
+<i>Not supported content</i>
+</li>
+<li>
+<i>Not supported content</i>
+</li>
+</ul>
+<h4 id="color"> color</h4>
+<ul>
+<li>类型: <code>string</code></li>
+<li>必填: 否</li>
+</ul>
+<p>徽章的颜色，填入在 CSS 中合法的颜色值。</p>
+<h4 id="vertical"> vertical</h4>
+<ul>
+<li>类型: <code>&quot;top&quot; | &quot;middle&quot;</code></li>
+<li>默认值: <code>&quot;top&quot;</code></li>
+</ul>
+<p>徽章的垂直方向的位置</p>
+<h3 id="badge-使用"> Badge 使用</h3>
+<p>你可以在 Markdown 中使用这个组件来为标题或链接添加一些状态:</p>
+<div><pre><code><span><span>###</span> Badge &lt;Badge text="Building" type="warn"/> &lt;Badge text="MrHope" color="grey" /></span>
+</code></pre>
+<div><span>1</span><br></div></div><h2 id="codegroup-codegroupitem"> CodeGroup, CodeGroupItem</h2>
+<p>在 Markdown 中可用的代码块分组</p>
+<h3 id="codegroup-使用"> CodeGroup 使用</h3>
+<p>请使用 <code>&lt;CodeGroup /&gt;</code> 包裹 <code>&lt;CodeGroupItem /&gt;</code>。</p>
+<p>对于每个 <code>&lt;CodeGroupItem /&gt;</code>，你需要设置 <code>title</code> 属性作为选项卡的标题，并仅在选项卡内放置一个代码块。你还可以在其中一个 <code>&lt;CodeGroupItem /&gt;</code> 上设置 <code>active</code> 属性使其默认激活。</p>
+<div><p>Tips</p>
+<p>你需要在每个 <code>&lt;CodeGroupItem /&gt;</code> 之间放置一个空行，否则 VuePress 可能无法正确的解析它们。</p>
+</div>
+<h3 id="codegroup-示例"> CodeGroup 示例</h3>
+<p>输入:</p>
+<div><pre><code><span><span><span>&lt;</span>CodeGroup</span><span>></span></span>
+<span><span><span>&lt;</span>CodeGroupItem</span> <span>title</span><span><span>=</span><span>"</span>yarn<span>"</span></span><span>></span></span>
+<span><span>```</span><span>bash</span>
+<span><span>yarn</span> <span>add</span> -D vuepress-theme-hope</span>
+<span>```</span></span>
+<span><span><span>&lt;/</span>CodeGroupItem</span><span>></span></span>
+
+<span><span><span>&lt;</span>CodeGroupItem</span> <span>title</span><span><span>=</span><span>"</span>npm<span>"</span></span> <span>active</span><span>></span></span>
+<span><span>```</span><span>bash</span>
+<span><span>npm</span> i -D vuepress-theme-hope</span>
+<span>```</span></span>
+<span><span><span>&lt;/</span>CodeGroupItem</span><span>></span></span>
+<span><span><span>&lt;/</span>CodeGroup</span><span>></span></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></div></div><p>输出:</p>
+<CodeGroup>
+<CodeGroupItem title="yarn">
+<div><pre><code><span>yarn</span> <span>add</span> -D vuepress-theme-hope
+</code></pre>
+<div><span>1</span><br></div></div></CodeGroupItem>
+<CodeGroupItem title="npm" active>
+<div><pre><code><span>npm</span> i -D vuepress-theme-hope
+</code></pre>
+<div><span>1</span><br></div></div></CodeGroupItem>
+</CodeGroup>
+]]></content>
+    <author>
+      <name>Mr.Hope</name>
+    </author>
+    <category term="markdown"/>
+    <contributor>
+      <name>Mr.Hope</name>
+    </contributor>
+    <published>2021-02-26T08:10:04.000Z</published>
+    <rights>Copyright by Mr.Hope</rights>
+  </entry>
+  <entry>
     <title type="html">代码演示</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/markdown/demo/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/markdown/demo/"/>
@@ -16139,99 +16191,6 @@ document<span>.</span><span>querySelector</span><span>(</span><span>"h1"</span><
     <rights>Copyright by Mr.Hope</rights>
   </entry>
   <entry>
-    <title type="html">组件</title>
-    <id>https://vuepress-theme-hope.github.io/zh/guide/markdown/components/</id>
-    <link href="https://vuepress-theme-hope.github.io/zh/guide/markdown/components/"/>
-    <updated>2021-02-28T09:03:04.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="badge"> Badge</h2>
-<p>在 Markdown 中可用的徽章。</p>
-<h3 id="badge-属性"> Badge 属性</h3>
-<h4 id="text"> text</h4>
-<ul>
-<li>类型: <code>string</code></li>
-<li>必填: 是</li>
-</ul>
-<p>徽章的文字</p>
-<h4 id="type"> type</h4>
-<ul>
-<li>类型: <code>&quot;tip&quot; | &quot;warn&quot; | &quot;error&quot;</code></li>
-<li>默认值: <code>&quot;tip&quot;</code></li>
-</ul>
-<p>徽章的类型</p>
-<ul>
-<li>
-<i>Not supported content</i>
-</li>
-<li>
-<i>Not supported content</i>
-</li>
-<li>
-<i>Not supported content</i>
-</li>
-</ul>
-<h4 id="color"> color</h4>
-<ul>
-<li>类型: <code>string</code></li>
-<li>必填: 否</li>
-</ul>
-<p>徽章的颜色，填入在 CSS 中合法的颜色值。</p>
-<h4 id="vertical"> vertical</h4>
-<ul>
-<li>类型: <code>&quot;top&quot; | &quot;middle&quot;</code></li>
-<li>默认值: <code>&quot;top&quot;</code></li>
-</ul>
-<p>徽章的垂直方向的位置</p>
-<h3 id="badge-使用"> Badge 使用</h3>
-<p>你可以在 Markdown 中使用这个组件来为标题或链接添加一些状态:</p>
-<div><pre><code><span><span>###</span> Badge &lt;Badge text="Building" type="warn"/> &lt;Badge text="MrHope" color="grey" /></span>
-</code></pre>
-<div><span>1</span><br></div></div><h2 id="codegroup-codegroupitem"> CodeGroup, CodeGroupItem</h2>
-<p>在 Markdown 中可用的代码块分组</p>
-<h3 id="codegroup-使用"> CodeGroup 使用</h3>
-<p>请使用 <code>&lt;CodeGroup /&gt;</code> 包裹 <code>&lt;CodeGroupItem /&gt;</code>。</p>
-<p>对于每个 <code>&lt;CodeGroupItem /&gt;</code>，你需要设置 <code>title</code> 属性作为选项卡的标题，并仅在选项卡内放置一个代码块。你还可以在其中一个 <code>&lt;CodeGroupItem /&gt;</code> 上设置 <code>active</code> 属性使其默认激活。</p>
-<div><p>Tips</p>
-<p>你需要在每个 <code>&lt;CodeGroupItem /&gt;</code> 之间放置一个空行，否则 VuePress 可能无法正确的解析它们。</p>
-</div>
-<h3 id="codegroup-示例"> CodeGroup 示例</h3>
-<p>输入:</p>
-<div><pre><code><span><span><span>&lt;</span>CodeGroup</span><span>></span></span>
-<span><span><span>&lt;</span>CodeGroupItem</span> <span>title</span><span><span>=</span><span>"</span>yarn<span>"</span></span><span>></span></span>
-<span><span>```</span><span>bash</span>
-<span><span>yarn</span> <span>add</span> -D vuepress-theme-hope</span>
-<span>```</span></span>
-<span><span><span>&lt;/</span>CodeGroupItem</span><span>></span></span>
-
-<span><span><span>&lt;</span>CodeGroupItem</span> <span>title</span><span><span>=</span><span>"</span>npm<span>"</span></span> <span>active</span><span>></span></span>
-<span><span>```</span><span>bash</span>
-<span><span>npm</span> i -D vuepress-theme-hope</span>
-<span>```</span></span>
-<span><span><span>&lt;/</span>CodeGroupItem</span><span>></span></span>
-<span><span><span>&lt;/</span>CodeGroup</span><span>></span></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></div></div><p>输出:</p>
-<CodeGroup>
-<CodeGroupItem title="yarn">
-<div><pre><code><span>yarn</span> <span>add</span> -D vuepress-theme-hope
-</code></pre>
-<div><span>1</span><br></div></div></CodeGroupItem>
-<CodeGroupItem title="npm" active>
-<div><pre><code><span>npm</span> i -D vuepress-theme-hope
-</code></pre>
-<div><span>1</span><br></div></div></CodeGroupItem>
-</CodeGroup>
-]]></content>
-    <author>
-      <name>Mr.Hope</name>
-    </author>
-    <category term="markdown"/>
-    <contributor>
-      <name>Mr.Hope</name>
-    </contributor>
-    <published>2021-02-26T08:10:04.000Z</published>
-    <rights>Copyright by Mr.Hope</rights>
-  </entry>
-  <entry>
     <title type="html">外部引入</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/markdown/external/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/markdown/external/"/>
@@ -16317,6 +16276,168 @@ document<span>.</span><span>querySelector</span><span>(</span><span>"h1"</span><
       <name>Mr.Hope</name>
     </contributor>
     <published>2021-02-26T08:10:04.000Z</published>
+    <rights>Copyright by Mr.Hope</rights>
+  </entry>
+  <entry>
+    <title type="html">文章列表</title>
+    <id>https://vuepress-theme-hope.github.io/zh/guide/blog/article/</id>
+    <link href="https://vuepress-theme-hope.github.io/zh/guide/blog/article/"/>
+    <updated>2021-03-08T03:21:06.000Z</updated>
+    <summary type="html"><![CDATA[<p>主题在 <code>/article/</code> 路径下为你提供了全部的文章列表。</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>主题在 <code>/article/</code> 路径下为你提供了全部的文章列表。</p>
+
+<h2 id="文章"> 文章</h2>
+<p>所有文章都会默认被添加到文章列表中渲染在 <code>/article/</code> 路径下。</p>
+<p><img src="./assets/article.png" alt="文章列表"></p>
+<p>如果你不希望该列表包含一些特定的文章，只需在文章的 frontmatter 中将 <code>article</code> 设置为 <code>false</code>。</p>
+<p>如果你希望在文章列表中置顶特定文章，只需在文章的 frontmatter 中将 <code>sticky</code> 设置为 <code>true</code>。</p>
+<div><p>置顶顺序</p>
+<p>对于置顶文章，你可以将 <code>sticky</code> 设置为 <code>number</code> 来设置它们的顺序。数值大的文章会排列在前面。</p>
+</div>
+<h2 id="收藏文章"> 收藏文章</h2>
+<p>你可以通过在 frontmatter 中设置 <code>star</code> 为 <code>true</code> 收藏一个文章。收藏后，用户就可以在 <code>/star/</code> 页面中查看这些文章。</p>
+<p>同时任何任何收藏的文章都会显示在博客主页侧边栏的文章栏目中。</p>
+<div><p>Info</p>
+<p>我们提供收藏选项的考虑是: 主题使用者可能希望向访客展示一定数量的精品文章，而又不希望置顶文章充斥主页，导致用户不能看到最近更新的文章。</p>
+</div>
+<div><p>收藏顺序</p>
+<p>类似置顶文章，你同样可以将 <code>star</code> 设置为 <code>number</code> 来设置它们的顺序。数值大的文章会排列在前面。</p>
+</div>
+<h2 id="加密与幻灯片"> 加密与幻灯片</h2>
+<p>主题为加密文章页与幻灯片页这两个特殊页面提供了单独的列表，你可以在 <code>/encrypt/</code> 和 <code>/slide/</code> 页面查看它们。</p>
+<p>同时为了帮助访问者区分，这两个类别的页面会在文章列表中用图标明确标明其类别。</p>
+<p><img src="./assets/icon-type.png" alt="类别提示"></p>
+]]></content>
+    <author>
+      <name>Mr.Hope</name>
+    </author>
+    <category term="blog"/>
+    <contributor>
+      <name>Mr.Hope</name>
+    </contributor>
+    <published>2021-03-08T03:21:06.000Z</published>
+    <rights>Copyright by Mr.Hope</rights>
+  </entry>
+  <entry>
+    <title type="html">项目案例</title>
+    <id>https://vuepress-theme-hope.github.io/zh/demo/</id>
+    <link href="https://vuepress-theme-hope.github.io/zh/demo/"/>
+    <updated>2021-02-27T06:18:09.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="mr-hope-的个人博客"> Mr.Hope 的个人博客</h2>
+<ul>
+<li><a href="https://mrhope.site" target="_blank" rel="noopener noreferrer">项目地址</a></li>
+<li><a href="https://github.com/Mister-Hope/Mister-Hope.github.io" target="_blank" rel="noopener noreferrer">项目文件</a></li>
+</ul>
+<h2 id="希望工作室官网"> 希望工作室官网</h2>
+<ul>
+<li><a href="https://hope-studio.innenu.com" target="_blank" rel="noopener noreferrer">项目地址</a></li>
+<li><a href="https://github.com/Hope-Studio/Hope-Studio.github.io" target="_blank" rel="noopener noreferrer">项目文件</a></li>
+</ul>
+<h2 id="vuepress-theme-hope-文档"> vuepress-theme-hope 文档</h2>
+<ul>
+<li><a href="https://vuepress-theme-hope.github.io" target="_blank" rel="noopener noreferrer">项目地址</a></li>
+<li><a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/tree/v1/docs/theme" target="_blank" rel="noopener noreferrer">项目文件</a></li>
+</ul>
+<h2 id="docker-从入门到实践"> Docker 从入门到实践</h2>
+<ul>
+<li><a href="https://vuepress.mirror.docker-practice.com/" target="_blank" rel="noopener noreferrer">项目地址</a></li>
+<li><a href="https://github.com/yeasy/docker_practice" target="_blank" rel="noopener noreferrer">项目文件</a></li>
+</ul>
+<h2 id="更多"> 更多</h2>
+<ul>
+<li>随时随地添加你的博客或文档到此</li>
+</ul>
+]]></content>
+    <author>
+      <name>Mr.Hope</name>
+    </author>
+    <category term="demo"/>
+    <contributor>
+      <name>Mr.Hope</name>
+    </contributor>
+    <published>2020-10-13T05:36:44.000Z</published>
+    <rights>Copyright by Mr.Hope</rights>
+  </entry>
+  <entry>
+    <title type="html">主题配置</title>
+    <id>https://vuepress-theme-hope.github.io/zh/config/theme/</id>
+    <link href="https://vuepress-theme-hope.github.io/zh/config/theme/"/>
+    <updated>2021-02-26T05:26:49.000Z</updated>
+    <content type="html"><![CDATA[<div><p>Tips</p>
+<p>你可以查看 <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/docs/theme/src/.vuepress/config.js" target="_blank" rel="noopener noreferrer">本文档的配置</a> 作为案例，你也可以直接查看源代码中的 <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/packages/theme/types/theme/" target="_blank" rel="noopener noreferrer">types 文件</a></p>
+</div>
+<p><code>.vuepress/config.js</code> 中的 themeConfig 字段(主题字段)新增以下配置:</p>
+<h2 id="基本选项"> 基本选项</h2>
+<div><p>Warning</p>
+<p>这些选项很重要，需要你正确配置。</p>
+</div>
+<h3 id="baselang"> baseLang</h3>
+<ul>
+<li>类型: <code>string</code></li>
+<li>默认值: <code>'en-US'</code></li>
+</ul>
+<p>主目录所对应的语言。</p>
+<p>这个选项会保证主目录页面中主题文字使用正确的语言显示。你可以根据自己的需要将其改为其他语言。</p>
+<div><p>Tips</p>
+<p>目前多语言仅适配了 <strong>简体中文</strong> (zh-CN)、<strong>英文(美国)</strong> (en-US) 与 越南语 (vi-VN)。</p>
+<p>如果你需要其它语言的多语言支持，你可以 <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/packages/shared/src/i18n/config.ts" target="_blank" rel="noopener noreferrer">向此文件提交一个 PR</a></p>
+</div>
+<h3 id="author"> author</h3>
+<ul>
+<li>类型: <code>string</code></li>
+<li>必填: 否</li>
+</ul>
+<p>文章显示的默认作者</p>
+<h3 id="nav"> nav <i>Not supported content</i></h3>
+<p>NavBarItem 新增</p>
+<ul>
+<li><code>icon</code> 字段来支持图标显示。</li>
+<li><code>prefix</code> 字段来自动添加分组前缀</li>
+</ul>
+<p>具体配置，请见 <a href="./../../guide/layout/navbar.html">布局 → 导航栏</a></p>
+<h3 id="sidebar"> sidebar <i>Not supported content</i></h3>
+<p>SideBarItem 新增</p>
+<ul>
+<li><code>icon</code> 字段来支持图标显示。</li>
+<li><code>prefix</code> 字段来自动添加分组前缀</li>
+</ul>
+<p>具体配置，请见 <a href="./../../guide/layout/sidebar.html">布局 → 侧边栏</a></p>
+<h3 id="locales"> locales</h3>
+<ul>
+<li>类型: <code>Record&lt;string, HopeLangI18nConfigItem&gt;</code></li>
+</ul>
+<p>主题的多语言配置，主要需要配置各语言的 <code>nav</code> 与 <code>sidebar</code>。</p>
+<h3 id="hostname"> hostname</h3>
+<ul>
+<li>类型: <code>string</code></li>
+<li>必填: 是</li>
+</ul>
+<p>当前网站部署到的域名。</p>
+<h2 id="更多配置"> 更多配置</h2>
+<ul>
+<li>
+<p><a href="./default.html"><strong>默认主题配置</strong></a></p>
+</li>
+<li>
+<p><a href="./feature.html"><strong>主题功能配置</strong></a></p>
+</li>
+<li>
+<p><a href="./plugin.html"><strong>主题插件配置</strong></a></p>
+</li>
+<li>
+<p><a href="./apperance.html"><strong>主题外观配置</strong></a></p>
+</li>
+</ul>
+]]></content>
+    <author>
+      <name>Mr.Hope</name>
+    </author>
+    <category term="config"/>
+    <contributor>
+      <name>Mr.Hope</name>
+    </contributor>
+    <published>2020-10-17T08:18:13.000Z</published>
     <rights>Copyright by Mr.Hope</rights>
   </entry>
   <entry>
@@ -16536,66 +16657,6 @@ c2(no)->op2->e
     <rights>Copyright by Mr.Hope</rights>
   </entry>
   <entry>
-    <title type="html">Markdown 增强</title>
-    <id>https://vuepress-theme-hope.github.io/zh/guide/markdown/</id>
-    <link href="https://vuepress-theme-hope.github.io/zh/guide/markdown/"/>
-    <updated>2021-02-27T06:18:09.000Z</updated>
-    <summary type="html"><![CDATA[<p>除了 VuePress 本身新增了一些 Markdown 语法外，<code>vuepress-theme-hope</code> 通过 <a href="https://vuepress-theme-hope.github.io/md-enhance" target="_blank" rel="noopener noreferrer">vuepress-plugin-md-enhance</a>，在 Markdown 中启用了更多的语法与新功能。</p>
-]]></summary>
-    <content type="html"><![CDATA[<p>除了 VuePress 本身新增了一些 Markdown 语法外，<code>vuepress-theme-hope</code> 通过 <a href="https://vuepress-theme-hope.github.io/md-enhance" target="_blank" rel="noopener noreferrer">vuepress-plugin-md-enhance</a>，在 Markdown 中启用了更多的语法与新功能。</p>
-
-<h2 id="内置语法"> 内置语法</h2>
-<ul>
-<li><a href="./../../basic/vuepress/markdown.html">内置 Markdown 扩展</a>。</li>
-</ul>
-<h2 id="新组件"> 新组件</h2>
-<ul>
-<li><a href="./components.html#badge"><code>&lt;Badge /&gt;</code></a></li>
-<li><a href="./components.html#codegroup-codegroupitem"><code>&lt;CodeGroup /&gt;</code> 与 <code>&lt;CodeGroupItem /&gt;</code></a></li>
-</ul>
-<h2 id="新语法"> 新语法</h2>
-<ul>
-<li>
-<p><a href="./align.html">自定义对齐</a></p>
-</li>
-<li>
-<p><a href="./sup-sub.html">上下角标</a></p>
-</li>
-<li>
-<p><a href="./footnote.html">脚注</a></p>
-</li>
-<li>
-<p><a href="./mark.html">标记</a></p>
-</li>
-<li>
-<p><a href="./flowchart.html">流程图</a></p>
-</li>
-<li>
-<p><a href="./tex.html">Tex 语法</a></p>
-</li>
-<li>
-<p><a href="./demo.html">代码演示</a></p>
-</li>
-<li>
-<p><a href="./presentation.html">幻灯片</a></p>
-</li>
-</ul>
-<h2 id="其他"> 其他</h2>
-<ul>
-<li><a href="./external.html">外部引入</a></li>
-</ul>
-]]></content>
-    <author>
-      <name>Mr.Hope</name>
-    </author>
-    <category term="markdown"/>
-    <contributor>
-      <name>Mr.Hope</name>
-    </contributor>
-    <published>2021-02-25T07:37:56.000Z</published>
-    <rights>Copyright by Mr.Hope</rights>
-  </entry>
-  <entry>
     <title type="html">幻灯片</title>
     <id>https://vuepress-theme-hope.github.io/zh/guide/markdown/presentation/</id>
     <link href="https://vuepress-theme-hope.github.io/zh/guide/markdown/presentation/"/>
@@ -16686,6 +16747,66 @@ $$
 <h2 id="选项"> 选项</h2>
 <p>你可以在 Frontmatter 设置 <code>reveal</code> 以设置特定页面的 reveal.js 选项，也可以在插件选项中设置 <code>presentation</code> 以全局设置 reveal.js。</p>
 <p>更多选项，请参见<a href="https://revealjs.com/config/" target="_blank" rel="noopener noreferrer">reveal.js config</a>，更多用法，请参阅 <a href="https://revealjs.com/" target="_blank" rel="noopener noreferrer">reveal.js 文档</a>。</p>
+]]></content>
+    <author>
+      <name>Mr.Hope</name>
+    </author>
+    <category term="markdown"/>
+    <contributor>
+      <name>Mr.Hope</name>
+    </contributor>
+    <published>2021-02-25T07:37:56.000Z</published>
+    <rights>Copyright by Mr.Hope</rights>
+  </entry>
+  <entry>
+    <title type="html">Markdown 增强</title>
+    <id>https://vuepress-theme-hope.github.io/zh/guide/markdown/</id>
+    <link href="https://vuepress-theme-hope.github.io/zh/guide/markdown/"/>
+    <updated>2021-02-27T06:18:09.000Z</updated>
+    <summary type="html"><![CDATA[<p>除了 VuePress 本身新增了一些 Markdown 语法外，<code>vuepress-theme-hope</code> 通过 <a href="https://vuepress-theme-hope.github.io/md-enhance" target="_blank" rel="noopener noreferrer">vuepress-plugin-md-enhance</a>，在 Markdown 中启用了更多的语法与新功能。</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>除了 VuePress 本身新增了一些 Markdown 语法外，<code>vuepress-theme-hope</code> 通过 <a href="https://vuepress-theme-hope.github.io/md-enhance" target="_blank" rel="noopener noreferrer">vuepress-plugin-md-enhance</a>，在 Markdown 中启用了更多的语法与新功能。</p>
+
+<h2 id="内置语法"> 内置语法</h2>
+<ul>
+<li><a href="./../../basic/vuepress/markdown.html">内置 Markdown 扩展</a>。</li>
+</ul>
+<h2 id="新组件"> 新组件</h2>
+<ul>
+<li><a href="./components.html#badge"><code>&lt;Badge /&gt;</code></a></li>
+<li><a href="./components.html#codegroup-codegroupitem"><code>&lt;CodeGroup /&gt;</code> 与 <code>&lt;CodeGroupItem /&gt;</code></a></li>
+</ul>
+<h2 id="新语法"> 新语法</h2>
+<ul>
+<li>
+<p><a href="./align.html">自定义对齐</a></p>
+</li>
+<li>
+<p><a href="./sup-sub.html">上下角标</a></p>
+</li>
+<li>
+<p><a href="./footnote.html">脚注</a></p>
+</li>
+<li>
+<p><a href="./mark.html">标记</a></p>
+</li>
+<li>
+<p><a href="./flowchart.html">流程图</a></p>
+</li>
+<li>
+<p><a href="./tex.html">Tex 语法</a></p>
+</li>
+<li>
+<p><a href="./demo.html">代码演示</a></p>
+</li>
+<li>
+<p><a href="./presentation.html">幻灯片</a></p>
+</li>
+</ul>
+<h2 id="其他"> 其他</h2>
+<ul>
+<li><a href="./external.html">外部引入</a></li>
+</ul>
 ]]></content>
     <author>
       <name>Mr.Hope</name>
@@ -17028,127 +17149,6 @@ module<span>.</span>exports <span>=</span> <span>config</span><span>(</span><spa
       <name>Mr.Hope</name>
     </contributor>
     <published>2020-10-13T05:36:44.000Z</published>
-    <rights>Copyright by Mr.Hope</rights>
-  </entry>
-  <entry>
-    <title type="html">项目案例</title>
-    <id>https://vuepress-theme-hope.github.io/zh/demo/</id>
-    <link href="https://vuepress-theme-hope.github.io/zh/demo/"/>
-    <updated>2021-02-27T06:18:09.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="mr-hope-的个人博客"> Mr.Hope 的个人博客</h2>
-<ul>
-<li><a href="https://mrhope.site" target="_blank" rel="noopener noreferrer">项目地址</a></li>
-<li><a href="https://github.com/Mister-Hope/Mister-Hope.github.io" target="_blank" rel="noopener noreferrer">项目文件</a></li>
-</ul>
-<h2 id="希望工作室官网"> 希望工作室官网</h2>
-<ul>
-<li><a href="https://hope-studio.innenu.com" target="_blank" rel="noopener noreferrer">项目地址</a></li>
-<li><a href="https://github.com/Hope-Studio/Hope-Studio.github.io" target="_blank" rel="noopener noreferrer">项目文件</a></li>
-</ul>
-<h2 id="vuepress-theme-hope-文档"> vuepress-theme-hope 文档</h2>
-<ul>
-<li><a href="https://vuepress-theme-hope.github.io" target="_blank" rel="noopener noreferrer">项目地址</a></li>
-<li><a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/tree/v1/docs/theme" target="_blank" rel="noopener noreferrer">项目文件</a></li>
-</ul>
-<h2 id="docker-从入门到实践"> Docker 从入门到实践</h2>
-<ul>
-<li><a href="https://vuepress.mirror.docker-practice.com/" target="_blank" rel="noopener noreferrer">项目地址</a></li>
-<li><a href="https://github.com/yeasy/docker_practice" target="_blank" rel="noopener noreferrer">项目文件</a></li>
-</ul>
-<h2 id="更多"> 更多</h2>
-<ul>
-<li>随时随地添加你的博客或文档到此</li>
-</ul>
-]]></content>
-    <author>
-      <name>Mr.Hope</name>
-    </author>
-    <category term="demo"/>
-    <contributor>
-      <name>Mr.Hope</name>
-    </contributor>
-    <published>2020-10-13T05:36:44.000Z</published>
-    <rights>Copyright by Mr.Hope</rights>
-  </entry>
-  <entry>
-    <title type="html">主题配置</title>
-    <id>https://vuepress-theme-hope.github.io/zh/config/theme/</id>
-    <link href="https://vuepress-theme-hope.github.io/zh/config/theme/"/>
-    <updated>2021-02-26T05:26:49.000Z</updated>
-    <content type="html"><![CDATA[<div><p>Tips</p>
-<p>你可以查看 <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/docs/theme/src/.vuepress/config.js" target="_blank" rel="noopener noreferrer">本文档的配置</a> 作为案例，你也可以直接查看源代码中的 <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/packages/theme/types/theme/" target="_blank" rel="noopener noreferrer">types 文件</a></p>
-</div>
-<p><code>.vuepress/config.js</code> 中的 themeConfig 字段(主题字段)新增以下配置:</p>
-<h2 id="基本选项"> 基本选项</h2>
-<div><p>Warning</p>
-<p>这些选项很重要，需要你正确配置。</p>
-</div>
-<h3 id="baselang"> baseLang</h3>
-<ul>
-<li>类型: <code>string</code></li>
-<li>默认值: <code>'en-US'</code></li>
-</ul>
-<p>主目录所对应的语言。</p>
-<p>这个选项会保证主目录页面中主题文字使用正确的语言显示。你可以根据自己的需要将其改为其他语言。</p>
-<div><p>Tips</p>
-<p>目前多语言仅适配了 <strong>简体中文</strong> (zh-CN)、<strong>英文(美国)</strong> (en-US) 与 越南语 (vi-VN)。</p>
-<p>如果你需要其它语言的多语言支持，你可以 <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/v1/packages/shared/src/i18n/config.ts" target="_blank" rel="noopener noreferrer">向此文件提交一个 PR</a></p>
-</div>
-<h3 id="author"> author</h3>
-<ul>
-<li>类型: <code>string</code></li>
-<li>必填: 否</li>
-</ul>
-<p>文章显示的默认作者</p>
-<h3 id="nav"> nav <i>Not supported content</i></h3>
-<p>NavBarItem 新增</p>
-<ul>
-<li><code>icon</code> 字段来支持图标显示。</li>
-<li><code>prefix</code> 字段来自动添加分组前缀</li>
-</ul>
-<p>具体配置，请见 <a href="./../../guide/layout/navbar.html">布局 → 导航栏</a></p>
-<h3 id="sidebar"> sidebar <i>Not supported content</i></h3>
-<p>SideBarItem 新增</p>
-<ul>
-<li><code>icon</code> 字段来支持图标显示。</li>
-<li><code>prefix</code> 字段来自动添加分组前缀</li>
-</ul>
-<p>具体配置，请见 <a href="./../../guide/layout/sidebar.html">布局 → 侧边栏</a></p>
-<h3 id="locales"> locales</h3>
-<ul>
-<li>类型: <code>Record&lt;string, HopeLangI18nConfigItem&gt;</code></li>
-</ul>
-<p>主题的多语言配置，主要需要配置各语言的 <code>nav</code> 与 <code>sidebar</code>。</p>
-<h3 id="hostname"> hostname</h3>
-<ul>
-<li>类型: <code>string</code></li>
-<li>必填: 是</li>
-</ul>
-<p>当前网站部署到的域名。</p>
-<h2 id="更多配置"> 更多配置</h2>
-<ul>
-<li>
-<p><a href="./default.html"><strong>默认主题配置</strong></a></p>
-</li>
-<li>
-<p><a href="./feature.html"><strong>主题功能配置</strong></a></p>
-</li>
-<li>
-<p><a href="./plugin.html"><strong>主题插件配置</strong></a></p>
-</li>
-<li>
-<p><a href="./apperance.html"><strong>主题外观配置</strong></a></p>
-</li>
-</ul>
-]]></content>
-    <author>
-      <name>Mr.Hope</name>
-    </author>
-    <category term="config"/>
-    <contributor>
-      <name>Mr.Hope</name>
-    </contributor>
-    <published>2020-10-17T08:18:13.000Z</published>
     <rights>Copyright by Mr.Hope</rights>
   </entry>
 </feed>
