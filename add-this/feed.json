@@ -51,20 +51,6 @@
       "tags": []
     },
     {
-      "title": "主页",
-      "url": "https://vuepress-theme-hope.github.io/add-this/zh/",
-      "id": "https://vuepress-theme-hope.github.io/add-this/zh/",
-      "content_html": "<h2 id=\"使用插件\"> 使用插件</h2>\n<h3 id=\"安装\"> 安装</h3>\n<CodeGroup>\n<CodeGroupItem title=\"yarn\">\n<div><pre><code><span>yarn</span> <span>add</span> -D vuepress-plugin-add-this\n</code></pre>\n<div><span>1</span><br></div></div></CodeGroupItem>\n<CodeGroupItem title=\"npm\">\n<div><pre><code><span>npm</span> i -D vuepress-plugin-add-this\n</code></pre>\n<div><span>1</span><br></div></div></CodeGroupItem>\n</CodeGroup>\n<h3 id=\"使用\"> 使用</h3>\n<div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>\n  plugins<span>:</span> <span>[</span><span>[</span><span>\"add-this\"</span><span>,</span> <span>{</span> pubid<span>:</span> <span>\"你的 pubid\"</span> <span>}</span><span>]</span><span>]</span><span>,</span>\n<span>}</span><span>;</span>\n</code></pre>\n<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div>",
-      "date_published": "2020-10-13T05:36:44.000Z",
-      "date_modified": "2021-02-24T15:41:50.000Z",
-      "authors": [
-        {
-          "name": "Mr.Hope"
-        }
-      ],
-      "tags": []
-    },
-    {
       "title": "配置",
       "url": "https://vuepress-theme-hope.github.io/add-this/zh/config/",
       "id": "https://vuepress-theme-hope.github.io/add-this/zh/config/",
@@ -85,6 +71,20 @@
       "content_html": "<h2 id=\"注册\"> 注册</h2>\n<p>请前往 <a href=\"https://www.addthis.com/register?next=/dashboard\" target=\"_blank\" rel=\"noopener noreferrer\">Add this 注册页面</a> 注册或 <a href=\"https://www.addthis.com/login?next=/dashboard\" target=\"_blank\" rel=\"noopener noreferrer\">Add this 登录页面</a> 登录账号。</p>\n<div><p>Tips</p>\n<p>该页面有 reCAPTCHA 认证，可能需要科学上网</p>\n</div>\n<h2 id=\"使用\"> 使用</h2>\n<p>进入 <a href=\"https://www.addthis.com/dashboard#gallery/\" target=\"_blank\" rel=\"noopener noreferrer\">工具页面</a> 添加你所需要的工具，并进行合理的配置。</p>\n<p>在配置完成后，请进入 <a href=\"https://www.addthis.com/dashboard#get-the-code/\" target=\"_blank\" rel=\"noopener noreferrer\">获取代码页面</a>，即可代码中获得你的 pubid。</p>\n",
       "date_published": "2020-10-13T05:36:44.000Z",
       "date_modified": "2021-01-19T14:31:34.000Z",
+      "authors": [
+        {
+          "name": "Mr.Hope"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "主页",
+      "url": "https://vuepress-theme-hope.github.io/add-this/zh/",
+      "id": "https://vuepress-theme-hope.github.io/add-this/zh/",
+      "content_html": "<h2 id=\"使用插件\"> 使用插件</h2>\n<h3 id=\"安装\"> 安装</h3>\n<CodeGroup>\n<CodeGroupItem title=\"yarn\">\n<div><pre><code><span>yarn</span> <span>add</span> -D vuepress-plugin-add-this\n</code></pre>\n<div><span>1</span><br></div></div></CodeGroupItem>\n<CodeGroupItem title=\"npm\">\n<div><pre><code><span>npm</span> i -D vuepress-plugin-add-this\n</code></pre>\n<div><span>1</span><br></div></div></CodeGroupItem>\n</CodeGroup>\n<h3 id=\"使用\"> 使用</h3>\n<div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>\n  plugins<span>:</span> <span>[</span><span>[</span><span>\"add-this\"</span><span>,</span> <span>{</span> pubid<span>:</span> <span>\"你的 pubid\"</span> <span>}</span><span>]</span><span>]</span><span>,</span>\n<span>}</span><span>;</span>\n</code></pre>\n<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div>",
+      "date_published": "2020-10-13T05:36:44.000Z",
+      "date_modified": "2021-02-24T15:41:50.000Z",
       "authors": [
         {
           "name": "Mr.Hope"
