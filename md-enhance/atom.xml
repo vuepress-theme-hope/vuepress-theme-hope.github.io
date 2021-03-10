@@ -6,7 +6,7 @@
   <author>
     <name>Mr.Hope</name>
   </author>
-  <updated>2021-03-10T04:17:55.809Z</updated>
+  <updated>2021-03-10T05:01:38.607Z</updated>
   <generator>@mr-hope/vuepress-plugin-feed</generator>
   <link rel="self" href="https://vuepress-theme-hope.github.io/md-enhance/atom.xml"/>
   <link rel="alternate" href="https://vuepress-theme-hope.github.io/md-enhance/"/>
@@ -762,7 +762,7 @@ document<span>.</span><span>querySelector</span><span>(</span><span>"h1"</span><
     <title type="html">Flowchart</title>
     <id>https://vuepress-theme-hope.github.io/md-enhance/guide/flowchart/</id>
     <link href="https://vuepress-theme-hope.github.io/md-enhance/guide/flowchart/"/>
-    <updated>2021-02-03T11:24:42.000Z</updated>
+    <updated>2021-03-10T04:43:39.000Z</updated>
     <summary type="html"><![CDATA[<p>Let the Markdown file support flow chart in your VuePress site</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>Let the Markdown file support flow chart in your VuePress site</p>
@@ -1113,7 +1113,7 @@ Duplicated footnote reference[^second].
     <title type="html">Presentation</title>
     <id>https://vuepress-theme-hope.github.io/md-enhance/guide/presentation/</id>
     <link href="https://vuepress-theme-hope.github.io/md-enhance/guide/presentation/"/>
-    <updated>2021-02-03T11:24:42.000Z</updated>
+    <updated>2021-03-10T04:43:39.000Z</updated>
     <content type="html"><![CDATA[<p>Let the Markdown file in your VuePress site support presentation.</p>
 <h2 id="configuration"> Configuration</h2>
 <div><div><br><br><br><br><br><br><div>&nbsp;</div><br><br><br><br><br></div><pre><code>module<span>.</span>exports <span>=</span> <span>{</span>
@@ -2489,7 +2489,7 @@ document<span>.</span><span>querySelector</span><span>(</span><span>"h1"</span><
     <title type="html">流程图</title>
     <id>https://vuepress-theme-hope.github.io/md-enhance/zh/guide/flowchart/</id>
     <link href="https://vuepress-theme-hope.github.io/md-enhance/zh/guide/flowchart/"/>
-    <updated>2021-02-03T11:24:42.000Z</updated>
+    <updated>2021-03-10T04:43:39.000Z</updated>
     <summary type="html"><![CDATA[<p>让你的 VuePress 站点中的 Markdown 文件支持流程图。</p>
 <p>本插件利用了 <a href="https://github.com/adrai/flowchart.js" target="_blank" rel="noopener noreferrer">flowchart.js</a> 来支持这一功能。</p>
 ]]></summary>
@@ -2833,7 +2833,7 @@ e=>end: End:>http://www.yahoo.com
     <title type="html">幻灯片支持</title>
     <id>https://vuepress-theme-hope.github.io/md-enhance/zh/guide/presentation/</id>
     <link href="https://vuepress-theme-hope.github.io/md-enhance/zh/guide/presentation/"/>
-    <updated>2021-02-28T09:14:42.000Z</updated>
+    <updated>2021-03-10T04:43:39.000Z</updated>
     <summary type="html"><![CDATA[<p>让你的 VuePress 站点中的 Markdown 文件支持幻灯片。</p>
 <p>本插件利用了 <a href="https://revealjs.com/" target="_blank" rel="noopener noreferrer">reveal.js</a> 来支持这一功能。</p>
 ]]></summary>
