@@ -70,5 +70,20 @@
         box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
       }
     </style>
+    <script>
+      // remove invalid service worker
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.getRegistrations().then((registrations) => {
+          registrations.forEach((registration) => {
+            // this is a invalid service worker
+            if (
+              !registration.scope.includes("/v1/") &&
+              !registration.scope.includes("/v2/")
+            )
+              registration.unregister();
+          });
+        });
+      }
+    </script>
   </body>
 </html>
