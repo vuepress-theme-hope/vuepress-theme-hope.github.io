@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html lang="zh_cn">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="google-site-verification" content="qG3soux9jAKB4Q_DYf7yj1p5cEIuib6yG4zDhpmv2_E" />
+    <meta
+      name="google-site-verification"
+      content="qG3soux9jAKB4Q_DYf7yj1p5cEIuib6yG4zDhpmv2_E"
+    />
     <meta name="baidu-site-verification" content="code-nF1gbByYWU" />
     <title>vuepress-theme-hope</title>
   </head>
@@ -17,9 +20,68 @@
         A powerful vuepress theme with tons of features✨
       </p>
       <p class="text">V2 is currently in beta, based on VuePress2.</p>
-      <a class="btn" href="/v2/">V2 (Beta) (Recommanded)</a>
-      <p class="text">V1 is currently in stable, based on VuePress1.</p>
-      <a class="btn" href="/v1/">V1 (Stable)</a>
+      <a class="button primary" href="/v2/">V2 (Beta) (Recommanded)</a>
+      <p class="text">V1 has been deprecated, based on VuePress1.</p>
+      <a class="button" href="/v1/">V1 (deprecated)</a>
+      <h1>VuePress 2 Plugins</h1>
+      <p class="text">VuePress2 Blog plugin📝</p>
+      <a class="button primary" href="/v2/blog/">vuepress-plugin-blog2</a>
+      <p class="text">
+        VuePress2 comment plugin💬, supports Giscus, Twikoo and Waline.
+      </p>
+      <a class="button primary" href="/v2/comment/">vuepress-plugin-comment2</a>
+      <p class="text">Markdown components out of box🧩</p>
+      <a class="button primary" href="/v2/components/"
+        >vuepress-plugin-components</a
+      >
+      <p class="text">
+        VuePress2 copy code plugin📋, provide copy button for code blocks.
+      </p>
+      <a class="button primary" href="/v2/copy-code/"
+        >vuepress-plugin-copy-code2</a
+      >
+      <p class="text">
+        VuePress2 copyright plugin📋, append copyright infomation when copying
+        content from site, also suppports disabling copying and selection.
+      </p>
+      <a class="button primary" href="/v2/copyright/"
+        >vuepress-plugin-copyright2</a
+      >
+      <p class="text">VuePress2 feed plugin 📡</p>
+      <a class="button primary" href="/v2/feed/">vuepress-plugin-feed2</a>
+      <p class="text">Light Gallery plugin for VuePress2</p>
+      <a class="button primary" href="/v2/lightgallery/"
+        >vuepress-plugin-lightgallery</a
+      >
+      <p class="text">VuePress2 Markdown enhancement plugin📄</p>
+      <a class="button primary" href="/v2/md-enhance/"
+        >vuepress-plugin-md-enhance</a
+      >
+      <p class="text">VuePress2 photo preview plugin🔍</p>
+      <a class="button primary" href="/v2/photo-swipe/"
+        >vuepress-plugin-photo-swipe</a
+      >
+      <p class="text">VuePress2 PWA plugin📦</p>
+      <a class="button primary" href="/v2/pwa/">vuepress-plugin-pwa2</a>
+      <p class="text">VuePress2 reading time plugin⏳</p>
+      <a class="button primary" href="/v2/reading-time/"
+        >vuepress-plugin-reading-time2</a
+      >
+      <p class="text">VuePress2 redirect plugin↩️</p>
+      <a class="button primary" href="/v2/redirect/"
+        >vuepress-plugin-redirect</a
+      >
+      <p class="text">
+        VuePress2 palette plugin for sass🎨, an improved edition over the
+        official one.
+      </p>
+      <a class="button primary" href="/v2/sass-palette/"
+        >vuepress-plugin-sass-palette</a
+      >
+      <p class="text">VuePress SEO plugin🛠</p>
+      <a class="button primary" href="/v2/seo/">vuepress-plugin-seo2</a>
+      <p class="text">VuePress2 Sitemap plugin🗺️</p>
+      <a class="button primary" href="/v2/sitemap/">vuepress-plugin-sitemap2</a>
     </div>
     <style>
       .container {
@@ -29,7 +91,7 @@
         justify-content: center;
 
         width: 100%;
-        height: 100%;
+        min-height: 100%;
       }
 
       .logo {
@@ -38,54 +100,46 @@
         height: 50vw;
         max-height: 350px;
       }
+
       .description {
         font-size: 20px;
         font-weight: bold;
       }
 
       .text {
-        margin: 20px 0;
+        color: #333;
+        margin: 12px 0;
         font-size: 18px;
         font-weight: bold;
       }
 
-      .btn {
+      .button {
         display: block;
 
         width: 80%;
         max-width: 300px;
         padding: 0.5rem 2rem;
-        margin-bottom: 2rem;
+        margin: 0.5rem auto;
         border-radius: 1rem;
+        background-color: #ddd;
 
-        background-color: #41b883;
-        color: #fff;
+        color: #333;
 
-        font-size: 22px;
+        font-size: 20px;
         font-weight: bold;
         line-height: 1.5;
         text-align: center;
         text-decoration: none;
       }
 
-      .btn:hover {
+      .button.primary {
+        background-color: #41b883;
+        color: #fff;
+      }
+
+      .button:hover {
         box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
       }
     </style>
-    <script>
-      // remove invalid service worker
-      if ("serviceWorker" in navigator) {
-        navigator.serviceWorker.getRegistrations().then((registrations) => {
-          registrations.forEach((registration) => {
-            // this is a invalid service worker
-            if (
-              !registration.scope.includes("/v1/") &&
-              !registration.scope.includes("/v2/")
-            )
-              registration.unregister();
-          });
-        });
-      }
-    </script>
   </body>
 </html>
